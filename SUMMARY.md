@@ -5,5 +5,6 @@
 
 ## API
 
-* [Untitled](api/untitled.md)
+* [HTTP Request](api/untitled.md)
+* [API Requests](api/api-requests.md)
 
