@@ -1,7 +1,5 @@
 # HTTP Request
 
-
-
 ## HTTP Requests
 
 ### Usage
