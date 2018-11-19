@@ -13,7 +13,7 @@ Handles User log-in and provides Authentication Tokens.
 Example authentication using grant type `password`
 
 ```text
-POST http://<host>/api/authenticate?context={{context}}
+POST https://api.adnuntius.com/api/authenticate?context={{context}}
 {
     "grant_type": "password",
     "scope": "ng_api",
@@ -25,7 +25,7 @@ POST http://<host>/api/authenticate?context={{context}}
 Example authentication using grant type `refresh_token`
 
 ```text
-POST http://<host>/api/authenticate?context={{context}}
+POST https://api.adnuntius.com/api/authenticate?context={{context}}
 {
     "grant_type": "refresh_token",
     "scope": "ng_api",

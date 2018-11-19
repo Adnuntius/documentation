@@ -7,7 +7,7 @@ A `GET` request can allways be filtered by the get [parameters](http://docs.adnu
 **Example GET request:**
 
 ```text
-GET http://<host>/api/v1/devices?context=<context>
+GET https://api.adnuntius.com/api/v1/devices?context=<context>
 ```
 
 ```text

@@ -18,7 +18,6 @@
 * [/creatives](api/creatives.md)
 * [/assets](api/assets.md)
 * [/segments](api/segments.md)
-* [Untitled](api/untitled-1.md)
 * [/teams](api/teams.md)
 * [/roles](api/roles.md)
 * [/tiers](api/tiers.md)

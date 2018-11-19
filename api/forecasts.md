@@ -5,8 +5,10 @@ A forecast uses historical data about the traffic and line items on a network to
 **Basic GET example**
 
 ```text
-GET http://<host>/api/v1/forecasts?context=<context>
+GET https://api.adnuntius.com/api/v1/forecasts?context=<context>
+```
 
+```text
 {
     "id": "forecast1",
     "createUser": {

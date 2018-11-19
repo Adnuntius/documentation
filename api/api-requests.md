@@ -25,13 +25,13 @@ The Adnuntius API is based on \[REST\]\(\) principle
 When the `id` is included then only that object will be returned.
 
 ```text
-GET http://<host>/api/v1/<resource type>/<id>
+GET https://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 When no `id` is included then a list of all objects of that type visible to the user are returned.
 
 ```text
-GET http://<host>/api/v1/<resource type>
+GET https://api.adnuntius.com/api/v1/<resource type>
 ```
 
 ### PUT and POST
@@ -39,13 +39,13 @@ GET http://<host>/api/v1/<resource type>
 `PUT` and `POST` are both treated the same, they will both create an object if it does not exist, or update an object if it does. When the `id` is included then only that object will be created/updated.
 
 ```text
-POST http://<host>/api/v1/<resource type>/<id>
+POST https://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 When no `id` is included then a list of objects to be created/updated is expected as the request’s POST data.
 
 ```text
-POST http://<host>/api/v1/<resource type>
+POST https://api.adnuntius.com/api/v1/<resource type>
 ```
 
 ### DELETE
@@ -57,7 +57,7 @@ DELETE is not supported on resources as domain objects cannot be deleted. See Ob
 HEAD is used to confirm the existence of an object.
 
 ```text
-HEAD http://<host>/api/v1/<resource type>/<id>
+HEAD https://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 The response code will be `200 OK` if it exists or `404 NOT FOUND` if it doesn’t.

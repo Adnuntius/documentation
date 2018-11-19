@@ -7,7 +7,7 @@ A `GET` request can allways be filtered by the get [parameters](http://docs.adnu
 **Example GET request:**
 
 ```text
-GET http://<host>/api/v1/sitegroups?context=<context>
+GET https://api.adnuntius.com/api/v1/sitegroups?context=<context>
 ```
 
 in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a parameter to the `GET` query
@@ -16,7 +16,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 
 **Example POST object:**
 
-```text
+```javascript
 {
     "objectState": "ACTIVE",
     "name": "General Site Group",
@@ -27,6 +27,8 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
     ]
 }
 ```
+
+
 
 | Name | Required | type | Description |
 | :--- | :--- | :--- | :--- |
