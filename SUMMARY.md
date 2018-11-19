@@ -1,9 +1,8 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [Untitled](untitled.md)
 
-## API
+## API Guide
 
 * [HTTP Request](api/untitled.md)
 * [API Requests](api/api-requests.md)
@@ -30,4 +29,13 @@
 * [/forecasts](api/forecasts.md)
 * [/devices](api/devices.md)
 * [/location](api/location.md)
+
+## User Interface Guides
+
+* [Get Started - With Videos](user-interface-guide/adnuntius-activation-start.md)
+* [Dashboards](user-interface-guide/dashboards.md)
+* [Advertising](user-interface-guide/advertising.md)
+* [Inventory](user-interface-guide/inventory.md)
+* [Reports](user-interface-guide/reports.md)
+* [Admin](user-interface-guide/admin.md)
 
