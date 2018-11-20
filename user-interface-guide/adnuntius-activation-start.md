@@ -28,5 +28,5 @@ This user guide is structured in the same way as what you see in the user interf
 
 
 
-@\([https://www.youtube.com/embed/2Wk2INyWRa4](https://www.youtube.com/embed/2Wk2INyWRa4)\)
+@\([https://www.youtube.com/watch/2Wk2INyWRa4](https://www.youtube.com/embed/2Wk2INyWRa4)\)
 
