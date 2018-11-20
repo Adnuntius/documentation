@@ -38,3 +38,7 @@
 * [Reports](user-interface-guide/reports.md)
 * [Admin](user-interface-guide/admin.md)
 
+## Implementation Guides
+
+* [Send segments Cxense](implementation-guides/send-segments-cxense.md)
+
