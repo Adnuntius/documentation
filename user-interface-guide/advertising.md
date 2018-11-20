@@ -119,73 +119,253 @@ When specifying a share of voice, take into consideration the [tier ](admin.md#t
 * _Type_ lets you choose if that number should be impressions, visible impressions, viewable impressions, rendered impressions, or clicks. 
 * _Period_ lets you choose whether the X number of impressions or clicks should be per hour, day, week, month or for the line item's lifetime. 
 
-**Targeting** lets you target the line item's impressions to specific users or content. 
+**Targeting** lets you target the line item's impressions to specific users or content. There are many targeting criteria you can choose between, but we have tried to gather them for you here.
+
+{% hint style="info" %}
+Any of the targeting criteria below can be added to both line items and [creatives](advertising.md#creatives). Just make sure that when you use targeting on both these levels, that they are not mutually exclusive. For instance, if I target a line item to people sitting in New York, and one of its creatives to people sitting in Miami, then I reach no people with that creative \(because no one can be in two places at the same time\). 
+{% endhint %}
 
 {% tabs %}
-{% tab title="Ad units" %}
-sdf
+{% tab title="Ad Units" %}
+Target select ad units, or exclude select ad units. When you target one ad unit, you make sure that your line item is shown only in this ad unit. [Learn more about ad units](inventory.md#ad-units). 
+
+![Ad unit targeting can be added to line items and to creatives](../.gitbook/assets/201811-advertising-line-item-ad-unit-targeting.png)
 {% endtab %}
 
 {% tab title="Sites" %}
+Target select sites. When choosing one site, you make sure that your line item is shown only in ad units belonging to this site. [Learn more about sites](inventory.md#site).
 
+![Site targeting can be added to line items and creatives](../.gitbook/assets/201811-advertising-line-item-site-targeting.png)
 {% endtab %}
 
 {% tab title="Site groups" %}
+If you have many sites, and want to save time when booking your campaigns, you can gather sites into site groups. Once you have done this you can easily target your groups of sites. [Learn more about site groups](inventory.md#site-group). 
 
+![Site group targeting can be added to line items and to creatives](../.gitbook/assets/201811-advertising-line-item-site-group-targeting.png)
 {% endtab %}
 
 {% tab title="Matching labels" %}
+Matching labels are labels added to ad units that you can later use for targeting groups of ad units. Let's say that you add the label "sports" to three different ad units, and then target a line item to the matching label "sports". You will then target your ads to be shown in these three ad units. 
 
+![Right: you can add a matching label to an ad unit. Left: after that you can target on those matching labels](../.gitbook/assets/201811-advertising-line-item-matching-label-targeting.png)
 {% endtab %}
 
 {% tab title="Segments" %}
+Segments are groups of users that match whatever criteria you would like to set for that audience. Adnuntius has a server-side "out-of-the-box" integration to data management platform \(DMP\) partner Cxense, which means that you can easily [connect to Cxense ](admin.md#context-service-connections)to get your segments into Adnuntius for targeting.
 
+![Segment targeting can be added to line items and to creatives](../.gitbook/assets/201811-advertising-line-item-segment-targeting.png)
+
+{% hint style="info" %}
+Would you like to consider Cxense as your DMP? Contact us at support@adnuntius.com, and we will introduce you to the DMP and get you started. 
+{% endhint %}
+
+{% hint style="info" %}
+Would you like your DMP to get integrated with Adnuntius? Contact us at support@adnuntius.com, and we can discuss! 
+{% endhint %}
 {% endtab %}
 
 {% tab title="Categories" %}
+Adnuntius can read the URLs from whatever pages that ad units are deployed to. [Read more about how derive categories for category targeting from page URLs](inventory.md#ad-units). Once you've set up your ad units, you can add multiple categories by separating each individual one by a comma. For instance, inputting sport, color/blue, color/red/crimson will match any of sport, sport/ANY-VALUE-HERE, color/blue, color/blue/ANY-VALUE-HERE, color/red/crimson or color/red/crimson/ANY-VALUE-HERE. In addition, a category of golf will match any of domain.com/golf/news, domain.com/news/sport-golf-good and domain.com/news/sport\_golf\_good.
 
+![Category targeting can be added to line items and creatives](../.gitbook/assets/201811-advertising-line-item-category-targeting.png)
+
+{% hint style="info" %}
+You can create a library of pre-defined categories to simplify targeting \(this way you don't have to remember or look up your site's category structure every time you want to use category targeting. [Read more about how to create a library](admin.md#reference-data). 
+{% endhint %}
 {% endtab %}
 
 {% tab title="Geospatial areas" %}
+Geospatial targeting can be used when you want to closely manage which geographical locations are to be targeted. Simply click the polygon or rectangle icon on the right hand side of the map and start drawing. 
 
+![Geospatial targeting can be used for line items and creatives](../.gitbook/assets/201811-advertising-line-item-geospatial-targeting.png)
+
+{% hint style="info" %}
+If you want to define a default position from which you can start drawing \(for instance the area that you use the most\), you can define this in the [Admin &gt; Network section](admin.md#network). 
+{% endhint %}
+
+{% hint style="info" %}
+If you ask your users or customers for permission to track their locations, you can send this to Adnuntius for improved targeting. Out of the box, Adnuntius uses [Netacuity Pulse](https://www.digitalelement.com/solutions/netacuity-pulse/) to provide you with excellent location targeting. 
+{% endhint %}
 {% endtab %}
 
 {% tab title="Locations" %}
+Named locations lets you search for specific locations and to add them to a list locations that you want to target with your ad. 
 
+![Location targeting can be used for line items and creatives](../.gitbook/assets/201811-advertising-line-item-location-targeting.png)
+
+{% hint style="info" %}
+Adnuntius uses [Netacuity Pulse](https://www.digitalelement.com/solutions/netacuity-pulse/) to provide you with excellent location targeting. 
+{% endhint %}
 {% endtab %}
 
 {% tab title="Devices" %}
+Device targeting lets you target ads to specific devices. Simply choose the device types, operating systems or brands, hit "save" and your ad is targeted. 
 
-{% endtab %}
+Adnuntius has access to a range of browser, hardware and platform information. If there is any data you would like us to add to the device targeting list, then feel free to send us a request on support@adnuntius.com. You can also use key value targeting \(see next tab\) to target specific devices using any of these keys: 
 
-{% tab title="Keywords" %}
+* browserName 
+* browserVendor 
+* browserVersion 
+* hardwareFamily 
+* hardwareModel 
+* hardwareName 
+* hardwareVendor 
+* platformName 
+* platformVendor 
+* platformVersion
 
+![Device targeting can be added to line items and creatives](../.gitbook/assets/201811-advertising-line-item-device-targeting.png)
+
+{% hint style="info" %}
+Adnuntius uses [51Degrees Device Detection](https://51degrees.com/device-detection) to provide you with excellent device targeting.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Key values" %}
+Key values is your regular swiss army knife of targeting, as you can send any key and value to Adnuntius with any ad request. You can add multiple values for every key by separating individual values by a comma. For instance, inputting red, blue, green as values means that the key will match any of red, blue or green. [Read more about adn.js and key value targeting](http://admin.adnuntius.com/adn). 
 
+You can add key values with the boolean operators AND, OR and NOT. 
+
+![Key value targeting can be added to line items and creatives](../.gitbook/assets/201811-advertising-line-item-keyvalue-targeting.png)
+{% endtab %}
+
+{% tab title="Keywords" %}
+Keywords are words in written text on any page where the ad is shown. Targeting a keyword therefore means that you will target an ad to any page where the keyword is part of the text. Please note that Adnuntius uses data management platform partner Cxense to power this feature, and keyword targeting will not work without a Cxense account. 
+
+You can add key values with the boolean operators AND, OR and NOT. 
+
+![](../.gitbook/assets/201811-advertising-line-item-keyword-targeting.png)
+
+{% hint style="info" %}
+Are you interested in testing Cxense as a data management platform? Contact us at support@adnuntius.com and we will help you out. 
+{% endhint %}
 {% endtab %}
 
 {% tab title="Retargeting" %}
+Retargeting can be used to target an ad to users who have performed specific actions. For instance, you can retarget a user that have put a product in your shopping cart, but didn't actually purchase it. Or you can retarget a user who has read about sports the last 30 days. 
 
+You can add multiple values for every retargeting key by separating individual values by a comma. For instance, inputting red, blue, green as values means that the retargeting key will match any of red, blue or green.
+
+To register targets, include the image tags in the example onto your web page. The example below registers the following three targets:
+
+* shop with value petshop.com.au will last as a target for 2 592 000 seconds \(30 days\) 
+* age with value 39 will last as a target for 5 184 000 seconds \(60 days\) 
+* sport with value handball will last as a target for the default length of time \(usually 30 days\)
+
+```text
+<img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&shop=petshop.com.au&expiry=2592000">
+<img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&age=39&expiry=5184000">
+<img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&sport=handball">
+```
+
+![](../.gitbook/assets/201811-advertising-line-item-retargeting-targeting.png)
 {% endtab %}
 
-{% tab title="Day parts and Dates" %}
+{% tab title="DayParts" %}
+Day Parting lets you choose the days and times of day that your ad should be shown. You can add multiple day parts. 
 
+![Day parting can be added to line items and creatives](../.gitbook/assets/201811-advertising-line-item-daypart-targeting.png)
 {% endtab %}
 
-{% tab title="Domains" %}
+{% tab title="Dates" %}
+You can add specific dates or ranges of dates to make sure that your line item delivers on the date that it should. 
 
+![Dates can be added to line items and creatives](../.gitbook/assets/201811-advertising-line-item-date-targeting.png)
 {% endtab %}
 
-{% tab title="IP addresses" %}
+{% tab title="IP Addresses" %}
+Targeting specific IP addresses can be useful, for instance when testing in a limited environment that ads look good before they are released to the whole world. You can add multiple IP addresses by separating each individual IP address by a comma. For instance, inputting 118.16.78.34, 205.112.45.0/24 will match any of 118.16.78.34 and 205.112.45.0 through to 205.112.45.255.
 
+![IP addresses can be assigned to line items and creatives](../.gitbook/assets/201811-advertising-line-item-ip-targeting.png)
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+When you target multiple items in the same group \(for instance, multiple ad units\) your ads will be eligible to be shown in item 1, item 2, OR item N. When you target multiple groups \(for instance, one ad unit and one segment\) then your ads will only be shown when group 1 AND group 2 matches.
+{% endhint %}
+
 ## Creatives
+
+Creatives is the material shown to the end user, and can consist of various assets such as images, text and videos. Here is how to work with creatives. 
+
+![An example creative](../.gitbook/assets/201811-advertising-creative.png)
+
+**Name and state**: Give the creative a name of your choice. Adnuntius will always generate a default name, but you can [change how this default naming is set in the Admin &gt; Network section](admin.md#network). State can be set to _Approved_ \(meaning that the creative is ready to run\) or _Incomplete_ \(meaning that something needs to be changed or added before the creative can run\).
+
+**Creative type** can be set to _Internal_ or _External._ Internal is what is mostly used, and means any creative you are designing or uploading yourselv. External creatives are relevant to publishers who want programmatic ads on their sites, and means creatives that are fetched from SSPs that Adnuntius is integrated to, such as Pubmatic. The tabs below shows how to set up an external creative, while the rest of this section is about creating internal creatives. 
+
+{% tabs %}
+{% tab title="External Demand Source" %}
+After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](admin.md#external-demand-sources), and then [creating external ad units](inventory.md#external-ad-unit). 
+
+![First step: add an external demand source](../.gitbook/assets/201811-advertising-creative-external-1.png)
+{% endtab %}
+
+{% tab title="External Ad Unit Targeting \(Optional\)" %}
+If you want to target your programmatic creative to specific ad units, you can use external ad unit targeting. Please note that if you haven't created external ad units yet, [you can learn how to do so here](inventory.md#external-ad-unit). 
+
+![Example where the creative is targeted to one external ad unit](../.gitbook/assets/201811-advertising-creative-external-2.png)
+{% endtab %}
+{% endtabs %}
+
+**Layout** is where you add the look, feel and behavior of your creative. Adnuntius comes with an out-of-the-box library of layouts like responsive images, interstitials, Flash, HTML and more, but you can create any layout to create the perfect match with your website, using elements like media files, text and click URLs. [Learn how to manage layouts](admin.md#layouts). 
+
+{% hint style="info" %}
+When you choose a layout you will see that the "Layout's components" box changes. This is because different layouts may need different information \(multiple images, text input, or anything else your heart desires\). The system will ask you what it needs to assemble the creative.
+{% endhint %}
+
+**Uploaded assets** is where you upload the files needed to assemble the creative. You can click to upload, or drag and drop. You can also drag and drop multiple files into the file drop field, and get all files into the creative with one move. 
+
+**Share of voice:** if you have more than one creative on your line item, you can control delivery of this creative compared to others in the line item by giving it a percentage. If you give two creatives 50% each, then the line item will ensure that each creative delivers the same number of impressions. If you give three creatives 50% each, then each creative will get 33% of the impressions. 
+
+**Targeting:** You can add targeting to both the line item and your creative. As the targeting criteria are identical for both, please have a look at the [line item documentation](advertising.md#line-item) to see how you can target creatives.
+
+**Width x Height** means the dimensions of your creative. These dimensions are only used to find out which ad units are eligible to show this creative. An ad unit will always be set up with minimum and maximum width and height, and if an ad unit can only show 980x300 pixels, then a creative with added dimensions 980x150 will not show in this ad unit. 
+
+**Creative preview** gives you a preview of the creative. Please note that not all layouts will give you a preview \(in which case the system will tell you\). But if Adnuntius cannot give you a preview, you can click to "preview on a black page" and the creative will render as it will be shown on a page. 
+
+{% hint style="info" %}
+You can also generate previews from the line item page by clicking the small eye next to the creative name. From there you can choose to preview the creative on a blank page, or if you want to generate a URL. When you generate a URL, Adnuntius will attempt to serve the creative into all eligible ad units on whatever URL you added. 
+{% endhint %}
+
+**Creative tag**: As a marketer, or a publisher that for any reason wants to market an Adnuntius creative through a third party adserver, this is the place to generate a code that can be sent off to the publisher that owns that adserver. 
 
 ## Reach analysis
 
+Reach is an analysis you can run to quickly estimate the volume of matching traffic for a line item. Here is how to manage reach analyses.
+
+![Reach analysis example](../.gitbook/assets/201811-advertising-reach.png)
+
+**Line item** allows you to choose a line item from which you want to copy the details \(targeting criteria and creative sizes\). This means that you can quickly fill in the details of the reach analysis by choosing a representative line item first. 
+
+{% hint style="info" %}
+If you have packages you often sell \(for instance ad products consisting of set sizes or targeting criteria, then you should consider creating a template line item for each of these packages. Once you have done that, then simply copy the details from the template line item into the form each time you want to quickly run an analysis.
+{% endhint %}
+
+**Details to fill in:** If you choose not to use another line item as a template, then you can fill in the intended start date, end date, team, creative sizes and targeting criteria. 
+
+**Interpreting the results:** Let's say that you run a reach analysis, and then get a response like this: 
+
+> Audience estimated to match **88.46%** of all traffic across your network. A line item could deliver between:
+>
+> * **17 342 539** and **17 564 062** impressions
+> * **16 047 479** and **16 260 853** rendered impressions
+>
+> Of those impressions above, between **443 047** and **517 135** impressions would face no competition from other line items.
+
+88.46% means that, with the ad units and targeting you provided, you will reach 88.46% of all the ad  impressions you can serve with Adnuntius. Furthermore, you will see the range of impressions and rendered impressions you will be able to serve. Lastly, you will see that with only 443 047 to 517 135 impression being without competition from other line items, there are certainly competitors for the impressions you are trying to book for the line item. These competitors are listed in the reach analysis result too. In the list you will find the overlap, so that you can see which campaigns you can make changes to in order to free up more space. 
+
 ## Forecasts
+
+If you need better details and more accuracy in your forecasting compared to reach analyses, you can run a forecast.A forecast is an analysis that takes a bit more time, but that you can run to obtain a detailed estimate of available impressions, taking competing line items, targeting, tiers and bids into account.
+
+The information you fill in to create a forecast are explained in the line item section, so feel free to [visit the line item section](advertising.md#line-item) if you are not sure what each field means. The following explains how to interpret the results.
+
+![Example forecast](../.gitbook/assets/201811-advertising-forecast.png)
+
+**Forecast delivery:** In the result you will see _Available impressions_ and _Forecast delivery_. Available impressions means the number of impressions that are available for the upcoming period given your targeting and creative sizes, but not taking into account the competing line items for the same ad units. Forecast delivery however, is the number of impressions you can expect to deliver unless you change other line items that compete for the same traffic. 
+
+**Allocation analysis** shows you what share of the available impressions will be delivered per day, per targeting criteria. In the example above we just used site targeting, but the more you add, the more detail you get. 
+
+**Impact analysis** shows the line items competing for the same impressions, what share of traffic is overlapping between your forecast and each of the competitors, and how each competitor will be impacted in the period if you choose to create a line item from the forecast.
 
