@@ -26,7 +26,7 @@ A site can only have one earnings account, as registering the same earnings mult
 
 ![Example earnings account](../.gitbook/assets/201811-advertising-ea.png)
 
-**Name, description and address**: Give the earnings account a name and description \(optional\) of your choice. You can also add an address to the account \(optional\).
+**Name, description and address**: Give the earnings account a name and description \(optional\) of your choice. It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find. You can also add an address to the account \(optional\).
 
 **External reference:**  Add an external reference \(optional\) if you want to match the earnings account with the same account in another system. For instance, if you are an ad network working with publishing partners, and a publisher is registered in your invoicing system with customer ID 123456, then you may want to add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same account across two different systems, which may in turn speed up processes like invoicing.
 
@@ -40,7 +40,7 @@ Sites are objects that represent the site to which an ad unit belongs. It is thu
 
 ![Example site](../.gitbook/assets/201811-advertising-site.png)
 
-**Name, description and site URL**: Give your site a name and description \(optional\) of your choice. The site URL \(optional\) helps you quickly visit the site in question, but does not impact any form of targeting. 
+**Name, description and site URL**: Give your site a name and description \(optional\) of your choice. It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find. The site URL \(optional\) helps you quickly visit the site in question, but does not impact any form of targeting. 
 
 **Site group \(optional\)**: connect the site to a group of sites to make targeting of multiple sites easier. [Read more about site groups](inventory.md#site-group). 
 
@@ -92,7 +92,7 @@ Allows you to create a report based on a [report template](reports.md#reports-re
 
 Site groups make it easier to target a group of sites when targeting a line item or creative. The process is as follows: 
 
-1. Create a site group with a name, description \(optional\) and labels \(optional\) of your choice. For instance - "Adnuntius".
+1. Create a site group with a name, description \(optional\) and labels \(optional\) of your choice. For instance - "Adnuntius". It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 2. Next, go to the sites you want to group, and choose a site group.
 3. After this, when you create a line item or creative and want to target it, you will find "Adnuntius" as a criteria under "Site Groups". Once you've chosen this, then all sites under "Adnuntius" are targeted.
 
@@ -100,7 +100,19 @@ Site groups make it easier to target a group of sites when targeting a line item
 
 ## Ad Units 
 
-Some text.
+An Ad unit is a placement that serves the content onto a page. It is a snippet of code placed on a website or within another adserver to request content from Adnuntius. If you're a developer and want to know the properties of the ad tag - or adn.js as we call it - see this page: [https://admin.adnuntius.com/adn](https://admin.adnuntius.com/adn)
+
+![Ad unit example](../.gitbook/assets/201811-inventory-ad-unit.png)
+
+**Name and description**: Give the ad unit a name and description \(optional\) of your choice. It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
+
+**Minimum and maximum width and height**: You can add a range of dimensions to ensure that an ad unit can serve any size between your min and max constraints. For example, if your ad unit has minimum 728x90 and maximum 1000x400 pixels, then any creative with width between 728 and 1000, and between 90 and 400 pixels can be served. If you would serve a 1000x300 creative inside this ad unit, the ad unit shrinks by default to 1000x300. 
+
+**Page size and columns**: Page size determines the number of creatives that can be shown inside your ad unit. For instance, if you have a 1000x300 ad unit and page size of 3, then the ad unit may \(depending on what provides the highest value\) serve for instance three 300x100 creatives inside this ad unit. Columns lets you determine the number of columns you allow ads to be served in. 
+
+{% hint style="info" %}
+If you leave the page size and columns fields blank, then Adnuntius will serve any number of ads and columns inside the ad unit \(of course without exceeding the size constraints\).
+{% endhint %}
 
 ## External Ad Unit
 

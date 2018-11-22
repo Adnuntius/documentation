@@ -23,7 +23,7 @@ Creating an advertiser is easy. Here are the steps you should take, and some tip
 
 ![An example advertiser](../.gitbook/assets/201811-advertising-advertiser.png)
 
-**Name, description and contact information:** Add a name, an optional description of your choice and the contact information to the advertiser \(optional\). Please note that it is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find. 
+**Name, description and contact information:** Add a name, an optional description of your choice and the contact information to the advertiser \(optional\). It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find. 
 
 **External reference:** Add an external reference \(optional\) if you want to match the advertiser with the same client in another system. For instance, if Coca Cola is registered in your invoicing system with customer ID 123456, then you may want to add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same advertiser across two different systems, which may in turn speed up processes like invoicing.
 
@@ -344,7 +344,7 @@ Creatives is the material shown to the end user, and can consist of various asse
 
 ![An example creative](../.gitbook/assets/201811-advertising-creative.png)
 
-**Name and state**: Give the creative a name of your choice. Adnuntius will always generate a default name, but you can [change how this default naming is set in the Admin &gt; Network section](admin.md#network). State can be set to _Approved_ \(meaning that the creative is ready to run\) or _Incomplete_ \(meaning that something needs to be changed or added before the creative can run\).
+**Name and state**: Give the creative a name of your choice \(It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find\). Adnuntius will always generate a default name, but you can [change how this default naming is set in the Admin &gt; Network section](admin.md#network). State can be set to _Approved_ \(meaning that the creative is ready to run\) or _Incomplete_ \(meaning that something needs to be changed or added before the creative can run\). 
 
 **Creative type** can be set to _Internal_ or _External._ Internal is what is mostly used, and means any creative you are designing or uploading yourselv. External creatives are relevant to publishers who want programmatic ads on their sites, and means creatives that are fetched from SSPs that Adnuntius is integrated to, such as Pubmatic. The tabs below shows how to set up an external creative, while the rest of this section is about creating internal creatives. 
 
