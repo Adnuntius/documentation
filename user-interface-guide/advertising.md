@@ -284,6 +284,60 @@ Targeting specific IP addresses can be useful, for instance when testing in a li
 When you target multiple items in the same group \(for instance, multiple ad units\) your ads will be eligible to be shown in item 1, item 2, OR item N. When you target multiple groups \(for instance, one ad unit and one segment\) then your ads will only be shown when group 1 AND group 2 matches.
 {% endhint %}
 
+**Overview, charts and reports**: On the right side of an order page you will find multiple tabs that each has its function.
+
+{% tabs %}
+{% tab title="Line Item" %}
+Provides you with insights into the line item's delivery. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file. In the user interface you can also see a breakdown of each creative, and each ad unit added to the line item.
+
+![Example line item chart](../.gitbook/assets/201811-advertising-line-item-line-item-chart.png)
+{% endtab %}
+
+{% tab title="Creatives" %}
+Provides you with insights into the delivery of the line item's creatives. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file. You can also do the same to each creative part of the line item.
+
+![Example creative chart](../.gitbook/assets/201811-advertising-line-item-creatives-chart.png)
+{% endtab %}
+
+{% tab title="Reports" %}
+Allows you to create a report based on a [report template](reports.md#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the report template. Here you can [see a demo of how to set up automated reporting](https://www.youtube.com/watch?v=_-OEgPFBq0A&feature=youtu.be).
+
+The report tab also gives you the audit history of the line item. This means that you can see the changes made to the line item, when they were made, and who made them.
+
+![Example report scheduler](../.gitbook/assets/201811-advertising-line-item-report-scheduler.png)
+{% endtab %}
+
+{% tab title="Reach" %}
+Reach is an analysis you can run to quickly estimate the volume of matching traffic for the line item. A normal reach analysis estimates the total number of available impressions matching your targeting criteria, while an experimental analysis attempts to account for competing line items in its reach estimation. The reported numbers are a best guess only and can be incorrect for a number of subtle reasons. We recommend that you use the normal version if you only need a simple reach estimate.
+
+A more comprehensive explanation of reach analyses and interpretation of results can be found [further down on this page](advertising.md#reach-analysis). 
+{% endtab %}
+
+{% tab title="Diagnostics" %}
+If you experience something wrong with the line item \(for instance, it doesn't start delivering as expected\), diagnostics is a great way to give you more insight into what might be going on. Before we explain the results you get from clicking "Run diagnostics test", let's explain what "Burn rates" tells you.
+
+A burn rate below 100% means that Adnuntius is slowing down your line item's delivery to avoid delivering its objectives well before its end date. If you have smoothing enabled for your line item, and the line item is slightly overdelivering, then the system may slow down the burn rate to get the delivery back on track.
+
+If you click "Run Diagnostics Test", you may get a result that looks something like this: 
+
+> * Line Item dates indicate it should be currently running.
+> * Line Item has no validation warnings.
+> * Located all assets for the Line Item on the CDN.
+> * Team contains Ad Units with suitable dimensions
+> * Line Item loses auctions for the team's site's AdUnits that it fits: check CPM and de-duplication.
+> * Line Item has no limit on delivery rate.
+
+This response can be interpreted as follows: 
+
+* If the line item's start date had been in the future or the end date had been in the past, this could have been the reason why the line item didn't deliver any impressions. However, this check tells you that the dates are not the problem.
+* When there is some information missing on a line item \(for instance, if there is no creative to serve, or that the line item is paused\), then there would be a warning in a yellow box on top of the line item page. This check looks for such a warning, but in this case there is no warning, and there is no information missing from the line item. 
+* The asset test checks if Adnuntius has successfully been able to find the line item's creative material on our CDN. If you ever see a warning here, try to re-create your creatives, and if that does not work, contact us at support@adnuntius.com.
+* The ad unit test checks if \(1\) there are ad units with the appropriate width and height that can serve one of the creatives, and \(2\) that those ad units' parent sites belong to a team that matches the order \(remember - an order is always placed on a team which in turn accesses a set of sites; so if the line item targets a totally different set of sites \(and therefore ad units\), the line item will serve no impressions. 
+* The auction test checks if the line item has a chance of winning impressions, considering the competition from other line items. When all things else are equal, it is the eCPM bid of the line items that determines which one will get the impression. If a warning like the above appears, try to either \(1\) increase the bid of the line item, or \(2\) decrease the bid of or pause the competing line items.
+* The last test checks if the line item is held back due to smoothing. If this warning kicks in then try to turn off smoothing to check if this starts the delivery.
+{% endtab %}
+{% endtabs %}
+
 ## Creatives
 
 Creatives is the material shown to the end user, and can consist of various assets such as images, text and videos. Here is how to work with creatives. 
