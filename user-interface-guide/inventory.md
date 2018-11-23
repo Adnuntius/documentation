@@ -156,7 +156,13 @@ Allows you to create a report based on a [report template](reports.md#reports-re
 {% endtab %}
 
 {% tab title="Diagnostics" %}
-If you cannot see any ads in your ad unit, or you expected to see another ad, then diagnostics is a great tool that gives you more insight into what might be going on. 
+If you cannot see any ads in your ad unit, or you expected to see another ad, then diagnostics is a test that gives you more insight into what might be going on. You can simulate different targeting criteria before you run the test. Running the test, you will get detailed feedback on winning, losing, capped, unmatched and unsuitable line items, and the reasons why they were so. 
+
+![Diagnostics test example](../.gitbook/assets/201811-inventory-ad-unit-diagnostics.png)
+
+{% hint style="info" %}
+sdf
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
