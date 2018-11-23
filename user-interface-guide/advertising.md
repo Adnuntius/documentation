@@ -335,6 +335,14 @@ This response can be interpreted as follows:
 * The ad unit test checks if \(1\) there are ad units with the appropriate width and height that can serve one of the creatives, and \(2\) that those ad units' parent sites belong to a team that matches the order \(remember - an order is always placed on a team which in turn accesses a set of sites; so if the line item targets a totally different set of sites \(and therefore ad units\), the line item will serve no impressions. 
 * The auction test checks if the line item has a chance of winning impressions, considering the competition from other line items. When all things else are equal, it is the eCPM bid of the line items that determines which one will get the impression. If a warning like the above appears, try to either \(1\) increase the bid of the line item, or \(2\) decrease the bid of or pause the competing line items.
 * The last test checks if the line item is held back due to smoothing. If this warning kicks in then try to turn off smoothing to check if this starts the delivery.
+
+{% hint style="info" %}
+You can also [run diagnostics for ad units](inventory.md#ad-units) if you wonder what ad would win an auction for a given ad unit. 
+{% endhint %}
+
+{% hint style="info" %}
+You can also add ?adndebug123 at the end of any URL \(example: [www.aperitif.no?adndebug123](https://www.aperitif.no/?adndebug123)\) to show you all ad units, line items, creatives, targeting and more information in the context of a webpage. 
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 
