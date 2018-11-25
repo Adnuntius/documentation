@@ -103,11 +103,23 @@ Layouts allow you to create any look and feel to your creative, and to add any e
 
 Custom events let you define any event that you want to track for a creative, line item and order. Custom events can be inserted into layouts to start counting events on a per-creative basis. After creating a custom events you can add them to a line item by including a CPA bid and then choosing your conversion event.
 
-![](../.gitbook/assets/201811-reports-admin-custom-events.png)
+![Custom event example](../.gitbook/assets/201811-reports-admin-custom-events.png)
+
+**Name and description**: Give the event a name and description \(optional\) of your choice. 
+
+**Value type** determines what is counted, and you can choose between number \(for example the number of events or conversions\), time in milliseconds or seconds \(for example, the seconds a user holds the cursor over an ad\), or money \(for example the value of a purchase online\). 
+
+**ID and code example**: Once you've created your event, you can paste the code with the ID into a [Layout](admin.md#layouts) to start counting events.
 
 ## Reference Data
 
-Some text.
+When you use [category or key value targeting](advertising.md#line-item) on line items or creatives, it can be hard to remember how a categories \(as defined by the URL structure\) are designed on your site, or which key values are being sent with the ad requests. Reference data lets you upload a text file that creates a library of categories and key values that you can choose from, rather than remember them all. 
+
+![Example category targeting where reference data has been added](../.gitbook/assets/201811-reports-admin-reference-data.png)
+
+**Category uploader**: Just create a .txt file where each line specifies a new category that you want to add. 
+
+**Key value uploader**: Just create a .txt file where each line specifies a new key-value entry and commas separate the data like so: mykey, myfirstvalue, mysecondvalue
 
 ## Context Service Connections
 
