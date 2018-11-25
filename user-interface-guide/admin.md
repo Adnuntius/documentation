@@ -20,7 +20,7 @@ Please note that Adnuntius does not automatically send an email inviting the use
 * A team role determines the actions that a user will be able to perform to orders, line items, creatives, sites, ad units, report schedules and reports \(these are all functions that apply to a specific team, i.e. a set of sites\).
 
 {% hint style="info" %}
-If you do not want your new user to have access to any network functions, you can create a role where all permissions are unchecked.  
+If you want to create a user that has no network permissions, you can create a network role where all permissions are unchecked \(and call it for instance "no permissions"\). This way, when you add a user with this network role, they cannot do anything to the network.
 {% endhint %}
 
 {% hint style="info" %}
@@ -39,7 +39,7 @@ Notification preferences allow you to subscribe to various changes, meaning that
 
 ## Teams
 
-Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. 
+Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. While [Roles ](admin.md#roles)lets you decide the actions that users can take to the inventory they have access to, Teams determines what inventory they can perform those actions on.
 
 ![Example team](../.gitbook/assets/201811-reports-admin-teams.png)
 
@@ -55,7 +55,31 @@ You can design multiple teams with the same sites under them. In other words, Ad
 
 ## Roles
 
-Some text.
+While [Teams](admin.md#teams) determines the inventory a user will have access to, Roles determines what actions that user will be able to take to that inventory. 
+
+![Creating a role](../.gitbook/assets/201811-reports-admin-roles.png)
+
+**Name and description**: Give the role a name and description \(optional\) of your choice.
+
+**Role scope**: Choose whether this is a network role or a team role. A user must be allowed one network role, which determines the actions that user can take to network-wide functions such as admin functions and report templates. A user can have one team role per team, which determines the actions that user can take to team-specific functions such as publishing inventory and advertising. You can assign or reject the user these permissions: 
+
+* Network role permissions: 
+  * Manage Business: Create, edit and delete advertisers and earnings accounts 
+  * Manage Layouts: Create, edit and delete layouts 
+  * Manage Report Templates: Create, edit and delete report templates 
+  * Manage System: Edit the network and create, edit and delete users, tiers, custom events, roles and teams
+* Team role permissions: 
+  * Manage Advertising: Create, edit and delete orders, line items and creatives
+  * Manage Publishing: Create, edit and delete sites and ad units 
+  * Run Reports: Create, edit and delete report schedules and generate reports
+
+{% hint style="info" %}
+If you want to create a user that has no network permissions, you can create a network role where all permissions are unchecked \(and call it for instance "no permissions"\). This way, when you add a user with this network role, they cannot do anything to the network.
+{% endhint %}
+
+{% hint style="info" %}
+In [Admin &gt; Network](admin.md#network) you will be able to determine show or hide sections of the user interface that users do not have permissions to edit.
+{% endhint %}
 
 ## Layouts
 
