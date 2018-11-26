@@ -141,9 +141,33 @@ External demand sources enables you to connect to a Supply-Side Platform \(SSP\)
 
 ![External demand source setup example](../.gitbook/assets/201811-reports-admin-external-demand-source.png)
 
+{% hint style="info" %}
+This is the first step to set up programmatic ads. After you have completed these first steps, move to [External ad units](inventory.md#external-ad-unit) to set up connections between each Adnuntius ad unit and your SSP ad units. 
+{% endhint %}
+
+**Name and description**: Give the connection a name and description \(optional\) of your choice. 
+
+**External demand source**: Choose your demand source. Please note that if you choose prebid, then this is all you have to do - you do not have to complete the step below. 
+
+**Publisher ID**: Type in the publisher ID that you receive from your SSP account. Once this is done, Adnuntius connects to your SSP server-side.
+
+{% hint style="info" %}
+Don't have an SSP account, but want one? Connect with us at support@adnuntius.com, and we can help you out. 
+{% endhint %}
+
 ## Extension Connections
 
-Some text.
+Extension connections is where you connect to our Demand Side Platform \(DSP\) to transform Adnuntius from "just an adserver" to a marketer platform where you can market your ads directly AND programmatically. After you've completed the steps below you will be able to select parts of your budget to be spent through the DSP as opposed to directly. This is something you will of course be able to control.
+
+![Extension connection setup](../.gitbook/assets/201811-reports-admin-extension-connection.png)
+
+**Name and description**: Give the connection a name and description \(optional\) of your choice. 
+
+**Username and password**: Apply your username and password with Platform 161 \(our DSP partner\).
+
+{% hint style="info" %}
+Want an account? Contact us at support@adnuntius.com and we will help you out. 
+{% endhint %}
 
 ## Tiers
 
