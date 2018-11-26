@@ -4,7 +4,7 @@ description: >-
   user-friendly guide.
 ---
 
-# Get Started - With Videos
+# Get Started with Videos
 
 ## Structure of This Guide
 

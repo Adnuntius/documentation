@@ -31,7 +31,7 @@
 
 ## User Interface Guides
 
-* [Get Started - With Videos](user-interface-guide/adnuntius-activation-start.md)
+* [Get Started with Videos](user-interface-guide/adnuntius-activation-start.md)
 * [Dashboards](user-interface-guide/dashboards.md)
 * [Advertising](user-interface-guide/advertising.md)
 * [Inventory](user-interface-guide/inventory.md)
