@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Documentation page](README.md)
 
 ## API Guide
 
