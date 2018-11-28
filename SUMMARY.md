@@ -1,6 +1,15 @@
 # Table of contents
 
-* [Documentation page](README.md)
+* [Adnuntius Documentation](README.md)
+
+## User Interface Guides
+
+* [Get Started with Videos](user-interface-guide/adnuntius-activation-start.md)
+* [Dashboards](user-interface-guide/dashboards.md)
+* [Advertising](user-interface-guide/advertising.md)
+* [Inventory](user-interface-guide/inventory.md)
+* [Reports](user-interface-guide/reports.md)
+* [Admin](user-interface-guide/admin.md)
 
 ## API Guide
 
@@ -28,15 +37,6 @@
 * [/forecasts](api/forecasts.md)
 * [/devices](api/devices.md)
 * [/location](api/location.md)
-
-## User Interface Guides
-
-* [Get Started with Videos](user-interface-guide/adnuntius-activation-start.md)
-* [Dashboards](user-interface-guide/dashboards.md)
-* [Advertising](user-interface-guide/advertising.md)
-* [Inventory](user-interface-guide/inventory.md)
-* [Reports](user-interface-guide/reports.md)
-* [Admin](user-interface-guide/admin.md)
 
 ## Implementation Guides
 
