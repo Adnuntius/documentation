@@ -1,4 +1,7 @@
 # Adnuntius Documentation
 
-Welcome to Adnuntius Documentation. Please find your topic to the left - on top you will find API guides, while lower down you will find the user interface guides. 
+Welcome to Adnuntius Documentation. 
+
+* Take me to the [user interface guide](user-interface-guide/adnuntius-activation-start.md).
+* Take me to the [API guide](api/untitled.md).
 
