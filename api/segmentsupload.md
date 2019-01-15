@@ -1,6 +1,6 @@
 # /segments/upload
 
-The segments/upload endpoint allows you to upload a list of segments from a DMP into Adnuntius.
+Allows you to upload a list of segments from a DMP into Adnuntius.
 
 ### POST
 
