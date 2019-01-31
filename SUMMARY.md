@@ -44,4 +44,4 @@
 
 * [Send segments Cxense](implementation-guides/send-segments-cxense.md)
 * [Header bidding implementation](implementation-guides/header-bidding-implementation.md)
-
+* [Tableau connection](implementation-guides/tableau-connection.md)

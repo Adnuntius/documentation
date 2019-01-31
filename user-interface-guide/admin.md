@@ -37,6 +37,18 @@ Notification preferences allow you to subscribe to various changes, meaning that
 
 **Notification method** lets you determine if Adnuntius should notify you per email or user interface. If you choose UI then you will find notifications in the right-most column of the user interface, when clicking the "i" icon.
 
+## API Keys
+
+API Keys are used to provide specific and limited access by external software to various parts of the application.
+
+**Scope** allows the access level of the API Key to be set.  The values currently supported are:
+* Stats Querying \(to allow read-only access to stats data via the Adnuntius API or via the Tableau data connection)
+* User Segment Uploads \(to allow uploading of User Segment information for targeting into the Adnuntius platform\)
+
+**Description** is a user-friendly description of the API Key, for keeping track of which keys are used for which purpose.
+
+**Expiry** determines when the API Key will cease to allow access, to support restrictions on access should that be required. 
+
 ## Teams
 
 Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. While [Roles ](admin.md#roles)lets you decide the actions that users can take to the inventory they have access to, Teams determines what inventory they can perform those actions on.
