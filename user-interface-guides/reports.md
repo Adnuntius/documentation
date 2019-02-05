@@ -1,10 +1,3 @@
----
-description: >-
-  The Reports section allows you to create templates that guide the design of
-  automated reports, create scheduled reports, and to run queries for
-  advertising and publishing inventory.
----
-
 # Reports
 
 ## Reports, Report Templates, and Report Schedules

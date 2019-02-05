@@ -1,9 +1,3 @@
----
-description: >-
-  The Inventory section allows publishers to manage their publishing inventory,
-  and marketers to manage publishing partners.
----
-
 # Inventory
 
 ## Concept Summary

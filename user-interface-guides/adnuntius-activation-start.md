@@ -1,9 +1,3 @@
----
-description: >-
-  Get started with the Adnuntius Activation user interface by reading this
-  user-friendly guide.
----
-
 # Get Started with Videos
 
 ## Structure of This Guide

@@ -2,7 +2,7 @@
 
 Allows you to upload a list of users and their assigned segments from a DMP into Adnuntius.
 
-### POST
+## POST
 
 An example `POST` request is shown below.
 
@@ -31,5 +31,6 @@ NOTE: You are restricted to uploading 1000 users per request.
 | :--- | :--- | :--- |
 | userId | String | Identification of the user |
 | siteId | String | Identification of the site |
-| segments | String[] | A list of segment-ids that this user is assigned to |
+| segments | String\[\] | A list of segment-ids that this user is assigned to |
 | dataSource | ADNUNTIUS, ADOBE, CXENSE, RELAY42 | The DMP providing the segmentation. |
+

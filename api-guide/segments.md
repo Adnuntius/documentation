@@ -2,7 +2,7 @@
 
 The segments endpoint will deliver you all the possible segments that have been imported from a DMP.
 
-### GET
+## GET
 
 A `GET` request can allways be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
 
@@ -13,7 +13,6 @@ GET https://api.adnuntius.com/api/v1/segments?context=<context>
 ```
 
 ```text
-
 {
     "results": [
         {
@@ -49,3 +48,4 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | name | String | The name of the site group |
 | network | Object | An object containing id, name and url to the network it is bound to. |
 | url | String | A reference to the api link to use to find the specific segment. |
+

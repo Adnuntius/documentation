@@ -1,9 +1,3 @@
----
-description: >-
-  Stay on top of running campaigns and changes to your Adnuntius account with
-  Dashboards.
----
-
 # Dashboards
 
 Dashboards is a set of drag-and-drop widgets that you can add in order to keep control of what is going on. You can create any number of dashboards and change between them in the left-most column as soon as they are created. Here are an explanation of the widgets you can add to your dashboard.

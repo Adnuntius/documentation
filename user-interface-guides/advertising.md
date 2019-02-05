@@ -1,9 +1,3 @@
----
-description: >-
-  Learn how to manage advertisers, orders, line items (some also call them
-  campaigns), creatives and forecasts.
----
-
 # Advertising
 
 ## Concept Summary

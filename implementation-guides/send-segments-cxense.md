@@ -1,9 +1,3 @@
----
-description: >-
-  This will show you how to send segments, client side, to adnuntius from
-  Cxense.
----
-
 # Send segments Cxense
 
 ## Send segments Client side
