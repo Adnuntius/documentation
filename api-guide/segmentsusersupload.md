@@ -20,7 +20,8 @@ POST https://api.adnuntius.com/api/v1/segments/users/upload?context=<context>
         'userId': 'asdfgh56473',
         'siteId': 'fgsh4658djk',
         'segments': ['sfjh346s', 'sjfhgsj345'],
-        'dataSource': 'ADNUNTIUS'
+        'dataSource': 'ADNUNTIUS',
+        'updateMode': 'ADD'
     }
 ]
 ```
@@ -33,4 +34,5 @@ NOTE: You are restricted to uploading 1000 users per request.
 | siteId | String | Identification of the site |
 | segments | String\[\] | A list of segment-ids that this user is assigned to |
 | dataSource | ADNUNTIUS, ADOBE, CXENSE, RELAY42 | The DMP providing the segmentation. |
+| updateMode | REPLACE, ADD, REMOVE | Replace, add or remove the segments from the user record |
 
