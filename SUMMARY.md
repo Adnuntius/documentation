@@ -43,6 +43,10 @@
 ## Implementation Guides
 
 * [adn.js](implementation-guides/adn-js.md)
+    * [Requesting an Ad](implementation-guides/adn-request.md)
+    * [Layout Support](implementation-guides/adn-layout.md)
+    * [Utility Methods](implementation-guides/adn-utility.md)
+    * [Logging Options](implementation-guides/adn-feedback.md)
 * [Send segments Cxense](implementation-guides/send-segments-cxense.md)
 * [Header bidding implementation](implementation-guides/header-bidding-implementation.md)
 * [Tableau connection](implementation-guides/tableau-connection.md)
