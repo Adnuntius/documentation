@@ -1,4 +1,4 @@
-# Utility function in adn.js
+# Utility functions in adn.js
 
 <p>adn.js provides utility methods that can be used in your creative's layouts to help you with its design.</p>
 <p>The following methods can each be called from within a layout and provide the described functionality. The methods have been written specifically to work
