@@ -1,4 +1,4 @@
-# Layout Support in adn.js
+# Layout support in adn.js
 
 <p>adn.js provides many functions to support the design of your creative's layout.</p>
 <p>The following functions can each be called from within a layout and provide the described functionality.</p>
