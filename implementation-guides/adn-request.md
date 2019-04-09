@@ -1,3 +1,5 @@
+# Requesting ads using adn.js
+
 `adn.request` is the most basic way to get an ad on your page. Here's a typical example:
 
 <pre>    adn.request({ auId: '000000000000042d', auW: 364, auH: 90 });
