@@ -13,7 +13,7 @@
 
 ## adn.js
 
-* [adn.js](implementation-guides/adn-js.md)
+* [Overview](implementation-guides/adn-js.md)
     * [Requesting an Ad](implementation-guides/adn-request.md)
     * [Layout Support](implementation-guides/adn-layout.md)
     * [Utility Methods](implementation-guides/adn-utility.md)
