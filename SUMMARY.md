@@ -11,7 +11,7 @@
 * [Reports](user-interface-guides/reports.md)
 * [Admin](user-interface-guides/admin.md)
 
-## adn.js Guide
+## adn.js
 
 * [adn.js](implementation-guides/adn-js.md)
     * [Requesting an Ad](implementation-guides/adn-request.md)
