@@ -13,11 +13,11 @@
 
 ## adn.js
 
-* [Overview](implementation-guides/adn-js.md)
-    * [Requesting an Ad](implementation-guides/adn-request.md)
-    * [Layout Support](implementation-guides/adn-layout.md)
-    * [Utility Methods](implementation-guides/adn-utility.md)
-    * [Logging Options](implementation-guides/adn-feedback.md)
+* [Overview](adn-js-guide/intro.md)
+    * [Requesting an Ad](adn-js-guide/adn-request.md)
+    * [Layout Support](adn-js-guide/adn-layout.md)
+    * [Utility Methods](adn-js-guide/adn-utility.md)
+    * [Logging Options](adn-js-guide/adn-feedback.md)
 
 ## API Guide
 
