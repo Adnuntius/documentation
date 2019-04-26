@@ -13,11 +13,11 @@
 
 ## adn.js
 
-* [Overview](adn-js-guide/intro.md)
-    * [Requesting an Ad](adn-js-guide/adn-request.md)
-    * [Layout Support](adn-js-guide/adn-layout.md)
-    * [Utility Methods](adn-js-guide/adn-utility.md)
-    * [Logging Options](adn-js-guide/adn-feedback.md)
+* [Overview](adn.js/intro/README.md)
+  * [Requesting an Ad](adn.js/intro/adn-request.md)
+  * [Layout Support](adn.js/intro/adn-layout.md)
+  * [Utility Methods](adn.js/intro/adn-utility.md)
+  * [Logging Options](adn.js/intro/adn-feedback.md)
 
 ## API Guide
 
@@ -54,4 +54,8 @@
 * [Header bidding implementation](implementation-guides/header-bidding-implementation.md)
 * [Tableau connection](implementation-guides/tableau-connection.md)
 * [Adnuntius Slider](implementation-guides/adnuntius-slider.md)
+
+## HTTP delivery
+
+* [VAST 2.0](http-delivery/vast-2.0.md)
 
