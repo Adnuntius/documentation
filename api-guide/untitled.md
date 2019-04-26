@@ -18,7 +18,7 @@ The parameters for the above request are as follows:
 | userId | ab123456789 \(string\) | The universal session identifier used to identify what user session being dealt with, thereby enabling segment targeting and rate limiting. |
 | sessionId | ab123456789 \(string\) | A unique identifier to identify which session the user's in. |
 | tt | composed | allows you to send requests for multiple adunits using a post body described below. |
-| auid | ab123456789 \(string\) | If tt \(composed ad call\) is not used you can send a request for a single adunit. |
+| auId | ab123456789 \(string\) | If tt \(composed ad call\) is not used you can send a request for a single adunit. |
 | format | json \(string\) | Will return the ad as a JSON format. |
 
 ### Post Body
