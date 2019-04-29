@@ -21,7 +21,7 @@
 
 ## API Guide
 
-* [HTTP Request](api-guide/untitled.md)
+* [HTTP Request](api-guide/http-api.md)
 * [API Requests](api-guide/api-requests.md)
 * [Targeting object](api-guide/targeting-object.md)
 * [/authenticate](api-guide/authenticate.md)
