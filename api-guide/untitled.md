@@ -1,10 +1,10 @@
-# HTTP Request
+# HTTP Delivery API
 
 ## HTTP Requests
 
 ### Usage
 
-We offer support for HTTP request to our delivery server. This will allow you to request ads from your server.
+We provide an HTTP API for requesting ads from our delivery server. An example usage of this API is for server-side fetching of ads.
 
 ```text
 POST https://delivery.adnuntius.com/i{{params}}
@@ -12,14 +12,14 @@ POST https://delivery.adnuntius.com/i{{params}}
 
 The parameters for the above request are as follows:
 
-| Parameter | Example value | Description |
-| :--- | :--- | :--- |
-| tzo | -120 \(number\) | Timezone, offset from UTC in minutes. |
-| userId | ab123456789 \(string\) | The universal session identifier used to identify what user session being dealt with, thereby enabling segment targeting and rate limiting. |
-| sessionId | ab123456789 \(string\) | A unique identifier to identify which session the user's in. |
-| tt | composed | allows you to send requests for multiple adunits using a post body described below. |
-| auId | ab123456789 \(string\) | If tt \(composed ad call\) is not used you can send a request for a single adunit. |
-| format | json \(string\) | Will return the ad as a JSON format. |
+| Parameter | Required? | Example value(s) | Default Value | Description |
+| :--- | :--- | :--- |  :--- |  :--- | 
+| auId | Yes, unless making a POST request (see below) | ab123456789 \(string\) | None | The Ad Unit to fetch ads from |
+| tzo | No |-120 \(number\) | 0 | Timezone, offset from UTC in minutes |
+| userId | No |ab123456789 \(string\) | If not provided, this value will be read from the Adnuntius cookie | Identifies a unique user; used for segment targeting, rate limiting, and unique user counting |
+| siteId | No |ab123456789 \(string\) | None | A unique identifier for the site where the ad will be shown. This will be used, if required by your DMP, for segment targeting  |
+| tt | No |composed | None | allows you to send requests for multiple adunits using a post body described below |
+| format | No |html, xml, json, image, email \(string\) | html | Specifies the format of the returned ads |
 
 ### Post Body
 
@@ -43,7 +43,7 @@ The parameters for the above request are as follows:
 | Parameter | Example value | Description |
 | :--- | :--- | :--- |
 | adUnits | - | An array of objects for the adunits that you wish to request. |
-| auid | ab123456789 \(string\) | The ad unit tag id in question. |
+| auId | ab123456789 \(string\) | The ad unit tag id in question. |
 | targetId | adn-123456789 \(string\) | The id of the HTML element you wish your ad to be placed in. |
 
 ### Example request a single ad unit
