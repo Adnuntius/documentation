@@ -27,24 +27,7 @@ POST https://delivery.adnuntius.com/i{{params}}
 
 The parameters listed above in the **Get Requests** section are also supported on POST requests.
 
-Example POST Body:
-
-```text
-{
-    "adUnits":[
-        {
-            "auId":"0000000000017d97",
-            "targetId":"adn-0000000000017d97"
-        },
-        {
-            "auId":"0000000000017d93",
-            "targetId":"adn-0000000000017d93"
-        }
-    ]
-}
-```
-
-#### Description for post body
+#### POST Body
 
 | Parameter | Example value | Description |
 | :--- | :--- | :--- |
@@ -52,12 +35,31 @@ Example POST Body:
 | auId | ab123456789 \(string\) | The ad unit tag id in question. |
 | targetId | adn-123456789 \(string\) | The id of the HTML element you wish your ad to be placed in. |
 
+Example POST Body:
+
+```text
+{
+    "adUnits":[
+        {
+            "auId":"abc123",
+            "targetId":"adn-abc123"
+        },
+        {
+            "auId":"xyz987",
+            "targetId":"adn-xyz987"
+        }
+    ]
+}
+```
+
+## Examples
+
 ### Example GET request for a single ad unit
 
 #### Request
 
 ```text
-GET http://delivery.adnuntius.com/i?tzo=-120&auId=0000000000017d95&userId=jia8lpi4wzw7qsof
+GET http://delivery.adnuntius.com/i?tzo=-120&auId=abc123&userId=xyz987
 ```
 
 #### Response
@@ -154,24 +156,46 @@ GET http://delivery.adnuntius.com/i?tzo=-120&auId=0000000000017d95&userId=jia8lp
 
 ### Example POST request for multiple ad units
 
+#### Request
+
 ```text
-POST http://delivery.adnuntius.com/i?tzo=-120&auId=0000000000017d95&userId=jia8lpi4wzw7qsof&tt=composed
+POST http://delivery.adnuntius.com/i?tzo=-120&userId=xyz987&tt=composed
 ```
 
-#### Post body
+POST Body:
 
 ```text
 {
     "adUnits":[
         {
-            "auId":"0000000000017d97",
-            "targetId":"adn-0000000000017d97"
-        },
-        {
-            "auId":"0000000000017d93",
-            "targetId":"adn-0000000000017d93"
+            "auId":"abc123",
+            "targetId":"adn-abc123"
         }
     ]
 }
 ```
 
+#### Response
+
+```text
+{
+    "adUnits": [
+        {
+            "auId": "abc123",
+            "targetId": "adn-abc123",
+            "html": "<!DOCTYPE html>\n<html>\n<head>\n    <meta charset=\"utf-8\">\n    <style type=\"text/css\" media=\"all\">\n        html, body, #responseCtr {\n            margin: 0;\n            padding: 0;\n            outline: 0;\n            border: 0;\n            overflow: hidden;\n        }\n\n        #responseCtr {\n            display: inline-block;\n            line-height: 0;\n            vertical-align: top;\n        }\n\n        #responseCtr a {\n            line-height: 0;\n        }\n\n        #responseCtr *, #responseCtr a * {\n            line-height: normal;\n        }\n\n        #responseCtr .adWrapper {\n            margin: 0;\n            padding: 0;\n            outline: 0;\n            border: 0;\n            display: inline-block;\n            line-height: 0;\n        }\n\n        a img {\n            border: none;\n            outline: none;\n        }\n\n        img {\n            margin: 0;\n            padding: 0;\n        }\n\n        /* need this displayNone class to ensure images are preloaded for smooth transition */\n        img.displayNone {\n            position: absolute;\n            top: -99999px;\n            left: -99999px;\n        }\n    </style>\n\n    <script type=\"text/javascript\" src=\"https://cdn.adnuntius.com/adn.js\"></script>\n</head>\n<body>\n<div id=\"responseCtr\" class=\"responseCtr\">\n<div class=\"adWrapper\" id=\"adn-id-xxxx\" data-line-item-id=\"xxxxx\" data-creative-id=\"aaaaa\" data-response-token=\"yyyyyy\"><a rel=\"nofollow\" target=\"_top\" href=\"https://delivery.adnuntius.com/c/yyyyy?ct&#x3D;2501&amp;r&#x3D;http%3A%2F%2Fadnuntius.com\" style=\"width: 100%\">\n<img src=\"//assets.adnuntius.com/creative.jpg\" style=\"width: 100%; max-width: 980px; margin: 0 auto; display: block;\" alt=\"\"/>\n</a>\n\n<script>\n\tadn.util.forEach(document.getElementsByClassName(\"adWrapper\"), function(el) {\n    \tel.style.width = \"100%\";\n    });\n\tvar iframeId = adn.inIframe.getIframeId();\n\tvar container = document.getElementById('responseCtr')\n    container.style.width = \"100%\"\n\tvar responsiveIframe = function(){\n        adn.inIframe.updateAd({\n        \tifrH: container.offsetHeight,\n            ifrStyle:{width: '100%', 'min-width':'100%', '*width':'100%' },\n            ifrId: iframeId\n        });\n\t}\n    \n  adn.inIframe.getAdRequestInfo({\n    onInfoReceived: function(data) {\n        console.log(\"onData\", data);\n    }\n});\n\n\n\n\twindow.onresize = function(){ responsiveIframe() }\n\twindow.onload = function(){ responsiveIframe() }\n    adn.inIframe.blockResizeToContent();\n</script>\n\n<div style=\"clear: both\"></div></div>\n</div>\n\n    \n        \n        \n        \n            \n<iframe src=\"https://delivery.adnuntius.com/b/yyyyy.html\" scrolling=\"no\" frameborder=\"0\" width=\"1\" height=\"1\" style=\"position:absolute;top:-10000px;left:-100000px;\"></iframe>\n            \n        \n<script type=\"text/javascript\">\n//<![CDATA[\n(function() { adn.inIframe.processAdResponse({ matchedAdCount: 1 }); })();\n//]]>\n</script>\n\n    \n\n</body>\n</html>",
+            "matchedAdCount": 1,
+            "rts": [
+                "yyyyyy"
+            ]
+        }
+    ],
+    "metaData": {
+        "network!usi": "aaaa",
+        "network!sessionId": "bbbb"
+    },
+    "duplicateFilter": "ccccc",
+    "segments": [],
+    "keywords": []
+}
+```
