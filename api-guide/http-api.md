@@ -1,4 +1,4 @@
-# HTTP Delivery API
+# HTTP Request
 
 We provide an HTTP API for requesting ads from our delivery server. This API may be used, for example, to enable server-side fetching of ads.
 
@@ -10,14 +10,14 @@ We provide an HTTP API for requesting ads from our delivery server. This API may
 GET https://delivery.adnuntius.com/i{{params}}
 ```
 
-| Parameter | Required? | Example value(s) | Default Value | Description |
-| :--- | :--- | :--- |  :--- |  :--- | 
-| auId | Yes, unless making a POST request (see below) | ab123456789 \(string\) | None | The Ad Unit to fetch ads from |
-| tzo | No |-120 \(number\) | 0 | Timezone, offset from UTC in minutes |
-| userId | No |ab123456789 \(string\) | If not provided, this value will be read from the Adnuntius cookie | Identifies a unique user; used for segment targeting, rate limiting, and unique user counting |
-| siteId | No |ab123456789 \(string\) | None | A unique identifier for the site where the ad will be shown. This will be used, if required by your DMP, for segment targeting  |
-| tt | No |composed, multi, vast2 | None | The Tag Type. The composed and multi tag-types can only be used with a POST request (see below) |
-| format | No |html, xml, json, image, email \(string\) | html | Specifies the format of the returned ads |
+| Parameter | Required? | Example value\(s\) | Default Value | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| auId | Yes, unless making a POST request \(see below\) | ab123456789 \(string\) | None | The Ad Unit to fetch ads from |
+| tzo | No | -120 \(number\) | 0 | Timezone, offset from UTC in minutes |
+| userId | No | ab123456789 \(string\) | If not provided, this value will be read from the Adnuntius cookie | Identifies a unique user; used for segment targeting, rate limiting, and unique user counting |
+| siteId | No | ab123456789 \(string\) | None | A unique identifier for the site where the ad will be shown. This will be used, if required by your DMP, for segment targeting |
+| tt | No | composed, multi, vast2 | None | The Tag Type. The composed and multi tag-types can only be used with a POST request \(see below\) |
+| format | No | html, xml, json, image, email \(string\) | html | Specifies the format of the returned ads |
 
 ### Post Requests
 
@@ -120,26 +120,26 @@ GET http://delivery.adnuntius.com/i?tzo=-120&auId=abc123&userId=xyz987
 </a>
 
 <script>
-	adn.util.forEach(document.getElementsByClassName("adWrapper"), function(el) {
-    	el.style.width = "100%";
+    adn.util.forEach(document.getElementsByClassName("adWrapper"), function(el) {
+        el.style.width = "100%";
     });
-	var iframeId = adn.inIframe.getIframeId();
-	var container = document.getElementById('responseCtr')
+    var iframeId = adn.inIframe.getIframeId();
+    var container = document.getElementById('responseCtr')
     container.style.width = "100%"
-	var responsiveIframe = function(){
+    var responsiveIframe = function(){
         adn.inIframe.updateAd({
-        	ifrH: container.offsetHeight,
+            ifrH: container.offsetHeight,
             ifrStyle:{width: '100%', 'min-width':'100%', '*width':'100%' },
             ifrId: iframeId
         });
-	}
+    }
   adn.inIframe.getAdRequestInfo({
     onInfoReceived: function(data) {
         console.log("onData", data);
     }
 });
-	window.onresize = function(){ responsiveIframe() }
-	window.onload = function(){ responsiveIframe() }
+    window.onresize = function(){ responsiveIframe() }
+    window.onload = function(){ responsiveIframe() }
     adn.inIframe.blockResizeToContent();
 </script>
 <div style="clear: both"></div></div>
@@ -171,7 +171,7 @@ POST Body:
             "auId":"abc123",
             "targetId":"adn-abc123"
         },
-	{
+    {
             "auId":"xyz987",
             "targetId":"adn-xyz987"
         }
@@ -212,3 +212,4 @@ POST Body:
     "keywords": []
 }
 ```
+
