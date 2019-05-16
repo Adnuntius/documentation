@@ -56,7 +56,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a
 | :--- | :--- | :--- | :--- |
 | objectState |  | ACTIVE, INACTIVE, HIDDEN \(String\) | State of the object, will dissable or delete the object. |
 | name | Yes | String | The name of the site group |
-| siteGroup |  | Object | An object with a Key `id` for the id of the site that the adunit is a belonging to. |
+| site |  | Object | An object with a Key `id` for the id of the site that the adunit is a belonging to. |
 | labels |  | Array | For searching purposes. |
 | matchingLabels |  | Array | Labels used for line item targeting. |
 | width |  | Number | The maximum width of the ad unit. |
