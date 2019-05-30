@@ -1,6 +1,6 @@
 # /adunits
 
-### GET
+## GET
 
 A `GET` request can allways be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
 
@@ -12,7 +12,7 @@ GET https://api.adnuntius.com/api/v1/adunits?context=<context>
 
 in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a parameter to the `GET` query
 
-### POST
+## POST
 
 **Example POST object:**
 
@@ -69,7 +69,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a
 
 If pageSize is set to 2 or higher, the adunit will fill ads from the bottom first and never left to right. Ex: if you trying to fill an ad unit with two creatives of the size 300 x 250, you will have to st the min width to 300, max width 300. Min height 250, max height 500. it will not work if you set the height to 250 and maximum width to 600. [Read more here.](http://docs.adnuntius.com/userguide/inventory/sites/ad-units)
 
-#### sspConfigurations object
+### sspConfigurations object
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
