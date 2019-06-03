@@ -33,6 +33,6 @@ NOTE: You are restricted to uploading 1000 users per request.
 | userId | String | Identification of the user |
 | siteId | String | Identification of the site |
 | segments | String\[\] | A list of segment-ids that this user is assigned to |
-| dataSource | ADNUNTIUS, ADOBE, CXENSE, RELAY42 | The DMP providing the segmentation. |
+| dataSource | ADNUNTIUS, ADOBE, CXENSE, LYTICS, RELAY42 | The DMP providing the segmentation. |
 | updateMode | REPLACE, ADD, REMOVE | Replace, add or remove the segments from the user record |
 
