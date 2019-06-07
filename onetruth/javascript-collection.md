@@ -59,6 +59,7 @@ The `ot.collect.push` enforces you to specify an `event` The list of availabel e
 | Event | Purpose |
 | :--- | :--- |
 | pageview | Will tell the CDP that you are sending an event and the data that is sent with the event will be incremented on the user, this will also create a session in order to do session rules for a user. |
+| profile | This will update the user profile with whatever data that you send. If the data would contain a number in a string `"34"` it will be considered as a number by the CDP. |
 | click | This will be triggered as a click event |
 | \* | You can add whatever event name that you wish that is not listed above. |
 
