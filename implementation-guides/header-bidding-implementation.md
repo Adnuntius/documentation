@@ -24,14 +24,15 @@ Now onto the header bidding. Firstly you will have to place the followin script 
             }
         ]
     }];
-
-    // ======== DO NOT EDIT BELOW THIS LINE =========== //
+    
     window.adn = window.adn || {};
     adn.calls = adn.calls || [];
     
+    // update the auId, auW and auH figures to match the ad units within Adnuntius that you're using
     var adnRequestInfo = {adUnits: [{auId: '00000000000328c8', auW: 300, auH: 250}]}
 
     adn.calls.push(function() {
+      // can use debug:false if you don't want to populate the browser console with data.
       adn.chbRequest(adUnits, adnRequestInfo, {
         debug: true
       })
