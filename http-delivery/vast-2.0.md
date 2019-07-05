@@ -8,7 +8,7 @@ description: >-
 
 In order to setup your ads correctly you will have to add a Line item with a Creative that supports VAST format.
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 Secondly you will have to upload the information that will go into the vast document in the form that appears:
 

@@ -4,7 +4,7 @@ description: This page will tell you how to do a push to the collect endpoint‌
 
 # javascript Collection
 
-### Calling the CDP‌ <a id="calling-the-cdp"></a>
+## Calling the CDP‌  <a id="calling-the-cdp"></a>
 
 First you'll have to load the tag generetade from the user interface:
 
@@ -36,7 +36,7 @@ Lastly you will do the push:
 
 ‌
 
-### Example of page view event <a id="example-of-page-view-event"></a>
+## Example of page view event  <a id="example-of-page-view-event"></a>
 
 ```markup
 <script src="{YOUR-TAG}" async></script>

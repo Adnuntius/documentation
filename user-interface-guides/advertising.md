@@ -121,19 +121,19 @@ Any of the targeting criteria below can be added to both line items and [creativ
 
 {% tabs %}
 {% tab title="Ad Units" %}
-Target select ad units, or exclude select ad units. When you target one ad unit, you make sure that your line item is shown only in this ad unit. [Learn more about ad units](inventory.md#ad-units). 
+Target select ad units, or exclude select ad units. When you target one ad unit, you make sure that your line item is shown only in this ad unit. [Learn more about ad units](inventory/#ad-units). 
 
 ![Ad unit targeting can be added to line items and to creatives](../.gitbook/assets/201811-advertising-line-item-ad-unit-targeting.png)
 {% endtab %}
 
 {% tab title="Sites" %}
-Target select sites. When choosing one site, you make sure that your line item is shown only in ad units belonging to this site. [Learn more about sites](inventory.md#site).
+Target select sites. When choosing one site, you make sure that your line item is shown only in ad units belonging to this site. [Learn more about sites](inventory/#site).
 
 ![Site targeting can be added to line items and creatives](../.gitbook/assets/201811-advertising-line-item-site-targeting.png)
 {% endtab %}
 
 {% tab title="Site groups" %}
-If you have many sites, and want to save time when booking your campaigns, you can gather sites into site groups. Once you have done this you can easily target your groups of sites. [Learn more about site groups](inventory.md#site-group). 
+If you have many sites, and want to save time when booking your campaigns, you can gather sites into site groups. Once you have done this you can easily target your groups of sites. [Learn more about site groups](inventory/#site-group). 
 
 ![Site group targeting can be added to line items and to creatives](../.gitbook/assets/201811-advertising-line-item-site-group-targeting.png)
 {% endtab %}
@@ -159,7 +159,7 @@ Would you like your DMP to get integrated with Adnuntius? Contact us at support@
 {% endtab %}
 
 {% tab title="Categories" %}
-Adnuntius can read the URLs from whatever pages that ad units are deployed to. [Read more about how derive categories for category targeting from page URLs](inventory.md#ad-units). Once you've set up your ad units, you can add multiple categories by separating each individual one by a comma. For instance, inputting sport, color/blue, color/red/crimson will match any of sport, sport/ANY-VALUE-HERE, color/blue, color/blue/ANY-VALUE-HERE, color/red/crimson or color/red/crimson/ANY-VALUE-HERE. In addition, a category of golf will match any of domain.com/golf/news, domain.com/news/sport-golf-good and domain.com/news/sport\_golf\_good.
+Adnuntius can read the URLs from whatever pages that ad units are deployed to. [Read more about how derive categories for category targeting from page URLs](inventory/#ad-units). Once you've set up your ad units, you can add multiple categories by separating each individual one by a comma. For instance, inputting sport, color/blue, color/red/crimson will match any of sport, sport/ANY-VALUE-HERE, color/blue, color/blue/ANY-VALUE-HERE, color/red/crimson or color/red/crimson/ANY-VALUE-HERE. In addition, a category of golf will match any of domain.com/golf/news, domain.com/news/sport-golf-good and domain.com/news/sport\_golf\_good.
 
 ![Category targeting can be added to line items and creatives](../.gitbook/assets/201811-advertising-line-item-category-targeting.png)
 
@@ -331,7 +331,7 @@ This response can be interpreted as follows:
 * The last test checks if the line item is held back due to smoothing. If this warning kicks in then try to turn off smoothing to check if this starts the delivery.
 
 {% hint style="info" %}
-You can also [run diagnostics for ad units](inventory.md#ad-units) if you wonder what ad would win an auction for a given ad unit. 
+You can also [run diagnostics for ad units](inventory/#ad-units) if you wonder what ad would win an auction for a given ad unit. 
 {% endhint %}
 
 {% hint style="info" %}
@@ -352,13 +352,13 @@ Creatives is the material shown to the end user, and can consist of various asse
 
 {% tabs %}
 {% tab title="External Demand Source" %}
-After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](admin.md#external-demand-sources), and then [creating external ad units](inventory.md#external-ad-unit). 
+After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](admin.md#external-demand-sources), and then [creating external ad units](inventory/#external-ad-unit). 
 
 ![First step: add an external demand source](../.gitbook/assets/201811-advertising-creative-external-1.png)
 {% endtab %}
 
 {% tab title="External Ad Unit Targeting \(Optional\)" %}
-If you want to target your programmatic creative to specific ad units, you can use external ad unit targeting. Please note that if you haven't created external ad units yet, [you can learn how to do so here](inventory.md#external-ad-unit). 
+If you want to target your programmatic creative to specific ad units, you can use external ad unit targeting. Please note that if you haven't created external ad units yet, [you can learn how to do so here](inventory/#external-ad-unit). 
 
 ![Example where the creative is targeted to one external ad unit](../.gitbook/assets/201811-advertising-creative-external-2.png)
 {% endtab %}

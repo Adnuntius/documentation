@@ -73,5 +73,5 @@ Publishing queries are reports you can run to get an overview of all earnings ac
 * CTR: Clickrate, meaning the share of impressions that produce a click.
 * eCPM: \(effective\) cost per thousand ad impressions, calculated as \[Cost\] / \[Impressions\] x 1000.
 * Cost: The revenue generated over the period.
-* Revenue share: Revenue share to partners as specified in [earnings accounts](inventory.md#earnings-account).
+* Revenue share: Revenue share to partners as specified in [earnings accounts](inventory/#earnings-account).
 

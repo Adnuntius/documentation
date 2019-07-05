@@ -24,10 +24,10 @@ Now onto the header bidding. Firstly you will have to place the followin script 
             }
         ]
     }];
-    
+
     window.adn = window.adn || {};
     adn.calls = adn.calls || [];
-    
+
     // update the auId, auW and auH figures to match the ad units within Adnuntius that you're using
     var adnRequestInfo = {adUnits: [{auId: '00000000000328c8', auW: 300, auH: 250}]}
 
@@ -37,9 +37,8 @@ Now onto the header bidding. Firstly you will have to place the followin script 
         debug: true
       })
     });  
-  
-</script>
 
+</script>
 ```
 
 {% hint style="info" %}
@@ -52,7 +51,7 @@ Once that is done you will have to add prebid as an _external demand source_ in 
 
 Go to: **Amin -&gt; Ext. Demand S. -&gt; New**
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 By it's own the external demand source does not know what ad units it should deliver to, so you will need to replicate the sizes that you have setup in your SSP in order for Adnuntius to make the correct calls.
 
@@ -64,7 +63,7 @@ Give the new _external ad unit_ a proper name and select the external demand sou
 
 You have now allowed Adnuntis to send requests to your SSP, great job! But you still have to guide the external ad units to your ad server adunits. You do this via Line items. Your line item can be connected to an order called "Prebid - order" or something similar so that you can find them easily if you have many Line items. Like this:
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 In the line item you will define your goals for the header bidding. Namely start date, end date etc. You can also choose targeting in order to specify an area of your site / network that you wish to show or not show this line item to:
 
@@ -72,7 +71,7 @@ In the line item you will define your goals for the header bidding. Namely start
 
 The line item is a pretty standard line item but the real magic happens when you enter the creatives:
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 in the creatives section you will have to set a Name and make sure that you set the creative type to **External.** Once you have done that the layout changes so that you can select the the external demand source that you created and add an external adunit to be shown on this creative. The width and the height of this creative defines:
 

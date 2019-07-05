@@ -7,7 +7,9 @@
 * [Get Started with Videos](user-interface-guides/adnuntius-activation-start.md)
 * [Dashboards](user-interface-guides/dashboards.md)
 * [Advertising](user-interface-guides/advertising.md)
-* [Inventory](user-interface-guides/inventory.md)
+* [Inventory](user-interface-guides/inventory/README.md)
+  * [Adunits](user-interface-guides/inventory/adunits/README.md)
+    * [Targeting Options](user-interface-guides/inventory/adunits/targeting-options.md)
 * [Reports](user-interface-guides/reports.md)
 * [Admin](user-interface-guides/admin.md)
 
