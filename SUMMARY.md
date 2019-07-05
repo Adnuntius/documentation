@@ -25,34 +25,40 @@
   * [Utility Methods](adn.js/intro/adn-utility.md)
   * [Logging Options](adn.js/intro/adn-feedback.md)
 
+## HTTP delivery
+
+* [HTTP delivery](http-delivery/http-delivery.md)
+* [VAST 2.0](http-delivery/vast-2.0.md)
+
 ## API Guide
 
 * [HTTP Request](api-guide/http-api.md)
 * [API Requests](api-guide/api-requests.md)
 * [Targeting object](api-guide/targeting-object.md)
-* [/authenticate](api-guide/authenticate.md)
-* [/earningsaccounts](api-guide/earningsaccounts.md)
-* [/sitegroups](api-guide/sitegroups.md)
-* [/sites](api-guide/sites.md)
-* [/adunits](api-guide/adunits.md)
-* [/adunittags](api-guide/adunittags.md)
-* [/orders](api-guide/orders.md)
-* [/lineitems](api-guide/lineitems.md)
-* [/creatives](api-guide/creatives.md)
-* [/assets](api-guide/assets.md)
-* [/segments](api-guide/segments.md)
-* [/segments/upload](api-guide/segmentsupload.md)
-* [/segments/users/upload](api-guide/segmentsusersupload.md)
-* [/teams](api-guide/teams.md)
-* [/roles](api-guide/roles.md)
-* [/tiers](api-guide/tiers.md)
-* [/contextserviceconnections](api-guide/contextserviceconnections.md)
-* [/customeventtypes](api-guide/customeventtypes.md)
-* [/sspconnections](api-guide/sspconnections.md)
-* [/deliveryestimates](api-guide/deliveryestimates.md)
-* [/forecasts](api-guide/forecasts.md)
-* [/devices](api-guide/devices.md)
-* [/location](api-guide/location.md)
+* [Endpoints](api-guide/endpoints/README.md)
+  * [/authenticate](api-guide/endpoints/authenticate.md)
+  * [/earningsaccounts](api-guide/endpoints/earningsaccounts.md)
+  * [/sitegroups](api-guide/endpoints/sitegroups.md)
+  * [/sites](api-guide/endpoints/sites.md)
+  * [/adunits](api-guide/endpoints/adunits.md)
+  * [/adunittags](api-guide/endpoints/adunittags.md)
+  * [/orders](api-guide/endpoints/orders.md)
+  * [/lineitems](api-guide/endpoints/lineitems.md)
+  * [/creatives](api-guide/endpoints/creatives.md)
+  * [/assets](api-guide/endpoints/assets.md)
+  * [/segments](api-guide/endpoints/segments.md)
+  * [/segments/upload](api-guide/endpoints/segmentsupload.md)
+  * [/segments/users/upload](api-guide/endpoints/segmentsusersupload.md)
+  * [/teams](api-guide/endpoints/teams.md)
+  * [/roles](api-guide/endpoints/roles.md)
+  * [/tiers](api-guide/endpoints/tiers.md)
+  * [/contextserviceconnections](api-guide/endpoints/contextserviceconnections.md)
+  * [/customeventtypes](api-guide/endpoints/customeventtypes.md)
+  * [/sspconnections](api-guide/endpoints/sspconnections.md)
+  * [/deliveryestimates](api-guide/endpoints/deliveryestimates.md)
+  * [/forecasts](api-guide/endpoints/forecasts.md)
+  * [/devices](api-guide/endpoints/devices.md)
+  * [/location](api-guide/endpoints/location.md)
 
 ## Implementation Guides
 
@@ -60,11 +66,6 @@
 * [Header bidding implementation](implementation-guides/header-bidding-implementation.md)
 * [Tableau connection](implementation-guides/tableau-connection.md)
 * [Adnuntius Slider](implementation-guides/adnuntius-slider.md)
-
-## HTTP delivery
-
-* [HTTP delivery](http-delivery/http-delivery.md)
-* [VAST 2.0](http-delivery/vast-2.0.md)
 
 ## OneTruth
 
