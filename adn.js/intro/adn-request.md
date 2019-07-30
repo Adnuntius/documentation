@@ -91,9 +91,7 @@ The table below outlines how to tailor the basic adn.request call.
         ad server.</td>
       <td style="text-align:left">Defaults to <code>iframe</code>. Other options is <code>div</code>, which
         displays the ad content directly into the page. <b>Note:</b> only applies
-        to multi ad requests. See below for more information on multi ad requests. <b>Note:</b> is
-        currently an experimental feature and does not collect visibility or viewability
-        stats.</td>
+        to multi ad requests. See below for more information on multi ad requests.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>ps</code>
