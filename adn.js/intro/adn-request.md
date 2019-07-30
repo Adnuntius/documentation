@@ -16,15 +16,16 @@ This will do the following:
 
 The table below outlines how to tailor the basic adn.request call.
 
-<table>  <thead>
+<table>  
+    <thead>
   <tr>
-    <th>Parameter and Basic Description</th>
-    <th>Things of note</th>
+    <th style="text-align:left">Parameter and Basic Description</th>
+    <th style="text-align:left">Things of note</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>auId</code></p>
       <p>The ad unit id</p>
     </td>
@@ -33,18 +34,18 @@ The table below outlines how to tailor the basic adn.request call.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>auW</code> and <code>auH</code></p>
       <p>Ad unit's initial width and height before it receives an ad server response.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       Can be anything that works as a CSS value. <code>10</code>, <code>'10px'</code>, <code>'10%'</code>,
       <code>'10vh'</code> etc. are all valid. Can be set to 0 or
       unspecified if not wanting to reserve space for an ad in the page before one is received from the ad server.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>env</code></p>
       <p>Specifies which environment's ad server to use.</p>
     </td>
@@ -53,7 +54,7 @@ The table below outlines how to tailor the basic adn.request call.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>protocol</code></p>
       <p>Specifies whether to use <code>http</code> or <code>https</code> in the ad server request.</p>
     </td>
@@ -62,7 +63,7 @@ The table below outlines how to tailor the basic adn.request call.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>targetId</code></p>
       <p>Specifies which element ID in the page to insert an ad into.</p>
     </td>
@@ -75,11 +76,11 @@ The table below outlines how to tailor the basic adn.request call.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>targetClass</code></p>
       <p>Specifies the class by which to find an element to insert an ad into.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       <p>If more than one HTML element matches the CSS class specified, will cycle through the HTML elements until it finds an empty one in which to
         put the ad. If no empty
         HTML element is found, will fill the first HTML element found and put the ad there.</p>
@@ -88,50 +89,50 @@ The table below outlines how to tailor the basic adn.request call.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>display</code></p>
       <p>Defines what the value of the target element's CSS display property will be once an ad is requested.</p>
-    </td>
+    </td style="text-align:left">
     <td>
       Defaults to <code>block</code>.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>container</code></p>
       <p>Defines what kind of container in which to place the ad content from the ad server.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       Defaults to <code>iframe</code>. Other options is <code>div</code>, which displays the ad content directly into the page.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>ps</code></p>
       <p>Defines the maximum number of ads that the ad server returns to fill the ad unit, known as the page size.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       An integer is expected. If unspecified, will use the page size that the ad unit in Adnuntius specifies. If
       no page size is specified even there, there is no limit to the number of ads that can be returned to fill
       out the ad unit.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>collapsible</code></p>
       <p>Whether to collapse the space an ad unit takes up if no ad is received from the ad server.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       Defaults to <code>true</code>.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>resizeOnPageLoad</code></p>
       <p>Whether to resize the ad unit to the size of the ad unit content once the ad is received from the ad server
         and has been loaded.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       Defaults to <code>true</code>. By default, the ad unit will resize itself to match the size of the
       ad unit content as soon as an ad is received AND resize itself again to match the size of the ad unit
       content once all its content has finished loading. This parameter decides whether the ad unit will resize
@@ -139,100 +140,100 @@ The table below outlines how to tailor the basic adn.request call.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>useCookies</code></p>
       <p>Whether or not to use cookies to track unique users, impression caps and CPA. If not using cookies, user IDs and segments would need to be
         provided manually on each request.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       Defaults to <code>true</code>.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>floorPrice</code></p>
       <p>Specifies the ad unit floor price to be used, overriding the floor price of the Ad Unit within Adnuntius.</p>
     </td>
-    <td><code>floorPrice: {amount: 11.12, currency: 'SEK'}</code><br>A currency code and an amount must be specified for the floor price to be
+    <td style="text-align:left"><code>floorPrice: {amount: 11.12, currency: 'SEK'}</code><br>A currency code and an amount must be specified for the floor price to be
       considered valid.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>onImpressionResponse</code></p>
       <p>A function that is called once a response from the ad server has been received.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       Must be a function if it is to be called. Function will be called even if no ads have been returned.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>onPageLoad</code></p>
       <p>A function that is called once a response from the ad server has been received and all its content has been
         loaded into the page/iframe.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       Must be a function if it is to be called. Function will be called even if no ads have been returned.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>onNoMatchedAds</code></p>
       <p>A function that is called if no ads return from the ad server for a particular request.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       Must be a function if it is to be called. <strong>Note:</strong> only applies to multi ad requests. See below for more information on multi ad
       requests.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>onVisible</code></p>
       <p>A function that is called whenever an ad is visible in the user's browser.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       <p>Must be a function. Can be called multiple times if one ad unit request features multiple ads.</p>
       <p>Function is called with a parameter object with the following properties: <code>adId</code>, <code>auId</code>, <code>creativeId</code>,
         <code>viewability</code>, <code>widgetId</code></p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>onViewable</code></p>
       <p>A function that is called whenever an ad is considered viewable (at least 50% of the ad is shown for at least 1 second) in the user's
         browser.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       <p>Must be a function. Can be called multiple times if one ad unit request features multiple ads.</p>
       <p>Function is called with a parameter object with the following properties: <code>adId</code>, <code>auId</code>, <code>creativeId</code>,
         <code>viewability</code>, <code>widgetId</code></p>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>onError</code></p>
       <p>A function that is called whenever an error is returned from the ad server.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       <div>Must be a function. Function is called with a parameter object showing the error information.</div>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>clearTarget</code></p>
       <p>Whether or not to clear the target HTML element of all content before loading the ad into it.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       <div>Must be a boolean. Default is <code>false</code>.</div>
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>functionCalls</code></p>
       <p>An array of details that describe the functions to call in the content of the ads that the ad server has returned.</p>
       <p>The ad returned from the ad server must also register the functions that are available to be called.</p></td>
-    <td>
+    <td style="text-align:left">
       <p>If <code>functionCalls: [{name: 'nameOfFunction', args: {dataObj: 'data', dataObj2: 'more data'}}]</code> is specified in the ad request and
         <code>adn.inIframe.registerFunction({name: 'nameOfFunction', func: function(args) { // do something here } });</code>
         is specified in the ad, the function defined in <code>func</code> will be called with <code>{dataObj: 'data', dataObj2: 'more data'}</code> as
@@ -241,11 +242,11 @@ The table below outlines how to tailor the basic adn.request call.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>refresh</code></p>
       <p>Allows for the same ad request to be made multiple times after the returned ad is visible or viewable and with a delay.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       <p>Can be set simply as <code>refresh: 3</code>, which defaults to making the same ad request 3 seconds after the ad is viewable and doing so
         only once.</p>
       <p>For more fine-grained control, can be set as <code>refresh: {delay: 3, count: 5, event: 'onVisible'}</code>, which means the same ad request
@@ -255,11 +256,11 @@ The table below outlines how to tailor the basic adn.request call.
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="text-align:left">
       <p><code>replacements</code></p>
       <p>Allows for text replacements in your ad to be set in the browser code.</p>
     </td>
-    <td>
+    <td style="text-align:left">
       <p>Is set as <code>replacements: {adnReplaceName: 'George', adnReplaceAge: '15'}</code>, which will replace any <code>adnReplaceName</code> or
         <code>adnReplaceAge</code> string inside the ad with the supplied values.</p>
       <p>Can also be set as <code>replacements: {Name: 'George', Age: '15'}</code> and will also replace any <code>adnReplaceName</code> or <code>adnReplaceAge</code>
