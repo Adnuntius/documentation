@@ -225,7 +225,28 @@ The table below outlines how to tailor the basic adn.request call.
         <p>If <code>functionCalls</code> is specified and no corresponding function
           to call is found in the ad, the function calls will be ignored.</p>
       </td>
-    </tr>
+      </tr>
+  <tr>
+    <td><code>refresh</code></td>
+    <td>
+      <p>Allows for the same ad request to be made multiple times after the returned ad is visible or viewable and with a delay.</p>
+    </td>
+    <td>
+      <p>Can be set simply as <code>refresh: 3</code>, which defaults to making the same ad request 3 seconds after the ad is viewable and doing so only once.</p>
+      <p>For more fine-grained control, can be set as <code>refresh: {delay: 3, count: 5, event: 'onVisible'}</code>, which means the same ad request will be made 3 seconds after the returned ad is visible, and this process will be repeated five times.</p>
+      <p><code>delay</code> must be an integer that is 0 or greater; <code>event</code> can only be <code>onVisible</code> otherwise it defaults to <code>onViewable</code>; and <code>count</code> defaults to 1 if it's not an integer greater than 1.</p>
+    </td>
+  </tr>
+  <tr>
+    <td><code>replacements</code></td>
+    <td>
+      <p>Allows for text replacements in your ad to be set in the browser code.</p>
+    </td>
+    <td>
+      <p>Is set as <code>replacements: {adnReplaceName: 'George', adnReplaceAge: '15'}</code>, which will replace any <code>adnReplaceName</code> or <code>adnReplaceAge</code> string inside the ad with the supplied values.</p>
+      <p>Can also be set as <code>replacements: {Name: 'George', Age: '15'}</code> and will also replace any <code>adnReplaceName</code> or <code>adnReplaceAge</code> string inside the ad with the supplied values.</p>
+    </td>
+  </tr>
   </tbody>
 </table>## **Multi adn.request Calls**
 
@@ -279,7 +300,7 @@ On a multi adn.request call, some of the adn.request parameters need to be speci
 Here's how the split runs:
 
 * **Parameters specified on parent:** `method`, `usi`, `segments`, `ctx`, `longitude`, `latitude`, `excludedLineItems`, `excludedCreatives`, `onError`
-* **Parameters specified on either parent or ad unit:** `requestParams`, `siteId`, `floorPrice`, `resizeOnPageLoad`, `onImpressionResponse`, `onPageLoad`, `onNoMatchedAds`, `onVisible`, `onViewable`, `clearTarget`, `functionCalls`, `kv`, `c`
+* **Parameters specified on either parent or ad unit:** `requestParams`, `siteId`, `floorPrice`, `resizeOnPageLoad`, `onImpressionResponse`, `onPageLoad`, `onNoMatchedAds`, `onVisible`, `onViewable`, `clearTarget`, `functionCalls`, `replacements`, `kv`, `c`
 * **Parameters specified on the ad unit only:** those not listed above
 
 ## **Previewing an Ad**
