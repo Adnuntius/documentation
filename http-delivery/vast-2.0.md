@@ -6,13 +6,17 @@ description: >-
 
 # VAST 2.0
 
-In order to setup your ads correctly you will have to add a Line item with a Creative that supports VAST format.
+In order to setup your ads correctly you will have to add a Line item with a Creative that uses a *Video* layout.
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/layout.png)
 
-Secondly you will have to upload the information that will go into the vast document in the form that appears:
+If there are no existing Video Layouts, then you will need to first generate one. If you create a new blank layout, and select VAST 2 as the Layout Type, then an appropriate layout render template will be generated for you.
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/new_layout.png)
+
+Once you have selected a valid VAST layout for your creative, you will have to upload a video file and provide a click destination.
+
+![](../.gitbook/assets/upload_creative.png)
 
 
 
