@@ -70,4 +70,5 @@
 ## OneTruth
 
 * [javascript Collection](onetruth/javascript-collection.md)
+* [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
 
