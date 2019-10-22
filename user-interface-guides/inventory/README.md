@@ -1,5 +1,7 @@
 # Inventory
 
+The Inventory section is where you manage sites, site groups, earnings accounts and ad units. You can get an introduction to Inventory in this [Youtube](https://youtu.be/GKdVPUm__PY) video.
+
 ## Concept Summary
 
 | Name | Description |
