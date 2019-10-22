@@ -48,7 +48,7 @@ These items have descriptions further down on page.
 | ipAddressTarget | Object | [ipAddressTarget](http://docs.adnuntius.com/api/inventory/targeting-object#ipAddressTarget) |
 | siteGroupTarget | Object | [siteGroupTarget](http://docs.adnuntius.com/api/inventory/targeting-object#siteGroupTarget) |
 
-**Device target object**
+<a name="deviceTargets"></a>**Device target object**
 
 ```text
 {
