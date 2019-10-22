@@ -67,8 +67,9 @@
 * [Tableau connection](implementation-guides/tableau-connection.md)
 * [Adnuntius Slider](implementation-guides/adnuntius-slider.md)
 
-## OneTruth
+## Adnuntius Data
 
+* [Syncing CRM data](data/crm-sync.md)
 * [javascript Collection](onetruth/javascript-collection.md)
 * [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
 
