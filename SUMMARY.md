@@ -28,7 +28,7 @@
 ## HTTP delivery
 
 * [HTTP delivery](http-delivery/http-delivery.md)
-* [VAST 2.0](http-delivery/vast-2.0.md)
+* [VAST 2.0 and 3.0](http-delivery/vast-2.0.md)
 
 ## API Guide
 
