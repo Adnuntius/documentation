@@ -27,12 +27,11 @@
   * [Layout Support](adn.js/intro/adn-layout.md)
   * [Utility Methods](adn.js/intro/adn-utility.md)
   * [Logging Options](adn.js/intro/adn-feedback.md)
-* [HTTP delivery](http-delivery/http-delivery.md)
+* [HTTP delivery](api-guide/http-api.md)
 * [VAST 2.0 and 3.0](http-delivery/vast-2.0.md)
 
-## API Guide
+## Advertising API
 
-* [HTTP Request](api-guide/http-api.md)
 * [API Requests](api-guide/api-requests.md)
 * [Targeting object](api-guide/targeting-object.md)
 * [Endpoints](api-guide/endpoints/README.md)
@@ -59,16 +58,15 @@
   * [/devices](api-guide/endpoints/devices.md)
   * [/location](api-guide/endpoints/location.md)
 
-## Implementation Guides
-
-* [Send segments Cxense](implementation-guides/send-segments-cxense.md)
-* [Header bidding implementation](implementation-guides/header-bidding-implementation.md)
-* [Tableau connection](implementation-guides/tableau-connection.md)
-* [Adnuntius Slider](implementation-guides/adnuntius-slider.md)
-
 ## Adnuntius Data
 
 * [Syncing CRM data](data/crm-sync.md)
 * [javascript Collection](onetruth/javascript-collection.md)
 * [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
 
+## Implementation Guides
+
+* [Send segments Cxense](implementation-guides/send-segments-cxense.md)
+* [Header bidding implementation](implementation-guides/header-bidding-implementation.md)
+* [Tableau connection](implementation-guides/tableau-connection.md)
+* [Adnuntius Slider](implementation-guides/adnuntius-slider.md)
