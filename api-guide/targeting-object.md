@@ -32,7 +32,7 @@ These items have descriptions further down on page.
 
 | Name | Restriction | Description |
 | :--- | :--- | :--- |
-| deviceTargets | Array | [deviceTargets](#deviceTargets) |
+| deviceTargets | Array | [deviceTargets](#devicetargets) |
 | adUnitTarget | Object | [adUnitTarget](#adUnitTarget) |
 | userSegmentTargets | Array | [userSegmentTargets](http://docs.adnuntius.com/api/inventory/targeting-object#userSegmentTargets) |
 | dateTarget | Object | [dateTarget](http://docs.adnuntius.com/api/inventory/targeting-object#dateTarget) |
