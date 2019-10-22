@@ -6,7 +6,7 @@
 
 * [Video Guides](user-interface-guides/adnuntius-activation-start.md)
 
-## Adnuntius Advertising Admin UI
+## Advertising Admin UI
 
 * [Dashboards](user-interface-guides/dashboards.md)
 * [Advertising](user-interface-guides/advertising.md)
