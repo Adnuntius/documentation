@@ -55,8 +55,9 @@
 
 ## Adnuntius Data
 
-* [Syncing CRM data](data/crm-sync.md)
-* [javascript Collection](onetruth/javascript-collection.md)
+* Sending Data
+  * [Javascript](onetruth/javascript-collection.md)
+  * [HTTP](data/crm-sync.md)
 * [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
 
 ## Video Guides
