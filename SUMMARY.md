@@ -50,8 +50,8 @@
     * [Layout Support](adn.js/intro/adn-layout.md)
     * [Utility Methods](adn.js/intro/adn-utility.md)
     * [Logging Options](adn.js/intro/adn-feedback.md)
-  * [HTTP delivery](api-guide/http-api.md)
-  * [VAST 2.0 and 3.0](http-delivery/vast-2.0.md)
+  * [HTTP](api-guide/http-api.md)
+  * [VAST](http-delivery/vast-2.0.md)
 
 ## Adnuntius Data
 
