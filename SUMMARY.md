@@ -6,7 +6,9 @@
 
 * [Advertising Videos](user-interface-guides/adnuntius-activation-start.md)
 
-## Advertising Admin UI
+## Advertising
+
+### Admin UI
 
 * [Dashboards](user-interface-guides/dashboards.md)
 * [Advertising](user-interface-guides/advertising.md)
@@ -20,17 +22,7 @@
 * [Reports](user-interface-guides/reports.md)
 * [Admin](user-interface-guides/admin.md)
 
-## Requesting Ads
-
-* [Javascript](adn.js/intro/README.md)
-  * [Requesting an Ad](adn.js/intro/adn-request.md)
-  * [Layout Support](adn.js/intro/adn-layout.md)
-  * [Utility Methods](adn.js/intro/adn-utility.md)
-  * [Logging Options](adn.js/intro/adn-feedback.md)
-* [HTTP delivery](api-guide/http-api.md)
-* [VAST 2.0 and 3.0](http-delivery/vast-2.0.md)
-
-## Advertising API
+### Admin API
 
 * [API Requests](api-guide/api-requests.md)
 * [Targeting object](api-guide/targeting-object.md)
@@ -57,6 +49,16 @@
   * [/deliveryestimates](api-guide/endpoints/deliveryestimates.md)
   * [/devices](api-guide/endpoints/devices.md)
   * [/location](api-guide/endpoints/location.md)
+
+### Requesting Ads
+
+* [Javascript](adn.js/intro/README.md)
+  * [Requesting an Ad](adn.js/intro/adn-request.md)
+  * [Layout Support](adn.js/intro/adn-layout.md)
+  * [Utility Methods](adn.js/intro/adn-utility.md)
+  * [Logging Options](adn.js/intro/adn-feedback.md)
+* [HTTP delivery](api-guide/http-api.md)
+* [VAST 2.0 and 3.0](http-delivery/vast-2.0.md)
 
 ## Adnuntius Data
 
