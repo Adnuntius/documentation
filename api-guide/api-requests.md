@@ -206,18 +206,6 @@ Example:
 }
 ```
 
-Messages are used in a number of places within the system.
-
-| Message Type | Description |
-| :--- | :--- |
-| AuditMessage | Object Audit history messages from the audit resource |
-| ErrorMessage | Error details returned when an error occurs |
-| ForecastingMessage | Forecasting job progress messages |
-| NotificationMessage | Notification/alert messages from the notification resource |
-| ReportingMessage | Report execution status messages from the reports resource |
-| ValidationErrorMessage | Data validation error details - changes were not persisted |
-| ValidationWarningMessage | Data validation warning details - changes were persisted |
-
 ### Examples using [cURL](http://curl.haxx.se/) <a id="curl-examples"></a>
 
 This example uses [cURL](http://curl.haxx.se/) from a Linux terminal using [jq](https://stedolan.github.io/jq/) for json parsing.
