@@ -26,13 +26,11 @@ The basic structure of this object is shown below:
 }
 ```
 
-**Targeting object**
-
-These items have descriptions further down on page.
+Fields:
 
 | Name | Restriction | Description |
 | :--- | :--- | :--- |
-| deviceTargets | Array | [deviceTargets](#devicetargets) |
+| deviceTargets | Array | [deviceTargets](#device-targets) |
 | adUnitTarget | Object | [adUnitTarget](#adUnitTarget) |
 | userSegmentTargets | Array | [userSegmentTargets](http://docs.adnuntius.com/api/inventory/targeting-object#userSegmentTargets) |
 | dateTarget | Object | [dateTarget](http://docs.adnuntius.com/api/inventory/targeting-object#dateTarget) |
@@ -48,7 +46,7 @@ These items have descriptions further down on page.
 | ipAddressTarget | Object | [ipAddressTarget](http://docs.adnuntius.com/api/inventory/targeting-object#ipAddressTarget) |
 | siteGroupTarget | Object | [siteGroupTarget](http://docs.adnuntius.com/api/inventory/targeting-object#siteGroupTarget) |
 
-[**Device target object**](#devicetargets)
+## Device targets
 
 ```text
 {
