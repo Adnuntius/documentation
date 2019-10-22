@@ -4,7 +4,7 @@
 
 ## Video Guides
 
-* [Video Guides](user-interface-guides/adnuntius-activation-start.md)
+* [Advertising Videos](user-interface-guides/adnuntius-activation-start.md)
 
 ## Advertising Admin UI
 
