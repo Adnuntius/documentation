@@ -2,9 +2,12 @@
 
 * [Adnuntius Documentation](README.md)
 
+## Video Guides
+
+* [Video Guides](user-interface-guides/adnuntius-activation-start.md)
+
 ## Adnuntius Advertising Admin UI
 
-* [Get Started with Videos](user-interface-guides/adnuntius-activation-start.md)
 * [Dashboards](user-interface-guides/dashboards.md)
 * [Advertising](user-interface-guides/advertising.md)
 * [Inventory](user-interface-guides/inventory/README.md)
