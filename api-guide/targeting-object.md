@@ -32,8 +32,8 @@ These items have descriptions further down on page.
 
 | Name | Restriction | Description |
 | :--- | :--- | :--- |
-| deviceTargets | Array | [deviceTargets](http://docs.adnuntius.com/api/inventory/targeting-object#deviceTargets) |
-| adUnitTarget | Object | [adUnitTarget](http://docs.adnuntius.com/api/inventory/targeting-object#adUnitTarget) |
+| deviceTargets | Array | [deviceTargets](#deviceTargets) |
+| adUnitTarget | Object | [adUnitTarget](#adUnitTarget) |
 | userSegmentTargets | Array | [userSegmentTargets](http://docs.adnuntius.com/api/inventory/targeting-object#userSegmentTargets) |
 | dateTarget | Object | [dateTarget](http://docs.adnuntius.com/api/inventory/targeting-object#dateTarget) |
 | geospatialTargets | Array | [geospatialTargets](http://docs.adnuntius.com/api/inventory/targeting-object#geospatialTargets) |
