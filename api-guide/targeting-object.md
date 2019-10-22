@@ -561,7 +561,7 @@ The `id` of the sites can be found at this endpoint: [/sitegroups](endpoints/sit
 
 When posting targeting data only the id of the site is required.
 
-### Examples
+## Examples
 
 **A `GET` request for a targeting object:**
 
