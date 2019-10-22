@@ -1,5 +1,7 @@
 # Admin
 
+The Admin section is where you manage users, roles, teams, notification preferences, custom events, layouts, tiers, integrations and more. You can get an introduction to Admin in this [Youtube](https://youtu.be/6NEH2pegA1g) video.
+
 ## Users and User Profile
 
 The list of users are all users who have rights to perform certain actions \(as defined by [Roles](admin.md#roles)\) to certain parts of content \(as defined by [Teams](admin.md#teams)\). Here is how to create a new user.
