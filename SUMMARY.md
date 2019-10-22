@@ -2,7 +2,7 @@
 
 * [Adnuntius Documentation](README.md)
 
-## User Interface Guides
+## Adnuntius Advertising Admin UI
 
 * [Get Started with Videos](user-interface-guides/adnuntius-activation-start.md)
 * [Dashboards](user-interface-guides/dashboards.md)
@@ -17,16 +17,13 @@
 * [Reports](user-interface-guides/reports.md)
 * [Admin](user-interface-guides/admin.md)
 
-## adn.js
+## Requesting Ads
 
-* [Overview](adn.js/intro/README.md)
+* [Javascript](adn.js/intro/README.md)
   * [Requesting an Ad](adn.js/intro/adn-request.md)
   * [Layout Support](adn.js/intro/adn-layout.md)
   * [Utility Methods](adn.js/intro/adn-utility.md)
   * [Logging Options](adn.js/intro/adn-feedback.md)
-
-## HTTP delivery
-
 * [HTTP delivery](http-delivery/http-delivery.md)
 * [VAST 2.0 and 3.0](http-delivery/vast-2.0.md)
 
