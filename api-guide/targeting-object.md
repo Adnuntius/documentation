@@ -74,7 +74,7 @@ Fields:
 }
 ```
 
-The device targets can be found with it's endpoint [/devices](http://docs.adnuntius.com/api/others/devices).
+The device targets can be found with it's endpoint [/devices](endpoints/devices.md).
 
 | Name | Data type | Values |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@ The device targets can be found with it's endpoint [/devices](http://docs.adnunt
 }
 ```
 
-The `id` of the ad units can be found at this endpoint: [/adunits](http://docs.adnuntius.com/api/inventory/adunits).
+The `id` of the ad units can be found at this endpoint: [/adunits](endpoints/adunits.md).
 
 When posting targeting data only the id of the adunit is required.
 
@@ -122,7 +122,7 @@ When posting targeting data only the id of the adunit is required.
 }
 ```
 
-The `id` of the segments can be found hereat this endpoint: [/segments](http://docs.adnuntius.com/api/advertising/segments).
+The `id` of the segments can be found hereat this endpoint: [/segments](endpoints/segments.md).
 
 When posting targeting data only the id of the adunit is required.
 
@@ -307,7 +307,7 @@ The polygons follow the format of [GeoJson](https://en.wikipedia.org/wiki/GeoJSO
 }
 ```
 
-The `id` of the sites can be found at this endpoint: [/sites](http://docs.adnuntius.com/api/inventory/sites).
+The `id` of the sites can be found at this endpoint: [/sites](endpoints/sites.md).
 
 When posting targeting data only the id of the site is required.
 
@@ -391,7 +391,7 @@ For matching labels to work you will need to divide the targeting into separate 
 }
 ```
 
-The `id` of the location can be found at this endpoint: [/location](http://docs.adnuntius.com/api/others/location).
+The `id` of the location can be found at this endpoint: [/location](endpoints/location.md).
 
 When posting targeting data only the id of the location is required.
 
@@ -560,7 +560,7 @@ Contains `addresses` which is a comma seperated array of IP values. You can add 
 }
 ```
 
-The `id` of the sites can be found at this endpoint: [/sitegroups](http://docs.adnuntius.com/api/inventory/sitegroups).
+The `id` of the sites can be found at this endpoint: [/sitegroups](endpoints/sitegroups.md).
 
 When posting targeting data only the id of the site is required.
 
