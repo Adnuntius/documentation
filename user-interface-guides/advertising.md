@@ -9,7 +9,6 @@
 | Line item | Determines start and end dates, delivery objectives \(impressions, clicks or conversions\), pricing, targeting, creative delivery and prioritization. One line item can contain multiple creatives. |
 | Creative | The material shown to the end user. Can consist of various assets such as images, text and videos. |
 | Reach analysis | An analysis you can run to quickly estimate the volume of matching traffic for a line item.  Does not consider tiers or bids, nor competing line items. |
-| Forecast | An analysis you can run to obtain a detailed estimate of available impressions, taking competing line items, targeting, tiers and bids into account. |
 
 ## Advertiser
 
@@ -410,18 +409,3 @@ If you have packages you often sell \(for instance ad products consisting of set
 > Of those impressions above, between **443 047** and **517 135** impressions would face no competition from other line items.
 
 88.46% means that, with the ad units and targeting you provided, you will reach 88.46% of all the ad  impressions you can serve with Adnuntius. Furthermore, you will see the range of impressions and rendered impressions you will be able to serve. Lastly, you will see that with only 443 047 to 517 135 impression being without competition from other line items, there are certainly competitors for the impressions you are trying to book for the line item. These competitors are listed in the reach analysis result too. In the list you will find the overlap, so that you can see which campaigns you can make changes to in order to free up more space. 
-
-## Forecasts
-
-If you need better details and more accuracy in your forecasting compared to reach analyses, you can run a forecast.A forecast is an analysis that takes a bit more time, but that you can run to obtain a detailed estimate of available impressions, taking competing line items, targeting, tiers and bids into account.
-
-The information you fill in to create a forecast are explained in the line item section, so feel free to [visit the line item section](advertising.md#line-item) if you are not sure what each field means. The following explains how to interpret the results.
-
-![Example forecast](../.gitbook/assets/201811-advertising-forecast.png)
-
-**Forecast delivery:** In the result you will see _Available impressions_ and _Forecast delivery_. Available impressions means the number of impressions that are available for the upcoming period given your targeting and creative sizes, but not taking into account the competing line items for the same ad units. Forecast delivery however, is the number of impressions you can expect to deliver unless you change other line items that compete for the same traffic. 
-
-**Allocation analysis** shows you what share of the available impressions will be delivered per day, per targeting criteria. In the example above we just used site targeting, but the more you add, the more detail you get. 
-
-**Impact analysis** shows the line items competing for the same impressions, what share of traffic is overlapping between your forecast and each of the competitors, and how each competitor will be impacted in the period if you choose to create a line item from the forecast.
-
