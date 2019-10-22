@@ -1,6 +1,6 @@
 # Targeting object
 
-The targeting object is provided as part of the API call when creating [line items](http://docs.adnuntius.com/api/advertising/line-item) and [creatives](http://docs.adnuntius.com/api/advertising/creatives).
+The targeting object is provided as part of the API call when creating [line items](endpoints/lineitems.md) and [creatives](endpoints/creatives.md).
 The basic structure of this object is shown below:
 
 ```text
