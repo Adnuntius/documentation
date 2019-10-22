@@ -2,4 +2,4 @@
 
 Welcome to Adnuntius Documentation.
 
-Please use the menu on the left-hand side to navigate.
+Please use the menus to navigate to a topic.
