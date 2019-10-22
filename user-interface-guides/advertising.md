@@ -1,5 +1,7 @@
 # Advertising
 
+The Advertising section is where you manage advertisers, orders, line items, creatives and explore available inventory. You can get an introduction to advertising in this [Youtube](https://www.youtube.com/watch?v=2Wk2INyWRa4) video.
+
 ## Concept Summary
 
 | Concept  | Description |
