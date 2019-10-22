@@ -99,9 +99,6 @@ The device targets can be found with it's endpoint [/devices](endpoints/devices.
 
 The `id` of the ad units can be found at this endpoint: [/adunits](endpoints/adunits.md).
 
-When posting targeting data only the id of the adunit is required.
-
-
 
 ## Segment targets
 
