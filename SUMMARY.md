@@ -2,10 +2,6 @@
 
 * [Adnuntius Documentation](README.md)
 
-## Video Guides
-
-* [Advertising Videos](user-interface-guides/adnuntius-activation-start.md)
-
 ## Adnuntius Advertising
 
 * Admin UI
@@ -62,6 +58,10 @@
 * [Syncing CRM data](data/crm-sync.md)
 * [javascript Collection](onetruth/javascript-collection.md)
 * [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
+
+## Video Guides
+
+* [Advertising Videos](user-interface-guides/adnuntius-activation-start.md)
 
 ## Implementation Guides
 
