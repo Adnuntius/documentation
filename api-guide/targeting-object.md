@@ -31,20 +31,20 @@ Fields:
 | Name | Restriction | Description |
 | :--- | :--- | :--- |
 | deviceTargets | Array | [deviceTargets](#device-targets) |
-| adUnitTarget | Object | [adUnitTarget](#adUnitTarget) |
-| userSegmentTargets | Array | [userSegmentTargets](http://docs.adnuntius.com/api/inventory/targeting-object#userSegmentTargets) |
-| dateTarget | Object | [dateTarget](http://docs.adnuntius.com/api/inventory/targeting-object#dateTarget) |
-| geospatialTargets | Array | [geospatialTargets](http://docs.adnuntius.com/api/inventory/targeting-object#geospatialTargets) |
-| keyValueTargets | Array | [keyValueTargets](http://docs.adnuntius.com/api/inventory/targeting-object#keyValueTargets) |
-| siteTarget | Object | [siteTarget](http://docs.adnuntius.com/api/inventory/targeting-object#siteTarget) |
-| adUnitMatchingLabelTargets | Array | [adUnitMatchingLabelTargets](http://docs.adnuntius.com/api/inventory/targeting-object#adUnitMatchingLabelTargets) |
-| categoryTargets | Array | [categoryTargets](http://docs.adnuntius.com/api/inventory/targeting-object#categoryTargets) |
-| namedLocationTarget | Object | [namedLocationTarget](http://docs.adnuntius.com/api/inventory/targeting-object#namedLocationTarget) |
-| dayPartingTargets | Array | [dayPartingTargets](http://docs.adnuntius.com/api/inventory/targeting-object#dayPartingTargets) |
-| retargetingTargets | Array | [retargetingTargets](http://docs.adnuntius.com/api/inventory/targeting-object#retargetingTargets) |
-| keywordTargets | Array | [keywordTargets](http://docs.adnuntius.com/api/inventory/targeting-object#keywordTargets) |
-| ipAddressTarget | Object | [ipAddressTarget](http://docs.adnuntius.com/api/inventory/targeting-object#ipAddressTarget) |
-| siteGroupTarget | Object | [siteGroupTarget](http://docs.adnuntius.com/api/inventory/targeting-object#siteGroupTarget) |
+| adUnitTarget | Object | [adUnitTarget](#ad-unit-targets) |
+| userSegmentTargets | Array | [userSegmentTargets](#segment-targets) |
+| dateTarget | Object | [dateTarget](#date-targets) |
+| geospatialTargets | Array | [geospatialTargets](#geospatial-targets) |
+| keyValueTargets | Array | [keyValueTargets](#keyvalue-targets) |
+| siteTarget | Object | [siteTarget](#site-targets) |
+| adUnitMatchingLabelTargets | Array | [adUnitMatchingLabelTargets](#ad-unit-matchin-label-targets) |
+| categoryTargets | Array | [categoryTargets](#category-targets) |
+| namedLocationTarget | Object | [namedLocationTarget](#location-targets) |
+| dayPartingTargets | Array | [dayPartingTargets](#day-parting-targets) |
+| retargetingTargets | Array | [retargetingTargets](#retargeting-targets) |
+| keywordTargets | Array | [keywordTargets](#keyword-targets) |
+| ipAddressTarget | Object | [ipAddressTarget](#ip-targets) |
+| siteGroupTarget | Object | [siteGroupTarget](#site-group-targets) |
 
 ## Device targets
 
@@ -84,7 +84,7 @@ The device targets can be found with it's endpoint [/devices](http://docs.adnunt
 
 
 
-**Ad unit target object**
+## Ad unit targets
 
 ```text
 {
@@ -103,7 +103,7 @@ When posting targeting data only the id of the adunit is required.
 
 
 
-**Segment target object**
+## Segment targets
 
 ```text
 {
@@ -128,7 +128,7 @@ When posting targeting data only the id of the adunit is required.
 
 
 
-**Date target object**
+## Date targets
 
 ```text
 {
@@ -163,7 +163,7 @@ All dates must be specified as follows: `yyyy-mm-ddThh:mm:ss`.
 
 
 
-**Date target object**
+## Geospatial targets
 
 ```text
 {
@@ -244,7 +244,7 @@ The polygons follow the format of [GeoJson](https://en.wikipedia.org/wiki/GeoJSO
 
 
 
-**Key value target object**
+## Key value targets
 
 ```text
 {
@@ -294,7 +294,7 @@ The polygons follow the format of [GeoJson](https://en.wikipedia.org/wiki/GeoJSO
 
 
 
-**site target object**
+## Site targets
 
 ```text
 {
@@ -313,7 +313,7 @@ When posting targeting data only the id of the site is required.
 
 
 
-**Ad unit matching label target object**
+## Ad unit matching label targets
 
 ```text
 {
@@ -337,8 +337,7 @@ The ad unit matching labels has to be present on the ad unit for the matching la
 For matching labels to work you will need to divide the targeting into separate objects as specified above.
 
 
-
-**Category target object**
+## Category targets
 
 ```text
 {
@@ -378,7 +377,7 @@ For matching labels to work you will need to divide the targeting into separate 
 
 
 
-**Named location target object**
+## Location targets
 
 ```text
 {
@@ -398,7 +397,7 @@ When posting targeting data only the id of the location is required.
 
 
 
-**Named location target object**
+## Day parting targets
 
 ```text
 {
@@ -454,7 +453,7 @@ The daypart object is divided in these paramters:
 
 
 
-**Retarget object**
+## Keyword targets
 
 ```text
 {
@@ -491,8 +490,7 @@ The daypart object is divided in these paramters:
 * `AND-NOT`are speccified with `notEntries` as listed above.
 
 
-
-**Retarget object**
+## Retargeting targets
 
 ```text
 {
@@ -532,8 +530,7 @@ The daypart object is divided in these paramters:
 * `AND-NOT`are speccified with `notEntries` as listed above.
 
 
-
-**IP address target object**
+## IP targets
 
 ```text
 {
@@ -550,7 +547,7 @@ Contains `addresses` which is a comma seperated array of IP values. You can add 
 
 
 
-**site group target object**
+## Site group targets
 
 ```text
 {
