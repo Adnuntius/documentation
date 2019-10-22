@@ -56,7 +56,6 @@
   * [/customeventtypes](api-guide/endpoints/customeventtypes.md)
   * [/sspconnections](api-guide/endpoints/sspconnections.md)
   * [/deliveryestimates](api-guide/endpoints/deliveryestimates.md)
-  * [/forecasts](api-guide/endpoints/forecasts.md)
   * [/devices](api-guide/endpoints/devices.md)
   * [/location](api-guide/endpoints/location.md)
 
