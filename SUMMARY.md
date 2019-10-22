@@ -57,7 +57,7 @@
 
 * Sending Data
   * [Javascript](onetruth/javascript-collection.md)
-  * [HTTP](data/crm-sync.md)
+  * [HTTP](data/http.md)
 * [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
 
 ## Video Guides
