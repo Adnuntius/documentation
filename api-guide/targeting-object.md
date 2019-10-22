@@ -1,6 +1,7 @@
 # Targeting object
 
-Since the targeting object is quite massive it will be broken down to its own sectoion. This will be used while doing a [forecast](http://docs.adnuntius.com/api/forecasting/forecasts) or to define targets for [line items](http://docs.adnuntius.com/api/advertising/line-item) or [creatives](http://docs.adnuntius.com/api/advertising/creatives).
+The targeting object is provided as part of the API call when creating [line items](http://docs.adnuntius.com/api/advertising/line-item) and [creatives](http://docs.adnuntius.com/api/advertising/creatives).
+The basic structure of this object is shown below:
 
 ```text
 
