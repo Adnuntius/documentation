@@ -1,5 +1,5 @@
 ---
-description: This page describes how to use the HTTP API to send visitor profile information to Adnuntius Data
+description: Describes how to use the HTTP API to send visitor profile information to Adnuntius Data
 ---
 
 # HTTP API Adnuntius Data
