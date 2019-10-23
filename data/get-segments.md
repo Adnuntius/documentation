@@ -1,3 +1,6 @@
+---
+description: Describes how to retrieve user segments using the Javascript API
+---
 
 ## Retrieving user segments in browser
 
