@@ -8,7 +8,18 @@ Adnuntius Data holds a *Visitor Profile* record for each of your users. Each pro
 
 ## Fields
 
-You can view all of the fields available to you within the Adnuntius Data admin UI. The list of fields is also available via the Adnuntius API.
+A *partial* list of the available fields is provided in the table below. See the [Data Types](#data-types) section for further details about the field data types.
+
+| Field Name | Data Type | Description | Example |
+| :--- | :--- | :--- | :--- |
+| `firstName` | `Text` | First Name	| `"John"` |
+| `lastName` | `Text` | Last Name	| `"Nguyen"` |
+| `title` |	`Text` | Title | `"Mr"`, `"Mrs"`, `"Dr"`, `"Captain"`, etc |
+| `dateOfBirth` |	`Date` | Date of Birth | `"1990-05-01"` |
+
+You can view the **full** list of available fields within the Adnuntius Data admin UI. This list is also available via the Adnuntius API.
+
+## Data Types
 
 The different fields may be one of the following data types:
 
