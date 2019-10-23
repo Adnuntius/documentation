@@ -56,8 +56,8 @@
 ## Adnuntius Data
 
 * Sending Data
-  * [Javascript](onetruth/javascript-collection.md)
-  * [HTTP](data/http.md)
+  * [Javascript API](onetruth/javascript-collection.md)
+  * [HTTP API](data/http.md)
 * [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
 
 ## Video Guides
