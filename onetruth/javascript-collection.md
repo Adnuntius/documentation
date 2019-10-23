@@ -14,7 +14,7 @@ First you'll have to load the tag generetade from the user interface:
 
 Secondly you'dd have to assign the variables to find them on the site.
 
-```markup
+```javascript
 <script type="text/javascript" src="https://cdn.adnuntius.com/adn.js" async></script>
 <script type="text/javascript">
     window.adn = window.adn || {};
