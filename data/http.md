@@ -4,7 +4,7 @@ description: Describes how to use the HTTP API to send visitor profile informati
 
 # HTTP API Adnuntius Data
 
-You can send use profile information to Adnuntius Data using the HTTP API. This may be used, for example, to sync data from an external CRM into Adnuntius. If you are sending profile data from a user's browser, then you should use our [Javascript API](../onetruth/javascript-collection.md).
+The HTTP API enables you to send user profile information to Adnuntius Data. This may be used, for example, to sync data from an external CRM into Adnuntius. If you are sending profile data from a user's browser, then you should use our [Javascript API](../onetruth/javascript-collection.md).
 
 We support two different types of requests, [asynchronous](#asynchronous-requests) and [synchronous](#synchronous-requests). Both request methods expect data to be provided using the same request [object](#request-object) format.
 
@@ -38,5 +38,30 @@ Data is send to Adnuntius using a HTTP POST request, with a JSON payload contain
 ```
 
 ## Asynchronous Requests
+
+Asynchronous requests are used to quickly send a lot of data to Adnuntius. There is only minimal validation performed on the request before returning a response. The requests are placed into a queue and processed asynchronously by the system. This asynchronous processing means that you can send data far more quickly, but you will not get confirmation that the data was successfully stored by the system.
+
+Asynchronous requests are sent to Adnuntius Data using the following URL:
+
+`https://data.adnuntius.com/visitor`
+
+If the request is received correctly, an HTTP 200 status code will be returned. Remember, however, that a successful return status does *not* mean that the profile has been successfully stored by Adnuntius. If you would rather wait for confirmation that the record has been stored, you should instead use the [synchronous](#synchronous-requests) API.
+
+### Example cURL request
+
+This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a profile update is sent to Adnuntius Data.
+
+```
+curl https://data.adnuntius.com/visitor -d '{
+  "externalSystemType": "my_crm",
+  "externalSystemUserId": "123hfy4658f",
+  "networkId": "my_network",
+  "profileValues": {
+    "firstName": "Bruce",
+    "exampleNumber": 1234,
+    "educationStartYear": "2001-12-31",
+    "lastTransaction": "2019-12-31T00:00:00.000Z"
+  }' 
+```
 
 ## Synchronous Requests
