@@ -1,5 +1,5 @@
 ---
-description: This page will tell you how to do a push to the collect endpoint‌
+description: Describes how to send information to Adnuntius Data from a user's browser
 ---
 
 # javascript Collection
