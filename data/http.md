@@ -16,10 +16,10 @@ Data is send to Adnuntius using a HTTP POST request, with a JSON payload contain
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
-| externalSystemType | String | The unique identifier, configured in Adnuntius, that corresponds to the external system providing the data, e.g. CRM name etc  |
-| externalSystemUserId | String | The unique identifier for the user in the external system |
-| networkId | String | The unique Adnuntius network identifier for your account |
-| profileValues | Object | An object containing the profile field names and data to update |
+| `externalSystemType` | String | The unique identifier, configured in Adnuntius, that corresponds to the external system providing the data, e.g. CRM name etc  |
+| `externalSystemUserId` | String | The unique identifier for the user in the external system |
+| `networkId` | String | The unique Adnuntius network identifier for your account |
+| `profileValues` | Object | An object containing the profile field names and data to update |
 
 ### Example request object
 
