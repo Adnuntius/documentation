@@ -1,4 +1,3 @@
-
 ---
 description: This page describes how to use the HTTP API to send visitor profile information to Adnuntius Data
 ---
