@@ -65,3 +65,28 @@ curl https://data.adnuntius.com/visitor -d '{
 ```
 
 ## Synchronous Requests
+
+Synchronous requests are used when you need to receive confirmation that an update has been correctly received and stored by Adnuntius data.
+
+Asynchronous requests are sent to Adnuntius Data using the following URL:
+
+`https://data.adnuntius.com/synchronous/visitor`
+
+If the request is received correctly and the record successfully created or updated, an HTTP 200 status code will be returned.
+
+### Example cURL request
+
+This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a synchronous profile update is sent to Adnuntius Data.
+
+```
+curl https://data.adnuntius.com/synchronous/visitor -d '{
+  "externalSystemType": "my_crm",
+  "externalSystemUserId": "123hfy4658f",
+  "networkId": "my_network",
+  "profileValues": {
+    "firstName": "Bruce",
+    "exampleNumber": 1234,
+    "educationStartYear": "2001-12-31",
+    "lastTransaction": "2019-12-31T00:00:00.000Z"
+  }' 
+```
