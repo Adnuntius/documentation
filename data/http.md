@@ -30,9 +30,8 @@ Data is send to Adnuntius using a HTTP POST request, with a JSON payload contain
   "networkId": "my_network",
   "profileValues": {
     "firstName": "Bruce",
-    "exampleNumber": 1234,
-    "educationStartYear": "2001-12-31",
-    "lastTransaction": "2019-12-31T00:00:00.000Z"
+    "educationStartYear": 2001,
+    "lastTransaction": "2019-12-31T00:00:00Z"
   }
 }
 ```
@@ -58,9 +57,8 @@ curl https://data.adnuntius.com/visitor -d '{
   "networkId": "my_network",
   "profileValues": {
     "firstName": "Bruce",
-    "exampleNumber": 1234,
-    "educationStartYear": "2001-12-31",
-    "lastTransaction": "2019-12-31T00:00:00.000Z"
+    "educationStartYear": 2001,
+    "lastTransaction": "2019-12-31T00:00:00Z"
   }' 
 ```
 
