@@ -10,6 +10,21 @@ We support two different types of requests, [asynchronous](#asynchronous-request
 
 ## Request object
 
+Data is send to Adnuntius using a HTTP POST request, with the following format:
+
+```
+{
+  "externalSystemType": "",
+  "externalSystemUserId": "",
+  "networkId": "",
+  "profileValues": {
+    "exampleString": "",
+    "exampleNumber": 1234,
+    "exampleDate": "2019-12-31",
+    "exampleTimeStamp": "2019-12-31T00:00:00.000Z"
+  }
+}
+```
 
 
 ## Asynchronous Requests
