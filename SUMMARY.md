@@ -58,6 +58,7 @@
 * Sending Data
   * [Javascript API](onetruth/javascript-collection.md)
   * [HTTP API](data/http.md)
+  * [Profile Fields](data/fields.md)
 * Retrieving Data
   * [User Segments](data/get-segments.md)
 * [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
