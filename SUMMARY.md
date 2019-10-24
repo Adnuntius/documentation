@@ -56,7 +56,7 @@
 ## Adnuntius Data
 
 * Sending Data
-  * [Javascript API](onetruth/javascript-collection.md)
+  * [Javascript API](data/javascript.md)
   * [HTTP API](data/http.md)
   * [Profile Fields](data/fields.md)
 * Retrieving Data
