@@ -1,12 +1,11 @@
 ---
 description: >-
-  This section will tell you how to setup Adnuntius to deliver VAST
-  documents to your video player
+  Describes how to deliver VAST documents to your video player
 ---
 
 # VAST
 
-You create a VAST video advertisement in Adnuntius by creating a Line Item with a Creative that uses a _Video_ Layout.
+You create a VAST video advertisement, e.g. a pre-roll, in Adnuntius by creating a Line Item with a Creative that uses a _Video_ Layout.
 
 ![](../.gitbook/assets/video_creative.gif)
 
