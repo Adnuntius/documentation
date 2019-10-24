@@ -23,4 +23,5 @@ The example below provides a demonstration of how a profile update can be sent t
 </script>
 ```
 
+See the section on [Profile fields](fields.md) for more information about what data can be sent with the profile update request.
 
