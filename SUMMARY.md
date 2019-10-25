@@ -61,6 +61,8 @@
   * [Profile Fields](data/fields.md)
 * Retrieving Data
   * [User Segments](data/get-segments.md)
+* User Synchronisation
+  * [Profile Matching](data/sync.md)
 * [CMP Integrations in GTM](onetruth/cmp-integrations-in-gtm.md)
 
 ## Video Guides
