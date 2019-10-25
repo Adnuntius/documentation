@@ -12,7 +12,7 @@ drive user classification and segmentation.
 
 ## Example
 
-The example below shows a javascript code snippet that can be used to match a user browsing your website with data uploaded to Adnuntius from an external system such as a CRM. Descriptions of the parameters used in the code example are provided in the following table.
+The example below shows a javascript code snippet that can be used to match a user browsing your website with data uploaded to Adnuntius from an external system, such as a CRM. Descriptions of the parameters used in the code example are provided in the following table.
 
 ```javascript
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
@@ -20,7 +20,7 @@ The example below shows a javascript code snippet that can be used to match a us
     window.adn = window.adn || {};
     adn.calls = adn.calls || [];
     adn.calls.push(function() {
-        adn.sync('folder_id', 'crm_id', 'crm_user_id');
+        adn.sync('folder_id', 'system_id', 'system_user_id');
     });
 </script>
 ```
