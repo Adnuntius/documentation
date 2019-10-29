@@ -31,7 +31,7 @@ The example below shows a javascript code snippet that can be used to match a us
 | Parameter | Value in the above example | Description |
 | :--- | :--- | :--- |
 | Folder Id | `folderId` | The folder identifier from Adnuntius Data |
-| External System Type | `systemId` | The unique identifier, configured in Adnuntius Data, for the external system you are synchronising with |
+| External System Type | `systemId` | A unique identifier, e.g. CRM name, for the external system you are synchronising with |
 | External System User Id | `systemUserId` | The unique user identifier for the current user in the external system |
 
 After running the above code, profile updates from the user's browser *and* from the CRM will both be written to the same shared record. 
