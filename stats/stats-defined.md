@@ -6,7 +6,7 @@ Here's what they each mean.
 
 ## Advertising Stats
 
-Note: take the deep dive on impression stats for more detailed information about them.
+Note: take [the deep dive on impression stats for more detailed information](impression-types.md) about them.
 
 * **Impressions:** counts each time an ad is served by our Adnuntius ad server.
 * **Rendered impressions:** counts each time an ad is rendered into a web page.
@@ -25,7 +25,7 @@ Average auction rank can be greater than 1 only when an ad is delivered via ad u
 
 ## Publishing Stats
 
-Note: take the deep dive on impression stats for more detailed information about them.
+Note: take [the deep dive on impression stats for more detailed information](impression-types.md) about them.
 
 * **Requests:** counts each time an ad unit has received a request for an ad.
 * **Positive Requests:** counts each time at least one ad has been delivered to an ad unit to fulfil an ad request.
