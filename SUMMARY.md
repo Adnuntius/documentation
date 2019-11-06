@@ -46,6 +46,7 @@
     
 * Stats   
   * [The Stats Defined](stats/stats-defined.md)
+  * [The Four Kinds of Impressions](stats/impression-types.md)
 
 * Requesting Ads
   * [Javascript](adn.js/intro/README.md)
