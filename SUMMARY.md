@@ -45,7 +45,7 @@
     * [/location](api-guide/endpoints/location.md)
     
 * Stats   
-  * [Stats](stats/stats-defined.md)
+  * [The Stats Defined](stats/stats-defined.md)
 
 * Requesting Ads
   * [Javascript](adn.js/intro/README.md)
