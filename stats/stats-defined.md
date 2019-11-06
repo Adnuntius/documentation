@@ -1,8 +1,8 @@
 # The Stats Defined
 
-There are three kinds of stats recorded, each with some overlap: advertising stats, publishing stats and external ad unit stats.
+There are three families of stats recorded, each with some overlap: advertising stats, publishing stats and external ad unit stats.
 
-Here's what they each mean.
+Here's what is recorded in each stats family.
 
 ## Advertising Stats
 
@@ -20,7 +20,6 @@ Note: take [the deep dive on impression stats for more detailed information](imp
 * **eCPM (effective cost per mille):** the effective cost of an ad expressed as a CPM price. This applies even if clicks or actions are the cost basis for an ad rather than impressions.
 * **Cost:** the actual cost of having delivered an ad.
 * **Average Auction Rank:** the ad's ranking in an ad unit's auction results. If an ad is only ever delivered on ad units that serve only one ad at a time, this figure will only ever be 0 (meaning the ad has never been served) or 1 (meaning the ad has only ever been served in the primary position).
-
 Average auction rank can be greater than 1 only when an ad is delivered via ad units that serve more than one ad at a time, which is when the ad unit's page size is greater than one. So if an ad has been delivering half the time in second place and half the time in third place on a particular ad unit, its average auction rank will be 2.5.
 
 ## Publishing Stats
