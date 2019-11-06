@@ -43,6 +43,9 @@
     * [/deliveryestimates](api-guide/endpoints/deliveryestimates.md)
     * [/devices](api-guide/endpoints/devices.md)
     * [/location](api-guide/endpoints/location.md)
+    
+* Stats   
+  * [Stats](stats/stats-defined.md)
 
 * Requesting Ads
   * [Javascript](adn.js/intro/README.md)
