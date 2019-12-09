@@ -63,7 +63,7 @@ Give the new _external ad unit_ a proper name and select the external demand sou
 
 You have now allowed Adnuntis to send requests to your SSP, great job! But you still have to guide the external ad units to your ad server adunits. You do this via Line items. Your line item can be connected to an order called "Prebid - order" or something similar so that you can find them easily if you have many Line items. Like this:
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 In the line item you will define your goals for the header bidding. Namely start date, end date etc. You can also choose targeting in order to specify an area of your site / network that you wish to show or not show this line item to:
 
@@ -71,7 +71,7 @@ In the line item you will define your goals for the header bidding. Namely start
 
 The line item is a pretty standard line item but the real magic happens when you enter the creatives:
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 in the creatives section you will have to set a Name and make sure that you set the creative type to **External.** Once you have done that the layout changes so that you can select the the external demand source that you created and add an external adunit to be shown on this creative. The width and the height of this creative defines:
 
