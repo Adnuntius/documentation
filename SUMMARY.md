@@ -77,3 +77,10 @@
 * [Tableau connection](implementation-guides/tableau-connection.md)
 * [Adnuntius Slider](implementation-guides/adnuntius-slider.md)
 
+## Adnuntius Privacy
+
+* [Using the IAB module](adnuntius-privacy/using-the-iab-module/README.md)
+  * [Purposes](adnuntius-privacy/using-the-iab-module/purposes.md)
+  * [Languages](adnuntius-privacy/using-the-iab-module/languages.md)
+  * [Publish](adnuntius-privacy/using-the-iab-module/publish.md)
+
