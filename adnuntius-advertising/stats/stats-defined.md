@@ -29,6 +29,7 @@ Note: take [the deep dive on impression stats for more detailed information](imp
 
 * **Requests:** counts each time an ad unit has received a request for an ad.
 * **Positive Requests:** counts each time at least one ad has been delivered to an ad unit to fulfil an ad request.
+* **Rejected Bids:** counts each time internal line items did not have a high enough bid to meet the floor price.
 * **Match rate:** positive requests divided by requests.
 * **Impressions:** counts the number of ads delivered by an ad unit.
 
