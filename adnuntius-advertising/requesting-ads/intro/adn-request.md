@@ -24,6 +24,7 @@ The table below outlines how to tailor the basic adn.request call.
 | `protocol` Specifies whether to use `http` or `https` in the ad server request. | Defaults to the protocol the web page is using. |
 | `targetId` Specifies which element ID in the page to insert an ad into. | Defaults to `adn-{value-of-auId}`.  Comes most in handy when multiple requests to the same ad unit are made to the ad server from the same page. If the same target ID is used multiple times on the same page, will cycle through the HTML elements that match the ID until an empty one is found in which to put the ad. However, to ensure the requested ad is put into the expected spot on the page, unique IDs must be used in your page. |
 | `targetClass` Specifies the class by which to find an element to insert an ad into. | If more than one HTML element matches the CSS class specified, will cycle through the HTML elements until it finds an empty one in which to put the ad. If no empty HTML element is found, will fill the first HTML element found and put the ad there.  If `targetClass` is not specified, will use `adn-{value-of-auId}` or the value specified in `targetId` to find the ID of the element in which to place the ad content. |
+| `requestMode` Specifies whether to request an ad immediately or avoid requesting an ad if the target element on the page is not present. | Defaults to requesting an ad immediately as `default`.  When set to `hasTarget`, the ad request will not be made if the target element cannot be found on the page. |
 | `display` Defines what the value of the target element's CSS display property will be once an ad is requested. | Defaults to `block`. |
 | `container` Defines what kind of container in which to place the ad content from the ad server. | Defaults to `iframe`. Other options is `div`, which displays the ad content directly into the page. |
 | `ps` Defines the maximum number of ads that the ad server returns to fill the ad unit, known as the page size. | An integer is expected. If unspecified, will use the page size that the ad unit in Adnuntius specifies. If no page size is specified even there, there is no limit to the number of ads that can be returned to fill out the ad unit. |
@@ -113,7 +114,7 @@ On a multi adn.request call, some of the adn.request parameters need to be speci
 Here's how the split runs:
 
 * **Parameters specified on parent:** `method`, `usi`, `segments`, `ctx`, `longitude`, `latitude`, `excludedLineItems`, `excludedCreatives`, `onError`
-* **Parameters specified on either parent or ad unit:** `requestParams`, `siteId`, `floorPrice`, `resizeOnPageLoad`, `onImpressionResponse`, `onPageLoad`, `onNoMatchedAds`, `onVisible`, `onViewable`, `clearTarget`, `functionCalls`, `replacements`, `kv`, `c`
+* **Parameters specified on either parent or ad unit:** `requestParams`, `siteId`, `floorPrice`, `resizeOnPageLoad`, `requestMode`, `onImpressionResponse`, `onPageLoad`, `onNoMatchedAds`, `onVisible`, `onViewable`, `clearTarget`, `functionCalls`, `replacements`, `kv`, `c`
 * **Parameters specified on the ad unit only:** those no
 
   32
