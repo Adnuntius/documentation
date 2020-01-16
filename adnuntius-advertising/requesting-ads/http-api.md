@@ -12,7 +12,7 @@ GET https://delivery.adnuntius.com/i{{params}}
 
 | Parameter | Required? | Example value\(s\) | Default Value | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| auId | Yes, unless making a POST request \(see below\) | ab123456789 \(string\) | None | The Ad Unit to fetch ads from |
+| auId | Yes, unless making a POST request \(see below\) | ab123456789 \(string\) | None | The Tag ID for the Ad Unit to fetch ads from |
 | tzo | No | -120 \(number\) | 0 | Timezone, offset from UTC in minutes |
 | userId | No | ab123456789 \(string\) | If not provided, this value will be read from the Adnuntius cookie | Identifies a unique user; used for segment targeting, rate limiting, and unique user counting |
 | siteId | No | ab123456789 \(string\) | None | A unique identifier for the site where the ad will be shown. This will be used, if required by your DMP, for segment targeting |
