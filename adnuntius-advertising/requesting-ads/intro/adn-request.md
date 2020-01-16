@@ -18,7 +18,7 @@ The table below outlines how to tailor the basic adn.request call.
 
 | Parameter and Basic Description | Things of note |
 | :--- | :--- |
-| `auId` The ad unit id | No ad request is made to the Adnuntius ad server without an auId specified. |
+| `auId` The ad unit tag id | No ad request is made to the Adnuntius ad server without an auId specified. |
 | `auW` and `auH` Ad unit's initial width and height before it receives an ad server response. | Can be anything that works as a CSS value. `10`, `'10px'`, `'10%'`, `'10vh'` etc. are all valid. Can be set to 0 or unspecified if not wanting to reserve space for an ad in the page before one is received from the ad server. |
 | `env` Specifies which environment's ad server to use. | Defaults to `production` if unspecified. |
 | `protocol` Specifies whether to use `http` or `https` in the ad server request. | Defaults to the protocol the web page is using. |
