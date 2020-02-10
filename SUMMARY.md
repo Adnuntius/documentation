@@ -42,6 +42,7 @@
     * [/deliveryestimates](adnuntius-advertising/admin-api/endpoints/deliveryestimates.md)
     * [/devices](adnuntius-advertising/admin-api/endpoints/devices.md)
     * [/location](adnuntius-advertising/admin-api/endpoints/location.md)
+    * [/stats](adnuntius-advertising/admin-api/endpoints/stats.md)
 * [Stats](adnuntius-advertising/stats/README.md)
   * [The Stats Defined](adnuntius-advertising/stats/stats-defined.md)
   * [The Four Kinds of Impressions](adnuntius-advertising/stats/impression-types.md)
