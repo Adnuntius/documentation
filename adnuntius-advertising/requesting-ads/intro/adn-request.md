@@ -24,7 +24,7 @@ The table below outlines how to tailor the basic adn.request call.
 | `protocol` Specifies whether to use `http` or `https` in the ad server request. | Defaults to the protocol the web page is using. |
 | `targetId` Specifies which element ID in the page to insert an ad into. | Defaults to `adn-{value-of-auId}`.  Comes most in handy when multiple requests to the same ad unit are made to the ad server from the same page. If the same target ID is used multiple times on the same page, will cycle through the HTML elements that match the ID until an empty one is found in which to put the ad. However, to ensure the requested ad is put into the expected spot on the page, unique IDs must be used in your page. |
 | `targetClass` Specifies the class by which to find an element to insert an ad into. | If more than one HTML element matches the CSS class specified, will cycle through the HTML elements until it finds an empty one in which to put the ad. If no empty HTML element is found, will fill the first HTML element found and put the ad there.  If `targetClass` is not specified, will use `adn-{value-of-auId}` or the value specified in `targetId` to find the ID of the element in which to place the ad content. |
-| `requestTiming` Specifies when to execute the ad request. | Defaults to `immediate`, which means the ad request will be made immediately. Can also be set to `onReady`, which means the ad request will be made only after the document is loaded and parsed; or `onLoad`, which means the ad request will be made only after the document and related files (images, scripts, iFrames, stylesheets) have finished loading. |
+| `requestTiming` Specifies when to execute the ad request. | Defaults to `immediate`, which means the ad request will be made immediately. Can also be set to `onReady`, which means the ad request will be made only after the document is loaded and parsed; or `onLoad`, which means the ad request will be made only after the document and related files \(images, scripts, iFrames, stylesheets\) have finished loading. |
 | `requestMode` Specifies whether to request an ad immediately or avoid requesting an ad if the target element on the page is not present. | Defaults to requesting an ad immediately as `default`.  When set to `hasTarget`, the ad request will not be made if the target element cannot be found on the page. |
 | `display` Defines what the value of the target element's CSS display property will be once an ad is requested. | Defaults to `block`. |
 | `container` Defines what kind of container in which to place the ad content from the ad server. | Defaults to `iframe`. Other options is `div`, which displays the ad content directly into the page. |
@@ -94,9 +94,9 @@ These modes of loading ads can be specified via the `requestParams` parameter. A
 
 ```text
     adn.request({ requestParams: {proximity: 50, load: 'lazy'}, adUnits: [
-        {auId: '0000000000000806', auW: 728, auH: 90, requestParams: {proximity: 100, load: 'lazy'},
-        {auId: '0000000000000807', auW: 100, auH: 20, requestParams: {load: 'direct'},
-        {auId: '0000000000000808', auW: 40, auH: 40, requestParams: {load: 'lazyRequest'},
+        {auId: '0000000000000806', auW: 728, auH: 90, requestParams: {proximity: 100, load: 'lazy'}},
+        {auId: '0000000000000807', auW: 100, auH: 20, requestParams: {load: 'direct'}},
+        {auId: '0000000000000808', auW: 40, auH: 40, requestParams: {load: 'lazyRequest'}0,
         {auId: '0000000000000809', auW: 230, auH: 140}
     ]});
 ```

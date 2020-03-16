@@ -39,7 +39,7 @@ Note: take [the deep dive on impression stats for more detailed information](imp
 * **Visible impressions:** counts each time at least 1% of an ad is visible in a browser's viewport when delivered via the ad unit.
 * **Viewable impressions:** counts each time at least 50% of an ad is visible in a browser's viewport for at least one second when delivered via the ad unit.
 * **Viewability:** depending on how you've configured a setting on your network, viewability is viewable impressions divided by impressions or viewable impressions divided by rendered impressions.
-* **Unique users:** counts each unique user that has received an ad impression. 
+* **Unique users:** counts each unique user that has received an ad impression.
 
   Note: this does not count the number of unique users who have requested an ad, only the number of unique users who have received an ad impression. Thus, the maximum number of unique users is equal to positive requests, not requests.
 
