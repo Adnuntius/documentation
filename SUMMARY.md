@@ -6,7 +6,8 @@
 
 * [User Interface Guide](adnuntius-advertising/admin-ui/README.md)
   * [Dashboards](adnuntius-advertising/admin-ui/dashboards.md)
-  * [Advertising](adnuntius-advertising/admin-ui/advertising.md)
+  * [Advertising](adnuntius-advertising/admin-ui/advertising/README.md)
+    * [Advertisers](adnuntius-advertising/admin-ui/advertising/advertisers.md)
   * [Inventory](adnuntius-advertising/admin-ui/inventory/README.md)
     * [Sites](adnuntius-advertising/admin-ui/inventory/sites.md)
     * [Adunits](adnuntius-advertising/admin-ui/inventory/adunits-1/README.md)

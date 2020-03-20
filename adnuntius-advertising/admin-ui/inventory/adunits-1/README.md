@@ -63,7 +63,7 @@ If you cannot see any ads in your ad unit, or you expected to see another ad, th
 ![Diagnostics test example](../../../../.gitbook/assets/201811-inventory-ad-unit-diagnostics.png)
 
 {% hint style="info" %}
-You can also run diagnostics for [line items](../../advertising.md#line-item) if you wonder how an ad unit gave a line item the result that it got.
+You can also run diagnostics for [line items](../../advertising/#line-item) if you wonder how an ad unit gave a line item the result that it got.
 {% endhint %}
 
 {% hint style="info" %}

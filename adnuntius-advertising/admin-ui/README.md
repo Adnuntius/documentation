@@ -9,7 +9,7 @@ description: >-
 
 {% page-ref page="dashboards.md" %}
 
-{% page-ref page="advertising.md" %}
+{% page-ref page="advertising/" %}
 
 {% page-ref page="inventory/" %}
 
