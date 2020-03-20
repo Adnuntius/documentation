@@ -4,7 +4,7 @@
 
 ## Adnuntius Advertising
 
-* [Admin UI](adnuntius-advertising/admin-ui/README.md)
+* [User Interface Guide](adnuntius-advertising/admin-ui/README.md)
   * [Dashboards](adnuntius-advertising/admin-ui/dashboards.md)
   * [Advertising](adnuntius-advertising/admin-ui/advertising.md)
   * [Inventory](adnuntius-advertising/admin-ui/inventory/README.md)
@@ -16,7 +16,7 @@
     * [Earnings Accounts](adnuntius-advertising/admin-ui/inventory/earnings-accounts.md)
   * [Reports](adnuntius-advertising/admin-ui/reports.md)
   * [Admin](adnuntius-advertising/admin-ui/admin.md)
-* [Admin API](adnuntius-advertising/admin-api/README.md)
+* [API Documentation](adnuntius-advertising/admin-api/README.md)
   * [API Requests](adnuntius-advertising/admin-api/api-requests.md)
   * [Targeting object](adnuntius-advertising/admin-api/targeting-object.md)
   * [Endpoints](adnuntius-advertising/admin-api/endpoints/README.md)

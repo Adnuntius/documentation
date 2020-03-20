@@ -1,2 +1,2 @@
-# Admin API
+# API Documentation
 
