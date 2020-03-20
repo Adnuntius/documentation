@@ -115,6 +115,8 @@ Adnuntius has access to a range of browser, hardware and platform information. I
 * platformVendor
 * platformVersion
 
+## Key Value Targeting
+
 
 
 THIS IS WORK IN PROGRESS AND WILL SOON BE FINISHED.
