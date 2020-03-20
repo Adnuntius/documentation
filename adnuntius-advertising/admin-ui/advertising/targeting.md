@@ -76,11 +76,46 @@ Adnuntius can read the URLs from whatever pages that ad units are deployed to. [
 
 You can also upload a library of categories if you would rather like to choose categories from a list rather than writing them into the text field. For more information on how to upload categories, please see [Reference Data](../admin.md#reference-data). 
 
+## Geospatial Targeting
+
+Geospatial targeting can be used when you want to closely manage which geographical locations are to be targeted. Click the polygon or rectangle icon on the right hand side of the map and start drawing in order to specify the location you want to target. 
+
+Please note that, by default, geospatial targeting uses IP addresses for locating users. As IP addresses do not always provide accurate locations you can, if you ask for users' permission to track their location, [send the longitude and latitude](https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request) together with the ad request in order to provide accurate locations. 
+
+If you for some reason cannot supply Adnuntius Advertising with longitude and latitude, you can consider using [named location targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#location-targeting) instead. 
+
+![](../../../.gitbook/assets/202003-geospatial.gif)
+
 ## Location Targeting
 
 Location targeting allows you to add named locations by searching for them, or by browsing from a list. You can add target continents at the highest level and post/zip codes at the lowest level. You can choose to add include the chosen items in your targeting, or to exclude them \(whatever is easiest given your need\).
 
 ![](../../../.gitbook/assets/202003-location-targeting.gif)
+
+{% hint style="info" %}
+Adnuntius uses Netacuity Pulse to provide you with excellent location targeting.
+{% endhint %}
+
+## Device Targeting
+
+Device targeting lets you target ads to specific devices. Simply choose the device types, operating systems or brands, hit "save" and your ad is targeted. 
+
+![Add device targeting to your line items and/or creatives.](../../../.gitbook/assets/202003-device-targeting.png)
+
+Adnuntius has access to a range of browser, hardware and platform information. If there is any data you would like us to add to the device targeting list, then feel free to send us a request on support@adnuntius.com. You can also use key value targeting \(see next tab\) to target specific devices using any of these keys:
+
+* browserName
+* browserVendor
+* browserVersion
+* hardwareFamily
+* hardwareModel
+* hardwareName
+* hardwareVendor
+* platformName
+* platformVendor
+* platformVersion
+
+
 
 THIS IS WORK IN PROGRESS AND WILL SOON BE FINISHED.
 
