@@ -1,2 +1,2 @@
-# Stats
+# Statistics
 
