@@ -88,6 +88,12 @@ The report tab also gives you the audit history of the line item. This means tha
 ![Example report scheduler](../../../.gitbook/assets/201811-advertising-line-item-report-scheduler.png)
 {% endtab %}
 
+{% tab title="Traffic" %}
+The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this line item has delivered.
+
+![](../../../.gitbook/assets/202003-orders-traffic.png)
+{% endtab %}
+
 {% tab title="Reach" %}
 Reach is an analysis you can run to quickly estimate the volume of matching traffic for the line item. A normal reach analysis estimates the total number of available impressions matching your targeting criteria, while an experimental analysis attempts to account for competing line items in its reach estimation. The reported numbers are a best guess only and can be incorrect for a number of subtle reasons. We recommend that you use the normal version if you only need a simple reach estimate.
 

@@ -8,7 +8,7 @@ The Advertising section is where you manage advertisers, orders, line items, cre
 | :--- | :--- |
 | [Advertiser](advertisers.md) | Adding an Advertiser \(for instance; CocaCola\) is a natural first step when a salesperson has closed a sale with a new buyer. An advertiser can contain multiple orders. |
 | [Order](orders.md) | Determines who has access to the campaign, and what set of sites that impressions can be delivered to \(see [Teams ](../admin.md#teams)for more information\). One order can contain multiple line items. |
-| Line item | Determines start and end dates, delivery objectives \(impressions, clicks or conversions\), pricing, targeting, creative delivery and prioritization. One line item can contain multiple creatives. |
+| [Line item](line-items.md) | Determines start and end dates, delivery objectives \(impressions, clicks or conversions\), pricing, targeting, creative delivery and prioritization. One line item can contain multiple creatives. |
 | Creative | The material shown to the end user. Can consist of various assets such as images, text and videos. |
 | Reach analysis | An analysis you can run to quickly estimate the volume of matching traffic for a line item.  Does not consider tiers or bids, nor competing line items. |
 
