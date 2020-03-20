@@ -6,73 +6,11 @@ The Advertising section is where you manage advertisers, orders, line items, cre
 
 | Concept | Description |
 | :--- | :--- |
-| Advertiser | Adding an Advertiser \(for instance; CocaCola\) is a natural first step when a salesperson has closed a sale with a new buyer. Used by publishers selling ads to clients. An advertiser can contain multiple orders. |
-| Order | Determines what set of Sites that impressions can be delivered to \(see [Teams ](../admin.md#teams)for more information\). One order can contain multiple line items. |
+| [Advertiser](advertisers.md) | Adding an Advertiser \(for instance; CocaCola\) is a natural first step when a salesperson has closed a sale with a new buyer. An advertiser can contain multiple orders. |
+| [Order](orders.md) | Determines who has access to the campaign, and what set of sites that impressions can be delivered to \(see [Teams ](../admin.md#teams)for more information\). One order can contain multiple line items. |
 | Line item | Determines start and end dates, delivery objectives \(impressions, clicks or conversions\), pricing, targeting, creative delivery and prioritization. One line item can contain multiple creatives. |
 | Creative | The material shown to the end user. Can consist of various assets such as images, text and videos. |
 | Reach analysis | An analysis you can run to quickly estimate the volume of matching traffic for a line item.  Does not consider tiers or bids, nor competing line items. |
-
-## Advertiser
-
-Creating an advertiser is easy. Here are the steps you should take, and some tips on how to do it well.
-
-![An example advertiser](../../../.gitbook/assets/201811-advertising-advertiser.png)
-
-**Name, description and contact information:** Add a name, an optional description of your choice and the contact information to the advertiser \(optional\). It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
-
-**External reference:** Add an external reference \(optional\) if you want to match the advertiser with the same client in another system. For instance, if Coca Cola is registered in your invoicing system with customer ID 123456, then you may want to add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same advertiser across two different systems, which may in turn speed up processes like invoicing.
-
-**IAB category:** Adding an IAB category to the client allows you to group advertisers together. Once you've added a category you can send impressions, clicks and conversions to for instance your DMP, and then create segments based users who responded to your campaign.
-
-**Labels** can be added to make reporting work for you. Let's say you add the label "agency" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Learn how to run reports like this](../reports.md#advertising-queries).
-
-## Order
-
-An order determines what set of sites that impressions can be delivered to \(see Admin &gt; Teams for more information\). One order can contain multiple line items. Here is how you create one.
-
-![An example order](../../../.gitbook/assets/201811-advertising-order.png)
-
-**Name:** Add a name of your choice. Please note that it is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
-
-**Team:** A team contains a set of sites. If your user has access to multiple teams you will be able to choose from a dropdown menu, otherwise only the team available to you will appear. [Learn more about teams.](../admin.md#teams)
-
-**Advertiser:** connects the order to a parent advertiser. Used by publishers to keep control of inventory. If you are an advertiser yourself, or don't need this hierarchy, we recommend that you just create one advertiser \(yourself\), and then connect any order to yourself as an advertiser.
-
-**Salesperson \(optional\):** if a salesperson is responsible for the order, then you can assign the order to that user. Please note that you have to create a user for that person; [learn how to create a user](../admin.md#users-and-user-profile). After you've done that, you can create reports that can be automatically distributed, showing how much revenue they have earned, their development over time, and more. [Learn how to create salesperson reports](../reports.md#reports-report-templates-and-report-schedules).
-
-**Ad ops \(optional\):** If you have an adops function in your company, then you can add that person to the order. When you have done this you can easily keep overview of who has the responsibility for which orders, as you can see in the image below.
-
-![Overview of orders, containing among other ad ops users](../../../.gitbook/assets/201811-advertising-order-overview.png)
-
-**Labels** can be added to make reporting work for you. Let's say you add the label "autumn" to a set of orders, and then want to run a report only for this group of orders. You can then run a report which filters on these orders specifically. [Learn how to run reports like this](../reports.md#advertising-queries).
-
-**Overview, charts and reports**: On the right side of an order page you will find multiple tabs that each has its function.
-
-{% tabs %}
-{% tab title="Line Items" %}
-Provides you with an overview of line items created with this order as a parent. Here you can also quickly create a new line item to reserve inventory \(means that forecasting will take the line item into account when estimating future available space\), and create notes. Notes are text fields that will be viewable by any user that has access to the order.
-
-![](../../../.gitbook/assets/201811-advertising-order-line-item-overview.png)
-{% endtab %}
-
-{% tab title="Order Charts" %}
-Provides you with insights into the order's delivery. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
-
-![](../../../.gitbook/assets/201811-advertising-order-charts.png)
-{% endtab %}
-
-{% tab title="Line Item Charts" %}
-Provides you with insights into the delivery of line items which are part of this order. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
-
-![](../../../.gitbook/assets/201811-advertising-line-item-charts.png)
-{% endtab %}
-
-{% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports.md#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports.md#reports-report-templates-and-report-schedules). Here you can see a [demo of how to set up automated reporting](https://www.youtube.com/watch?v=_-OEgPFBq0A&feature=youtu.be).
-
-![](../../../.gitbook/assets/201811-advertising-order-report-scheduler.png)
-{% endtab %}
-{% endtabs %}
 
 ## Line Item
 
