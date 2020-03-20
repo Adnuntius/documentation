@@ -1,4 +1,60 @@
+---
+description: >-
+  You can target line items and creatives to specific users and/or content. Here
+  you will find a full overview of how you can work with targeting.
+---
+
 # Targeting
+
+Targeting lets you direct a line item's and/or creative's impressions to specific users or content. Any of the targeting criteria below can be added to both line items and creatives. Just make sure that when you use targeting on both these levels, that they are not mutually exclusive. For instance, if you target a line item to people sitting in New York, and one of its creatives to people sitting in Miami, then you reach no people with that creative \(because no one can be in two places at the same time\).
+
+{% hint style="info" %}
+Please note that you do not have to add targeting to both line items and creatives, unless you need to.
+{% endhint %}
+
+When you target multiple items in the same group \(for instance, multiple ad units\) your ads will be eligible to be shown in item 1, item 2, OR item N. When you target multiple groups \(for instance, one ad unit and one segment\) then your ads will only be shown when group 1 AND group 2 matches.
+
+![How to find targeting on line items and creatives.](../../../.gitbook/assets/202003-finding-targeting.gif)
+
+## Targeting Templates
+
+Targeting templates allow you to save combinations of targeting criteria for later re-use. For example: if you repeatedly target multiple line items or creatives to a set of locations, then rather than adding those locations manually each time you create one, you can save a template so that you can use the same targeting with one click. Below you can see an example of how to save a targeting template for multiple ad units. 
+
+![Targeting Template created from three ad units.](../../../.gitbook/assets/202003-targeting-templates.gif)
+
+## Copy from Line Item
+
+You can copy the targeting that has been added to other line items. If you work with complex targeting criteria and want to add these targeting combinations with the click of a button, then this is the function for you. You can either copy targeting from running line items, or you can create "template line items" that contain the targeting criteria you most often use, so that you can copy from those templates. Below is a video demonstrating how to copy targeting from other line items. 
+
+![](../../../.gitbook/assets/202003-copy-targeting.gif)
+
+## Ad Unit Targeting
+
+An [ad unit ](../inventory/adunits-1/)is a placement that goes onto your site, so that you can later fill it with ads. It is as such an empty container that sets aside a space on your site so that you can fill it with content. Ad unit targeting allows you to target a line item and/or creative to one or more ad units.
+
+You can choose to add include the chosen items in your targeting, or to exclude them \(whatever is easiest given your need\). 
+
+![Ad unit targeting can be added to line items and to creatives](../../../.gitbook/assets/201811-advertising-line-item-ad-unit-targeting.png)
+
+## Site Targeting
+
+A [site](../inventory/sites.md) is an object that makes it easy to organize your content according to the domains, or sites, that you own, control or have access to. Site targeting allows you to target your line items and/or creatives to one or more sites. You can choose to add include the chosen items in your targeting, or to exclude them \(whatever is easiest given your need\).
+
+![Site targeting can be added to line items and creatives](../../../.gitbook/assets/201811-advertising-line-item-site-targeting.png)
+
+## Site Group Targeting
+
+Publishers can [group sites together](../inventory/site-groups.md) in order to make targeting a set of sites easier. Once a site group is created you can target line items and/or creatives. You can choose to add include the chosen items in your targeting, or to exclude them \(whatever is easiest given your need\).
+
+![Site group targeting can be added to line items and to creatives](../../../.gitbook/assets/201811-advertising-line-item-site-group-targeting.png)
+
+## Ad Unit Matching Label Targeting
+
+Matching labels are labels added to ad units that you can later use for targeting groups of ad units. Let's say that you add the label "sports" to three different ad units, and then target a line item to the matching label "sports". You will then target your ads to be shown in these three ad units.
+
+![Right: you can add a matching label to an ad unit. Left: after that you can target on those matching labels](../../../.gitbook/assets/201811-advertising-line-item-matching-label-targeting.png)
+
+## Segment Targeting
 
 
 
@@ -159,7 +215,5 @@ Targeting specific IP addresses can be useful, for instance when testing in a li
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
 
-{% endhint %}
 

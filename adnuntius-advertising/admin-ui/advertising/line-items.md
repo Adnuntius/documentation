@@ -75,13 +75,13 @@ Provides you with insights into the line item's delivery. You can specify the pe
 {% endtab %}
 
 {% tab title="Creatives" %}
-Provides you with insights into the delivery of the line item's creatives. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file. You can also do the same to each creative part of the line item.
+Provides you with insights into the delivery of the line item's creatives. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file. You can also do the same to each creative that is part of the line item.
 
 ![Example creative chart](../../../.gitbook/assets/201811-advertising-line-item-creatives-chart.png)
 {% endtab %}
 
 {% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports.md#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the report template. Here you can [see a demo of how to set up automated reporting](https://www.youtube.com/watch?v=_-OEgPFBq0A&feature=youtu.be).
+Allows you to create a report based on a [report template](../reports.md#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports.md#reports-report-templates-and-report-schedules).
 
 The report tab also gives you the audit history of the line item. This means that you can see the changes made to the line item, when they were made, and who made them.
 
@@ -95,9 +95,9 @@ The traffic tab shows you the delivery of impressions, clicks, viewables and vis
 {% endtab %}
 
 {% tab title="Reach" %}
-Reach is an analysis you can run to quickly estimate the volume of matching traffic for the line item. A normal reach analysis estimates the total number of available impressions matching your targeting criteria, while an experimental analysis attempts to account for competing line items in its reach estimation. The reported numbers are a best guess only and can be incorrect for a number of subtle reasons. We recommend that you use the normal version if you only need a simple reach estimate.
+Reach is an analysis you can run to forecast the volume of matching traffic for a line item. A  reach analysis estimates the total number of available impressions, clicks, viewable impressions and more that match your targeting criteria. Please see [Reach Analysis](reach-analysis.md) for more information on how to read the results. 
 
-A more comprehensive explanation of reach analyses and interpretation of results can be found [further down on this page](./#reach-analysis).
+![Example reach analyis result for a line item.](../../../.gitbook/assets/line-item-reach.png)
 {% endtab %}
 
 {% tab title="Diagnostics" %}
@@ -132,6 +132,8 @@ You can also add ?adndebug123 at the end of any URL \(example: [www.aperitif.no?
 {% endhint %}
 {% endtab %}
 {% endtabs %}
+
+
 
 
 
