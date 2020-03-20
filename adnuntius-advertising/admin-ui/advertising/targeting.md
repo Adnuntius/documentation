@@ -76,7 +76,11 @@ Adnuntius can read the URLs from whatever pages that ad units are deployed to. [
 
 You can also upload a library of categories if you would rather like to choose categories from a list rather than writing them into the text field. For more information on how to upload categories, please see [Reference Data](../admin.md#reference-data). 
 
+## Location Targeting
 
+Location targeting allows you to add named locations by searching for them, or by browsing from a list. You can add target continents at the highest level and post/zip codes at the lowest level. You can choose to add include the chosen items in your targeting, or to exclude them \(whatever is easiest given your need\).
+
+![](../../../.gitbook/assets/202003-location-targeting.gif)
 
 THIS IS WORK IN PROGRESS AND WILL SOON BE FINISHED.
 
