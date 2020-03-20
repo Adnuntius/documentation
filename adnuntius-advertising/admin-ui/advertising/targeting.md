@@ -58,9 +58,27 @@ Matching labels are labels added to ad units that you can later use for targetin
 
 Segments are based on historic user behaviour, and targes groups of users \(or "audiences"\) that have something in common. There are three ways of connecting to user segments: 
 
-1. Using Adnuntius Data, a data platform that allows you to unify your 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and to activate your data in any system. Any data collected by Adnuntius Data will automatically be avaiable for targeting in Adnuntius Advertising without any setup work needed in advance. 
-2. 
-are groups of users that match whatever criteria you would like to set for that audience. Adnuntius has a server-side "out-of-the-box" integration to data management platform \(DMP\) partner Cxense, which means that you can easily connect to Cxense to get your segments into Adnuntius for targeting.
+1. Using [Adnuntius Data](../../../#adnuntius-data), a data platform that allows you to unify your 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and to activate your data in any system. Any data collected by Adnuntius Data will automatically be avaiable for targeting in Adnuntius Advertising without any setup work needed in advance. 
+2. Using Cxense DMP. Adnuntius has a server-side "out-of-the-box" integration to data management platform \(DMP\) partner Cxense, which means that you can easily connect to Cxense to get your segments into Adnuntius for targeting. To connect your Cxense account, please [read more here](../admin.md#context-service-connections). 
+3. Using whatever data source or DMP that you already use. [Read more here](../../admin-api/endpoints/segments.md) about how to connect your data source to Adnuntius Advertising so that you can target your audience. 
+
+![Segment targeting can be added to line items and to creatives](../../../.gitbook/assets/201811-advertising-line-item-segment-targeting.png)
+
+## Category Targeting
+
+Adnuntius can read the URLs from whatever pages that ad units are deployed to. [Read more about how to set ad units to derive categories for category targeting from page URLs](../inventory/adunits-1/). Once you've set up your ad units you can add targeting in different ways: 
+
+* If you add "sports, travel" to the text field your ad will target any URL that contains either /sports/ or /travel/ or both. For example, the URL www.example.com/sports/football/article.html will match. 
+* If you add sports/football then your ad will target any URL that contains /sports/football/. For example, the URL www.example.com/sports/football/article.html will match. However, the URL www.example.com/sports/article.html will not match.
+* If you add www.example.com/sports/football/article.html then your ad will target this URL and only this URL. Please note that dashes in a URL will not work. In other words, this URL \(www.example.com/sports/football/article.html\) will work fine, but this URL \(www.example.com/sports/football/some-article.html\) will not. 
+
+![Category targeting can be added to line items and creatives](../../../.gitbook/assets/201811-advertising-line-item-category-targeting.png)
+
+You can also upload a library of categories if you would rather like to choose categories from a list rather than writing them into the text field. For more information on how to upload categories, please see [Reference Data](../admin.md#reference-data). 
+
+
+
+THIS IS WORK IN PROGRESS AND WILL SOON BE FINISHED.
 
 
 
