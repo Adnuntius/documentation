@@ -1,14 +1,10 @@
 ---
 description: >-
   An advertiser is a client that wants to advertise on your sites, or the sites
-  you have access to.
+  you have access to. Here is how to create one.
 ---
 
 # Advertisers
-
-Creating an advertiser is easy. Here are the steps you should take, and some tips on how to do it well. First, a word about hierarchy: an advertiser is the top level object, and contain multiple orders, which in turn can contain multiple line items, which in turn can contain multiple creatives. Creatives will then be served inside ad units, which are set up under the inventory section. 
-
-![The hierarchy of the objects under Advertising, and how the connect to ad units. ](../../../.gitbook/assets/advertising-hierarchy.png)
 
 **Name, description and contact information:** Add a name, an optional description of your choice and the contact information to the advertiser \(optional\). It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 

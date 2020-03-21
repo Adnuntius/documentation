@@ -10,6 +10,7 @@
     * [Advertisers](adnuntius-advertising/admin-ui/advertising/advertisers.md)
     * [Orders](adnuntius-advertising/admin-ui/advertising/orders.md)
     * [Line Items](adnuntius-advertising/admin-ui/advertising/line-items.md)
+    * [Creatives](adnuntius-advertising/admin-ui/advertising/creatives.md)
     * [Targeting](adnuntius-advertising/admin-ui/advertising/targeting.md)
     * [Reach Analysis](adnuntius-advertising/admin-ui/advertising/reach-analysis.md)
   * [Inventory](adnuntius-advertising/admin-ui/inventory/README.md)
