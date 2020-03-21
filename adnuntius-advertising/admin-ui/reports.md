@@ -2,11 +2,11 @@
 
 ## Reports, Report Templates, and Report Schedules
 
-**Reports** is an overview of the reports that have run in the past. This overview allows you to quickly retrieve and report that the system has generated, and to open them. 
+**Reports** is an overview of the reports that have run in the past. This overview allows you to quickly retrieve a report that the system has previosuly generated, and to open them. 
 
 **Report schedules** is an overview of all reports that have been scheduled to run. 
 
-**Report templates** allow you to determine how a\(n automatically generated\) report by Adnuntius should look like, regarding the insights it should produce, using which metrics. Here is how you create a template.
+**Report templates** allow you to determine how a\(n automatically generated\) report by Adnuntius should look like, regarding the insights it should produce, and using which metrics. Here is how you create a template.
 
 ![Report template example](../../.gitbook/assets/201811-reports-template.png)
 
