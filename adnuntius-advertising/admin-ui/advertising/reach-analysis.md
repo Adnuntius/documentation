@@ -57,5 +57,13 @@ Next you see that "**Between 129,900 and 145,597 impressions face no competition
 * Competition shows you how much competing line items are overlapping with your reach analysis. For example, 50% means that a competitor will compete for half of the traffic that you are trying to set aside for another line item. 
 * Tier and prio shows you the tier of competing line items. If you need to set aside more traffic for an important line item, then you can place other line items in lower prioritized tiers. [Here you can also see how you create tiers and organize them.](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/admin#tiers) 
 
+## Creating New Line Items from Reach
 
+If your reach analysis is showing you enough traffic, then you can easily create a new line item with the chosen criteria by clicking "Copy to new line item". 
+
+## Copy to Compare Analysis
+
+Copy to compare analysis lets you copy all criteria \(dates, targeting, sizes etc\) to a new reach analysis that can be compared side-by-side with your existing reach analysis. For example, if you want to see how the available traffic changes if you add or remove certain sizes or targeting criteria, the comparison will give you the available traffic for both your chosen criteria so that you can compare them side by side. The example below shows a comparison where two reach analyses are made, but where one analysis uses more sizes than the other one. 
+
+![](../../../.gitbook/assets/202003-reach-comparison.png)
 
