@@ -30,7 +30,7 @@ You can copy the targeting that has been added to other line items. If you work 
 
 ## Ad Unit Targeting
 
-An [ad unit ](../inventory/adunits-1/)is a placement that goes onto your site, so that you can later fill it with ads. It is as such an empty container that sets aside a space on your site so that you can fill it with content. Ad unit targeting allows you to target a line item and/or creative to one or more ad units.
+An [ad unit ](../inventory/adunits-1.md)is a placement that goes onto your site, so that you can later fill it with ads. It is as such an empty container that sets aside a space on your site so that you can fill it with content. Ad unit targeting allows you to target a line item and/or creative to one or more ad units.
 
 You can choose to add include the chosen items in your targeting, or to exclude them \(whatever is easiest given your need\). 
 
@@ -66,7 +66,7 @@ Segments are based on historic user behaviour, and targes groups of users \(or "
 
 ## Category Targeting
 
-Adnuntius can read the URLs from whatever pages that ad units are deployed to. [Read more about how to set ad units to derive categories for category targeting from page URLs](../inventory/adunits-1/). Once you've set up your ad units you can add targeting in different ways: 
+Adnuntius can read the URLs from whatever pages that ad units are deployed to. [Read more about how to set ad units to derive categories for category targeting from page URLs](../inventory/adunits-1.md). Once you've set up your ad units you can add targeting in different ways: 
 
 * If you add "sports, travel" to the text field your ad will target any URL that contains either /sports/ or /travel/ or both. For example, the URL www.example.com/sports/football/article.html will match. 
 * If you add sports/football then your ad will target any URL that contains /sports/football/. For example, the URL www.example.com/sports/football/article.html will match. However, the URL www.example.com/sports/article.html will not match.
@@ -143,7 +143,7 @@ The ad tag example above illustrates how the key values query=red wine, query=co
 You can also upload a library of key values if you would rather like to choose them from a list rather than writing them into the text field. For more information on how to upload key values, please see [Reference Data](../admin.md#reference-data).
 
 {% hint style="info" %}
-Even though you send key values with an ad request, ads with no key values can still be served inside this ad unit; but line items and creatives targeted with key values can be served ONLY if the ad unit sends these key values. If you want to set an ad unit to only show ads if the line items/creatives have key values, please see [Ad units and "must match type". ](../inventory/adunits-1/)
+Even though you send key values with an ad request, ads with no key values can still be served inside this ad unit; but line items and creatives targeted with key values can be served ONLY if the ad unit sends these key values. If you want to set an ad unit to only show ads if the line items/creatives have key values, please see [Ad units and "must match type". ](../inventory/adunits-1.md)
 {% endhint %}
 
 ## Keyword Targeting
@@ -178,7 +178,7 @@ Once you have added the retargeting pixels to your page you can start targeting 
 
 ## Day Parts Targeting
 
-Day Parts lets you choose the days, and times of day, that your ad should be shown. You can add multiple day parts. You can choose to set a day part to the user's timezone, or the ad unit's timezone. The user's timezone is the timezone that the user visiting your page is physically in, while to ad unit's timezone is the timezone that your [ad unit](../inventory/adunits-1/) is set to. 
+Day Parts lets you choose the days, and times of day, that your ad should be shown. You can add multiple day parts. You can choose to set a day part to the user's timezone, or the ad unit's timezone. The user's timezone is the timezone that the user visiting your page is physically in, while to ad unit's timezone is the timezone that your [ad unit](../inventory/adunits-1.md) is set to. 
 
 ![Day parting can be added to line items and creatives](../../../.gitbook/assets/201811-advertising-line-item-daypart-targeting.png)
 

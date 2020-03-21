@@ -69,7 +69,7 @@ If your creative is going to be served by a third party system, then you can gen
 {% tab title="Creative Tag for Emails" %}
 You can also create tags for emails if this creative is going to be served inside emails. Just choose the ad unit you want to use, and the tag is automatically created.
 
-Please note that if you want an email tag that can serve ANY creative \(not just this specific creative\), you can do so under [Ad units](../inventory/adunits-1/). 
+Please note that if you want an email tag that can serve ANY creative \(not just this specific creative\), you can do so under [Ad units](../inventory/adunits-1.md). 
 
 ![Example creative tag for emails.](../../../.gitbook/assets/202003-creative-tag-for-email.png)
 {% endtab %}
