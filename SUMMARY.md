@@ -18,7 +18,7 @@
     * [Site Groups](adnuntius-advertising/admin-ui/inventory/site-groups.md)
     * [Sites](adnuntius-advertising/admin-ui/inventory/sites.md)
     * [Adunits](adnuntius-advertising/admin-ui/inventory/adunits-1.md)
-    * [External Adunits](adnuntius-advertising/admin-ui/inventory/external-adunits.md)
+    * [External Ad Units](adnuntius-advertising/admin-ui/inventory/external-adunits.md)
   * [Reports](adnuntius-advertising/admin-ui/reports.md)
   * [Admin](adnuntius-advertising/admin-ui/admin.md)
 * [API Documentation](adnuntius-advertising/admin-api/README.md)

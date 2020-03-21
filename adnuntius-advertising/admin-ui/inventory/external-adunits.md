@@ -1,8 +1,11 @@
-# External Adunits
+---
+description: >-
+  External ad units connect ad units to programmatic inventory, enabling you to
+  serve ads from one or more SSPs with client-side and/or server-side
+  connections.
+---
 
-
-
-## External Ad Unit
+# External Ad Units
 
 External ad units are placements connecting programmatic ads to an ad unit, enabling you to serve ads from an SSP with a server-side or client-side connection. In other words, an external ad unit is what connects a ["regular" Adnuntius ad unit](./#ad-units) to an ad unit that you've creating in an SSP. Before creating external ad units you need to have done the following: 
 
