@@ -14,7 +14,7 @@ description: >-
 | [Order](orders.md) | Determines who has access to the campaign, and what set of sites that impressions can be delivered to \(see [Teams ](../admin.md#teams)for more information\). One order can contain multiple line items. |
 | [Line item](line-items.md) | Determines start and end dates, delivery objectives \(impressions, clicks or conversions\), pricing, targeting, creative delivery and prioritization. One line item can contain multiple creatives. |
 | Creative | The material shown to the end user. Can consist of various assets such as images, text and videos. |
-| Reach analysis | An analysis you can run to quickly estimate the volume of matching traffic for a line item.  Does not consider tiers or bids, nor competing line items.Provides you with insights into the delivery of the line item's creatives. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file. You can also do the same to each creative part of the line item. |
+| [Reach analysis](reach-analysis.md) | An analysis you can run to forecast the volume of matching traffic for a line item.  |
 
 ## Creatives
 
@@ -61,25 +61,4 @@ You can also generate previews from the line item page by clicking the small eye
 {% endhint %}
 
 **Creative tag**: As a marketer, or a publisher that for any reason wants to market an Adnuntius creative through a third party adserver, this is the place to generate a code that can be sent off to the publisher that owns that adserver.
-
-## Reach analysis
-
-**Line item** allows you to choose a line item from which you want to copy the details \(targeting criteria and creative sizes\). This means that you can quickly fill in the details of the reach analysis by choosing a representative line item first.
-
-{% hint style="info" %}
-If you have packages you often sell \(for instance ad products consisting of set sizes or targeting criteria, then you should consider creating a template line item for each of these packages. Once you have done that, then simply copy the details from the template line item into the form each time you want to quickly run an analysis.
-{% endhint %}
-
-**Details to fill in:** If you choose not to use another line item as a template, then you can fill in the intended start date, end date, team, creative sizes and targeting criteria.
-
-**Interpreting the results:** Let's say that you run a reach analysis, and then get a response like this:
-
-> Audience estimated to match **88.46%** of all traffic across your network. A line item could deliver between:
->
-> * **17 342 539** and **17 564 062** impressions
-> * **16 047 479** and **16 260 853** rendered impressions
->
-> Of those impressions above, between **443 047** and **517 135** impressions would face no competition from other line items.
-
-88.46% means that, with the ad units and targeting you provided, you will reach 88.46% of all the ad impressions you can serve with Adnuntius. Furthermore, you will see the range of impressions and rendered impressions you will be able to serve. Lastly, you will see that with only 443 047 to 517 135 impression being without competition from other line items, there are certainly competitors for the impressions you are trying to book for the line item. These competitors are listed in the reach analysis result too. In the list you will find the overlap, so that you can see which campaigns you can make changes to in order to free up more space.
 
