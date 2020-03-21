@@ -8,7 +8,7 @@
 
 **Report templates** allow you to determine how a\(n automatically generated\) report by Adnuntius should look like, regarding the insights it should produce, and using which metrics. Here is how you create a template.
 
-![Report template example](../../.gitbook/assets/201811-reports-template.png)
+![in this example you see how to modify an existing report template.](../../.gitbook/assets/202003-report-templates.gif)
 
 **Name, description and logo:** Give the report template a name and description \(optional\) of your choice. If you have [uploaded a logo in the Admin &gt; Network section](admin.md#network), you can also preview the logo that will be used in reports when they are generated. 
 
@@ -29,6 +29,8 @@
 {% hint style="info" %}
 You can show one report component several times in the same template by choosing it, saving, clicking "Add report component" again, and then choosing it again. This may be useful if you for instance want to split up daily breakdown charts, and have one of them display clicks and clickrates, and another one display impressions and viewables. 
 {% endhint %}
+
+![Once a template is created you can generate a \(scheduled\) report from for instance a line item.](../../.gitbook/assets/202003-report-template-line-item-example.png)
 
 ## Advertising Queries
 
