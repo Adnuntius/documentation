@@ -1,12 +1,22 @@
+---
+description: >-
+  Site groups let publishers group sites together to make targeting line items
+  and/or creatives to multiple sites easier. Here is how you create one.
+---
+
 # Site Groups
 
-## Site Group
+Site groups make it easier for someone booking campaigns to target line items and/or creatives to a group of sites. Publishers can create site groups as follows. 
 
-Site groups make it easier to target a group of sites when targeting a line item or creative. The process is as follows: 
+First go to Inventory &gt; Site Groups and click "New" in the upper right corner. Give the site group a name, a description \(optional\), and any labels \(optional\) to make search and reporting easier.  Then click save.
 
-1. Create a site group with a name, description \(optional\) and labels \(optional\) of your choice. For instance - "Adnuntius". It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
-2. Next, go to the sites you want to group, and choose a site group.
-3. After this, when you create a line item or creative and want to target it, you will find "Adnuntius" as a criteria under "Site Groups". Once you've chosen this, then all sites under "Adnuntius" are targeted.
+![Creating a site group.](../../../.gitbook/assets/202003-site-group.png)
 
-![](../../../.gitbook/assets/201811-inventory-site-group.png)
+Then, go to any site that you would like to put into the site group. Under Site group, click the dropdown menu and choose your site group. Then click to save the changes to the site. 
+
+![Each site you create can be placed under one of your site groups. ](../../../.gitbook/assets/202003-site.png)
+
+After this, when you or any buyer clicks to target a line item or creative, they will find your site group as a criteria. Once a site group is chosen, the line item or creative will target that group of sites. 
+
+![Site group targeting.](../../../.gitbook/assets/201811-advertising-line-item-site-group-targeting.png)
 
