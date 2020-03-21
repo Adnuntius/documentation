@@ -117,9 +117,40 @@ Adnuntius has access to a range of browser, hardware and platform information. I
 
 ## Key Value Targeting
 
+Key values are keywords that you can send together with an ad request so that you can target line items and/or creatives to those keywords. 
 
+```text
+<!-- 0000000000000001 -->
+<div id="adn-0000000000000001" style="display: none"></div>
+<script src="https://cdn.adnuntius.com/adn.js" async></script>
+<script>
+window.adn = window.adn || {}; adn.calls = adn.calls || [];
+adn.calls.push(function() {
+   adn.request({ adUnits: [
+      { auId: '0000000000000001', kv: { 'query': ['red wine', 'cola'], 'content': ['drinks'] } }
+   ]});
+});
+</script>
+```
 
-THIS IS WORK IN PROGRESS AND WILL SOON BE FINISHED.
+The ad tag example above illustrates how the key values query=red wine, query=cola and content=drinks can be sent with an ad request. Once key values are sent you can target line items and creatives by adding key values as shown below. Here are some tips: 
+
+* Separating key values by commas means that the ad will match any of the added values. For instance, "key: value1, value2" means that the ad will match as long as either value1, value2 or both are sent. 
+* You can also add more complex criteria such as AND and AND NOT to ensure that you only match certain combinations of key values. 
+
+![Adding key values. ](../../../.gitbook/assets/202003-kv-targeting.gif)
+
+{% hint style="info" %}
+Even though you send key values with an ad request, ads with no key values can still be served inside this ad unit; but line items and creatives targeted with key values can be served ONLY if the ad unit sends these key values. If you want to set an ad unit to only show ads if the line items/creatives have key values, please see [Ad units and "must match type". ](../inventory/adunits-1/)
+{% endhint %}
+
+## Keyword Targeting
+
+Keywords are words in written text on any page where the ad is shown. For example, if you are a publisher and one of your articles mentions the keyword "football" then this keyword can be automatically picked up from the article text as long as its weight \(meaning its significance for the article's content\) is high. 
+
+Targeting a keyword means that you will target an ad to any page where the keyword is part of the text. Adnuntius uses data management platform partner Cxense to power this feature, and keyword targeting will not work without a Cxense account. If you need this, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com). 
+
+Just like with key value targeting, you can separate keywords by commas to match any of the keywords, or use the operators AND, OR and AND NOT to create more complex criteria. 
 
 
 
