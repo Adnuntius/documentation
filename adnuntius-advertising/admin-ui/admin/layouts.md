@@ -6,6 +6,8 @@ description: >-
 
 # Layouts
 
+## Layouts
+
 When creating a creative, you will always choose a layout, and your layout will be come visible when you have saved your layout.
 
 ![Layout example](../../../.gitbook/assets/201811-reports-admin-layouts%20%281%29.png)
@@ -21,4 +23,14 @@ When creating a creative, you will always choose a layout, and your layout will 
 **Render template** is the code that you can insert to determine the look and feel, and any event, of your choice.
 
 **Components in render template** are assets that you can add to the layout. You can add URLs \(for example click destinations\), text \(for example for native ads\), choices \(for instance choices on whether a video should autoplay or not\), or media \(being images in GIF, JPG or PNG\).
+
+## Layout Includes
+
+The feature is live, documentation will come soon. 
+
+## Examples
+
+Layout examples provides you with a library of layouts that cannot be modified or removed. You can visit each of the layouts, observe its behavior on-screen, and copy it to create a new layout that can be used for your creatives. 
+
+![](../../../.gitbook/assets/202003-layout-examples.gif)
 
