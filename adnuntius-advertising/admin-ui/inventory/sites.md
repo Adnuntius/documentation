@@ -23,7 +23,7 @@ Sites are objects that represent the site to which an ad unit belongs. It is thu
 **Team membership:**  A [team](../../admin-api/endpoints/teams.md) consists of users who should have access to see and/or perform changes to the site \(their privileges are determined by [Roles](../../admin-api/endpoints/roles.md)\). When you add your site to a team, this determines who will have access to view and/or change the site.
 
 {% hint style="info" %}
-While we cover teams in greater detail in the admin section, a [team](../../admin-api/endpoints/teams.md) determines what content a user will have access to. A [Role ](../admin.md#roles)on the other hand, defines the actions that user can take to that content. 
+While we cover teams in greater detail in the admin section, a [team](../../admin-api/endpoints/teams.md) determines what content a user will have access to. A [Role ](../admin/#roles)on the other hand, defines the actions that user can take to that content. 
 {% endhint %}
 
 **Overview, charts and reports**: On the right side of a site's page you will find multiple tabs that each has its function. 

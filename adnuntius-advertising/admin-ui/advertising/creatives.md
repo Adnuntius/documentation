@@ -9,13 +9,13 @@ description: >-
 
 ![An example creative](../../../.gitbook/assets/201811-advertising-creative.png)
 
-**Name and state**: Give the creative a name of your choice. You can also set up rules for how names should be generated automatically under [Network](../admin.md#network). State can be set to _Approved_ \(meaning that the creative is ready to run\) or _Incomplete_ \(meaning that something needs to be changed or added before the creative can run\).
+**Name and state**: Give the creative a name of your choice. You can also set up rules for how names should be generated automatically under [Network](../admin/#network). State can be set to _Approved_ \(meaning that the creative is ready to run\) or _Incomplete_ \(meaning that something needs to be changed or added before the creative can run\).
 
 **Creative type** can be set to _Internal_ or _External._ Internal is what is mostly used, and means any creative you are designing or uploading yourself. External creatives are relevant to publishers who want programmatic ads on their sites, and means creatives that are fetched from SSPs via prebid or one of our server-side integrations. The tabs below shows how to set up an external creative, while the rest of this section is about creating internal creatives.
 
 {% tabs %}
 {% tab title="External Demand Source" %}
-After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](../admin.md#external-demand-sources), and then [creating external ad units](../inventory/#external-ad-unit).
+After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](../admin/#external-demand-sources), and then [creating external ad units](../inventory/#external-ad-unit).
 
 ![First step: add an external demand source](../../../.gitbook/assets/201811-advertising-creative-external-1.png)
 {% endtab %}
@@ -27,7 +27,7 @@ If you want to target your programmatic creative to specific ad units, you can u
 {% endtab %}
 {% endtabs %}
 
-**Layout** is where you add the look, feel and behavior of your creative. Adnuntius comes with an out-of-the-box library of layouts like responsive images, interstitials, HTML and more, but you can create any layout to create the perfect match with your website, using elements like media files, text, choices and click URLs. [Learn how to manage layouts](../admin.md#layouts).
+**Layout** is where you add the look, feel and behavior of your creative. Adnuntius comes with an out-of-the-box library of layouts like responsive images, interstitials, HTML and more, but you can create any layout to create the perfect match with your website, using elements like media files, text, choices and click URLs. [Learn how to manage layouts](../admin/#layouts).
 
 {% hint style="info" %}
 When you choose a layout you will see that the "Layout's components" box changes. This is because different layouts may need different information \(multiple images, text input, or anything else your heart desires\). The system will ask you what it needs to assemble the creative.

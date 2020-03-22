@@ -15,7 +15,7 @@ description: >-
 
 {% page-ref page="reports/" %}
 
-{% page-ref page="admin.md" %}
+{% page-ref page="admin/" %}
 
 
 
