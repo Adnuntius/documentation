@@ -25,6 +25,8 @@ Add an **external reference \(optional\)** if you want to match the user with th
 * A network role \(the top role in the user interface, in light gray\) determines the actions the user will be able to perform across your entire Adnuntius account. this includes advertisers, earnings accounts, layouts, report templates, users, tiers, custom events, roles and teams. 
 * A team role determines the actions that a user will be able to perform to content that is team-specific, which includes orders, line items, creatives, sites, ad units, report schedules and reports.
 
+You can also switch between Adnuntius Advertising and Adnuntius Designer. If you click Adnuntius Designer you can assign a role to the user for the Adnuntius Designer application \(please note that you may have to create a [role](admin.md#roles) first\). 
+
 {% hint style="info" %}
 If you want to create a user that has no network permissions, you can create a network role where all permissions are unchecked \(and call it for instance "no permissions"\). This way, when you add a user with this network role, they cannot do anything to the network, only to the team\(s\) they're invited to.
 {% endhint %}
@@ -81,7 +83,30 @@ While [Teams](admin.md#teams) determines the inventory a user will have access t
 
 ![Creating a role](../../.gitbook/assets/201811-reports-admin-roles.png)
 
-**Name and description**: Give the role a name and description \(optional\) of your choice.
+To create a role, go to Admin &gt; Roles and in the upper right corner click "New". Start by giving your role a **Name and description \(optional\)**.
+
+**Application** lets you choose between Advertising \(Adnuntius Advertising\) and Banner \(Adnuntius Designer\). If you choose Banner you will see that there are no more choices, as Adnuntius Designer has one role only. The choices below are for Adnuntius Advertising. 
+
+**Role type, scope and permissions** determine the actions that users will be able to take. The table below explains each option and combination. 
+
+| Role Type | Role Scope | Permissions | Explanation |
+| :--- | :--- | :--- | :--- |
+| Internal | Network | Manage business | Create, edit and delete advertisers and earnings accounts |
+|  |  | Manage layouts | Create, edit and delete layouts |
+|  |  | Manage Report Templates | Create, edit and delete report templates |
+|  |  | Manage System | Edit the network and create, edit and delete users, tiers, custom events, roles and teams |
+|  |  | Download Logs | Permission to download our raw ad server logs from our SFTP server \(contact [support@adnuntius.com](mailto:support@adnuntius.com) if this is interesting to you\) |
+|  |  | View All Objects | Can view all objects within the system, including those without a team or found within teams the user does not belong to |
+|  | Team | Manage Advertising | Create, edit and delete orders, line items and creatives |
+|  |  | Manage Publishing | Create, edit and delete sites and ad units |
+|  |  | Run Reports | Create, edit and delete report schedules and generate reports |
+| External | Network | Manage business |  |
+|  |  | Manage layouts |  |
+|  |  | Manage report templates |  |
+|  |  | Self-service user admin |  |
+|  | Team | Run reports |  |
+|  |  | Self-service team advertising |  |
+|  |  | Self-service own advertising |  |
 
 **Role scope**: Choose whether this is a network role or a team role. A user must be allowed one network role, which determines the actions that user can take to network-wide functions such as admin functions and report templates. A user can have one team role per team, which determines the actions that user can take to team-specific functions such as publishing inventory and advertising. You can assign or reject the user these permissions:
 

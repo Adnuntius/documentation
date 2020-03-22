@@ -20,7 +20,7 @@ A site can only have one earnings account, as registering the same earnings mult
 
 **Revenue share**: If you are an ad network or a marketer with publishing partners, where the publisher is entitled to a share of revenue, then you can specify the revenue share. For example, if you add 10% as revenue share, this means that you award this earnings account 10% of whatever is earned from the sites belonging to this earnings account. 
 
-**Labels** can be added to make reporting work for you. Let's say you add the label "Norway" to a set of earnings accounts, and then want to run a report only for this set of accounts. You can then run a report which filters on these accounts specifically. [Learn how to run reports like this](../reports.md#publishing-queries).
+**Labels** can be added to make reporting work for you. Let's say you add the label "Norway" to a set of earnings accounts, and then want to run a report only for this set of accounts. You can then run a report which filters on these accounts specifically. [Learn how to run reports like this](../reports/#publishing-queries).
 
 Once an earnings account is created you get more choices on the right side. 
 
@@ -40,7 +40,7 @@ Charts shows any of your chosen metrics for any given period. You can from here 
 {% tab title="Reports" %}
 Reports allow you to generate a report based on any of your report templates. The result is a URL that can be shared with any person \(that person does not need to have access to Adnuntius\). 
 
-You can also generate scheduled reports that will automatically send reports per email to any receiver. [Learn how to create report templates](../reports.md#reports-report-templates-and-report-schedules). 
+You can also generate scheduled reports that will automatically send reports per email to any receiver. [Learn how to create report templates](../reports/#reports-report-templates-and-report-schedules). 
 
 ![Creating reports and scheduled reports for earnings accounts.](../../../.gitbook/assets/202003-ea-reports.png)
 {% endtab %}

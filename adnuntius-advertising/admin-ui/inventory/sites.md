@@ -16,7 +16,7 @@ Sites are objects that represent the site to which an ad unit belongs. It is thu
 
 **Earnings account \(optional\)**: Connect the site to an [earnings account](earnings-accounts.md) to aggregate earnings from this site and other sites to an earnings account. 
 
-**Labels** \(optional\) can be added to make it easier to search for the site, and to make reporting work for you. Let's say you add the label "publishing-group" to a set of sites, and then want to run a report only for this group of sites. You can then run a report which contains these sites specifically. [Learn how to run reports like this](../reports.md#publishing-queries).
+**Labels** \(optional\) can be added to make it easier to search for the site, and to make reporting work for you. Let's say you add the label "publishing-group" to a set of sites, and then want to run a report only for this group of sites. You can then run a report which contains these sites specifically. [Learn how to run reports like this](../reports/#publishing-queries).
 
 **Rate limits** allows you to limit the traffic \(viewable/visible/rendered/regular impressions or clicks\) that a site or ad unit receives in a given timeframe. A rate limit may be useful to ad networks that are allowed to sell only a defined set of impressions on a publisher’s behalf. If this applies to you, simply add the number of impressions, clicks or other that you are allowed to sell, then choose the period. You can also add labels if the limitation should apply only to certain line items. For example, if you add “cars” to the label field, then the rate limit will apply to all line items with the label "cars", while all other line items will be free to deliver without limitation.  
 
@@ -48,7 +48,7 @@ Ad unit charts provides you with insights about the site's ad unit performance f
 {% endtab %}
 
 {% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports.md#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](https://docs.adnuntius.io/documentation/~/drafts/-LRqZ7HD-p07mcKQLMfS/primary/user-interface-guide/reports#reports-report-templates-and-report-schedules). 
+Allows you to create a report based on a [report template](../reports/#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](https://docs.adnuntius.io/documentation/~/drafts/-LRqZ7HD-p07mcKQLMfS/primary/user-interface-guide/reports#reports-report-templates-and-report-schedules). 
 
 ![Example set up for a scheduled report](../../../.gitbook/assets/201811-inventory-site-report-scheduler.png)
 {% endtab %}

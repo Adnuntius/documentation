@@ -81,7 +81,7 @@ Provides you with insights into the delivery of the line item's creatives. You c
 {% endtab %}
 
 {% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports.md#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports.md#reports-report-templates-and-report-schedules).
+Allows you to create a report based on a [report template](../reports/#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/#reports-report-templates-and-report-schedules).
 
 The report tab also gives you the audit history of the line item. This means that you can see the changes made to the line item, when they were made, and who made them.
 

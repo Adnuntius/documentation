@@ -35,7 +35,7 @@ If you leave the page size and columns fields blank, then Adnuntius will serve a
 
 ![Once you have created a matching label you will find it as a targeting criteria for line items and creatives.](../../../.gitbook/assets/202003-matching-labels-ad-units.png)
 
-**Labels** can be added to make reporting work for you. Let's say you add the label "skyscrapers" to a set of ad units, and then want to run a report only for this group of ad units. You can then run a report which filters on these ad units specifically. [Learn how to run reports like this](../reports.md#publishing-queries).
+**Labels** can be added to make reporting work for you. Let's say you add the label "skyscrapers" to a set of ad units, and then want to run a report only for this group of ad units. You can then run a report which filters on these ad units specifically. [Learn how to run reports like this](../reports/#publishing-queries).
 
 ![Once you have added a label, you can use it as a filter when running reports.](../../../.gitbook/assets/202003-ad-unit-query-labels.png)
 
@@ -91,7 +91,7 @@ The tab “Ad Tags” is where you get the ad tag that is to be placed onto the 
 {% endtab %}
 
 {% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports.md#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](https://docs.adnuntius.io/documentation/~/drafts/-LRqZ7HD-p07mcKQLMfS/primary/user-interface-guide/reports#reports-report-templates-and-report-schedules).
+Allows you to create a report based on a [report template](../reports/#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](https://docs.adnuntius.io/documentation/~/drafts/-LRqZ7HD-p07mcKQLMfS/primary/user-interface-guide/reports#reports-report-templates-and-report-schedules).
 
 ![Report scheduler example](../../../.gitbook/assets/201811-inventory-ad-unit-reports.png)
 {% endtab %}

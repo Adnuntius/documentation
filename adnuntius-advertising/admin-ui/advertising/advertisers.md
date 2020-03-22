@@ -12,7 +12,7 @@ description: >-
 
 **IAB category:** Adding an IAB category to the client allows you to group advertisers together. Once you've added a category you can send impressions, clicks and conversions to for instance your DMP, and then create segments based on users who responded to your campaigns and their categories.
 
-**Labels** can be added to make reporting work for you. Let's say you add the label "agency" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Learn how to run reports like this](../reports.md#advertising-queries).
+**Labels** can be added to make reporting work for you. Let's say you add the label "agency" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Learn how to run reports like this](../reports/#advertising-queries).
 
 ![An example advertiser](../../../.gitbook/assets/201811-advertising-advertiser.png)
 

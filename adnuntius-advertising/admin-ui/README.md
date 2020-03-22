@@ -13,7 +13,7 @@ description: >-
 
 {% page-ref page="inventory/" %}
 
-{% page-ref page="reports.md" %}
+{% page-ref page="reports/" %}
 
 {% page-ref page="admin.md" %}
 
