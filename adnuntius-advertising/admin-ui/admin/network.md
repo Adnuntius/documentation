@@ -4,11 +4,11 @@ description: The network page lets you make certain changes to the network as a 
 
 # Network
 
-![Network page example](../../../.gitbook/assets/201811-reports-admin-network.png)
-
 **Name and Network ID**: You can change the name of the network if your company changes name. However, you can not change the ID.
 
 **Currencies**: The default currency is a currency that is chosen when your account is set up, and cannot be changed. The default currency is used when generating reports. You can add multiple currencies, and choose your preferred currency when creating line items. However, the reporting will always be done in your default currency.
+
+![Network page example](../../../.gitbook/assets/201811-reports-admin-network.png)
 
 **Timezone** is also set up when your account is created, and cannot be changed.
 
