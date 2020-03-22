@@ -1,41 +1,45 @@
-# Admin
+---
+description: >-
+  The admin section is where you manage users, roles, teams, notification
+  preferences, custom events, layouts, tiers, integrations and more.
+---
 
-The Admin section is where you manage users, roles, teams, notification preferences, custom events, layouts, tiers, integrations and more. You can get an introduction to Admin in this [Youtube](https://youtu.be/6NEH2pegA1g) video.
+# Admin
 
 ## Users and User Profile
 
 The list of users are all users who have rights to perform certain actions \(as defined by [Roles](admin.md#roles)\) to certain parts of content \(as defined by [Teams](admin.md#teams)\). Here is how to create a new user.
 
-![Creating a new user](../../.gitbook/assets/201811-reports-admin-user%20%281%29.png)
+![Example user.](../../.gitbook/assets/202003-advertising-user.png)
 
-**Email address, Name, Display name and Password**: Apply the user's email address, name and password. Display name is the name that will be displayed in the upper right corner of the user interface.
+**Email address, Name and Display name**: Apply the user's email address and name. Display name is the name that will be displayed in the upper right corner of the user interface.
 
 {% hint style="info" %}
-Please note that Adnuntius does not automatically send an email inviting the user to the network. So make sure that you inform the user about his/her new user and password.
+Adnuntius automatically sends an email inviting the user to the network, and passwords are created automatically. However, administrators can change users' password later if needed. 
 {% endhint %}
 
-**External reference \(optional\)**: Add an external reference \(optional\) if you want to match the user with the same person in another system.
+Add an **external reference \(optional\)** if you want to match the user with the same user in another system. For instance, if John Doe is registered in another system with user ID 123456, then you can add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same user across two different systems.
 
 **Roles**: A user needs to be assigned with at least two types of roles; a network role and one team role per team. You will find more information on [teams](admin.md#teams) and [roles ](admin.md#roles)later, but in short:
 
-* A network role \(the top role in the user interface, in light gray\) determines the actions the user will be able to perform to advertisers, earnings accounts, layouts, report templates, users, tiers, custom events, roles and teams \(these are all functions that apply across your entire Adnuntius account\). 
-* A team role determines the actions that a user will be able to perform to orders, line items, creatives, sites, ad units, report schedules and reports \(these are all functions that apply to a specific team, i.e. a set of sites\).
+* A network role \(the top role in the user interface, in light gray\) determines the actions the user will be able to perform across your entire Adnuntius account. this includes advertisers, earnings accounts, layouts, report templates, users, tiers, custom events, roles and teams. 
+* A team role determines the actions that a user will be able to perform to content that is team-specific, which includes orders, line items, creatives, sites, ad units, report schedules and reports.
 
 {% hint style="info" %}
-If you want to create a user that has no network permissions, you can create a network role where all permissions are unchecked \(and call it for instance "no permissions"\). This way, when you add a user with this network role, they cannot do anything to the network.
+If you want to create a user that has no network permissions, you can create a network role where all permissions are unchecked \(and call it for instance "no permissions"\). This way, when you add a user with this network role, they cannot do anything to the network, only to the team\(s\) they're invited to.
 {% endhint %}
 
 {% hint style="info" %}
-In [Admin &gt; Network](admin.md#network) you will be able to determine show or hide sections of the user interface that users do not have permissions to edit.
+In [Admin &gt; Network](admin.md#network) you can choose to show or hide sections of the user interface that users do not have permissions to edit.
 {% endhint %}
 
 ## Notification Preferences
 
-Notification preferences allow you to subscribe to various changes, meaning that you can choose to receive emails when something happens to line items and reports. You can choose to subscribe to a broad set of line item or report preferences \(top\), or to specific notifications. Here is an explanation to some of the terms.
+Notification preferences allow you to subscribe to various changes, meaning that you can choose to receive emails and/or UI notifications when something happens to line items and reports. You can choose to subscribe to a broad set of line item or report preferences \(top\), or to specific notifications.
 
 ![Notification preferences](../../.gitbook/assets/201811-reports-admin-notification-preferences.png)
 
-**Severity level** allows you to choose the types of notifications Adnuntius should send you. For instance, if you choose _Information_ you will receive notifications about line items ready to deliver or starting to run. If you choose _Warning_ you will receive notifications about for instance line items that are not starting to deliver even though it is past the start date. _Error_ will give you notifications about for instance reports that fail to execute for any reason.
+**Severity level** allows you to choose the types of notifications Adnuntius should send you. For instance, if you choose _Information_ you will receive notifications about line items ready to deliver or starting to run. If you choose _Warning_ you will receive notifications about for instance line items that are not starting to deliver even though it is past the start date. _Error_ will give you notifications about for instance reports that fail to execute.
 
 **Notification method** lets you determine if Adnuntius should notify you per email or user interface. If you choose UI then you will find notifications in the right-most column of the user interface, when clicking the "i" icon.
 
@@ -43,18 +47,19 @@ Notification preferences allow you to subscribe to various changes, meaning that
 
 API Keys are used to provide specific and limited access by external software to various parts of the application.
 
-**Scope** allows the access level of the API Key to be set. The values currently supported are:
+**Scope** allows the access level of the API Key to be set. The values supported are:
 
-* Stats Querying \(to allow read-only access to stats data via the Adnuntius API or via the Tableau data connection\)
-* User Segment Uploads \(to allow uploading of User Segment information for targeting into the Adnuntius platform\)
+* Stats Querying allows read-only access to stats data via the Adnuntius API or via the Tableau data connection.
+* User Segment Uploads allows uploading of User Segment information for targeting into the Adnuntius platform.
+* Download ad server logs allows users to download ad-server logs via SFTP.
 
-**Description** is a user-friendly description of the API Key, for keeping track of which keys are used for which purpose.
+**Description** is a user-friendly description of the API Key, for keeping track of which keys are used for which purpose. **Expiry** determines when the API Key will cease to allow access, to support restrictions on access should that be required.
 
-**Expiry** determines when the API Key will cease to allow access, to support restrictions on access should that be required.
+Once you click Save, an API Key string is generated for you.
 
 ## Teams
 
-Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. While [Roles ](admin.md#roles)lets you decide the actions that users can take to the inventory they have access to, Teams determines what inventory they can perform those actions on.
+Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. While [Roles ](admin.md#roles)lets you decide the actions that users can take to that inventory, Teams determines what inventory they can perform those actions on.
 
 ![Example team](../../.gitbook/assets/201811-reports-admin-teams.png)
 
@@ -62,11 +67,13 @@ Teams let you connect users to a set of sites. This feature allows you to design
 You can design multiple teams with the same sites under them. In other words, Adnuntius supports a many-to-many relationship between teams, where a site can belong to several teams.
 {% endhint %}
 
-**Name, description and external reference**: Give the team a name and description of your choice. You can also add an external reference \(optional\) if you want to match the team with the same entity in another system.
+**Name, description \(optional\) and external reference \(optional\)**: Give the team a name and description of your choice. You can also add an external reference if you want to match the team with the same entity in another system.
 
-**Sites**: Add the set of sites you want to put into the team. Once you've chosen one or more sites, and user added to this team will have access to the sites. The actions they can perform to those sites however, will be determined by the role that you assign to the user for this team.
+**Sites**: Add the set of sites you want to put into the team. Once you've chosen one or more sites, and user added to this team will have access to the sites. The actions they can perform to those sites however, will be determined by the [role](admin.md#roles) that you assign to the user for this team.
 
-**Team members** shows you the users currently assigned to this team.
+**Team members** shows you which users are currently assigned to this team, and what team role they have.
+
+![When you create an Order in Adnuntius, this order will be registered with a team, and therefore determine the sites this order to run on. In this example the user is part of 4 teams, and can therefore choose between 4 teams when creating an order.](../../.gitbook/assets/202003-teams-and-orders.gif)
 
 ## Roles
 
