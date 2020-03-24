@@ -59,8 +59,8 @@ Matching labels are labels added to ad units that you can later use for targetin
 Segments are based on historic user behaviour, and targes groups of users \(or "audiences"\) that have something in common. There are three ways of connecting to user segments: 
 
 1. Using [Adnuntius Data](../../../#adnuntius-data), a data platform that allows you to unify your 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and to activate your data in any system. Any data collected by Adnuntius Data will automatically be avaiable for targeting in Adnuntius Advertising without any setup work needed in advance. 
-2. Using Cxense DMP. Adnuntius has a server-side "out-of-the-box" integration to data management platform \(DMP\) partner Cxense, which means that you can easily connect to Cxense to get your segments into Adnuntius for targeting. To connect your Cxense account, please [read more here](../admin/#context-service-connections). 
-3. Using whatever data source or DMP that you already use. [Read more here](../../admin-api/endpoints/segments.md) about how to connect your data source to Adnuntius Advertising so that you can target your audience. 
+2. Using Cxense DMP. Adnuntius has a server-side "out-of-the-box" integration to data management platform \(DMP\) partner Cxense, which means that you can easily connect to Cxense to get your segments into Adnuntius for targeting. To connect your Cxense account, please [read more here](../admin/connections.md). 
+3. Using whatever data source or DMP that you already use. [Read more here](../../admin-api/endpoints/segmentsupload.md) about how to connect your data source to Adnuntius Advertising so that you can target your audience. 
 
 ![Segment targeting can be added to line items and to creatives](../../../.gitbook/assets/201811-advertising-line-item-segment-targeting.png)
 
@@ -74,7 +74,7 @@ Adnuntius can read the URLs from whatever pages that ad units are deployed to. [
 
 ![Category targeting can be added to line items and creatives](../../../.gitbook/assets/201811-advertising-line-item-category-targeting.png)
 
-You can also upload a library of categories if you would rather like to choose categories from a list rather than writing them into the text field. For more information on how to upload categories, please see [Reference Data](../admin/#reference-data). 
+You can also upload a library of categories if you would rather like to choose categories from a list rather than writing them into the text field. For more information on how to upload categories, please see [Reference Data](../admin/reference-data.md). 
 
 ## Geospatial Targeting
 
@@ -140,7 +140,7 @@ The ad tag example above illustrates how the key values query=red wine, query=co
 
 ![Adding key values. ](../../../.gitbook/assets/202003-kv-targeting.gif)
 
-You can also upload a library of key values if you would rather like to choose them from a list rather than writing them into the text field. For more information on how to upload key values, please see [Reference Data](../admin/#reference-data).
+You can also upload a library of key values if you would rather like to choose them from a list rather than writing them into the text field. For more information on how to upload key values, please see [Reference Data](../admin/reference-data.md).
 
 {% hint style="info" %}
 Even though you send key values with an ad request, ads with no key values can still be served inside this ad unit; but line items and creatives targeted with key values can be served ONLY if the ad unit sends these key values. If you want to set an ad unit to only show ads if the line items/creatives have key values, please see [Ad units and "must match type". ](../inventory/adunits-1.md)

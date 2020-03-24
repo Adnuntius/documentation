@@ -55,7 +55,7 @@ Next you see that "**Between 129,900 and 145,597 impressions face no competition
 * Objectives and delivered shows you the booked traffic, and how much is delivered so far. 
 * Estimated allocation shows you the traffic allocated to competing line items for the period you've chosen for the reach analysis. 
 * Competition shows you how much competing line items are overlapping with your reach analysis. For example, 50% means that a competitor will compete for half of the traffic that you are trying to set aside for another line item. 
-* Tier and prio shows you the tier of competing line items. If you need to set aside more traffic for an important line item, then you can place other line items in lower prioritized tiers. [Here you can also see how you create tiers and organize them.](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/admin#tiers) 
+* Tier and prio shows you the tier of competing line items. If you need to set aside more traffic for an important line item, then you can place other line items in lower prioritized tiers. [Here you can also see how you create tiers and organize them.](../admin/tiers.md) 
 
 ## Creating New Line Items from Reach
 

@@ -35,7 +35,7 @@ If you leave the page size and columns fields blank, then Adnuntius will serve a
 
 ![Once you have created a matching label you will find it as a targeting criteria for line items and creatives.](../../../.gitbook/assets/202003-matching-labels-ad-units.png)
 
-**Labels** can be added to make reporting work for you. Let's say you add the label "skyscrapers" to a set of ad units, and then want to run a report only for this group of ad units. You can then run a report which filters on these ad units specifically. [Learn how to run reports like this](../reports/#publishing-queries).
+**Labels** can be added to make reporting work for you. Let's say you add the label "skyscrapers" to a set of ad units, and then want to run a report only for this group of ad units. You can then run a report which filters on these ad units specifically. [Learn more about reports. ](../reports/publishing-queries.md)
 
 ![Once you have added a label, you can use it as a filter when running reports.](../../../.gitbook/assets/202003-ad-unit-query-labels.png)
 
@@ -67,7 +67,7 @@ In the instance above only ad unit targeting is selected. This will only allow l
 
 **Rate limits** allows you to limit the traffic \(viewable/visible/rendered/regular impressions or clicks\) that an ad unit receives in a given timeframe. A rate limit may be useful to ad networks that are allowed to sell only a defined set of impressions on a publisher’s behalf. If this applies to you, simply add the number of impressions, clicks or other that you are allowed to sell, then choose the period. You can also add labels if the limitation should apply only to certain line items. For example, if you add “cars” to the label field, then the rate limit will apply to all line items with the label "cars", while all other line items will be free to deliver without limitation.
 
-**External ad units** are placements connecting programmatic ads to an ad unit, enabling you to serve ads from one or more SSPs with a client-side or server-side connection. [Read more about external ad units in this separate section](./#external-ad-unit).
+**External ad units** are placements connecting programmatic ads to an ad unit, enabling you to serve ads from one or more SSPs with a client-side or server-side connection. [Read more about external ad units in this separate section](external-adunits.md).
 
 **Overview, charts and reports**: On the right side of an ad unit's page you will find multiple tabs. 
 
@@ -91,7 +91,7 @@ The tab “Ad Tags” is where you get the ad tag that is to be placed onto the 
 {% endtab %}
 
 {% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports/#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](https://docs.adnuntius.io/documentation/~/drafts/-LRqZ7HD-p07mcKQLMfS/primary/user-interface-guide/reports#reports-report-templates-and-report-schedules).
+Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
 
 ![Report scheduler example](../../../.gitbook/assets/201811-inventory-ad-unit-reports.png)
 {% endtab %}

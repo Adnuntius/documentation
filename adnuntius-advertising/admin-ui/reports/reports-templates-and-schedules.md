@@ -18,7 +18,7 @@ Report templates allow you to determine how a\(n automatically generated\) repor
 
 ![in this example you see how to modify an existing report template.](../../../.gitbook/assets/202003-report-templates.gif)
 
-**Name, description and logo:** Give the report template a name and description \(optional\) of your choice. If you have [uploaded a logo in the Admin &gt; Network section](../admin/#network), you can also preview the logo that will be used in reports when they are generated. 
+**Name, description and logo:** Give the report template a name and description \(optional\) of your choice. If you have [uploaded a logo in the Admin &gt; Network section](../admin/network.md), you can also preview the logo that will be used in reports when they are generated. 
 
 **Report template type**: Choose the report type you want to create based on this template. For example, if you choose "line item", then this template will be made available for users when they create a report for line items. The types you can choose between: 
 

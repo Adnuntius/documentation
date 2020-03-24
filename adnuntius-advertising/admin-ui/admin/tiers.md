@@ -6,7 +6,7 @@ description: Tiers enable you to prioritize delivery of some line items above ot
 
 If you are familiar with other adservers that work with predefined tiers, you may recognize terms like "roadblock" or sponsorship". Adnuntius works slightly different, as we want to enable you to build exactly the tier structure that is right for you.
 
-Every line item in Adnuntius is placed inside a tier \(you can choose a default tier in [Admin &gt; Network](./#network)\). Once a line item is created, it will share the traffic to that tier with other line items placed inside the same tier.
+Every line item in Adnuntius is placed inside a tier \(you can choose a default tier in [Admin &gt; Network](network.md)\). Once a line item is created, it will share the traffic to that tier with other line items placed inside the same tier.
 
 ![Tier structure example](../../../.gitbook/assets/201811-reports-admin-tiers.png)
 

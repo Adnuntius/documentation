@@ -18,7 +18,7 @@ description: The network page lets you make certain changes to the network as a 
 
 **Viewability calculation method** allows you to determine how viewability is calculated by Adnuntius. You can choose to divide viewable impressions by all impressions, or by rendered impressions only. As a point of comparison, Google Ad Manager defines viewability as impressions over rendered impressions, and it may make sense to choose this method if you are relying on lots of third party players delivering your ads \(as viewability cannot be easily calculated once served inside another system\).
 
-**Web notification URL** lets you define a URL that [system notifications](./#notification-preferences) will be sent to whenever they arise. If you want another system to pick up these notifications, then you can apply a URL to that system here.
+**Web notification URL** lets you define a URL that system notifications will be sent to whenever they arise. If you want another system to pick up these notifications, then you can apply a URL to that system here.
 
 **App section viewability** lets you show or hide sections of the app that users do not have permissions to edit. _Show all_ means that Adnuntius will show all sections of the app at all times \(however, teams still dictate visibility of individual objects\), even though users will not be allowed to edit or add anything. _Hide ineditable sections_ means that Adnuntius will hide sections of the app that users do not have permissions to edit.
 

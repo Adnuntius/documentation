@@ -9,6 +9,8 @@ description: >-
 
 ## Adnuntius Advertising
 
+Adnuntius Advertising lets you connect, manage and grow programmatic and direct revenue from any source in one application, add value with new and rich formats that are fast to implement and simple to operate at scale, integrate your data effortlessly to activate your user insights, and much more. It is by far one of the world's fastest and most flexible advertising platforms on the market.  
+
 {% page-ref page="adnuntius-advertising/admin-ui/" %}
 
 {% page-ref page="adnuntius-advertising/admin-api/" %}
@@ -18,6 +20,8 @@ description: >-
 {% page-ref page="adnuntius-advertising/requesting-ads/" %}
 
 ## Adnuntius Data
+
+Adnuntius Data lets you unify your 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and activate your data in any system. This is the tool for you who wants to take control of and act on user information in a responsible way, after 3rd party cookies have disappeared. 
 
 {% page-ref page="adnuntius-data/sending-data/" %}
 

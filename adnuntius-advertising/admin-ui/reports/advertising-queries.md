@@ -7,7 +7,7 @@ description: >-
 
 # Advertising Queries
 
-You can apply multiple filters to get the data you want.
+You can apply multiple filters to get the data you want. For example: if you have added labels to advertisers, orders or line items, then you can filter by these labels to single out certain items in your reports.
 
 ![Advertising query example - in this case for a line item](../../../.gitbook/assets/201811-reports-advertising-query.png)
 

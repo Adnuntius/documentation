@@ -6,23 +6,23 @@ description: >-
 
 # Orders
 
-An order can contain multiple line items. It also determines what team the campaign belongs to, and the set of sites that impressions can be delivered to \(see Admin &gt; [Teams](../../admin-api/endpoints/teams.md) for more information\).
+An order can contain multiple line items. It also determines what team the campaign belongs to, and the set of sites that impressions can be delivered to \(see Admin &gt; [Teams](../admin/users-teams-and-roles.md) for more information\).
 
 ![An example order](../../../.gitbook/assets/201811-advertising-order.png)
 
 **Name:** Add a name of your choice. Please note that it is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 
-**Team:** A team contains a set of sites, and one or more users that have access to perform actions to the order and underlying line items \(the actions they can perform depend on users' [roles](../../admin-api/endpoints/roles.md). If your user has access to multiple teams you will be able to choose from a dropdown menu, otherwise only the team available to you will appear. [Learn more about teams.](../admin/#teams)
+**Team:** A team contains a set of sites, and one or more users that have access to perform actions to the order and underlying line items \(the actions they can perform depend on users' [roles](../admin/users-teams-and-roles.md). If your user has access to multiple teams you will be able to choose from a dropdown menu, otherwise only the team available to you will appear. [Learn more about teams.](../admin/users-teams-and-roles.md)
 
 **Advertiser:** connects the order to a parent advertiser. Used to keep control of inventory. If you are an advertiser yourself, or don't need this hierarchy, we recommend that you just create one advertiser \(yourself\), and then connect any order to yourself as an advertiser.
 
-**Salesperson \(optional\):** if a salesperson is responsible for the order, then you can assign the order to that user. Please note that you have to create a user for that person; [learn how to create a user](../admin/#users-and-user-profile). After you've done that, you can create reports that can be automatically distributed, showing how much revenue they have earned, their development over time, and more. [Learn how to create salesperson reports](../reports/#reports-report-templates-and-report-schedules).
+**Salesperson \(optional\):** if a salesperson is responsible for the order, then you can assign the order to that user. Please note that you have to create a user for that person; [learn how to create a user](../admin/users-teams-and-roles.md). After you've done that, you can create reports that can be automatically distributed, showing how much revenue they have earned, their development over time, and more.
 
 **Ad ops \(optional\):** If you have an adops function in your company, then you can add that person to the order. When you have done this you can easily keep overview of who has the responsibility for which orders, as you can see in the image below.
 
 ![Overview of orders, containing among other ad ops users](../../../.gitbook/assets/201811-advertising-order-overview.png)
 
-**Labels** can be added to make reporting work for you. Let's say you add the label "autumn" to a set of orders, and then want to run a report only for this group of orders. You can then run a report which filters on these orders specifically. [Learn how to run reports like this](../reports/#advertising-queries).
+**Labels** can be added to make reporting work for you. Let's say you add the label "autumn" to a set of orders, and then want to run a report only for this group of orders. You can then run a report which filters on these orders specifically. [Read more about reports.](../reports/advertising-queries.md)
 
 **Overview, charts and reports**: On the right side of an order page you will find multiple tabs that each has its function.
 
@@ -46,7 +46,7 @@ Provides you with insights into the delivery of line items which are part of thi
 {% endtab %}
 
 {% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports/#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/#reports-report-templates-and-report-schedules).
+Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
 
 ![](../../../.gitbook/assets/201811-advertising-order-report-scheduler.png)
 {% endtab %}

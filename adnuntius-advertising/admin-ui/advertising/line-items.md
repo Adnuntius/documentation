@@ -23,7 +23,7 @@ If your line item has the execution state of "Not deliverable" then first check 
 Many customers are confused when they get the message "The line item requires a bid specification". This means that you have to enter a CPM bid to the line item. This bid can be 0, but something has to be added for the line item to deliver. 
 {% endhint %}
 
-**State** allows you to pause or stop a campaign. "_Approved_" means that the line item will run as soon as the start date is met, all material is added, and everything is ready. "_Paused_" means that the line item won't deliver impressions, but the booked impressions are still taken into consideration when running [reach analyses](./#reach-analysis). "_Stopped_" means that the line item won't deliver impressions, and the booked impressions are cancelled \(so the line item will not count into any reach analyses\).
+**State** allows you to pause or stop a campaign. "_Approved_" means that the line item will run as soon as the start date is met, all material is added, and everything is ready. "_Paused_" means that the line item won't deliver impressions, but the booked impressions are still taken into consideration when running [reach analyses](reach-analysis.md). "_Stopped_" means that the line item won't deliver impressions, and the booked impressions are cancelled \(so the line item will not count into any reach analyses\).
 
 The two states "Proposed" and "Submitted" are used in self-service advertising where you want to quality approve campaigns before they go live \(for instance, to check that they do not contain illegal or offensive content. 
 
@@ -45,7 +45,7 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 _"Sponsorshop"_ means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item \(so, if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic\). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad. 
 
 {% hint style="info" %}
-When specifying a share of voice, take into consideration the [tier ](../admin/#tiers)into which your line item is booked. If a tier is allowed to consume 50% of traffic and is the second highest prioritized tier, then consider that a line item with share of voice 25% then these rules will apply: \(1\) your line item will only get as much traffic as is passed on from the highest tier; and \(2\) your line item will receive 25% of the 50% of traffic that your tier has been assigned with. So your line item will get 25% x 50%x \(100% - what is consumed by higher prioritized tiers\).
+When specifying a share of voice, take into consideration the [tier](../admin/tiers.md) into which your line item is booked. If a tier is allowed to consume 50% of traffic and is the second highest prioritized tier, then consider that a line item with share of voice 25% then these rules will apply: \(1\) your line item will only get as much traffic as is passed on from the highest tier; and \(2\) your line item will receive 25% of the 50% of traffic that your tier has been assigned with. So your line item will get 25% x 50%x \(100% - what is consumed by higher prioritized tiers\).
 {% endhint %}
 
 **Rate limits** lets you limit the delivery of a line item. if you choose to add more than one rate limit, then both limits will be added to the line item, essentially adding two restrictions on top of each other.
@@ -81,7 +81,7 @@ Provides you with insights into the delivery of the line item's creatives. You c
 {% endtab %}
 
 {% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports/#reports-report-templates-and-report-schedules), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/#reports-report-templates-and-report-schedules).
+Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
 
 The report tab also gives you the audit history of the line item. This means that you can see the changes made to the line item, when they were made, and who made them.
 
@@ -124,7 +124,7 @@ This response can be interpreted as follows:
 * The last test checks if the line item is held back due to smoothing. If this warning kicks in then try to turn off smoothing to check if this starts the delivery.
 
 {% hint style="info" %}
-You can also [run diagnostics for ad units](../inventory/#ad-units) if you wonder what ad would win an auction for a given ad unit.
+You can also run [diagnostics for ad units](../inventory/adunits-1.md) if you wonder what ad would win an auction for a given ad unit.
 {% endhint %}
 
 {% hint style="info" %}

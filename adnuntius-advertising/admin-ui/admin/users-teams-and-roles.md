@@ -19,24 +19,24 @@ Adnuntius automatically sends an email inviting the user to the network, and pas
 
 Add an **external reference \(optional\)** if you want to match the user with the same user in another system. For instance, if John Doe is registered in another system with user ID 123456, then you can add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same user across two different systems.
 
-**Roles**: A user needs to be assigned with at least two types of roles; a network role and one team role per team. You will find more information on [teams](./#teams) and [roles ](./#roles)later, but in short:
+**Roles**: A user needs to be assigned with at least two types of roles; a network role and one team role per team. You will find more information on teams and roles further down, but in short:
 
 * A network role \(the top role in the user interface, in light gray\) determines the actions the user will be able to perform across your entire Adnuntius account. this includes advertisers, earnings accounts, layouts, report templates, users, tiers, custom events, roles and teams. 
 * A team role determines the actions that a user will be able to perform to content that is team-specific, which includes orders, line items, creatives, sites, ad units, report schedules and reports.
 
-You can also switch between Adnuntius Advertising and Adnuntius Designer. If you click Adnuntius Designer you can assign a role to the user for the Adnuntius Designer application \(please note that you may have to create a [role](./#roles) first\). 
+You can also switch between Adnuntius Advertising and Adnuntius Designer. If you click Adnuntius Designer you can assign a role to the user for the Adnuntius Designer application \(please note that you may have to create a [role](../../admin-api/endpoints/roles.md) first\). 
 
 {% hint style="info" %}
 If you want to create a user that has no network permissions, you can create a network role where all permissions are unchecked \(and call it for instance "no permissions"\). This way, when you add a user with this network role, they cannot do anything to the network, only to the team\(s\) they're invited to.
 {% endhint %}
 
 {% hint style="info" %}
-In [Admin &gt; Network](./#network) you can choose to show or hide sections of the user interface that users do not have permissions to edit.
+In [Admin &gt; Network](network.md) you can choose to show or hide sections of the user interface that users do not have permissions to edit.
 {% endhint %}
 
 ## Teams
 
-Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. While [Roles ](./#roles)lets you decide the actions that users can take to that inventory, Teams determines what inventory they can perform those actions on.
+Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. While [Roles ](../../admin-api/endpoints/roles.md)lets you decide the actions that users can take to that inventory, Teams determines what inventory they can perform those actions on.
 
 ![Example team](../../../.gitbook/assets/201811-reports-admin-teams.png)
 
@@ -46,13 +46,13 @@ Teams let you connect users to a set of sites. This feature allows you to design
 You can design multiple teams with the same sites under them. In other words, Adnuntius supports a many-to-many relationship between teams, where a site can belong to several teams.
 {% endhint %}
 
-**Sites**: Add the set of sites you want to put into the team. Once you've chosen one or more sites, and user added to this team will have access to the sites. The actions they can perform to those sites however, will be determined by the [role](./#roles) that you assign to the user for this team.
+**Sites**: Add the set of sites you want to put into the team. Once you've chosen one or more sites, and user added to this team will have access to the sites. The actions they can perform to those sites however, will be determined by the [role](../../admin-api/endpoints/roles.md) that you assign to the user for this team.
 
 ![When you create an Order in Adnuntius, this order will be registered with a team, and therefore determine the sites this order to run on. In this example the user is part of 4 teams, and can therefore choose between 4 teams when creating an order.](../../../.gitbook/assets/202003-teams-and-orders.gif)
 
 ## Roles
 
-While [Teams](./#teams) determines the inventory a user will have access to, Roles determines what actions that user will be able to take to that inventory.
+While [Teams](../../admin-api/endpoints/teams.md) determines the inventory a user will have access to, Roles determines what actions that user will be able to take to that inventory.
 
 ![Creating a role](../../../.gitbook/assets/201811-reports-admin-roles.png)
 
@@ -89,7 +89,7 @@ If you want to create a user that has no network permissions, you can create a n
 {% endhint %}
 
 {% hint style="info" %}
-In [Admin &gt; Network](./#network) you will be able to determine show or hide sections of the user interface that users do not have permissions to edit.
+In [Admin &gt; Network](network.md) you will be able to determine show or hide sections of the user interface that users do not have permissions to edit.
 {% endhint %}
 
 ## Common Role Combinations

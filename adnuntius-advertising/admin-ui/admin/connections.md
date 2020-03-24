@@ -31,7 +31,7 @@ External demand sources enables you to connect to a Supply-Side Platform \(SSP\)
 ![External demand source setup example](../../../.gitbook/assets/201811-reports-admin-external-demand-source.png)
 
 {% hint style="info" %}
-This is the first step to set up programmatic ads. After you have completed these first steps, move to [External ad units](../inventory/#external-ad-unit) to set up connections between each Adnuntius ad unit and your SSP ad units.
+This is the first step to set up programmatic ads. After you have completed these first steps, move to [External ad units](../inventory/external-adunits.md) to set up connections between each Adnuntius ad unit and your SSP ad units.
 {% endhint %}
 
 **Name and description**: Give the connection a name and description \(optional\) of your choice.
