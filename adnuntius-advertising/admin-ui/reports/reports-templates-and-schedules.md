@@ -4,7 +4,7 @@ description: >-
   templates and scheduled reports.
 ---
 
-# Reports, Templates and Schedules
+# Templates and Schedules
 
 ## **Reports and Scheduled Reports**
 

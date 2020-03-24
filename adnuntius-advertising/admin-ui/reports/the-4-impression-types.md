@@ -1,34 +1,19 @@
 ---
 description: >-
-  The reports section lets you manage templates and schedules, and to run
-  advertising and publishing queries.
+  We collect statistics on four kinds of impressions: standard impressions,
+  rendered impressions, visible impressions and viewable impressions. Here's
+  what they mean.
 ---
 
-# Reports and Statistics
+# The 4 Impression Types
 
-## Concept Summary
-
-| Name | Description |
-| :--- | :--- |
-| [Reports](reports-templates-and-schedules.md) | Provides you with overview of all reports ran across the system. |
-| [Report templates](reports-templates-and-schedules.md) | Allows you to create and manage templates, on which \(scheduled\) reports for line items, orders, advertisers, sites, ad units and more can be created.  |
-| [Report schedules](reports-templates-and-schedules.md) | Shows you which scheduled reports the system is running, and allows you to remove them. |
-| [Advertising queries](advertising-queries.md) | Allows you to create a summary report of all advertisers, orders, line items or creatives across the system, or those who match certain labels or other criteria. |
-| [Publishing queries](publishing-queries.md) | Allows you to create a summary report of all sites, ad units or earnings accounts across the system, or those who match certain labels or other criteria. |
-
-## The Four Kinds of Impressions
-
-We collect statistics on four kinds of impressions: standard impressions, rendered impressions, visible impressions and viewable impressions.
-
-Here's what they mean:
-
-### Impressions
+## Impressions
 
 An impression is counted as soon as an ad is returned by the ad server. This means that if your ad has collected 100 impressions, there's no guarantee that the ad has ever travelled from the Adnuntius ad server all the way to a user's browser and been seen or even rendered on a web page.
 
 How can you be sure that your ad has even been rendered on a web page? By looking at rendered impressions.
 
-### Rendered Impressions
+## Rendered Impressions
 
 Rendered impressions count how many times an ad has travelled from the Adnuntius ad server to the user's browser and been rendered on a web page. Each time an ad is rendered into a page, a signal is sent to the Adnuntius system from which we register a rendered impression for the ad.
 
@@ -36,7 +21,7 @@ But even though an ad might be rendered on a web page, that doesn't mean it can 
 
 How can you be sure that an ad could have been seen by the end user? By looking at visible impressions.
 
-### Visible Impressions
+## Visible Impressions
 
 Visible impressions count how many times an ad appears in a user's viewport. A viewport is the visible area of any web page. As soon as 1% of an ad's area is within the user's viewport, a signal is sent to the Adnuntius system from which we register a visible impression for the ad.
 
@@ -44,7 +29,7 @@ But even though an ad might be counted as visible, that doesn't mean the end use
 
 How can you be sure an ad was visible and there's a reasonable chance it was seen by the end user? By looking at viewable impressions.
 
-### Viewable Impressions
+## Viewable Impressions
 
 Viewable impressions count how many times at least 50% of an ad's area appears in a user's viewport for one second or more. A viewport is the visible area of any web page, and the viewable impression definition comes straight from the Interactive Advertising Bureau \(IAB\) guidelines. As soon as the viewable impression criteria are met, a signal is sent to the Adnuntius system from which we register a viewable impression for the ad.
 

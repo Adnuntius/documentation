@@ -15,8 +15,6 @@ Adnuntius Advertising lets you connect, manage and grow programmatic and direct 
 
 {% page-ref page="adnuntius-advertising/admin-api/" %}
 
-{% page-ref page="adnuntius-advertising/stats/" %}
-
 {% page-ref page="adnuntius-advertising/requesting-ads/" %}
 
 ## Adnuntius Data
