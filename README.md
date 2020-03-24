@@ -19,7 +19,7 @@ Adnuntius Advertising lets you connect, manage and grow programmatic and direct 
 
 ## Adnuntius Data
 
-Adnuntius Data lets you unify your 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and activate your data in any system. This is the tool for you who wants to take control of and act on user information in a responsible way, after 3rd party cookies have disappeared. 
+Adnuntius Data lets you unify your 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and activate your data in any system. This is the tool for you who want to take control of and act on user information in a responsible way, now that 3rd party cookies are about to disappear. 
 
 {% page-ref page="adnuntius-data/sending-data/" %}
 
