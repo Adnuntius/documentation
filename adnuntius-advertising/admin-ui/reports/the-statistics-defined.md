@@ -9,7 +9,7 @@ description: >-
 
 ## Advertising Stats
 
-Note: take [the deep dive on impression stats for more detailed information]() about them.
+Note: take [the deep dive on impression stats for more detailed information](the-4-impression-types.md) about them.
 
 * **Impressions:** counts each time an ad is served by our Adnuntius ad server.
 * **Rendered impressions:** counts each time an ad is rendered into a web page.
