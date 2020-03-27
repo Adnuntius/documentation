@@ -6,7 +6,7 @@ description: >-
 
 # Earnings Accounts
 
-The purpose of earnings accounts is to enable you to choose how you want to consolidate earnings from certain sites into one or more earnings accounts. 
+An earnings account contains one or more sites, and makes it easy to keep track of the earnings you as a publisher have made across those sites, or the spending that you as a buyer has made across those sites.
 
 {% hint style="info" %}
 A site can only have one earnings account, as registering the same earnings multiple places would result in the wrong earnings. However, an earnings account may contain multiple sites.
