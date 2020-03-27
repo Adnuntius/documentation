@@ -8,6 +8,8 @@ description: >-
 
 The ad tag generator allows you to add important controls to the ad tag so that your deployment goes smoothly. 
 
+![Ad tag generator.](../../../.gitbook/assets/202003-ad-tag-gen.gif)
+
 First, you can use the **ad unit search** to find the ad unit you want to deploy. Then click “copy” to copy its properties. You will now see that the width and height that you added to the ad unit is filled in. 
 
 **targetId** Specifies which element ID in the page to insert an ad into. It defaults to value of the ad unit you’ve chosen. TargetId comes most in handy when multiple requests to the same ad unit are made to the ad server from the same page. If the same target ID is used multiple times on the same page, it will cycle through the HTML elements that match the ID until an empty one is found in which to put the ad. However, to ensure the requested ad is put into the expected spot on the page, unique IDs must be used in your page. You can also leave targetId blank if you don’t need it. 
