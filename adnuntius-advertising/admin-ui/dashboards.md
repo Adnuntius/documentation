@@ -4,6 +4,8 @@ description: Explains how to create dashboards in Adnuntius Advertising.
 
 # Dashboards
 
+{% embed url="https://www.youtube.com/watch?v=NQ4tHVFtkWY" caption="Dashboards: video demonstration." %}
+
 Dashboards are pages consisting of widgets in which you can define the content, so that you can keep control of what is going on in Adnuntius Advertising. You can create any number of dashboards and change between them in the left-most column as soon as they are created. 
 
 To create a new dashboard, go to Dashboards in the top line menu and then to Dashboards in the left-side menu. In the upper right corner, click "New".
