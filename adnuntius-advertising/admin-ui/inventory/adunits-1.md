@@ -1,13 +1,12 @@
 ---
 description: >-
-  An ad unit is a placement that goes onto your site, so that you can later fill
-  it with ads. It is as such an empty container that sets aside a space on your
-  site so that you can fill it with content.
+  An ad unit is a placement that goes onto a site, so that you can later fill it
+  with ads.
 ---
 
 # Adunits
 
-An Ad unit is a placement that serves your intended content onto a page. It is a snippet of code placed on a website or within a third party system to request content from Adnuntius. If you're a developer and want to know the properties of the ad tag, please see "[Requesting ads](../../requesting-ads/)".
+An Ad unit is a placement that serves advertising and other content onto a publisher's site. It is a snippet of code placed on a website or within a third party system to request content from Adnuntius. If you're a developer and want to know the properties of the ad tag \(adn.js\), please see "[Requesting ads](../../requesting-ads/)".
 
 ![Ad unit example](../../../.gitbook/assets/201811-inventory-ad-unit.png)
 

@@ -19,6 +19,7 @@
     * [Sites](adnuntius-advertising/admin-ui/inventory/sites.md)
     * [Adunits](adnuntius-advertising/admin-ui/inventory/adunits-1.md)
     * [External Ad Units](adnuntius-advertising/admin-ui/inventory/external-adunits.md)
+    * [Ad Tag Generator](adnuntius-advertising/admin-ui/inventory/ad-tag-generator.md)
   * [Reports and Statistics](adnuntius-advertising/admin-ui/reports/README.md)
     * [The Statistics Defined](adnuntius-advertising/admin-ui/reports/the-statistics-defined.md)
     * [The 4 Impression Types](adnuntius-advertising/admin-ui/reports/the-4-impression-types.md)
