@@ -1,14 +1,13 @@
 ---
 description: >-
-  Site groups let publishers group sites together to make targeting line items
-  and/or creatives to multiple sites easier. Here is how you create one.
+  A site groups enable publishers to group multiple sites together, so that
+  anyone buying campaigns can target multiple sites with the click of a button
+  when creating a line item or creative.
 ---
 
 # Site Groups
 
-Site groups make it easier for someone booking campaigns to target line items and/or creatives to a group of sites. Publishers can create site groups as follows. 
-
-First go to Inventory &gt; Site Groups and click "New" in the upper right corner. Give the site group a name, a description \(optional\), and any labels \(optional\) to make search and reporting easier.  Then click save.
+To create a site group, go to Inventory &gt; Site Groups and click "New" in the upper right corner. Give the site group a name, a description \(optional\), and any labels \(optional\) to make search and reporting easier.  Then click save.
 
 ![Creating a site group.](../../../.gitbook/assets/202003-site-group.png)
 

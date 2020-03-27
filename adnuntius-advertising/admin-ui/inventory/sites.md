@@ -6,7 +6,9 @@ description: >-
 
 # Sites
 
-Sites are objects that represent the site to which an ad unit belongs. It is thus a container for ad units, and also connects ad units \(and their earnings\) to earnings accounts. To create a new site, go to Inventory &gt; Sites and click "New" in the upper right corner.
+Sites are objects that make it easy for publishers to organize advertising inventory according to the domains, or sites, that publishers own, control or have access to. Once a site is created it can be targeted by line items and creatives. It is also a folder for ad units, which are the placements that go onto the sites to show ads. Ad units are the most granular object on the inventory part of Adnuntius Advertising, and sites are as such folders that help you as a publisher to organize your ad units.
+
+To create a site, go to “inventory”, then to “sites”, then in the upper right corner, click “new”.
 
 ![Example site and its ad units \(on the right\).](../../../.gitbook/assets/201811-advertising-site.png)
 
@@ -51,6 +53,28 @@ Ad unit charts provides you with insights about the site's ad unit performance f
 Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md). 
 
 ![Example set up for a scheduled report](../../../.gitbook/assets/201811-inventory-site-report-scheduler.png)
+{% endtab %}
+
+{% tab title="Traffic" %}
+The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this site has delivered, per device type, operating system and mobile brand. 
+
+![Traffic example. In this example the ad tag is deployed to desktop only, meaning that no impressions are registered for mobile brands.](../../../.gitbook/assets/202003-ad-units-traffic-tab.png)
+{% endtab %}
+
+{% tab title="Availability" %}
+Availability allows you to forecast how much traffic your site is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis. 
+
+![Availability analysis example. ](../../../.gitbook/assets/202003-ad-units-availability-tab.png)
+
+The following explanations will the example above above for guidance. 
+
+First, the analysis tells you that "**This ad unit is estimated to deliver 7.90% of all traffic across your network**", and that this means that for the defined period the ad unit can deliver between 231,070 and 248,379 impressions, between 0 and 162 clicks etc. If you choose a longer period of time \(start and end date\) these numbers are likely to increase. 
+
+Next, the allocation analysis tells you that "**0 impressions are allocated to 3 line items, which is 0.00% of the projected traffic**". This may sound strange, but the reason is that none of the three line items currently taking up space for this site have any objectives \(impressions, clicks etc\) registered. Let's say that one of the three line items had an impression objective of 100,000 impressions, was targeted to this ad unit only and had start and end dates equal to the ones you chose, then the message could be "100,000 impressions are allocated to 3 line items, which is 43.29% of the projected traffic".
+
+The message "**Between 231,070 – 248,379 impressions are not allocated**" tells you how many impressions are not booked already, meaning that you can probably book this many impressions for a new line item. If we repeated the example above with the 100,000 booke impressions, the message could have been "Between 131,070 – 148,379 impressions are not allocated". 
+
+Competitors is a useful list of competing line items \(either as one list, or grouped by tiers\). This list lets you identify competing line items and make changes to them in case you need to make room for a new and more important campaign.
 {% endtab %}
 {% endtabs %}
 
