@@ -6,6 +6,8 @@ description: >-
 
 # Earnings Accounts
 
+{% embed url="https://youtu.be/l96RnNFp\_i4" caption="How to create earnings accounts." %}
+
 An earnings account contains one or more sites, and makes it easy to keep track of the earnings you as a publisher have made across those sites, or the spending that you as a buyer has made across those sites.
 
 {% hint style="info" %}
