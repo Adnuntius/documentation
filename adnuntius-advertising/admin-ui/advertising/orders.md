@@ -6,6 +6,8 @@ description: >-
 
 # Orders
 
+{% embed url="https://youtu.be/XdSFIeujJKs" caption="Creating orders." %}
+
 An order can contain multiple line items. It also determines what team the campaign belongs to, and the set of sites that impressions can be delivered to \(see Admin &gt; [Teams](../admin/users-teams-and-roles.md) for more information\).
 
 ![An example order](../../../.gitbook/assets/201811-advertising-order.png)
@@ -16,9 +18,9 @@ An order can contain multiple line items. It also determines what team the campa
 
 **Advertiser:** connects the order to a parent advertiser. Used to keep control of inventory. If you are an advertiser yourself, or don't need this hierarchy, we recommend that you just create one advertiser \(yourself\), and then connect any order to yourself as an advertiser.
 
-**Salesperson \(optional\):** if a salesperson is responsible for the order, then you can assign the order to that user. Please note that you have to create a user for that person; [learn how to create a user](../admin/users-teams-and-roles.md). After you've done that, you can create reports that can be automatically distributed, showing how much revenue they have earned, their development over time, and more.
+**Salesperson \(optional\):** if a salesperson is responsible for the order, then you can assign the order to that user. Please note that you have to create a user for that person; [learn how to create a user](../admin/users-teams-and-roles.md). After you've done that, you can create reports showing how much revenue they have earned, their development over time, and more.
 
-**Ad ops \(optional\):** If you have an adops function in your company, then you can add that person to the order. When you have done this you can easily keep overview of who has the responsibility for which orders, as you can see in the image below.
+**Ad ops \(optional\):** If you have an adops function in your company, then you can add that person to the order. When you have done this you can easily keep overview of who has the responsibility for which orders.
 
 ![Overview of orders, containing among other ad ops users](../../../.gitbook/assets/201811-advertising-order-overview.png)
 
