@@ -6,6 +6,8 @@ description: >-
 
 # Ad Tag Generator
 
+{% embed url="https://youtu.be/FBoBqQK5VNo" caption="Using the ad tag generator." %}
+
 The ad tag generator allows you to add important controls to the ad tag so that your deployment goes smoothly. 
 
 ![Ad tag generator.](../../../.gitbook/assets/202003-ad-tag-gen.gif)
