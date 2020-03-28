@@ -65,6 +65,20 @@ When you target multiple items in the same group \(for instance, multiple ad uni
 
 There are many targeting criteria you can choose between, so [we have set aside a different page for this](targeting.md).
 
+**Tiers** allow you to prioritize this line item above or below other line items. If more than one line item exists within one tier, then those line items will compete for attention according to the type set above. If you have set the type to "auction" then the line items will compete on eCPM pricing, while if you set the type to "sponsorship" then the share of voice is set by the percentage. To create and re-arrange tiers, please see [tiers](../admin/tiers.md).
+
+**Companion creatives** let you determine if each creative should be delivered individually, or if they should be served at the same time. This enables you to create for instance so-called "horse shoe ads", where two skyscrapers and a top banner are always shown at the same time, or not at all. 
+
+**Creative delivery** allows you to determine whether creatives can be served multiple times on the same page, or if restrictions should apply. "Open" means that the same creative can be delivered multiple times one the same page. "Unique" means that no same creative from this line item can be delivered one the same page. And "one per line item" means that maximum one creative from this line item can be delivered one the same page.
+
+**Exclusion labels** allow you to ensure that defined line items cannot be delivered on the same page. This can be useful if you for instance have two car dealers that do not want to be shown together. In this case you can add the label "car-dealer" to both line items, which means that these two line items will never be shown on the same page. 
+
+{% hint style="info" %}
+Please note that in order for companion creatives, creative delivery and exclusion labels to work, ad units must be deployed to the publisher's page according to the [Multi adn.request Calls](../../requesting-ads/intro/adn-request.md#multi-adn-request-calls) guidelines.
+{% endhint %}
+
+**Labels** let you add labels to a line item to make it easier to search for, and to group line items together in reporting. To learn more about reports, please see the [reports section](../reports/). 
+
 **Overview, charts and reports**: On the right side of an order page you will find multiple tabs that each has its function.
 
 {% tabs %}
