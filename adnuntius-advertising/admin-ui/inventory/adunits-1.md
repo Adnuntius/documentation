@@ -6,6 +6,8 @@ description: >-
 
 # Adunits
 
+{% embed url="https://youtu.be/6wtGvqlIb1o" caption="Creating ad units." %}
+
 An Ad unit is a placement that serves advertising and other content onto a publisher's site. It is a snippet of code placed on a website or within a third party system to request content from Adnuntius. If you're a developer and want to know the properties of the ad tag \(adn.js\), please see "[Requesting ads](../../requesting-ads/)".
 
 ![Ad unit example](../../../.gitbook/assets/201811-inventory-ad-unit.png)
