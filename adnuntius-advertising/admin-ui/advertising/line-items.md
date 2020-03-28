@@ -7,6 +7,8 @@ description: >-
 
 # Line Items
 
+{% embed url="https://youtu.be/b9BaXkMp5B8" caption="Creating line items." %}
+
 **Name:** Add a name of your choice. Please note that it is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 
 **Start and end dates:** When creating a line item you can specify when you want your campaign to go live. You can also specify an end date, or you can leave this field blank \(in which case the campaign will run until you choose to stop it\). Please note that if you leave the end date open, smoothing will not work.
