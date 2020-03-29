@@ -6,9 +6,9 @@ description: >-
 
 # Ad Tag Generator
 
-{% embed url="https://youtu.be/FBoBqQK5VNo" caption="Using the ad tag generator." %}
+{% embed url="https://youtu.be/FBoBqQK5VNo" caption="How to use the ad tag generator." %}
 
-The ad tag generator allows you to add important controls to the ad tag so that your deployment goes smoothly. 
+The ad tag generator allows you to add important controls to the ad tag so that your deployment goes smoothly.
 
 First, you can use the **ad unit search** to find the ad unit you want to deploy. Then click “copy” to copy its properties. You will now see that the width and height that you added to the ad unit is filled in. 
 

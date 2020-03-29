@@ -7,7 +7,7 @@ description: >-
 
 # Line Items
 
-{% embed url="https://youtu.be/b9BaXkMp5B8" caption="Creating line items." %}
+{% embed url="https://youtu.be/b9BaXkMp5B8" caption="How to create a line item." %}
 
 **Name:** Add a name of your choice. Please note that it is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 

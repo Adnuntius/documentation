@@ -7,7 +7,7 @@ description: >-
 
 # Creatives
 
-{% embed url="https://youtu.be/Em1x3\_JE75E" %}
+{% embed url="https://youtu.be/Em1x3\_JE75E" caption="How to create a creative." %}
 
 **Name and state**: Give the creative a name of your choice. You can also set up rules for how names should be generated automatically under [Network](../admin/network.md). State can be set to _Approved_ \(meaning that the creative is ready to run\) or _Incomplete_ \(meaning that something needs to be changed or added before the creative can run\).
 

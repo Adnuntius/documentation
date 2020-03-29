@@ -7,7 +7,7 @@ description: >-
 
 # Site Groups
 
-{% embed url="https://youtu.be/fdvsvgAGZc8" caption="Creating site groups." %}
+{% embed url="https://youtu.be/fdvsvgAGZc8" caption="How to create a site group." %}
 
 To create a site group, go to Inventory &gt; Site Groups and click "New" in the upper right corner. Give the site group a name, a description \(optional\), and any labels \(optional\) to make search and reporting easier.  Then click save.
 

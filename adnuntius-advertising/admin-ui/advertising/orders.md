@@ -6,7 +6,7 @@ description: >-
 
 # Orders
 
-{% embed url="https://youtu.be/XdSFIeujJKs" caption="Creating orders." %}
+{% embed url="https://youtu.be/XdSFIeujJKs" caption="How to create an order." %}
 
 An order can contain multiple line items. It also determines what team the campaign belongs to, and the set of sites that impressions can be delivered to \(see Admin &gt; [Teams](../admin/users-teams-and-roles.md) for more information\).
 

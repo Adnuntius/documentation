@@ -6,7 +6,7 @@ description: >-
 
 # Advertisers
 
-{% embed url="https://youtu.be/a19B-oBfMEc" caption="Creating an advertiser." %}
+{% embed url="https://youtu.be/a19B-oBfMEc" caption="How to create an advertiser." %}
 
 **Name, description and contact information:** Add a name, an optional description of your choice and the contact information to the advertiser \(optional\). It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 
