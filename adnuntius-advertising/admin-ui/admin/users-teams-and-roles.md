@@ -7,6 +7,8 @@ description: >-
 
 # Users, Teams and Roles
 
+{% embed url="https://youtu.be/u8j-pw7XXZM" caption="How to create a user." %}
+
 ## Users
 
 ![Example user.](../../../.gitbook/assets/202003-advertising-user.png)
