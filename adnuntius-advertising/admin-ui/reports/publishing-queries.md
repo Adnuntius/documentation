@@ -8,7 +8,7 @@ description: >-
 
 You can apply multiple filters to get the data you want. For example: if you have added labels to earnings accounts, sites or ad units, then you can filter by these labels to single out certain items in your reports.
 
-![Publishing query example - in this case an ad unit query](../../../.gitbook/assets/201811-reports-publishing-query.png)
+![Publishing query example - in this case an ad unit query.](../../../.gitbook/assets/201811-reports-publishing-query.png)
 
 **Metrics**: Here are the metrics returned by a query, and what they mean.
 
