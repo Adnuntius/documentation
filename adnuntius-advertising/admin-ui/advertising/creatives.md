@@ -7,9 +7,11 @@ description: >-
 
 # Creatives
 
-![An example creative](../../../.gitbook/assets/201811-advertising-creative.png)
+{% embed url="https://youtu.be/Em1x3\_JE75E" %}
 
 **Name and state**: Give the creative a name of your choice. You can also set up rules for how names should be generated automatically under [Network](../admin/network.md). State can be set to _Approved_ \(meaning that the creative is ready to run\) or _Incomplete_ \(meaning that something needs to be changed or added before the creative can run\).
+
+![An example creative](../../../.gitbook/assets/201811-advertising-creative.png)
 
 **Creative type** can be set to _Internal_ or _External._ Internal is what is mostly used, and means any creative you are designing or uploading yourself. External creatives are relevant to publishers who want programmatic ads on their sites, and means creatives that are fetched from SSPs via prebid or one of our server-side integrations. The tabs below shows how to set up an external creative, while the rest of this section is about creating internal creatives.
 
