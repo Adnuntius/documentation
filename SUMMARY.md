@@ -74,6 +74,10 @@
 
 ## Adnuntius Data
 
+* [User Interface Guide](adnuntius-data/user-interface-guide/README.md)
+  * [Segmentation](adnuntius-data/user-interface-guide/segmentation.md)
+  * [Fields](adnuntius-data/user-interface-guide/fields.md)
+  * [Admin](adnuntius-data/user-interface-guide/admin.md)
 * [Sending Data](adnuntius-data/sending-data/README.md)
   * [Javascript API](adnuntius-data/sending-data/javascript.md)
   * [HTTP API](adnuntius-data/sending-data/http.md)
