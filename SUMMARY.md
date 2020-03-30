@@ -91,14 +91,14 @@
   * [Publish](adnuntius-consent/using-the-iab-module/publish.md)
 * [CMP Integrations in GTM](adnuntius-consent/cmp-integrations-in-gtm.md)
 
-## Implementation Guides
+## Onboarding Guides
 
-* [Send segments Cxense](implementation-guides/send-segments-cxense.md)
-* [Header bidding implementation](implementation-guides/header-bidding-implementation.md)
-* [Tableau connection](implementation-guides/tableau-connection.md)
-* [Adnuntius Slider](implementation-guides/adnuntius-slider.md)
+* [Adn. Advertising for Publishers](adnuntius-advertising-for-publishers.md)
 
-## Adnuntius Privacy
+## Other Useful Information
 
-* [Adnuntius Advertising for Publishers](adnuntius-advertising-for-publishers.md)
+* [Send segments Cxense](other-useful-information/send-segments-cxense.md)
+* [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
+* [Tableau connection](other-useful-information/tableau-connection.md)
+* [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
 
