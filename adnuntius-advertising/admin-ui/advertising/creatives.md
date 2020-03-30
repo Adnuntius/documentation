@@ -13,6 +13,18 @@ description: >-
 
 ![An example creative](../../../.gitbook/assets/201811-advertising-creative.png)
 
+**Impression tracking URLs** can be added to ensure that third party systems can track the impressions in the same way as Adnuntius can. Impression tracking URLs are provided by the advertiser or whoever controls the access to that third party system. Please note that some third party systems will deliver an impression tracker as an image tag, such as the one below. 
+
+```text
+<img src="http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp]" border="0" width="1" height="1"/>
+```
+
+If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp])[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp])
+
+```text
+http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim
+```
+
 **Creative type** can be set to _Internal_ or _External._ Internal is what is mostly used, and means any creative you are designing or uploading yourself. External creatives are relevant to publishers who want programmatic ads on their sites, and means creatives that are fetched from SSPs via prebid or one of our server-side integrations. The tabs below shows how to set up an external creative, while the rest of this section is about creating internal creatives.
 
 {% tabs %}
