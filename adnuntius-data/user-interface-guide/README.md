@@ -10,7 +10,7 @@ description: >-
 
 {% page-ref page="fields/" %}
 
-{% page-ref page="admin.md" %}
+{% page-ref page="admin/" %}
 
 
 
