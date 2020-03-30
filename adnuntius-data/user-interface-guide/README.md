@@ -6,9 +6,9 @@ description: >-
 
 # User Interface Guide
 
-{% page-ref page="segmentation.md" %}
+{% page-ref page="segmentation/" %}
 
-{% page-ref page="fields.md" %}
+{% page-ref page="fields/" %}
 
 {% page-ref page="admin.md" %}
 

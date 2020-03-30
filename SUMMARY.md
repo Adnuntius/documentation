@@ -75,8 +75,13 @@
 ## Adnuntius Data
 
 * [User Interface Guide](adnuntius-data/user-interface-guide/README.md)
-  * [Segmentation](adnuntius-data/user-interface-guide/segmentation.md)
-  * [Fields](adnuntius-data/user-interface-guide/fields.md)
+  * [Segmentation](adnuntius-data/user-interface-guide/segmentation/README.md)
+    * [Triggers](adnuntius-data/user-interface-guide/segmentation/triggers.md)
+    * [Segments](adnuntius-data/user-interface-guide/segmentation/segments.md)
+    * [Folders](adnuntius-data/user-interface-guide/segmentation/folders.md)
+  * [Fields](adnuntius-data/user-interface-guide/fields/README.md)
+    * [Fields](adnuntius-data/user-interface-guide/fields/fields.md)
+    * [Mappings](adnuntius-data/user-interface-guide/fields/mappings.md)
   * [Admin](adnuntius-data/user-interface-guide/admin.md)
 * [Sending Data](adnuntius-data/sending-data/README.md)
   * [Javascript API](adnuntius-data/sending-data/javascript.md)
