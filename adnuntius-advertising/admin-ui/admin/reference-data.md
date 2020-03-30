@@ -7,6 +7,8 @@ description: >-
 
 # Reference Data
 
+{% embed url="https://youtu.be/kab41KKWXWA" caption="How to upload reference data." %}
+
 When you use [category](../advertising/targeting.md#category-targeting) or [key value](../advertising/targeting.md#key-value-targeting) targeting on line items or creatives, it can be hard to remember how a categories \(as defined by the URL structure\) are designed on your site, or which key values are being sent with the ad requests. Reference data lets you upload a text file that creates a library of categories and key values that you can choose from, rather than remember them all.
 
 ![Example category targeting where reference data has been added](../../../.gitbook/assets/201811-reports-admin-reference-data.png)
