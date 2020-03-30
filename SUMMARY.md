@@ -82,7 +82,14 @@
   * [User Segments](adnuntius-data/retrieving-data/get-segments.md)
 * [User Synchronisation](adnuntius-data/user-synchronisation/README.md)
   * [Profile Matching](adnuntius-data/user-synchronisation/sync.md)
-* [CMP Integrations in GTM](adnuntius-data/cmp-integrations-in-gtm.md)
+
+## Adnuntius Consent
+
+* [Using the IAB module](adnuntius-consent/using-the-iab-module/README.md)
+  * [Purposes](adnuntius-consent/using-the-iab-module/purposes.md)
+  * [Languages](adnuntius-consent/using-the-iab-module/languages.md)
+  * [Publish](adnuntius-consent/using-the-iab-module/publish.md)
+* [CMP Integrations in GTM](adnuntius-consent/cmp-integrations-in-gtm.md)
 
 ## Implementation Guides
 
@@ -93,8 +100,5 @@
 
 ## Adnuntius Privacy
 
-* [Using the IAB module](adnuntius-privacy/using-the-iab-module/README.md)
-  * [Purposes](adnuntius-privacy/using-the-iab-module/purposes.md)
-  * [Languages](adnuntius-privacy/using-the-iab-module/languages.md)
-  * [Publish](adnuntius-privacy/using-the-iab-module/publish.md)
+* [Adnuntius Advertising for Publishers](adnuntius-advertising-for-publishers.md)
 
