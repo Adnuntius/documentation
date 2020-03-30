@@ -84,10 +84,6 @@
   * [Profile Matching](adnuntius-data/user-synchronisation/sync.md)
 * [CMP Integrations in GTM](adnuntius-data/cmp-integrations-in-gtm.md)
 
-## Video Guides
-
-* [Advertising Videos](video-guides/adnuntius-activation-start.md)
-
 ## Implementation Guides
 
 * [Send segments Cxense](implementation-guides/send-segments-cxense.md)
