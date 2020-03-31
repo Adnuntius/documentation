@@ -26,7 +26,7 @@ Add an **external reference \(optional\)** if you want to match the user with th
 * A network role \(the top role in the user interface, in light gray\) determines the actions the user will be able to perform across your entire Adnuntius account. this includes advertisers, earnings accounts, layouts, report templates, users, tiers, custom events, roles and teams. 
 * A team role determines the actions that a user will be able to perform to content that is team-specific, which includes orders, line items, creatives, sites, ad units, report schedules and reports.
 
-You can also switch between Adnuntius Advertising and Adnuntius Designer. If you click Adnuntius Designer you can assign a role to the user for the Adnuntius Designer application \(please note that you may have to create a [role](../../admin-api/endpoints/roles.md) first\). 
+You can also switch between Adnuntius Advertising, Adnuntius Data and Adnuntius Designer. If you click Adnuntius Designer you can assign a role to the user for the Adnuntius Designer application \(please note that you may have to create a [role](../../admin-api/endpoints/roles.md) first\). 
 
 {% hint style="info" %}
 If you want to create a user that has no network permissions, you can create a network role where all permissions are unchecked \(and call it for instance "no permissions"\). This way, when you add a user with this network role, they cannot do anything to the network, only to the team\(s\) they're invited to.
@@ -54,7 +54,7 @@ You can design multiple teams with the same sites under them. In other words, Ad
 
 ## Roles
 
-While [Teams](../../admin-api/endpoints/teams.md) determines the inventory a user will have access to, Roles determines what actions that user will be able to take to that inventory.
+While [Teams](../../admin-api/endpoints/teams.md) determines the inventory a user will have access to, Roles determines what actions that user will be able to take to that inventory. Please note that in this section we will show you roles for Adnuntius Advertising only. Click onwards here to see the roles that you can grant users in Adnuntius Designer and [Adnuntius Data](../../../adnuntius-data/user-interface-guide/admin/users-and-teams.md).
 
 ![Creating a role](../../../.gitbook/assets/201811-reports-admin-roles.png)
 
