@@ -96,5 +96,5 @@ This guide assumes that you already have access an Adnuntius Advertising account
 
 ![Remember to choose the &quot;Email&quot; tag alternative when implementing in your email.](.gitbook/assets/202003-email-tag.gif)
 
-![Example: see how you can implement ads using Mailchimp&apos;s code block.](.gitbook/assets/202004-mailchimp-example.gif)
+![Example: see how you can implement ad tags using Mailchimp&apos;s code block.](.gitbook/assets/202004-mailchimp-example.gif)
 
