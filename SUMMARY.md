@@ -114,4 +114,5 @@
 * [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
 * [Tableau connection](other-useful-information/tableau-connection.md)
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
+* [Adnuntius Email Advertising](adnuntius-email-advertising.md)
 
