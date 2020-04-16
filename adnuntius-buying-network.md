@@ -6,8 +6,6 @@ description: >-
 
 # Adnuntius Buying Network
 
-**THIS PAGE IS WORK IN PROGRESS, AND MAY NOT HAVE ALL THE COMPLETE INFORMATION YET.**
-
 This page is divided into two; one section is intended for buyers who want to start buying advertising using the Adnuntius Buying Network, the other section is intended for publishers who want to start selling their ad inventory through the Adnuntius Buying Network.
 
 ## Buyers
