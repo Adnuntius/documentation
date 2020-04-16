@@ -85,14 +85,22 @@ This guide assumes that you already have access an Adnuntius Advertising account
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">7 Try to generate an ad impression using a service like <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic">Tryit</a>.
-        Copy and paste your email ad tag from your ad unit into the body, and then
-        click &quot;run&quot;. Is your ad showing?</td>
-      <td style="text-align:left"><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic">Go to Tryit</a>
+      <td style="text-align:left">7 Try to generate an ad impression the Ad Tag Generator. Just choose your
+        ad unit, copy its properties, and then click the tab &quot;Request Ads&quot;.
+        Do you see your ad?</td>
+      <td style="text-align:left">
+        <p><a href="adnuntius-advertising/admin-ui/inventory/ad-tag-generator.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/ad-tag">Start testing</a>
+        </p>
       </td>
     </tr>
   </tbody>
-</table>Remember: when you create an ad unit and want to implement the tag into the newsletter, please remember to choose the "Email" tag alternative on the ad unit page \(see image below\). 
+</table>{% hint style="info" %}
+Please note that you can only use simple image ads in email newsletters.
+{% endhint %}
+
+When you create an ad unit and want to implement the tag into the newsletter, please remember to choose the "Email" tag alternative on the ad unit page \(see image below\). 
 
 ![Remember to choose the &quot;Email&quot; tag alternative when implementing in your email.](.gitbook/assets/202003-email-tag.gif)
 
