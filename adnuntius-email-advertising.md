@@ -106,3 +106,7 @@ When you create an ad unit and want to implement the tag into the newsletter, pl
 
 ![Example: see how you can implement ad tags using Mailchimp&apos;s code block.](.gitbook/assets/202004-mailchimp-example.gif)
 
+{% hint style="info" %}
+Please note that in some countries, authorities require you to get the consent from email receivers before you can start sending emails containing products or services delivered by other companies. You may therefore want to ensure that the right to show advertising from other companies is covered by your terms and conditions when users sign up.
+{% endhint %}
+
