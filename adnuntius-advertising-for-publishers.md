@@ -6,7 +6,9 @@ description: >-
 
 # Adn. Advertising for Publishers
 
-You will find full documentation of the underlying platform \(Adnuntius Advertising\) [here](adnuntius-advertising/admin-ui/). The purpose of this guide however, is to make implementation easier for our new customers. The steps below contains the basic steps. There are more advanced functions that you can read up on under the full documentation, but these steps should make you familiar with the platform's basic features. 
+You will find full documentation of the underlying platform \(Adnuntius Advertising\) [here](adnuntius-advertising/admin-ui/). The purpose of this guide however, is to make implementation easier for new customers. The steps below contains the basic steps. There are more advanced functions that you can read up on under the full documentation, but these steps should make you familiar with the platform's basic features. 
+
+If you are working as an ad operations representative for a publisher or buyer, and your normal day-to-day job involves campaign booking, management and reporting, then you can most likely jump to step 5 below. Step 5 involves creating an ad unit, which is probably not part of your daily routine, but it is useful to know how ad units work since creatives will be served inside these ad units. 
 
 This guide assumes that you have been given access to Adnuntius Advertising. However, if you haven't please contact us at [support@adnuntius.com](mailto:support@adnuntius.com).
 
