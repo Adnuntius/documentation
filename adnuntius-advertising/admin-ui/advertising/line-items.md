@@ -22,15 +22,15 @@ If your line item has the execution state of "Not deliverable" then first check 
 ![Example message given when a line item requires something to be able to deliver.](../../../.gitbook/assets/error-messages.png)
 
 {% hint style="info" %}
-Many customers are confused when they get the message "The line item requires a bid specification". This means that you have to enter a CPM bid to the line item. This bid can be 0, but something has to be added for the line item to deliver. 
+Many customers are confused when they get the message "The line item requires a bid specification". This means that you have to enter a CPM bid to the line item. This bid can be 0, but something has to be added for the line item to deliver.
 {% endhint %}
 
 **State** allows you to pause or stop a campaign. "_Approved_" means that the line item will run as soon as the start date is met, all material is added, and everything is ready. "_Paused_" means that the line item won't deliver impressions, but the booked impressions are still taken into consideration when running [reach analyses](reach-analysis.md). "_Stopped_" means that the line item won't deliver impressions, and the booked impressions are cancelled \(so the line item will not count into any reach analyses\).
 
-The two states "Proposed" and "Submitted" are used in self-service advertising where you want to quality approve campaigns before they go live \(for instance, to check that they do not contain illegal or offensive content. 
+The two states "Proposed" and "Submitted" are used in self-service advertising where you want to quality approve campaigns before they go live \(for instance, to check that they do not contain illegal or offensive content.
 
 {% hint style="info" %}
-If you are interested in self-service advertising, reach out to us anytime at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. 
+If you are interested in self-service advertising, reach out to us anytime at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out.
 {% endhint %}
 
 **Objectives** allow you to specify the goal of the campaign. You can choose one or multiple objectives. If you choose multiple objectives, then the line item will stop delivering impressions as soon as it reaches _one of its objectives_. Here are the objectives you can choose between:
@@ -42,9 +42,9 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 * Rendered impressions: Counted whenever an ad has been rendered onto the page \(rendering can be controlled with lazy requesting or lazy loading\). 
 * Conversions: Counted whenever a conversion has happened according to how you want to define a conversion \(read more below\). 
 
-**Type** lets you choose between Auction and Sponsorship. "_Auction_" means that the line item will compete with other line items based on your line item's bid \(CPM, CPC or CPA\). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable smoothing, which means that \(when enabled\) the line item's impressions will be delivered evenly throughout the campaign period. 
+**Type** lets you choose between Auction and Sponsorship. "_Auction_" means that the line item will compete with other line items based on your line item's bid \(CPM, CPC or CPA\). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable smoothing, which means that \(when enabled\) the line item's impressions will be delivered evenly throughout the campaign period.
 
-_"Sponsorshop"_ means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item \(so, if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic\). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad. 
+_"Sponsorshop"_ means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item \(so, if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic\). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad.
 
 {% hint style="info" %}
 When specifying a share of voice, take into consideration the [tier](../admin/tiers.md) into which your line item is booked. If a tier is allowed to consume 50% of traffic and is the second highest prioritized tier, then consider that a line item with share of voice 25% then these rules will apply: \(1\) your line item will only get as much traffic as is passed on from the highest tier; and \(2\) your line item will receive 25% of the 50% of traffic that your tier has been assigned with. So your line item will get 25% x 50%x \(100% - what is consumed by higher prioritized tiers\).
@@ -69,17 +69,17 @@ There are many targeting criteria you can choose between, so [we have set aside 
 
 **Tiers** allow you to prioritize this line item above or below other line items. If more than one line item exists within one tier, then those line items will compete for attention according to the type set above. If you have set the type to "auction" then the line items will compete on eCPM pricing, while if you set the type to "sponsorship" then the share of voice is set by the percentage. To create and re-arrange tiers, please see [tiers](../admin/tiers.md).
 
-**Companion creatives** let you determine if each creative should be delivered individually, or if they should be served at the same time. This enables you to create for instance so-called "horse shoe ads", where two skyscrapers and a top banner are always shown at the same time, or not at all. 
+**Companion creatives** let you determine if each creative should be delivered individually, or if they should be served at the same time. This enables you to create for instance so-called "horse shoe ads", where two skyscrapers and a top banner are always shown at the same time, or not at all.
 
 **Creative delivery** allows you to determine whether creatives can be served multiple times on the same page, or if restrictions should apply. "Open" means that the same creative can be delivered multiple times one the same page. "Unique" means that no same creative from this line item can be delivered one the same page. And "one per line item" means that maximum one creative from this line item can be delivered one the same page.
 
-**Exclusion labels** allow you to ensure that defined line items cannot be delivered on the same page. This can be useful if you for instance have two car dealers that do not want to be shown together. In this case you can add the label "car-dealer" to both line items, which means that these two line items will never be shown on the same page. 
+**Exclusion labels** allow you to ensure that defined line items cannot be delivered on the same page. This can be useful if you for instance have two car dealers that do not want to be shown together. In this case you can add the label "car-dealer" to both line items, which means that these two line items will never be shown on the same page.
 
 {% hint style="info" %}
 Please note that in order for companion creatives, creative delivery and exclusion labels to work, ad units must be deployed to the publisher's page according to the [Multi adn.request Calls](../../requesting-ads/intro/adn-request.md#multi-adn-request-calls) guidelines.
 {% endhint %}
 
-**Labels** let you add labels to a line item to make it easier to search for, and to group line items together in reporting. To learn more about reports, please see the [reports section](../reports/). 
+**Labels** let you add labels to a line item to make it easier to search for, and to group line items together in reporting. To learn more about reports, please see the [reports section](../reports/).
 
 **Overview, charts and reports**: On the right side of an order page you will find multiple tabs that each has its function.
 
@@ -111,7 +111,7 @@ The traffic tab shows you the delivery of impressions, clicks, viewables and vis
 {% endtab %}
 
 {% tab title="Reach" %}
-Reach is an analysis you can run to forecast the volume of matching traffic for a line item. A  reach analysis estimates the total number of available impressions, clicks, viewable impressions and more that match your targeting criteria. Please see [Reach Analysis](reach-analysis.md) for more information on how to read the results. 
+Reach is an analysis you can run to forecast the volume of matching traffic for a line item. A reach analysis estimates the total number of available impressions, clicks, viewable impressions and more that match your targeting criteria. Please see [Reach Analysis](reach-analysis.md) for more information on how to read the results.
 
 ![Example reach analyis result for a line item.](../../../.gitbook/assets/line-item-reach.png)
 {% endtab %}
@@ -148,8 +148,4 @@ You can also add ?adndebug123 at the end of any URL \(example: [www.aperitif.no?
 {% endhint %}
 {% endtab %}
 {% endtabs %}
-
-
-
-
 

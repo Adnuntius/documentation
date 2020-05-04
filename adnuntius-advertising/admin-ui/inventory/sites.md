@@ -80,7 +80,7 @@ Competitors is a useful list of competing line items \(either as one list, or gr
 {% endtab %}
 {% endtabs %}
 
-Please note that if you have access to more than one network you can easily switch between networks. Let's say that you as a publisher have your own private network, and access to sell your inventory through the [Adnuntius Buying Network](../../../adnuntius-buying-network.md); then you can easily switch between networks you have access to, as shown in the image below. 
+Please note that if you have access to more than one network you can easily switch between networks. Let's say that you as a publisher have your own private network, and access to sell your inventory through the [Adnuntius Buying Network](../../../onboarding-guides/adnuntius-buying-network.md); then you can easily switch between networks you have access to, as shown in the image below. 
 
 ![How to switch between your networks.](../../../.gitbook/assets/202003-switching-networks.gif)
 
