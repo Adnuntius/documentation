@@ -50,7 +50,9 @@ Publishers can [group sites together](../inventory/site-groups.md) in order to m
 
 ## Ad Unit Matching Label Targeting
 
-Matching labels are labels added to ad units that you can later use for targeting groups of ad units. Let's say that you add the label "sports" to three different ad units, and then target a line item to the matching label "sports". You will then target your ads to be shown in these three ad units.
+Matching labels are labels added to ad units that you can later use for targeting groups of ad units. Let's say that you add the label "sports" to three different ad units, and then target a line item to the matching label "sports". You will then target your ads to be shown in these three ad units. 
+
+You can add multiple matching labels, so that an ad unit can match for instance either "sports", "mobile", "300x250" or any other label that you may see fit to add. If you add more than one label, then an ad unit will match a line item or creative with any of these matching labels added as targeting.
 
 ![Right: you can add a matching label to an ad unit. Left: after that you can target on those matching labels](../../../.gitbook/assets/201811-advertising-line-item-matching-label-targeting.png)
 
