@@ -35,6 +35,10 @@ Viewable impressions count how many times at least 50% of an ad's area appears i
 
 With viewable impressions, you can be sure that enough of an ad's area has been within the end user's viewport for long enough that it could have been noticed. Viewable impressions are your best bet that an ad is delivering its message to the end user.
 
+{% hint style="info" %}
+Wondering how you can increase viewability of your ads? See here: [https://adnuntius.com/be-lazy-improve-viewability/](https://adnuntius.com/be-lazy-improve-viewability/)
+{% endhint %}
+
 ## The Technical Details Behind Impression Statistics
 
 ### Impressions
