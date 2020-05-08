@@ -20,7 +20,7 @@ Adnuntius automatically sends an email inviting the user to the network, and pas
 {% endhint %}
 
 {% hint style="info" %}
-Please note that, depending on your privileges, some 
+Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you.
 {% endhint %}
 
 Add an **external reference \(optional\)** if you want to match the user with the same user in another system. For instance, if John Doe is registered in another system with user ID 123456, then you can add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same user across two different systems.
