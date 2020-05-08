@@ -6,7 +6,7 @@ description: >-
 
 # Adnuntius Buying Network
 
-This page is divided into two; one section is intended for buyers who want to start buying advertising using the Adnuntius Buying Network, the other section is intended for publishers who want to start selling their ad inventory through the Adnuntius Buying Network.
+This page is divided into three; the first section is intended for buyers who want to start buying advertising using the Adnuntius Buying Network; the second section is intended for publishers who want to start selling their ad inventory through the Adnuntius Buying Network; the third section is intended for partners who operate private marketplaces as partners to Adnuntius, and need to know some key administrator tasks.
 
 ## Buyers
 
