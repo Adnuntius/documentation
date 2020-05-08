@@ -19,6 +19,10 @@ description: >-
 Adnuntius automatically sends an email inviting the user to the network, and passwords are created automatically. Administrators can change users' password later if needed, but password changes will not be sent to users, so make sure that you notify users about any new passwords you create.
 {% endhint %}
 
+{% hint style="info" %}
+Please note that, depending on your privileges, some 
+{% endhint %}
+
 Add an **external reference \(optional\)** if you want to match the user with the same user in another system. For instance, if John Doe is registered in another system with user ID 123456, then you can add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same user across two different systems.
 
 **Roles**: A user needs to be assigned with at least two types of roles; a network role and one team role per team. You will find more information on teams and roles further down, but in short:

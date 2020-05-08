@@ -11,6 +11,10 @@ description: >-
 
 **Name:** Add a name of your choice. Please note that it is always better to use spacing between words rather than underscores, as this makes items easier to find via search.
 
+{% hint style="info" %}
+Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you.
+{% endhint %}
+
 **Start and end dates:** When creating a line item you can specify when you want your campaign to go live. You can also specify an end date, or you can leave this field blank \(in which case the campaign will run until you choose to stop it\). Please note that if you leave the end date open, smoothing will not work.
 
 ![An example line item](../../../.gitbook/assets/201811-advertising-line-item.png)
