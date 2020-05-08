@@ -117,7 +117,7 @@ Getting set up is fast and easy. Here are the main steps, and links to more deta
   </tbody>
 </table>Are you as a publisher looking to use the Adnuntius Buying Network to take back revenue currently lost to programmatic advertising? Then you may have to get advertisers and agencies onboard as well. We are happy to help you with this; reach out to us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will reach out to you with a plan. We have experience selling the concept to buyers, and we are happy to help you with explaining the benefits of the Adnuntius Buying Network.
 
-## Operators
+## Network Operators
 
 If you are running your own private network, then you will need to know some key administration tasks. This guide takes you through these.
 
@@ -349,4 +349,8 @@ Once you have created a team for the advertiser, you can go to the last step, wh
 </table>### Training New Users
 
 If you want to provide new users with written instructions on how to use the platform as advertisers or publishers, you can simply send them the link to this page. The two first sections of this page provide new users with a checklist training program that takes them through the steps to becoming familiar and comfortable with the system.
+
+### Contractual Relationships
+
+Whenever you get a new advertiser or publisher on board, you should sign a contract with them that regulates pricing, service level agreements and more. Adnuntius provides standard contracts to its operating partners, that may be used to facilitate this job. If you have not received these templates already, please send an email to [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. 
 
