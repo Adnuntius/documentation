@@ -10,9 +10,9 @@ This page is divided into two; one section is intended for buyers who want to st
 
 ## Buyers
 
-This documentation is intended to educate you as an ad buyer on how to use the Adnuntius Buying Network. If you are a publisher who is looking to set up your inventory for sale, please see the Adnuntius Buying Network: Publishers page. 
+This documentation is intended to educate you as an ad buyer on how to use the Adnuntius Buying Network. If you are a publisher who is looking to set up your inventory for sale, please see the [Adnuntius Buying Network: Publishers page. ](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network#publishers)
 
-Getting set up is fast and easy. Here are the main steps, and links to more detailed information for each step.
+Please note that this guide assumes that you are a customer and have received user access. If this is not the case, just email us at [support@adnuntius.com](mailto:support@adnuntius.com), and we will help you get started. Getting set up is fast and easy. Here are the main steps, and links to more detailed information for each step.
 
 <table>
   <thead>
@@ -23,17 +23,19 @@ Getting set up is fast and easy. Here are the main steps, and links to more deta
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1 Get access to the Adnuntius Buying Network to ensure that you get an
-        advertiser account, user access and the right privileges. Just email us
-        at <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>, and
-        we will get you started.</td>
-      <td style="text-align:left"><a href="mailto:support@adnuntius.com">Email us</a>
-      </td>
+      <td style="text-align:left">1 Create your first advertiser. If you are an agency then this is a handy
+        way to ensure that your campaigns are neatly sorted into different advertisers.</td>
+      <td
+      style="text-align:left">
+        <p><a href="../adnuntius-advertising/admin-ui/advertising/advertisers.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/advertisers">Start creating</a>
+        </p>
+        </td>
     </tr>
     <tr>
-      <td style="text-align:left">2 Create your first order. An order is a folder for line items. If you
-        are an agency, you can use orders to separate your advertising clients
-        from one another.</td>
+      <td style="text-align:left">2 Create your first order. An order is a folder for line items, and helps
+        you keep your inventory neatly sorted.</td>
       <td style="text-align:left">
         <p><a href="../adnuntius-advertising/admin-ui/advertising/orders.md">Documentation</a>
         </p>
@@ -42,13 +44,58 @@ Getting set up is fast and easy. Here are the main steps, and links to more deta
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">3 Create your first line item. A line A line item determines start and
-        end dates, delivery objectives (impressions, clicks or conversions), pricing,
-        targeting, creative delivery and prioritization.</td>
+      <td style="text-align:left">3 Create your first line item. A line item determines start and end dates,
+        delivery objectives (impressions, clicks or conversions), pricing, targeting,
+        creative delivery and prioritization.</td>
       <td style="text-align:left">
         <p><a href="../adnuntius-advertising/admin-ui/advertising/line-items.md">Documentation</a>
         </p>
         <p><a href="https://admin.adnuntius.com/line-items">Start creating</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4 Run a reach analysis. A reach analysis creates a forecast of what traffic
+        is available across publishers, based on your targeting criteria, bid and
+        creative sizes.</td>
+      <td style="text-align:left">
+        <p><a href="../adnuntius-advertising/admin-ui/advertising/reach-analysis.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/reach-analysis">Start creating</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">5 Run a report. Reports let you see the performance of your advertisers,
+        orders, line items and creatives. You can also run site and ad unit reports
+        to see what traffic is available with different publishers. This helps
+        you research the inventory available for buying.</td>
+      <td style="text-align:left">
+        <p><a href="../adnuntius-advertising/admin-ui/reports/advertising-queries.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/reports">Start creating</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">6 Create a user. If you need to get additional users into your account,
+        you can invite more. Once users are created they will have the same permissions
+        as you have.</td>
+      <td style="text-align:left">
+        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/admin/users">Start creating</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">7 Set notifications. If you want to be notified about changes in the system
+        or warnings produced by the system, you can quickly set this up to receive
+        emails or notifications in the user interface.</td>
+      <td style="text-align:left">
+        <p><a href="../adnuntius-advertising/admin-ui/admin/notification-preferences.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/admin/notification-preferences">Start creating</a>
         </p>
       </td>
     </tr>
@@ -61,13 +108,13 @@ Make sure to ask your publishing partners if they are already set up with the Ad
 
 ## Publishers
 
-This documentation is intended to educate you as a publisher on how to set up your inventory for sale on, and how to use the Adnuntius Buying Network. If you are an buyer who is looking to buy ads, please see the Adnuntius Buying Network: Buyers page.
+This documentation is intended to educate you as a publisher on how to set up your inventory for sale on, and how to use the Adnuntius Buying Network. If you are an buyer who is looking to buy ads, please see the [Adnuntius Buying Network: Buyers page.](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network#buyers)
 
 {% hint style="info" %}
-You don’t have to use Adnuntius Advertising for Publishers as your primary ad server to access the Adnuntius Buying Network \(you can for instance use Google Ad Manager\).
+You don’t have to use Adnuntius Advertising for Publishers as your primary ad server to use the Adnuntius Buying Network \(you can for instance use Google Ad Manager\).
 {% endhint %}
 
-Getting set up is fast and easy. Here are the main steps, and links to more detailed information for each step.
+Please note that this guide assumes that you are a customer and have received user access. If this is not the case, just email us at [support@adnuntius.com](mailto:support@adnuntius.com), and we will help you get started. Getting set up is fast and easy. Here are the main steps, and links to more detailed information for each step.
 
 <table>
   <thead>
@@ -78,15 +125,7 @@ Getting set up is fast and easy. Here are the main steps, and links to more deta
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1 Get access to the Adnuntius Buying Network. This ensures that you will
-        get set up with an earnings account, user access and the right privileges.
-        Just email us at <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>,
-        and we will get you started.</td>
-      <td style="text-align:left"><a href="mailto:support@adnuntius.com">Email us</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2 Create one or more sites. Sites ensure that you can structure placements
+      <td style="text-align:left">1 Create one or more sites. Sites ensure that you can structure placements
         according to your site structure, get performance reports per site, and
         more. Sites will be available and visible to buyers for targeting.</td>
       <td
@@ -98,7 +137,7 @@ Getting set up is fast and easy. Here are the main steps, and links to more deta
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">3 Create one or more ad units. Ad units are placements that will go onto
+      <td style="text-align:left">2 Create one or more ad units. Ad units are placements that will go onto
         your site to ensure that advertisers can serve ads. Ad units will be available
         and visible to buyers for targeting.</td>
       <td style="text-align:left">
@@ -109,9 +148,31 @@ Getting set up is fast and easy. Here are the main steps, and links to more deta
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">4 Set up requests from your site. This is the technical part that helps
+      <td style="text-align:left">3 Set up requests from your site. This is the technical part that helps
         developers set up ad requests from your pages using prebid.</td>
       <td style="text-align:left"><a href="../other-useful-information/header-bidding-implementation.md">Documentation</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4 Create a report. When you start sending requests to the network, you
+        can create and schedule reports that tell you the performance of your earnings
+        account, sites and ad units.</td>
+      <td style="text-align:left">
+        <p><a href="https://docs.adnuntius.com/adnuntius-advertising/admin-ui/reports/publishing-queries">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/reports">Start creating</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">5 Create a user. If you need to get additional users into your account,
+        you can invite more. Once users are created they will have the same permissions
+        as you have.</td>
+      <td style="text-align:left">
+        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/admin/users">Start creating</a>
+        </p>
       </td>
     </tr>
   </tbody>
