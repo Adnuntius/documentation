@@ -117,3 +117,236 @@ Getting set up is fast and easy. Here are the main steps, and links to more deta
   </tbody>
 </table>Are you as a publisher looking to use the Adnuntius Buying Network to take back revenue currently lost to programmatic advertising? Then you may have to get advertisers and agencies onboard as well. We are happy to help you with this; reach out to us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will reach out to you with a plan. We have experience selling the concept to buyers, and we are happy to help you with explaining the benefits of the Adnuntius Buying Network.
 
+## Operators
+
+If you are running your own private network, then you will need to know some key administration tasks. This guide takes you through these.
+
+### Creating Publishing Users
+
+Whenever you get a new publisher onboard your network, you can create users for them so that they can access and manage their own publishing inventory. Here is how you create roles, teams and users with the right permissions.
+
+#### Roles
+
+This is a one-time setup job, so if you already have the roles below in place, you can skip this point whenever you set up new users. You will need two roles in order to create users with the right permissions; a network role and a team role. 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Role</th>
+      <th style="text-align:left">Choices</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1 Admin role. Go to Admin &gt; Roles and click &#x201C;new&#x201D;. Give
+        the role a name of your choice (for instance &#x201C;Network Publisher
+        Admin&#x201D;, choose role type &#x201C;internal&#x201D;, role scope &#x201C;network&#x201D;
+        and then finally the permission &#x201C;AX Publisher Admin&#x201D;. Then
+        click save.</td>
+      <td style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/admin/roles">Create</a>
+        </p>
+        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">More</a>
+        </p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Team role. Go to Admin &gt; Roles and click &#x201C;new&#x201D;. Give
+        the role a name of your choice (for instance &#x201C;Network Publisher
+        Admin&#x201D;, choose role type &#x201C;internal&#x201D;, role scope &#x201C;team&#x201D;
+        and then finally the permission &#x201C;AX Publisher&#x201D;. Then click
+        save.</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>#### Teams
+
+Once your roles are set up, you can proceed to create teams. Teams determine the content that users shall have access to. Whenever you bring a new publisher onboard you should create a new team, so that invited users can access this inventory, but not the inventory of other publishers, or buyers.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Step</th>
+      <th style="text-align:left">Choices</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1 Go to Admin &gt; Teams and click &#x201C;new&#x201D;. Give the team
+        a name of your choice, for example &#x201C;Team [publisherName]&#x201D;.</td>
+      <td
+      style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/admin/teams">Create</a>
+        </p>
+        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">More</a>
+        </p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Choose type &#x201C;AX Publisher&#x201D;.</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3 If you have created the publisher&#x2019;s site(s) on behalf of the
+        publisher, then you can choose those sites to ensure that the publisher
+        will have access to these. If you want to let publishers create this content
+        on their own, just click save without choosing any sites.</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>#### Users
+
+Once you have created a team for the publisher, you can go to the last step, which is to create a user. Please note that once you have created one user for the publisher, that user can invite more users with the same permissions. So, you only need to create the first user before letting that user create more.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Step</th>
+      <th style="text-align:left">Choices</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1 Go to Admin &gt; Users and click &#x201C;new&#x201D;. Provide the user&#x2019;s
+        email address, name and display name (display name is the name that will
+        be displayed in the upper right corner of the user interface).</td>
+      <td
+      style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/admin/users">Create</a>
+        </p>
+        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">More</a>
+        </p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Choose the advertising network role that you created earlier (&#x201C;Network
+        Publisher Admin&#x201D; if you followed the naming example above).</td>
+      <td
+      style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3 Under the team you&#x2019;ve created for the user, choose the role you
+        created earlier (&#x201C;Team Publisher Admin&#x201D; if you followed the
+        naming example above).</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4 Lastly, click save. When you&#x2019;ve clicked save an invitation email
+        will be automatically be sent to the user.</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>### Creating Advertiser Users
+
+Whenever you get a new buyer onboard your network, you can create users for them so that they can access and manage their own advertisers \(for agencies\) and campaigns. Here is how you create roles, teams and users with the right permissions.
+
+#### Roles
+
+This is a one-time setup job, so if you already have the roles below in place, you can skip this point whenever you set up new users. You will need two roles in order to create users with the right permissions; a network role and a team role.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Role</th>
+      <th style="text-align:left">Choices</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1 Admin role. Go to Admin &gt; Roles and click &#x201C;new&#x201D;. Give
+        the role a name of your choice (for instance &#x201C;Network Advertiser
+        Admin&#x201D;, choose role type &#x201C;internal&#x201D;, role scope &#x201C;network&#x201D;
+        and then finally the permission &#x201C;AX Advertiser Admin&#x201D;. Then
+        click save.</td>
+      <td style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/admin/roles">Create</a>
+        </p>
+        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">More</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Team role. Go to Admin &gt; Roles and click &#x201C;new&#x201D;. Give
+        the role a name of your choice (for instance &#x201C;Network Advertiser
+        Admin&#x201D;, choose role type &#x201C;internal&#x201D;, role scope &#x201C;team&#x201D;
+        and then finally the permission &#x201C;AX Advertiser&#x201D;. Then click
+        save.</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>#### Teams
+
+Once your roles are set up, you can proceed to create teams. Teams determine the content that users shall have access to. Whenever you bring a new advertiser onboard you should create a new team, so that invited users can access this inventory, but not the inventory of other advertisers, or publishers.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">What and Why</th>
+      <th style="text-align:left">Choices</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1 Go to Admin &gt; Teams and click &#x201C;new&#x201D;. Give the team
+        a name of your choice, for example &#x201C;Team [advertiserName]&#x201D;.</td>
+      <td
+      style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/admin/teams">Create</a>
+        </p>
+        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">More</a>
+        </p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Choose type &#x201C;AX Advertiser&#x201D;. Then click save.</td>
+      <td
+      style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>#### Users
+
+Once you have created a team for the advertiser, you can go to the last step, which is to create a user. Please note that once you have created one user for the advertiser, that user can invite more users with the same permissions. So, you only need to create the first user before letting that user create more.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">What and Why</th>
+      <th style="text-align:left">Choices</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1 Go to Admin &gt; Users and click &#x201C;new&#x201D;. Provide the user&#x2019;s
+        email address, name and display name (display name is the name that will
+        be displayed in the upper right corner of the user interface).</td>
+      <td
+      style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/admin/users">Create</a>
+        </p>
+        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">More</a>
+        </p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Choose the advertising network role that you created earlier (&#x201C;Network
+        Advertiser Admin&#x201D; if you followed the naming example above).</td>
+      <td
+      style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3 Under the team you&#x2019;ve created for the user, choose the role you
+        created earlier (&#x201C;Team Advertiser Admin&#x201D; if you followed
+        the naming example above).</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4 Lastly, click save. When you&#x2019;ve clicked save an invitation email
+        will be automatically be sent to the user.</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>### Training New Users
+
+If you want to provide new users with written instructions on how to use the platform as advertisers or publishers, you can simply send them the link to this page. The two first sections of this page provide new users with a checklist training program that takes them through the steps to becoming familiar and comfortable with the system.
+
