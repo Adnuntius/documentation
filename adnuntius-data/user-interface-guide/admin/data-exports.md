@@ -8,6 +8,10 @@ description: >-
 
 To create a new data export, go to [https://admin.adnuntius.com/admin/data-exports](https://admin.adnuntius.com/admin/data-exports), and click "new" in the upper right corner. First, give your export a **name** and **description** of your choice.  
 
+{% hint style="info" %}
+If you want to use your data in Adnuntius Advertising, no export is required; Adnuntius Data is connected to Adnuntius Advertising out of the box, so any segment created is automatically available for line item and/or creative targeting. 
+{% endhint %}
+
 Next choose **export type**. You can choose between the following: webhooks \(export the data to a web hook\), SFTP \(use the SFTP protocol to export the data to a remote server\) and Platform 161 \(export user segments to DSP provider Platform 161\). Depending on your choice, you will need to provide the following. 
 
 | Choice | Information to be provided |
