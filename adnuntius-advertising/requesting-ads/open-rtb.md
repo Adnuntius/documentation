@@ -63,7 +63,7 @@ The table below provides further information about *some* of the fields in the r
 | `id`  | A unique identifier for the request |
 | `bcat` | A list of blocked categories (using version 1.0 of the IAB Content Taxonomy). For this blocking to work, the Advertiser in Adnuntius must specify an IAB category |
 | `badv` | A list of blocked advertiser domains. For this blocking to work, the Advertiser in Adnuntius must specify an advertiser URL |
-| `imp.tagId` | The Adnuntius Ad Unit tag for the request |
+| `imp.tagId` | The Adnuntius Ad Unit Tag ID for the request |
 | `imp.banner.w` | The ad unit width |
 | `imp.banner.h` | The ad unit height |
 | `site.domain` | The site domain. Advertisers can use this to target or block specific domains |
@@ -78,7 +78,7 @@ An example response looks like this:
 
 ```json
 {
-  "id": "12dcb8df-4f84-4965-ba8f-726cfd3df487",
+  "id": "123457893528",
   "bidid": "f7dc923428a3a86259960e27fcd60776"
   "cur": "USD",
   "seatbid": [
@@ -103,6 +103,12 @@ The table below provides further information about *some* of the fields in the r
 
 | Field | Description |
 | ----- | ----------- |
-| `id`  | A unique identifier for the request |
-
-
+| `id`  | The unique identifier supplied with the initial request |
+| `bidid` | A unique identifier created for this response |
+| `seatbid.seat` | ID of the buyer seat (e.g., advertiser, agency) on whose behalf
+this bid is made. Currently, this is set using the Network ID for your Adnuntius account |
+| `seatbid.bid` | A list of bids for the impression. Currently, only the highest bidder, if any, from within your Adnuntius account will return a bid |
+| `seatbid.bid[0].impid` | This is the `imp.id` value provided with the request |
+| `seatbid.bid[0].adid` | The ID of the bidding Adnuntius Creative |
+| `seatbid.bid[0].id` | A unique identifier created for this bid |
+| `seatbid.bid[0].adm` | The ad markup for the bid |
