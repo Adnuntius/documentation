@@ -69,7 +69,40 @@ The table below provides further information about *some* of the fields in the r
 | `site.domain` | The site domain. Advertisers can use this to target or block specific domains |
 | `site.cat` | The site categories. Advertisers can use this to target or block specific categories |
 | `site.keywords` | The site keywords. Advertisers can use this to target or block specific keywords |
+| `device.au` | User Agent string. Advertisers can use this to target device types and operating systems etc. |
+| `device.ip` | Ip address. Advertisers can use this for location targeting |
+
+## Response
+
+An example response looks like this:
+
+```json
+{
+  "id": "12dcb8df-4f84-4965-ba8f-726cfd3df487",
+  "bidid": "f7dc923428a3a86259960e27fcd60776"
+  "cur": "USD",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "adid": "e8669e93-622f-4655-b5b8-77f2f5ce7748",
+          "price": 0.01,
+          "adm": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n</head>\n<body>\n<div>\n<a href=\"https://delivery.adnuntius.com/c/ABGYTRkjhgjkhi789675654hgfh8JHGHGJG?ct=84&r={CLICK_URL_ESC}http%3A%2F%2Fwww.example.com%2Fboard\"><img src=\"https://assets.adnuntius.com/cdn/b055gUPRpZh_dLTPWKnO_dv7xTr-Bu1fRRvla4PTXLg.png\" width=\"728\" height=\"90\" style=\"width:728px; height:90px\"/></a></div>\n<iframe src=\"https://delivery.adnuntius.com/b/ABGYTRkjhgjkhi789675654hgfh8JHGHGJG.html?wp={WINNING_PRICE}\" scrolling=\"no\" frameborder=\"0\" width=\"1\" height=\"1\" style=\"position:absolute;top:-10000px;left:-100000px;\"></iframe>\n</body>\n</html>",
+          "impid": "1",
+          "id": "dd797ea3c02088418d5ad594416221cd"
+        }
+      ],
+      "seat": "1c789427-f307-4d79-84c0-4107ccac9dfc"
+    }
+  ]
+}
+```
+
+The table below provides further information about *some* of the fields in the response.
 
 
+| Field | Description |
+| ----- | ----------- |
+| `id`  | A unique identifier for the request |
 
 
