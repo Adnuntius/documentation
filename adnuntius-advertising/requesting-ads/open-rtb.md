@@ -60,5 +60,7 @@ The table below provides further information about *some* of the fields in the r
 | Field | Description |
 | ----- | ----------- |
 | `id`  | A unique identifier for the request |
+| `bcat` | A list of blocked categories (using version 1.0 of the IAB Content Taxonomy). For this blocking to work, the Advertiser in Adnuntius must be tagged with an IAB category |
+
 
 
