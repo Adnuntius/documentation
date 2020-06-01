@@ -8,7 +8,9 @@ Adnuntius provides limited support for requesting ads using the [version 2.5 of 
 
 ---
 
-OpenRTB Requests are sent to `https://delivery.adnuntius.com/rtb`
+## Requests
+
+OpenRTB Requests are sent to: `https://delivery.adnuntius.com/rtb`
 
 An example request looks like this:
 
@@ -52,3 +54,11 @@ An example request looks like this:
   }
 }
 ```
+
+The table below provides further information about *some* of the fields in the request.
+
+| Field | Description |
+| ----- | ----------- |
+| `id`  | A unique identifier for the request |
+
+
