@@ -71,6 +71,7 @@
     * [Logging Options](adnuntius-advertising/requesting-ads/intro/adn-feedback.md)
   * [HTTP](adnuntius-advertising/requesting-ads/http-api.md)
   * [VAST](adnuntius-advertising/requesting-ads/vast-2.0.md)
+  * [Open RTB](adnuntius-advertising/requesting-ads/open-rtb.md)
 
 ## Adnuntius Data
 
