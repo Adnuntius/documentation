@@ -8,7 +8,7 @@ Adnuntius provides limited support for requesting ads using the [version 2.5 of 
 
 ---
 
-OpenRTB Requests are sent to `https://delivery.adnuntius.com/iab`
+OpenRTB Requests are sent to `https://delivery.adnuntius.com/rtb`
 
 An example request looks like this:
 
