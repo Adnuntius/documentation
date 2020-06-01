@@ -38,6 +38,7 @@ An example request looks like this:
     "domain": "theage.com.au",
     "page": "https://theage.com.au/sport/",
     "cat": ["IAB12"],
+    "keywords": ["sport", "news"],
     "publisher": {
       "id": 987035487,
       "name": "Nine Entertainment Co",
@@ -60,7 +61,15 @@ The table below provides further information about *some* of the fields in the r
 | Field | Description |
 | ----- | ----------- |
 | `id`  | A unique identifier for the request |
-| `bcat` | A list of blocked categories (using version 1.0 of the IAB Content Taxonomy). For this blocking to work, the Advertiser in Adnuntius must be tagged with an IAB category |
+| `bcat` | A list of blocked categories (using version 1.0 of the IAB Content Taxonomy). For this blocking to work, the Advertiser in Adnuntius must specify an IAB category |
+| `badv` | A list of blocked advertiser domains. For this blocking to work, the Advertiser in Adnuntius must specify an advertiser URL |
+| `imp.tagId` | The Adnuntius Ad Unit tag for the request |
+| `imp.banner.w` | The ad unit width |
+| `imp.banner.h` | The ad unit height |
+| `site.domain` | The site domain. Advertisers can use this to target or block specific domains |
+| `site.cat` | The site categories. Advertisers can use this to target or block specific categories |
+| `site.keywords` | The site keywords. Advertisers can use this to target or block specific keywords |
+
 
 
 
