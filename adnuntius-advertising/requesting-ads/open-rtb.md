@@ -105,8 +105,7 @@ The table below provides further information about *some* of the fields in the r
 | ----- | ----------- |
 | `id`  | The unique identifier supplied with the initial request |
 | `bidid` | A unique identifier created for this response |
-| `seatbid.seat` | ID of the buyer seat (e.g., advertiser, agency) on whose behalf
-this bid is made. Currently, this is set using the Network ID for your Adnuntius account |
+| `seatbid.seat` | ID of the buyer seat (e.g., advertiser, agency) on whose behalf this bid is made. Currently, this is set using the Network ID for your Adnuntius account |
 | `seatbid.bid` | A list of bids for the impression. Currently, only the highest bidder, if any, from within your Adnuntius account will return a bid |
 | `seatbid.bid[0].impid` | This is the `imp.id` value provided with the request |
 | `seatbid.bid[0].adid` | The ID of the bidding Adnuntius Creative |
