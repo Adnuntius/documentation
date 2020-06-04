@@ -22,6 +22,7 @@ POST https://api.adnuntius.com/api/v1/segments/upload?context=<context>
         'name': 'Movies',
         'description': 'Interested in movies',
         'dataSource': 'ADNUNTIUS',
+        'team': 'my_team_id',
         'state': 'ACTIVE'
     }
 ]
@@ -30,6 +31,7 @@ POST https://api.adnuntius.com/api/v1/segments/upload?context=<context>
 | Name | Restriction | Description |
 | :--- | :--- | :--- |
 | segmentId | String | Identification of the segment. |
+| team | String | (optional) Restrict visibility of the segment to this team only |
 | name | String | The name of the segment |
 | description | String | Description for the segment |
 | dataSource | ADNUNTIUS, ADOBE, CXENSE, LYTICS, RELAY42 | The DMP providing the segmentation. |
