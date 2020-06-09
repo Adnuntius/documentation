@@ -44,16 +44,16 @@ Now onto the header bidding. Firstly you will have to place the followin script 
 {% hint style="info" %}
 You will have to download the according prebid script for your system from prebid.org: [http://prebid.org/download.html](http://prebid.org/download.html)
 
-Additionally tou will have to change the variable `adUnits` to the corresponding SSP that you try to connect using the prebid documentation.
+Additionally you will have to change the variable `adUnits` to the corresponding SSP that you try to connect using the prebid documentation.
 {% endhint %}
 
 Once that is done you will have to add prebid as an _external demand source_ in the ad server, name and description can be of your choosing:
 
-Go to: **Amin -&gt; Ext. Demand S. -&gt; New**
+Go to: **Admin -&gt; Ext. Demand S. -&gt; New**
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
-By it's own the external demand source does not know what ad units it should deliver to, so you will need to replicate the sizes that you have setup in your SSP in order for Adnuntius to make the correct calls.
+By itself the external demand source does not know what ad units it should deliver to, so you will need to replicate the sizes that you have setup in your SSP in order for Adnuntius to make the correct calls.
 
 Go to: **Inventory -&gt; External Ad units -&gt; new**
 
@@ -75,8 +75,7 @@ The line item is a pretty standard line item but the real magic happens when you
 
 in the creatives section you will have to set a Name and make sure that you set the creative type to **External.** Once you have done that the layout changes so that you can select the the external demand source that you created and add an external adunit to be shown on this creative. The width and the height of this creative defines:
 
-1. Where the creative will be displayed, so essentialy what adunits are able to display it.
-2. the max-size of the external ad unit that you added to this creative. If your external adunit have bigger sizes than what you define as width and height in the creative they will not get shown.
+1. Where the creative will be displayed, so essentially what adunits are able to display it.
+2. the max-size of the external ad unit that you added to this creative. If your external adunit has bigger sizes than what you define as width and height in the creative they will not get shown.
 
 Once you are done with this, then just save it all, and the ads might start flowing in, depending on what you have setup in the SSP. Good luck!
-
