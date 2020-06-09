@@ -43,7 +43,7 @@ Wondering how you can increase viewability of your ads? See here: [https://adnun
 
 ### Impressions
 
-Of the four kinds of impressions, standard impressions are the most robustly measured. This is because the count is made as soon as the the Adnuntius system decides which ad to show, so no other processes or systems can interfere with the statistics gathering. After Adnuntius receives the ad request, the impression count is made before the ad leaves the Adnuntius system, thereby ensuring that the impression count is always the least likely to be mistaken.
+Of the four kinds of impressions, standard impressions are the most robustly measured. This is because the count is made as soon as the Adnuntius system decides which ad to show, so no other processes or systems can interfere with the statistics gathering. After Adnuntius receives the ad request, the impression count is made before the ad leaves the Adnuntius system, thereby ensuring that the impression count is always the least likely to be mistaken.
 
 ### Rendered Impressions
 
