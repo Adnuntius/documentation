@@ -108,7 +108,7 @@ Availability allows you to forecast how much traffic your ad unit is likely to h
 
 ![Availability analysis example. ](../../../.gitbook/assets/202003-ad-units-availability-tab.png)
 
-The followin explanations will the example above above for guidance. 
+The following explanations will the example above above for guidance.
 
 First, the analysis tells you that "**This ad unit is estimated to deliver 7.90% of all traffic across your network**", and that this means that for the defined period the ad unit can deliver between 231,070 and 248,379 impressions, between 0 and 162 clicks etc. If you choose a longer period of time \(start and end date\) these numbers are likely to increase. 
 

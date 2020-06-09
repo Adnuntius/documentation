@@ -4,7 +4,7 @@ This guide expects you to know how to create orders and line items. If you dont?
 
 [https://docs.adnuntius.com/user-interface-guide/inventory](https://docs.adnuntius.com/user-interface-guide/inventory)
 
-Now onto the header bidding. Firstly you will have to place the followin script in your header:
+Now onto the header bidding. Firstly you will have to place the following script in your header:
 
 ```markup
 <script async src="prebid_imp.js"></script>
