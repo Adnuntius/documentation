@@ -42,7 +42,7 @@ Now onto the header bidding. Firstly you will have to place the following script
 ```
 
 {% hint style="info" %}
-You will have to download the associated prebid script for your system from prebid.org: [http://prebid.org/download.html](http://prebid.org/download.html)
+You will have to download the prebid script for your system from prebid.org: [http://prebid.org/download.html](http://prebid.org/download.html)
 
 Additionally you will have to change the variable `adUnits` to the corresponding SSP that you try to connect using the prebid documentation.
 {% endhint %}
