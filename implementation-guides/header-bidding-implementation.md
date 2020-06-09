@@ -73,7 +73,7 @@ The line item is a pretty standard line item but the real magic happens when you
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 
-in the creatives section you will have to set a Name and make sure that you set the creative type to **External.** Once you have done that the layout changes so that you can select the the external demand source that you created and add an external adunit to be shown on this creative. The width and the height of this creative defines:
+in the creatives section you will have to set a Name and make sure that you set the creative type to **External.** Once you have done that the layout changes so that you can select the external demand source that you created and add an external adunit to be shown on this creative. The width and the height of this creative defines:
 
 1. Where the creative will be displayed, so essentialy what adunits are able to display it.
 2. the max-size of the external ad unit that you added to this creative. If your external adunit have bigger sizes than what you define as width and height in the creative they will not get shown.
