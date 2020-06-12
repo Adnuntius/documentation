@@ -48,6 +48,15 @@ You should specify a CPM bid of 0, as the actual bidding will be dynamically adj
 
 ![](../.gitbook/assets/20200612-GAM-LI.png)
 
+The Creative for your Line Item must be configured with:
+
+- An "External" Creative Type
+- The Google External Demand Source (created in Step 1 above)
+- External Ad Unit Targeting to at least one of the GAM Ad Units (created in Step 2 above)
 
 ![](../.gitbook/assets/20200612-GAM-C.png)
+
+
+## Step 4 : Configure GAM Line Items
+
 
