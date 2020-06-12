@@ -57,6 +57,18 @@ The Creative for your Line Item must be configured with:
 ![](../.gitbook/assets/20200612-GAM-C.png)
 
 
-## Step 4 : Configure GAM Line Items
+## Step 4 : Create Google Line Items (in GAM)
+
+The configuration described so far ensures that Adnuntius will request ads from GAM whenever it determines that the demand from Google will bid higher than the internal inventory. For this to work, however, you *must* have created line-items in GAM to handle the case when there are **no ads** returned from Google when Adnuntius makes a request.
+
+The requests to GAM arriving from Adnuntius will include a key-value that specifies one of the *Bid Levels* (configured in step 1 above). The key name is `adnFloor`, and the value is numeric with two decimal places, e.g. `1.50`. You **must** create multiple Google line-items which target each of the configured Bid Levels using the associated key-value. For example, if you have configured bid levels:
+
+`0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4`
+
+then you must create eight line-items in GAM with one targeting `adnFloor=0.50`, another targeting `adnFloor=1.00`, another targeting `adnFloor=1.50` and so on.
+
+For each of the created line-items, that entered bid must match the specific targeting, so the line-item targeting `adnFloor=3.50` should have a CPM bid of 3.50.
+
+
 
 
