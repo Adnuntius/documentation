@@ -24,3 +24,8 @@ The External Demand Source requires the following information:
 - The Currency used in GAM
 - The Bid Levels, which controls how bids get converted to key-value targets for GAM. In the example screenshot we have specified NOK 1, NOK 2 and NOK 3
 
+![](../.gitbook/assets/20200612-GAM-EDS.png)
+
+## Step 2 : Create a Google External Ad Unit
+
+
