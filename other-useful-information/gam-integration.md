@@ -17,15 +17,37 @@ You must have your own GAM account to use this integration.
 
 An External Demand Source is required to tell Adnuntius how to connect with your GAM account.
 
-
 The External Demand Source requires the following information:
 
-- The GAM Network Code
-- The Currency used in GAM
-- The Bid Levels, which controls how bids get converted to key-value targets for GAM. In the example screenshot we have specified NOK 1, NOK 2 and NOK 3
+- "Google Ad Manager" must be chosen as the External Demand Source
+- Your GAM Network Code, specified in the "Publisher ID" field
+- The currency that is used in your GAM account
+- Bid Levels, which control how bids are converted to key-value targets for GAM (more deatils on this later is provided later in this guide)
 
 ![](../.gitbook/assets/20200612-GAM-EDS.png)
 
 ## Step 2 : Create a Google External Ad Unit
 
+You create External Ad Units in Adnuntius to connect with your GAM Ad Units.
+
+Each External Ad Unit requires:
+
+- The External Demand Source (created in step above)
+- The GAM Ad Unit ID
+- The size of the GAM Ad Unit
+
+![](../.gitbook/assets/20200612-GAM-EA.png)
+
+## Step 3 : Create a Google Line Item (in Adnuntius)
+
+You must create a Line Item in Adnuntius that competes in the Adnuntius auction and controls when the system will check for external inventory from GAM.
+
+You can use all of the standard targeting and tiers etc within Adnuntius on the Line Item.
+
+You should specify a CPM bid of 0, as the actual bidding will be dynamically adjusted by Adnuntius based upon the available demand from GAM.
+
+![](../.gitbook/assets/20200612-GAM-LI.png)
+
+
+![](../.gitbook/assets/20200612-GAM-C.png)
 
