@@ -1,6 +1,6 @@
 ---
 description: >-
-  This page describes how to integration Adnuntius Advertising with Google Ad Manager
+  This page describes how to integrate Adnuntius Advertising with Google Ad Manager
 ---
 
 # Google Ad Manager Integration
