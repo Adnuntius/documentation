@@ -31,6 +31,10 @@ Put simply, an external ad unit is what connects a ["regular" Adnuntius ad unit]
 ![Connecting an ad unit to an external ad unit is done from the ad unit page.](../../../.gitbook/assets/202003-connecting-extau-to-au.gif)
 
 {% hint style="info" %}
+If you want to integrate your Google Ad Manager account, you can also do this in a smart way; please see [here ](../../../other-useful-information/gam-integration.md)for more information.
+{% endhint %}
+
+{% hint style="info" %}
 If you want granular reporting you can create one external ad unit for every SSP ad unit you create. But if you are ok with aggregating the statistics a bit and want to save time, you can create one external ad unit for every ad unit size. You can then connect that one size to multiple regular Adnuntius ad units. 
 {% endhint %}
 

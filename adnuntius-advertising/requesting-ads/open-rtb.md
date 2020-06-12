@@ -2,11 +2,7 @@
 
 Adnuntius provides limited support for requesting ads using the [version 2.5 of the OpenRTB protocol](https://www.iab.com/wp-content/uploads/2016/03/OpenRTB-API-Specification-Version-2-5-FINAL.pdf).
 
----
-
 **Note**: Please contact Adnuntius if you intend to use this functionality, as your account will require some additional configuration.
-
----
 
 ## Requests
 
@@ -14,7 +10,7 @@ OpenRTB Requests are sent to: `https://delivery.adnuntius.com/rtb`
 
 An example request looks like this:
 
-```json
+```javascript
 {
   "id": "123457893528",
   "at": 2,
@@ -56,12 +52,12 @@ An example request looks like this:
 }
 ```
 
-The table below provides further information about *some* of the fields in the request.
+The table below provides further information about _some_ of the fields in the request.
 
 | Field | Description |
-| ----- | ----------- |
-| `id`  | A unique identifier for the request |
-| `bcat` | A list of blocked categories (using version 1.0 of the IAB Content Taxonomy). For this blocking to work, the Advertiser in Adnuntius must specify an IAB category |
+| :--- | :--- |
+| `id` | A unique identifier for the request |
+| `bcat` | A list of blocked categories \(using version 1.0 of the IAB Content Taxonomy\). For this blocking to work, the Advertiser in Adnuntius must specify an IAB category |
 | `badv` | A list of blocked advertiser domains. For this blocking to work, the Advertiser in Adnuntius must specify an advertiser URL |
 | `imp.tagId` | The Adnuntius Ad Unit Tag ID for the request |
 | `imp.banner.w` | The ad unit width |
@@ -76,7 +72,7 @@ The table below provides further information about *some* of the fields in the r
 
 An example response looks like this:
 
-```json
+```javascript
 {
   "id": "123457893528",
   "bidid": "f7dc923428a3a86259960e27fcd60776"
@@ -98,16 +94,16 @@ An example response looks like this:
 }
 ```
 
-The table below provides further information about *some* of the fields in the response.
-
+The table below provides further information about _some_ of the fields in the response.
 
 | Field | Description |
-| ----- | ----------- |
-| `id`  | The unique identifier supplied with the initial request |
+| :--- | :--- |
+| `id` | The unique identifier supplied with the initial request |
 | `bidid` | A unique identifier created for this response |
-| `seatbid.seat` | ID of the buyer seat (e.g., advertiser, agency) on whose behalf this bid is made. Currently, this is set using the Network ID for your Adnuntius account |
+| `seatbid.seat` | ID of the buyer seat \(e.g., advertiser, agency\) on whose behalf this bid is made. Currently, this is set using the Network ID for your Adnuntius account |
 | `seatbid.bid` | A list of bids for the impression. Currently, only the highest bidder, if any, from within your Adnuntius account will return a bid |
 | `seatbid.bid[0].impid` | This is the `imp.id` value provided with the request |
 | `seatbid.bid[0].adid` | The ID of the bidding Adnuntius Creative |
 | `seatbid.bid[0].id` | A unique identifier created for this bid |
 | `seatbid.bid[0].adm` | The ad markup for the bid |
+

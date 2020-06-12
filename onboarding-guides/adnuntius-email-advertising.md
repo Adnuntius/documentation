@@ -96,7 +96,9 @@ This guide assumes that you already have access an Adnuntius Advertising account
       </td>
     </tr>
   </tbody>
-</table>{% hint style="info" %}
+</table>
+
+{% hint style="info" %}
 Please note that you can only use simple image ads in email newsletters.
 {% endhint %}
 

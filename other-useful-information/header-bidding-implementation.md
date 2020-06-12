@@ -79,3 +79,4 @@ in the creatives section you will have to set a Name and make sure that you set 
 2. the max-size of the external ad unit that you added to this creative. If your external adunit has bigger sizes than what you define as width and height in the creative they will not get shown.
 
 Once you are done with this, then just save it all, and the ads might start flowing in, depending on what you have setup in the SSP. Good luck!
+

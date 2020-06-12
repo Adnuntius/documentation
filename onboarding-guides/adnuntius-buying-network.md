@@ -100,7 +100,9 @@ Please note that this guide assumes that you are a customer and have received us
       </td>
     </tr>
   </tbody>
-</table>If you want to use Adnuntius Buying Network to create private marketplaces together with publishing partners, then continue reading below on how to set this up together with your publishing partners. You can also reach out to us for help with this work, just send us a couple of lines on support@adnuntius.com and we will reach out with a plan. Your success is our success!
+</table>
+
+If you want to use Adnuntius Buying Network to create private marketplaces together with publishing partners, then continue reading below on how to set this up together with your publishing partners. You can also reach out to us for help with this work, just send us a couple of lines on support@adnuntius.com and we will reach out with a plan. Your success is our success!
 
 {% hint style="info" %}
 Make sure to ask your publishing partners if they are already set up with the Adnuntius Buying Network. If they are, then they don’t have to repeat this work.
@@ -176,7 +178,9 @@ Please note that this guide assumes that you are a customer and have received us
       </td>
     </tr>
   </tbody>
-</table>Are you as a publisher looking to use the Adnuntius Buying Network to take back revenue currently lost to programmatic advertising? Then you may have to get advertisers and agencies onboard as well. We are happy to help you with this; reach out to us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will reach out to you with a plan. We have experience selling the concept to buyers, and we are happy to help you with explaining the benefits of the Adnuntius Buying Network.
+</table>
+
+Are you as a publisher looking to use the Adnuntius Buying Network to take back revenue currently lost to programmatic advertising? Then you may have to get advertisers and agencies onboard as well. We are happy to help you with this; reach out to us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will reach out to you with a plan. We have experience selling the concept to buyers, and we are happy to help you with explaining the benefits of the Adnuntius Buying Network.
 
 ## Network Operators
 

@@ -74,7 +74,9 @@ https://api.adnuntius.com/api/v1/stats/
       <td style="text-align:left">End date of the report</td>
     </tr>
   </tbody>
-</table>### Example Response
+</table>
+
+### Example Response
 
 ```text
 {

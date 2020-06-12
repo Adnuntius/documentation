@@ -120,5 +120,7 @@ This guide assumes that you have been given access to Adnuntius Advertising. How
       </td>
     </tr>
   </tbody>
-</table>These first steps should show you the basics of getting up and running. You can now create more sites, ad units and line items, so that you will soon have set up your account for implementation \([documented here](../adnuntius-advertising/requesting-ads/)\). 
+</table>
+
+These first steps should show you the basics of getting up and running. You can now create more sites, ad units and line items, so that you will soon have set up your account for implementation \([documented here](../adnuntius-advertising/requesting-ads/)\). 
 

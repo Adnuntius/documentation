@@ -44,6 +44,10 @@ This is the first step to set up programmatic ads. After you have completed thes
 Do you need access to SSPs? [We can help you](https://adnuntius.com/programmatic-just-got-full-service/)! 
 {% endhint %}
 
+{% hint style="info" %}
+If you have a Google Ad Manager account we can also help you integrate to this in a smart way. Please see [here ](../../../other-useful-information/gam-integration.md)for more information. 
+{% endhint %}
+
 ## DSP Connections \(Not Yet Ready\)
 
 This feature is currently work in progress, and is not yet ready for usage.
