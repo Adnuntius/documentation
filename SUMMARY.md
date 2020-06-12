@@ -116,4 +116,5 @@
 * [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
 * [Tableau connection](other-useful-information/tableau-connection.md)
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
+* [GAM Integration](other-useful-information/gam-integration.md)
 
