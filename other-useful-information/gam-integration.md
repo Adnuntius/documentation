@@ -67,8 +67,12 @@ The requests to GAM arriving from Adnuntius will include a key-value that specif
 
 then you must create eight line-items in GAM with one targeting `adnFloor=0.50`, another targeting `adnFloor=1.00`, another targeting `adnFloor=1.50` and so on.
 
-For each of the created line-items, that entered bid must match the specific targeting, so the line-item targeting `adnFloor=3.50` should have a CPM bid of 3.50.
+For each of the line-items, the bid on the line-item must match the specific targeting. So, for example, a line-item targeting `adnFloor=3.50` must have a CPM bid of 3.50. This configuration ensures that if a request is received from Adnuntius at a bid-level of 3.50, that this line-item will match and it will require any bids from the exchange to bid higher than 3.50 in order to win the auction. If there are no bids from the exchange, then this line-item can handle returning a passback tag to Adnuntius.
 
+In addition to including a passback tag to Adnuntius, the creative attached to each line-item **must** include the following pixel tag:
 
+```html
+<iframe src="https://%%PATTERN:adnServer%%/d/f/%%PATTERN:adnToken%%" scrolling="no" frameborder="0" width="1" height="1" style="position:absolute;top:-10000px;left:-100000px;"></iframe>
+```
 
-
+This pixel is the secret to Adnuntius learning which requests do not return ads, and allows for the correct bid level to be dynamically chosen to optimise your revenue from Google.
