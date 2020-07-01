@@ -59,3 +59,4 @@ would be automatically populated with:
 and
 
 `categories = ["sport", "tennis"]`
+
