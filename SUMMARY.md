@@ -33,6 +33,7 @@
     * [Layouts](adnuntius-advertising/admin-ui/admin/layouts.md)
     * [Custom Events](adnuntius-advertising/admin-ui/admin/custom-events.md)
     * [Reference Data](adnuntius-advertising/admin-ui/admin/reference-data.md)
+    * [Products](adnuntius-advertising/admin-ui/admin/products.md)
     * [Connections](adnuntius-advertising/admin-ui/admin/connections.md)
     * [Tiers](adnuntius-advertising/admin-ui/admin/tiers.md)
     * [Network](adnuntius-advertising/admin-ui/admin/network.md)
@@ -111,6 +112,7 @@
   * [ABN For Network Owners](onboarding-guides/adnuntius-buying-network/abn-for-network-owners.md)
   * [ABN For Buyers](onboarding-guides/adnuntius-buying-network/abn-for-buyers.md)
   * [ABN For Publishers](onboarding-guides/adnuntius-buying-network/abn-for-publishers.md)
+* [Adnuntius Self-Service](onboarding-guides/adnuntius-self-service.md)
 * [Adnuntius Email Advertising](onboarding-guides/adnuntius-email-advertising.md)
 
 ## Other Useful Information
