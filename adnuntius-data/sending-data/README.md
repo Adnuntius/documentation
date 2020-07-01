@@ -9,5 +9,5 @@ description: >-
 | Method | Explanation |
 | :--- | :--- |
 | [Javascript API](javascript.md) | How to send information to Adnuntius Data from a user's browser. |
-| [HTTP API](http.md) | How to use the HTTP API to send information to Adnuntius Data |
+| [HTTP API](http/README.md) | How to use the HTTP API to send information to Adnuntius Data |
 
