@@ -8,7 +8,7 @@ description: >-
 The HTTP API enables you to send user Page Views to Adnuntius Data.
 
 {% hint style="info" %}
-Typically you are recommended to send these events from the user's browser using the [Javascript API](javascript.md).
+Typically you are recommended to send these events from the user's browser using the [Javascript API](../javascript.md).
 {% endhint %}
 
 ## Request object
