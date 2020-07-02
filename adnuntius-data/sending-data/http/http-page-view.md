@@ -1,4 +1,3 @@
-
 ---
 description: >-
   How to send Page Views using the HTTP API
