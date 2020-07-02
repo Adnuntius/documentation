@@ -16,9 +16,9 @@ The example below provides a demonstration of how a profile update can be sent t
     adn.calls.push(function() {
         adn.visitor('00000000000aaaaa', {
             profileValues: {
-                "firstName": "Bruce",
-                "dateOfBirth": "2001-120-31",
-                "lastTransactionAmount": 7000000
+                firstName: "Bruce",
+                dateOfBirth: "2001-120-31",
+                lastTransactionAmount: 7000000
             }
         });
     });
