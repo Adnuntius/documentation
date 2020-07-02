@@ -8,7 +8,9 @@ description: >-
 
 The HTTP API enables you to send user Page Views to Adnuntius Data.
 
+{% hint style="info" %}
 Typically you are recommended to send these events from the user's browser using the [Javascript API](javascript.md).
+{% endhint %}
 
 We support two different types of requests, [asynchronous](http.md#asynchronous-requests) and [synchronous](http.md#synchronous-requests). Both request methods expect data to be provided using the same request [object](http.md#request-object) format.
 
@@ -22,8 +24,10 @@ Data is send to Adnuntius using a HTTP POST request, with a JSON payload contain
 | :--- | :--- | :--- |
 | `externalSystemType` | String | A unique identifier, e.g. CRM name, that corresponds to the external system providing the data |
 | `externalSystemUserId` | String | The unique identifier for the user in the external system |
-| `networkId` | String | The unique Adnuntius network identifier for your account |
-| `profileValues` | Object | An object containing the [profile field](fields.md) names and data to update |
+| `networkId` | String | Your Adnuntius network identifier |
+| `keywords` | String[] | An array of keywords |
+| `categories` | String[] | An array of categories |
+| `domainName` | String | The domain name of the page |
 
 ### Example request object
 
@@ -32,11 +36,9 @@ Data is send to Adnuntius using a HTTP POST request, with a JSON payload contain
   "externalSystemType": "my_crm",
   "externalSystemUserId": "123hfy4658f",
   "networkId": "my_network",
-  "profileValues": {
-    "firstName": "Bruce",
-    "educationStartYear": 2001,
-    "lastTransaction": "2019-12-31T00:00:00Z"
-  }
+  "keywords": ["sport", "tennis"],
+  "categories": ["IAB_24_44"],
+  "domainName": "sport.no"
 }
 ```
 
@@ -46,16 +48,16 @@ Asynchronous requests are used to quickly send a lot of data to Adnuntius. There
 
 Asynchronous requests are sent to Adnuntius Data using the following URL:
 
-`https://data.adnuntius.com/visitor`
+`https://data.adnuntius.com/page`
 
-If the request is received correctly, an HTTP 200 status code will be returned. Remember, however, that a successful return status does _not_ mean that the profile has been successfully stored by Adnuntius. If you would rather wait for confirmation that the record has been stored, you should instead use the [synchronous](http.md#synchronous-requests) API.
+If the request is received correctly, an HTTP 200 status code will be returned. Remember, however, that a successful return status does _not_ mean that the page view has been successfully stored by Adnuntius. If you would rather wait for confirmation that the record has been stored, you should instead use the [synchronous](http.md#synchronous-requests) API.
 
 ### Example cURL request
 
-This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a profile update is sent to Adnuntius Data.
+This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a page view is sent to Adnuntius Data.
 
 ```bash
-curl https://data.adnuntius.com/visitor -d '{
+curl https://data.adnuntius.com/page -d '{
   "externalSystemType": "my_crm",
   "externalSystemUserId": "123hfy4658f",
   "networkId": "my_network",
