@@ -60,7 +60,7 @@ curl https://data.adnuntius.com/visitor -d '{
     "firstName": "Bruce",
     "educationStartYear": 2001,
     "lastTransaction": "2019-12-31T00:00:00Z"
-  }'
+  }}'
 ```
 
 ## Synchronous Requests
