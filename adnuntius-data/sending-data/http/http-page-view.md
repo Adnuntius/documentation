@@ -1,9 +1,8 @@
 ---
-description: >-
-  How to send Page Views using the HTTP API
+description: How to send Page Views using the HTTP API
 ---
 
-# Sending Page Views using the HTTP API
+# Page Views
 
 The HTTP API enables you to send user Page Views to Adnuntius Data.
 
@@ -28,8 +27,8 @@ If the request is received correctly, an HTTP 200 status code will be returned.
 | `externalSystemType` | String | A unique identifier, e.g. CRM name, that corresponds to the external system providing the data |
 | `externalSystemUserId` | String | The unique identifier for the user in the external system |
 | `networkId` | String | Your Adnuntius network identifier |
-| `keywords` | String[] | An array of keywords |
-| `categories` | String[] | An array of categories |
+| `keywords` | String\[\] | An array of keywords |
+| `categories` | String\[\] | An array of categories |
 | `domainName` | String | The domain name of the page |
 
 ### Example request object
@@ -58,3 +57,4 @@ curl https://data.adnuntius.com/page -d '{
   "categories": ["IAB_24_44"],
   "domainName": "sport.no" }'
 ```
+

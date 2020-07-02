@@ -39,7 +39,9 @@ Whenever you get a new publisher onboard your network, you can create users for 
 3. Under the team you’ve created for the user, choose the role you created earlier \(“Team Publisher Admin” if you followed the naming example above\). 
 4. Lastly, click save. When you’ve clicked save an invitation email will be automatically be sent to the user.
 
-**Earnings account.** To be completed.
+**Earnings account.** Finally create an earnings account for the new publisher. Earnings accounts make it easy to track the revenue that each publisher makes, and to calculate their revenue share if you are operating on such a model. Go to [Earnings Accounts](https://admin.adnuntius.com/earnings-accounts) and click "new". Click [here ](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/inventory/earnings-accounts)for more information on how to create an earnings account. 
+
+Once these steps are completed and publishing users logs in, they will be able to create sites and ad units under their own earnings account, create reports for their own inventory, and invite users to join their own team. 
 
 ## Creating Buyer Users
 
