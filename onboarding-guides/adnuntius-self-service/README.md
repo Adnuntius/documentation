@@ -50,12 +50,21 @@ This section assumes that you are set up so that ads are being requested from Ad
         ensures that creatives do not contain illegal or unethical content, or
         anything you don&apos;t like.</td>
       <td style="text-align:left">
-        <p><a href="approval-process.md">Documentation</a>
-        </p>
+        <p>Documentation</p>
         <p><a href="https://admin.adnuntius.com/line-items">Start</a>
         </p>
       </td>
     </tr>
   </tbody>
 </table>
+
+## Approval Process
+
+Once a self-service advertiser has created and submitted a campaign you will need to approve the creative material before the campaign goes live. Here is how you do it.
+
+Go to [https://admin.adnuntius.com/line-items](https://admin.adnuntius.com/line-items) and apply the filter "submitted" in the menu above the list of line items. You will now see a list of creatives that are up for review and approval. Click to preview the creative, and if it looks ok set its status to approved. It will now start delivering impressions. 
+
+![How to approve a creative.](../../.gitbook/assets/202007-aa-ss-approval-process.gif)
+
+If a creative should be rejected for any reason, go to that creative specifically and apply "rejected" as status. The self-service advertiser will then get notified about this decision, so that they can make approvements and try again. 
 
