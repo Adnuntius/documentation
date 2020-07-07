@@ -61,11 +61,27 @@ We use Paypal as the payment service provider in order to provide you with a rel
 
 ## Campaign Overview
 
-To be completed.
+The campaign overview is divided into three parts; Running Campaigns, Drafted and In-Review Campaigns, and Ended Campaigns.
 
-## Ongoing Campaign Details
+* Running campaigns are campaigns that are currently active and delivering impressions. 
+* Drafted campaigns are campaigns you've started creating, but not finished yet so that they can be reviewed and set live. 
+* In-review campaigns are campaigns that you have completed, and that are currently being reviewed to ensure that everything looks ok. 
+* Ended campaigns are campaigns that have delivered on their budget, and/or passed their end dates. 
 
-To be completed.
+![Campaign overview.](../../.gitbook/assets/campaign-overview.png)
 
+## Campaign Details
 
+In the campaign overview you can click on any of the campaigns to view its details. The details will give you a range of information.
+
+* Running dates to tell you how long your campaign has been running, and how much is left. 
+* Budget position telling you how much is spent so far and how much is left. 
+* Ad delivery style telling you if the ad is being delivered evenly across the campaign period, or delivered as fast as possible. 
+* Delivery statistics telling you how the campaign delivers on impressions, clicks, unique users, visibles and viewables. 
+
+Please also note that you can choose the campaign period you're looking at, how you want statistics to be shown, and also choose to download the campaign statistics to an Excel file.
+
+![Campaign details.](../../.gitbook/assets/campaign-details.png)
+
+You can also choose to stop the campaign, in which case we will charge you for what you have spent so far, or a minimum fee of USD 5 \(whatever is highest\) so that we can cover payment fees. 
 
