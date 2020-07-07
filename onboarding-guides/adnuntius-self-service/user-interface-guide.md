@@ -15,7 +15,7 @@ Registering has an advertiser is easy and free. First go to https://bookings.adn
 2. Get a confirmation that we have sent you an email.
 3. Go to your email inbox and click the link so that you can verify your email adress, create a password, and activate the account. 
 
-![Creating an account is fast and easy.](../../.gitbook/assets/ss-registration-process.png)
+![Registering as a user is fast and easy.](../../.gitbook/assets/ss-registration-process.png)
 
 When you later need to log in, just enter your email address and password. If you forget your password you can at any time reset your password.
 
