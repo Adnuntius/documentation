@@ -23,7 +23,7 @@ When you later need to log in, just enter your email address and password. If yo
 
 ## Creating a Campaign
 
-Once you are logged in you will see the campaigns overview page, where you will later see all live, pending and finished campaigns. Skip to learn more about the campaign overview. 
+Once you are logged in you will see the campaigns overview page, where you will later see all live, pending and finished campaigns. [Skip to learn more about the campaign overview](https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service/user-interface-guide#campaign-overview). 
 
 ## Campaign Overview
 
