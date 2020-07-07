@@ -50,7 +50,8 @@ This section assumes that you are set up so that ads are being requested from Ad
         ensures that creatives do not contain illegal or unethical content, or
         anything you don&apos;t like.</td>
       <td style="text-align:left">
-        <p>Documentation</p>
+        <p><a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service#approval-process">Documentation</a>
+        </p>
         <p><a href="https://admin.adnuntius.com/line-items">Start</a>
         </p>
       </td>
@@ -67,4 +68,6 @@ Go to [https://admin.adnuntius.com/line-items](https://admin.adnuntius.com/line-
 ![How to approve a creative.](../../.gitbook/assets/202007-aa-ss-approval-process.gif)
 
 If a creative should be rejected for any reason, go to that creative specifically and apply "rejected" as status. The self-service advertiser will then get notified about this decision, so that they can make approvements and try again. 
+
+![Where to find the &quot;rejected&quot; status.](../../.gitbook/assets/rejected.png)
 
