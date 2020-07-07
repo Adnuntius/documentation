@@ -9,9 +9,19 @@ description: >-
 
 ## Registering and logging in
 
-Registering has an advertiser is easy and free. Just go to https://bookings.adnuntius.com/\[network-name\] \(where the network name is the name the publisher applies for its booking portal\) and register with your email and name. We will then send you an email with a link, so that you can verify your email adress, create a password, and activate the account. 
+Registering has an advertiser is easy and free. First go to https://bookings.adnuntius.com/\[network-name\] \(where the network name is the name the publisher applies for its booking portal\). 
 
-![Registration is fast and easy: \(1\) provide your details, \(2\) get a confirmation and then \(3\) go to your email inbox to activate the account. ](../../.gitbook/assets/ss-registration-process.png)
+1. Register with your email, name and location, and verify that you are a human. 
+2. Get a confirmation that we have sent you an email.
+3. Go to your email inbox and click the link so that you can verify your email adress, create a password, and activate the account. 
 
-sdf
+![Creating an account is fast and easy.](../../.gitbook/assets/ss-registration-process.png)
+
+When you later need to log in, just enter your email address and password. If you forget your password you can at any time reset your password.
+
+![Logging in, and resetting your password.](../../.gitbook/assets/ss-login%20%281%29.png)
+
+## Creating a Campaign
+
+To be completed.
 
