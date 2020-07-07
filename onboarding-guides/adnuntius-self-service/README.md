@@ -9,7 +9,7 @@ description: >-
 
 ## This section is work in progress, and will soon be ready for your eyes. 
 
-This section assumes that you are set up so that ads are being requested from Adnuntius using [javascript tags](../../adnuntius-advertising/requesting-ads/intro/), prebid, openrtb or [API integration](../../adnuntius-advertising/requesting-ads/http-api.md). If you still need help with this, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com). Please follow the steps below to get set up.
+This section assumes that you are set up so that ads are being requested from Adnuntius using [javascript tags](../../adnuntius-advertising/requesting-ads/intro/), prebid, openrtb or [API integration](../../adnuntius-advertising/requesting-ads/http-api.md). If you still need help with this, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com). Also, if you don't have access to self-service advertising, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you get started. 
 
 <table>
   <thead>
