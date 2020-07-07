@@ -114,7 +114,9 @@
   * [ABN For Network Owners](onboarding-guides/adnuntius-buying-network/abn-for-network-owners.md)
   * [ABN For Buyers](onboarding-guides/adnuntius-buying-network/abn-for-buyers.md)
   * [ABN For Publishers](onboarding-guides/adnuntius-buying-network/abn-for-publishers.md)
-* [Self-Service \(Work in Progress\)](onboarding-guides/adnuntius-self-service.md)
+* [Self-Service \(in Progress\)](onboarding-guides/adnuntius-self-service/README.md)
+  * [Approval Process](onboarding-guides/adnuntius-self-service/approval-process.md)
+  * [User Interface Guide](onboarding-guides/adnuntius-self-service/user-interface-guide.md)
 * [Adnuntius Email Advertising](onboarding-guides/adnuntius-email-advertising.md)
 
 ## Other Useful Information
