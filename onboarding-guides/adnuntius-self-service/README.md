@@ -20,7 +20,15 @@ This section assumes that you are set up so that ads are being requested from Ad
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1 Create products. Products package dimensions, pricing, layouts and targeting
+      <td style="text-align:left">1 Get your portal up and running. We will guide you through a process
+        of setting up the self-service portal and tools, involving branding and
+        more. We will reach out to you to get started, but if you for any reason
+        need to get a hold of us, you can do so through support.</td>
+      <td style="text-align:left"><a href="mailto:support@adnuntius.com">Contact support</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Create products. Products package dimensions, pricing, layouts and targeting
         so that buying ads can be made simple. Whenever a self-service advertiser
         creates a campaign, choosing a product is the first step in creating that
         campaign.</td>
@@ -30,10 +38,6 @@ This section assumes that you are set up so that ads are being requested from Ad
         <p><a href="https://admin.adnuntius.com/admin/products">Start</a>
         </p>
       </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2 Set up your portal. To be completed.</td>
-      <td style="text-align:left">Documentation (coming soon)</td>
     </tr>
     <tr>
       <td style="text-align:left">3 Understand the user interface. When you have set up the portal you should
