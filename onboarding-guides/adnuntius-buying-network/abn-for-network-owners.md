@@ -11,11 +11,11 @@ This guide covers the following.
 
 | Actions | Explanation |
 | :--- | :--- |
-| Creating and training publisher users | How to create access for publishing partners so that they can manage their inventory.  |
-| Creating and training buyer users | How to create access for buyers so that they can create and manage campaigns.  |
-| Defining supported formats | How to determine the creative formats buyers should be able to buy. |
-| Invoicing | How to ensure that buyers are invoiced and  |
-| Setting up report templates | How to set up reports that can be generated and scheduled by publishers and buyers. |
+| [Creating and training publisher users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for publishing partners so that they can manage their inventory.  |
+| [Creating and training buyer users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for buyers so that they can create and manage campaigns.  |
+| [Defining supported formats](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#defining-supported-formats) | How to determine the creative formats buyers should be able to buy. |
+| [Invoicing](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#invoicing) | How to ensure that buyers are invoiced and  |
+| [Setting up report templates](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#setting-up-report-templates) | How to set up reports that can be generated and scheduled by publishers and buyers. |
 
 ## Creating Publisher Users
 
@@ -41,7 +41,11 @@ Whenever you get a new publisher onboard your network, you can create users for 
 
 **Earnings account.** Finally create an earnings account for the new publisher. Earnings accounts make it easy to track the revenue that each publisher makes, and to calculate their revenue share if you are operating on such a model. Go to [Earnings Accounts](https://admin.adnuntius.com/earnings-accounts) and click "new". Click [here ](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/inventory/earnings-accounts)for more information on how to create an earnings account. 
 
-Once these steps are completed and publishing users logs in, they will be able to create sites and ad units under their own earnings account, create reports for their own inventory, and invite users to join their own team. 
+{% hint style="info" %}
+Remember to use the revenue share field on earnings accounts in order to automatically calculate what publishers should earn.
+{% endhint %}
+
+Once these steps are completed and publishing users logs in, they will be able to create sites and ad units under their own earnings account, create reports for their own inventory, and invite users to join their own team. [Here you will find a guide that new users can use to get acquainted to the system.](abn-for-publishers.md)
 
 ## Creating Buyer Users
 
@@ -63,6 +67,8 @@ Whenever you get a new buyer onboard your network, you can create users for them
 2. Choose the advertising network role that you created earlier \(“Network Advertiser Admin” if you followed the naming example above\).
 3. Under the team you’ve created for the user, choose the role you created earlier \(“Team Advertiser Admin” if you followed the naming example above\). 
 4. Lastly, click save. When you’ve clicked save an invitation email will be automatically be sent to the user.
+
+[Here you will find a guide that new users can use to get acquainted to the system.](abn-for-buyers.md)
 
 ## Defining Supported Formats
 
