@@ -75,7 +75,8 @@ This section assumes that you are set up so that ads are being requested from Ad
         users is an important part of providing good customer service.</td>
       <td
       style="text-align:left">
-        <p>Documentation</p>
+        <p><a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service#user-management">Documentation</a>
+        </p>
         <p><a href="https://admin.adnuntius.com/admin/users">Start</a>
         </p>
         </td>
@@ -97,5 +98,21 @@ If a creative should be rejected for any reason, go to that creative specificall
 
 ## User Management
 
-sdf
+A self-service advertiser will be able to register on their own when visiting your portal. Once they have created and activated a user for themselves you should understand how you can manage this user in the event that any changes or support is needed. 
+
+**Roles**. When a self-service advertiser registers they will be set up with a network role and a team role. The network role will be an empy network role, so that the user cannot perform any actions to your network. The team role will contain the "Self-Service Own Advertising" rights. To understand users, roles and team in better detail, please see [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md).
+
+![An empty network role. ](../../.gitbook/assets/empty-network-role.png)
+
+![A self-service own role.](../../.gitbook/assets/self-service-own-role.png)
+
+Users. To see all users registered with your network, go to [https://admin.adnuntius.com/admin/users](https://admin.adnuntius.com/admin/users). When you click on a user you will be able to perform a set of actions for that user \(see example user below\). 
+
+* Change email address and name of the user. The display name is just the name that is displayed in the user interface. 
+* Activate or de-activate the user. If you de-activate the user, then that user can no longer log in.
+* Update the user's password. Please note that if you update the user's password from within the admin user interface, that user will not be notified about changed passwords. If they should be notified, please tell the user to click the "forgot your password" link from your portal's login page. 
+* Change the user's locale. Whenever users register they will be able to set their location, and this may determine the language of emails and the user interface. If they for any reason have set the wrong locale you can manually change it here. 
+* You can also change their roles and teams, but this is not recommended as this may give users access to parts of the systems that they should not have. 
+
+![User example. ](../../.gitbook/assets/user-example.png)
 
