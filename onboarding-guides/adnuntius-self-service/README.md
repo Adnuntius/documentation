@@ -69,6 +69,17 @@ This section assumes that you are set up so that ads are being requested from Ad
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">6 Understand user management. While Adnuntius will be set up with the
+        correct roles as part of the onboarding process, understanding how to manage
+        users is an important part of providing good customer service.</td>
+      <td
+      style="text-align:left">
+        <p>Documentation</p>
+        <p><a href="https://admin.adnuntius.com/admin/users">Start</a>
+        </p>
+        </td>
+    </tr>
   </tbody>
 </table>
 
@@ -83,4 +94,8 @@ Go to [https://admin.adnuntius.com/line-items](https://admin.adnuntius.com/line-
 If a creative should be rejected for any reason, go to that creative specifically and apply "rejected" as status. The self-service advertiser will then get notified about this decision, so that they can make approvements and try again. 
 
 ![Where to find the &quot;rejected&quot; status.](../../.gitbook/assets/rejected.png)
+
+## User Management
+
+sdf
 
