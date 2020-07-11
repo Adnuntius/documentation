@@ -58,6 +58,17 @@ This section assumes that you are set up so that ads are being requested from Ad
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">5 Personalize emails being sent to new users, and to those who have forgotten
+        their passwords. You can create multiple translations and target the emails
+        to countries of each language.</td>
+      <td style="text-align:left">
+        <p><a href="../../adnuntius-advertising/admin-ui/admin/email-translations.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/admin/email-translations">Start</a>
+        </p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
