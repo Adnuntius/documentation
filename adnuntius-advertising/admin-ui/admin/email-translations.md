@@ -7,7 +7,7 @@ description: >-
 
 # Email Translations
 
-{% embed url="https://youtu.be/nORkXxMciNI" caption="How to create an email translation." %}
+{% embed url="https://youtu.be/3dvshNjFj70" caption="How to create an email translation." %}
 
 To create an email translation, go to [https://admin.adnuntius.com/admin/email-translations](https://admin.adnuntius.com/admin/email-translations), then click "new" in the upper right corner. Give the new email translation a **name and description** \(optional\) of your choice. 
 
