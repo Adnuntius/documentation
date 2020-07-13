@@ -64,9 +64,8 @@ This guide assumes that you have been given access to Adnuntius Advertising. How
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">5 Create an ad unit. Start by creating one site so that you learn the
-        process, and then you can create more later. Start by creating one ad unit,
-        then you can create more later.</td>
+      <td style="text-align:left">5 Create an ad unit. Start by creating one ad unit so that you learn the
+        process, and then you can create more later.</td>
       <td style="text-align:left">
         <p><a href="https://admin.adnuntius.com/ad-units">Start testing</a>
         </p>

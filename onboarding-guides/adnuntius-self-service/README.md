@@ -7,7 +7,122 @@ description: >-
 
 # Self-Service \(Work in Progress\)
 
-This section assumes that you are set up so that ads are being requested from Adnuntius using [javascript tags](../../adnuntius-advertising/requesting-ads/intro/), prebid, openrtb or [API integration](../../adnuntius-advertising/requesting-ads/http-api.md). If you still need help with this, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com). Also, if you don't have access to self-service advertising, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you get started. 
+This section assumes that you have an agreement with Adnuntius, and have been granted access to admin.adnuntius.com. If you are looking for an offer, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. There are three main steps: 
+
+1. Create your publishing inventory.
+2. Make sure that ad requests are sent to your Adnuntius account.
+3. Set up the self-service portal. 
+
+## Create Publishing Inventory
+
+If you are already set up with Adnuntius Advertising and will not make any changes to your publishing inventory, you can skip this step.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">What and why</th>
+      <th style="text-align:left">Choices</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1 Create an earnings account. Earnings accounts let you aggregate earnings
+        that one or more sites have made, and is a tool to let you easily keep
+        control of your earnings.</td>
+      <td style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/earnings-accounts">Start testing</a>
+        </p>
+        <p><a href="../../adnuntius-advertising/admin-ui/inventory/earnings-accounts.md">Documentation</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Create a site group. Site groups makes it easier to later target campaigns
+        to groups of sites if you control many sites. If you only have one or a
+        few sites you can skip this step.</td>
+      <td style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/site-groups">Start testing</a>
+        </p>
+        <p><a href="../../adnuntius-advertising/admin-ui/inventory/site-groups.md">Documentation</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3 Create a site. A site is a domain where you would like ads to go. We
+        recommend that you start by creating one site so that you learn the process,
+        and then you can create more later when you have worked through this list.</td>
+      <td
+      style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/sites">Start testing</a>
+        </p>
+        <p><a href="../../adnuntius-advertising/admin-ui/inventory/sites.md">Documentation</a>
+        </p>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4 Create or rename your team. You already have a team created, but you
+        can now rename it to your liking, and/or create more teams that control
+        who should have access to what content.</td>
+      <td style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/admin/teams">Start testing</a>
+        </p>
+        <p><a href="../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">Documentation</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">5 Create an ad unit. An ad unit is a placement that can be filled with
+        ads later by self-service advertisers.</td>
+      <td style="text-align:left">
+        <p><a href="https://admin.adnuntius.com/ad-units">Start testing</a>
+        </p>
+        <p><a href="../../adnuntius-advertising/admin-ui/inventory/adunits-1.md">Documentation</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Ensure that Ad Requests are Sent to Adnuntius
+
+If you are already set up with Adnuntius Advertising and will not make any changes to your publishing inventory, you can skip this step. There are different ways of ensuring that ad requests are sent to Adnuntius, so that self-service advertisers can later buy this traffic.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Connection method</th>
+      <th style="text-align:left">How to</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Javascript tags</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/intro/">Documentation</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Prebid</td>
+      <td style="text-align:left">
+        <p><a href="../../other-useful-information/header-bidding-implementation.md">Documentation</a>
+        </p>
+        <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid.org documentation</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">HTTP API</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/http-api.md">Documentation</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">OpenRTB</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/open-rtb.md">Documentation</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Set Up the Self-Service Portal
 
 <table>
   <thead>
