@@ -138,7 +138,8 @@ If you are already set up with Adnuntius Advertising and will not make any chang
         href="mailto:support@adnuntius.com">support@adnuntius.com</a>) so that we can get your portal up and running.
           Click on the link to the right to understand what to send us. While we
           get you set up you can proceed with the points below.</td>
-      <td style="text-align:left">Documentation</td>
+      <td style="text-align:left"><a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service#material-for-portal">Documentation</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">2 Create products. Products package dimensions, pricing, layouts and targeting
@@ -199,9 +200,19 @@ If you are already set up with Adnuntius Advertising and will not make any chang
   </tbody>
 </table>
 
-## Material for Portal
+## Material for Self-Service Portal
 
+In order to get your portal set up we need some information from you. Please send the below to [support@adnuntius.com](mailto:support@adnuntius.com). 
 
+| Material needed and explanations | Examples and requirements |
+| :--- | :--- |
+| A "domain name". Your self-service portal will be placed under a URL such as the example on the left, so please send us your preferred name. | https://bookings.adnuntius.com/yourname/ |
+| A background image for the login page. This image lets you create your own look for the login page. You will see an example below \(the image with boats in the background\). | Requirements: 1920x1080px, max 500kb |
+| A top menu logo. Logged in users will have your logo in the top menu bar. An example image is provided below. | Requirements: 470x90px, max 150kb, transparent background |
+
+![Login page example. Send us a background image and we will give your portal a personalized look.](../../.gitbook/assets/ss-background-image-example.png)
+
+![The Adnuntius logo on the top left will be replaced by your own logo.](../../.gitbook/assets/top-menu-bar-logo%20%281%29.png)
 
 ## Approval Process
 
