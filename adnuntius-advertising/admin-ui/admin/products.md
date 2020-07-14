@@ -32,8 +32,6 @@ The default order must be part of a self-service team. [Click here to learn more
 
 The **default report template** is used for creating a report, based on your chosen [template](../reports/reports-templates-and-schedules.md), to send to the advertiser once their campaign ends. This means that the advertiser will receive an email with a link leading to a page containing the numbers that you choose to show based on that template.
 
-When this is done, then advertisers will receive 
-
 **Dimensions** allow you to determine the sizes that advertisers should be able to choose between. If you later choose to add ad unit targeting to this product, ensure that the chosen ad units support the dimensions you specify. 
 
 **Choose one or more layouts** to determine which layouts you want to enable advertisers to buy. [Read more about layouts](layouts.md). 
