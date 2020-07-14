@@ -133,12 +133,12 @@ If you are already set up with Adnuntius Advertising and will not make any chang
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1 Get your portal up and running. We will guide you through a process
-        of setting up the self-service portal and tools, involving branding and
-        more. We will reach out to you to get started, but if you for any reason
-        need to get a hold of us, you can do so through support.</td>
-      <td style="text-align:left"><a href="mailto:support@adnuntius.com">Contact support</a>
-      </td>
+      <td style="text-align:left">1 The process starts with you sending us a bit of material (send to
+        <a
+        href="mailto:support@adnuntius.com">support@adnuntius.com</a>) so that we can get your portal up and running.
+          Click on the link to the right to understand what to send us. While we
+          get you set up you can proceed with the points below.</td>
+      <td style="text-align:left">Documentation</td>
     </tr>
     <tr>
       <td style="text-align:left">2 Create products. Products package dimensions, pricing, layouts and targeting
@@ -198,6 +198,10 @@ If you are already set up with Adnuntius Advertising and will not make any chang
     </tr>
   </tbody>
 </table>
+
+## Material for Portal
+
+
 
 ## Approval Process
 
