@@ -42,10 +42,14 @@ Whenever you get a new publisher onboard your network, you can create users for 
 **Earnings account.** Finally create an earnings account for the new publisher. Earnings accounts make it easy to track the revenue that each publisher makes, and to calculate their revenue share if you are operating on such a model. Go to [Earnings Accounts](https://admin.adnuntius.com/earnings-accounts) and click "new". Click [here ](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/inventory/earnings-accounts)for more information on how to create an earnings account. 
 
 {% hint style="info" %}
-Remember to use the revenue share field on earnings accounts in order to automatically calculate what publishers should earn.
+Remember to use the revenue share field on earnings accounts in order to automatically calculate what publishers should earn. Also, remember to take into account your cost to Adnuntius. Let’s say for example’s sake that Adnuntius charges you 10% of revenue, and you want 15% for yourself. This means that you should specify a revenue share to the earnings account of 75%.
 {% endhint %}
 
-Once these steps are completed and publishing users logs in, they will be able to create sites and ad units under their own earnings account, create reports for their own inventory, and invite users to join their own team. [Here you will find a guide that new users can use to get acquainted to the system.](abn-for-publishers.md)
+**Training.** Once these steps are completed and publishing users logs in, they will be able to create sites and ad units under their own earnings account, create reports for their own inventory, and invite users to join their own team. [Here you will find a guide that new users can use to get acquainted to the system.](abn-for-publishers.md)
+
+{% hint style="info" %}
+You can share the [publisher's guide](abn-for-publishers.md) with new publisher users directly in the invitation email by [modifying the invitation](../../adnuntius-advertising/admin-ui/admin/email-translations.md) email sent to those users. Just add the link in the invite email you choose to design, and they will get that link when they get the invitation to join your network.
+{% endhint %}
 
 ## Creating Buyer Users
 
@@ -68,7 +72,11 @@ Whenever you get a new buyer onboard your network, you can create users for them
 3. Under the team you’ve created for the user, choose the role you created earlier \(“Team Advertiser Admin” if you followed the naming example above\). 
 4. Lastly, click save. When you’ve clicked save an invitation email will be automatically be sent to the user.
 
-[Here you will find a guide that new users can use to get acquainted to the system.](abn-for-buyers.md)
+**Training.** Once users are invited they can create advertisers, order, line items and more. [Here you will find a guide that new users can use to get acquainted to the system.](abn-for-buyers.md)
+
+{% hint style="info" %}
+You can share the [buyer's guide](abn-for-buyers.md) with new publisher users directly in the invitation email by [modifying the invitation](../../adnuntius-advertising/admin-ui/admin/email-translations.md) email sent to those users. Just add the link in the invite email you choose to design, and they will get that link when they get the invitation to join your network.
+{% endhint %}
 
 ## Defining Supported Formats
 
