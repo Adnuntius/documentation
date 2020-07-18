@@ -8,7 +8,7 @@ description: >-
 
 Please note that this section is only visible if you are a customer of Adnuntius Self-Service. If you want access to this, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com). Also, see [here ](../../../onboarding-guides/adnuntius-self-service/)if you want to learn how to set up Adnuntius Self-Service. Here is how you create a product. First, go to [https://admin.adnuntius.com/admin/products](https://admin.adnuntius.com/admin/products) and click "new" in the upper right corner. 
 
-![Example product.](../../../.gitbook/assets/20200701-products.png)
+![Example product.](../../../.gitbook/assets/ss-products.png)
 
 **Name and description.** Give your product a name and description. Note that these will be visible to advertisers, so make sure that you provide a good name and description. 
 
