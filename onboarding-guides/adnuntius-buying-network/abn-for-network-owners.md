@@ -7,15 +7,29 @@ description: >-
 
 # ABN For Network Owners
 
-This guide covers the following.
+As a network owner there are certain processes that you will need to manage. The goal of this page is to get you ready to manage these processes so that you can effectively run your private marketplace. Not all these processes may apply to you, as this depends on the processes you already have in place, and whether you run a publishing company, an agency/advertising company, or an ad network. This guide covers the following.
 
-| Actions | Explanation |
+| Process steps | Explanation |
 | :--- | :--- |
-| [Creating and training publisher users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for publishing partners so that they can manage their inventory.  |
-| [Creating and training buyer users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for buyers so that they can create and manage campaigns.  |
-| [Defining supported formats](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#defining-supported-formats) | How to determine the creative formats buyers should be able to buy. |
-| [Invoicing](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#invoicing) | How to ensure that buyers are invoiced and  |
-| [Setting up report templates](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#setting-up-report-templates) | How to set up reports that can be generated and scheduled by publishers and buyers. |
+| Agreements with publishers & buyers | How to create agreements with publishing and/or buying partners. Applies to buyers, publishers and ad networks. Relevant to all. |
+| [Creating and training publisher users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for publishing partners so that they can manage their inventory. Relevant to ad networks and buyers. |
+| [Creating and training buyer users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for buyers so that they can create and manage campaigns. Relevant to ad networks and publishers.  |
+| Helping publishers send traffic | How publishers can send their traffic to your Adnuntius network, so that it can subsequently by purchased by you or buyers. Relevant to all. |
+| [Defining supported formats](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#defining-supported-formats) | How to determine the creative formats buyers should be able to buy. Relevant to all. |
+| [Invoicing](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#invoicing) | How to ensure that buyers are invoiced and publishers are informed about how to invoice you. Relevant to all. |
+| [Setting up report templates](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#setting-up-report-templates) | How to set up reports that can be generated and scheduled by publishers and buyers. Relevant to all.  |
+
+## Agreements with Partners \(Coming Soon\)
+
+If you are an agency you need access to publishing inventory; if you are a publisher you need buyers to buy your inventory; and if you're an ad network you need both. Depending on your business, this overview provides you with the following resources to help you get started: 
+
+* A sales presentation template that helps you communicate the benefits of using Adnuntius. Only the main benefits are outlined, so please feel free to modify it according to your needs. 
+* An agreement template that governs some key points between you and your partners. Please see the comments in the Word documents for guidance, and please also note that these templates only contain the points that we believe are important to emphasize especially. You may want to add, change or remove certain parts of it. 
+
+| Target group | Sales | Agreement  |
+| :--- | :--- | :--- |
+| Publishers. Use if you are an ad network or agency/advertiser, and need publishing partners. | Download template | Download template |
+| Buyers. Use if you are an ad network or publisher, and need buying partners. | Download template | Download template |
 
 ## Creating Publisher Users
 
