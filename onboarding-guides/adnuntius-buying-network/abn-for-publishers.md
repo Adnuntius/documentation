@@ -45,7 +45,7 @@ Note that this guide assumes that you're a customer and have received access. If
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">3 Set up requests from your site. This is the technical part that helps
+      <td style="text-align:left">3 Set up ad requests from your site. This is the technical part that helps
         developers set up ad requests from your pages using prebid. If you need
         help setting up, please contact us at <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
       <td
@@ -81,7 +81,7 @@ Note that this guide assumes that you're a customer and have received access. If
   </tbody>
 </table>
 
-## Set up requests from your site
+## Sending Ad Requests
 
 As a publisher you can send traffic to an Adnuntius network in a number of ways. We normally recommend prebid since this works with most ad servers and enables the publisher to determine winners based on revenue, but the below methods are all valid. 
 
