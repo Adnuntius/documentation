@@ -11,7 +11,7 @@ As a network owner there are certain processes that you will need to manage. The
 
 | Process steps | Explanation |
 | :--- | :--- |
-| Agreements with publishers & buyers | How to create agreements with publishing and/or buying partners. Applies to buyers, publishers and ad networks. Relevant to all. |
+| [Agreements with publishers & buyers](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#agreements-with-partners-coming-soon) | How to create agreements with publishing and/or buying partners. Applies to buyers, publishers and ad networks. Relevant to all. |
 | [Creating and training publisher users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for publishing partners so that they can manage their inventory. Relevant to ad networks and buyers. |
 | [Creating and training buyer users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for buyers so that they can create and manage campaigns. Relevant to ad networks and publishers.  |
 | Helping publishers send traffic | How publishers can send their traffic to your Adnuntius network, so that it can subsequently by purchased by you or buyers. Relevant to all. |
@@ -91,6 +91,45 @@ Whenever you get a new buyer onboard your network, you can create users for them
 {% hint style="info" %}
 You can share the [buyer's guide](abn-for-buyers.md) with new publisher users directly in the invitation email by [modifying the invitation](../../adnuntius-advertising/admin-ui/admin/email-translations.md) email sent to those users. Just add the link in the invite email you choose to design, and they will get that link when they get the invitation to join your network.
 {% endhint %}
+
+## Helping publishers send traffic
+
+Publishers can send traffic to your Adnuntius network in a number of ways. We normally recommend prebid since this works with most ad servers and enables the publisher to determine winners based on revenue, but the below methods are all valid. 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Connection method</th>
+      <th style="text-align:left">How to</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Javascript tags</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/intro/">Documentation</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Prebid</td>
+      <td style="text-align:left">
+        <p><a href="../../other-useful-information/header-bidding-implementation.md">Documentation</a>
+        </p>
+        <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid.org documentation</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">HTTP API</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/http-api.md">Documentation</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">OpenRTB</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/open-rtb.md">Documentation</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Defining Supported Formats
 

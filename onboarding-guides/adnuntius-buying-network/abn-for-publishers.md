@@ -81,3 +81,42 @@ Note that this guide assumes that you're a customer and have received access. If
   </tbody>
 </table>
 
+## Set up requests from your site
+
+As a publisher you can send traffic to an Adnuntius network in a number of ways. We normally recommend prebid since this works with most ad servers and enables the publisher to determine winners based on revenue, but the below methods are all valid. 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Connection method</th>
+      <th style="text-align:left">How to</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Javascript tags</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/intro/">Documentation</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Prebid</td>
+      <td style="text-align:left">
+        <p><a href="../../other-useful-information/header-bidding-implementation.md">Documentation</a>
+        </p>
+        <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid.org documentation</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">HTTP API</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/http-api.md">Documentation</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">OpenRTB</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/open-rtb.md">Documentation</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
