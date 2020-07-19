@@ -92,7 +92,7 @@ Whenever you get a new buyer onboard your network, you can create users for them
 You can share the [buyer's guide](abn-for-buyers.md) with new publisher users directly in the invitation email by [modifying the invitation](../../adnuntius-advertising/admin-ui/admin/email-translations.md) email sent to those users. Just add the link in the invite email you choose to design, and they will get that link when they get the invitation to join your network.
 {% endhint %}
 
-## Helping publishers send traffic
+## Helping Publishers to Send Traffic
 
 Publishers can send traffic to your Adnuntius network in a number of ways. We normally recommend prebid since this works with most ad servers and enables the publisher to determine winners based on revenue, but the below methods are all valid. 
 
