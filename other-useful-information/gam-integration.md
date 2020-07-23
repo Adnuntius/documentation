@@ -69,6 +69,10 @@ then you must create eight line-items in GAM with one targeting `adnFloor=0.50`,
 
 For each of the line-items, the bid on the line-item must match the specific targeting. So, for example, a line-item targeting `adnFloor=3.50` must have a CPM bid of 3.50. This configuration ensures that if a request is received from Adnuntius at a bid-level of 3.50, that this line-item will match and it will require any bids from the exchange to bid higher than 3.50 in order to win the auction. If there are no bids from the exchange, then this line-item can handle returning a passback tag to Adnuntius.
 
+{% hint style="info" %}
+It is CRITICAL that you specify the targeting like `adnFloor=1.00` rather than `adnFloor=1`. The key-value targeting uses **strings** not numbers, so `1` and `1.00` do NOT represent the same thing.
+{% endhint %}
+
 In addition to including a passback tag to Adnuntius, the creative attached to each line-item **must** include the following pixel tag:
 
 ```markup
