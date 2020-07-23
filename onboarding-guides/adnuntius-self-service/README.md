@@ -271,15 +271,12 @@ In order to get your portal set up we need some information from you. Please sen
 
 ## Approval Process
 
-Once a self-service advertiser has created and submitted a campaign you will need to approve the creative material before the campaign goes live. Here is how you do it.
+Once a self-service advertiser has created and submitted a campaign you will need to approve the creative material before the campaign goes live. Go to [https://admin.adnuntius.com/reviews](https://admin.adnuntius.com/reviews) and to see all creatives pending review. From here you can choose all or a range of creatives, and approve or reject them.
 
-Go to [https://admin.adnuntius.com/line-items](https://admin.adnuntius.com/line-items) and apply the filter "submitted" in the menu above the list of line items. You will now see a list of creatives that are up for review and approval. Click to preview the creative, and if it looks ok set its status to approved. It will now start delivering impressions. 
+* Approving a creative means that the advertiser's campaign will go live, and the advertiser will be notified about the decision.
+* Rejecting a creative means that the advertiser will be notified that changes need to be made to the creative. 
 
-![How to approve a creative.](../../.gitbook/assets/202007-aa-ss-approval-process.gif)
-
-If a creative should be rejected for any reason, go to that creative specifically and apply "rejected" as status. The self-service advertiser will then get notified about this decision, so that they can make approvements and try again. 
-
-![Where to find the &quot;rejected&quot; status.](../../.gitbook/assets/rejected.png)
+![Reviewing creatives in the admin user interface.](../../.gitbook/assets/202007-ss-creative-review.gif)
 
 ## User Management
 
