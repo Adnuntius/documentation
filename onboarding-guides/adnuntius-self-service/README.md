@@ -5,7 +5,7 @@ description: >-
   smaller businesses.
 ---
 
-# Self-Service \(Work in Progress\)
+# Adnuntius Self-Service
 
 This section assumes that you have an agreement with Adnuntius, and have been granted access to admin.adnuntius.com. If you are looking for an offer, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. There are three main steps: 
 
