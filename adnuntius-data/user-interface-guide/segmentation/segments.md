@@ -6,6 +6,8 @@ description: >-
 
 # Segments
 
+{% embed url="https://youtu.be/JjaxT\_TgWRg" caption="How to create a segment." %}
+
 To create a segment, go to [https://admin.adnuntius.com/segments](https://admin.adnuntius.com/segments) and click "new" in the upper right corner.
 
 **Name and description**. Give the trigger a name and description \(optional\) of your choice. Members shows you how many users are currently part of this segment. 
