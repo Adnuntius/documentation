@@ -16,8 +16,7 @@ To create a trigger, go to [https://admin.adnuntius.com/triggers](https://admin.
 
 Next, you can start creating the set of triggers that detemine when to add/remove users to/from segments. You can add behaviour and characteristics. 
 
-**Behaviour** allows you to set requirements for what a user has seen during a period of time, and how many times. Currently you can add a domain. For example, you can set a requirement that a user has seen \(visited\) the domain aperitif.no three times or more during the last 30 days.   
-
+**Behaviour** allows you to set requirements for what a user has seen during a period of time, and how many times. Currently you can add a domain. For example, you can set a requirement that a user has seen \(visited\) the domain aperitif.no three times or more during the last 30 days. 
 
 **Characteristics** allow you to choose between the various data you have sent to Adnuntius Data, such as first name, last name, date of birth, age and much more. Depending on criteria you choose, you will be able to set more requirements. For example: 
 
@@ -25,4 +24,6 @@ Next, you can start creating the set of triggers that detemine when to add/remov
 * If you choose the criteria “gender” then you can choose between equals, doesn’t equal, is one of, or is not any of “male, female”. 
 
 Finally, you can also choose whether users need to meet all of your criteria in order to be added to or removed from the segments, or if they can meet any of the criteria. When you hit Save the trigger is active and Adnuntius Data will start adding and removing users to/from segments.
+
+![Example trigger.](../../../.gitbook/assets/202008-ad-triggers-gif.gif)
 
