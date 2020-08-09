@@ -4,7 +4,7 @@ description: >-
   quickly and painlessly.
 ---
 
-# Adn. Advertising for Publishers
+# Adnuntius Ad Server
 
 You will find full documentation of the underlying platform \(Adnuntius Advertising\) [here](../adnuntius-advertising/admin-ui/). The purpose of this guide however, is to make implementation easier for new customers. The steps below contains the basic steps. There are more advanced functions that you can read up on under the full documentation, but these steps should make you familiar with the platform's basic features. 
 
