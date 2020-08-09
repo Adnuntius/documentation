@@ -14,7 +14,7 @@ Adnuntius Advertising lets publishers connect, manage and grow programmatic and 
 * [User interface guide](adnuntius-advertising/admin-ui/)
 * [API documentation](adnuntius-advertising/admin-api/)
 * [Developer's guide: how to request ads](adnuntius-advertising/requesting-ads/)
-* [Onboarding guide](onboarding-guides/adnuntius-advertising-for-publishers.md)
+* [Onboarding guide](onboarding-guides/adnuntius-adserver.md)
 
 ## Adnuntius Data
 

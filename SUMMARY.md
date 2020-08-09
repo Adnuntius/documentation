@@ -110,7 +110,7 @@
 
 ## Onboarding Guides
 
-* [Adnuntius Ad Server](onboarding-guides/adnuntius-advertising-for-publishers.md)
+* [Adnuntius Ad Server](onboarding-guides/adnuntius-adserver.md)
 * [Adnuntius Buying Network](onboarding-guides/adnuntius-buying-network/README.md)
   * [ABN For Network Owners](onboarding-guides/adnuntius-buying-network/abn-for-network-owners.md)
   * [ABN For Buyers](onboarding-guides/adnuntius-buying-network/abn-for-buyers.md)

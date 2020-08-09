@@ -1,7 +1,7 @@
 ---
 description: >-
-  This page helps you get onboarded with Adnuntius Advertising for Publishers
-  quickly and painlessly.
+  This page helps you get onboarded with Adnuntius Ad Server quickly and
+  painlessly.
 ---
 
 # Adnuntius Ad Server
