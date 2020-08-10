@@ -114,6 +114,14 @@ The following functions can each be called from within a layout and provide the 
         and no corresponding function to call is found in the ad, the function
         calls will be ignored.</td>
     </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><code>adn.inIframe.sendCustomEvent(args)</code>
+        </p>
+        <p>Sends custom events to Adnuntius for tracking user interactions or other actions not tracked by the standard statistics.</p>
+      </td>
+      <td style="text-align:left">Including the following code in your Layout <code>adn.inIframe.sendCustomEvent('{{adId}}', {events:[{customType: 'custom_event_id'}, {customType: 'another_custom_event_id'}]});</code> will send two custom events to Adnuntius for the specified event ids.</td>
+    </tr>
   </tbody>
 </table>
 
