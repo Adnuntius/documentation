@@ -1,11 +1,10 @@
 ---
 description: >-
   This page provides an onboarding guide for network owners intending to use the
-  Adnuntius Buying Network to onboard buyers and sellers in a private
-  marketplace.
+  Adnuntius Marketplace to onboard buyers and sellers in a private marketplace.
 ---
 
-# ABN For Network Owners
+# For Network Owners
 
 As a network owner there are certain processes that you will need to manage. The goal of this page is to get you ready to manage these processes so that you can effectively run your private marketplace. Not all these processes may apply to you, as this depends on the processes you already have in place, and whether you run a publishing company, an agency/advertising company, or an ad network. This guide covers the following.
 
@@ -188,7 +187,7 @@ Report templates define what kind of reports users should be able to create, and
 | What to do | Example if applicable |
 | :--- | :--- |
 | Give the template a name and description, then choose type "Advertiser". | Advertiser Spending Report |
-| Add the component "text", and use this text box to inform advertisers why they receive this report. | This report shows how much you as an advertiser have spent with Adnuntius Buying Network in the period since the last time you received this report.  |
+| Add the component "text", and use this text box to inform advertisers why they receive this report. | This report shows how much you as an advertiser have spent with Adnuntius Marketplace in the period since the last time you received this report.  |
 | Add the "Advertiser Totals ", "Daily Breakdown" and "Line Item Breakdown" widgets \(and other information you want to share\). Then pick the numbers you want to share. | NA |
 | Go to the advertisers and add a scheduled report for all advertisers that should have one \(advertisers can also do this themselves\). | How to: [see here](../../adnuntius-advertising/admin-ui/advertising/advertisers.md). We also recommend you to run a test report from a test advertiser so that you can ensure that you have set everything up correctly.  |
 

@@ -1,13 +1,13 @@
 ---
 description: >-
   This page provides an onboarding guide for agencies and advertisers intending
-  to use the Adnuntius Buying Network in the role as a buyer (i.e. using
-  Adnuntius as a DSP).
+  to use the Adnuntius Marketplace in the role as a buyer (i.e. using Adnuntius
+  as a DSP).
 ---
 
-# ABN For Buyers
+# For Buyers
 
-This documentation is intended to educate you as an ad buyer on how to use the Adnuntius Buying Network. In other words, this page explains the demand side platform \(DSP\) side of Adnuntius Buying Network. If you are a publisher who is looking to set up your inventory for sale, please [go here. ](abn-for-publishers.md)
+This documentation is intended to educate you as an ad buyer on how to use the Adnuntius Marketplace. In other words, this page explains the demand side platform \(DSP\) side of Adnuntius Marketplace. If you are a publisher who is looking to set up your inventory for sale, please [go here. ](abn-for-publishers.md)
 
 {% hint style="info" %}
 Note that this guide assumes that you are a customer and have received access. If this is not the case, just email us at [support@adnuntius.com](mailto:support@adnuntius.com), and we will help you get started.
