@@ -118,6 +118,7 @@
 * [Adnuntius Self-Service](onboarding-guides/adnuntius-self-service/README.md)
   * [User Interface Guide](onboarding-guides/adnuntius-self-service/user-interface-guide.md)
 * [Adnuntius Email Advertising](onboarding-guides/adnuntius-email-advertising.md)
+* [Adnuntius Data](onboarding-guides/adnuntius-data-1.md)
 
 ## Other Useful Information
 
