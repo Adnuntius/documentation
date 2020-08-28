@@ -61,17 +61,7 @@ This guide assumes that you have been given access to Adnuntius Advertising. How
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">5 Create or rename your team. You already have a team created, but you
-        can now rename it to your liking, and/or create more teams.</td>
-      <td style="text-align:left">
-        <p><a href="https://admin.adnuntius.com/admin/teams">Start testing</a>
-        </p>
-        <p><a href="../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">Documentation</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">6 Create an ad unit. Start by creating one ad unit so that you learn the
+      <td style="text-align:left">5 Create an ad unit. Start by creating one ad unit so that you learn the
         process, and then you can create more later.</td>
       <td style="text-align:left">
         <p><a href="https://admin.adnuntius.com/ad-units">Start testing</a>
@@ -81,14 +71,14 @@ This guide assumes that you have been given access to Adnuntius Advertising. How
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">7 Understand the advertising section. The link to the right leads you
+      <td style="text-align:left">6 Understand the advertising section. The link to the right leads you
         to a page that teaches you the main parts of the advertising section.</td>
       <td
       style="text-align:left"><a href="../adnuntius-advertising/admin-ui/advertising/">Documentation</a>
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">8 Create an advertiser. An advertiser is a client that wants to advertise
+      <td style="text-align:left">7 Create an advertiser. An advertiser is a client that wants to advertise
         on your sites. If you have no advertisers yet, try creating your own company
         as an advertiser (which may be useful for house ads anyway).</td>
       <td style="text-align:left">
@@ -99,7 +89,7 @@ This guide assumes that you have been given access to Adnuntius Advertising. How
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">9 Create an order. An advertiser can contain one or more orders. An order
+      <td style="text-align:left">8 Create an order. An advertiser can contain one or more orders. An order
         is also a folder for line items, and also determines which team that the
         campaign should belong to.</td>
       <td style="text-align:left">
@@ -110,7 +100,7 @@ This guide assumes that you have been given access to Adnuntius Advertising. How
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">10 Create a line item (with targeting and creatives). A line item determines
+      <td style="text-align:left">9 Create a line item (with targeting and creatives). A line item determines
         start and end dates, delivery objectives and more. Try targeting the creative
         to the ad unit you created in step 5, and remember to use a size that is
         supported by that ad unit.</td>
@@ -122,7 +112,7 @@ This guide assumes that you have been given access to Adnuntius Advertising. How
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">11 Try to generate an ad impression using the Ad Tag Generator. Just choose
+      <td style="text-align:left">10 Try to generate an ad impression using the Ad Tag Generator. Just choose
         your ad unit, copy its properties, and then click the tab &quot;Request
         Ads&quot;. Do you see your ad?</td>
       <td style="text-align:left">
