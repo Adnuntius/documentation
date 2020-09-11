@@ -89,24 +89,21 @@
     * [Users, Teams and Roles](adnuntius-data/user-interface-guide/admin/users-and-teams.md)
     * [Data Exports](adnuntius-data/user-interface-guide/admin/data-exports.md)
     * [Network](adnuntius-data/user-interface-guide/admin/network.md)
-* [Sending Data](adnuntius-data/sending-data/README.md)
-  * [Javascript API](adnuntius-data/sending-data/javascript.md)
-  * [HTTP API](adnuntius-data/sending-data/http/README.md)
-    * [Page Views](adnuntius-data/sending-data/http/http-page-view.md)
-    * [Profile Updates](adnuntius-data/sending-data/http/http-profile.md)
-  * [Profile Fields](adnuntius-data/sending-data/fields.md)
-* [Retrieving Data](adnuntius-data/retrieving-data/README.md)
-  * [User Segments](adnuntius-data/retrieving-data/get-segments.md)
-* [User Synchronisation](adnuntius-data/user-synchronisation/README.md)
-  * [Profile Matching](adnuntius-data/user-synchronisation/sync.md)
+* [API documentation](adnuntius-data/api-documentation/README.md)
+  * [Javascript API](adnuntius-data/api-documentation/javascript/README.md)
+    * [User Profile](adnuntius-data/api-documentation/javascript/page-views.md)
+    * [Page View](adnuntius-data/api-documentation/javascript/profile-updates.md)
+    * [User Synchronisation](adnuntius-data/api-documentation/javascript/user-synchronisation.md)
+    * [Get user segments](adnuntius-data/api-documentation/javascript/get-user-segments.md)
+  * [HTTP API](adnuntius-data/api-documentation/http/README.md)
+    * [/page](adnuntius-data/api-documentation/http/http-page-view.md)
+    * [/visitor](adnuntius-data/api-documentation/http/http-profile.md)
+    * [/sync](adnuntius-data/api-documentation/http/sync.md)
+  * [Profile Fields](adnuntius-data/api-documentation/fields.md)
 
-## Adnuntius Consent
+## Adnuntius Connect
 
-* [Using the IAB module](adnuntius-consent/using-the-iab-module/README.md)
-  * [Purposes](adnuntius-consent/using-the-iab-module/purposes.md)
-  * [Languages](adnuntius-consent/using-the-iab-module/languages.md)
-  * [Publish](adnuntius-consent/using-the-iab-module/publish.md)
-* [CMP Integrations in GTM](adnuntius-consent/cmp-integrations-in-gtm.md)
+* [Prebid Configuration](adnuntius-connect/prebid-configuration.md)
 
 ## Onboarding Guides
 
