@@ -1,8 +1,19 @@
+---
+description: >-
+  The adn.js script is used to interact with the Adnuntius platform from within
+  a user's browser.
+---
+
 # Javascript
 
-The adn.js script is used to interact with the Adnuntius platform from within a user's browser.
+A human-readable version of the script is available at [http://cdn.adnuntius.com/adn.src.js](http://cdn.adnuntius.com/adn.src.js) and a minimised version is at [http://cdn.adnuntius.com/adn.js](http://cdn.adnuntius.com/adn.js). Visit the pages listed in the left-hand menu to learn more about the different functionality that adn.js provides.
 
-A human-readable version of the script is available at [http://cdn.adnuntius.com/adn.src.js](http://cdn.adnuntius.com/adn.src.js) and a minimised version is at [http://cdn.adnuntius.com/adn.js](http://cdn.adnuntius.com/adn.js).
+| Content | Short explanation |
+| :--- | :--- |
+| [Requesting an ad](adn-request.md) | How you can request ads using adn.js. |
+| [Layout support](adn-layout.md) | adn.js provides functions to support the design of your creative's layout. |
+| [Utility methods](adn-utility.md) | adn.js provides utility methods that can be used in your creative's layouts to help you with its design. |
+| [Logging options](adn-feedback.md) | There are two ways to enable logging from adn.js: in your browser's development console and inside your ad unit on screen. |
 
-Visit the pages listed in the left-hand menu to learn more about the different functionality that adn.js provides.
+
 
