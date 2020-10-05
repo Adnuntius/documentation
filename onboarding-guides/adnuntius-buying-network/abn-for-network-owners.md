@@ -20,15 +20,11 @@ As a network owner there are certain processes that you will need to manage. The
 
 ## Agreements with Partners \(Coming Soon\)
 
-If you are an agency you need access to publishing inventory; if you are a publisher you need buyers to buy your inventory; and if you're an ad network you need both. Depending on your business, this overview provides you with the following resources to help you get started: 
+If you are an agency you need access to publishing inventory; if you are a publisher you need buyers to buy your inventory; and if you're an ad network you're likely to need both. Here you will find agreement templates that can help you along. Please see the comments in the Word documents for guidance, and please note that you may want to add, change or remove certain parts of it.
 
-* A sales presentation template that helps you communicate the benefits of using Adnuntius. Only the main benefits are outlined, so please feel free to modify it according to your needs. 
-* An agreement template that governs some key points between you and your partners. Please see the comments in the Word documents for guidance, and please also note that these templates only contain the points that we believe are important to emphasize especially. You may want to add, change or remove certain parts of it. 
+{% file src="../../.gitbook/assets/202009-agreement-template-agency-to-publisher.docx" caption="Publishers \(use this if you are an agency\)" %}
 
-| Target group | Sales | Agreement  |
-| :--- | :--- | :--- |
-| Publishers. Use if you are an ad network or agency/advertiser, and need publishing partners. | Download template | Download template |
-| Buyers. Use if you are an ad network or publisher, and need buying partners. | Download template | Download template |
+Template for publishers will come soon. 
 
 ## Creating Publisher Users
 
