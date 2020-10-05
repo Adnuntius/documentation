@@ -11,7 +11,7 @@ https://api.adnuntius.com/api/v1/stats/
 ?advObjectLabel=
 &all=lineItem
 &auth_token=f92LGtCLx1TA6vrLQ6UfaDz_5w_P...
-&context=klein_group
+&context=my_network_id
 &groupBy=LINE_ITEM
 &includeAll=false
 &startDate=2020-02-02T23:00:00.000Z
@@ -153,7 +153,7 @@ https://api.adnuntius.com/api/v1/stats/
 		"rendered": 2381199,
 		"eCpm": {
 			"currency": "NOK",
-			"amount": 2.665967851952309997527005888061360280211501466072647642544339783552545703475078016083219379599591810010663483885711807358346021502954873487376261675305464816550127340430367700444930424625182920243229188169830055677815157660672679420310162671300715666980691
+			"amount": 2.66
 		},
 		"uniqueUsers": 156971,
 		"clicks": 465
