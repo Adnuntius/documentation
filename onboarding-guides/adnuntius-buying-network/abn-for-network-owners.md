@@ -18,7 +18,7 @@ As a network owner there are certain processes that you will need to manage. The
 | [Invoicing](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#invoicing) | How to ensure that buyers are invoiced and publishers are informed about how to invoice you. Relevant to all. |
 | [Setting up report templates](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#setting-up-report-templates) | How to set up reports that can be generated and scheduled by publishers and buyers. Relevant to all.  |
 
-## Agreements with Partners \(Coming Soon\)
+## Agreements with Partners
 
 If you are an agency you need access to publishing inventory; if you are a publisher you need buyers to buy your inventory; and if you're an ad network you're likely to need both. Here you will find agreement templates that can help you along. Please see the comments in the Word documents for guidance, and please note that you may want to add, change or remove certain parts of it.
 
