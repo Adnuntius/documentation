@@ -32,8 +32,8 @@ Whenever you get a new publisher onboard your network, you can create users for 
 
 **Roles.** This is a one-time setup job, so if you already have the roles below in place, you can skip this point whenever you set up new users. You will need two roles in order to create users with the right permissions; a network role and a team role. 
 
-1. Admin role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Publisher Admin”, choose role type “internal”, role scope “network” and then finally the permission “Marketplace Publisher Admin”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information. 
-2. Team role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Team Publisher Admin”, choose role type “internal”, role scope “team” and then finally the permission “Marketplace Publisher”. Then click save. Click [here ](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md)for more information.
+1. Admin role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Marketplace Publisher Admin”, choose role type “internal”, role scope “network” and then finally the permission “Marketplace Publisher Admin”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information. 
+2. Team role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Marketplace Publisher”, choose role type “internal”, role scope “team” and then finally the permission “Marketplace Publisher”. Then click save. Click [here ](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md)for more information.
 
 **Teams.** Once your roles are set up, you can proceed to create teams. Teams determine the content that users shall have access to. Whenever you bring a new publisher onboard you should create a new team, so that invited users can access this inventory, but not the inventory of other publishers, or buyers.
 
@@ -44,8 +44,8 @@ Whenever you get a new publisher onboard your network, you can create users for 
 **Users.** Once you have created a team for the publisher, you can go to the last step, which is to create a user. Please note that once you have created one user for the publisher, that user can invite more users with the same permissions. So, you only need to create the first user before letting that user create more.
 
 1. Go to [Admin &gt; Users](https://admin.adnuntius.com/admin/users) and click “new”. Provide the user’s email address, name and display name \(display name is the name that will be displayed in the upper right corner of the user interface\). Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information on users.
-2. Choose the advertising network role that you created earlier \(“Network Publisher Admin” if you followed the naming example above\).
-3. Under the team you’ve created for the user, choose the role you created earlier \(“Team Publisher Admin” if you followed the naming example above\). 
+2. Choose the advertising network role that you created earlier \(“Marketplace Publisher Admin” if you followed the naming example above\).
+3. Under the team you’ve created for the user, choose the role you created earlier \(“Marketplace Publisher” if you followed the naming example above\). 
 4. Lastly, click save. When you’ve clicked save an invitation email will be automatically be sent to the user.
 
 **Earnings account.** Finally create an earnings account for the new publisher. Earnings accounts make it easy to track the revenue that each publisher makes, and to calculate their revenue share if you are operating on such a model. Go to [Earnings Accounts](https://admin.adnuntius.com/earnings-accounts) and click "new". Click [here ](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/inventory/earnings-accounts)for more information on how to create an earnings account. 
@@ -66,19 +66,20 @@ Whenever you get a new buyer onboard your network, you can create users for them
 
 **Roles.** This is a one-time setup job, so if you already have the roles below in place, you can skip this point whenever you set up new users. You will need two roles in order to create users with the right permissions; a network role and a team role.
 
-1. Admin role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Advertiser Admin”, choose role type “internal”, role scope “network” and then finally the permission “Marketplace Advertiser Admin”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
-2. Team role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Advertiser Admin”, choose role type “internal”, role scope “team” and then finally the permission “Marketplace Advertiser”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
+1. Admin role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Marketplace Advertiser Admin”, choose role type “internal”, role scope “network” and then finally the permission “Marketplace Advertiser Admin”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
+2. Team role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Marketplace Advertiser”, choose role type “internal”, role scope “team” and then finally the permission “Marketplace Advertiser”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
 
 **Teams.** Once your roles are set up, you can proceed to create teams. Teams determine the content that users shall have access to. Whenever you bring a new advertiser onboard you should create a new team, so that invited users can access this inventory, but not the inventory of other advertisers, or publishers.
 
 1. Go to [Admin &gt; Teams](https://admin.adnuntius.com/admin/teams) and click “new”. Give the team a name of your choice, for example “Team \[advertiserName\]”. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
-2. Choose type “Marketplace Advertiser”. Then click save.
+2. Choose type “Marketplace Advertiser”. 
+3. Choose the sites from which this advertiser should be able to purchase advertisers. These are the sites that will become available to the advertiser for buying. Lastly click save.
 
 **Users.** Once you have created a team for the advertiser, you can go to the last step, which is to create a user. Please note that once you have created one user for the advertiser, that user can invite more users with the same permissions. So, you only need to create the first user before letting that user create more.
 
 1. Go to [Admin &gt; Users](https://admin.adnuntius.com/admin/users) and click “new”. Provide the user’s email address, name and display name \(display name is the name that will be displayed in the upper right corner of the user interface\). Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
-2. Choose the advertising network role that you created earlier \(“Network Advertiser Admin” if you followed the naming example above\).
-3. Under the team you’ve created for the user, choose the role you created earlier \(“Team Advertiser Admin” if you followed the naming example above\). 
+2. Choose the advertising network role that you created earlier \(“Marketplace Advertiser Admin” if you followed the naming example above\).
+3. Under the team you’ve created for the user, choose the role you created earlier \(“Marketplace Advertiser” if you followed the naming example above\). 
 4. Lastly, click save. When you’ve clicked save an invitation email will be automatically be sent to the user.
 
 **Training.** Once users are invited they can create advertisers, order, line items and more. [Here you will find a guide that new users can use to get acquainted to the system.](abn-for-buyers.md)
