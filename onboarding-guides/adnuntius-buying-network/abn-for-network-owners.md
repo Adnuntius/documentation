@@ -32,13 +32,13 @@ Whenever you get a new publisher onboard your network, you can create users for 
 
 **Roles.** This is a one-time setup job, so if you already have the roles below in place, you can skip this point whenever you set up new users. You will need two roles in order to create users with the right permissions; a network role and a team role. 
 
-1. Admin role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Publisher Admin”, choose role type “internal”, role scope “network” and then finally the permission “AX Publisher Admin”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information. 
-2. Team role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Team Publisher Admin”, choose role type “internal”, role scope “team” and then finally the permission “AX Publisher”. Then click save. Click [here ](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md)for more information.
+1. Admin role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Publisher Admin”, choose role type “internal”, role scope “network” and then finally the permission “Marketplace Publisher Admin”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information. 
+2. Team role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Team Publisher Admin”, choose role type “internal”, role scope “team” and then finally the permission “Marketplace Publisher”. Then click save. Click [here ](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md)for more information.
 
 **Teams.** Once your roles are set up, you can proceed to create teams. Teams determine the content that users shall have access to. Whenever you bring a new publisher onboard you should create a new team, so that invited users can access this inventory, but not the inventory of other publishers, or buyers.
 
 1. Go to [Admin &gt; Teams](https://admin.adnuntius.com/admin/teams) and click “new”. Give the team a name of your choice, for example “Team \[publisherName\]”. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information on teams. 
-2. Choose type “AX Publisher”.
+2. Choose type “Marketplace Publisher”.
 3. If you have created the publisher’s site\(s\) on behalf of the publisher, then you can choose those sites to ensure that the publisher will have access to these. If you want to let publishers create this content on their own, just click save without choosing any sites.
 
 **Users.** Once you have created a team for the publisher, you can go to the last step, which is to create a user. Please note that once you have created one user for the publisher, that user can invite more users with the same permissions. So, you only need to create the first user before letting that user create more.
@@ -66,13 +66,13 @@ Whenever you get a new buyer onboard your network, you can create users for them
 
 **Roles.** This is a one-time setup job, so if you already have the roles below in place, you can skip this point whenever you set up new users. You will need two roles in order to create users with the right permissions; a network role and a team role.
 
-1. Admin role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Advertiser Admin”, choose role type “internal”, role scope “network” and then finally the permission “AX Advertiser Admin”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
-2. Team role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Advertiser Admin”, choose role type “internal”, role scope “team” and then finally the permission “AX Advertiser”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
+1. Admin role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Advertiser Admin”, choose role type “internal”, role scope “network” and then finally the permission “Marketplace Advertiser Admin”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
+2. Team role. Go to [Admin &gt; Roles](https://admin.adnuntius.com/admin/roles) and click “new”. Give the role a name of your choice \(for instance “Network Advertiser Admin”, choose role type “internal”, role scope “team” and then finally the permission “Marketplace Advertiser”. Then click save. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
 
 **Teams.** Once your roles are set up, you can proceed to create teams. Teams determine the content that users shall have access to. Whenever you bring a new advertiser onboard you should create a new team, so that invited users can access this inventory, but not the inventory of other advertisers, or publishers.
 
 1. Go to [Admin &gt; Teams](https://admin.adnuntius.com/admin/teams) and click “new”. Give the team a name of your choice, for example “Team \[advertiserName\]”. Click [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md) for more information.
-2. Choose type “AX Advertiser”. Then click save.
+2. Choose type “Marketplace Advertiser”. Then click save.
 
 **Users.** Once you have created a team for the advertiser, you can go to the last step, which is to create a user. Please note that once you have created one user for the advertiser, that user can invite more users with the same permissions. So, you only need to create the first user before letting that user create more.
 
