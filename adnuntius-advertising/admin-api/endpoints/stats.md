@@ -1,10 +1,8 @@
 # /stats
 
-This endpoint is for getting a list of selected items and the stats associated with them. 
+This endpoint is for getting a list of selected items and the stats associated with them.
 
-
-
-### Example GET request
+## Example GET request
 
 ```text
 https://api.adnuntius.com/api/v1/stats/
@@ -76,89 +74,88 @@ https://api.adnuntius.com/api/v1/stats/
   </tbody>
 </table>
 
-### Example Response
+## Example Response
 
 ```text
 {
-	"chunks": [
-		{
-			"ctr": 0.0027049521431543903,
-			"viewability": 0.9822444167013455,
-			"cost": {
-				"currency": "NOK",
-				"amount": 0
-			},
-			"visibility": 0.9970176168678041,
-			"viewables": 14162,
-			"order": {
-				"id": "xxxxxxx",
-				"name": "NAME",
-				"labels": [
+    "chunks": [
+        {
+            "ctr": 0.0027049521431543903,
+            "viewability": 0.9822444167013455,
+            "cost": {
+                "currency": "NOK",
+                "amount": 0
+            },
+            "visibility": 0.9970176168678041,
+            "viewables": 14162,
+            "order": {
+                "id": "xxxxxxx",
+                "name": "NAME",
+                "labels": [
 
-				],
-				"url": "/api/v1/orders/xxxxxxxx"
-			},
-			"averageAuctionRank": 1.0,
-			"impressions": 14418,
-			"visibles": 14375,
-			"rendered": 14376,
-			"eCpm": {
-				"currency": "NOK",
-				"amount": 0
-			},
-			"uniqueUsers": 373,
-			"clicks": 39
-		},
-		{
-			"ctr": 0.0,
-			"viewability": 0.5151515151515151,
-			"cost": {
-				"currency": "NOK",
-				"amount": 0
-			},
-			"visibility": 0.6363636363636364,
-			"viewables": 34,
-			"order": {
-				"id": "xxxxxxxx",
-				"name": "NAME",
-				"labels": [
+                ],
+                "url": "/api/v1/orders/xxxxxxxx"
+            },
+            "averageAuctionRank": 1.0,
+            "impressions": 14418,
+            "visibles": 14375,
+            "rendered": 14376,
+            "eCpm": {
+                "currency": "NOK",
+                "amount": 0
+            },
+            "uniqueUsers": 373,
+            "clicks": 39
+        },
+        {
+            "ctr": 0.0,
+            "viewability": 0.5151515151515151,
+            "cost": {
+                "currency": "NOK",
+                "amount": 0
+            },
+            "visibility": 0.6363636363636364,
+            "viewables": 34,
+            "order": {
+                "id": "xxxxxxxx",
+                "name": "NAME",
+                "labels": [
 
-				],
-				"url": "/api/v1/orders/xxxxxxxx"
-			},
-			"averageAuctionRank": 1.0,
-			"impressions": 66,
-			"visibles": 42,
-			"rendered": 66,
-			"eCpm": {
-				"currency": "NOK",
-				"amount": 0
-			},
-			"uniqueUsers": 36,
-			"clicks": 0
-		},
-	],
-	"totals": {
-		"ctr": 1.9391943710817328E-4,
-		"viewability": 0.5533693397939783,
-		"cost": {
-			"currency": "NOK",
-			"amount": 6392.7323101
-		},
-		"visibility": 0.6624834282287482,
-		"viewables": 1326926,
-		"averageAuctionRank": 1.0,
-		"impressions": 2397903,
-		"visibles": 1588571,
-		"rendered": 2381199,
-		"eCpm": {
-			"currency": "NOK",
-			"amount": 2.66
-		},
-		"uniqueUsers": 156971,
-		"clicks": 465
-	}
+                ],
+                "url": "/api/v1/orders/xxxxxxxx"
+            },
+            "averageAuctionRank": 1.0,
+            "impressions": 66,
+            "visibles": 42,
+            "rendered": 66,
+            "eCpm": {
+                "currency": "NOK",
+                "amount": 0
+            },
+            "uniqueUsers": 36,
+            "clicks": 0
+        },
+    ],
+    "totals": {
+        "ctr": 1.9391943710817328E-4,
+        "viewability": 0.5533693397939783,
+        "cost": {
+            "currency": "NOK",
+            "amount": 6392.7323101
+        },
+        "visibility": 0.6624834282287482,
+        "viewables": 1326926,
+        "averageAuctionRank": 1.0,
+        "impressions": 2397903,
+        "visibles": 1588571,
+        "rendered": 2381199,
+        "eCpm": {
+            "currency": "NOK",
+            "amount": 2.66
+        },
+        "uniqueUsers": 156971,
+        "clicks": 465
+    }
 }
-
 ```
 

@@ -218,7 +218,7 @@ In order to get your portal set up we need some information from you. Please sen
         name.</td>
       <td style="text-align:left">
         <p>https://bookings.adnuntius.com/yourname/</p>
-        <p>Coming soon: bookings.yourdomain.com</p>
+        <p>or bookings.yourdomain.com</p>
       </td>
     </tr>
     <tr>
