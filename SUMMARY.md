@@ -128,6 +128,6 @@
 
 * [User Interface Guide \(WIP\)](user-interface-guide-wip/README.md)
   * [Containers and Dashboards](user-interface-guide-wip/containers-and-dashboards.md)
-  * [Privacy](user-interface-guide-wip/privacy.md)
+  * [Privacy \(updates in progress\)](user-interface-guide-wip/privacy.md)
   * [Publish](user-interface-guide-wip/publish.md)
 
