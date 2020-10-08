@@ -2,7 +2,7 @@
 description: User interface guide for Adnuntius Connect.
 ---
 
-# User Interface Guide \(WIP\)
+# UI Guide \(Work in Progress\)
 
 Adnuntius Connect is an information and tag management system that helps you with the following tasks:
 

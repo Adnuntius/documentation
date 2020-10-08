@@ -103,7 +103,7 @@
 
 ## Adnuntius Connect
 
-* [User Interface Guide \(WIP\)](adnuntius-connect/user-interface-guide-wip/README.md)
+* [UI Guide \(Work in Progress\)](adnuntius-connect/user-interface-guide-wip/README.md)
   * [Containers and Dashboards](adnuntius-connect/user-interface-guide-wip/containers-and-dashboards.md)
   * [Privacy \(updates in progress\)](adnuntius-connect/user-interface-guide-wip/privacy.md)
   * [Variables, Triggers and Tags](adnuntius-connect/user-interface-guide-wip/variables-triggers-and-tags.md)
