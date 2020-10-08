@@ -124,3 +124,10 @@
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
 * [GAM Integration](other-useful-information/gam-integration.md)
 
+---
+
+* [User Interface Guide \(WIP\)](user-interface-guide-wip/README.md)
+  * [Containers and Dashboards](user-interface-guide-wip/containers-and-dashboards.md)
+  * [Privacy](user-interface-guide-wip/privacy.md)
+  * [Publish](user-interface-guide-wip/publish.md)
+
