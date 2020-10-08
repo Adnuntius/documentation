@@ -103,7 +103,13 @@
 
 ## Adnuntius Connect
 
-* [Prebid Configuration](adnuntius-connect/prebid-configuration.md)
+* [User Interface Guide \(WIP\)](adnuntius-connect/user-interface-guide-wip/README.md)
+  * [Containers and Dashboards](adnuntius-connect/user-interface-guide-wip/containers-and-dashboards.md)
+  * [Privacy \(updates in progress\)](adnuntius-connect/user-interface-guide-wip/privacy.md)
+  * [Variables, Triggers and Tags](adnuntius-connect/user-interface-guide-wip/variables-triggers-and-tags.md)
+  * [Integrations \(in progress\)](adnuntius-connect/user-interface-guide-wip/integrations-in-progress.md)
+  * [Prebid Configuration](adnuntius-connect/user-interface-guide-wip/prebid-configuration.md)
+  * [Publish](adnuntius-connect/user-interface-guide-wip/publish.md)
 
 ## Onboarding Guides
 
@@ -123,11 +129,4 @@
 * [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
 * [GAM Integration](other-useful-information/gam-integration.md)
-
----
-
-* [User Interface Guide \(WIP\)](user-interface-guide-wip/README.md)
-  * [Containers and Dashboards](user-interface-guide-wip/containers-and-dashboards.md)
-  * [Privacy \(updates in progress\)](user-interface-guide-wip/privacy.md)
-  * [Publish](user-interface-guide-wip/publish.md)
 
