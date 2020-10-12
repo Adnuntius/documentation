@@ -43,6 +43,7 @@
   * [Targeting object](adnuntius-advertising/admin-api/targeting-object.md)
   * [Endpoints](adnuntius-advertising/admin-api/endpoints/README.md)
     * [/authenticate](adnuntius-advertising/admin-api/endpoints/authenticate.md)
+    * [/advertisers](adnuntius-advertising/admin-api/endpoints/advertisers.md)
     * [/earningsaccounts](adnuntius-advertising/admin-api/endpoints/earningsaccounts.md)
     * [/sitegroups](adnuntius-advertising/admin-api/endpoints/sitegroups.md)
     * [/sites](adnuntius-advertising/admin-api/endpoints/sites.md)
