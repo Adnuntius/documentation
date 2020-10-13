@@ -104,6 +104,9 @@
 
 ## Adnuntius Connect
 
+* [Integration Guide \(Work in Progress\)](adnuntius-connect/integration-guide-work-in-progress/README.md)
+  * [Consents API](adnuntius-connect/integration-guide-work-in-progress/consents-api.md)
+  * [TCF API](adnuntius-connect/integration-guide-work-in-progress/tcf-api.md)
 * [UI Guide \(Work in Progress\)](adnuntius-connect/user-interface-guide-wip/README.md)
   * [Containers and Dashboards](adnuntius-connect/user-interface-guide-wip/containers-and-dashboards.md)
   * [Privacy \(updates in progress\)](adnuntius-connect/user-interface-guide-wip/privacy.md)
