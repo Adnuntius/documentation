@@ -8,7 +8,7 @@ The API documentation for Adnuntius Advertising is split into the following sect
 
 | Content | Short explanation |
 | :--- | :--- |
-| [API requests](api-requests.md) | Shows you have to make API requests. |
+| [API requests](api-requests.md) | Shows you how to make API requests. |
 | [Targeting object](targeting-object.md) | Provided as part of the API call when creating line items and creatives.  |
 | [Endpoints](endpoints/) | Explains the endpoints you can use.  |
 
