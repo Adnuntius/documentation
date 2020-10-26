@@ -105,6 +105,7 @@
 ## Adnuntius Connect
 
 * [Integration Guide \(Work in Progress\)](adnuntius-connect/integration-guide-work-in-progress/README.md)
+  * [Privacy GTM integration](adnuntius-connect/integration-guide-work-in-progress/privacy-gtm-integration.md)
   * [Consents API](adnuntius-connect/integration-guide-work-in-progress/consents-api.md)
   * [TCF API](adnuntius-connect/integration-guide-work-in-progress/tcf-api.md)
 * [UI Guide \(Work in Progress\)](adnuntius-connect/user-interface-guide-wip/README.md)
