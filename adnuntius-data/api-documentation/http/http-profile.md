@@ -20,8 +20,7 @@ POST https://data.adnuntius.com/visitor
 
 ```javascript
 {
-  "externalSystemType": "my_crm",
-  "externalSystemUserId": "123hfy4658f",
+  "browserId": "123xyz",
   "folderId": "00000000000123ab",
   "profileValues": {
     "firstName": "Bruce",
@@ -56,8 +55,7 @@ This is a very simple example, using [curl](https://curl.haxx.se), demonstrating
 
 ```bash
 curl https://data.adnuntius.com/visitor -d '{
-  "externalSystemType": "my_crm",
-  "externalSystemUserId": "123hfy4658f",
+  "browserId": "123xyz",
   "folderId": "00000000000123ab",
   "profileValues": {
     "firstName": "Bruce",
@@ -82,8 +80,7 @@ This is a very simple example, using [curl](https://curl.haxx.se), demonstrating
 
 ```bash
 curl https://data.adnuntius.com/synchronous/visitor -d '{
-  "externalSystemType": "my_crm",
-  "externalSystemUserId": "123hfy4658f",
+  "browserId": "123xyz",
   "folderId": "00000000000123ab",
   "profileValues": {
     "firstName": "Bruce",
@@ -99,8 +96,7 @@ curl https://data.adnuntius.com/synchronous/visitor -d '{
 ```javascript
 [
   {
-    "externalSystemType": "my_crm",
-    "externalSystemUserId": "123456",
+    "browserId": "123xyz",
     "folderId": "00000000000aaaaa",
     "profileValues": {
       "firstName": "Bruce",
@@ -109,8 +105,7 @@ curl https://data.adnuntius.com/synchronous/visitor -d '{
     }
   }
   {
-    "externalSystemType": "my_crm",
-    "externalSystemUserId": "123hfy4658f",
+    "browserId": "123xyz",
     "folderId": "00000000000aaaaa",
     "profileValues": {
       "firstName": "Mike",
