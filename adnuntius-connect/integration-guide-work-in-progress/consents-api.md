@@ -7,9 +7,15 @@ If you would like to run any of the below functions on page load, make sure to w
 ```javascript
 // Example adn.calls wrapper for pageload
 
-adn.calls.push(function () {
-    adn.consents.init("messageBox");
-});
+<script src="https://cdn.adnuntius.com/adn.js" async></script>
+<script>
+    window.adn = window.adn || {}; 
+    adn.calls = adn.calls;
+    
+    adn.calls.push(function () {
+        adn.consents.init("messageBox");
+    });
+</script>
 ```
 
 ### Trigger the popup
