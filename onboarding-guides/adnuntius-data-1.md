@@ -11,8 +11,8 @@ This guide assumes that you have access to Adnuntius Data. However, if you haven
 | What and Why | Choices |
 | :--- | :--- |
 | 1 Learn how to send data to Adnuntius Data. | [Documentation](../adnuntius-data/api-documentation/) |
-| 2 Learn how a javascript code snippet can be used to merge user profiles from different systems and devices to provide a single unified view of your users. | [Documentation]() |
+| 2 Learn how a javascript code snippet can be used to merge user profiles from different systems and devices to provide a single unified view of your users. | [Documentation](../adnuntius-data/api-documentation/javascript/user-synchronisation.md) |
 | 3 Understand how users can be put into segments. | [Documentation](../adnuntius-data/user-interface-guide/segmentation/) |
-| 4 Learn how to retrieve user segments using the Javascript API. | [Documentation]() |
+| 4 Learn how to retrieve user segments using the Javascript API. | [Documentation](https://docs.adnuntius.com/adnuntius-data/api-documentation/javascript/get-user-segments) |
 | 5 Learn how segments can be exported to other systems. | [Documentation](../adnuntius-data/user-interface-guide/admin/data-exports.md) |
 
