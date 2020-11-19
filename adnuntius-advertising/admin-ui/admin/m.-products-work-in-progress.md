@@ -30,7 +30,7 @@ Give the product a **name and description** of your choice. The name and descrip
 
 **Mandatory targeting** lets you pre-choose the targeting criteria that will be available when creating line items using this product. For example, if this product should offer location targeting only within Australia, then you can set that location targeting here. This means that all line items created with this product will always be targeted to Australia only. 
 
-**Optional targeting** lets you choose the options that advertisers can choose between when targeting their campaigns. If you for example allow for location targeting and site targeting, then marketplace advertisers will be able to choose between whatever locations and sites they want to. 
+**Optional targeting** lets you choose the options that advertisers can choose between when targeting their campaigns. If you for example allow for location targeting and site targeting, then marketplace advertisers will be able to choose between whatever locations and sites they want to.
 
 {% hint style="info" %}
 If you do not send contextual information such as categories or key values to Adnuntius, then you should disable these targeting criteria so that they are not available to marketplace advertisers. You can easily exclude targeting options with optional targeting.
