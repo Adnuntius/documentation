@@ -6,7 +6,7 @@ description: >-
 
 # M. Products \(Work in Progress\)
 
-A marketplace product be created in order to design a specific buying option to one or more defined marketplace advertisers buying your traffic. A marketplace product is comparable to a programmatic deal ID that can be shared with a buyer, but markeplace products adds more features and provides a higher level of automation. 
+A marketplace product can be created in order to design a specific buying option to one or more defined marketplace advertisers buying your traffic. A marketplace product is comparable to a programmatic deal ID that can be shared with a buyer, but markeplace products adds more features and provides a higher level of automation. 
 
 Whenever a marketplace product is created and assigned to one or more buyers, then buyers will be able to create [line items](../advertising/line-items.md) with the opportunities and constraints that you set in the product. 
 
@@ -35,4 +35,8 @@ Give the product a **name and description** of your choice. The name and descrip
 {% hint style="info" %}
 If you do not send contextual information such as categories or key values to Adnuntius, then you should disable these targeting criteria so that they are not available to marketplace advertisers. You can easily exclude targeting options with optional targeting.
 {% endhint %}
+
+When a product is created and assigned to a buyer, then that buyer can choose that product when creating a line item. The screenshot below shows an example where a buyer has been assigned to one product only. 
+
+![When products are created they can be chosen by assigned buyers.](../../../.gitbook/assets/mp-li.png)
 
