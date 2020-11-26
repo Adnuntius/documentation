@@ -1,6 +1,6 @@
 ---
 description: >-
-  Adnuntius supports multiple ways of requesting ads from a page or from another
+  Adnuntius supports multiple ways of requesting ads from a web page or from another
   system. Here are the alternatives currently available.
 ---
 
