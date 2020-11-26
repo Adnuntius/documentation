@@ -8,9 +8,9 @@ We call it anonymous advertising: we don’t need to know anything about who we 
 
 HTML5 and third-party creatives allow advertisers to upload scripts and ads from third-parties that might use cookies. Those scripts and ads from third-party systems are not under our direct control.
 
-Nevertheless, we can do our utmost to block all cookie usage even with HTML5 ads and third-party creatives. This means we can greatly reduce the use of cookies if not block them entirely, especially on browsers such as Safari, Firefox and Brave.
+Nevertheless, we can do our utmost to block all third-party cookie usage even with HTML5 ads and third-party creatives. We are generally able to block all use of third-party cookies, especially on browsers such as Safari, Firefox and Brave. Occasionally on the Chrome or Edge browsers, some third-party cookies manage to slip through. 
 
-Some HTML5 ads and third-party creatives will not appear or function in a user’s browser if cookies are blocked. If this is a problem, we do provide the ability to turn strict cookie blocking on or off at a very granular level, which means particular ads can be delivered without cookie restrictions when required.
+Some HTML5 ads and third-party creatives will not appear or function in a user’s browser if cookies are blocked. If this is a problem, we do provide the ability to turn strict cookie blocking on or off at a granular level, which means particular ads can be delivered without cookie restrictions when required.
 
 ## The Technical Details
 
