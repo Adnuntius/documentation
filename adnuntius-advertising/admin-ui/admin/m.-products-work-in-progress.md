@@ -8,6 +8,8 @@ description: >-
 
 A marketplace product can be created in order to design a specific buying option to one or more defined marketplace advertisers buying your traffic. A marketplace product is comparable to a programmatic deal ID that can be shared with a buyer, but markeplace products adds more features and provides a higher level of automation. 
 
+![Example marketplace product.](../../../.gitbook/assets/mp.png)
+
 Whenever a marketplace product is created and assigned to one or more buyers, then buyers will be able to create [line items](../advertising/line-items.md) with the opportunities and constraints that you set in the product. 
 
 **Where to find marketplace products.** [Click here](https://admin.adnuntius.com/admin/marketplace-products) to go to the marketplace product section in admin.adnuntius.com. To create a new product, click New in the upper right corner of the screen. You can create any number of products. 
