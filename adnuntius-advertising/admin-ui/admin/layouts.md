@@ -4,7 +4,7 @@ description: >-
   event tracking to an ad when it's displayed.
 ---
 
-# Layouts
+# Layouts and Examples
 
 ## Layouts
 
@@ -32,5 +32,5 @@ The feature is live, documentation will come soon.
 
 Layout examples provides you with a library of layouts that cannot be modified or removed. You can visit each of the layouts, observe its behavior on-screen, and copy it to create a new layout that can be used for your creatives. 
 
-![](../../../.gitbook/assets/202003-layout-examples.gif)
+![](../../../.gitbook/assets/202012-layout-examples.gif)
 

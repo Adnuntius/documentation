@@ -30,7 +30,7 @@
     * [Users, Teams and Roles](adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md)
     * [Notification Preferences](adnuntius-advertising/admin-ui/admin/notification-preferences.md)
     * [API Keys](adnuntius-advertising/admin-ui/admin/api-keys.md)
-    * [Layouts](adnuntius-advertising/admin-ui/admin/layouts.md)
+    * [Layouts and Examples](adnuntius-advertising/admin-ui/admin/layouts.md)
     * [Custom Events](adnuntius-advertising/admin-ui/admin/custom-events.md)
     * [Reference Data](adnuntius-advertising/admin-ui/admin/reference-data.md)
     * [Products](adnuntius-advertising/admin-ui/admin/products.md)
