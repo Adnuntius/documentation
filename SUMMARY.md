@@ -34,7 +34,7 @@
     * [Custom Events](adnuntius-advertising/admin-ui/admin/custom-events.md)
     * [Reference Data](adnuntius-advertising/admin-ui/admin/reference-data.md)
     * [Products](adnuntius-advertising/admin-ui/admin/products.md)
-    * [M. Products \(Work in Progress\)](adnuntius-advertising/admin-ui/admin/m.-products-work-in-progress.md)
+    * [Marketplace Products](adnuntius-advertising/admin-ui/admin/m.-products-work-in-progress.md)
     * [Email Translations](adnuntius-advertising/admin-ui/admin/email-translations.md)
     * [Connections](adnuntius-advertising/admin-ui/admin/connections.md)
     * [Tiers](adnuntius-advertising/admin-ui/admin/tiers.md)

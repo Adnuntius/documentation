@@ -4,7 +4,7 @@ description: >-
   different Marketplace Advertisers in your network.
 ---
 
-# M. Products \(Work in Progress\)
+# Marketplace Products
 
 A marketplace product can be created in order to design a specific buying option to one or more defined marketplace advertisers buying your traffic. A marketplace product is comparable to a programmatic deal ID that can be shared with a buyer, but markeplace products adds more features and provides a higher level of automation. 
 
@@ -41,4 +41,10 @@ If you do not send contextual information such as categories or key values to Ad
 When a product is created and assigned to a buyer, then that buyer can choose that product when creating a line item. The screenshot below shows an example where a buyer has been assigned to one product only. 
 
 ![When products are created they can be chosen by assigned buyers.](../../../.gitbook/assets/mp-li.png)
+
+{% hint style="info" %}
+Please note that marketplace advertisers will be able to add targeting to their creatives, but not to line items. They will find the allowed targeting criteria when they click to create creatives. 
+{% endhint %}
+
+![How a line item looks like to a marketplace advertiser. Notice that targeting is added only on the creative level, and the available objectives are reduced. ](../../../.gitbook/assets/mp-li-2.png)
 
