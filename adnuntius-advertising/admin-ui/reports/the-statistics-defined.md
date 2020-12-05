@@ -7,6 +7,8 @@ description: >-
 
 # The Statistics Defined
 
+Please note that in addition to the stats below, [custom events](../admin/custom-events.md) can be created to add measurement of various events, time and money. 
+
 ## Advertising Stats
 
 Note: take [the deep dive on impression stats for more detailed information](the-4-impression-types.md) about them.
