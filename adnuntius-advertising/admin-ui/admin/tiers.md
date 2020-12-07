@@ -8,6 +8,8 @@ If you are familiar with other adservers that work with predefined tiers, you ma
 
 Every [line item](../advertising/line-items.md) in Adnuntius is placed inside a tier \(you can choose a default tier in [Admin &gt; Network](network.md), so that every line item you create will be placed within that tier by default\). Once a line item is created, it will share the traffic to that tier with other line items placed inside the same tier.
 
+To manage tiers and create new ones, go here: [https://admin.adnuntius.com/admin/tiers](https://admin.adnuntius.com/admin/tiers).
+
 ![Tier structure example](../../../.gitbook/assets/201811-reports-admin-tiers.png)
 
 **Name and description**: Give the tier a name and description \(optional\) of your choice.
