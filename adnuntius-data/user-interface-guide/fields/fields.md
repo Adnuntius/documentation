@@ -12,5 +12,5 @@ Let’s say that you are sending data to Adnuntius Data using the Javascript API
 
 ![When you send data to Adnuntius Data you can attach each data point to one of these fields.](../../../.gitbook/assets/202003-ad-fields-fields-_1_.gif)
 
-We provide many values, but in general they can be categorized by different values within basic \(demographic\) information, contact information, education, interests and hobbies, social media, products, transactions, and extra data fields \(which allows you to define custom values. 
+We provide many values, but in general they can be categorized by different values within basic \(demographic\) information, contact information, education, interests and hobbies, social media, products, transactions, and extra data fields \(which allows you to define custom values\). 
 

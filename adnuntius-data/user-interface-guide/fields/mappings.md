@@ -1,23 +1,24 @@
 ---
 description: >-
-  Mappings allow you to use one or more names to refer to any of our pre-defined
-  fields, and to normalise field values, so that for instance “Male” is
-  transformed to “M”.
+  Different companies send different data, and mapping ensures that different
+  denominations are transformed into one unified language.
 ---
 
 # Mappings
 
-To add a mapping, go to [https://admin.adnuntius.com/mappings](https://admin.adnuntius.com/mappings) and click “Add Mapping” in the upper right corner. 
+Consider this example: One publishing website writes about football, and also asks registering users for their gender. Another publishing website that cooperates with the first one through a network also collects this information, but they call it “soccer” and “sex” instead of "football" and "gender". In order to store all information with a unified structure and language, you need to transform “soccer” to “football” and “sex” to “gender”. 
 
-First choose the [field](fields.md) to which you want to map. 
+This can be done with mapping. To add a mapping, go to [https://admin.adnuntius.com/mappings](https://admin.adnuntius.com/mappings) and click “Add Mapping” in the upper right corner. 
 
-Next you can add whatever **value** \(mapping\) and **aliases** that you want mapped to that field. Once you have created these you can send those values rather than the field name that we have provided for you, and it will all be collected under the relevant field.
+You can map [user profile data](../../api-documentation/javascript/page-views.md) and [pageview data](../../api-documentation/javascript/profile-updates.md) \(which are split into categories and keywords\). In the example below you will see how user profile data “gender” has been given the alias “sex” so that different parties can send different denominations, while all information will still be stored in a unified structure. If gender is sent you can also transform each value so that for example the values M and F are translated to Male and Female respectively.
+
+![Example mapping.](../../../.gitbook/assets/mappings.png)
+
+To translate pageview keywords and categories, simply add the value as the data is sent with, in the example above “soccer”, and then define how you want to actually store the data. In the example above a publisher can send the keyword soccer, but it will be stored as the keyword “football”.
 
 {% hint style="info" %}
 Example: if you want to collect the gender \(one of the [field values](fields.md) you can choose\) of your users, but that you need to send the value "sex" instead of "gender". You can then map sex to gender, so that you can keep sending "sex".
 {% endhint %}
-
-**Transformations.** You can add multiple field values that will all be normalized to one value. This way you  keep a coherent data structure inside Adnuntius Data. This is useful when you for instance have multiple values that actually mean the same thing. 
 
 {% hint style="info" %}
 Example: if you’re sending both values “males” and “m” then you can transform “male” to “m” so that all variations are normalized to the same value in Adnuntius Data. 
