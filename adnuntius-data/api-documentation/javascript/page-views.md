@@ -23,3 +23,5 @@ The example below provides a demonstration of how a profile update can be sent t
 
 See the section on [Profile Fields](../fields.md) for more information about what data can be sent with the profile update request.
 
+[See here how you can update a user profile using the HTTP API instead](../http/http-profile.md).
+

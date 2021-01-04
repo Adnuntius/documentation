@@ -28,3 +28,5 @@ The example below shows a javascript code snippet that can be used to match a us
 
 After running the above code, profile updates from the user's browser _and_ from the CRM will both be written to the same shared record.
 
+[See here how you can synchronize users using the HTTP API instead](../http/sync.md).
+

@@ -45,3 +45,5 @@ Sync requests can be sent in a batch like this:
 ]
 ```
 
+[See here how you can synchronize users using the JavaScript API instead](../javascript/user-synchronisation.md).
+

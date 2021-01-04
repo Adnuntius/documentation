@@ -46,3 +46,5 @@ Would be automatically populated with:
 
 If you send categories in the request you will overwrite the automatically assigned categories mentioned above. If you only wish to send additions to categories, for instance "tags", we advice you to use `keywords`.
 
+[See here how you can send pageview information using the HTTP API instead](../http/http-page-view.md).
+

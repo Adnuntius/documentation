@@ -115,3 +115,5 @@ curl https://data.adnuntius.com/synchronous/visitor -d '{
 ]
 ```
 
+[See here how you can user profiles using the JavaScript API instead](../javascript/page-views.md).
+
