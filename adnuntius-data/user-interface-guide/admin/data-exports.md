@@ -6,6 +6,12 @@ description: >-
 
 # Data Exports
 
+## Adnuntius Advertising
+
+Please note that in order to use segments in Adnuntius Advertising \(for Ad Server, Self-Service or Marketplace\) you do not have to do anything. All segments are updated in real time and made available to anyone with access to the folders you have chosen on the segment. When a user goes to Adnuntius Advertising and clicks to target segments they will be able to select the segments to which they have access.
+
+## Other Exports
+
 To create a new data export, go to [https://admin.adnuntius.com/admin/data-exports](https://admin.adnuntius.com/admin/data-exports), and click "new" in the upper right corner. First, give your export a **name** and **description** of your choice.  
 
 {% hint style="info" %}

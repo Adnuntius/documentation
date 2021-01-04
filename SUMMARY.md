@@ -89,6 +89,7 @@
   * [Fields](adnuntius-data/user-interface-guide/fields/README.md)
     * [Fields](adnuntius-data/user-interface-guide/fields/fields.md)
     * [Mappings](adnuntius-data/user-interface-guide/fields/mappings.md)
+  * [Queries](adnuntius-data/user-interface-guide/queries.md)
   * [Admin](adnuntius-data/user-interface-guide/admin/README.md)
     * [Users, Teams and Roles](adnuntius-data/user-interface-guide/admin/users-and-teams.md)
     * [Data Exports](adnuntius-data/user-interface-guide/admin/data-exports.md)
