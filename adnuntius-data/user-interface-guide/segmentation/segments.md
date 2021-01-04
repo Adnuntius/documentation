@@ -10,7 +10,9 @@ description: >-
 
 To create a segment, go to [https://admin.adnuntius.com/segments](https://admin.adnuntius.com/segments) and click "new" in the upper right corner.
 
-**Name and description**. Give the trigger a name and description \(optional\) of your choice. Members shows you how many users are currently part of this segment. 
+**Name and description**. Give the trigger a name and description \(optional\) of your choice. Please note that names and descriptions become available to anyone who are allowed to choose these segments in [segment targeting in Adnuntius Advertising](../../../adnuntius-advertising/admin-ui/advertising/targeting.md#segment-targeting). 
+
+**Members** shows you how many users are currently part of this segment. 
 
 **Segment expiry** allows you to specify for how long the segment should remain associated to a user profile. You can set the period in multiple ways:  
 
