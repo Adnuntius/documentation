@@ -10,7 +10,7 @@ description: >-
 This documentation is intended to educate you as a publisher on how to set up your inventory for sale on, and how to use the Adnuntius Marketplace. In other words, this page explains the supply side platform \(SSP\) side of Adnuntius Marketplace. If you are a buyer who is looking to buy ads, please [go here](abn-for-buyers.md). 
 
 {% hint style="info" %}
-Note that this guide assumes that you're a customer and have received access. If this is not the case, just email us at [support@adnuntius.com](mailto:support@adnuntius.com), and we will help you get started. 
+Note that this guide assumes that you're a customer and have received access to a network and team. If this is not the case, just email us at [support@adnuntius.com](mailto:support@adnuntius.com), and we will help you get started. 
 {% endhint %}
 
 <table>
