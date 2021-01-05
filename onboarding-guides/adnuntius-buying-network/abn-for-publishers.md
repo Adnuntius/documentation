@@ -1,8 +1,8 @@
 ---
 description: >-
   This page provides an onboarding guide for publishers intending to use the
-  Adnuntius Marketplace in the role as a publisher (i.e. using Adnuntius as an
-  SSP).
+  Adnuntius Marketplace in the role as a Marketplace Publisher (i.e. using
+  Adnuntius as an SSP).
 ---
 
 # For Publishers
@@ -50,7 +50,7 @@ Note that this guide assumes that you're a customer and have received access. If
         help setting up, please contact us at <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
       <td
       style="text-align:left">
-        <p><a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-publishers#sending-ad-requests">Documentation</a>
+        <p><a href="abn-for-publishers.md#sending-ad-requests">Documentation</a>
         </p>
         <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid</a>
         </p>
