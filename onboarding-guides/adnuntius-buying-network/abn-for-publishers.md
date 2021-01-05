@@ -46,11 +46,11 @@ Note that this guide assumes that you're a customer and have received access. If
     </tr>
     <tr>
       <td style="text-align:left">3 Set up ad requests from your site. This is the technical part that helps
-        developers set up ad requests from your pages using prebid. If you need
-        help setting up, please contact us at <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
+        developers set up ad requests from your pages (normally using the prebid
+        option). If you need help setting up, please contact us at <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
       <td
       style="text-align:left">
-        <p><a href="abn-for-publishers.md#sending-ad-requests">Documentation</a>
+        <p><a href="../../adnuntius-advertising/requesting-ads/">Documentation</a>
         </p>
         <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid</a>
         </p>
@@ -76,45 +76,6 @@ Note that this guide assumes that you're a customer and have received access. If
         </p>
         <p><a href="https://admin.adnuntius.com/admin/users">Start creating</a>
         </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-## Sending Ad Requests
-
-As a publisher you can send traffic to an Adnuntius network in a number of ways. We normally recommend prebid since this works with most ad servers and enables the publisher to determine winners based on revenue, but the below methods are all valid. 
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Connection method</th>
-      <th style="text-align:left">How to</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Javascript tags</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/intro/">Documentation</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Prebid</td>
-      <td style="text-align:left">
-        <p><a href="../../other-useful-information/header-bidding-implementation.md">Documentation</a>
-        </p>
-        <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid.org documentation</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">HTTP API</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/http-api.md">Documentation</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">OpenRTB</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/open-rtb.md">Documentation</a>
       </td>
     </tr>
   </tbody>
