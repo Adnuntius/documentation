@@ -60,19 +60,8 @@ If you are already set up with Adnuntius Advertising and will not make any chang
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">4 Create or rename your team. You already have a team created, but you
-        can now rename it to your liking, and/or create more teams that control
-        who should have access to what content.</td>
-      <td style="text-align:left">
-        <p><a href="https://admin.adnuntius.com/admin/teams">Start testing</a>
-        </p>
-        <p><a href="../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">Documentation</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">5 Create an ad unit. An ad unit is a placement that can be filled with
-        ads later by self-service advertisers.</td>
+      <td style="text-align:left">4 Create ad units. An ad unit is a placement that can be filled with ads
+        later by self-service advertisers.</td>
       <td style="text-align:left">
         <p><a href="https://admin.adnuntius.com/ad-units">Start testing</a>
         </p>
@@ -85,42 +74,7 @@ If you are already set up with Adnuntius Advertising and will not make any chang
 
 ## Ensure that Ad Requests are Sent to Adnuntius
 
-If you are already set up with Adnuntius Advertising and will not make any changes to your publishing inventory, you can skip this step. There are different ways of ensuring that ad requests are sent to Adnuntius, so that self-service advertisers can later buy this traffic.
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Connection method</th>
-      <th style="text-align:left">How to</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Javascript tags</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/intro/">Documentation</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Prebid</td>
-      <td style="text-align:left">
-        <p><a href="../../other-useful-information/header-bidding-implementation.md">Documentation</a>
-        </p>
-        <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid.org documentation</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">HTTP API</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/http-api.md">Documentation</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">OpenRTB</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/open-rtb.md">Documentation</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+If you are already set up with Adnuntius Advertising and will not make any changes to your publishing inventory, you can skip this step. [There are different ways of ensuring that ad requests are sent to Adnuntius, so that self-service advertisers can later buy this traffic.](../../adnuntius-advertising/requesting-ads/)
 
 ## Set Up the Self-Service Portal
 
