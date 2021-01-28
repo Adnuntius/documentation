@@ -7,11 +7,12 @@ description: >-
 
 # Adnuntius Self-Service
 
-This section assumes that you have an agreement with Adnuntius, and have been granted access to admin.adnuntius.com. If you are looking for an offer, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. There are three main steps: 
+This section assumes that you have an agreement with Adnuntius, and have been granted access to admin.adnuntius.com. If you are looking for an offer, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. There are four main steps: 
 
 1. Create your publishing inventory.
 2. Make sure that ad requests are sent to your Adnuntius account.
 3. Set up the self-service portal. 
+4. Understand how it all works.
 
 ## Create Publishing Inventory
 
@@ -235,11 +236,31 @@ If you click to reject a creative then you can choose a reason why this creative
 
 ![Self-service advertisers will see the reason why a creative was rejected.](../../.gitbook/assets/ss-rejection-displayed.png)
 
+## Understanding the Workflow
+
+This section explains how objects like users, advertisers, teams, campaigns and more are created when a self-service advertisers choose to join and to create campaigns. This helps you understand how to find various objects in admin.adnuntius.com when it is needed. As the image below illustrates there are three types of objects \(see the left-most side of the image below\) you should know about. 
+
+* Certain objects are prepared in advance by you as a publisher. These include products and teams. 
+* When a self-service advertiser chooses to sign up, they will create a user access, after which they can also create campaigns. 
+* When self-service advertisers create the items above, you as a publisher will find these in admin.adnuntius.com.
+
+![](../../.gitbook/assets/ss-workflow.png)
+
+| Steps and explanations | Resources |
+| :--- | :--- |
+| **1 Self-service advertiser registers** with a name, email, company name \(you can choose if company name is needed\) and password. This is the one time job that each user has to go through in order to create user access.  | [Example registration page](https://assets.adnuntius.com/xOVX5p4fQbjhI8Nz6_iBU34re-unkwsad633WKXeV4s.png) |
+| 1.1 All self-service users are automatically created as part of one team. As part of the implementation process we will set up a team for you. All users registering as self-service advertisers will automatically become part of this team. | [See how this is organized](./#user-management) |
+| 1.2 An Advertiser is automatically created with the company’s name. The Advertiser is automatically tied to the team above. Please note that we do not require this step; if you are allowed to, and want to, allow private persons to create ads then you can do so.  | [How Advertisers are stored](../../adnuntius-advertising/admin-ui/advertising/advertisers.md) |
+| **2 Self-service advertiser creates and submits a campaign.** This involves choosing a product, design \(layout\) and targeting made avaiable by you through one or more products, applying a budget, and paying for the campaign \(if you want advertisers to prepay\).  | [More about products](../../adnuntius-advertising/admin-ui/admin/products.md) |
+| 2.1 All campaigns are automatically assigned to one Order as designed on the Product. As a publisher you can visit and manage this order.  |  |
+| 2.2 A Line Item is created for this campaign. As a publisher you can make any changes to each line item, such as changing targeting or creatives. |  |
+| **3 Self-service advertiser receives reporting, and manages the campaign.** Campaigns are now running and registering reporting. |  |
+
 ## User Management
 
 A self-service advertiser will be able to register on their own when visiting your portal. Once they have created and activated a user for themselves you should understand how you can manage this user in the event that any changes or support is needed. 
 
-**Roles**. When a self-service advertiser registers they will be set up with a network role and a team role. The network role will be an empy network role, so that the user cannot perform any actions to your network. The team role will contain the "Self-Service Own Advertising" rights. To understand users, roles and team in better detail, please see [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md).
+**Roles**. When a self-service advertiser registers they will automatically be set up with a network role and a team role. The network role will be an empy network role, so that the user cannot perform any actions to your network. The team role will contain the "Self-Service Own Advertising" rights. To understand users, roles and team in better detail, please see [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md).
 
 ![An empty network role. ](../../.gitbook/assets/empty-network-role.png)
 
