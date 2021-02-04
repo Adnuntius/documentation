@@ -41,7 +41,7 @@ Putting all these options together, you might end up with something like this:
   window.adn = window.adn || {}; adn.calls = adn.calls || [];
   adn.calls.push(function() {
     adn.useLocalStorage(false);
-    adn.request({ useCookies: false, isolateFrame: false,
+    adn.request({ useCookies: false, isolateFrame: true,
         adUnits: [ {  auId: '00000000000432e3' } ]
     });
   });
