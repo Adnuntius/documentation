@@ -7,7 +7,7 @@ description: >-
 
 # Adnuntius Documentation
 
-## Adnuntius Advertising for Publishers
+## Adnuntius Advertising
 
 Adnuntius Advertising lets publishers connect, manage and grow programmatic and direct revenue from any source in one application, add value with new and rich formats that are fast to implement and simple to operate at scale, integrate data effortlessly to activate user insights, and much more. It is by far one of the world's fastest and most flexible advertising platforms on the market.
 
@@ -22,6 +22,4 @@ Adnuntius Data lets anyone with online operations unify 1st and 3rd party data a
 
 * [User interface guide](adnuntius-data/user-interface-guide/)
 * [Developer's guide: how to send data.](adnuntius-data/api-documentation/)
-* [Developer's guide: how to retrieve data.]()
-* [Developer's guide: user synchronisation]()
 
