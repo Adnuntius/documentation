@@ -217,6 +217,21 @@ In order to get your portal set up we need some information from you. Please sen
         </p>
         </td>
     </tr>
+    <tr>
+      <td style="text-align:left">Registration information. When a user decides to create an account they
+        will always be asked for their name, email and location. But we can also
+        collect information such as company name and VAT number. Please let us
+        know what information should be collected about an advertiser, and what
+        should be mandatory and optional.</td>
+      <td style="text-align:left">
+        <p>Example:</p>
+        <ul>
+          <li>Company name (mandatory)</li>
+          <li>VAT number (optional)</li>
+          <li>Address (mandatory)</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
