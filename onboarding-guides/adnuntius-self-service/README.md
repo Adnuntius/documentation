@@ -141,7 +141,14 @@ If you are already set up with Adnuntius Advertising and will not make any chang
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">6 Understand user management. While Adnuntius will be set up with the
+      <td style="text-align:left">6 Understand the workflow, and how users, orders, teams and advertisers
+        are used and created once a self-service advertiser chooses to create an
+        account.</td>
+      <td style="text-align:left"><a href="./#understanding-the-workflow">Documentation</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">7 Understand user management. While Adnuntius will be set up with the
         correct roles as part of the onboarding process, understanding how to manage
         users is an important part of providing good customer service.</td>
       <td
