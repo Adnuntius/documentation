@@ -78,6 +78,7 @@
   * [Cookieless Advertising](adnuntius-advertising/requesting-ads/cookieless-advertising.md)
   * [VAST](adnuntius-advertising/requesting-ads/vast-2.0.md)
   * [Open RTB](adnuntius-advertising/requesting-ads/open-rtb.md)
+  * [Recording Conversions](adnuntius-advertising/conversions/conversion.md)
 
 ## Adnuntius Data
 
