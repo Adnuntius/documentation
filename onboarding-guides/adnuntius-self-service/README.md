@@ -280,21 +280,20 @@ This section explains how objects like users, advertisers, teams, campaigns and 
 
 ## User Management
 
-A self-service advertiser will be able to register on their own when visiting your portal. Once they have created and activated a user for themselves you should understand how you can manage this user in the event that any changes or support is needed. 
+A self-service advertiser will be able to register on their own through your self-service portal. However, they will not be able to log into admin.adnuntius.com, as this is an admin area for you alone. Once they have created a user however, you will be able to see and manage that user in admin.adnuntius.com. Here are the actions you can do to a user once it is created. 
 
-**Roles**. When a self-service advertiser registers they will automatically be set up with a network role and a team role. The network role will be an empy network role, so that the user cannot perform any actions to your network. The team role will contain the "Self-Service Own Advertising" rights. To understand users, roles and team in better detail, please see [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md).
+* Search for users by their name or email address in the upper right corner, or you can browse through users under [https://admin.adnuntius.com/admin/users](https://admin.adnuntius.com/admin/users).
+* Change the email address and name of the user. Changing the email means that the self-service advertiser will need to log in with the new email address, and this change is not automatically communicated through automated emails.
+* Update the user's password. Please note that if you update the user's password from within the admin user interface, that user will not be notified about changed passwords. If they should be notified, you should tell the user to click the "forgot your password" link from your portal's login page. 
+* Activate or de-activate the user. If you de-activate the user, then that user can no longer log in.
+* Change the user's locale. Whenever users register they will be able to set their location, and this may determine the language of emails and the user interface. If they for any reason have set the wrong locale you can manually change it here. 
+* You can also change their roles and teams, but this is not recommended as this may give users access to parts of the systems that they should not have.
+
+![Example self-service advertiser within admin.adnuntius.com](../../.gitbook/assets/self-service-user-example.png)
+
+**More about roles**. When a self-service advertiser registers they will automatically be set up with a network role and a team role. The network role will be an empy network role, while the team role will contain the "Self-Service Own Advertising" rights. To understand users, roles and team in detail, please see [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md).
 
 ![An empty network role. ](../../.gitbook/assets/empty-network-role.png)
 
-![A self-service own role.](../../.gitbook/assets/self-service-own-role.png)
-
-Users. To see all users registered with your network, go to [https://admin.adnuntius.com/admin/users](https://admin.adnuntius.com/admin/users). When you click on a user you will be able to perform a set of actions for that user \(see example user below\). 
-
-* Change email address and name of the user. The display name is just the name that is displayed in the user interface. 
-* Activate or de-activate the user. If you de-activate the user, then that user can no longer log in.
-* Update the user's password. Please note that if you update the user's password from within the admin user interface, that user will not be notified about changed passwords. If they should be notified, please tell the user to click the "forgot your password" link from your portal's login page. 
-* Change the user's locale. Whenever users register they will be able to set their location, and this may determine the language of emails and the user interface. If they for any reason have set the wrong locale you can manually change it here. 
-* You can also change their roles and teams, but this is not recommended as this may give users access to parts of the systems that they should not have. 
-
-![User example. ](../../.gitbook/assets/user-example.png)
+![A self-service role.](../../.gitbook/assets/self-service-own-role.png)
 
