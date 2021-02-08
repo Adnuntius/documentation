@@ -13,7 +13,7 @@ Conversions can be automatically attributed to a line-item under the following c
 - The creative includes a click URL to the advertiser's domain
 - The conversion is recorded from the advertiser's domain
 
-In this scenario, Adnuntius will atrribute the conversion to the *most recently* delivered impression that directed
+In this scenario, Adnuntius will attribute the conversion to the *most recently* delivered impression that directed
 the user to the advertiser's domain. The user does not need to have actually clicked on the advertisement.
 
 Alternatively, the request can *explicitly include the line-item* that should receive the conversion.  
