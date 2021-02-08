@@ -60,7 +60,7 @@ If you leave the page size and columns fields blank, then Adnuntius will serve a
 {% tab title="Must match type" %}
 "Must match type" allows you to select what targeting you will allow for this ad unit. It will open a list that looks like this.
 
-![Must Match Type.](../../../.gitbook/assets/image%20%2821%29%20%281%29%20%281%29.png)
+![Must Match Type.](../../../.gitbook/assets/image%20%2821%29%20%281%29%20%281%29%20%281%29.png)
 
 In the instance above only ad unit targeting is selected. This will only allow line items with ad unit targeting to be showed for this ad unit. If this would be applied to an ad unit it would not show any ads unless it´s explicitly targeted. You can of course add more targeting to the line item to reduce the scope of users to target.
 {% endtab %}

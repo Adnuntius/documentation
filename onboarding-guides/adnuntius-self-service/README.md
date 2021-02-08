@@ -93,7 +93,7 @@ If you are already set up with Adnuntius Advertising and will not make any chang
         href="mailto:support@adnuntius.com">support@adnuntius.com</a>) so that we can get your portal up and running.
           Click on the link to the right to understand what to send us. While we
           get you set up you can proceed with the points below.</td>
-      <td style="text-align:left"><a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service#material-for-portal">Documentation</a>
+      <td style="text-align:left"><a href="./#material-for-self-service-portal">Documentation</a>
       </td>
     </tr>
     <tr>
@@ -123,7 +123,7 @@ If you are already set up with Adnuntius Advertising and will not make any chang
         ensures that creatives do not contain illegal or unethical content, or
         anything you don&apos;t like.</td>
       <td style="text-align:left">
-        <p><a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service#approval-process">Documentation</a>
+        <p><a href="./#approval-process">Documentation</a>
         </p>
         <p><a href="https://admin.adnuntius.com/line-items">Start</a>
         </p>
@@ -153,7 +153,7 @@ If you are already set up with Adnuntius Advertising and will not make any chang
         users is an important part of providing good customer service.</td>
       <td
       style="text-align:left">
-        <p><a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service#user-management">Documentation</a>
+        <p><a href="./#user-management">Documentation</a>
         </p>
         <p><a href="https://admin.adnuntius.com/admin/users">Start</a>
         </p>
