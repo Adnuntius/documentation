@@ -89,8 +89,6 @@ curl -H "Content-Type: application/json" https://data.adnuntius.com/synchronous/
   }'
 ```
 
-
-
 ### Example batch request
 
 ```javascript

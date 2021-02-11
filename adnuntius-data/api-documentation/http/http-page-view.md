@@ -42,8 +42,6 @@ POST https://data.adnuntius.com/page
 | `categories` | String\[\] | An array of categories |
 | `domainName` | String | The domain name of the page |
 
-### 
-
 ### Example cURL request
 
 This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a page view is sent to Adnuntius Data.
@@ -56,8 +54,6 @@ curl -H "Content-Type: application/json" https://data.adnuntius.com/page -d '{
   "categories": ["IAB_24_44"],
   "domainName": "sport.no" }'
 ```
-
-### 
 
 ### Example batch request
 
@@ -79,7 +75,7 @@ Page views can also be sent to adnuntius in bulk by adding them to an array like
     "categories": ["IAB_24_44"],
     "domainName": "sport.no"
   }
-] 
+]
 ```
 
 [See here how you can send pageview information using the JavaScript API instead](../javascript/profile-updates.md).

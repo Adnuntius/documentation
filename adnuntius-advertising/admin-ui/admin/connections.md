@@ -1,62 +1,56 @@
 ---
 description: >-
-  Connections allow you to connect Adnuntius Advertising to external systems
-  such as DMPs, SSPs and DSPs in order to unlock a range of benefits.
+  Context Services enable you to pick up category, keyword and other information
+  from your pages, and make them available for contextual targeting.
 ---
 
-# Connections
+# Context Services \(Work in Progress\)
 
-## DMP Connections
+**Please note that we are currently finishing development, and that this will not work currently \(but it will very soon\). In the meantime, this information may not be accurate.** 
 
-Context service connections allow you to connect to your DMP so that you can target ads to segments, keywords and more. Adnuntius is currently connected to Cxense DMP.
+The Adnuntius Context Service makes it easy to import information from your pages, so that you or your buyers can target line items and/or creatives to pages describing certain topics. For example, if you have pages explaining how to make home-made pizza and you want to enable the advertiser “Tony’s Pizza Sauce” to show ads on those pages, then this is the service for you. 
 
-![Context service connection](../../../.gitbook/assets/201811-reports-admin-context-service-connection.png)
+In order for the context service to work Adnuntius needs to know the URL of the page so that its crawler can pick its content. If you are showing ads on your pages using Adnuntius [javascript ad tags](../../requesting-ads/intro/) then this will happen automatically as the javascript will send the URL. You can also send the URL with [prebid](https://docs.prebid.org/dev-docs/bidders.html#adnuntius) requests. 
 
-**Name and description**: Give the connection a name and description \(optional\) of your choice.
+To set up context services, go to [https://admin.adnuntius.com/admin/context-service-configurations](https://admin.adnuntius.com/admin/context-service-configurations) and then click “new” in the upper right corner. You can set up multiple connections, so if you for instance operate multiple sites you can create one connection per domain. 
 
-**Username and API key**: Provide the username \(email address\) that you use when logging into your Cxense account. Then add the API key for your user. You will find this in the upper right corner after logging into Cxense, when clicking on your email address.
+First, give your new context service and **name and optional description** - for instance “Adnuntius Context Service”, or the name of the domain that the connection is intended for. Nobody expect you and your colleagues with access to the admin user interface will be able to read this.
 
-{% hint style="info" %}
-Adnuntius synchs with Cxense every 5 minutes. So it may take a few minutes before you can see your segments.
-{% endhint %}
+![](../../../.gitbook/assets/csc.png)
 
-{% hint style="info" %}
-Do you need a data platform to start collecting user information? Talk to us about Adnuntius Data by contacting us at [support@adnuntius.com](mailto:support@adnuntius.com). 
-{% endhint %}
+Under Context Service, choose Adnuntius. You will notice that Cxense is an alternative, and this is because you can also use Cxense to send contextual information if you are currently a customer of Cxense \(now called Piano\). 
 
-## SSP Connections
+**Keyword and Category Meta Tags** allow you to send in any meta data you have on your pages, and enable them for keyword targeting and category targeting respectively. For you non-developers, let’s say you go to one of your pages, right-click on the page and click to view the page source. Among the meta data you find these lines: 
 
-External demand sources enables you to connect to a Supply-Side Platform \(SSP\) in order to fetch programmatic ads client-side or server-side. If you are a publisher with programmatic revenue, this may be a feature that enables you to increase revenue by auctioning your direct inventory against programmatic inventory, and earn the highest revenue cross-channel for every ad impression.
+```text
+<meta property="og:title" content="Rich's Rich Ravioli: How to Make the Perfect Ravioli">
+<meta name="keywords" content="recipes, italian, ravioli, rich">
+<meta name="categories" content="recipes, italian">
+```
 
-![External demand source setup example](../../../.gitbook/assets/201811-reports-admin-external-demand-source.png)
+As you will see in the image above we have added "og:title" and "keywords" to the keyword meta tags field. When we do this, the following will happen once you save this connection. 
 
-{% hint style="info" %}
-This is the first step to set up programmatic ads. After you have completed these first steps, move to [External ad units](../inventory/external-adunits.md) to set up connections between each Adnuntius ad unit and your SSP ad units.
-{% endhint %}
+* Essential keywords that are part of the title of every page will be sent to Adnuntius. Examples here include "rich", "ravioli" and "perfect". 
+* The words "recipes", "italian", "ravioli" and "rich" will be sent to Adnuntius. 
+* All these keywords will be made available to line item and creative targeting under [keyword targeting](../advertising/targeting.md#keyword-targeting). 
 
-**Name and description**: Give the connection a name and description \(optional\) of your choice.
+Similarly if you add "categories" to the category meta tags field, you will send "recipes" and "italian". However, since you are using the category meta tags field rather than the keywords meta tags field, these keywords will be made available as part of [category targeting](../advertising/targeting.md#category-targeting) instead. 
 
-**External demand source**: Choose your demand source. Please note that if you choose prebid, then this is all you have to do - you do not have to complete the step below.
+The tick box **Keywords via Page URL** lets you automatically send any keywords that we can pick up from your URLs. For example, let's say that you have a page with the URL below. In this example, Adnuntius will pick up and send the keywords "recipes", "italian" and "ravioli", and you will be able to target towards these pages using [category targeting](../advertising/targeting.md#category-targeting). 
 
-**Publisher ID**: Type in the publisher ID that you receive from your SSP account. Once this is done, Adnuntius connects to your SSP server-side.
+```text
+https://www.aperitif.no/recipies/italian/ravioli/best-ravioli-ever/12345
+```
 
-{% hint style="info" %}
-Do you need access to SSPs? [We can help you](https://adnuntius.com/programmatic-just-got-full-service/)! 
-{% endhint %}
+**IAB Categories** lets you assign keywords to specific IAB categories. Any information you collect will be made available as [category targeting](../advertising/targeting.md#category-targeting). Here you can write any keyword you would like to assign to a category, and when a keyword is entered then Adnuntius will listen for that keyword in article texts. In the example image above, "beer" is entered as a keyword and tied to the IAB category "Food & Drink - Alcoholic Beverages - 9.1". When "beer" is added then Adnuntius will scan each page and look for that keyword. When found, that page is added as a target whenever someone books a campaign targeting the category "Food & Drink - Alcoholic Beverages - 9.1".
 
-{% hint style="info" %}
-If you have a Google Ad Manager account we can also help you integrate to this in a smart way. Please see [here ](../../../other-useful-information/gam-integration.md)for more information. 
-{% endhint %}
+**Content Selectors** allow you to assign content selectors to domains to better identify a site's content. The first value to add is the domain, for example adnuntius.com or aperitif.no. The following information to be entered depends on the content source; HTML or JavaScript. 
 
-## DSP Connections \(Not Yet Ready\)
-
-This feature is currently work in progress, and is not yet ready for usage.
-
-Extension connections is where you connect to our Demand Side Platform \(DSP\) to transform Adnuntius from "just an adserver" to a marketer platform where you can market your ads directly AND programmatically. After you've completed the steps below you will be able to select parts of your budget to be spent through the DSP as opposed to directly. This is something you will of course be able to control.
-
-![Extension connection setup](../../../.gitbook/assets/201811-reports-admin-extension-connection.png)
-
-**Name and description**: Give the connection a name and description \(optional\) of your choice.
-
-**Username and password**: Apply your username and password with Platform 161 \(our DSP partner\).
+| Source | Field | Explanation and examples |
+| :--- | :--- | :--- |
+| HTML | CSS Selector |  Examples: `p.article` or `div.main div.content` or `p.article, div.content` |
+| HTML | Exclude CSS Selector | This CSS selector excludes all matching elements from the main selector. |
+| HTML | View the website like a mobile | View the mobile-specific site by presenting as a mobile. |
+| JavaScript | JavaScript Reference | Examples: `myVariable` or `myVariable.myContent`\)  |
+| JavaScript | View the website like a mobile | View the mobile-specific site by presenting as a mobile. |
 
