@@ -49,7 +49,7 @@ POST https://data.adnuntius.com/page
 This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a page view is sent to Adnuntius Data.
 
 ```bash
-curl https://data.adnuntius.com/page -d '{
+curl -H "Content-Type: application/json" https://data.adnuntius.com/page -d '{
   "browserId": "123xyz",
   "folderId": "00000000000123ab",
   "keywords": ["sport", "tennis"],

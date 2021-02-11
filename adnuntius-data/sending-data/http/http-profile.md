@@ -51,7 +51,7 @@ If the request is received correctly, an HTTP 200 status code will be returned. 
 This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a profile update is sent to Adnuntius Data.
 
 ```bash
-curl https://data.adnuntius.com/visitor -d '{
+curl -H "Content-Type: application/json" https://data.adnuntius.com/visitor -d '{
   "externalSystemType": "my_crm",
   "externalSystemUserId": "123hfy4658f",
   "networkId": "my_network",
@@ -77,7 +77,7 @@ If the request is received correctly and the record successfully created or upda
 This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a synchronous profile update is sent to Adnuntius Data.
 
 ```bash
-curl https://data.adnuntius.com/synchronous/visitor -d '{
+curl -H "Content-Type: application/json" https://data.adnuntius.com/synchronous/visitor -d '{
   "externalSystemType": "my_crm",
   "externalSystemUserId": "123hfy4658f",
   "networkId": "my_network",
