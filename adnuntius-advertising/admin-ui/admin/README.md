@@ -16,7 +16,7 @@ description: >-
 | [Layouts](layouts.md) | Allows you to create advertising products defined by any look and feel to your creative, and any event to be tracked.  |
 | [Custom event](custom-events.md) | Lets you define any event that you want to track for a creative, line item and order. |
 | [Reference data](reference-data.md) | Allows you to create libraries of categories and key values so that category targeting and key value targeting on line items and creatives can be made from lists rather than by typing them. |
-| [Connections](connections.md) | Allow you to connect Adnuntius Advertising to external systems such as DMPs, SSPs and DSPs in order to unlock a range of benefits. |
+| [Connections](context-services.md) | Allow you to connect Adnuntius Advertising to external systems such as DMPs, SSPs and DSPs in order to unlock a range of benefits. |
 | [Tiers](tiers.md) | Enable you to prioritize delivery of some line items above others. |
 | [Network](network.md) | Lets you make certain changes to the network as a whole. |
 

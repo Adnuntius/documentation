@@ -29,7 +29,7 @@ http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim
 
 {% tabs %}
 {% tab title="External Demand Source" %}
-After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](../admin/connections.md), and then [creating external ad units](../inventory/external-adunits.md).
+After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](../admin/context-services.md), and then [creating external ad units](../inventory/external-adunits.md).
 
 ![First step: add an external demand source](../../../.gitbook/assets/201811-advertising-creative-external-1.png)
 {% endtab %}

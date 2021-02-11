@@ -36,7 +36,7 @@
     * [Products](adnuntius-advertising/admin-ui/admin/products.md)
     * [Marketplace Products](adnuntius-advertising/admin-ui/admin/marketplace-products.md)
     * [Email Translations](adnuntius-advertising/admin-ui/admin/email-translations.md)
-    * [Context Services \(Work in Progress\)](adnuntius-advertising/admin-ui/admin/connections.md)
+    * [Context Services \(Work in Progress\)](adnuntius-advertising/admin-ui/admin/context-services.md)
     * [External Demand Sources](adnuntius-advertising/admin-ui/admin/external-demand-sources.md)
     * [Tiers](adnuntius-advertising/admin-ui/admin/tiers.md)
     * [Network](adnuntius-advertising/admin-ui/admin/network.md)
