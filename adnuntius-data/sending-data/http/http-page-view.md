@@ -49,7 +49,7 @@ If the request is received correctly, an HTTP 200 status code will be returned.
 This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a page view is sent to Adnuntius Data.
 
 ```bash
-curl https://data.adnuntius.com/page -d '{
+curl -H "Content-Type: application/json" https://data.adnuntius.com/page -d '{
   "externalSystemType": "my_crm",
   "externalSystemUserId": "123hfy4658f",
   "networkId": "my_network",
