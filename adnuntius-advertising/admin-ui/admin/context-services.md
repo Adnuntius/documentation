@@ -65,7 +65,7 @@ For example, you might configure "beer" as a keyword for the IAB category "Food 
 
 ### Content Selectors
 
-By default the Context Service will *automatically* detect the important text content in your webpages and use this to extract keywords. Sometimes, however, this process does not work well and other text content -- such as links to other articles on your site, or irrelevant header and footer content -- may be included in the detected keywords. **Content Selectors** provide a way for you to assist Adnuntius to focus on the important page content, and ignore everything else.
+By default the Context Service will *automatically* detect the important text content in your webpages and use this to extract keywords. Sometimes, however, this process does not work well and other text content -- such as links to other articles on your site, or irrelevant header and footer content -- may be included in the detected keywords. *Content Selectors* provide a way for you to assist Adnuntius to focus on the important page content, and ignore everything else.
 
 | Source | Field | Explanation and examples |
 | :--- | :--- | :--- |
