@@ -46,19 +46,26 @@ Similarly if you specified `categories"` in the *Category Meta Tags* field, then
 
 ### Keywords via Page URL
 
-With this optional selected, Adnuntius will extract keywords from the URL of the page as well as the page content. For example, if the page URL is `https://www.aperitif.no/recipies/italian/ravioli/best-ravioli-ever/12345`, then Adnuntius will make "recipes", "italian", "ravioli", "best", "ever" and "12345" available for keyword targeting on that page. 
+With this optional selected, Adnuntius will extract keywords from the URL of the page as well as the page content. For example, if the page URL is:
+
+```test
+https://www.aperitif.no/recipies/italian/ravioli/best-ravioli-ever/12345
+```
+
+then Adnuntius will make "recipes", "italian", "ravioli", "best", "ever" and "12345" available for keyword targeting on that page. 
 
 
 ### IAB Categories
 
-This setting allows you to catgeorise your webpages, using the IAB taxonomy, based upon the detected keywords. You can chose as many, or as few, categories as you need, and for each catgeory you specify a list of keywords that represent that category.
+This setting allows you to categorise your webpages, using the IAB taxonomy, based upon the detected keywords. You can chose as many, or as few, categories as you need, and for each catgeory you specify a list of keywords that represent that category.
 Then, when Adnuntius is analysing your website, it will automatically assign each page to one or more categories whenever one of the configured keywords is encountered on the page.
 The categories assigned to pages are made available for [category targeting](../advertising/targeting.md#category-targeting). 
 
-In the example image above, "beer" is entered as a keyword and tied to the IAB category "Food & Drink - Alcoholic Beverages - 9.1". When "beer" is added then Adnuntius will scan each page and look for that keyword. When found, that page is added as a target whenever someone books a campaign targeting the category "Food & Drink - Alcoholic Beverages - 9.1".
+For example, you might configure "beer" as a keyword for the IAB category "Food & Drink - Alcoholic Beverages - 9.1". Then, whenever the keyword "beer" appears on one of your webpages, the category "Food & Drink - Alcoholic Beverages - 9.1" is added to the page and is available for targeting by your advertisers.
 
+### Content Selectors
 
-**Content Selectors** allow you to assign content selectors to domains to better identify a site's content. The first value to add is the domain, for example adnuntius.com or aperitif.no. The following information to be entered depends on the content source; HTML or JavaScript. 
+By default the Context Service will *automatically* detect the important text content in your webpages and use this to extract keywords. Sometimes, however, this process does not work well and other text content -- such as links to other articles on your site, or irrelevant header and footer content -- may be included in the detected keywords. **Content Selectors** provide a way for you to assist Adnuntius to focus on the important page content, and ignore everything else.
 
 | Source | Field | Explanation and examples |
 | :--- | :--- | :--- |
