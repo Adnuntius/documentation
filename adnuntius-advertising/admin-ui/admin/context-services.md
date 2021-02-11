@@ -30,7 +30,7 @@ Under Context Service, choose Adnuntius. You will notice that Cxense is an alter
 
 As you will see in the image above we have added "og:title" and "keywords" to the keyword meta tags field. When we do this, the following will happen once you save this connection. 
 
-* Essential keywords that are part of the title of every page will be sent to Adnuntius. Examples here include "rich", "ravioli" and "perfect". 
+* Essential keywords that are part of the title of every page will be sent to Adnuntius. Examples of keywords that may be sent to Adnuntius include "rich", "ravioli" and "perfect". 
 * The words "recipes", "italian", "ravioli" and "rich" will be sent to Adnuntius. 
 * All these keywords will be made available to line item and creative targeting under [keyword targeting](../advertising/targeting.md#keyword-targeting). 
 
