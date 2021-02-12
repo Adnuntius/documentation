@@ -34,6 +34,6 @@ POST https://api.adnuntius.com/api/v1/segments/upload?context=<context>
 | team | String | \(optional\) Restrict visibility of the segment to this team only |
 | name | String | The name of the segment |
 | description | String | Description for the segment |
-| dataSource | ADNUNTIUS, ADOBE, CXENSE, LYTICS, RELAY42 | The DMP providing the segmentation. |
+| dataSource | ADNUNTIUS, ADOBE, CXENSE, LYTICS, RELAY42, PERMUTIVE | The DMP providing the segmentation. |
 | state | ACTIVE \(default\), INACTIVE, ARCHIVED | The state of the segment. |
 
