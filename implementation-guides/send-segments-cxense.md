@@ -2,7 +2,7 @@
 
 ## Send segments Client side
 
-```markup
+```html
 <div id="adn-0000000000024420" style="display:none"></div>
 
 <!-- Get user segments, normal use, with async load of cx.js -->

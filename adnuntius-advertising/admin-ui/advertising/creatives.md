@@ -15,13 +15,13 @@ description: >-
 
 **Impression tracking URLs** can be added to ensure that third party systems can track the impressions in the same way as Adnuntius can. Impression tracking URLs are provided by the advertiser or whoever controls the access to that third party system. Please note that some third party systems will deliver an impression tracker as an image tag, such as the one below. 
 
-```text
+```html
 <img src="http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp]" border="0" width="1" height="1"/>
 ```
 
 If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp])[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp])
 
-```text
+```http
 http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim
 ```
 

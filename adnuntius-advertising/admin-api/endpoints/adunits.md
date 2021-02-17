@@ -6,7 +6,7 @@ A `GET` request can allways be filtered by the get [parameters](http://docs.adnu
 
 **Example GET request:**
 
-```text
+```http
 GET https://api.adnuntius.com/api/v1/adunits?context=<context>
 ```
 
@@ -16,7 +16,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a
 
 **Example POST object:**
 
-```text
+```json
 {
     "objectState": "ACTIVE",
     "name": "demo.adnuntius.com - 980x240 - Panorama 02",

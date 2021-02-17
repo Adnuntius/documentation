@@ -6,13 +6,13 @@ A `GET` request can allways be filtered by the [get parameters](http://docs.adnu
 
 Example get request:
 
-```text
+```http
 GET https://api.adnuntius.com/api/v1/creatives?context=winning&orderByDirection=ASCENDING
 ```
 
 Example response:
 
-```text
+```json
 {
     "results": [
         {
@@ -115,15 +115,15 @@ Post object contains the following keys:
 
 Creative ID can be set to whatever string value the user would like as long as it is unique within the network.
 
-Example POST request: `{id}` will be requred when posting to the API.
+Example POST request: `{id}` will be required when posting to the API.
 
-```text
+```http
 POST https://api.adnuntius.com/api/v1/creatives/{id}
 ```
 
 Example post body:
 
-```text
+```json
 {
   "constraintsToAssets": {
     "image1": "asset_1",
@@ -153,7 +153,7 @@ Example post body:
 
 example POST response
 
-```text
+```json
 {
   "lineItem": {
     "id": "lineitem_1",

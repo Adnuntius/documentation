@@ -33,7 +33,7 @@ If the request is received correctly, an HTTP 200 status code will be returned.
 
 ### Example request object
 
-```javascript
+```json
 {
   "externalSystemType": "my_crm",
   "externalSystemUserId": "123hfy4658f",
@@ -57,4 +57,3 @@ curl -H "Content-Type: application/json" https://data.adnuntius.com/page -d '{
   "categories": ["IAB_24_44"],
   "domainName": "sport.no" }'
 ```
-

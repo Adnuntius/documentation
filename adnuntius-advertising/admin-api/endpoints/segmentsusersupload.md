@@ -6,22 +6,23 @@ Allows you to upload a list of users and their assigned segments from a DMP into
 
 An example `POST` request is shown below.
 
-```text
+```http
 POST https://api.adnuntius.com/api/v1/segments/users/upload?context=<context>
-
+```
+```json
 [
     {
-        'userId': '3645poiuyt',
-        'siteId': 'ghjfk56479',
-        'segments': ['fjhgasjh8', 'asfjhj435', 'jshg43fs'],
-        'dataSource': 'ADNUNTIUS'
+        "userId": "3645poiuyt",
+        "siteId": "ghjfk56479",
+        "segments": ["fjhgasjh8", "asfjhj435", "jshg43fs"],
+        "dataSource": "ADNUNTIUS"
     },
     {
-        'userId': 'asdfgh56473',
-        'siteId': 'fgsh4658djk',
-        'segments': ['sfjh346s', 'sjfhgsj345'],
-        'dataSource': 'ADNUNTIUS',
-        'updateMode': 'ADD'
+        "userId": "asdfgh56473",
+        "siteId": "fgsh4658djk",
+        "segments": ["sfjh346s", "sjfhgsj345"],
+        "dataSource": "ADNUNTIUS",
+        "updateMode": "ADD"
     }
 ]
 ```

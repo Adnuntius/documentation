@@ -41,7 +41,7 @@ Category Targeting
 
 Category targeting can be sent to the adserver using the `c=` parameter.
 
-```text
+```http
 &c=category1&c=sport%2Fbasketball&c=politics
 ```
 

@@ -18,11 +18,10 @@ If the request is received correctly, an HTTP 200 status code will be returned.
 
 ### Example request object
 
-```text
+```http
 POST https://data.adnuntius.com/page
 ```
-
-```javascript
+```json
 {
   "browserId": "123xyz",
   "folderId": "00000000000123ab",
@@ -59,7 +58,7 @@ curl -H "Content-Type: application/json" https://data.adnuntius.com/page -d '{
 
 Page views can also be sent to adnuntius in bulk by adding them to an array like this:
 
-```javascript
+```json
 [
   {
     "browserId": "123xyz",

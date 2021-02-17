@@ -2,7 +2,7 @@
 
 `adn.request` is the most basic way to get an ad on your page. Here's a typical example:
 
-```text
+```javascript
     adn.request({ auId: '000000000000042d', auW: 364, auH: 90 });
 ```
 
@@ -69,7 +69,7 @@ Multi `adn.request` calls allow for the Adnuntius ad server to be asked for mult
 
 Here's a typical example of a multi ad request:
 
-```text
+```javascript
     adn.request({ adUnits: [
         {auId: '0000000000000806', auW: 728, auH: 90},
         {auId: '0000000000000807', auW: 100, auH: 20},
@@ -92,7 +92,7 @@ Multi ad requests also allow for two special modes of loading ads onto your page
 
 These modes of loading ads can be specified via the `requestParams` parameter. A typical example is below:
 
-```text
+```javascript
     adn.request({ requestParams: {proximity: 50, load: 'lazy'}, adUnits: [
         {auId: '0000000000000806', auW: 728, auH: 90, requestParams: {proximity: 100, load: 'lazy'}},
         {auId: '0000000000000807', auW: 100, auH: 20, requestParams: {load: 'direct'}},
@@ -116,21 +116,15 @@ Here's how the split runs:
 
 * **Parameters specified on parent:** `method`, `usi`, `segments`, `ctx`, `longitude`, `latitude`, `excludedLineItems`, `excludedCreatives`, `onError`
 * **Parameters specified on either parent or ad unit:** `requestParams`, `siteId`, `floorPrice`, `resizeOnPageLoad`, `requestMode`, `onImpressionResponse`, `onPageLoad`, `onNoMatchedAds`, `onVisible`, `onViewable`, `clearTarget`, `functionCalls`, `replacements`, `kv`, `c`
-* **Parameters specified on the ad unit only:** those no
-
-  32
-
-  ```text
-  <td style="text-align:left"></td>t listed above
-  ```
+* **Parameters specified on the ad unit only:** those not listed above
 
 ## **Previewing an Ad**
 
 If you just want to preview a creative in your system, you can do so in either of the following two ways:
 
-\#\#\#\# Requesting a Preview of a Specific Creative
+#### Requesting a Preview of a Specific Creative
 
-```text
+```javascript
 adn.request({
     networkId: 'myNetworkId',
     creatives: [{
@@ -141,9 +135,9 @@ adn.request({
 });
 ```
 
-\#\#\#\# Requesting a Preview of Creative Data in a Specific Layout
+#### Requesting a Preview of Creative Data in a Specific Layout
 
-```text
+```javascript
 adn.request({
     networkId: 'myNetworkId',
     creatives: [{
@@ -162,9 +156,9 @@ adn.request({
 
 If you need the ad data in JSON format, you can do so using adn.requestData like so:
 
-\#\#\#\# Requesting Ads in JSON format for a Single Ad Unit
+#### Requesting Ads in JSON format for a Single Ad Unit
 
-```text
+```javascript
 var listeners = {
     onSuccess: function(data) {
         // do something with the data
@@ -184,9 +178,9 @@ adn.requestData({
 });
 ```
 
-\#\#\#\# Requesting Ads in JSON format for Multiple Ad Units
+#### Requesting Ads in JSON format for Multiple Ad Units
 
-```text
+```javascript
 var listeners = {
     onSuccess: function(data) {
         // do something with the data
@@ -212,7 +206,7 @@ This request works just like all the others except that the response from the ad
 
 For successful ad server responses, the data passed into the listener functions will be in this form:
 
-```text
+```javascript
     {
         responseJSON: {justAnExampleKey: 'justAnExampleValue'},
         responseCode: 200,
@@ -222,7 +216,7 @@ For successful ad server responses, the data passed into the listener functions 
 
 For failed ad server responses, the data passed into the listener functions will be in this form:
 
-```text
+```javascript
     {
         errorText: 'Likely error in service',
         responseCode: 501,

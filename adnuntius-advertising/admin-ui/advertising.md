@@ -247,7 +247,7 @@ To register targets, include the image tags in the example onto your web page. T
 * age with value 39 will last as a target for 5 184 000 seconds \(60 days\) 
 * sport with value handball will last as a target for the default length of time \(usually 30 days\)
 
-```text
+```html
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&shop=petshop.com.au&expiry=2592000">
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&age=39&expiry=5184000">
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&sport=handball">

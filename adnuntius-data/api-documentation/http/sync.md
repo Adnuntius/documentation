@@ -8,7 +8,7 @@ Adnuntius Data allows you to merge user profiles from different systems and devi
 POST https://data.adnuntius.com/sync
 ```
 
-```javascript
+```json
 {
     "folderId": "00000000000aaaaa",
     "browserId": "123",
@@ -28,7 +28,7 @@ After running the above code, profile updates from the user's browser _and_ from
 
 Sync requests can be sent in a batch like this:
 
-```javascript
+```json
 [
     {
         "folderId": "00000000000aaaaaa",

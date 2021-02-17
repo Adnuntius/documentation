@@ -4,7 +4,7 @@ This endpoint is for getting a list of selected items and the stats associated w
 
 ## Example GET request
 
-```text
+```http
 https://api.adnuntius.com/api/v1/stats/
 ?advObjectLabel=
 &all=lineItem
@@ -76,7 +76,7 @@ https://api.adnuntius.com/api/v1/stats/
 
 ## Example Response
 
-```text
+```json
 {
     "chunks": [
         {

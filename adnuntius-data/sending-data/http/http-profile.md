@@ -23,7 +23,7 @@ Data is send to Adnuntius using a HTTP POST request, with a JSON payload contain
 
 ### Example request object
 
-```javascript
+```json
 {
   "externalSystemType": "my_crm",
   "externalSystemUserId": "123hfy4658f",

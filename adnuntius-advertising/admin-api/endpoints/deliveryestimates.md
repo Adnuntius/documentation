@@ -4,7 +4,7 @@ A delivery estimate uses historical data about the traffic and line items on a n
 
 **The following example calls the python api wrapper with the minimum information required to estimate a new line item:**
 
-```text
+```python
  api.deliveryestimate.run({
    'startDate': '2018-08-08T08:08:08Z',
    'endDate': '2018-08-18T18:18:18Z',
@@ -16,7 +16,7 @@ A delivery estimate uses historical data about the traffic and line items on a n
 
 **The returned json will have the following format:**
 
-```text
+```json
   {
      "prediction": "FAILURE",
      "available": {
@@ -34,14 +34,14 @@ All of the objective types it is possible to set on a line item are supported, a
 
 **Targeting information can be included with the request in the same format as targeting information on a line item:**
 
-```text
+```json
 ...
-'targeting': {
-    'adUnitMatchingLabelTargets': [
-        {'matchingLabels': ['topbanner', 'bottombanner']}, 
-        {'matchingLabels': ['middle']}
+"targeting": {
+    "adUnitMatchingLabelTargets": [
+        {"matchingLabels": ["topbanner", "bottombanner"]}, 
+        {"matchingLabels": ["middle"]}
     ],
-    'userSegmentTargets': { "userSegments": [{"id": "segment2"}]}
+    "userSegmentTargets": { "userSegments": [{"id": "segment2"}]}
 }
 ...
 ```

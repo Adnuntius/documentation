@@ -10,7 +10,7 @@ OpenRTB Requests are sent to: `https://delivery.adnuntius.com/rtb`
 
 An example request looks like this:
 
-```javascript
+```json
 {
   "id": "123457893528",
   "at": 2,
@@ -72,7 +72,7 @@ The table below provides further information about _some_ of the fields in the r
 
 An example response looks like this:
 
-```javascript
+```json
 {
   "id": "123457893528",
   "bidid": "f7dc923428a3a86259960e27fcd60776"
