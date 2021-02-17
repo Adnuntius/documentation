@@ -33,7 +33,7 @@ As well as using the automated keyword detection, you can also configure the nam
 
 For non-developers, you can easily inspect the available meta tags on your site by right-clicking on one of your pages and selecting to view the page source. If you search for the word `meta`, then you should find lines that might look something like this:
 
-```markup
+```html
 <meta property="og:title" content="Rich's Rich Ravioli: How to Make the Perfect Ravioli">
 <meta name="keywords" content="recipes, italian, ravioli, rich">
 <meta name="categories" content="recipes, italian">
@@ -47,7 +47,7 @@ Similarly if you specified `categories"` in the _Category Meta Tags_ field, then
 
 With this optional selected, Adnuntius will extract keywords from the URL of the page as well as the page content. For example, if the page URL is:
 
-```text
+```http
 https://www.aperitif.no/recipies/italian/ravioli/best-ravioli-ever/12345
 ```
 

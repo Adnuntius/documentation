@@ -22,8 +22,7 @@ Just add the following to the end of the URL to trigger specific logging methods
 
 Alternatively, place this code just under your `body` tag or anywhere preceding your ad requests to ensure the settings are set before any important stuff happens:
 
-```text
-
+```javascript
 window.adn = window.adn || {};
 adn.calls = adn.calls || [];
 adn.calls.push(function() {

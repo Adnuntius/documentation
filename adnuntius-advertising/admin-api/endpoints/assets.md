@@ -8,13 +8,13 @@ You must provide an `id` and/or `creative-id` to the `assets` endpoint when perf
 
 **Example get request of a single asset:**
 
-```text
+```http
 GET https://api.adnuntius.com/api/v1/assets/<creative-id>/<id>?context=<context>
 ```
 
 **Example get request of all the assets for a creative:**
 
-```text
+```http
 GET https://api.adnuntius.com/api/v1/assets/<creative-id>?context=<context>
 ```
 
@@ -24,7 +24,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 
 **Example POST object:**
 
-```text
+```json
 {
     "objectState": "ACTIVE",
     "network": { "id": "winning" },

@@ -2,7 +2,7 @@
 
 The targeting object is provided as part of the API call when creating [line items](endpoints/lineitems.md) and [creatives](endpoints/creatives.md). The basic structure of this object is shown below:
 
-```text
+```json
 {
     "targeting": {
         "deviceTargets": [],
@@ -46,7 +46,7 @@ Fields:
 
 ## Device targets
 
-```text
+```json
 {
 "deviceTargets": [
     {
@@ -82,7 +82,7 @@ The device targets can be found with it's endpoint [/devices](endpoints/devices.
 
 ## Ad unit targets
 
-```text
+```json
 {
     "adUnitTarget": {
         "adUnits": [
@@ -97,7 +97,7 @@ The `id` of the ad units can be found at this endpoint: [/adunits](endpoints/adu
 
 ## Segment targets
 
-```text
+```json
 {
     "userSegmentTargets": [
         {
@@ -120,7 +120,7 @@ When posting targeting data only the id of the adunit is required.
 
 ## Date targets
 
-```text
+```json
 {
     "dateTarget": {
         "dateRanges": [
@@ -153,7 +153,7 @@ All dates must be specified as follows: `yyyy-mm-ddThh:mm:ss`.
 
 ## Geospatial targets
 
-```text
+```json
 {
     "geospatialTargets": [
         {
@@ -232,7 +232,7 @@ The polygons follow the format of [GeoJson](https://en.wikipedia.org/wiki/GeoJSO
 
 ## Key value targets
 
-```text
+```json
 {
     "keyValueTargets": [
         {
@@ -280,7 +280,7 @@ The polygons follow the format of [GeoJson](https://en.wikipedia.org/wiki/GeoJSO
 
 ## Site targets
 
-```text
+```json
 {
     "siteTarget": {
         "sites": [
@@ -297,7 +297,7 @@ When posting targeting data only the id of the site is required.
 
 ## Ad unit matching label targets
 
-```text
+```json
 {
     "adUnitMatchingLabelTargets": [
         {
@@ -320,7 +320,7 @@ For matching labels to work you will need to divide the targeting into separate 
 
 ## Category targets
 
-```text
+```json
 {
     "categoryTargets": [
         {
@@ -358,7 +358,7 @@ For matching labels to work you will need to divide the targeting into separate 
 
 ## Location targets
 
-```text
+```json
 {
 
     "namedLocationTarget": {
@@ -376,7 +376,7 @@ When posting targeting data only the id of the location is required.
 
 ## Day parting targets
 
-```text
+```json
 {
     "dayPartingTargets": [
         {
@@ -430,7 +430,7 @@ The daypart object is divided in these paramters:
 
 ## Keyword targets
 
-```text
+```json
 {
     "keywordTargets": [
         {
@@ -466,7 +466,7 @@ The daypart object is divided in these paramters:
 
 ## Retargeting targets
 
-```text
+```json
 {
     "retargetingTargets": [
         {
@@ -505,7 +505,7 @@ The daypart object is divided in these paramters:
 
 ## IP targets
 
-```text
+```json
 {
     "ipAddressTarget": {
         "addresses": [
@@ -520,7 +520,7 @@ Contains `addresses` which is a comma seperated array of IP values. You can add 
 
 ## Site group targets
 
-```text
+```json
 {
     "siteGroupTarget": {
         "siteGroups": [
@@ -539,7 +539,7 @@ When posting targeting data only the id of the site is required.
 
 **A `GET` request for a targeting object:**
 
-```text
+```json
 {
     "targeting": {
         "deviceTargets": [

@@ -21,7 +21,7 @@ To avoid cookies, you can do either of the two things:
 * add this code to the top of your web page `adn.useCookies(false);`
 * in your ad request, add `useCookies: false` into your ad request as below:
 
-```text
+```javascript
 adn.request({useCookies: false, adUnits: [{adId: "000000000023"}]});
 ```
 
@@ -29,7 +29,7 @@ To avoid the use of local storage, you add the following to your page: `adn.useL
 
 To block the use of cookies and local storage in HTML5 ads and third-party cookies, add `isolateFrame: true` into your ad request as below:
 
-```text
+```javascript
 adn.request({isolateFrame: true, adUnits: [{adId: "000000000023"}]});
 ```
 
@@ -37,7 +37,7 @@ Note: using the `isolateFrame` option might cause some HTML5 ads or third-party 
 
 Putting all these options together, you might end up with something like this:
 
-```text
+```javascript
   window.adn = window.adn || {}; adn.calls = adn.calls || [];
   adn.calls.push(function() {
     adn.useLocalStorage(false);

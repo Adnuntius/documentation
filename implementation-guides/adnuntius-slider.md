@@ -10,7 +10,7 @@ description: >-
 
 In order to add this functionality to your page you will have to add these two files to the `<head>` tag of your page. Either you can use our CDN or download them and host them yourself.
 
-```markup
+```html
 <script src="https://tags.adnuntius.com/utils/swiper.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://tags.adnuntius.com/utils/swiper.min.css">
 ```
@@ -23,7 +23,7 @@ After you've added the style sheet you can of course style it in whatever shape 
 
 After that is done you can add the ad call to your site. \(Don't forget to set the adunit ID\)
 
-```markup
+```html
 <div id="adn-<adunit-ID>" ></div> //TODO: paste adunit ID
 
 <script type="text/javascript">

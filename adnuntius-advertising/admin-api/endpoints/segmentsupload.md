@@ -6,24 +6,25 @@ Allows you to upload a list of segments from a DMP into Adnuntius.
 
 A list of segments can uploaded using a `POST` request.
 
-```text
+```http
 POST https://api.adnuntius.com/api/v1/segments/upload?context=<context>
-
+```
+```json
 [
     {
-        'segmentId': 'qwerty12345',
-        'name': 'Sports',
-        'description': 'Interested in sports',
-        'dataSource': 'ADNUNTIUS',
-        'state': 'ACTIVE'
+        "segmentId": "qwerty12345",
+        "name": "Sports",
+        "description": "Interested in sports",
+        "dataSource": "ADNUNTIUS",
+        "state": "ACTIVE"
     },
     {
-        'segmentId': 'zxcvbn98765',
-        'name': 'Movies',
-        'description': 'Interested in movies',
-        'dataSource': 'ADNUNTIUS',
-        'team': 'my_team_id',
-        'state': 'ACTIVE'
+        "segmentId": "zxcvbn98765",
+        "name": "Movies",
+        "description": "Interested in movies",
+        "dataSource": "ADNUNTIUS",
+        "team": "my_team_id",
+        "state": "ACTIVE"
     }
 ]
 ```

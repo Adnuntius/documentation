@@ -96,7 +96,7 @@ The implementation of the Adnuntius ad codes is slightly different to the standa
 
 Website code example \(these IDs are for documentation only, please use your own IDs\):
 
-```markup
+```html
 <html>
 <head>
     <script async src="https://tags.adnuntius.com/pb/prebid.js"></script> 
@@ -129,7 +129,7 @@ Assuming that you have already implemented your GAM Tags / Divs on the page you 
 
 Website code example \(these IDs are for documentation only, please use your own IDs\):
 
-```markup
+```html
 <html>
 <head>
     <script async src="https://tags.adnuntius.com/pb/prebid.js"></script> 

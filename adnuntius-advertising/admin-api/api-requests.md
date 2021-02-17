@@ -16,13 +16,13 @@ GET calls for many resources can be called with or without an object id in the u
 
 When the id is included then only that object will be returned.
 
-```text
+```http
 GET http://<host>/api/v1/<resource type>/<id>
 ```
 
 When no id is included then a list of all objects of that type visible to the user are returned.
 
-```text
+```http
 GET http://<host>/api/v1/<resource type>
 ```
 
@@ -32,13 +32,13 @@ PUT and POST are both treated the same, they will both create an object if it do
 
 When the id is included then only that object will be created/updated.
 
-```text
+```http
 POST http://<host>/api/v1/<resource type>/<id>
 ```
 
 When no id is included then a list of objects to be created/updated is expected as the request’s POST data.
 
-```text
+```http
 POST http://<host>/api/v1/<resource type>
 ```
 
@@ -50,7 +50,7 @@ DELETE is not supported on resources as domain objects cannot be deleted. See [O
 
 HEAD is used to confirm the existence of an object.
 
-```text
+```http
 HEAD http://<host>/api/v1/<resource type>/<id>
 ```
 
@@ -66,7 +66,7 @@ The concept of [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) is used to provi
 
 For example, a Line Item links to many objects and both the related objects id and GET url is included.
 
-```text
+```json
 {
     "id": "lineitem_1",
     "name": "Test Campaign",
@@ -130,7 +130,7 @@ When posting an object to the API for update, the following rules apply for fiel
 
 All dates are represented as [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) strings in UTC timezone unless otherwise specified.
 
-```text
+```json
 {
   "time": "2015-01-01T01:00Z"
 }
@@ -140,7 +140,7 @@ All dates are represented as [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 
 
 When requesting a list of objects, it is possible to pass a list of ids so only these objects are returned. Ids must be semicolon delimited.
 
-```text
+```http
 GET http://<host>/api/v1/lineitems?context=<context>&id=lineitem_1;lineitem_2
 ```
 
@@ -148,7 +148,7 @@ GET http://<host>/api/v1/lineitems?context=<context>&id=lineitem_1;lineitem_2
 
 API requests for objects that belong to a network require a `context` parameter. The value is the id of the network that is the scope for the request.
 
-```text
+```http
 GET http://<host>/api/v1/lineitems?context=network_1
 ```
 
@@ -196,7 +196,7 @@ All messages contains the following:
 
 Example:
 
-```text
+```json
 {
   "code": "error.referenced.object.not.found",
   "text": "Referenced object {{type}} {{id}} not found",
@@ -219,25 +219,25 @@ While not suited for programmatic integration, this approach is simple and usefu
 **Authentication**  
 This snippet authenticates and stores the access token as a shell variable so it can be used in subsequent API calls.
 
-```text
+```bash
 export ACCESS_TOKEN=$(curl -v -d grant_type=password -d scope=ng_api -d username=broker1@bitshift.technology -d password=broker1 "http://<host>/api/authenticate" | jq -r .access_token)
 ```
 
 **List Campaigns**
 
-```text
+```bash
 curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://<host>/api/v1/lineitems?context=network_1" | jq .
 ```
 
 **Get a Line Item**
 
-```text
+```bash
 curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://<host>/api/v1/lineitems/lineitem_1?context=network_1" | jq .
 ```
 
 **Create/update a Campaign**
 
-```text
+```bash
 curl -H "Authorization: Bearer $ACCESS_TOKEN" -d @- -X PUT "http://<host>/api/v1/lineitems/lineitem_1?context=network_1" | jq .
 ```
 
@@ -247,7 +247,6 @@ This command will then accept json input from the command line.
 
 Where _leaderboard.png_ is the Asset file in the current directory that should be uploaded:
 
-```text
+```bash
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -F asset=@leaderboard.png "http://<host>/api/v1/assets/creative_1/asset_1?context=network_1" | jq .
 ```
-

@@ -6,7 +6,7 @@ We provide an HTTP API for requesting ads from our delivery server. This API may
 
 ### GET Requests
 
-```text
+```http
 GET https://delivery.adnuntius.com/i{{params}}
 ```
 
@@ -21,7 +21,7 @@ GET https://delivery.adnuntius.com/i{{params}}
 
 ### Post Requests
 
-```text
+```http
 POST https://delivery.adnuntius.com/i{{params}}
 ```
 
@@ -37,7 +37,7 @@ The parameters listed above in the **Get Requests** section are also supported o
 
 Example POST Body:
 
-```text
+```json
 {
     "adUnits":[
         {
@@ -58,13 +58,13 @@ Example POST Body:
 
 #### Request
 
-```text
+```http
 GET http://delivery.adnuntius.com/i?tzo=-120&auId=abc123&userId=xyz987
 ```
 
 #### Response
 
-```text
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -158,13 +158,13 @@ GET http://delivery.adnuntius.com/i?tzo=-120&auId=abc123&userId=xyz987
 
 #### Request
 
-```text
+```http
 POST http://delivery.adnuntius.com/i?tzo=-120&userId=xyz987&tt=composed
 ```
 
 POST Body:
 
-```text
+```json
 {
     "adUnits":[
         {
@@ -181,7 +181,7 @@ POST Body:
 
 #### Response
 
-```text
+```json
 {
     "adUnits": [
         {
@@ -235,7 +235,7 @@ kv: [{'myKey': ['myValue1', 'myValue2']}]
 
 Category targeting can be sent to the adserver using the `c=` parameter.
 
-```text
+```http
 &c=category1&c=sport%2Fbasketball&c=politics
 ```
 

@@ -12,8 +12,10 @@ Handles User log-in and provides Authentication Tokens.
 
 Example authentication using grant type `password`
 
-```text
+```
 POST https://api.adnuntius.com/api/authenticate?context={{context}}
+```
+```json
 {
     "grant_type": "password",
     "scope": "ng_api",
@@ -24,8 +26,10 @@ POST https://api.adnuntius.com/api/authenticate?context={{context}}
 
 Example authentication using grant type `refresh_token`
 
-```text
+```
 POST https://api.adnuntius.com/api/authenticate?context={{context}}
+```
+```json
 {
     "grant_type": "refresh_token",
     "scope": "ng_api",
@@ -35,7 +39,7 @@ POST https://api.adnuntius.com/api/authenticate?context={{context}}
 
 Example response for all grant types:
 
-```text
+```json
 {
     "access_token": "VaOHWOyKRLQkkoO6yATH0Tc2RQcKxHsJssTxvg...",
     "token_type": "bearer",

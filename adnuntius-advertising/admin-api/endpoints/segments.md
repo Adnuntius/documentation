@@ -8,11 +8,10 @@ A `GET` request can allways be filtered by the get [parameters](http://docs.adnu
 
 **Example GET request:**
 
-```text
+```http
 GET https://api.adnuntius.com/api/v1/segments?context=<context>
 ```
-
-```text
+```json
 {
     "results": [
         {

@@ -8,13 +8,13 @@ A `GET` request can allways be filtered by the get [parameters](http://docs.adnu
 
 **Example GET request:**
 
-```text
+```http
 GET https://api.adnuntius.com/api/v1/location?q=Stockholm
 ```
 
 **Example response**
 
-```text
+```json
 {
     "totalHits": 12,
     "pageStart": 1,

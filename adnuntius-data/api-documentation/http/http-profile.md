@@ -14,11 +14,10 @@ Data is send to Adnuntius using a HTTP POST request, with a JSON payload contain
 
 ### Example request object
 
-```text
+```http
 POST https://data.adnuntius.com/visitor
 ```
-
-```javascript
+```json
 {
   "browserId": "123xyz",
   "folderId": "00000000000123ab",
@@ -91,7 +90,7 @@ curl -H "Content-Type: application/json" https://data.adnuntius.com/synchronous/
 
 ### Example batch request
 
-```javascript
+```json
 [
   {
     "browserId": "123xyz",

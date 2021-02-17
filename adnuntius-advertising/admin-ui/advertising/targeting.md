@@ -121,7 +121,7 @@ Adnuntius has access to a range of browser, hardware and platform information. I
 
 Key values are keywords that you can send together with an ad request so that you can target line items and/or creatives to those keywords. 
 
-```text
+```javascript
 <!-- 0000000000000001 -->
 <div id="adn-0000000000000001" style="display: none"></div>
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
@@ -162,7 +162,7 @@ Retargeting can be used to target line items and/or creatives to users who have 
 
 You can add multiple values for every retargeting key by separating individual values by a comma. For instance, inputting red, blue, green as values means that the retargeting key will match any of red, blue or green. 
 
-```text
+```html
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&shop=petshop.com.au&expiry=2592000">
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&age=39&expiry=5184000">
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&sport=handball">
