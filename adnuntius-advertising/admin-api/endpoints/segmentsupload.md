@@ -9,7 +9,8 @@ A list of segments can uploaded using a `POST` request.
 ```http
 POST https://api.adnuntius.com/api/v1/segments/upload?context=<context>
 ```
-```json
+
+```javascript
 [
     {
         "segmentId": "qwerty12345",

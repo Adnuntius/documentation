@@ -16,7 +16,7 @@ A delivery estimate uses historical data about the traffic and line items on a n
 
 **The returned json will have the following format:**
 
-```json
+```javascript
   {
      "prediction": "FAILURE",
      "available": {
@@ -34,7 +34,7 @@ All of the objective types it is possible to set on a line item are supported, a
 
 **Targeting information can be included with the request in the same format as targeting information on a line item:**
 
-```json
+```javascript
 ...
 "targeting": {
     "adUnitMatchingLabelTargets": [

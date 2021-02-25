@@ -4,9 +4,7 @@ description: >-
   from your pages, and make them available for contextual targeting.
 ---
 
-# Context Services \(Under Development\)
-
-**Please note: this page describes a new feature that is currently under development**
+# Context Services
 
 The Adnuntius Context Service makes it easy to to target Adnuntius line items and creatives based upon the content of a web page. The context service can automatically extract frequently occurring keywords from your pages, perform content categorisation, and make the keywords and categories available for ad targeting. For example, if you publish a recipe website, this service would allow you to easily support advertisers such as “Tony’s Pizza Sauce” that would like to show ads on pages featuring pizza recipes.
 
@@ -33,7 +31,7 @@ As well as using the automated keyword detection, you can also configure the nam
 
 For non-developers, you can easily inspect the available meta tags on your site by right-clicking on one of your pages and selecting to view the page source. If you search for the word `meta`, then you should find lines that might look something like this:
 
-```html
+```markup
 <meta property="og:title" content="Rich's Rich Ravioli: How to Make the Perfect Ravioli">
 <meta name="keywords" content="recipes, italian, ravioli, rich">
 <meta name="categories" content="recipes, italian">

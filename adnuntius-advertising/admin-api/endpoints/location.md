@@ -2,7 +2,7 @@
 
 The locations endpoint will deliver you all the locations that are available in the system.
 
-### GET
+## GET
 
 A `GET` request can allways be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
 
@@ -14,7 +14,7 @@ GET https://api.adnuntius.com/api/v1/location?q=Stockholm
 
 **Example response**
 
-```json
+```javascript
 {
     "totalHits": 12,
     "pageStart": 1,

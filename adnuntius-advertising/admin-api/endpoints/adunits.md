@@ -16,7 +16,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a
 
 **Example POST object:**
 
-```json
+```javascript
 {
     "objectState": "ACTIVE",
     "name": "demo.adnuntius.com - 980x240 - Panorama 02",

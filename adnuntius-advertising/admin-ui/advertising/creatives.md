@@ -13,13 +13,13 @@ description: >-
 
 ![An example creative](../../../.gitbook/assets/201811-advertising-creative.png)
 
-**Impression tracking URLs** can be added to ensure that third party systems can track the impressions in the same way as Adnuntius can. Impression tracking URLs are provided by the advertiser or whoever controls the access to that third party system. Please note that some third party systems will deliver an impression tracker as an image tag, such as the one below. 
+**Impression tracking URLs** can be added to ensure that third party systems can track the impressions in the same way as Adnuntius can. Impression tracking URLs are provided by the advertiser or whoever controls the access to that third party system. Please note that some third party systems will deliver an impression tracker as an image tag, such as the one below.
 
-```html
+```markup
 <img src="http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp]" border="0" width="1" height="1"/>
 ```
 
-If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp])[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp])
+If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp])\[[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim\]\(http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim]%28http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp)\]\)
 
 ```http
 http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim
@@ -51,11 +51,11 @@ When you choose a layout you will see that the "Layout's components" box changes
 
 **Share of voice \(optional\):** if you have more than one creative on your line item, you can control delivery of this creative compared to others in the line item by giving it a percentage. If you give two creatives 50% each, then the line item will ensure that each creative delivers the same number of impressions. If you give three creatives 50% each, then each creative will get 33% of the impressions.
 
-**Targeting:** You can add targeting to both line items creatives. [Read all about targeting here](targeting.md). 
+**Targeting:** You can add targeting to both line items creatives. [Read all about targeting here](targeting.md).
 
 **Width x Height** means the dimensions of your creative. These dimensions are only used to find out which ad units are eligible to show this creative. An ad unit will always be set up with minimum and maximum width and height, and if an ad unit can only show 980x300 pixels, then a creative with added dimensions 980x150 will not show in this ad unit.
 
-Under width and height you have multiple choices; here are explanations of each. 
+Under width and height you have multiple choices; here are explanations of each.
 
 {% tabs %}
 {% tab title="Creative Preview" %}
@@ -83,7 +83,7 @@ If your creative is going to be served by a third party system, then you can gen
 {% tab title="Creative Tag for Emails" %}
 You can also create tags for emails if this creative is going to be served inside emails. Just choose the ad unit you want to use, and the tag is automatically created.
 
-Please note that if you want an email tag that can serve ANY creative \(not just this specific creative\), you can do so under [Ad units](../inventory/adunits-1.md). 
+Please note that if you want an email tag that can serve ANY creative \(not just this specific creative\), you can do so under [Ad units](../inventory/adunits-1.md).
 
 ![Example creative tag for emails.](../../../.gitbook/assets/202003-creative-tag-for-email.png)
 {% endtab %}

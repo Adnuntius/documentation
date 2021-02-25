@@ -21,7 +21,7 @@ Note: Pixels require third-party cookies to function correctly, which may be blo
 
 The most simple pixel tag is shown below. This pixel will automatically record the conversion to the most recent impression coming from a CPA line-item for the advertiser.
 
-```html
+```markup
 <img src="https://delivery.adnuntius.com/pixelc.gif?eventType=<event-id>">
 ```
 
@@ -29,13 +29,13 @@ For example, if the pixel was included on a page hosted at `https://exampleadver
 
 You can also hardcode the advertiser domain into the pixel, as shown in the example below:
 
-```html
+```markup
 <img src="https://delivery.adnuntius.com/pixelc.gif?eventType=<event-id>&adSource=exampleadvertiser.com">
 ```
 
 If you want to record the conversion against a specific line-item, then you can hardcode this into the pixel tag like so:
 
-```html
+```markup
 <img src="https://delivery.adnuntius.com/pixelc.gif?eventType=<event-id>&network=<network-id>&adSource=<line-item-id>">
 ```
 

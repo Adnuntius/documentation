@@ -6,11 +6,11 @@ description: >-
 
 # Adnuntius Slider
 
-### Prerequisites
+## Prerequisites
 
 In order to add this functionality to your page you will have to add these two files to the `<head>` tag of your page. Either you can use our CDN or download them and host them yourself.
 
-```html
+```markup
 <script src="https://tags.adnuntius.com/utils/swiper.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://tags.adnuntius.com/utils/swiper.min.css">
 ```
@@ -19,11 +19,11 @@ In order to add this functionality to your page you will have to add these two f
 After you've added the style sheet you can of course style it in whatever shape or form that fits your site.
 {% endhint %}
 
-### Deployment
+## Deployment
 
 After that is done you can add the ad call to your site. \(Don't forget to set the adunit ID\)
 
-```html
+```markup
 <div id="adn-<adunit-ID>" ></div> //TODO: paste adunit ID
 
 <script type="text/javascript">
@@ -33,24 +33,24 @@ e.src='http'+('https:'===location.protocol?'s':'')+'://cdn.adnuntius.com/adn.js'
 t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'script');
 window.adn = window.adn || {}; adn.calls = adn.calls || [];
 
-	
-	// --- Optional -----------
-	adn.swiper = {
-		slidesPerView : 1,
-		speed: 3000,
-		delay: 5000,
-		spaceBetween: 20
-	} 
-	// ------------------------
 
- 		adn.calls.push(function() {
-		adn.request({ 
-			onImpressionResponse: adnAddSwiper, // Required
-			adUnits: [
-				{auId: '<adunit-ID>', container: 'div' }, // TODO: paste adunit ID
-    		]
-		});
-	})
+    // --- Optional -----------
+    adn.swiper = {
+        slidesPerView : 1,
+        speed: 3000,
+        delay: 5000,
+        spaceBetween: 20
+    } 
+    // ------------------------
+
+         adn.calls.push(function() {
+        adn.request({ 
+            onImpressionResponse: adnAddSwiper, // Required
+            adUnits: [
+                {auId: '<adunit-ID>', container: 'div' }, // TODO: paste adunit ID
+            ]
+        });
+    })
 
 </script>
 ```

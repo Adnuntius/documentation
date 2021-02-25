@@ -17,7 +17,8 @@ Data is send to Adnuntius using a HTTP POST request, with a JSON payload contain
 ```http
 POST https://data.adnuntius.com/visitor
 ```
-```json
+
+```javascript
 {
   "browserId": "123xyz",
   "folderId": "00000000000123ab",
@@ -90,7 +91,7 @@ curl -H "Content-Type: application/json" https://data.adnuntius.com/synchronous/
 
 ### Example batch request
 
-```json
+```javascript
 [
   {
     "browserId": "123xyz",

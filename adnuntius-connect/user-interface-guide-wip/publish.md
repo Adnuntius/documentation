@@ -20,7 +20,7 @@ Next you can choose to deploy to your production environment, your development e
 
 If you have not yet deployed your tag to product or development, you will need to do so. Below is an example tag, so you know what it looks like.
 
-```html
+```markup
 <script src="https://tags.adnuntius.com/adnuntius/BUBM8LURA.dev.js" async></script>
 ```
 

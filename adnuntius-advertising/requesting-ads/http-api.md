@@ -37,7 +37,7 @@ The parameters listed above in the **Get Requests** section are also supported o
 
 Example POST Body:
 
-```json
+```javascript
 {
     "adUnits":[
         {
@@ -64,7 +64,7 @@ GET http://delivery.adnuntius.com/i?tzo=-120&auId=abc123&userId=xyz987
 
 #### Response
 
-```html
+```markup
 <!DOCTYPE html>
 <html>
 <head>
@@ -164,7 +164,7 @@ POST http://delivery.adnuntius.com/i?tzo=-120&userId=xyz987&tt=composed
 
 POST Body:
 
-```json
+```javascript
 {
     "adUnits":[
         {
@@ -181,7 +181,7 @@ POST Body:
 
 #### Response
 
-```json
+```javascript
 {
     "adUnits": [
         {

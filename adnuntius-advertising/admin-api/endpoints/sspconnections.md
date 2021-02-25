@@ -2,14 +2,15 @@
 
 The sspconnections endpoint will deliver you all the possible SSP connections that is available.
 
-### GET
+## GET
 
 **Example GET request:**
 
 ```http
 GET https://api.adnuntius.com/api/v1/sspconnections?context=<context>
 ```
-```json
+
+```javascript
 {
     "results": [
         {

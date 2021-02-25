@@ -1,8 +1,6 @@
 # /advertisers
 
-
-
-### GET
+## GET
 
 A `GET` request can allways be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
 
@@ -14,33 +12,34 @@ GET https://api.adnuntius.com/api/v1/advertisers?context=<context>
 
 in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a parameter to the `GET` query
 
-### POST
+## POST
 
 **Example POST object:**
 
 ```http
 POST https://api.adnuntius.com/api/v1/advertisers?context=<context>
 ```
-```json
+
+```javascript
 {
-	"id": "ypk7kjy2ldr2bnwr",
-	"address": {
-		"country": "SE",
-		"addressLine1": "Address 1",
-		"city": "City",
-		"state": "State",
-		"postCode": "01234"
-	},
-	"name": "Adnuntius Advertiser",
-	"description": "An advertiser for your network",
-	"team": { "id": "defaultsitegroup" },
-	"externalReference": "abc123",
-	"v1Category": "IAB1",
-	"category": "IAB_1",
-	"contact": "Mikael",
-	"email": "mikael@mail.mail",
-	"advertiserUrl": "https://www.homepage.com",
-	"phone": "012-345678909"
+    "id": "ypk7kjy2ldr2bnwr",
+    "address": {
+        "country": "SE",
+        "addressLine1": "Address 1",
+        "city": "City",
+        "state": "State",
+        "postCode": "01234"
+    },
+    "name": "Adnuntius Advertiser",
+    "description": "An advertiser for your network",
+    "team": { "id": "defaultsitegroup" },
+    "externalReference": "abc123",
+    "v1Category": "IAB1",
+    "category": "IAB_1",
+    "contact": "Mikael",
+    "email": "mikael@mail.mail",
+    "advertiserUrl": "https://www.homepage.com",
+    "phone": "012-345678909"
 }
 ```
 
@@ -59,7 +58,7 @@ POST https://api.adnuntius.com/api/v1/advertisers?context=<context>
 | advertiserUrl |  | String | Advertiser homepage Url. |
 | phone |  | String | Phone number to advertiser. |
 
-### Advertiser JSON
+## Advertiser JSON
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |

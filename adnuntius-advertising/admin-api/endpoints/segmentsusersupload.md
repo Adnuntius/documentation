@@ -9,7 +9,8 @@ An example `POST` request is shown below.
 ```http
 POST https://api.adnuntius.com/api/v1/segments/users/upload?context=<context>
 ```
-```json
+
+```javascript
 [
     {
         "userId": "3645poiuyt",

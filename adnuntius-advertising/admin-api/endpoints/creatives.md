@@ -1,6 +1,6 @@
 # /creatives
 
-### GET
+## GET
 
 A `GET` request can allways be filtered by the [get parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of this documentation.
 
@@ -12,7 +12,7 @@ GET https://api.adnuntius.com/api/v1/creatives?context=winning&orderByDirection=
 
 Example response:
 
-```json
+```javascript
 {
     "results": [
         {
@@ -98,7 +98,7 @@ Example response:
 }
 ```
 
-### POST
+## POST
 
 Post object contains the following keys:
 
@@ -123,7 +123,7 @@ POST https://api.adnuntius.com/api/v1/creatives/{id}
 
 Example post body:
 
-```json
+```javascript
 {
   "constraintsToAssets": {
     "image1": "asset_1",
@@ -153,7 +153,7 @@ Example post body:
 
 example POST response
 
-```json
+```javascript
 {
   "lineItem": {
     "id": "lineitem_1",

@@ -18,13 +18,13 @@ When you target multiple items in the same group \(for instance, multiple ad uni
 
 ## Targeting Templates
 
-Targeting templates allow you to save combinations of targeting criteria for later re-use. For example: if you repeatedly target multiple line items or creatives to a set of locations, then rather than adding those locations manually each time you create one, you can save a template so that you can use the same targeting with one click. Below you can see an example of how to save a targeting template for multiple ad units. 
+Targeting templates allow you to save combinations of targeting criteria for later re-use. For example: if you repeatedly target multiple line items or creatives to a set of locations, then rather than adding those locations manually each time you create one, you can save a template so that you can use the same targeting with one click. Below you can see an example of how to save a targeting template for multiple ad units.
 
 ![Targeting Template created from three ad units.](../../../.gitbook/assets/202003-targeting-templates.gif)
 
 ## Copy from Line Item
 
-You can copy the targeting that has been added to other line items. If you work with complex targeting criteria and want to add these targeting combinations with the click of a button, then this is the function for you. You can either copy targeting from running line items, or you can create "template line items" that contain the targeting criteria you most often use, so that you can copy from those templates. Below is a video demonstrating how to copy targeting from other line items. 
+You can copy the targeting that has been added to other line items. If you work with complex targeting criteria and want to add these targeting combinations with the click of a button, then this is the function for you. You can either copy targeting from running line items, or you can create "template line items" that contain the targeting criteria you most often use, so that you can copy from those templates. Below is a video demonstrating how to copy targeting from other line items.
 
 ![](../../../.gitbook/assets/202003-copy-targeting.gif)
 
@@ -32,7 +32,7 @@ You can copy the targeting that has been added to other line items. If you work 
 
 An [ad unit ](../inventory/adunits-1.md)is a placement that goes onto your site, so that you can later fill it with ads. It is as such an empty container that sets aside a space on your site so that you can fill it with content. Ad unit targeting allows you to target a line item and/or creative to one or more ad units.
 
-You can choose to add include the chosen items in your targeting, or to exclude them \(whatever is easiest given your need\). 
+You can choose to add include the chosen items in your targeting, or to exclude them \(whatever is easiest given your need\).
 
 ![Ad unit targeting can be added to line items and to creatives](../../../.gitbook/assets/201811-advertising-line-item-ad-unit-targeting.png)
 
@@ -50,7 +50,7 @@ Publishers can [group sites together](../inventory/site-groups.md) in order to m
 
 ## Ad Unit Matching Label Targeting
 
-Matching labels are labels added to ad units that you can later use for targeting groups of ad units. Let's say that you add the label "sports" to three different ad units, and then target a line item to the matching label "sports". You will then target your ads to be shown in these three ad units. 
+Matching labels are labels added to ad units that you can later use for targeting groups of ad units. Let's say that you add the label "sports" to three different ad units, and then target a line item to the matching label "sports". You will then target your ads to be shown in these three ad units.
 
 You can add multiple matching labels, so that an ad unit can match for instance either "sports", "mobile", "300x250" or any other label that you may see fit to add. If you add more than one label, then an ad unit will match a line item or creative with any of these matching labels added as targeting.
 
@@ -58,7 +58,7 @@ You can add multiple matching labels, so that an ad unit can match for instance 
 
 ## Segment Targeting
 
-Segments are based on historic user behaviour, and targes groups of users \(or "audiences"\) that have something in common. There are three ways of connecting to user segments: 
+Segments are based on historic user behaviour, and targes groups of users \(or "audiences"\) that have something in common. There are three ways of connecting to user segments:
 
 1. Using [Adnuntius Data](../../../#adnuntius-data), a data platform that allows you to unify your 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and to activate your data in any system. Any data collected by Adnuntius Data will automatically be avaiable for targeting in Adnuntius Advertising without any setup work needed in advance. 
 2. Using Cxense DMP. Adnuntius has a server-side "out-of-the-box" integration to data management platform \(DMP\) partner Cxense, which means that you can easily connect to Cxense to get your segments into Adnuntius for targeting. To connect your Cxense account, please [read more here](../admin/context-services.md). 
@@ -68,7 +68,7 @@ Segments are based on historic user behaviour, and targes groups of users \(or "
 
 ## Category Targeting
 
-Adnuntius can read the URLs from whatever pages that ad units are deployed to. [Read more about how to set ad units to derive categories for category targeting from page URLs](../inventory/adunits-1.md). Once you've set up your ad units you can add targeting in different ways: 
+Adnuntius can read the URLs from whatever pages that ad units are deployed to. [Read more about how to set ad units to derive categories for category targeting from page URLs](../inventory/adunits-1.md). Once you've set up your ad units you can add targeting in different ways:
 
 * If you add "sports, travel" to the text field your ad will target any URL that contains either /sports/ or /travel/ or both. For example, the URL www.example.com/sports/football/article.html will match. 
 * If you add sports/football then your ad will target any URL that contains /sports/football/. For example, the URL www.example.com/sports/football/article.html will match. However, the URL www.example.com/sports/article.html will not match.
@@ -76,15 +76,15 @@ Adnuntius can read the URLs from whatever pages that ad units are deployed to. [
 
 ![Category targeting can be added to line items and creatives](../../../.gitbook/assets/201811-advertising-line-item-category-targeting.png)
 
-You can also upload a library of categories if you would rather like to choose categories from a list rather than writing them into the text field. For more information on how to upload categories, please see [Reference Data](../admin/reference-data.md). 
+You can also upload a library of categories if you would rather like to choose categories from a list rather than writing them into the text field. For more information on how to upload categories, please see [Reference Data](../admin/reference-data.md).
 
 ## Geospatial Targeting
 
-Geospatial targeting can be used when you want to closely manage which geographical locations are to be targeted. Click the polygon or rectangle icon on the right hand side of the map and start drawing in order to specify the location you want to target. 
+Geospatial targeting can be used when you want to closely manage which geographical locations are to be targeted. Click the polygon or rectangle icon on the right hand side of the map and start drawing in order to specify the location you want to target.
 
-Please note that, by default, geospatial targeting uses IP addresses for locating users. As IP addresses do not always provide accurate locations you can, if you ask for users' permission to track their location, [send the longitude and latitude](https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request) together with the ad request in order to provide accurate locations. 
+Please note that, by default, geospatial targeting uses IP addresses for locating users. As IP addresses do not always provide accurate locations you can, if you ask for users' permission to track their location, [send the longitude and latitude](https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request) together with the ad request in order to provide accurate locations.
 
-If you for some reason cannot supply Adnuntius Advertising with longitude and latitude, you can consider using [named location targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#location-targeting) instead. 
+If you for some reason cannot supply Adnuntius Advertising with longitude and latitude, you can consider using [named location targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#location-targeting) instead.
 
 ![](../../../.gitbook/assets/202003-geospatial.gif)
 
@@ -100,7 +100,7 @@ Adnuntius uses Netacuity Pulse to provide you with excellent location targeting.
 
 ## Device Targeting
 
-Device targeting lets you target ads to specific devices. Simply choose the device types, operating systems or brands, hit "save" and your ad is targeted. 
+Device targeting lets you target ads to specific devices. Simply choose the device types, operating systems or brands, hit "save" and your ad is targeted.
 
 ![Add device targeting to your line items and/or creatives.](../../../.gitbook/assets/202003-device-targeting.png)
 
@@ -119,7 +119,7 @@ Adnuntius has access to a range of browser, hardware and platform information. I
 
 ## Key Value Targeting
 
-Key values are keywords that you can send together with an ad request so that you can target line items and/or creatives to those keywords. 
+Key values are keywords that you can send together with an ad request so that you can target line items and/or creatives to those keywords.
 
 ```javascript
 <!-- 0000000000000001 -->
@@ -135,7 +135,7 @@ adn.calls.push(function() {
 </script>
 ```
 
-The ad tag example above illustrates how the key values query=red wine, query=cola and content=drinks can be sent with an ad request. Once key values are sent you can target line items and creatives by adding key values as shown below. Here are some tips: 
+The ad tag example above illustrates how the key values query=red wine, query=cola and content=drinks can be sent with an ad request. Once key values are sent you can target line items and creatives by adding key values as shown below. Here are some tips:
 
 * Separating key values by commas means that the ad will match any of the added values. For instance, "key: value1, value2" means that the ad will match as long as either value1, value2 or both are sent. 
 * You can also add more complex criteria such as AND and AND NOT to ensure that you only match certain combinations of key values. 
@@ -150,19 +150,19 @@ Even though you send key values with an ad request, ads with no key values can s
 
 ## Keyword Targeting
 
-Keywords are words in written text on any page where the ad is shown. For example, if you are a publisher and one of your articles mentions the keyword "football" then this keyword can be automatically picked up from the article text as long as its weight \(meaning its significance for the article's content\) is high. 
+Keywords are words in written text on any page where the ad is shown. For example, if you are a publisher and one of your articles mentions the keyword "football" then this keyword can be automatically picked up from the article text as long as its weight \(meaning its significance for the article's content\) is high.
 
-Targeting a keyword means that you will target an ad to any page where the keyword is part of the text. Adnuntius uses data management platform partner Cxense to power this feature, and keyword targeting will not work without a Cxense account. If you need this, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com). 
+Targeting a keyword means that you will target an ad to any page where the keyword is part of the text. Adnuntius uses data management platform partner Cxense to power this feature, and keyword targeting will not work without a Cxense account. If you need this, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com).
 
-Just like with [key value targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#key-value-targeting), you can separate keywords by commas to match any of the keywords, or use the operators AND, OR and AND NOT to create more complex criteria. 
+Just like with [key value targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#key-value-targeting), you can separate keywords by commas to match any of the keywords, or use the operators AND, OR and AND NOT to create more complex criteria.
 
 ## Retargeting
 
-Retargeting can be used to target line items and/or creatives to users who have performed specific actions. For example, you can retarget a user that have put a product in your shopping cart, but didn't actually purchase it. Or you can retarget a user who has read about sports the last 30 days. 
+Retargeting can be used to target line items and/or creatives to users who have performed specific actions. For example, you can retarget a user that have put a product in your shopping cart, but didn't actually purchase it. Or you can retarget a user who has read about sports the last 30 days.
 
-You can add multiple values for every retargeting key by separating individual values by a comma. For instance, inputting red, blue, green as values means that the retargeting key will match any of red, blue or green. 
+You can add multiple values for every retargeting key by separating individual values by a comma. For instance, inputting red, blue, green as values means that the retargeting key will match any of red, blue or green.
 
-```html
+```markup
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&shop=petshop.com.au&expiry=2592000">
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&age=39&expiry=5184000">
 <img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&sport=handball">
@@ -174,13 +174,13 @@ The three examples above shows you the format you must use when you add retarget
 * age with value 39 will last as a target for 5 184 000 seconds \(60 days\) 
 * sport with value handball will last as a target for the default length of time \(usually 30 days\)
 
-Once you have added the retargeting pixels to your page you can start targeting ads to any of the values. Just like with [key value targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#key-value-targeting), you can separate retargeting entries by commas to match any of the retargeting entries, or use the operators AND, OR and AND NOT to create more complex criteria. The example below shows how to target users who match all of the criteria "shop: petshop.com.au", "age: 39" AND "sport: handball". 
+Once you have added the retargeting pixels to your page you can start targeting ads to any of the values. Just like with [key value targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#key-value-targeting), you can separate retargeting entries by commas to match any of the retargeting entries, or use the operators AND, OR and AND NOT to create more complex criteria. The example below shows how to target users who match all of the criteria "shop: petshop.com.au", "age: 39" AND "sport: handball".
 
 ![Retargeting example.](../../../.gitbook/assets/202003-retargeting.png)
 
 ## Day Parts Targeting
 
-Day Parts lets you choose the days, and times of day, that your ad should be shown. You can add multiple day parts. You can choose to set a day part to the user's timezone, or the ad unit's timezone. The user's timezone is the timezone that the user visiting your page is physically in, while to ad unit's timezone is the timezone that your [ad unit](../inventory/adunits-1.md) is set to. 
+Day Parts lets you choose the days, and times of day, that your ad should be shown. You can add multiple day parts. You can choose to set a day part to the user's timezone, or the ad unit's timezone. The user's timezone is the timezone that the user visiting your page is physically in, while to ad unit's timezone is the timezone that your [ad unit](../inventory/adunits-1.md) is set to.
 
 ![Day parting can be added to line items and creatives](../../../.gitbook/assets/201811-advertising-line-item-daypart-targeting.png)
 

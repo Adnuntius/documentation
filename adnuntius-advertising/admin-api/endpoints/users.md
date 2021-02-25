@@ -1,8 +1,6 @@
 # /users
 
-
-
-### GET
+## GET
 
 A `GET` request can always be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the API documentation.
 
@@ -14,39 +12,39 @@ GET https://api.adnuntius.com/api/v1/users?context=<context>
 
 in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a parameter to the `GET` query
 
-### POST
+## POST
 
 **Example POST object:**
 
 ```http
 POST https://api.adnuntius.com/api/v1/users/<id>?context=<context>
 ```
-```json
-{
-	"objectState": "ACTIVE",
-	"username": "mikael@adnuntius.com",
-	"name": "Mikael Lundin",
-	"displayName": "mikael.lundin",
-	"userRoles": {
-		"rolesByNetwork": [
-			{
-				"network": {
-					"id": "adnuntius",
-				},
-				"roles": [
-					{
-						"role": {
-							"id": "adopsrole",
-						}
-					}
-				]
-			}
-		]
-	},
-	"locale": "en",
-	"externalReference": "",
-}
 
+```javascript
+{
+    "objectState": "ACTIVE",
+    "username": "mikael@adnuntius.com",
+    "name": "Mikael Lundin",
+    "displayName": "mikael.lundin",
+    "userRoles": {
+        "rolesByNetwork": [
+            {
+                "network": {
+                    "id": "adnuntius",
+                },
+                "roles": [
+                    {
+                        "role": {
+                            "id": "adopsrole",
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "locale": "en",
+    "externalReference": "",
+}
 ```
 
 | Name | Required | Restriction | Description |

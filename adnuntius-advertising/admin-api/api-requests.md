@@ -66,7 +66,7 @@ The concept of [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) is used to provi
 
 For example, a Line Item links to many objects and both the related objects id and GET url is included.
 
-```json
+```javascript
 {
     "id": "lineitem_1",
     "name": "Test Campaign",
@@ -130,7 +130,7 @@ When posting an object to the API for update, the following rules apply for fiel
 
 All dates are represented as [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) strings in UTC timezone unless otherwise specified.
 
-```json
+```javascript
 {
   "time": "2015-01-01T01:00Z"
 }
@@ -196,7 +196,7 @@ All messages contains the following:
 
 Example:
 
-```json
+```javascript
 {
   "code": "error.referenced.object.not.found",
   "text": "Referenced object {{type}} {{id}} not found",
@@ -250,3 +250,4 @@ Where _leaderboard.png_ is the Asset file in the current directory that should b
 ```bash
 curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -F asset=@leaderboard.png "http://<host>/api/v1/assets/creative_1/asset_1?context=network_1" | jq .
 ```
+

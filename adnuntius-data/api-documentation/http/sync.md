@@ -2,13 +2,13 @@
 
 Adnuntius Data allows you to merge user profiles from different systems and devices to provide a single unified view of your users. Data that is sent from your CRM, and from mobile and desktop browser sessions, can all be combined into a single record and used to drive user classification and segmentation.
 
-### Example request object
+## Example request object
 
 ```http
 POST https://data.adnuntius.com/sync
 ```
 
-```json
+```javascript
 {
     "folderId": "00000000000aaaaa",
     "browserId": "123",
@@ -28,7 +28,7 @@ After running the above code, profile updates from the user's browser _and_ from
 
 Sync requests can be sent in a batch like this:
 
-```json
+```javascript
 [
     {
         "folderId": "00000000000aaaaaa",

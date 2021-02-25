@@ -75,7 +75,7 @@ It is CRITICAL that you specify the targeting like `adnFloor=1.00` rather than `
 
 In addition to including a passback tag to Adnuntius, the creative attached to each line-item **must** include the following pixel tag:
 
-```html
+```markup
 <iframe src="https://%%PATTERN:adnServer%%/d/f/%%PATTERN:adnToken%%" scrolling="no" frameborder="0" width="1" height="1" style="position:absolute;top:-10000px;left:-100000px;"></iframe>
 ```
 

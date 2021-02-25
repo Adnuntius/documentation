@@ -6,7 +6,7 @@ This guide expects you to know how to create orders and line items. If you dont?
 
 Now onto the header bidding. Firstly you will have to place the following script in your header:
 
-```html
+```markup
 <script async src="prebid_imp.js"></script>
 <script async src="https://cdn.adnuntius.com/adn.js"></script>
 

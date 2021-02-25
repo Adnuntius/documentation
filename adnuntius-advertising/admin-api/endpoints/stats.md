@@ -76,7 +76,7 @@ https://api.adnuntius.com/api/v1/stats/
 
 ## Example Response
 
-```json
+```javascript
 {
     "chunks": [
         {

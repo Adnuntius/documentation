@@ -1,6 +1,6 @@
 # /sites
 
-### GET
+## GET
 
 A `GET` request can allways be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
 
@@ -9,13 +9,14 @@ A `GET` request can allways be filtered by the get [parameters](http://docs.adnu
 ```http
 GET https://api.adnuntius.com/api/v1/sites?context=<context>
 ```
+
 in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a parameter to the `GET` query
 
-### POST
+## POST
 
 **Example POST object:**
 
-```json
+```javascript
 {
     "objectState": "ACTIVE",
     "name": "demo.adnuntius.com",
