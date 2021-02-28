@@ -23,6 +23,8 @@ You can immediately test this simple setup using the test tool built into the UI
 
 If you are not satisfied with the results when using this simple setup, then you can improve the performance by using the Advanced Configuration options described in the section below.
 
+![Example Context Service Setup.](../../../.gitbook/assets/context-service.png)
+
 ## Advanced Configuration
 
 ### Keyword and Category Meta Tags
