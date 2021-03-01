@@ -111,6 +111,7 @@
 ## Adnuntius Connect
 
 * [Integration Guide \(Work in Progress\)](adnuntius-connect/integration-guide-work-in-progress/README.md)
+  * [Prebid - Google ad manager](adnuntius-connect/integration-guide-work-in-progress/prebid-google-ad-manager.md)
   * [Privacy GTM integration](adnuntius-connect/integration-guide-work-in-progress/privacy-gtm-integration.md)
   * [Consents API](adnuntius-connect/integration-guide-work-in-progress/consents-api.md)
   * [TCF API](adnuntius-connect/integration-guide-work-in-progress/tcf-api.md)
