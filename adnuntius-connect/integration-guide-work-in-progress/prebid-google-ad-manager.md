@@ -1,10 +1,10 @@
 # Prebid - Google ad manager
 
-This guide will let you know how to integrate Google Ad Manager with Adnuntius Connect. First there are some rewuirements that you will have to do in GAM:
+This guide will let you know how to integrate Google Ad Manager with Adnuntius Connect. First there are some requirements that you will have to do in GAM:
 
 {% embed url="https://docs.prebid.org/adops/step-by-step.html" %}
 
-After you have setup your buckets in google ad manager you will be able to continue with Adnuntius connect. This part will be divided into the following steps. 
+After you have setup your buckets in google ad manager you will be able to continue with Adnuntius Connect. This part will be divided into the following steps. 
 
 * **Setup a prebid connection.**
 * **Add a trigger for loading google.**
@@ -37,7 +37,7 @@ Navigate to the triggers section, and click "add trigger", it's advisable that y
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
 
-Example usecase for this would be if you would like to trigger different ad units on article pages for instance, this would be the place to do it.
+An example use case for this would be if you would like to trigger different ad units on article pages for instance, this would be the place to do it.
 
 ### **Setup google as a tag**
 
