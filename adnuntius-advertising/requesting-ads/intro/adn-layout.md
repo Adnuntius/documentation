@@ -134,11 +134,11 @@ The following functions can each be called from within a layout and provide the 
       <p>
       The best way to explain this is via examples. If the following code is placed within a layout or creative:
       </p>
-      <pre>adn.inIframe.intersectionCallback('{{adId}}', &#123;callback: function(data) &#123; /* this will get called */ } });</pre>
+      ```adn.inIframe.intersectionCallback('{{adId}}', &#123;callback: function(data) &#123; /* this will get called */ } });```
       <p>The above code will call the callback function whenever 50% of the ad defined by <code>adId</code> has been within the viewport.</p>
       <hr>
       <p>The following example demonstrates the variety of options available:</p>
-      <pre>adn.inIframe.intersectionCallback('{{adId}}', &#123;id: 'myId', maxTime: 2000, threshold: 0.75, callback: function(data) &#123; /* this will get called */ } });</pre>
+      ```adn.inIframe.intersectionCallback('{{adId}}', &#123;id: 'myId', maxTime: 2000, threshold: 0.75, callback: function(data) &#123; /* this will get called */ } });```
       <p>The above code will call the callback function whenever 75% of the ad defined by <code>adId</code> has been within the viewport for more than 2000 milliseconds.</p>
       <p>If 75% of the ad defined by <code>adId</code> has been within the viewport for less than 2000 milliseconds <em>and</em> the user is done with the page either by browsing elsewhere or closing the window, the callback function will also be called.</p>
       <p>The <code>id</code> in the config is used to distinguish between multiple calls to <code>intersectionCallback</code> for the same <code>adId</code>.</p>
