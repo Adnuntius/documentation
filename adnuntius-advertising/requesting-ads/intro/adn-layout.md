@@ -138,7 +138,7 @@ The following functions can each be called from within a layout and provide the 
       <p>The above code will call the callback function whenever 50% of the ad defined by <code>adId</code> has been within the viewport.</p>
       <hr>
       <p>The following example demonstrates the variety of options available:</p>
-      <code>adn.inIframe.intersectionCallback('{{adId}}', &#123;id: 'myId', maxTime: 2000, threshold: 0.75, callback: function(data) &#123; /* this will get called */ } });</code>
+      <code>adn.inIframe.intersectionCallback('{{adId}}', &#123;id: 'myId', maxTime: 2000, threshold: 75, callback: function(data) &#123; /* this will get called */ } });</code>
       <p>The above code will call the callback function whenever 75% of the ad defined by <code>adId</code> has been within the viewport for more than 2000 milliseconds.</p>
       <p>If 75% of the ad defined by <code>adId</code> has been within the viewport for less than 2000 milliseconds <em>and</em> the user is done with the page either by browsing elsewhere or closing the window, the callback function will also be called.</p>
       <p>The <code>id</code> in the config is used to distinguish between multiple calls to <code>intersectionCallback</code> for the same <code>adId</code>.</p>
@@ -166,7 +166,7 @@ The following functions can each be called from within a layout and provide the 
       defined by <code>adId</code> has been within the viewport for less than 2000 milliseconds <em>and</em> the user is done with the page either by browsing elsewhere or closing the window, the custom event will also be registered with the lesser time specified.</p>
       <hr>
       <p>The following example demonstrates the variety of options available:</p>
-      <code>adn.inIframe.recordInScreen('{{adId}}', 'custom-event-id-as-defined-within-adnuntius', {maxTime: 5000, threshold: 0.75});</code>
+      <code>adn.inIframe.recordInScreen('{{adId}}', 'custom-event-id-as-defined-within-adnuntius', {maxTime: 5000, threshold: 75});</code>
       <p>The above code will register the custom event whenever 75% of the ad defined by <code>adId</code> has been within the viewport for more than 5000 milliseconds.</p>
       <p>If 75% of the ad defined by <code>adId</code> has been within the viewport for less than 5000 milliseconds <em>and</em> the user is done with the page either by browsing elsewhere or closing the window, the custom event will also be registered with the lesser time specified.</p>
     </td>
