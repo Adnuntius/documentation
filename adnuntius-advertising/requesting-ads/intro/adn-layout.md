@@ -151,6 +151,26 @@ The following functions can each be called from within a layout and provide the 
       </ul>
       </td>
     </tr>
+    <tr>
+      <td style="text-align: left">
+              <p><code>adn.inIframe.recordInScreen(adId, customEventId, config)</code></p>
+      <p>Whenever the ad denoted by the <code>adId</code> is within the viewport according to the criteria set within <code>config</code>,
+      the custom event denoted by <code>customEventId</code> will be triggered with the time the ad is within the viewport sent through.</p>
+    </td>
+    <td>
+      <p>
+      The best way to explain this is via examples. If the following code is placed within a layout or creative:
+      </p>
+      <code>adn.inIframe.recordInScreen('{{adId}}', 'custom-event-id-as-defined-within-adnuntius');</code>
+      <p>The above code will register the custom event when 50% of the ad defined by <code>adId</code> has been within the viewport for longer than 2000 milliseconds. If 50% of the ad
+      defined by <code>adId</code> has been within the viewport for less than 2000 milliseconds <em>and</em> the user is done with the page either by browsing elsewhere or closing the window, the custom event will also be registered with the lesser time specified.</p>
+      <hr>
+      <p>The following example demonstrates the variety of options available:</p>
+      <code>adn.inIframe.recordInScreen('{{adId}}', 'custom-event-id-as-defined-within-adnuntius', {maxTime: 5000, threshold: 0.75});</code>
+      <p>The above code will register the custom event whenever 75% of the ad defined by <code>adId</code> has been within the viewport for more than 5000 milliseconds.</p>
+      <p>If 75% of the ad defined by <code>adId</code> has been within the viewport for less than 5000 milliseconds <em>and</em> the user is done with the page either by browsing elsewhere or closing the window, the custom event will also be registered with the lesser time specified.</p>
+    </td>
+    </tr>
   </tbody>
 </table>
 
