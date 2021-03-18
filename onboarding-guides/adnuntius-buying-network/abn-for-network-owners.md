@@ -29,6 +29,8 @@ If you are an agency you need access to publishing inventory; if you are a publi
 
 Please note that you are responsible for the content of the contracts; these templates work only as tips.
 
+[Back to the checklist overview.](abn-for-network-owners.md)
+
 ## Creating Publisher Users
 
 Whenever you get a new publisher onboard your network, you can create users for them so that they can access and manage their own publishing inventory. Here is how you create roles, teams and users with the right permissions, and finally an earnings account that controls the publisher's revenue share.
