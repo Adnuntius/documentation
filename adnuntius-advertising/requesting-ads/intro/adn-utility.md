@@ -77,14 +77,13 @@ The following methods can each be called from within a layout and provide the de
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><code>adn.util.isBlankString(value)</code>
+        <p><code>adn.util.isStringWithChars(value)</code>
         </p>
-        <p>Whether the passed-in value is a string and blank.</p>
+        <p>Whether the passed-in value is a string with at least one character that is not blank space.</p>
       </td>
       <td style="text-align:left">
         <p>Returns <code>true</code> or <code>false</code>.</p>
-        <p>Only returns <code>true</code> for any value that is either an empty string
-          or a string consisting solely of blank spaces.</p>
+        <p>Only returns <code>true</code> for any value that is a string consisting of at least one character that is not blank space.</p>
       </td>
     </tr>
     <tr>
