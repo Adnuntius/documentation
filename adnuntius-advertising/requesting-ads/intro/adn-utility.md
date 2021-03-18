@@ -79,11 +79,13 @@ The following methods can each be called from within a layout and provide the de
       <td style="text-align:left">
         <p><code>adn.util.isStringWithChars(value)</code>
         </p>
-        <p>Whether the passed-in value is a string with at least one character that is not blank space.</p>
+        <p>Whether the passed-in value is a string with at least one character that
+          is not blank space.</p>
       </td>
       <td style="text-align:left">
         <p>Returns <code>true</code> or <code>false</code>.</p>
-        <p>Only returns <code>true</code> for any value that is a string consisting of at least one character that is not blank space.</p>
+        <p>Only returns <code>true</code> for any value that is a string consisting
+          of at least one character that is not blank space.</p>
       </td>
     </tr>
     <tr>
