@@ -61,6 +61,8 @@ Whenever you get a new publisher onboard your network, you can create users for 
 Remember to use the revenue share field on earnings accounts in order to automatically calculate what publishers should earn. Also, remember to take into account your cost to Adnuntius. Let’s say for example’s sake that Adnuntius charges you 10% of revenue, and you want 15% for yourself. This means that you should specify a revenue share to the earnings account of 75%.
 {% endhint %}
 
+[Back to the checklist overview.](abn-for-network-owners.md#checklist-overview)
+
 ## Creating Buyer Users
 
 Whenever you get a new buyer onboard your network, you can create users for them so that they can access and manage their own advertisers \(for agencies\) and campaigns. Here is how you create roles, teams and users with the right permissions.
@@ -83,6 +85,8 @@ Whenever you get a new buyer onboard your network, you can create users for them
 3. Under the team you’ve created for the user, choose the role you created earlier \(“Marketplace Advertiser” if you followed the naming example above\). 
 4. Lastly, click save. When you’ve clicked save an invitation email will be automatically be sent to the user.
 
+[Back to the checklist overview.](abn-for-network-owners.md#checklist-overview)
+
 ## Invoicing
 
 As a network owner you will need to make sure that buyers are invoiced, and that publishers receive their share of revenue. 
@@ -99,6 +103,8 @@ Alternatively, you can also [integrate](../../adnuntius-advertising/admin-api/) 
 
 * Go to [https://admin.adnuntius.com/queries/earnings-account](https://admin.adnuntius.com/queries/earnings-account) and generate a report. This provides the information to manually inform publishers how much they have earned. The column "Cost" shows the gross revenue, while "Revenue Share" shows how much publishers have earned after costs are withdrawn. To understand how revenue shares are defined for publishers, please see [earnings accounts](../../adnuntius-advertising/admin-ui/inventory/earnings-accounts.md).
 * Alternatively you can create automated reports being sent to publishers. Read more below on how to set up report templates, and to learn specifically how to set up monthly revenue reports for publishers. 
+
+[Back to the checklist overview.](abn-for-network-owners.md#checklist-overview)
 
 ## Set Up Report Templates
 
@@ -124,6 +130,8 @@ Report templates define what kind of reports users should be able to create, and
 
 **Monthly spending reports to buyers.** This report is useful because it informs buyers about their spending. In order to create this, go to [https://admin.adnuntius.com/report-templates](https://admin.adnuntius.com/report-templates) and click to create "new", then follow these steps.
 
+
+
 | What to do | Example if applicable |
 | :--- | :--- |
 | Give the template a name and description, then choose type "Advertiser". | Advertiser Spending Report |
@@ -139,4 +147,6 @@ Report templates define what kind of reports users should be able to create, and
 | Add the component "text", and use this text box to inform advertisers why they receive this report. | This report shows how your campaign performs. |
 | Add the "Line Item Totals " and "Daily Breakdown" widgets \(and other information you want to share\). Then pick the numbers you want to share. | NA |
 | Go to the line items and add a scheduled report for all line items that should have one \(advertisers can also do this themselves\). | How to: [see here.](../../adnuntius-advertising/admin-ui/advertising/line-items.md) We also recommend you to run a test report from a test advertiser so that you can ensure that you have set everything up correctly.  |
+
+[Back to the checklist overview.](abn-for-network-owners.md#checklist-overview)
 
