@@ -6,6 +6,8 @@ description: >-
 
 # For Network Owners
 
+## Checklist Overview
+
 As a network owner there are certain processes that you will need to manage. The goal of this page is to get you ready to manage these processes so that you can effectively run your private marketplace. Not all these processes may apply to you, as this depends on the processes you already have in place, and whether you run a publishing company, an agency/advertising company, or an ad network. This guide covers the following.
 
 | Process step | Resources |
@@ -29,7 +31,7 @@ If you are an agency you need access to publishing inventory; if you are a publi
 
 Please note that you are responsible for the content of the contracts; these templates work only as tips.
 
-[Back to the checklist overview.](abn-for-network-owners.md)
+Back to the checklist overview.
 
 ## Creating Publisher Users
 
