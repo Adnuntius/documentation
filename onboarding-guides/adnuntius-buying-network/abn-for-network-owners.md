@@ -31,7 +31,7 @@ If you are an agency you need access to publishing inventory; if you are a publi
 
 Please note that you are responsible for the content of the contracts; these templates work only as tips.
 
-Back to the checklist overview.
+[Back to the checklist overview.](abn-for-network-owners.md#checklist-overview)
 
 ## Creating Publisher Users
 
