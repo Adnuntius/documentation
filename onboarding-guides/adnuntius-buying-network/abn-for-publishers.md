@@ -49,11 +49,7 @@ Note that this guide assumes that you're a customer and have received access to 
         developers set up ad requests from your pages (normally using the prebid
         option). If you need help setting up, please contact us at <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
       <td
-      style="text-align:left">
-        <p><a href="../../adnuntius-advertising/requesting-ads/">Documentation</a>
-        </p>
-        <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid</a>
-        </p>
+      style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/">Documentation</a>
         </td>
     </tr>
     <tr>
