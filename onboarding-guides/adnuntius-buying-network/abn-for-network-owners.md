@@ -8,23 +8,26 @@ description: >-
 
 As a network owner there are certain processes that you will need to manage. The goal of this page is to get you ready to manage these processes so that you can effectively run your private marketplace. Not all these processes may apply to you, as this depends on the processes you already have in place, and whether you run a publishing company, an agency/advertising company, or an ad network. This guide covers the following.
 
-| Process steps | Explanation |
+| Process step | Resources |
 | :--- | :--- |
-| [Agreements with publishers & buyers](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#agreements-with-partners-coming-soon) | How to create agreements with publishing and/or buying partners. Applies to buyers, publishers and ad networks. Relevant to all. |
-| [Creating and training publisher users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for publishing partners so that they can manage their inventory. Relevant to ad networks and buyers. |
-| [Creating and training buyer users](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#creating-publisher-users) | How to create access for buyers so that they can create and manage campaigns. Relevant to ad networks and publishers.  |
-| [Helping publishers send traffic](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#helping-publishers-to-send-traffic) | How publishers can send their traffic to your Adnuntius network, so that it can subsequently by purchased by you or buyers. Relevant to all. |
-| [Defining supported formats](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#defining-supported-formats) | How to determine the creative formats buyers should be able to buy. Relevant to all. |
-| [Invoicing](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#invoicing) | How to ensure that buyers are invoiced and publishers are informed about how to invoice you. Relevant to all. |
-| [Setting up report templates](https://docs.adnuntius.com/onboarding-guides/adnuntius-buying-network/abn-for-network-owners#setting-up-report-templates) | How to set up reports that can be generated and scheduled by publishers and buyers. Relevant to all.  |
+| **1 Create agreements with buyers and sellers.** Depending on your business model you should have agreements in place with the parties invited to your marketplace as ad buyers or publishers. We have templates to help you get started. | [Templates](abn-for-network-owners.md#agreements-with-partners) |
+| **2 Create products.** When you later in this process invite buyers, they will be able to buy campaigns, which starts with selecting a Marketplace Product. You must create at least one product, and here is how you do it. | [Documentation](../../adnuntius-advertising/admin-ui/admin/marketplace-products.md) |
+| **3 Create publisher teams and users.** If you are an agency or ad network, publishers that you onboard to your marketplace may expect access to manage their sites and ad units, and to read reports. Here is how you do it. | [Documentation](abn-for-network-owners.md#creating-publisher-users) |
+| **4 Train publishers.** If you are an agency or ad network and have invited publishers as users, they may have questions on how it all works, and how to make their traffic available. Here is a list of tasks they can do, and an explanation on how to do them.  | [Documentation](abn-for-publishers.md) |
+| **5 Create buyer teams and users.** If you are a publisher or ad network, buyers that you onboard will need access to your marketplace to buy and manage campaigns and more. Here is how you do it. | [Documentation](abn-for-network-owners.md#creating-buyer-users) |
+| **6 Train buyers.** If you are a publisher or ad network and have invited buyers as users, they may have questions on how it all works. Here is a list of tasks they can do, and an explanation on how to do them.  | [Documentation](abn-for-buyers.md) |
+| **7 Invoice buyers and/or pay out to sellers.** Depending on your business model you may have to invoice buyers, and/or paying to publishers their share of the revenue from buyers. Here is how you do it. | [Documentation](abn-for-network-owners.md#invoicing) |
+| **8 Set up report templates.** Report templates determine the reports that users can create from sites, line items and more, and also schedule for email distribution. Here is how you create templates for your customers.  | [Documentation](abn-for-network-owners.md#set-up-report-templates) |
 
 ## Agreements with Partners
 
 If you are an agency you need access to publishing inventory; if you are a publisher you need buyers to buy your inventory; and if you're an ad network you're likely to need both. Here you will find agreement templates that can help you along. Please see the comments in the Word documents for guidance, and please note that you may want to add, change or remove certain parts of it.
 
-{% file src="../../.gitbook/assets/202009-agreement-template-agency-to-publisher.docx" caption="Publishers \(use this if you are an agency\)" %}
+{% file src="../../.gitbook/assets/202012-agreement-template-network-to-agency.docx" caption="Network or Publisher to Agency" %}
 
-Template for publishers will come soon. 
+{% file src="../../.gitbook/assets/202012-agreement-template-network-to-publisher.docx" caption="Network or Agency to Publisher" %}
+
+Please note that you are responsible for the content of the contracts; these templates work only as tips.
 
 ## Creating Publisher Users
 
@@ -54,12 +57,6 @@ Whenever you get a new publisher onboard your network, you can create users for 
 Remember to use the revenue share field on earnings accounts in order to automatically calculate what publishers should earn. Also, remember to take into account your cost to Adnuntius. Let’s say for example’s sake that Adnuntius charges you 10% of revenue, and you want 15% for yourself. This means that you should specify a revenue share to the earnings account of 75%.
 {% endhint %}
 
-**Training.** Once these steps are completed and publishing users logs in, they will be able to create sites and ad units under their own earnings account, create reports for their own inventory, and invite users to join their own team. [Here you will find a guide that new users can use to get acquainted to the system.](abn-for-publishers.md)
-
-{% hint style="info" %}
-You can share the [publisher's guide](abn-for-publishers.md) with new publisher users directly in the invitation email by [modifying the invitation](../../adnuntius-advertising/admin-ui/admin/email-translations.md) email sent to those users. Just add the link in the invite email you choose to design, and they will get that link when they get the invitation to join your network.
-{% endhint %}
-
 ## Creating Buyer Users
 
 Whenever you get a new buyer onboard your network, you can create users for them so that they can access and manage their own advertisers \(for agencies\) and campaigns. Here is how you create roles, teams and users with the right permissions.
@@ -82,67 +79,9 @@ Whenever you get a new buyer onboard your network, you can create users for them
 3. Under the team you’ve created for the user, choose the role you created earlier \(“Marketplace Advertiser” if you followed the naming example above\). 
 4. Lastly, click save. When you’ve clicked save an invitation email will be automatically be sent to the user.
 
-**Training.** Once users are invited they can create advertisers, order, line items and more. [Here you will find a guide that new users can use to get acquainted to the system.](abn-for-buyers.md)
-
-{% hint style="info" %}
-You can share the [buyer's guide](abn-for-buyers.md) with new publisher users directly in the invitation email by [modifying the invitation](../../adnuntius-advertising/admin-ui/admin/email-translations.md) email sent to those users. Just add the link in the invite email you choose to design, and they will get that link when they get the invitation to join your network.
-{% endhint %}
-
-## Helping Publishers to Send Traffic
-
-Publishers can send traffic to your Adnuntius network in a number of ways. We normally recommend prebid since this works with most ad servers and enables the publisher to determine winners based on revenue, but the below methods are all valid. 
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Connection method</th>
-      <th style="text-align:left">How to</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Javascript tags</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/intro/">Documentation</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Prebid</td>
-      <td style="text-align:left">
-        <p><a href="../../other-useful-information/header-bidding-implementation.md">Documentation</a>
-        </p>
-        <p><a href="http://prebid.org/dev-docs/bidders.html#adnuntius">Prebid.org documentation</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">HTTP API</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/http-api.md">Documentation</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">OpenRTB</td>
-      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/open-rtb.md">Documentation</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-## Defining Supported Formats
-
-Whenever a buyer creates a [creative](../../adnuntius-advertising/admin-ui/advertising/creatives.md), that user needs to first choose a [layout](../../adnuntius-advertising/admin-ui/admin/layouts.md). A layout defines the look and feel of an ad, and lots of other properties. Here are some example use cases: 
-
-* You can allow buyers to use third party creative tags from other ad servers, or you can force buyers to upload all material directly to Adnuntius, if you are concerned about latency or data leakage.
-* You can allow buyers to buy native ads \(image and text ads\), where the look and feel of the native ad will be adapted to the design of the publishing page.
-* You can allow for responsive images that shrink or expand to the width of the publishing content, or you can restrict buyers to only buy static images. 
-
-To define supported layouts: 
-
-1. Go to [https://admin.adnuntius.com/admin/layouts](https://admin.adnuntius.com/admin/layouts) and create the layouts that you want to offer, or choose from the list. 
-2. Keep the ones you want to offer in the state "active". Then, archive the ones you do not want to offer. If you later want to re-activate them, just go to the archive and click to activate. All changes are real-time. 
-
 ## Invoicing
 
-As a network owner you will need to make sure that buyers are invoiced, and that publishers receive their share of revenue. If you want Adnuntius to handle invoicing, contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you get started.
+As a network owner you will need to make sure that buyers are invoiced, and that publishers receive their share of revenue. 
 
 **Invoicing Buyers.** Let's say that we just entered the month of July, and you want to send out invoices for June. Go to [https://admin.adnuntius.com/queries/advertiser](https://admin.adnuntius.com/queries/advertiser) and choose the period of last month. Under grouping, make sure that you group by "teams" so that you will see any agencies that operate advertising across multiple Advertisers, and should receive one invoice across those Advertisers.
 
@@ -157,7 +96,7 @@ Alternatively, you can also [integrate](../../adnuntius-advertising/admin-api/) 
 * Go to [https://admin.adnuntius.com/queries/earnings-account](https://admin.adnuntius.com/queries/earnings-account) and generate a report. This provides the information to manually inform publishers how much they have earned. The column "Cost" shows the gross revenue, while "Revenue Share" shows how much publishers have earned after costs are withdrawn. To understand how revenue shares are defined for publishers, please see [earnings accounts](../../adnuntius-advertising/admin-ui/inventory/earnings-accounts.md).
 * Alternatively you can create automated reports being sent to publishers. Read more below on how to set up report templates, and to learn specifically how to set up monthly revenue reports for publishers. 
 
-## Setting Up Report Templates
+## Set Up Report Templates
 
 Report templates define what kind of reports users should be able to create, and also define which kind of scheduled reports can be created. In the following we will describe a few examples that can be useful.
 
