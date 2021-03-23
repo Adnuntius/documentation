@@ -76,7 +76,7 @@ description: >-
 | dimensions | Yes | Array | An array of size arrays of the sizes of the line item you wish to run a reach estimation for. |
 | startDate | Yes | Date String | The start date of the reach estimate. |
 | endDate | Yes | Date String | The end date for the reach estimate. |
-| cpm | Yes | Array | Labels used for line item targeting. |
+| cpm | Yes | Array | The CPM price to use for the estimation. |
 | tier | Yes | String | The id of the tier you wish to run the estimate against. |
 
 ### Example responses object. 
@@ -120,16 +120,5 @@ description: >-
 | uncontestedReach | The estimation of number of impressions that match the provided targeting and that are not allocated to existing line-items. |
 | uncontestedReachUpperBound | Upper limit for the uncontested reach estimate. |
 | uncontestedReachLowerBound | Lower limit for the uncontested reach estimate. |
-| clickReach | An estimation of clicks. |
-| clickReachUpperBound | The highest amount of clicks estimated. |
-| clickReachLowerBound | The lowest amount of clicks estimated. |
-| visibleReach | An estimation of visible impressions. |
-| visibleReachUpperBound | The highest amount of visible imressions estimated. |
-| visibleReachLowerBound | The lowest amount of visible impressions estimated. |
-| viewableReach | An estimation of viewable impressions. |
-| viewableReachUpperBound | The highest amount of viewable imressions estimated. |
-| viewableReachLowerBound | The lowest amount of viewable impressions estimated. |
-| renderedReach | An estimation of rendered impressions. |
-| renderedReachUpperBound | The highest amount of rendered imressions estimated. |
-| renderedReachLowerBound | The lowest amount of rendered impressions estimated. |
 
+The values provided for `clickReach`, `visibleReach`, `viewableReach` and `renderedReach` provide similar information as the `reach` values, except for those specific event types rather than for *impressions*.
