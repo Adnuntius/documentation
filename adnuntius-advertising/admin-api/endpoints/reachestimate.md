@@ -61,8 +61,6 @@ description: >-
 	],
 	"startDate": "2021-03-15T23:00:00.000Z",
 	"endDate": "2021-03-23T22:59:59.999Z",
-	"modStartDate": "2021-03-15T23:00:00.000Z",
-	"modEndDate": "2021-03-23T22:59:59.999Z",
 	"cpm": {
 		"currency": "NOK",
 		"amount": 100
@@ -112,16 +110,16 @@ description: >-
 
 | Name | Description |
 | :--- | :--- |
-| numSamples | Number of samples that was emulated. |
-| matchedSamples |  |
-| totalTraffic. | The maximum amount of traffic. |
-| reach | The estimation of the impressions the Lineitem will get. |
-| reachUpperBound | The highest amount of impressions the estimate will deliver. |
-| reachLowerBound | The lowest amount of impressions the esimate will deliver. |
-| competitors | A list of the competitors that were encountered during the estimation. |
-| uncontestedReach | The estimation of impressions that are uncontested. |
-| uncontestedReachUpperBound | The highest amount of impressions that are uncontested. |
-| uncontestedReachLowerBound | The lowest amount of impressions that are uncontested. |
+| numSamples | Number of samples that were used to derive the reach estimate. |
+| matchedSamples | Number of samples that matched the provided targeting |
+| totalTraffic. | The maximum amount of traffic, regardless of targeting. |
+| reach | The estimated number of impressions that the targeting will match. |
+| reachUpperBound | An upper limit for the estimated number of impressions the targeting will match. |
+| reachLowerBound | A lower limit for the estimated number of impressions the targeting will match. |
+| competitors | A list of line-items that also compete against impressions that match the provided targeting. |
+| uncontestedReach | The estimation of number of impressions that match the provided targeting and that are not allocated to existing line-items. |
+| uncontestedReachUpperBound | Upper limit for the uncontested reach estimate. |
+| uncontestedReachLowerBound | Lower limit for the uncontested reach estimate. |
 | clickReach | An estimation of clicks. |
 | clickReachUpperBound | The highest amount of clicks estimated. |
 | clickReachLowerBound | The lowest amount of clicks estimated. |
