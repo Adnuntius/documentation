@@ -68,6 +68,6 @@ By default the Context Service will _automatically_ detect the important text co
 | HTML | CSS Selector | Examples: `p.article` or `div.main div.content` or `p.article, div.content` |
 | HTML | Exclude CSS Selector | This CSS selector excludes all matching elements from the main selector. |
 | HTML | View the website like a mobile | View the mobile-specific site by presenting as a mobile. |
-| JavaScript | JavaScript Reference | Examples: `myVariable` or `myVariable.myContent`\) |
+| JavaScript | JavaScript Reference | Examples: `myVariable` or `myVariable.myContent`) |
 | JavaScript | View the website like a mobile | View the mobile-specific site by presenting as a mobile. |
 
