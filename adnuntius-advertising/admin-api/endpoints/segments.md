@@ -4,7 +4,7 @@ The segments endpoint will deliver you all the possible segments that have been 
 
 ## GET
 
-A `GET` request can allways be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
+A `GET` request can always be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
 
 **Example GET request:**
 

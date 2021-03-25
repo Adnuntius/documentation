@@ -2,7 +2,7 @@
 
 ## GET
 
-A `GET` request can allways be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of this documentation.
+A `GET` request can always be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of this documentation.
 
 Example get request:
 

@@ -2,7 +2,7 @@
 
 ## GET
 
-A `GET` request can allways be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
+A `GET` request can always be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
 
 You must provide an `id` and/or `creative-id` to the `assets` endpoint when performing `POST` or `GET`
 
