@@ -70,6 +70,7 @@
     * [/teams](adnuntius-advertising/admin-api/endpoints/teams.md)
     * [/tiers](adnuntius-advertising/admin-api/endpoints/tiers.md)
     * [/users](adnuntius-advertising/admin-api/endpoints/users.md)
+    * [/coupons](adnuntius-advertising/admin-api/endpoints/coupons.md)
 * [Requesting Ads](adnuntius-advertising/requesting-ads/README.md)
   * [Javascript](adnuntius-advertising/requesting-ads/intro/README.md)
     * [Requesting an Ad](adnuntius-advertising/requesting-ads/intro/adn-request.md)
