@@ -69,10 +69,10 @@ For example, a Line Item links to many objects and both the related objects id a
 ```javascript
 {
     "id": "lineitem_1",
-    "name": "Test Campaign",
-    "product": {
-        "id": "product_1",
-        "url": "http://test.api.com/api/v1/products/product_1"
+    "name": "Test Line Item",
+    "order": {
+        "id": "order_1",
+        "url": "/api/v1/orders/order_1"
     }
 }
 ```
