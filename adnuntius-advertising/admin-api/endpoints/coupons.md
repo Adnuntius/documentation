@@ -38,7 +38,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
     }
     ],
     "labels": [
-        "user1@adnuntius.com"
+        "MY_LABEL"
     ]
 }
 ```
