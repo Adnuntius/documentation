@@ -294,53 +294,37 @@ This section explains how objects like users, advertisers, teams, campaigns and 
 
 ### Create a Self-Service Advertiser
 
-Try to create a self-service advertiser, so that you understand the process your customers will go through, and so that you know where to find objects in admin.adnuntius.com. If you don't know the link to your self-service portal, you will find it here: [https://admin.adnuntius.com/admin/network](https://admin.adnuntius.com/admin/network). if you still cannot see it, contact us at [support@adnuntius.com](mailto:support@adnuntius.com). 
-
-To understand how to create a new user, [follow this short process](user-interface-guide.md#registering-and-logging-in).
+Try to create a self-service advertiser, so that you understand the process your customers will go through, and so that you know where to find objects in admin.adnuntius.com. If you don't know the link to your self-service portal, you will find it here: [https://admin.adnuntius.com/admin/network](https://admin.adnuntius.com/admin/network). if you still cannot see it, contact us at [support@adnuntius.com](mailto:support@adnuntius.com). To understand how to create a new user, [follow this short process](user-interface-guide.md#registering-and-logging-in).
 
 {% hint style="info" %}
 Do you receive a message that "your account is not registered here"? This means that your email address is registered in Adnuntius already, perhaps under a test network or similar. If this happens, contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you. Or, you can try with another email address that you own.
 {% endhint %}
 
-Now that you have created a user it is time to have a look inside the [admin.adnuntius.com](https://admin.adnuntius.com/) user interface to understand where you find what has just been created.
+Once you have created a user it is time to have a look inside the [admin.adnuntius.com](https://admin.adnuntius.com/) user interface to understand where you find what has just been created.
 
-| Object | Find it |
-| :--- | :--- |
-| **User.** Find the user that was just created by clicking the link to the right, or by searching for your email address or name in the upper right corner inside admin.adnuntius.com. | [Users](https://admin.adnuntius.com/admin/users) |
-| **Advertiser** \(applies only if you ask for company name in the registration process\). Find the company that was just created by clicking the link to the right, or by searching. | [Advertisers](https://admin.adnuntius.com/advertisers) |
-
-### Create and Review a Campaign
-
-Try to create a campaign. 
-
-## Review Process
-
-Once a self-service advertiser has created and submitted a campaign you will need to approve the creative material before the campaign goes live. Go to [https://admin.adnuntius.com/reviews](https://admin.adnuntius.com/reviews) and to see all creatives pending review. If you approve a creative then the advertiser's campaign will go live immediately, and the advertiser will be notified about the decision.
-
-![Reviewing creatives in the admin user interface.](../../.gitbook/assets/202007-ss-creative-review.gif)
-
-If you click to reject a creative then you can choose a reason why this creative was rejected. The screenshot below shows you the range of reasons for rejection that you can apply. Once you have selected a reason then the advertiser will be notified of your decision, and they will also see the reason for rejection so that they can make the appropriate changes.
-
-![Reasons for rejecting a campaign. ](../../.gitbook/assets/ss-rejection-reason.png)
-
-![Self-service advertisers will see the reason why a creative was rejected.](../../.gitbook/assets/ss-rejection-displayed.png)
-
-## User Management
-
-A self-service advertiser will be able to register on their own through your self-service portal. However, they will not be able to log into admin.adnuntius.com, as this is an admin area for you alone. Once they have created a user however, you will be able to see and manage that user in admin.adnuntius.com. Here are the actions you can do to a user once it is created. 
-
-* Search for users by their name or email address in the upper right corner, or you can browse through users under [https://admin.adnuntius.com/admin/users](https://admin.adnuntius.com/admin/users).
-* Change the email address and name of the user. Changing the email means that the self-service advertiser will need to log in with the new email address, and this change is not automatically communicated through automated emails.
-* Update the user's password. Please note that if you update the user's password from within the admin user interface, that user will not be notified about changed passwords. If they should be notified, you should tell the user to click the "forgot your password" link from your portal's login page. 
-* Activate or de-activate the user. If you de-activate the user, then that user can no longer log in.
-* Change the user's locale. Whenever users register they will be able to set their location, and this may determine the language of emails and the user interface. If they for any reason have set the wrong locale you can manually change it here. 
-* You can also change their roles and teams, but this is not recommended as this may give users access to parts of the systems that they should not have.
+* Find the **user** by searching for your email address or name in the upper right corner inside admin.adnuntius.com, or [clicking here](https://admin.adnuntius.com/admin/users).
+* Find the **company** that was just created by searching, or by [clicking here](https://admin.adnuntius.com/advertisers). Applies only if you ask for company name in the registration process.
 
 ![Example self-service advertiser within admin.adnuntius.com](../../.gitbook/assets/self-service-user-example.png)
 
-**More about roles**. When a self-service advertiser registers they will automatically be set up with a network role and a team role. The network role will be an empy network role, while the team role will contain the "Self-Service Own Advertising" rights. To understand users, roles and team in detail, please see [here](../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md).
+### Create and Review a Campaign
 
-![An empty network role. ](../../.gitbook/assets/empty-network-role.png)
+Try to create a campaign by following [this user guide](user-interface-guide.md#creating-a-campaign). 
 
-![A self-service role.](../../.gitbook/assets/self-service-own-role.png)
+Once you have created a campaign it is time to have a look inside the [admin.adnuntius.com](https://admin.adnuntius.com/) user interface to understand where you find what has just been created. Start by **reviewing submitted campaigns:** Once a campaign is created it will land in a review queue, where you can see the creative, click URL and more, and approve the campaign or reject for a specific reason. [Go to reviews now](https://admin.adnuntius.com/reviews). 
+
+![Approve campaigns, or apply a reason for rejecting them.](../../.gitbook/assets/202103-ss-review.gif)
+
+If you reject a campaign then the advertiser will be notified through email, and will then be able to correct the campaign \(they will see the reason for rejection\) and re-submit it.
+
+![What a rejected campaign will look like to an advertiser.](../../.gitbook/assets/rejected%20%281%29.png)
+
+### Manage Campaigns
+
+Once a campaign is submitted you will be able to manage it inside [admin.adnuntius.com](https://admin.adnuntius.com/). 
+
+* You will see all self-service campaigns here: [https://admin.adnuntius.com/campaigns](https://admin.adnuntius.com/campaigns)
+* You will also see them among all line items here: [https://admin.adnuntius.com/line-items](https://admin.adnuntius.com/line-items)
+* If you ask self-service advertisers to provide a company name you can find their campaigns under each advertiser. go to [https://admin.adnuntius.com/advertisers](https://admin.adnuntius.com/advertisers), click on the relevant advertiser and then click on the "line items" tab.
+* You can run reports of all line items here: [https://admin.adnuntius.com/queries/line-item](https://admin.adnuntius.com/queries/line-item).
 
