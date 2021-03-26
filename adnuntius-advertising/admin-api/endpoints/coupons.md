@@ -44,26 +44,26 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | code | Yes | String | The promo code for the coupon. |
 | expiry | Yes | String | The expiry period of the coupon. |
 | discountType | Yes | MONETARY, PERCENTAGE | The discount type of the coupon. |
-| monetaryDiscount |  | monetaryDiscount object | The monetary value of the coupon. This is required if discountType is MONETARY. |
-| percentageDiscount |  | percentageDiscount object | The percentage value of the coupon. This is required if discountType is PERCENTAGE. |
+| monetaryDiscount |  | MonetaryDiscount object (see below) | The monetary value of the coupon. This is required if discountType is MONETARY. |
+| percentageDiscount |  | PercentageDiscount object (see below) | The percentage value of the coupon. This is required if discountType is PERCENTAGE. |
 | allProducts | Yes | Boolean | Specify whether the coupon applies to all products. |
 | products |  | Array | An array of Products that are eligible for the coupon discount. |
 | labels |  | Array | For searching purposes. |
 
-### monetaryDiscount object
+### MonetaryDiscount object
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| value | yes | monetary Object | The monetary value of the coupon. |
+| value | yes | Monetary Object (see below) | The monetary value of the coupon. |
 
-### monetary object
+### Monetary object
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
 | currency | yes | String | The currency of the monetary value. |
 | amount | yes | Number | The amount of the monetary value. |
 
-### percentageDiscount object
+### PercentageDiscount object
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
