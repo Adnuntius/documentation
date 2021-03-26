@@ -29,13 +29,9 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
         }
     },
     "allProducts": false,
-    "products": [
-    {
-        "id": "product_1"
-    },
-    {
-        "id": "product_2"
-    }
+    "products": [ 
+        "product_1",
+        "product_2"
     ],
     "labels": [
         "MY_LABEL"
@@ -51,7 +47,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | monetaryDiscount |  | monetaryDiscount object | The monetary value of the coupon. This is required if discountType is MONETARY. |
 | percentageDiscount |  | percentageDiscount object | The percentage value of the coupon. This is required if discountType is PERCENTAGE. |
 | allProducts | Yes | Boolean | Specify whether the coupon applies to all products. |
-| products |  | Array | An object with a Key `id` for the id of the product to be bound to the coupon. |
+| products |  | Array | An array of Products that are eligible for the coupon discount. |
 | labels |  | Array | For searching purposes. |
 
 ### monetaryDiscount object
