@@ -10,9 +10,8 @@ description: >-
 This section assumes that you have an agreement with Adnuntius, and have been granted access to admin.adnuntius.com. If you are looking for an offer, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. There are four main steps: 
 
 1. Create your publishing inventory.
-2. Make sure that ad requests are sent to your Adnuntius account.
-3. Set up the self-service portal. 
-4. Understand how it all works.
+2. Set up the self-service portal. 
+3. Understand how it all works.
 
 ## Create Publishing Inventory
 
@@ -70,12 +69,14 @@ If you are already set up with Adnuntius Advertising and will not make any chang
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">5 Ensure that trafffic is sent from your website to Adnuntius using javascripts,
+        prebid, cookieless or other methods.</td>
+      <td style="text-align:left"><a href="../../adnuntius-advertising/requesting-ads/">Documentation</a>
+      </td>
+    </tr>
   </tbody>
 </table>
-
-## Ensure that Ad Requests are Sent to Adnuntius
-
-If you are already set up with Adnuntius Advertising and will not make any changes to your publishing inventory, you can skip this step. [There are different ways of ensuring that ad requests are sent to Adnuntius, so that self-service advertisers can later buy this traffic.](../../adnuntius-advertising/requesting-ads/)
 
 ## Set Up the Self-Service Portal
 
@@ -96,11 +97,10 @@ If you are already set up with Adnuntius Advertising and will not make any chang
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">2 The process starts with you sending us a bit of material (send to
-        <a
-        href="mailto:support@adnuntius.com">support@adnuntius.com</a>) so that we can get your portal up and running.
-          Click on the link to the right to understand what to send us. While we
-          get you set up you can proceed with the points below.</td>
+      <td style="text-align:left">2 Send us a bit of material (to <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>)
+        so that we can get your portal up and running. Click on the link to the
+        right to understand what to send us. While we get you set up you can proceed
+        with the points below.</td>
       <td style="text-align:left"><a href="./#material-for-self-service-portal">Documentation</a>
       </td>
     </tr>

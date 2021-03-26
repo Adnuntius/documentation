@@ -13,61 +13,60 @@ description: >-
 
 ```javascript
 {
-	"targeting": {
-		"adUnitTarget": {
-			"adUnits": [],
-			"negated": false
-		},
-		"siteTarget": {
-			"sites": ["<site-ID>"],
-			"negated": false
-		},
-		"siteGroupTarget": {
-			"siteGroups": []
-		},
-		"userSegmentTargets": [],
-		"namedLocationTarget": {
-			"locations": [],
-			"negated": false
-		},
-		"deviceTargets": [],
-		"dateTarget": {
-			"dateRanges": [],
-			"timeZoneSetting": "USER"
-		},
-		"adUnitMatchingLabelTargets": [],
-		"categoryTargets": [],
-		"keywordTargets": [],
-		"keyValueTargets": [],
-		"retargetingTargets": [],
-		"dayPartingTargets": [],
-		"domainNameTarget": {
-			"names": [],
-			"negated": false
-		},
-		"ipAddressTarget": {
-			"addresses": []
-		}
-	},
-	"dimensions": [
-		[
-			980,
-			240
-		],
-		[
-			980,
-			120
-		]
-	],
-	"startDate": "2021-03-15T23:00:00.000Z",
-	"endDate": "2021-03-23T22:59:59.999Z",
-	"cpm": {
-		"currency": "NOK",
-		"amount": 100
-	},
-	"tier": "<tier-ID>"
+    "targeting": {
+        "adUnitTarget": {
+            "adUnits": [],
+            "negated": false
+        },
+        "siteTarget": {
+            "sites": ["<site-ID>"],
+            "negated": false
+        },
+        "siteGroupTarget": {
+            "siteGroups": []
+        },
+        "userSegmentTargets": [],
+        "namedLocationTarget": {
+            "locations": [],
+            "negated": false
+        },
+        "deviceTargets": [],
+        "dateTarget": {
+            "dateRanges": [],
+            "timeZoneSetting": "USER"
+        },
+        "adUnitMatchingLabelTargets": [],
+        "categoryTargets": [],
+        "keywordTargets": [],
+        "keyValueTargets": [],
+        "retargetingTargets": [],
+        "dayPartingTargets": [],
+        "domainNameTarget": {
+            "names": [],
+            "negated": false
+        },
+        "ipAddressTarget": {
+            "addresses": []
+        }
+    },
+    "dimensions": [
+        [
+            980,
+            240
+        ],
+        [
+            980,
+            120
+        ]
+    ],
+    "startDate": "2021-03-15T23:00:00.000Z",
+    "endDate": "2021-03-23T22:59:59.999Z",
+    "cpm": {
+        "currency": "NOK",
+        "amount": 100
+    },
+    "tier": "<tier-ID>"
 }
-
 ```
 
 | Name | Required | Restriction | Description |
@@ -79,32 +78,32 @@ description: >-
 | cpm | Yes | Array | The CPM price to use for the estimation. |
 | tier | Yes | String | The id of the tier you wish to run the estimate against. |
 
-### Example responses object. 
+### Example responses object.
 
 ```javascript
 {
-	"numSamples": 60449,
-	"matchedSamples": 0,
-	"totalTraffic": 1630297,
-	"reach": 0,
-	"reachUpperBound": 54,
-	"reachLowerBound": 0,
-	"competitors": {},
-	"uncontestedReach": 0,
-	"uncontestedReachUpperBound": 54,
-	"uncontestedReachLowerBound": 0,
-	"clickReach": 0,
-	"clickReachUpperBound": 54,
-	"clickReachLowerBound": 0,
-	"visibleReach": 0,
-	"visibleReachUpperBound": 54,
-	"visibleReachLowerBound": 0,
-	"viewableReach": 0,
-	"viewableReachUpperBound": 54,
-	"viewableReachLowerBound": 0,
-	"renderedReach": 0,
-	"renderedReachUpperBound": 54,
-	"renderedReachLowerBound": 0
+    "numSamples": 60449,
+    "matchedSamples": 0,
+    "totalTraffic": 1630297,
+    "reach": 0,
+    "reachUpperBound": 54,
+    "reachLowerBound": 0,
+    "competitors": {},
+    "uncontestedReach": 0,
+    "uncontestedReachUpperBound": 54,
+    "uncontestedReachLowerBound": 0,
+    "clickReach": 0,
+    "clickReachUpperBound": 54,
+    "clickReachLowerBound": 0,
+    "visibleReach": 0,
+    "visibleReachUpperBound": 54,
+    "visibleReachLowerBound": 0,
+    "viewableReach": 0,
+    "viewableReachUpperBound": 54,
+    "viewableReachLowerBound": 0,
+    "renderedReach": 0,
+    "renderedReachUpperBound": 54,
+    "renderedReachLowerBound": 0
 }
 ```
 
@@ -121,4 +120,5 @@ description: >-
 | uncontestedReachUpperBound | Upper limit for the uncontested reach estimate. |
 | uncontestedReachLowerBound | Lower limit for the uncontested reach estimate. |
 
-The values provided for `clickReach`, `visibleReach`, `viewableReach` and `renderedReach` provide similar information as the `reach` values, except for those specific event types rather than for *impressions*.
+The values provided for `clickReach`, `visibleReach`, `viewableReach` and `renderedReach` provide similar information as the `reach` values, except for those specific event types rather than for _impressions_.
+
