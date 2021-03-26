@@ -42,7 +42,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | id | String | Identification of the object. |
 | createTime | String | Date string referencing the creation of the object. |
 | updateTime | String | Date string referencing the update of the object. |
-| objectState | ACTIVE, INACTIVE, HIDDEN | State of the object, will dissable or delete the object. |
+| objectState | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
 | validationWarnings | Array | Will tell if there's an error hindering the segment to work properly. |
 | description | String | The description for the creative |
 | name | String | The name of the site group |

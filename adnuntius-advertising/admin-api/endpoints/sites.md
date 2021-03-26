@@ -33,7 +33,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will dissable or delete the object. |
+| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
 | name | Yes | String | The name of the site group |
 | description |  | String | A desccription of the group |
 | siteUrl |  | String | URL to the site in question |

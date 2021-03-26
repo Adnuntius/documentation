@@ -54,7 +54,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| objectState |  | ACTIVE, INACTIVE, HIDDEN \(String\) | State of the object, will dissable or delete the object. |
+| objectState |  | ACTIVE, INACTIVE, HIDDEN \(String\) | State of the object, will disable or delete the object. |
 | name | Yes | String | The name of the site group |
 | site |  | Object | An object with a Key `id` for the id of the site that the adunit is a belonging to. |
 | labels |  | Array | For searching purposes. |

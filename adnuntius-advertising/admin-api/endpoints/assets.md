@@ -44,7 +44,7 @@ The earnings account object consists of the following:
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will dissable or delete the object. |
+| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
 
 ..... more to document.
 

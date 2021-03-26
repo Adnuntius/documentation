@@ -49,7 +49,7 @@ POST https://api.adnuntius.com/api/v1/users/<id>?context=<context>
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| objectState | Yes | ACTIVE, INACTIVE, HIDDEN | State of the object, will dissable or delete the object. |
+| objectState | Yes | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
 | username | Yes | String | The means for which a user logs in, recommended would be the email address to simplify sending reports. |
 | name |  | String | The name of the user. |
 | displayName |  | String | A name that will be displayed in the UI once a user is logged in. |

@@ -39,7 +39,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will dissable or delete the object. |
+| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
 | name | Yes | String | The name of the order |
 | labels |  | Array | For searching purposes. |
 | notes |  | Array | An array of objects with a Key `id` for the id of the note to be bound to the order. |

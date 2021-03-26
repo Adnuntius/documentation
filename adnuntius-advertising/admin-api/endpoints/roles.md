@@ -37,7 +37,7 @@ POST https://api.adnuntius.com/api/v1/roles/<id>?context=<context>
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will dissable or delete the object. |
+| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
 | name | Yes | String | The name of the object |
 | labels |  | Array | For searching purposes. |
 | sites |  | Array | An array of objects with a Key `id` for the id of the site to be bound to the role. |

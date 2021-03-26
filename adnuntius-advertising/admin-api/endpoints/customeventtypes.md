@@ -32,7 +32,7 @@ POST https://api.adnuntius.com/api/v1/contextserviceconnections/<id>?context=<co
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will dissable or delete the object. |
+| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
 | description |  | String | A desccription of the group |
 | name | Yes | String | The name of the object |
 | valueType | yes | number, milliseconds, seconds, money \(String\) | What value type the event in question should be, described below. |

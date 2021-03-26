@@ -34,7 +34,7 @@ POST https://api.adnuntius.com/api/v1/contextserviceconnections/<id>?context=<co
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will dissable or delete the object. |
+| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
 | name | Yes | String | The name of the object |
 | contextService | yes | "CXENSE" \(String\) | The Context service in question |
 | username | yes | String | The username of the user for the context service |
