@@ -54,17 +54,17 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| value | yes | Monetary Object (see below) | The monetary value of the coupon. |
+| value | Yes | Monetary Object (see below) | The monetary value of the coupon. |
 
 ### Monetary object
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| currency | yes | String | The currency of the monetary value. |
-| amount | yes | Number | The amount of the monetary value. |
+| currency | Yes | String | The currency of the monetary value. |
+| amount | Yes | Number | The amount of the monetary value. |
 
 ### PercentageDiscount object
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
-| value | yes | Number | The percentage value of the coupon. |
+| value | Yes | Number | The percentage value of the coupon. |
