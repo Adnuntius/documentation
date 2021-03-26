@@ -9,13 +9,9 @@ description: >-
 
 ## Registering and logging in
 
-Registering has an advertiser is easy and free. First go to https://bookings.adnuntius.com/\[network-name\] \(where the network name is the name the publisher applies for its booking portal\). 
+Registering has an advertiser is easy and free. Go to the self-service portal and click to register as a new user. Fill in the information required, then click to register. You will now get a confirmation email \(make sure that you check your spam folder if you don't receive one\). Click the link in the email to verify your email address, apply a password and you are registered. 
 
-1. Register with your email, name and location, and verify that you are a human. 
-2. Get a confirmation that we have sent you an email.
-3. Go to your email inbox and click the link so that you can verify your email adress, create a password, and activate the account. 
-
-![Registering as a user is fast and easy.](../../.gitbook/assets/ss-registration-process.png)
+![\(1\) Register as a new user, and \(2\) verify your email address.](../../.gitbook/assets/ss-registration-process.png)
 
 When you later need to log in, just enter your email address and password. If you forget your password you can at any time reset your password.
 
