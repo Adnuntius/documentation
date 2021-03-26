@@ -50,7 +50,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | discountType | Yes | MONETARY, PERCENTAGE | The discount type of the coupon. |
 | monetaryDiscount |  | monetaryDiscount object | The monetary value of the coupon. This is required if discountType is MONETARY. |
 | percentageDiscount |  | percentageDiscount object | The percentage value of the coupon. This is required if discountType is PERCENTAGE. |
-| allProducts |  | Boolean | Specify whether the coupon applies to all products. |
+| allProducts | Yes | Boolean | Specify whether the coupon applies to all products. |
 | products |  | Array | An object with a Key `id` for the id of the product to be bound to the coupon. |
 | labels |  | Array | For searching purposes. |
 
