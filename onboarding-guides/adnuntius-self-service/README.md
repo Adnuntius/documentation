@@ -172,19 +172,17 @@ There are three things you need to do in order to set up your very own self-serv
       <td style="text-align:left">Requirements: 16x16px, PNG, GIF or JPG, transparent background</td>
     </tr>
     <tr>
-      <td style="text-align:left">Optional styling schema (unless you want to use our default), showing
-        the styling on certain elements. Please deliver the filled out styling
-        schema to <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
+      <td style="text-align:left">Optional styling schema where you can specify colors, or use CSS. Please
+        deliver the filled out styling schema or CSS file/reference to <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
       <td
       style="text-align:left"><a href="https://docs.google.com/spreadsheets/d/1FQ43t3kqx_r755ujKq6iiavy_MY72Hnvv_wfOkiNhzs/edit?usp=sharing">Styling schema to fill out</a>
         </td>
     </tr>
     <tr>
-      <td style="text-align:left">Registration information. When a user decides to create an account they
-        will always be asked for their name, email and location. But we can also
-        collect information such as company name and VAT number. Please let us
-        know what information should be collected about an advertiser, and what
-        should be mandatory and optional.</td>
+      <td style="text-align:left">Registration information. When a user creates an account they will always
+        be asked for their name, email and location. But we can also collect information
+        such as company name and VAT number. Let us know what information should
+        be collected, and what should be mandatory and optional.</td>
       <td style="text-align:left">
         <p>Example:</p>
         <ul>
