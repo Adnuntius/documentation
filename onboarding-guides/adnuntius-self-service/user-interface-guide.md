@@ -19,7 +19,7 @@ When you later need to log in, just enter your email address and password. If yo
 
 ## Creating a Campaign
 
-Once you are logged in you will see the campaigns overview page, where you will later see all live, pending and finished campaigns. [Skip to learn more about the campaign overview](https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service/user-interface-guide#campaign-overview). Here is how you create a campaign. First, click "New campaign".
+Once you are logged in you will see the campaigns overview page, where you will later see all live, pending and finished campaigns. [Skip to learn more about the campaign overview](https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service/user-interface-guide#campaign-overview). Here is how you create a campaign. First, click "Create New Campaign".
 
 **Select an Advertising Option**. Advertising options can vary depending on who you buy campaigns from. An advertising option can as such be considered as a "product" where your provider makes available certain sizes, formats and targeting criteria available for buying. An advertising option will in all cases include the following: 
 
