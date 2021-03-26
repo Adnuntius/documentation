@@ -43,9 +43,9 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | :--- | :--- | :--- | :--- |
 | code | Yes | String | The promo code for the coupon. |
 | expiry | Yes | String | The expiry period of the coupon. |
-| discountType | Yes | MONETARY, PERCENTAGE | The discount type of the coupon. |
-| monetaryDiscount |  | MonetaryDiscount object (see below) | The monetary value of the coupon. This is required if discountType is MONETARY. |
-| percentageDiscount |  | PercentageDiscount object (see below) | The percentage value of the coupon. This is required if discountType is PERCENTAGE. |
+| discountType | Yes | `MONETARY`, `PERCENTAGE` | The discount type of the coupon. |
+| monetaryDiscount |  | MonetaryDiscount object (see below) | The monetary value of the coupon. This is required if discountType is `MONETARY`. |
+| percentageDiscount |  | PercentageDiscount object (see below) | The percentage value of the coupon. This is required if discountType is `PERCENTAGE`. |
 | allProducts | Yes | Boolean | Specify whether the coupon applies to all products. |
 | products |  | Array | An array of Products that are eligible for the coupon discount. |
 | labels |  | Array | For searching purposes. |
