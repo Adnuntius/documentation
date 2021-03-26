@@ -32,7 +32,7 @@ Below is an example where two advertising options are made available.
 
 ![Examples of advertising options and ad designs.](../../.gitbook/assets/ss-ad-options-and-designs.png)
 
-**Select an ad design**. Above are two alternative ad designs made available by an advertising option. Once you have chosen an advertising option, you next choose the ad design that you want to buy. As is the case with advertising options, ad designs vary depending on who you buy campaigns from. Regardless of what you choose though, ad designs will determine the look and feel of your advertisement, and what information the ad should contain. 
+**Select an ad design**. This choice will only appear if the publisher has made multiple choices available. Above are two alternative ad designs made available by an advertising option. Once you have chosen an advertising option, you next choose the ad design that you want to buy. 
 
 **Design your ad.** Once you have chosen an ad design you can upload material and add details. Depending on the design you have chosen you will be asked to provide things such as images, click URLs \(where the user should land if he/she clicks on the ad\), and other information such as text fields if you are buying formats like for instance native ads. 
 
@@ -41,17 +41,15 @@ Below is an example where two advertising options are made available.
 **Specify campaign details**. Apply the following: 
 
 * A name of your choice so that you easily find your campaign after you've saved it. 
-* A start and end date. You can leave the end date blank if you want your campaign to run until the budget is spent. 
+* A start and end date. 
 * A total budget for the campaign.
-* Ad delivery style; choose between having impressions delivered evenly over the life of your campaign, and having impressions delivered as fast as possible. 
+* Ad delivery style; deliver the purchased traffic ASAP, or evenly over the life of your campaign.
 
 ![Specify your campaign details and pay.](../../.gitbook/assets/specify-campaign-details.png)
 
-**Pay for your campaign**. We will place a hold on your PayPal account for the budget you applied, which will enable your campaign to be reviewed and run. Once your campaign has ended, we will take the budgeted amount from your account, or if the campaign for some reason didn't deliver all its traffic, a lower amount proportional to the number of impressions your campaign delivered versus the expected impressions.
+**Pay for your campaign**. If you are asked to pay by credit card you will be charged immediately when completing your campaign booking. Once your campaign has ended a performance report and receipt will be generated. You will be able to stop the delivery of your campaign at any time.
 
-We use Paypal as the payment service provider in order to provide you with a reliable and safe payment method. You can choose to pay using your Paypal account or a credit card. 
-
-![We use Paypal as payment service provider.](../../.gitbook/assets/paypal.png)
+If your campaign does not complete its delivery then your card will receive a refund equal to the traffic that was not delivered. Refunds will only be issued if the remaining amount to be refunded is equal to or greater than 1 USD, or the equivalent sum in another currency. If the remaining is less than 1 USD then no refund will be made.
 
 **Get your campaign approved**. Once you have paid for the campaign, it will be reviewed by support personnel to ensure that everything looks ok. If something is missing or doesn't look right you will receive an email telling you to correct your campaign.
 
