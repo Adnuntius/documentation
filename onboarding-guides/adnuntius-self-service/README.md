@@ -80,6 +80,131 @@ If you are already set up with Adnuntius Advertising and will not make any chang
 
 ## Set Up the Self-Service Portal
 
+There are three things you need to do in order to set up your very own self-service portal; send us material for the portal's design and brand, create products, and set up email messaging. 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">What to do</th>
+      <th style="text-align:left">Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1 Send us a bit of material (to <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>)
+        so that we can get your portal up and running. Click on the link to the
+        right to understand what to send us. While we get you set up you can proceed
+        with the points below.</td>
+      <td style="text-align:left">See below for list</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2 Create products. Products package dimensions, pricing, layouts and targeting
+        so that buying ads can be made simple. Whenever a self-service advertiser
+        creates a campaign, choosing a product is the first step in creating that
+        campaign.</td>
+      <td style="text-align:left">
+        <p><a href="../../adnuntius-advertising/admin-ui/admin/products.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/admin/products">Start</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3 Personalize emails that will be sent to users when they register, forget
+        their passwords and more. You can create multiple translations and target
+        the emails to countries of each language.</td>
+      <td style="text-align:left">
+        <p><a href="../../adnuntius-advertising/admin-ui/admin/email-translations.md">Documentation</a>
+        </p>
+        <p><a href="https://admin.adnuntius.com/admin/email-translations">Start</a>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Material for self-service portal.** In order to get your portal set up we need some information from you. Please send the below to [support@adnuntius.com](mailto:support@adnuntius.com). 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Material needed and explanations</th>
+      <th style="text-align:left">Examples and requirements</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">A &quot;domain name&quot;. Your self-service portal will be placed under
+        a URL such as the example on the left, so please send us your preferred
+        name.</td>
+      <td style="text-align:left">
+        <p>https://bookings.adnuntius.com/yourname/</p>
+        <p>or bookings.yourdomain.com</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A background image and text for the login page. The image lets you create
+        your own look, while the text to the left of the login box lets you communicate
+        your channel to the advertiser in short. See example below (the image with
+        boats in the background).</td>
+      <td style="text-align:left">Requirements: 1920x1080px, max 500kb</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Content for an optional FAQ page. In settings self-service advertisers
+        will be able to access a FAQ page in order to get answers to questions.
+        You can use the information we have provided in the user interface guide,
+        or provide your own.</td>
+      <td style="text-align:left">User interface guide: <a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service/user-interface-guide">https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service/user-interface-guide</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">A top menu logo. Logged in users will have your logo in the top menu bar.
+        An example image is provided below.</td>
+      <td style="text-align:left">Requirements: max 200x40px, max 150kb, transparent background</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Optional customer support contact (if you will provide customer support)
+        in the form of an email address.</td>
+      <td style="text-align:left">Example: support@yourdomain.com</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Favicon (browser tab icon).</td>
+      <td style="text-align:left">Requirements: 16x16px, PNG, GIF or JPG, transparent background</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Optional styling schema (unless you want to use our default), showing
+        the styling on certain elements. Please deliver the filled out styling
+        schema to <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
+      <td
+      style="text-align:left"><a href="https://docs.google.com/spreadsheets/d/1FQ43t3kqx_r755ujKq6iiavy_MY72Hnvv_wfOkiNhzs/edit?usp=sharing">Styling schema to fill out</a>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Registration information. When a user decides to create an account they
+        will always be asked for their name, email and location. But we can also
+        collect information such as company name and VAT number. Please let us
+        know what information should be collected about an advertiser, and what
+        should be mandatory and optional.</td>
+      <td style="text-align:left">
+        <p>Example:</p>
+        <ul>
+          <li>Company name (mandatory)</li>
+          <li>VAT number (optional)</li>
+          <li>Address (mandatory)</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+![Personalize the registration/login page with an image and short introduction text.](../../.gitbook/assets/ss-login%20%282%29.png)
+
+![The Adnuntius logo on the top left will be replaced by your own logo.](../../.gitbook/assets/top-menu-bar-logo%20%281%29.png)
+
+## Understand how It All works
+
+
+
 <table>
   <thead>
     <tr>
@@ -169,90 +294,6 @@ If you are already set up with Adnuntius Advertising and will not make any chang
     </tr>
   </tbody>
 </table>
-
-### Material for Self-Service Portal
-
-In order to get your portal set up we need some information from you. Please send the below to [support@adnuntius.com](mailto:support@adnuntius.com). 
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Material needed and explanations</th>
-      <th style="text-align:left">Examples and requirements</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">A &quot;domain name&quot;. Your self-service portal will be placed under
-        a URL such as the example on the left, so please send us your preferred
-        name.</td>
-      <td style="text-align:left">
-        <p>https://bookings.adnuntius.com/yourname/</p>
-        <p>or bookings.yourdomain.com</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">A background image and text for the login page. The image lets you create
-        your own look, while the text to the left of the login box lets you communicate
-        your channel to the advertiser in short. See example below (the image with
-        boats in the background).</td>
-      <td style="text-align:left">Requirements: 1920x1080px, max 500kb</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Content for an optional FAQ page. In settings self-service advertisers
-        will be able to access a FAQ page in order to get answers to questions.
-        You can use the information we have provided in the user interface guide,
-        or provide your own.</td>
-      <td style="text-align:left">User interface guide: <a href="https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service/user-interface-guide">https://docs.adnuntius.com/onboarding-guides/adnuntius-self-service/user-interface-guide</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">A top menu logo. Logged in users will have your logo in the top menu bar.
-        An example image is provided below.</td>
-      <td style="text-align:left">Requirements: max 200x40px, max 150kb, transparent background</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Optional customer support contact (if you will provide customer support)
-        in the form of an email address.</td>
-      <td style="text-align:left">Example: support@yourdomain.com</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Favicon (browser tab icon).</td>
-      <td style="text-align:left">Requirements: 16x16px, PNG, GIF or JPG, transparent background</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Optional styling schema (unless you want to use our default), showing
-        the styling on certain elements. Please deliver the filled out styling
-        schema to <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>.</td>
-      <td
-      style="text-align:left">
-        <p><a href="https://docs.google.com/spreadsheets/d/1FQ43t3kqx_r755ujKq6iiavy_MY72Hnvv_wfOkiNhzs/edit?usp=sharing">Styling schema to fill out</a>
-        </p>
-        <p><a href="https://drive.google.com/file/d/1EH4l5KfZfTvrx-KLzb9L112Np6xHcl08/view?usp=sharing">Guide to styling schema</a>
-        </p>
-        </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Registration information. When a user decides to create an account they
-        will always be asked for their name, email and location. But we can also
-        collect information such as company name and VAT number. Please let us
-        know what information should be collected about an advertiser, and what
-        should be mandatory and optional.</td>
-      <td style="text-align:left">
-        <p>Example:</p>
-        <ul>
-          <li>Company name (mandatory)</li>
-          <li>VAT number (optional)</li>
-          <li>Address (mandatory)</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-![Personalize the registration/login page with an image and short introduction text.](../../.gitbook/assets/ss-login%20%282%29.png)
-
-![The Adnuntius logo on the top left will be replaced by your own logo.](../../.gitbook/assets/top-menu-bar-logo%20%281%29.png)
 
 ## Approval Process
 
