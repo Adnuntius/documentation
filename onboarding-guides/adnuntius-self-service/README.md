@@ -7,11 +7,11 @@ description: >-
 
 # Adnuntius Self-Service
 
-This section assumes that you have an agreement with Adnuntius, and have been granted access to admin.adnuntius.com. If you are looking for an offer, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. There are four main steps: 
+This section assumes that you have an agreement with Adnuntius, and have been granted access to admin.adnuntius.com, and the self-service product. If you are looking for an offer, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. There are three main steps to get started.
 
-1. Create your publishing inventory.
-2. Set up the self-service portal. 
-3. Understand how it all works.
+1. Create publishing inventory.
+2. Set up your self-service portal. 
+3. Understand the system and workflow.
 
 ## Create Publishing Inventory
 
@@ -78,7 +78,7 @@ If you are already set up with Adnuntius Advertising and will not make any chang
   </tbody>
 </table>
 
-## Set Up the Self-Service Portal
+## Set Up Your Self-Service Portal
 
 There are three things you need to do in order to set up your very own self-service portal; send us material for the portal's design and brand, create products, and set up email messaging. 
 
@@ -199,45 +199,42 @@ There are three things you need to do in order to set up your very own self-serv
 
 ![The Adnuntius logo on the top left will be replaced by your own logo.](../../.gitbook/assets/top-menu-bar-logo%20%281%29.png)
 
-## Understand how It All works
+## Understand the System and Workflow
 
-
+This section's purpose is to help you prepare to operate your self-service portal A-Z. Here you will be guided through all things you need to know.
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">What to do</th>
+      <th style="text-align:left">What you need to know</th>
       <th style="text-align:left">Resources</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1 Understand the terms and conditions that self-service advertisers agree
-        to. Whenever a self-service advertiser signs up to use your portal, they
-        agree to these terms and conditions, so make sure that you understand them
+      <td style="text-align:left">1 The terms and conditions that self-service advertisers agree to. Whenever
+        a self-service advertiser signs up to use your portal, they agree to these
+        terms and conditions, so make sure that you understand and accept them
         too.</td>
       <td style="text-align:left"><a href="https://adnuntius.com/resources/tc-self-service-advertising/">Terms</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">2 Send us a bit of material (to <a href="mailto:support@adnuntius.com">support@adnuntius.com</a>)
-        so that we can get your portal up and running. Click on the link to the
-        right to understand what to send us. While we get you set up you can proceed
-        with the points below.</td>
-      <td style="text-align:left"><a href="./#material-for-self-service-portal">Documentation</a>
+      <td style="text-align:left">2 Understand the overall workflow and how users, orders, teams and advertisers
+        are used and created once a self-service advertiser chooses to create an
+        account.</td>
+      <td style="text-align:left"><a href="./#understand-the-overall-workflow">Documentation</a>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">3 Create products. Products package dimensions, pricing, layouts and targeting
-        so that buying ads can be made simple. Whenever a self-service advertiser
-        creates a campaign, choosing a product is the first step in creating that
-        campaign.</td>
-      <td style="text-align:left">
-        <p><a href="../../adnuntius-advertising/admin-ui/admin/products.md">Documentation</a>
-        </p>
-        <p><a href="https://admin.adnuntius.com/admin/products">Start</a>
-        </p>
-      </td>
+      <td style="text-align:left">3 Create a self-service advertiser for yourself to learn the process your
+        self-service advertiser customers to through, and to learn where objects
+        will be stored in admin.adnuntius.com.</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">4 Understand the user interface. When you have set up the portal you should
@@ -261,24 +258,6 @@ There are three things you need to do in order to set up your very own self-serv
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">6 Personalize emails being sent to new users, and to those who have forgotten
-        their passwords. You can create multiple translations and target the emails
-        to countries of each language.</td>
-      <td style="text-align:left">
-        <p><a href="../../adnuntius-advertising/admin-ui/admin/email-translations.md">Documentation</a>
-        </p>
-        <p><a href="https://admin.adnuntius.com/admin/email-translations">Start</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">7 Understand the workflow, and how users, orders, teams and advertisers
-        are used and created once a self-service advertiser chooses to create an
-        account.</td>
-      <td style="text-align:left"><a href="./#understanding-the-workflow">Documentation</a>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">8 Understand user management. While Adnuntius will be set up with the
         correct roles as part of the onboarding process, understanding how to manage
         users is an important part of providing good customer service.</td>
@@ -293,7 +272,33 @@ There are three things you need to do in order to set up your very own self-serv
   </tbody>
 </table>
 
-## Approval Process
+### Understand the Overall Workflow
+
+This section explains how objects like users, advertisers, teams, campaigns and more are created when a self-service advertisers choose to join and to create campaigns. This helps you understand how to find various objects in admin.adnuntius.com when it is needed. As the image below illustrates there are three types of objects \(see the left-most side of the image below\) you should know about. 
+
+* Certain objects are prepared in advance by you as a publisher. These include products and teams. 
+* When a self-service advertiser signs up they can perform certain actions.
+* Whatever self-service advertisers create, you as administrator will find it in admin.adnuntius.com.
+
+![](../../.gitbook/assets/ss-workflow.png)
+
+| Steps and explanations | Resources |
+| :--- | :--- |
+| **1 Self-service advertiser registers** with a name, email, company name \(you can choose if company name is needed\) and password. This is the one time job that each user has to go through in order to advertise with you. | [Example registration page](https://assets.adnuntius.com/xOVX5p4fQbjhI8Nz6_iBU34re-unkwsad633WKXeV4s.png) |
+| 1.1 All self-service users are automatically created as part of a team \(we will set up a team for you as part of the implementation process\). All users registering as self-service advertisers will automatically become part of this team. | [See how this is organized](./#user-management) |
+| 1.2 An Advertiser is automatically created with the company’s name, and tied to the team above. Note that this step applies only if you require the self-service advertiser to provide a company name when registering. | [How Advertisers are stored](../../adnuntius-advertising/admin-ui/advertising/advertisers.md) |
+| **2 Self-service advertiser creates and submits a campaign.** This involves choosing a product, design and targeting, applying a budget, and paying for the campaign \(if you want advertisers to prepay\). You will then have to review this campaign. | [More about products](../../adnuntius-advertising/admin-ui/admin/products.md) |
+| 2.1 All campaigns are automatically assigned to one Order as designed on the Product. As an administrator you can visit and manage this order.  | [More about orders](../../adnuntius-advertising/admin-ui/advertising/orders.md) |
+| 2.2 A Line Item is created for this campaign. As an administrator you can make any changes to each line item, such as changing targeting or creatives. | [More about line items](../../adnuntius-advertising/admin-ui/advertising/line-items.md) |
+| **3 Self-service advertiser receives reporting, and manages the campaign.** Campaigns are now running and registering reporting. |  |
+
+### Create a Self-Service Advertiser
+
+Try to create a self-service advertiser, so that you understand the process your customers will go through, and so that you know where to find objects in admin.adnuntius.com. If you don't know the link to your self-service portal, you will find it here: [https://admin.adnuntius.com/admin/network](https://admin.adnuntius.com/admin/network). if you still cannot see it, contact us at [support@adnuntius.com](mailto:support@adnuntius.com). 
+
+
+
+## Review Process
 
 Once a self-service advertiser has created and submitted a campaign you will need to approve the creative material before the campaign goes live. Go to [https://admin.adnuntius.com/reviews](https://admin.adnuntius.com/reviews) and to see all creatives pending review. If you approve a creative then the advertiser's campaign will go live immediately, and the advertiser will be notified about the decision.
 
@@ -304,26 +309,6 @@ If you click to reject a creative then you can choose a reason why this creative
 ![Reasons for rejecting a campaign. ](../../.gitbook/assets/ss-rejection-reason.png)
 
 ![Self-service advertisers will see the reason why a creative was rejected.](../../.gitbook/assets/ss-rejection-displayed.png)
-
-## Understanding the Workflow
-
-This section explains how objects like users, advertisers, teams, campaigns and more are created when a self-service advertisers choose to join and to create campaigns. This helps you understand how to find various objects in admin.adnuntius.com when it is needed. As the image below illustrates there are three types of objects \(see the left-most side of the image below\) you should know about. 
-
-* Certain objects are prepared in advance by you as a publisher. These include products and teams. 
-* When a self-service advertiser chooses to sign up, they will create a user access, after which they can also create campaigns. 
-* When self-service advertisers create the items above, you as a publisher will find these in admin.adnuntius.com.
-
-![](../../.gitbook/assets/ss-workflow.png)
-
-| Steps and explanations | Resources |
-| :--- | :--- |
-| **1 Self-service advertiser registers** with a name, email, company name \(you can choose if company name is needed\) and password. This is the one time job that each user has to go through in order to create user access.  | [Example registration page](https://assets.adnuntius.com/xOVX5p4fQbjhI8Nz6_iBU34re-unkwsad633WKXeV4s.png) |
-| 1.1 All self-service users are automatically created as part of one team. As part of the implementation process we will set up a team for you. All users registering as self-service advertisers will automatically become part of this team. | [See how this is organized](./#user-management) |
-| 1.2 An Advertiser is automatically created with the company’s name. The Advertiser is automatically tied to the team above. Please note that we do not require this step; if you are allowed to, and want to, allow private persons to create ads then you can do so.  | [How Advertisers are stored](../../adnuntius-advertising/admin-ui/advertising/advertisers.md) |
-| **2 Self-service advertiser creates and submits a campaign.** This involves choosing a product, design \(layout\) and targeting made avaiable by you through one or more products, applying a budget, and paying for the campaign \(if you want advertisers to prepay\).  | [More about products](../../adnuntius-advertising/admin-ui/admin/products.md) |
-| 2.1 All campaigns are automatically assigned to one Order as designed on the Product. As a publisher you can visit and manage this order.  |  |
-| 2.2 A Line Item is created for this campaign. As a publisher you can make any changes to each line item, such as changing targeting or creatives. |  |
-| **3 Self-service advertiser receives reporting, and manages the campaign.** Campaigns are now running and registering reporting. |  |
 
 ## User Management
 
