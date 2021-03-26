@@ -170,7 +170,7 @@ If you are already set up with Adnuntius Advertising and will not make any chang
   </tbody>
 </table>
 
-## Material for Self-Service Portal
+### Material for Self-Service Portal
 
 In order to get your portal set up we need some information from you. Please send the below to [support@adnuntius.com](mailto:support@adnuntius.com). 
 
