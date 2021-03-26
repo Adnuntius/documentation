@@ -203,74 +203,13 @@ There are three things you need to do in order to set up your very own self-serv
 
 This section's purpose is to help you prepare to operate your self-service portal A-Z. Here you will be guided through all things you need to know.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">What you need to know</th>
-      <th style="text-align:left">Resources</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1 The terms and conditions that self-service advertisers agree to. Whenever
-        a self-service advertiser signs up to use your portal, they agree to these
-        terms and conditions, so make sure that you understand and accept them
-        too.</td>
-      <td style="text-align:left"><a href="https://adnuntius.com/resources/tc-self-service-advertising/">Terms</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2 Understand the overall workflow and how users, orders, teams and advertisers
-        are used and created once a self-service advertiser chooses to create an
-        account.</td>
-      <td style="text-align:left"><a href="./#understand-the-overall-workflow">Documentation</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3 Create a self-service advertiser for yourself to learn the process your
-        self-service advertiser customers to through, and to learn where objects
-        will be stored in admin.adnuntius.com.</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4 Understand the user interface. When you have set up the portal you should
-        get comfortable with the user interface by creating a test user, and to
-        try booking a campaign. Also, you can refer to the documentation page we
-        provide, or copy the text to your own domain to provide self-service advertisers
-        with a user guide.</td>
-      <td style="text-align:left"><a href="user-interface-guide.md">Documentation</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">5 Learn the approval process. When a self-service advertiser has created
-        a campaign, then you as a publisher need to approve its creatives. This
-        ensures that creatives do not contain illegal or unethical content, or
-        anything you don&apos;t like.</td>
-      <td style="text-align:left">
-        <p><a href="./#approval-process">Documentation</a>
-        </p>
-        <p><a href="https://admin.adnuntius.com/line-items">Start</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">8 Understand user management. While Adnuntius will be set up with the
-        correct roles as part of the onboarding process, understanding how to manage
-        users is an important part of providing good customer service.</td>
-      <td
-      style="text-align:left">
-        <p><a href="./#user-management">Documentation</a>
-        </p>
-        <p><a href="https://admin.adnuntius.com/admin/users">Start</a>
-        </p>
-        </td>
-    </tr>
-  </tbody>
-</table>
+| What you need to know | Resources |
+| :--- | :--- |
+| 1 The terms and conditions that self-service advertisers agree to. Whenever a self-service advertiser signs up to use your portal, they agree to these terms and conditions, so make sure that you understand and accept them too. | [Terms](https://adnuntius.com/resources/tc-self-service-advertising/) |
+| 2 Understand the overall workflow and how users, orders, teams and advertisers are used and created once a self-service advertiser chooses to create an account.  | [Documentation](./#understand-the-overall-workflow) |
+| 3 Create a self-service advertiser for yourself to learn the process your self-service advertiser customers to through, and to learn where objects will be stored in admin.adnuntius.com. | [Documentation](./#create-a-self-service-advertiser) |
+| 4 Create and review a campaign to learn how advertisers can create campaigns, and how you will need to perform reviews to submitted campaigns. | [Documentation](./#create-and-review-a-campaign) |
+| 5 Learn where to find campaigns when they are submitted, and how to run reports as needed.  | [Documentation](./#manage-campaigns) |
 
 ### Understand the Overall Workflow
 
