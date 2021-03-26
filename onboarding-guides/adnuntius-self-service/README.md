@@ -296,7 +296,22 @@ This section explains how objects like users, advertisers, teams, campaigns and 
 
 Try to create a self-service advertiser, so that you understand the process your customers will go through, and so that you know where to find objects in admin.adnuntius.com. If you don't know the link to your self-service portal, you will find it here: [https://admin.adnuntius.com/admin/network](https://admin.adnuntius.com/admin/network). if you still cannot see it, contact us at [support@adnuntius.com](mailto:support@adnuntius.com). 
 
+To understand how to create a new user, [follow this short process](user-interface-guide.md#registering-and-logging-in).
 
+{% hint style="info" %}
+Do you receive a message that "your account is not registered here"? This means that your email address is registered in Adnuntius already, perhaps under a test network or similar. If this happens, contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you. Or, you can try with another email address that you own.
+{% endhint %}
+
+Now that you have created a user it is time to have a look inside the [admin.adnuntius.com](https://admin.adnuntius.com/) user interface to understand where you find what has just been created.
+
+| Object | Find it |
+| :--- | :--- |
+| **User.** Find the user that was just created by clicking the link to the right, or by searching for your email address or name in the upper right corner inside admin.adnuntius.com. | [Users](https://admin.adnuntius.com/admin/users) |
+| **Advertiser** \(applies only if you ask for company name in the registration process\). Find the company that was just created by clicking the link to the right, or by searching. | [Advertisers](https://admin.adnuntius.com/advertisers) |
+
+### Create and Review a Campaign
+
+Try to create a campaign. 
 
 ## Review Process
 
