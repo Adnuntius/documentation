@@ -9,7 +9,7 @@ description: >-
 | Method | Short explanation |
 | :--- | :--- |
 | [Javascript](intro/) | The adn.js script is used to interact with Adnuntius from within a user's browser. |
-| [Prebid](https://docs.prebid.org/dev-docs/bidders.html#adnuntius) | Connect using header bidding \(the link will take you to prebid.org\). |
+| [Prebid](https://docs.prebid.org/dev-docs/bidders/adnuntius) | Connect using header bidding \(the link will take you to prebid.org\). |
 | [HTTP API](http-api.md) | This API may be used, for example, to enable server-side fetching of ads. |
 | [Cookieless Advertising](cookieless-advertising.md) | How to delivers ads on Adnuntius without cookies or other tracking methods. |
 | [VAST](vast-2.0.md) | Describes how to deliver VAST documents to your video player. |
