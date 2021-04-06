@@ -31,8 +31,8 @@ Next, you can start creating the set of triggers that detemine when to add/remov
 When you add a keyword or category you can also add an asterisk to a word to ensure that Adnuntius picks up keywords and categories that **contain** the word you type. Here is what you can and cannot do:
 
 * If you type _sport\*_ then the word _sport_ will be added, but also _sports_ will be added \(because "sport" is the first part of the word "sports"\).
-* If you type _\*sport_ then the word _sport_ will be added, but also _motorsport will be added._
-* If you type _\*sport\*_ then also _motorsports_ will be added. 
+* If you type _\*sport_ then for example _motorsport_ will be added_._
+* If you type _\*sport\*_ then for example _motorsports_ will be added. 
 * Asterisks will not work when you add them to words that are shorter than 4 letters. For example, _\*car_ will not work.
 * Asterisks in the middle of words will not work. For example, motor\*sport will not work. 
 
