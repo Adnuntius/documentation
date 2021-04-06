@@ -28,13 +28,15 @@ Next, you can start creating the set of triggers that detemine when to add/remov
 * Users who have visited the content category of football 3 times or more during the last 30 days. 
 * Users who have been located in New York once or more during the last 7 days.
 
-When you add a keyword or category you can also add an asterisk to a word to ensure that Adnuntius picks up keywords and categories that **contain** the word you type. Here is what you can and cannot do:
+{% hint style="info" %}
+When you add text to profile fields, keywords or categories you can also add an asterisk to a word to ensure that Adnuntius picks up keywords and categories that **contain** the word you type. Here is what you can and cannot do:
 
-* If you type _sport\*_ then the word _sport_ will be added, but also _sports_ will be added \(because "sport" is the first part of the word "sports"\).
-* If you type _\*sport_ then for example _motorsport_ will be added_._
-* If you type _\*sport\*_ then for example _motorsports_ will be added. 
+* If you add the characteristics field "first name" to a trigger and type _rich\*,_ then both "rich" and "richard" will be added \(because "rich" is the first part of the word "richard"\).
+* If you add the behavioral field "category" and type _\*sport,_ then for example _motorsport_ will be added_._
+* If you add the behavioral field "keyword" and type _\*sport\*_ then for example _motorsports_ will be added. 
 * Asterisks will not work when you add them to words that are shorter than 4 letters. For example, _\*car_ will not work.
 * Asterisks in the middle of words will not work. For example, motor\*sport will not work. 
+{% endhint %}
 
 Finally, you can also choose whether users need to meet all of your criteria in order to be added to or removed from the segments, if they can meet any of the criteria, or if they must meet a specific combination. Combinations can include AND, OR, NOT and round brackets. Example: A AND \(B OR NOT\(C\)\).
 
