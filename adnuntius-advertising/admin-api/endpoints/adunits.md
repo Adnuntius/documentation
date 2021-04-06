@@ -21,6 +21,9 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a
     "objectState": "ACTIVE",
     "name": "demo.adnuntius.com - 980x240 - Panorama 02",
     "site": { "id": "6vjwynnz2ptrvdcc" },
+    "floorPrice": {
+        "currency": "NOK",
+        "amount": 1}
     "labels": [
         "Label1",
         "Label2"
@@ -56,7 +59,8 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a
 | :--- | :--- | :--- | :--- |
 | objectState |  | ACTIVE, INACTIVE, HIDDEN \(String\) | State of the object, will disable or delete the object. |
 | name | Yes | String | The name of the site group |
-| site |  | Object | An object with a Key `id` for the id of the site that the adunit is a belonging to. |
+| site |  | Object | An object with a Key `id` for the id of the site that the ad unit is a belonging to. |
+| floorPrice |  | Object | Specify the floor price of the ad unit. It has to be an object containing a currency and the amount. |
 | labels |  | Array | For searching purposes. |
 | matchingLabels |  | Array | Labels used for line item targeting. |
 | width |  | Number | The maximum width of the ad unit. |
