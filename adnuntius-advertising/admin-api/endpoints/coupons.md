@@ -2,7 +2,8 @@
 
 ## GET
 
-A `GET` request can always be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api documentation.
+A `GET` request can always be filtered by the get [parameters](http://docs.adnuntius.com/api/api-requests) defined in the introduction section of the api
+documentation.
 
 **Example GET request:**
 
@@ -34,7 +35,10 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
     ],
     "labels": [
         "MY_LABEL"
-    ]
+    ],
+    "status": "PUBLISHED",
+    "validFrom": "2016-01-01T10:20:30Z",
+    "validTo": "2016-01-31T10:20:30Z",
 }
 ```
 
@@ -48,6 +52,9 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | allProducts | Yes | Boolean | Specify whether the coupon applies to all products. |
 | products |  | Array | An array of Products that are eligible for the coupon discount. |
 | labels |  | Array | For searching purposes. |
+| status | Yes | `PENDING`, `PUBLISHED`, `STOPPED` | The status of the coupon. Once the coupon is `PUBLISHED` the detail of the coupon cannot be changed. |
+| validFrom | Yes | String | An ISO 8601 date and time of when coupon is valid from. |
+| validTo | Yes | String | An ISO 8601 date and time of when coupon is valid to. |
 
 ### MonetaryDiscount object
 
