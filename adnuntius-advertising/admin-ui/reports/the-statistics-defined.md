@@ -20,6 +20,7 @@ Note: take [the deep dive on impression stats for more detailed information](the
 * **Viewable impressions:** counts each time at least 50% of an ad is visible in a browser's viewport for at least one second.
 * **Viewability:** depending on how you've configured a setting on your network, viewability is viewable impressions divided by impressions or viewable impressions divided by rendered impressions.
 * **Unique users:** counts each unique user that has received an ad impression.
+* **Impressions per uniques:** shows how many impressions shown to each unique user. 
 * **Clicks:** counts each time an ad has been clicked on.
 * **CTR \(click-through rate\):** clicks divided by impressions.
 * **eCPM \(effective cost per mille\):** the effective cost of an ad expressed as a CPM price. This applies even if clicks or actions are the cost basis for an ad rather than impressions.
