@@ -1,12 +1,12 @@
 ---
 description: >-
-  Here you will quickly learn how you as a consumer can check if Adnuntius is
-  tracking you.
+  We respect your right to privacy, and here you will quickly learn how you as a
+  consumer can check if Adnuntius is tracking you.
 ---
 
 # Am I Being Tracked?
 
-We care about your privacy! Adnuntius acts as a processor to its customers, who control the data. That company should therefore be contacted for this purpose, and then we are able to support with the process. There's a practical reason for this: we do not share data across domains or companies, so we would first have to know what company or domain from which you want to request personal information.
+Adnuntius acts as a processor to its customers, who control the data. That company should therefore be contacted for this purpose, and then we are able to support with the process. There's a practical reason for this: we do not share data across domains or companies, so we would first have to know what company or domain from which you want to request personal information.
 
 This all being said, here is how you can check if a specific company is using Adnuntius technology to collect user information about you. The video below will show you the process. 
 
