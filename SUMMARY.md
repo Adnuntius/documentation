@@ -143,8 +143,5 @@
 * [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
 * [GAM Integration](other-useful-information/gam-integration.md)
-
----
-
-* [Am I Being Tracked?](am-i-being-tracked.md)
+* [Am I Being Tracked?](other-useful-information/am-i-being-tracked.md)
 
