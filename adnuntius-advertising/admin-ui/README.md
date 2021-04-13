@@ -17,5 +17,15 @@ description: >-
 
 {% page-ref page="admin/" %}
 
+## Switching between Networks
 
+If you have access to multiple networks, you can switch between them by clicking the "three stacked boxes" icon in the right-most column.
+
+![Switching between networks.](../../.gitbook/assets/network-switch.png)
+
+## Switching between Applications
+
+If you have access to multiple applications \(for example Adserver and Data\), you can switch between them by clicking in the upper right corner.
+
+![Switching between applications.](../../.gitbook/assets/app-switch%20%281%29.png)
 

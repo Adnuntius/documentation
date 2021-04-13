@@ -18,12 +18,12 @@ You can also remove the segment automatically when the trigger does not match.
 
 Next, you can start creating the set of triggers that detemine when to add/remove users to/from segments. You can add behaviour and characteristics. 
 
-**Characteristics** are based on [user profile information that you send to Adnuntius Data](../../api-documentation/javascript/page-views.md). Examples include age, gender, age and much more. Depending on criteria you choose, you will be able to set more requirements. For example:
+**Characteristics** are based on [user profile information that you send to Adnuntius Data](). Examples include age, gender, age and much more. Depending on criteria you choose, you will be able to set more requirements. For example:
 
 * If you choose the criteria “age” then you can choose anyone equal to, more than, less than, or not equal to “39”. 
 * If you choose the criteria “gender” then you can choose between equals, doesn’t equal, is one of, or is not any of “male, female”. 
 
-**Behavior** allows you to set requirements for what a user has seen during a period of time, and how many times. [You can send domain names, categories and keywords to Adnuntius Data](../../api-documentation/javascript/profile-updates.md), while device \(type and operation system\), location \(country, region and city\) and advertising actions \(clicks and conversions\) are sent automatically without you having to set it up. When sending behavioral information to Adnuntius Data you can set up criteria such as for example these: 
+**Behavior** allows you to set requirements for what a user has seen during a period of time, and how many times. [You can send domain names, categories and keywords to Adnuntius Data](../../api-documentation/javascript/page-views.md), while device \(type and operation system\), location \(country, region and city\) and advertising actions \(clicks and conversions\) are sent automatically without you having to set it up. When sending behavioral information to Adnuntius Data you can set up criteria such as for example these: 
 
 * Users who have visited the content category of football 3 times or more during the last 30 days. 
 * Users who have been located in New York once or more during the last 7 days.

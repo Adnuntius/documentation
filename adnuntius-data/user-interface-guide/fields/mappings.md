@@ -10,7 +10,7 @@ Consider this example: One publishing website writes about football, and also as
 
 This can be done with mapping. To add a mapping, go to [https://admin.adnuntius.com/mappings](https://admin.adnuntius.com/mappings) and click “Add Mapping” in the upper right corner. 
 
-You can map [user profile data](../../api-documentation/javascript/page-views.md) and [pageview data](../../api-documentation/javascript/profile-updates.md) \(which are split into categories and keywords\). In the example below you will see how user profile data “gender” has been given the alias “sex” so that different parties can send different denominations, while all information will still be stored in a unified structure. If gender is sent you can also transform each value so that for example the values M and F are translated to Male and Female respectively.
+You can map [user profile data]() and [pageview data](../../api-documentation/javascript/page-views.md) \(which are split into categories and keywords\). In the example below you will see how user profile data “gender” has been given the alias “sex” so that different parties can send different denominations, while all information will still be stored in a unified structure. If gender is sent you can also transform each value so that for example the values M and F are translated to Male and Female respectively.
 
 ![Example mapping.](../../../.gitbook/assets/mappings.png)
 

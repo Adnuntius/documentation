@@ -16,7 +16,7 @@ The reports will produce an overview of the following:
 
 * The name of, and the link to, each folder. 
 * Any labels added to folders.
-* Profile Updates: every time a [user profile is updated](../api-documentation/javascript/page-views.md) \(which means that a addition, change or new profile is added\) this will count as an update. Profile updates as such counts how many changes have happened to your user profiles for the given time frame. 
-* Unique User Profiles: counts how many users you have in total, based on [user profiles that are sent](../api-documentation/javascript/page-views.md). 
-* Page Views: How many [pageviews that are sent](../api-documentation/javascript/profile-updates.md) to Adnuntius Data. 
+* Profile Updates: every time a [user profile is updated]() \(which means that a addition, change or new profile is added\) this will count as an update. Profile updates as such counts how many changes have happened to your user profiles for the given time frame. 
+* Unique User Profiles: counts how many users you have in total, based on [user profiles that are sent](). 
+* Page Views: How many [pageviews that are sent](../api-documentation/javascript/page-views.md) to Adnuntius Data. 
 

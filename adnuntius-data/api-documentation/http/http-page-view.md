@@ -78,5 +78,5 @@ Page views can also be sent to adnuntius in bulk by adding them to an array like
 ]
 ```
 
-[See here how you can send pageview information using the JavaScript API instead](../javascript/profile-updates.md).
+[See here how you can send pageview information using the JavaScript API instead](../javascript/page-views.md).
 
