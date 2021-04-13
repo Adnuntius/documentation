@@ -12,5 +12,9 @@ description: >-
 
 {% page-ref page="admin/" %}
 
+## Switching between Applications
 
+If you have access to multiple applications \(for example Adserver and Data\), then you will find Adnuntius Data and other applications by clicking in the top right corner. 
+
+![Switching between applications.](../../.gitbook/assets/app-switch%20%281%29.png)
 
