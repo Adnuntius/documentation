@@ -13,13 +13,13 @@ Adnuntius allows its customers to whitelabel the ad tags and/or the user interfa
 
 ## Self-Service Portal
 
-The self-service portal allows for you to use your own domain. As part of [the onboarding process](onboarding-guides/adnuntius-self-service/), here is how you ensure that users can find your self-service portal under your domain rather than ours. For the purposes of this instruction we will assume that the your domain is pubdomain.net, and that you want the self-service portal to be accessible at selfservice.pubdomain.net. This **must** be replaced with your actual domain and address when following the instructions. 
+The self-service portal allows for you to use your own domain. As part of [the onboarding process](../onboarding-guides/adnuntius-self-service/), here is how you ensure that users can find your self-service portal under your domain rather than ours. For the purposes of this instruction we will assume that the your domain is pubdomain.net, and that you want the self-service portal to be accessible at selfservice.pubdomain.net. This **must** be replaced with your actual domain and address when following the instructions. 
 
 1. Go to [https://admin.adnuntius.com/admin/network](https://admin.adnuntius.com/admin/network) and find the link to your self-service portal. See below for where to find it. 
 2. In your DNS, create/add a CNAME for selfservice.pubdomain.net and point it to the link to your self-service portal that you got from point 1. 
 3. Inform us that this is done by sending us a short message at support@adnuntius.com, and we will complete the process on our end.
 
-![Where to find the link to your self-service portal.](.gitbook/assets/selfservice-link.png)
+![Where to find the link to your self-service portal.](../.gitbook/assets/selfservice-link.png)
 
 ## Admin Portal
 

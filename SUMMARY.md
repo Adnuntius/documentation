@@ -144,8 +144,5 @@
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
 * [GAM Integration](other-useful-information/gam-integration.md)
 * [Am I Being Tracked?](other-useful-information/am-i-being-tracked.md)
-
----
-
-* [Whitelabeling](whitelabeling.md)
+* [Whitelabeling](other-useful-information/whitelabeling.md)
 
