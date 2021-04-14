@@ -136,7 +136,7 @@ There are three things you need to do in order to set up your very own self-serv
     <tr>
       <td style="text-align:left">A &quot;domain name&quot;. Your self-service portal will be placed under
         a URL such as the example on the left, so please send us your preferred
-        name.</td>
+        name. We will then send you information on what to do next.</td>
       <td style="text-align:left">
         <p>https://bookings.adnuntius.com/yourname/</p>
         <p>or bookings.yourdomain.com</p>
