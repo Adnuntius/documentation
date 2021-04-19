@@ -7,19 +7,11 @@ description: >-
 
 # Email Translations
 
-{% embed url="https://youtu.be/3dvshNjFj70" caption="How to create an email translation." %}
-
 To create an email translation, go to [https://admin.adnuntius.com/admin/email-translations](https://admin.adnuntius.com/admin/email-translations), then click "new" in the upper right corner. Give the new email translation a **name and description** \(optional\) of your choice. 
 
-Choose **email type**. There are three choices: 
+Choose **email type**, which is the email that is to be sent to the receiver. For example: "Forgot password" will be the email that users receive when they click that they have forgotten their password. Other examples include "Account locked from too many failed log-in attempts" and "A line item has started delivering".
 
-* **New user** specifies the email sent to new users you invite to use Adnuntius Advertising, Adnuntius Data or both. 
-* **Forgotten password** specifies the email sent to users who clicked to receive a new password. 
-* **Account locked from too many failed log-in attempts** specifies the email sent to users who have their account locked from too many failed log-in attempts. When users gets locked out they will automatically receive an email where the password needs to be reset. 
-
-**Applications**. Choose whether the email translation should go to Adnuntius Data users, Adnuntius Advertising users, or both. 
-
-![Creating an email translation.](../../../.gitbook/assets/email-translations.png)
+![](../../../.gitbook/assets/202104-email-translations.png)
 
 **Locale** lets you specify the area of the world where this translation should be used. For example, if you want to create a Polish translation to be used in Poland, then simply choose Polish from the dropdown list, and we make sure that the translation will be sent to users located in Poland. 
 
