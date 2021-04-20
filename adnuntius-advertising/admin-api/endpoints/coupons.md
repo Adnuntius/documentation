@@ -18,6 +18,8 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 
 ```javascript
 {
+    "name": "Coupon Name",
+    "description": "Coupon description",
     "code": "CODE",
     "expiry": "P30D",
     "discountType": "MONETARY",
@@ -38,11 +40,14 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
     "status": "PUBLISHED",
     "validFrom": "2016-01-01T10:20:30Z",
     "validTo": "2016-01-31T10:20:30Z",
+    "validOnce": true
 }
 ```
 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
+| name | Yes | String | The name of the coupon. |
+| description | Yes | String | The description of the coupon. |
 | code | Yes | String | The promo code for the coupon. |
 | expiry | Yes | String | The expiry period of the coupon. |
 | discountType | Yes | `MONETARY`, `PERCENTAGE` | The discount type of the coupon. |
@@ -54,6 +59,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | status | Yes | `PENDING`, `PUBLISHED`, `STOPPED` | The status of the coupon. Once the coupon is `PUBLISHED` the detail of the coupon cannot be changed. |
 | validFrom | Yes | String | An ISO 8601 date and time of when coupon is valid from. |
 | validTo | Yes | String | An ISO 8601 date and time of when coupon is valid to. |
+| validOnce | Yes | Boolean | The coupon is only valid once and cannot be reapplied. |
 
 ### MonetaryDiscount object
 
@@ -73,4 +79,3 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
 | value | Yes | Number | The percentage value of the coupon. |
-
