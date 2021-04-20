@@ -59,7 +59,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | status | Yes | `PENDING`, `PUBLISHED`, `STOPPED` | The status of the coupon. Once the coupon is `PUBLISHED` the detail of the coupon cannot be changed. |
 | validFrom | Yes | String | An ISO 8601 date and time of when coupon is valid from. |
 | validTo | Yes | String | An ISO 8601 date and time of when coupon is valid to. |
-| validOnce | Yes | Boolean | The coupon is only valid once and cannot be reapplied. |
+| validOnce | Yes | Boolean | Specify whether the coupon is valid once. If true it is only valid once and cannot be reapplied. |
 
 ### MonetaryDiscount object
 
