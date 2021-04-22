@@ -26,6 +26,14 @@ POST https://api.adnuntius.com/api/v1/segments/upload?context=<context>
         "dataSource": "ADNUNTIUS",
         "team": "my_team_id",
         "state": "ACTIVE"
+    },
+    {
+        "segmentId": "355hd46dh",
+        "name": "Food",
+        "description": "Eats food",
+        "dataSource": "ADNUNTIUS",
+        "teams": ["team1_id", "team2_id"],
+        "state": "ACTIVE"
     }
 ]
 ```
@@ -34,8 +42,8 @@ POST https://api.adnuntius.com/api/v1/segments/upload?context=<context>
 | :--- | :--- | :--- |
 | segmentId | String | Identification of the segment. |
 | team | String | \(optional\) Restrict visibility of the segment to this team only |
+| teams | String[] | \(optional\) Restrict visibility of the segment to the set of teams only |
 | name | String | The name of the segment |
 | description | String | Description for the segment |
 | dataSource | ADNUNTIUS, ADOBE, CXENSE, LYTICS, RELAY42, PERMUTIVE | The DMP providing the segmentation. |
 | state | ACTIVE \(default\), INACTIVE, ARCHIVED | The state of the segment. |
-
