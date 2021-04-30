@@ -28,6 +28,16 @@ You can whitelabel admin.adnuntius.com. For the purposes of this instruction we 
 1. In your DNS, create/add a CNAME for admin.pubdomain.net and point it to admin.adnuntius.com. 
 2. Inform us that this is done by sending us a short message at support@adnuntius.com, and we will complete the process on our end.
 
+You can also further whitelabel the portal, in which case we would need the following material from you \(which can be sent to support@adnuntius.com unless you have a dedicated project manager\).
+
+| Material needed and explanations | Requirements |
+| :--- | :--- |
+| A background image for the login page. | Requirements: 1920x1080px, max 500kb. |
+| A top menu logo. Logged in users will have your logo in the upper left corner. | Requirements: 168×32px, max 150kb, transparent background. |
+| A report logo. Whenever someone generates a \(scheduled\) report, that report can contain a logo. | Requirements: Max 150kb. |
+| Favicon \(browser tab icon\). | Requirements: 16x16px, PNG, GIF or JPG, transparent background. |
+| Menu color \(optional\). The top and right side menu backgrounds can have a color of your choice. | Hex color code. |
+
 ## Ad Tags
 
 Ad requests sent from the same network domain as the page content can help reduce the number of ad impressions lost due to ad blocking software \(although it is not always guaranteed to beat all ad-blocking methods\). For the purposes of this instruction we will assume that the your domain is pubdomain.net. This **must** be replaced with your actual domain when following the instructions. 
