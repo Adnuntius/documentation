@@ -5,11 +5,17 @@ The example below shows how you would read a user's segments, in folder `0000000
 ```javascript
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
 <script>
-    adn.getSegments('00000000000aaaaa', {
-        onResponse: function(data) {
-            // Do something with segments from data
-        }
+    window.adn = window.adn || {};
+    adn.calls = adn.calls || [];
+    adn.calls.push(function () {
+        adn.getSegments('00000000000aaaaa', {
+            onResponse: function(data) {
+                // Do something with segments from data
+            }
+        });
     });
 </script>
 ```
+
+
 
