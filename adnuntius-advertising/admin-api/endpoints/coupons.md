@@ -79,3 +79,4 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | Name | Required | Restriction | Description |
 | :--- | :--- | :--- | :--- |
 | value | Yes | Number | The percentage value of the coupon. |
+
