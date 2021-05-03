@@ -33,5 +33,5 @@ This is a very simple example, using [curl](https://curl.haxx.se), demonstrating
 Data.
 
 ```bash
-curl -H "Content-Type: application/json" https://data.adnuntius.com/segment?segmendId=zxcvbn98765&folderId=00000000000123ab&browserId=123456
+curl -H "Content-Type: application/json" https://data.adnuntius.com/segment?segmentId=zxcvbn98765&folderId=00000000000123ab&browserId=123456
 ```
