@@ -108,6 +108,7 @@
     * [/page](adnuntius-data/api-documentation/http/http-page-view.md)
     * [/visitor](adnuntius-data/api-documentation/http/http-profile.md)
     * [/sync](adnuntius-data/api-documentation/http/sync.md)
+    * [/segment](adnuntius-data/api-documentation/http/http-segment.md)
   * [Profile Fields](adnuntius-data/api-documentation/fields.md)
 
 ## Adnuntius Connect
