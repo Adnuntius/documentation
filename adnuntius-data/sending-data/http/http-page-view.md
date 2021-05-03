@@ -12,7 +12,7 @@ Typically you are recommended to send these events from the user's browser using
 
 ## Request object
 
-Data is send to Adnuntius using a HTTP POST request, with a JSON payload containing the fields described below. A separate object is required for each page view event.
+Data is sent to Adnuntius using a HTTP POST request, with a JSON payload containing the fields described below. A separate object is required for each page view event.
 
 The requests are sent to the following URL:
 

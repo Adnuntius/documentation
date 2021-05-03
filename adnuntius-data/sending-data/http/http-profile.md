@@ -10,7 +10,7 @@ We support two different types of requests, [asynchronous](https://github.com/Ad
 
 ## Request object
 
-Data is send to Adnuntius using a HTTP POST request, with a JSON payload containing the fields described below. A separate object is required for each profile to be created or updated.
+Data is sent to Adnuntius using a HTTP POST request, with a JSON payload containing the fields described below. A separate object is required for each profile to be created or updated.
 
 ### Field Descriptions
 
