@@ -87,7 +87,7 @@ To create a role, go to Admin &gt; Roles and in the upper right corner click "Ne
 | Team | Self-service own advertising \(external only\): User has limited set of rights to perform advertising functions and have that unavailable to others. Cannot be used in conjunction with the Self-Service Team Advertising permission |
 
 {% hint style="info" %}
-Read more about how you can download logs and access raw data [here](https://adnuntius.com/adnuntius-brings-the-big-data/). 
+Read more about how you can download logs and access raw data [here](https://adnuntius.com/blog/adnuntius-brings-the-big-data/). 
 {% endhint %}
 
 {% hint style="info" %}
