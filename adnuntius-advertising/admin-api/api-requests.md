@@ -111,7 +111,7 @@ Note that the API will return hidden objects if they are requested specifically 
 
 #### Deleting Data <a id="deleting-data"></a>
 
-Domain objects cannot be deleted, but they can be disabled or hidden by using the object’s [Object State](https://api.adnuntius.com/#object-state) field.
+Domain objects cannot be deleted, but they can be disabled or hidden by using the object’s Object State field.
 
 #### Updating fields <a id="updating-fields"></a>
 
@@ -152,7 +152,7 @@ GET http://api.adnuntius.com/api/v1/lineitems?context=network_1
 
 #### Validation Errors <a id="validation-errors"></a>
 
-The Adnuntius API is designed to be flexible and user friendly. Although validation on data being posted is kept to a minimum, some data may be rejected and the object will not be persisted. If the system rejects a value then a validation error will be returned explaining why. These validation errors are a type of [translatable message](https://api.adnuntius.com/#translatable-messages).
+The Adnuntius API is designed to be flexible and user friendly. Although validation on data being posted is kept to a minimum, some data may be rejected and the object will not be persisted. If the system rejects a value then a validation error will be returned explaining why. These validation errors are a type of Translatable Message.
 
 #### Validation Warnings <a id="validation-warnings"></a>
 
@@ -219,7 +219,7 @@ This snippet authenticates and stores the access token as a shell variable so it
 export ACCESS_TOKEN=$(curl -v -d grant_type=password -d scope=ng_api -d username=broker1@bitshift.technology -d password=broker1 "http://api.adnuntius.com/api/authenticate" | jq -r .access_token)
 ```
 
-**List Campaigns**
+**List Line Items**
 
 ```bash
 curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://api.adnuntius.com/api/v1/lineitems?context=network_1" | jq .
@@ -231,7 +231,7 @@ curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://api.adnuntius.com/api/v1/l
 curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://api.adnuntius.com/api/v1/lineitems/lineitem_1?context=network_1" | jq .
 ```
 
-**Create/update a Campaign**
+**Create/update a Line Item**
 
 ```bash
 curl -H "Authorization: Bearer $ACCESS_TOKEN" -d @- -X PUT "http://api.adnuntius.com/api/v1/lineitems/lineitem_1?context=network_1" | jq .
