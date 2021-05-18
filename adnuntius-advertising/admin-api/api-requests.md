@@ -17,13 +17,13 @@ GET calls for many resources can be called with or without an object id in the u
 When the id is included then only that object will be returned.
 
 ```http
-GET http://<host>/api/v1/<resource type>/<id>
+GET http://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 When no id is included then a list of all objects of that type visible to the user are returned.
 
 ```http
-GET http://<host>/api/v1/<resource type>
+GET http://api.adnuntius.com/api/v1/<resource type>
 ```
 
 #### PUT AND POST <a id="put-and-post"></a>
@@ -33,25 +33,21 @@ PUT and POST are both treated the same, they will both create an object if it do
 When the id is included then only that object will be created/updated.
 
 ```http
-POST http://<host>/api/v1/<resource type>/<id>
+POST http://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 When no id is included then a list of objects to be created/updated is expected as the request’s POST data.
 
 ```http
-POST http://<host>/api/v1/<resource type>
+POST http://api.adnuntius.com/api/v1/<resource type>
 ```
-
-#### DELETE <a id="delete"></a>
-
-DELETE is not supported on resources as domain objects cannot be deleted. See [Object State](https://api.adnuntius.com/#object-state) and [Deleting Data](https://api.adnuntius.com/deleting-data).
 
 #### HEAD <a id="head"></a>
 
 HEAD is used to confirm the existence of an object.
 
 ```http
-HEAD http://<host>/api/v1/<resource type>/<id>
+HEAD http://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 The response code will be `200 OK` if it exists or `404 NOT FOUND` if it doesn’t.
@@ -89,13 +85,13 @@ Standard [HTTP status codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 
 The Adnuntius API uses [OAuth2](https://oauth.net/2/) for authentication. In simplest terms, a user can request an access token from the API that can then be used to gain access to secured resources.
 
-Token requests are made to the [Authentication Resource](https://api.adnuntius.com/resource_Authentication.html).
+Token requests are made to:
+
+```http
+POST http://api.adnuntius.com/api/authenticate
+```
 
 Once an access token has been granted, it must be provided on every request to the API to access a secure resource. This is done by providing the token as the value for the `Authorization: Bearer` HTTP header
-
-#### Versioning <a id="versioning"></a>
-
-The current version of the Adnuntius API is version 1 and is reflected in all API urls. There maybe changes to the API for a version, but there will never be breaking API changes so consumers can be confident that their code will continue to work against a version for the duration of its life time.
 
 #### Transactionality <a id="transactionality"></a>
 
@@ -149,7 +145,7 @@ GET http://<host>/api/v1/lineitems?context=<context>&id=lineitem_1;lineitem_2
 API requests for objects that belong to a network require a `context` parameter. The value is the id of the network that is the scope for the request.
 
 ```http
-GET http://<host>/api/v1/lineitems?context=network_1
+GET http://api.adnuntius.com/api/v1/lineitems?context=network_1
 ```
 
 ### API Responses <a id="api-responses"></a>
@@ -160,7 +156,7 @@ The Adnuntius API is designed to be flexible and user friendly. Although validat
 
 #### Validation Warnings <a id="validation-warnings"></a>
 
-Validation warnings are used to notify users that there is a problem with a persisted objects data. These warnings typically prevent the object from functioning, for example a Line Item with warnings will not be able to show ads. These validation warnings are a type of [translatable message](https://api.adnuntius.com/#translatable-messages).
+Validation warnings are used to notify users that there is a problem with a persisted objects data. These warnings typically prevent the object from functioning, for example a Line Item with warnings will not be able to show ads. These validation warnings are a type of Translatable Message.
 
 #### Paging <a id="paging"></a>
 
@@ -177,7 +173,7 @@ Note that `page` and `pageSize` can be passed as parameters to most resources. H
 
 #### Error Responses <a id="error-responses"></a>
 
-Along with the [HTTP response codes](https://api.adnuntius.com/#response-codes), [translatable messages](https://api.adnuntius.com/#translatable-messages) are also returned to provide additional information.
+Along with the HTTP response codes, Translatable Messages are also returned to provide additional information.
 
 `ErrorMessage`s are returned for common error scenarios and `ValidationErrorMessage`s are returned when an object update contains invalid data.
 
@@ -220,25 +216,25 @@ While not suited for programmatic integration, this approach is simple and usefu
 This snippet authenticates and stores the access token as a shell variable so it can be used in subsequent API calls.
 
 ```bash
-export ACCESS_TOKEN=$(curl -v -d grant_type=password -d scope=ng_api -d username=broker1@bitshift.technology -d password=broker1 "http://<host>/api/authenticate" | jq -r .access_token)
+export ACCESS_TOKEN=$(curl -v -d grant_type=password -d scope=ng_api -d username=broker1@bitshift.technology -d password=broker1 "http://api.adnuntius.com/api/authenticate" | jq -r .access_token)
 ```
 
 **List Campaigns**
 
 ```bash
-curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://<host>/api/v1/lineitems?context=network_1" | jq .
+curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://api.adnuntius.com/api/v1/lineitems?context=network_1" | jq .
 ```
 
 **Get a Line Item**
 
 ```bash
-curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://<host>/api/v1/lineitems/lineitem_1?context=network_1" | jq .
+curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://api.adnuntius.com/api/v1/lineitems/lineitem_1?context=network_1" | jq .
 ```
 
 **Create/update a Campaign**
 
 ```bash
-curl -H "Authorization: Bearer $ACCESS_TOKEN" -d @- -X PUT "http://<host>/api/v1/lineitems/lineitem_1?context=network_1" | jq .
+curl -H "Authorization: Bearer $ACCESS_TOKEN" -d @- -X PUT "http://api.adnuntius.com/api/v1/lineitems/lineitem_1?context=network_1" | jq .
 ```
 
 This command will then accept json input from the command line.
@@ -248,6 +244,6 @@ This command will then accept json input from the command line.
 Where _leaderboard.png_ is the Asset file in the current directory that should be uploaded:
 
 ```bash
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -F asset=@leaderboard.png "http://<host>/api/v1/assets/creative_1/asset_1?context=network_1" | jq .
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -F asset=@leaderboard.png "http://api.adnuntius.com/api/v1/assets/creative_1/asset_1?context=network_1" | jq .
 ```
 
