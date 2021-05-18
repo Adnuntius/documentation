@@ -137,7 +137,7 @@ All dates are represented as [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 
 When requesting a list of objects, it is possible to pass a list of ids so only these objects are returned. Ids must be semicolon delimited.
 
 ```http
-GET http://<host>/api/v1/lineitems?context=<context>&id=lineitem_1;lineitem_2
+GET http://api.adnuntius.com/api/v1/lineitems?context=<context>&id=lineitem_1;lineitem_2
 ```
 
 #### Context Parameter <a id="context-parameter"></a>
