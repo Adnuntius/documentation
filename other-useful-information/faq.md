@@ -2,6 +2,9 @@
 description: >-
   General FAQ
 ---
+---
+showToc: true
+---
 
 # FAQ
 
