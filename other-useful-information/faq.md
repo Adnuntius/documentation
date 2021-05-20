@@ -7,7 +7,7 @@ description: >-
 
 * [Can ads be loaded synchronously or asynchronously?](#synch)
 
-## Can ads be loaded synchronously or asynchronously? {#synch}
+## Can ads be loaded synchronously or asynchronously?{#synch}
 
 Either is possible. Nevertheless, you should always try to load your ads asynchronously, which is the default method for loading ads and has many advantages. 
 
