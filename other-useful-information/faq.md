@@ -17,9 +17,9 @@ The standard ad tag uses some advanced JavaScript to load and distribute ads thr
 
 The basic ad tag loads an ad directly into an IFrame, is simpler all round and is supported by even the versions of Internet Explorer older than version 9.
 
-## Can we support ads loaded within an IFrame as well as loading directly into the publisher's page?
+## Can ads be loaded within an IFrame and directly into the publisher's page?
 
-Yes, we support both options. By default, ads are loaded inside an IFrame. If you would prefer to load an ad directly into the page, we can also do that for by ad unit, ad or layout. 
+Yes, we support both options. By default, ads are loaded inside an IFrame. If you would prefer to load an ad directly into the page, we can also do that by ad unit, ad or layout. 
 
 ## How many sizes can we run on an ad unit?
 
