@@ -140,6 +140,7 @@
 
 ## Other Useful Information
 
+* [FAQ - Frequently Asked Questions](other-useful-information/faq.md)
 * [Send segments Cxense](other-useful-information/send-segments-cxense.md)
 * [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
