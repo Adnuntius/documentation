@@ -2,14 +2,8 @@
 description: >-
   General FAQ
 ---
----
-showToc: true
----
 
 # FAQ
-
-* [Can ads be loaded synchronously or asynchronously?](#can-ads-be-loaded-synchronously-or-asynchronously-synch)
-* [What is the difference between a standard and basic ad tag?](#what-is-the-difference-between-a-standard-and-basic-ad-tag-basic-standard)
 
 ## Can ads be loaded synchronously or asynchronously?
 
