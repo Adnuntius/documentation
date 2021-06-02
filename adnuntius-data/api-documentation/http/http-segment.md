@@ -2,12 +2,13 @@
 description: How to send Segment using the HTTP API
 ---
 
-# Segment
+# /segment
 
 The HTTP API enables you to send user's segment to Adnuntius Data.
 
-{% hint style="info" %} Typically you are recommended to send these events from the user's browser using
-the [Javascript API](../javascript.md). {% endhint %}
+{% hint style="info" %}
+Typically you are recommended to send these events from the user's browser using the [Javascript API](https://github.com/Adnuntius/documentation/tree/0a4577c0f8dcd858141afe8c1a4af9b63d7cf3fc/adnuntius-data/api-documentation/javascript.md).
+{% endhint %}
 
 ## Request object
 
@@ -29,9 +30,9 @@ If the request is received correctly, an HTTP 200 status code will be returned.
 
 ### Example cURL request
 
-This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a segment is sent to Adnuntius
-Data.
+This is a very simple example, using [curl](https://curl.haxx.se), demonstrating how a segment is sent to Adnuntius Data.
 
 ```bash
 curl -H "Content-Type: application/json" https://data.adnuntius.com/segment?segmentId=zxcvbn98765&folderId=00000000000123ab&browserId=123456
 ```
+

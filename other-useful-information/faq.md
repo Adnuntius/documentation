@@ -1,13 +1,12 @@
 ---
-description: >-
-  General FAQ
+description: General FAQ
 ---
 
-# FAQ
+# FAQ - Frequently Asked Questions
 
 ## Can ads be loaded synchronously or asynchronously?
 
-Either is possible. Nevertheless, you should always try to load your ads asynchronously, which is the default method for loading ads and has many advantages. 
+Either is possible. Nevertheless, you should always try to load your ads asynchronously, which is the default method for loading ads and has many advantages.
 
 If, however, you have ads that must be loaded synchronously, you can do so with specific requests to the ad server that enable synchronous ad loading.
 
@@ -19,7 +18,7 @@ The basic ad tag loads an ad directly into an IFrame, is simpler all round and i
 
 ## Can ads be loaded within an IFrame and directly into the publisher's page?
 
-Yes, we support both options. By default, ads are loaded inside an IFrame. If you would prefer to load an ad directly into the page, we can also do that by ad unit, ad or layout. 
+Yes, we support both options. By default, ads are loaded inside an IFrame. If you would prefer to load an ad directly into the page, we can also do that by ad unit, ad or layout.
 
 ## How many sizes can we run on an ad unit?
 
@@ -28,3 +27,4 @@ Our ad unit sizes are based on minimum and maximum dimensions. This means any si
 ## Can reports be sent automatically to customers?
 
 We support system-generated reports being sent out to any email recipients.
+

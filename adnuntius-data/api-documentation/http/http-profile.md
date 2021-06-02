@@ -113,5 +113,5 @@ curl -H "Content-Type: application/json" https://data.adnuntius.com/synchronous/
 ]
 ```
 
-[See here how you can user profiles using the JavaScript API instead]().
+[See here how you can user profiles using the JavaScript API instead](http-profile.md).
 

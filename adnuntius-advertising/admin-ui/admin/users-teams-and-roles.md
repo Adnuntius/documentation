@@ -30,7 +30,7 @@ Add an **external reference \(optional\)** if you want to match the user with th
 * A network role \(the top role in the user interface, in light gray\) determines the actions the user will be able to perform across your entire Adnuntius account. this includes advertisers, earnings accounts, layouts, report templates, users, tiers, custom events, roles and teams. 
 * A team role determines the actions that a user will be able to perform to content that is team-specific, which includes orders, line items, creatives, sites, ad units, report schedules and reports.
 
-You can also switch between Adnuntius Advertising, Adnuntius Data and Adnuntius Designer. If you click Adnuntius Designer you can assign a role to the user for the Adnuntius Designer application \(please note that you may have to create a [role](../../admin-api/endpoints/roles.md) first\). 
+You can also switch between Adnuntius Advertising, Adnuntius Data and Adnuntius Designer. If you click Adnuntius Designer you can assign a role to the user for the Adnuntius Designer application \(please note that you may have to create a [role](../../admin-api/endpoints/roles.md) first\).
 
 {% hint style="info" %}
 If you want to create a user that has no network permissions, you can create a network role where all permissions are unchecked \(and call it for instance "no permissions"\). This way, when you add a user with this network role, they cannot do anything to the network, only to the team\(s\) they're invited to.
@@ -64,9 +64,9 @@ While [Teams](../../admin-api/endpoints/teams.md) determines the inventory a use
 
 To create a role, go to Admin &gt; Roles and in the upper right corner click "New". Start by giving your role a **Name and description \(optional\)**.
 
-**Application** lets you choose between Advertising \(Adnuntius Advertising\) and Banner \(Adnuntius Designer\). If you choose Banner you will see that there are no more choices, as Adnuntius Designer has one role only. The choices below are for Adnuntius Advertising. 
+**Application** lets you choose between Advertising \(Adnuntius Advertising\) and Banner \(Adnuntius Designer\). If you choose Banner you will see that there are no more choices, as Adnuntius Designer has one role only. The choices below are for Adnuntius Advertising.
 
-**Role type, scope and permissions** determine the actions that users will be able to take. Below you will find  how each combination determine the priviliges that each choice will give a user, split into internal roles and external roles. 
+**Role type, scope and permissions** determine the actions that users will be able to take. Below you will find how each combination determine the priviliges that each choice will give a user, split into internal roles and external roles.
 
 * Internal Roles are for employees or trusted partners who should be allowed to access the inventory you've created.
 * External roles means that no users will not have access to any of the content you have created.
@@ -87,7 +87,7 @@ To create a role, go to Admin &gt; Roles and in the upper right corner click "Ne
 | Team | Self-service own advertising \(external only\): User has limited set of rights to perform advertising functions and have that unavailable to others. Cannot be used in conjunction with the Self-Service Team Advertising permission |
 
 {% hint style="info" %}
-Read more about how you can download logs and access raw data [here](https://adnuntius.com/blog/adnuntius-brings-the-big-data/). 
+Read more about how you can download logs and access raw data [here](https://adnuntius.com/blog/adnuntius-brings-the-big-data/).
 {% endhint %}
 
 {% hint style="info" %}
@@ -100,5 +100,5 @@ In [Admin &gt; Network](network.md) you will be able to determine show or hide s
 
 ## Common Role Combinations
 
-To be done soon. 
+To be done soon.
 
