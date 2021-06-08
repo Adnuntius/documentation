@@ -5,7 +5,7 @@ description: >-
   updated on what you can use us for.
 ---
 
-# Adnuntius  Documentation
+# Adnuntius Documentation
 
 ## Adnuntius Advertising
 

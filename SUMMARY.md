@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Adnuntius  Documentation](README.md)
+* [Adnuntius Documentation](README.md)
 
 ## Adnuntius Advertising
 
