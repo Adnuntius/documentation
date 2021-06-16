@@ -18,5 +18,5 @@ Make sure to target the creative or line item to the correct ad unit that can ha
 https://delivery.adnuntius.com/i?auId=0000000000000000&tt=vast2
 ```
 
-The important thing above is the `&tt=vast2` at the end, since it tells the delivery how it will render the information. Adnuntius supports VAST 2.0 and VAST 3.0. To deliver a VAST 3.0 ad, you must use a `&tt=vast3` parameter instead. The example above is the simplest version of HTTP delivery for ads. More parameters about user and targeting can be added as well.
+The important thing above is the `&tt=vast2` at the end, since it tells the delivery how it will render the information. Adnuntius supports VAST 2.0, 3.0 and 4.0. To deliver a VAST 3.0 or 4.0 ad, you must use either a `&tt=vast3` or `&tt=vast4` parameter instead. The example above is the simplest version of HTTP delivery for ads. More parameters about user and targeting can be added as well.
 
