@@ -120,11 +120,9 @@ Here's how the split runs:
 
 ## **Previewing an Ad**
 
-Preview Ad Requests are used to view a *specific* creative. Preview requests **do not** result in
-any delivery statistics being recorded in Adnuntius, so are suitable for internal uses such as: reviewing how a creative will
-appear when rendered by the ad server.
+Preview Ad Requests are used to view a _specific_ creative. Preview requests **do not** result in any delivery statistics being recorded in Adnuntius, so are suitable for internal uses such as: reviewing how a creative will appear when rendered by the ad server.
 
-You can always preview any running ads, but it is also possible to make preview requests *before* a Line Item has gone live. To enable preview, you simply need to move the Line Item into the *Reserved* state.
+You can always preview any running ads, but it is also possible to make preview requests _before_ a Line Item has gone live. To enable preview, you simply need to move the Line Item into the _Reserved_ state.
 
 #### Requesting a Preview of a Specific Creative
 
@@ -139,7 +137,7 @@ adn.request({
 });
 ```
 
-You can use a preview request to render *custom data*, without even requiring an Adnuntius Creative, using a specific layout.
+You can use a preview request to render _custom data_, without even requiring an Adnuntius Creative, using a specific layout.
 
 #### Requesting a Preview of Creative Data in a Specific Layout
 

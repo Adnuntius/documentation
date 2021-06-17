@@ -23,6 +23,3 @@ The example below shows how you would read a user's segments, in folder `0000000
 </script>
 ```
 
-
-
-

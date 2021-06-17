@@ -57,7 +57,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | validFrom | Yes | String | An ISO 8601 date and time of when coupon is valid from. |
 | validTo | Yes | String | An ISO 8601 date and time of when coupon is valid to. |
 | oneTimeValidity | Yes | Boolean | Specify whether the coupon is valid once. If true it is only valid once and cannot be reapplied. |
-| couponEndDateType | Yes | `EXPIRY`, `VALID_TO`, `GREATEST_OF_EXPIRY_OR_VALID_TO` | Specify when the coupon can be used until. For `EXPIRY` the coupon must be used before the `expiry` period has ended. For `VALID_TO` the coupon must be used before the `validTo` date. For `GREATEST_OF_EXPIRY_OR_VALID_TO` the coupon must be used before the latest value of `expiry` period has ended or before `validTo` date.  |
+| couponEndDateType | Yes | `EXPIRY`, `VALID_TO`, `GREATEST_OF_EXPIRY_OR_VALID_TO` | Specify when the coupon can be used until. For `EXPIRY` the coupon must be used before the `expiry` period has ended. For `VALID_TO` the coupon must be used before the `validTo` date. For `GREATEST_OF_EXPIRY_OR_VALID_TO` the coupon must be used before the latest value of `expiry` period has ended or before `validTo` date. |
 
 ### DiscountMonetary object
 
@@ -65,3 +65,4 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 | :--- | :--- | :--- | :--- |
 | currency | Yes | String | The currency of the monetary value. |
 | amount | Yes | Number | The amount of the monetary value. |
+
