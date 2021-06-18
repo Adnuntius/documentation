@@ -12,17 +12,21 @@ description: >-
 
 Here is how you create a coupon. First, give your coupon a **name** and **description** \(optional\). These will not be visible to anyone but you, and they are just meant to help you organize your coupons. 
 
-The **coupon code** is the code that self-service advertisers will need to enter in order to unlock the discount. You can create codes based on numbers, letters, words - anything you want. 
+The **coupon code** is the code that self-service advertisers will need to enter when registering with you portal in order to unlock the discount. You can create codes based on numbers, letters, words - anything you want. 
 
-Validity.
+The **status** can be set to Pending, Published or Stopped. Pending means that you're working on the coupon and it is not ready to be applied, and it will not work if anyone tries to use it. Published means that your coupon is ready, and its code can be applied by advertisers who have received it. Stopped means that you have stopped the coupon, and it can no longer be applied by anyone. 
 
-Status
+**Valid from** lets you set the date and time from which the coupon should be valid. Valid to lets you set a stop date and time. After the stop date the coupon code will not work, regardless of the expiry types explained below. 
 
-Valid from
+{% hint style="info" %}
+If you want a coupon code that lasts indefinitely, just set a stop date far into the future, like December 31, 2050.
+{% endhint %}
 
-Valid to.
+**Expiry type** lets you set rules for how long the coupon should stay active after an advertiser has applied it.
 
-Expiry type. 
+* Duration post registration means that, after registration, the coupon must be used on a campaign within the length of time defined. For example, if you set length of time to 7 days, then this means that the advertiser must create campaign\(s\) within 7 days after registration in order to get the discount. 
+* Valid to date means that, after registration, the coupon must be used before the valid to date is passed. For example, if the valid to date is set to December 31st 2021, then this means that the advertiser must create campaign\(s\) before that date in order to get the discount.
+* Expiry duration or validity dates means that, after registration, the coupon can be used according to the duration above or valid to date, whichever is longer.
 
 The **discount type** lets you choose if the discount should be monetary or a percentage. If you for example choose monetary and add the number 100, then you will give the advertiser a discount of 100 in your chosen currency. 
 
