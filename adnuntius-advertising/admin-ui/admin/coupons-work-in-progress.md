@@ -8,6 +8,8 @@ description: >-
 
 ## How to Create Coupons
 
+![Creating a coupon.](../../../.gitbook/assets/creating-coupons.png)
+
 Here is how you create a coupon. First, give your coupon a **name** and **description** \(optional\). These will not be visible to anyone but you, and they are just meant to help you organize your coupons. 
 
 The **coupon code** is the code that self-service advertisers will need to enter in order to unlock the discount. You can create codes based on numbers, letters, words - anything you want. 
