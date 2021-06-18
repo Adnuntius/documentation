@@ -18,7 +18,9 @@ Adnuntius Advertising can be used by direct advertisers also. If you are the onl
 
 ![An example advertiser](../../../.gitbook/assets/201811-advertising-advertiser.png)
 
-**IAB category:** Adding an IAB category to the client allows you to group advertisers together. Once you've added a category you can send impressions, clicks and conversions to for instance your DMP, and then create segments based on users who responded to your campaigns and their categories.
+**VAT identification number** can be used to register that number for advertisers. If you use [Adnuntius Self-Service](https://adnuntius.com/selfservice) then you can choose to request this VAT number from advertisers when signing up, in which case the number will be found here. 
+
+**IAB categories:** Adding an IAB category to the client allows you to group advertisers together. Once you've added a category you can send impressions, clicks and conversions to for instance your DMP, and then create segments based on users who responded to your campaigns and their categories.
 
 **Labels** can be added to make reporting work for you. Let's say you add the label "agency" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Read more about reports. ](../reports/advertising-queries.md)
 
@@ -29,6 +31,12 @@ Once an advertiser is created you will see the following in the right side tabs.
 The order tab gives you an overview of the orders belonging to this advertiser. 
 
 ![Orders overview.](../../../.gitbook/assets/202003-advertisers-orders.png)
+{% endtab %}
+
+{% tab title="Line Items" %}
+The line items tab gives you an overview of the line items belonging to this advertiser.
+
+![](../../../.gitbook/assets/image%20%2847%29.png)
 {% endtab %}
 
 {% tab title="Charts" %}
@@ -47,6 +55,12 @@ Once an advertiser is created, you can also generate reports, and scheduled repo
 Under the traffic tab you can find reports splitting the traffic for this advertiser by device types, operating systems and mobile brands.
 
 ![Traffic example.](../../../.gitbook/assets/202003-advertisers-traffic.png)
+{% endtab %}
+
+{% tab title="Location" %}
+Locations shows you the advertiser's traffic per location \(countries\).
+
+![](../../../.gitbook/assets/image%20%2848%29.png)
 {% endtab %}
 {% endtabs %}
 
