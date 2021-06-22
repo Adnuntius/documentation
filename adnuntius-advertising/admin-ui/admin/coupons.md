@@ -38,6 +38,10 @@ Note that if you choose "Once" then each advertiser can still use a coupon once.
 
 **Product application** lets you choose if the discount should be available for any of the [products](products.md) you offer, or just for specific products. 
 
+{% hint style="info" %}
+See how you can [create coupons using the API](../../admin-api/endpoints/coupons.md). 
+{% endhint %}
+
 ## How Advertisers can Use Coupons
 
 Once you have created a coupon, you can distribute the code to advertisers in email, SMS or banner campaigns. Once the advertiser has received a code, they will be able to enter that code when registering with your self-service portal. 
