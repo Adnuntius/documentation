@@ -136,6 +136,7 @@
   * [For Publishers](onboarding-guides/adnuntius-buying-network/abn-for-publishers.md)
 * [Adnuntius Self-Service](onboarding-guides/adnuntius-self-service/README.md)
   * [User Interface Guide](onboarding-guides/adnuntius-self-service/user-interface-guide.md)
+  * [Marketing Tips \(Work in Progress\)](onboarding-guides/adnuntius-self-service/marketing-tips-work-in-progress.md)
 * [Adnuntius Email Advertising](onboarding-guides/adnuntius-email-advertising.md)
 * [Adnuntius Data](onboarding-guides/adnuntius-data-1.md)
 
