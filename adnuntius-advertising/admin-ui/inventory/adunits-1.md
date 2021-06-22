@@ -12,7 +12,7 @@ An Ad unit is a placement that serves advertising and other content onto a publi
 
 ![Ad unit example](../../../.gitbook/assets/201811-inventory-ad-unit.png)
 
-You can create an ad unit by going to Inventory &gt; Ad Units, then in the upper right corner click "New".
+You can create an ad unit by going to [https://admin.adnuntius.com/ad-units](https://admin.adnuntius.com/ad-units).
 
 **Name and description**: Give the ad unit a name and description \(optional\) of your choice. It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 
