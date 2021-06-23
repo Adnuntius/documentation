@@ -96,7 +96,7 @@ These modes of loading ads can be specified via the `requestParams` parameter. A
     adn.request({ requestParams: {proximity: 50, load: 'lazy'}, adUnits: [
         {auId: '0000000000000806', auW: 728, auH: 90, requestParams: {proximity: 100, load: 'lazy'}},
         {auId: '0000000000000807', auW: 100, auH: 20, requestParams: {load: 'direct'}},
-        {auId: '0000000000000808', auW: 40, auH: 40, requestParams: {load: 'lazyRequest'}0,
+        {auId: '0000000000000808', auW: 40, auH: 40, requestParams: {load: 'lazyRequest'}},
         {auId: '0000000000000809', auW: 230, auH: 140}
     ]});
 ```
