@@ -134,3 +134,7 @@ You can also add ?adndebug123 at the end of any URL \(example: www.aperitif.no?a
 {% endtab %}
 {% endtabs %}
 
+## Requesting Ads
+
+Once an ad unit is created you can deploy it on your page to let that page request ads from the Adnuntius adserver.[ To learn how to request ads, see here](../../requesting-ads/).
+
