@@ -8,7 +8,7 @@ description: >-
 
 ## Layouts
 
-When creating a creative, you will always choose a layout, and your layout will be come visible when you have saved your layout.
+When creating a [creative](../advertising/creatives.md), you will always choose a layout, and your layout will be come visible when you have saved your layout.
 
 ![Layout example](../../../.gitbook/assets/201811-reports-admin-layouts%20%281%29%20%281%29.png)
 
