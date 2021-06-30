@@ -14,9 +14,7 @@ Some HTML5 ads and third-party creatives will not appear or function in a userâ€
 
 ## The Technical Details
 
-By default, Adnuntius uses cookies and local storage when delivering ads.
-
-To avoid cookies, you can do either of the two things:
+Please note that these details build on the information [provided here](intro/). By default, Adnuntius uses cookies and local storage when delivering ads. To avoid cookies, you can do either of the two things:
 
 * add this code to the top of your web page `adn.useCookies(false);`
 * in your ad request, add `useCookies: false` into your ad request as below:
