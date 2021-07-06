@@ -86,6 +86,8 @@ There are many targeting criteria you can choose between, so [we have set aside 
 
 **Creative delivery** allows you to determine whether creatives can be served multiple times on the same page, or if restrictions should apply. "Open" means that the same creative can be delivered multiple times one the same page. "Unique" means that no same creative from this line item can be delivered one the same page. And "one per line item" means that maximum one creative from this line item can be delivered one the same page.
 
+**Creative weighting** lets you control whether the creatives uploaded to your line item should be shown with equal frequency \("Equal"\), or if the creatives that receive more clicks should be shown more frequently. Adnuntius measures the clickrate of each creative, and if one creative provides better clickrate then the system will show more of that creative and less of the others. This weighting will however not affect any objectives you set; if you for instance set a line item to deliver 1,000,000 impressions, this weighting does not put that objective into risk.
+
 **Exclusion labels** allow you to ensure that defined line items cannot be delivered on the same page. This can be useful if you for instance have two car dealers that do not want to be shown together. In this case you can add the label "car-dealer" to both line items, which means that these two line items will never be shown on the same page.
 
 {% hint style="info" %}
