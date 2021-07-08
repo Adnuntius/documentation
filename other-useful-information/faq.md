@@ -28,3 +28,15 @@ Our ad unit sizes are based on minimum and maximum dimensions. This means any si
 
 We support system-generated reports being sent out to any email recipients.
 
+## How does creative weighting "Clicks" work? 
+
+When you set creative weighting to "Clicks" then your line item will increase the impressions for the creatives that show a higher clickrate. 
+
+All creatives start with an assumed click rate of 1 click per 1000 impressions. As clicks are registered the system will use machine learning to adjust the predicted click rate. In simple terms, this means that it must gather enough evidence to change the click rate. If the difference between the true click rate and the estimated click rate is large, then the estimated click rate will be revised quickly.
+
+For example, if we start with an estimated click rate of 1000 impressions per click, but then receive 3 clicks each after only 100 impressions, then we will quickly adjust the estimated click rate down. But, if we instead started receiving clicks after 950 impressions on average, then it will take much longer for the system to revise the original estimate from 1000 down to 950.
+
+Once Adnuntius has different clickrates estimated for the creatives, we assume that each creative is following a [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution) and draw a random sample for each creative based upon their currently estimated click rates. The creative with the highest sample value is then selected as the winner. This means that it is not a "winner takes all" approach. When two creatives have very similar estimated click rates, both will get display frequently, but the one with the higher estimated click rate will be shown slightly more.
+
+Also, we completely ignore the estimated click rates 5% of time time and instead just assume equally weighting. This ensures that poorly performing creatives are occasionally given a chance to deliver and improve their click rate.
+
