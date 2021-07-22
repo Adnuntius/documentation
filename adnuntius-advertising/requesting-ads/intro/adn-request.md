@@ -127,7 +127,7 @@ You can always preview any running ads, but it is also possible to make preview 
 #### Requesting a Preview of a Specific Creative
 
 ```javascript
-adn.request({
+adn.preview({
     networkId: 'myNetworkId',
     creatives: [{
         creativeId: 'myCreativeId',
@@ -142,7 +142,7 @@ You can use a preview request to render _custom data_, without even requiring an
 #### Requesting a Preview of Creative Data in a Specific Layout
 
 ```javascript
-adn.request({
+adn.preview({
     networkId: 'myNetworkId',
     creatives: [{
         creativeData: {
