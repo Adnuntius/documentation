@@ -1,79 +1,59 @@
 # Prebid - Google ad manager
 
-This guide will let you know how to integrate Google Ad Manager with Adnuntius Connect. First there are some requirements that you will have to do in GAM:
+This guide will let you know how to integrate Google Ad Manager \(hereafter called GAM\) with Adnuntius Connect in order to serve ads through prebid. First there are some requirements that you will have to do in GAM: [https://docs.prebid.org/adops/step-by-step.html](https://docs.prebid.org/adops/step-by-step.html).
 
-{% embed url="https://docs.prebid.org/adops/step-by-step.html" %}
+After you have completed these steps and set up your buckets in GAM, you will be able to continue with Adnuntius Connect. This part will be divided into the following steps. 
 
-After you have setup your buckets in google ad manager you will be able to continue with Adnuntius Connect. This part will be divided into the following steps. 
+1. Setup a prebid connection.
+2. Add a trigger for loading google.
+3. Setup google as a tag.
+4. Publish your container.
+5. Download Prebid.js.
+6. Add code to the page.
 
-* **Setup a prebid connection.**
-* **Add a trigger for loading google.**
-* **Setup google as a tag.**
-* **Publish your container.**
-* **Download Prebid.js.**
-* **Add code to the page.**
+### 1 Setup a prebid connection
 
-### Setup a prebid connection
+after you have logged into Adnuntius Connect, navigate to the prebid section.
 
-after you have logged into Connect you will navigate to the prebid section:
+![The prebid section of Adnuntius Connect.](../../.gitbook/assets/image%20%2813%29.png)
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+Here you can add all the bidders that you wish to have in you bidder setup. If you wish to know more, please [read more about it in this section](../user-interface-guide-wip/prebid-configuration.md).
 
-Here you can add all the bidders that you wish to have in you bidder setup. If you wish to know more you can read more about it in this section:
+Next, navigate to the **Options** tab and select GAM as the requesting system. You will also have to specify the network id of the GAM account you wish to request. This is all you have to do for the prebid section, and you can now move onto adding a trigger.
 
-{% page-ref page="../user-interface-guide-wip/prebid-configuration.md" %}
+![On the prebid page, first click &quot;Options&quot; and then choose &quot;Google Ad Manager&quot;. Finally add your GAM account/network ID. ](../../.gitbook/assets/image%20%2812%29.png)
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+### **2 Add a trigger for loading GAM**
 
-Navigate to the options tab in prebid an select Google Ad Manager as the requesting system. You will also have to specify the network id of the admanager account you wish to request. This is all you have to do for the prebid section and you can now move onto adding a trigger.
+All tags that you add to Adnuntius Connect requires a trigger to tell the browser when to fire them. For this example we will add a page view trigger. [Learn more about Triggers here](../user-interface-guide-wip/variables-triggers-and-tags.md#triggers).
 
-### **Add a trigger for loading google**
-
-All tags that you add to connect requires a trigger to tell the browser when to fire them. For this example we will add a page view trigger. To learn more about triggers you can read this section:
-
-{% page-ref page="../../adnuntius-data/user-interface-guide/segmentation/triggers.md" %}
-
-Navigate to the triggers section, and click "add trigger", it's advisable that you give it a name that represents the action. In this case we will call it "Pageview". The default values for a newly created trigger will be set to page view. If cou click on it, you can verify that it's set to Pageview. If you wish to only trigger on certain conditions this can be added in the highlighted section below:
+Navigate to the triggers section, and click "Add trigger", You should give it a name that represents the action, and in the example screenshot below we have called it "Pageview". The default values for a newly created trigger will be set to pageview. If you click on it, you can verify that it's set to Pageview. If you wish to only trigger on certain conditions this can be added in the highlighted section below:
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
 
-An example use case for this would be if you would like to trigger different ad units on article pages for instance, this would be the place to do it.
+An example use case can be that you would like to trigger different ad units on article pages than on the front page. This is where you can ensure that. 
 
-### **Setup google as a tag**
+### **3 Set up Google as a tag**
 
-Now youwill head onto creating your google adunit setup. Head on over to the   
-"Tags" section: 
+You are now ready to create your Google ad unit section. Please go to the "Tags" section in Adnuntius Connect, and create a new tag named "Google". Click on it to trigger the Edit page. 
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![The &quot;Tags&quot; section in Adnuntius Connect.](../../.gitbook/assets/image%20%2844%29.png)
 
-And create a new tag named "Google", click on it and the edit page should appear. 
+![The &quot;Edit page&quot; of a tag in Adnuntius Connect.](../../.gitbook/assets/image%20%2846%29.png)
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+Under "Triggers" select the "Pageview" trigger that you created in step 2. Skip Purposes for now. Select **Tag Type** "Google". A new field appears for you to enter the adunit identifiers that you get from GAM and also what target div on which you want the ad to appear. Finally click Save. 
 
-Under triggers select the "Pageview" trigger that we created earlier. Skip Purposes for now. Select **Tag Type** "Google". A new field appears for you to enter the adunit identifiers that you get from google and also wha target div that you wish the ad should appear in. Now it's time to publish the container.
+### **4 Publish your container**
 
-### **Publish your container**
+Go to the "Publish" section in the UI. Here you can select what environment you would like to publish to. Currently there are two available: Development, and Production. The difference between these is that Production is minified as opposed to Development that is not. This is to make it easier for developers to find any issues with the code. Select the appropriate environment for you and click publish.
 
-Head on over to the "Publish" section in the UI. Here you can select what environment you would like to publish to. Currently there are two available:
+### 5 Download Prebid.js
 
-* Development
-* Production
+Navigate to [https://docs.prebid.org/download.html](https://docs.prebid.org/download.html) and select the bidders you want to have in your bidder setup \(ref step 1\). Click download. A javascript file will then be downloaded on your computer. This will be hosted by you so that your prebid setup can use the bidders you have set up.
 
-The difference between these is that Production is minified as oppodsed to Development that's not. This is to make it easier for developers to find any issues with the code. Select the appropriate environment for you and click publish.
+### **6 Add code to the page**
 
-### Download Prebid.js
-
-Navigate to the page below and select the bidders you wish to have in your bidder setup:
-
-{% embed url="https://docs.prebid.org/download.html" %}
-
-After you click download, a javascript will be downloaded on your computer. This will be hosted by you so that your prebid setup can use the bidders you have setup.
-
-### **Add code to the page**
-
-On the page that you will use your container, setup a link to the prebid.js you have downloaded and a link to the published script from connect. 
-
-After that you will have to tell google to show the correct ad in the correct placement. The final code you end up with should look something like this:
+On the page where you will use your container, set up a link to the prebid.js you have downloaded and a link to the published script from Adnuntius Connect. After that you will have to tell google to show the correct ad in the correct placement. The final code you end up with should look something like this:
 
 ```markup
 <html>
@@ -114,5 +94,5 @@ After that you will have to tell google to show the correct ad in the correct pl
 </html>
 ```
 
-Make sure that the ids of the divs correspond to the ids that you have setup in connect. 
+Make sure that the div IDs correspond to the IDs that you have setup in Adnuntius Connect. 
 

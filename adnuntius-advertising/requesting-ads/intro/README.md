@@ -15,5 +15,3 @@ A human-readable version of the script is available at [http://cdn.adnuntius.com
 | [Utility methods](adn-utility.md) | Methods that can be used in your creative's layouts to help you with its design. |
 | [Logging options](adn-feedback.md) | Logging from adn.js in your browser's console and inside your ad unit on screen. |
 
-
-
