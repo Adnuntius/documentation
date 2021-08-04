@@ -40,7 +40,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 }
 ```
 
-**Example node.js code for uploading a file**
+**Example node.js code for uploading a file to create a new Asset**
 
 ```javascript
 const fs = require("fs");
