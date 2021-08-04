@@ -40,6 +40,27 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true`as a 
 }
 ```
 
+**Example node.js code for uploading a file**
+
+```javascript
+const fs = require("fs");
+const fetch = require("node-fetch");
+const FormData = require("form-data");
+
+const form = new FormData();
+const filePath = "./myFile.png";
+form.append("file", fs.createReadStream(filePath));
+
+const authToken = "9CDNoBusJV3vGXepiktJVjWZGUNWtfkZ3U5BhFBs3OYAAAAQFHzejjdwnRL7sH62vTe7yCZV5UmlsecgKtFtj6CL4paSQxWQKMtCikjxe7Px1hwubifTXymqXLUv10Z2ZXzLrE2MSEDdI9mpGaQ-ES6M326UFXgJKbzQkzPGA4p1sVDxDkVXE0g4deIee2_89Kn70Q";
+const creativeId = "sdnkrn7wcdnbpyy5"; // must be the creative ID of an existing creative
+const assetId = "my_asset"; // new asset ID
+const networkId = "myNetworkId";
+fetch('https://api.adnuntius.com/api/v1/assets/' + creativeId + '/' + assetId + '?context=' + networkId + '&auth_token=' + auth, {
+  method: 'POST',
+  body: form
+});
+```
+
 The earnings account object consists of the following:
 
 | Name | Required | Restriction | Description |
