@@ -60,12 +60,3 @@ fetch('https://api.adnuntius.com/api/v1/assets/' + creativeId + '/' + assetId + 
   body: form
 });
 ```
-
-The earnings account object consists of the following:
-
-| Name | Required | Restriction | Description |
-| :--- | :--- | :--- | :--- |
-| objectState |  | ACTIVE, INACTIVE, HIDDEN | State of the object, will disable or delete the object. |
-
-..... more to document.
-
