@@ -17,13 +17,13 @@ GET calls for many resources can be called with or without an object id in the u
 When the id is included then only that object will be returned.
 
 ```http
-GET http://api.adnuntius.com/api/v1/<resource type>/<id>
+GET https://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 When no id is included then a list of all objects of that type visible to the user are returned.
 
 ```http
-GET http://api.adnuntius.com/api/v1/<resource type>
+GET https://api.adnuntius.com/api/v1/<resource type>
 ```
 
 #### PUT AND POST <a id="put-and-post"></a>
@@ -33,13 +33,13 @@ PUT and POST are both treated the same, they will both create an object if it do
 When the id is included then only that object will be created/updated.
 
 ```http
-POST http://api.adnuntius.com/api/v1/<resource type>/<id>
+POST https://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 When no id is included then a list of objects to be created/updated is expected as the request’s POST data.
 
 ```http
-POST http://api.adnuntius.com/api/v1/<resource type>
+POST https://api.adnuntius.com/api/v1/<resource type>
 ```
 
 #### HEAD <a id="head"></a>
@@ -47,7 +47,7 @@ POST http://api.adnuntius.com/api/v1/<resource type>
 HEAD is used to confirm the existence of an object.
 
 ```http
-HEAD http://api.adnuntius.com/api/v1/<resource type>/<id>
+HEAD https://api.adnuntius.com/api/v1/<resource type>/<id>
 ```
 
 The response code will be `200 OK` if it exists or `404 NOT FOUND` if it doesn’t.
@@ -83,12 +83,12 @@ Standard [HTTP status codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.h
 
 **Access tokens**
 
-The Adnuntius API uses [OAuth2](https://oauth.net/2/) for authentication. In simplest terms, a user can request an access token from the API that can then be used to gain access to secured resources.
+The Adnuntius API uses access tokens for authentication. In simplest terms, a user can request an access token from the API that can then be used to gain access to secured resources.
 
 Token requests are made to:
 
 ```http
-POST http://api.adnuntius.com/api/authenticate
+POST https://api.adnuntius.com/api/authenticate
 ```
 
 Once an access token has been granted, it must be provided on every request to the API to access a secure resource. This is done by providing the token as the value for the `Authorization: Bearer` HTTP header
@@ -137,7 +137,7 @@ All dates are represented as [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 
 When requesting a list of objects, it is possible to pass a list of ids so only these objects are returned. Ids must be semicolon delimited.
 
 ```http
-GET http://api.adnuntius.com/api/v1/lineitems?context=<context>&id=lineitem_1;lineitem_2
+GET https://api.adnuntius.com/api/v1/lineitems?context=<context>&id=lineitem_1;lineitem_2
 ```
 
 #### Context Parameter <a id="context-parameter"></a>
@@ -145,7 +145,7 @@ GET http://api.adnuntius.com/api/v1/lineitems?context=<context>&id=lineitem_1;li
 API requests for objects that belong to a network require a `context` parameter. The value is the id of the network that is the scope for the request.
 
 ```http
-GET http://api.adnuntius.com/api/v1/lineitems?context=network_1
+GET https://api.adnuntius.com/api/v1/lineitems?context=network_1
 ```
 
 ### API Responses <a id="api-responses"></a>
@@ -216,25 +216,25 @@ While not suited for programmatic integration, this approach is simple and usefu
 This snippet authenticates and stores the access token as a shell variable so it can be used in subsequent API calls.
 
 ```bash
-export ACCESS_TOKEN=$(curl -v -d grant_type=password -d scope=ng_api -d username=broker1@bitshift.technology -d password=broker1 "http://api.adnuntius.com/api/authenticate" | jq -r .access_token)
+export ACCESS_TOKEN=$(curl -v -d grant_type=password -d scope=ng_api -d username=broker1@bitshift.technology -d password=broker1 "https://api.adnuntius.com/api/authenticate" | jq -r .access_token)
 ```
 
 **List Line Items**
 
 ```bash
-curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://api.adnuntius.com/api/v1/lineitems?context=network_1" | jq .
+curl -H "Authorization: Bearer $ACCESS_TOKEN" "https://api.adnuntius.com/api/v1/lineitems?context=network_1" | jq .
 ```
 
 **Get a Line Item**
 
 ```bash
-curl -H "Authorization: Bearer $ACCESS_TOKEN" "http://api.adnuntius.com/api/v1/lineitems/lineitem_1?context=network_1" | jq .
+curl -H "Authorization: Bearer $ACCESS_TOKEN" "https://api.adnuntius.com/api/v1/lineitems/lineitem_1?context=network_1" | jq .
 ```
 
 **Create/update a Line Item**
 
 ```bash
-curl -H "Authorization: Bearer $ACCESS_TOKEN" -d @- -X PUT "http://api.adnuntius.com/api/v1/lineitems/lineitem_1?context=network_1" | jq .
+curl -H "Authorization: Bearer $ACCESS_TOKEN" -d @- -X PUT "https://api.adnuntius.com/api/v1/lineitems/lineitem_1?context=network_1" | jq .
 ```
 
 This command will then accept json input from the command line.
@@ -244,6 +244,6 @@ This command will then accept json input from the command line.
 Where _leaderboard.png_ is the Asset file in the current directory that should be uploaded:
 
 ```bash
-curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -F asset=@leaderboard.png "http://api.adnuntius.com/api/v1/assets/creative_1/asset_1?context=network_1" | jq .
+curl -s -H "Authorization: Bearer $ACCESS_TOKEN" -F asset=@leaderboard.png "https://api.adnuntius.com/api/v1/assets/creative_1/asset_1?context=network_1" | jq .
 ```
 
