@@ -42,7 +42,8 @@ POST https://api.adnuntius.com/api/v1/coupons/<couponId>?context=<context>
     "validFrom": "2016-01-01T10:20:30Z",
     "validTo": "2016-01-31T10:20:30Z",
     "oneTimeValidity": true,
-    "couponEndDateType": "EXPIRY"
+    "couponEndDateType": "EXPIRY",
+    "claimableAts": ["CAMPAIGN_CREATION", "SIGN_UP"]
 }
 ```
 
@@ -62,6 +63,7 @@ POST https://api.adnuntius.com/api/v1/coupons/<couponId>?context=<context>
 | validTo | Yes | String | An ISO 8601 date and time of when coupon is valid to. |
 | oneTimeValidity | Yes | Boolean | Specify whether the coupon is valid once. If true it is only valid once and cannot be reapplied. |
 | couponEndDateType | Yes | `EXPIRY`, `VALID_TO`, `GREATEST_OF_EXPIRY_OR_VALID_TO` | Specify when the coupon can be used until. For `EXPIRY` the coupon must be used before the `expiry` period has ended. For `VALID_TO` the coupon must be used before the `validTo` date. For `GREATEST_OF_EXPIRY_OR_VALID_TO` the coupon must be used before the latest value of `expiry` period has ended or before `validTo` date. |
+| claimableAts | Yes | `SIGN_UP`, `CAMPAIGN_CREATION` | Specify where the coupon can be claimed. `SIGN_UP` can be claimed when signing up. `CAMPAIGN_CREATION` can be claimed when creating the campaign.  |
 
 ### DiscountMonetary object
 
