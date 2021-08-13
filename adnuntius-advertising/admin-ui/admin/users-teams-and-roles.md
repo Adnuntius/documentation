@@ -11,6 +11,8 @@ description: >-
 
 ## Users
 
+To create a user, go to [https://admin.adnuntius.com/admin/users](https://admin.adnuntius.com/admin/users) and click "New" in the upper right corner.
+
 ![Example user.](../../../.gitbook/assets/202003-advertising-user.png)
 
 **Email address, Name and Display name**: Apply the user's email address and name. Display name is the name that will be displayed in the upper right corner of the user interface.
@@ -43,6 +45,8 @@ In [Admin &gt; Network](network.md) you can choose to show or hide sections of t
 ## Teams
 
 Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. While [Roles ](../../admin-api/endpoints/roles.md)lets you decide the actions that users can take to that inventory, Teams determines what inventory they can perform those actions on.
+
+To create a team, go to [https://admin.adnuntius.com/admin/teams](https://admin.adnuntius.com/admin/teams) and click "New" in the upper right corner.
 
 ![Example team](../../../.gitbook/assets/201811-reports-admin-teams.png)
 

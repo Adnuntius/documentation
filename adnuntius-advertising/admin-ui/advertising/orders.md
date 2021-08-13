@@ -6,6 +6,8 @@ description: >-
 
 # Orders
 
+To create a new order, go to [https://admin.adnuntius.com/orders](https://admin.adnuntius.com/orders) and click "New" in the upper right corner.
+
 {% embed url="https://youtu.be/XdSFIeujJKs" caption="How to create an order." %}
 
 An order can contain multiple line items. It also determines what team the campaign belongs to, and the set of sites that impressions can be delivered to \(see Admin &gt; [Teams](../admin/users-teams-and-roles.md) for more information\).

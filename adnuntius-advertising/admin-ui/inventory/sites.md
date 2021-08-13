@@ -10,7 +10,7 @@ description: >-
 
 Sites are objects that make it easy for publishers to organize advertising inventory according to the domains, or sites, that publishers own, control or have access to. Once a site is created it can be targeted by line items and creatives. It is also a folder for ad units, which are the placements that go onto the sites to show ads. Ad units are the most granular object on the inventory part of Adnuntius Advertising, and sites are as such folders that help you as a publisher to organize your ad units.
 
-To create a site, go to “inventory”, then to “sites”, then in the upper right corner, click “new”.
+To create a site, go to [https://admin.adnuntius.com/sites](https://admin.adnuntius.com/sites) and click "New" in the upper right corner.
 
 ![Example site and its ad units \(on the right\).](../../../.gitbook/assets/201811-advertising-site.png)
 
