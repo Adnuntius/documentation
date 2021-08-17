@@ -44,6 +44,7 @@
 * [API Documentation](adnuntius-advertising/admin-api/README.md)
   * [API Requests](adnuntius-advertising/admin-api/api-requests.md)
   * [Targeting object](adnuntius-advertising/admin-api/targeting-object.md)
+  * [API Filters](adnuntius-advertising/admin-api/api-filters.md)
   * [Endpoints](adnuntius-advertising/admin-api/endpoints/README.md)
     * [/adunits](adnuntius-advertising/admin-api/endpoints/adunits.md)
     * [/adunittags](adnuntius-advertising/admin-api/endpoints/adunittags.md)
