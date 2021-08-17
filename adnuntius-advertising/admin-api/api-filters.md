@@ -48,3 +48,26 @@ https://api.adnuntius.com/api/v1/lineitems?auth_token=TOKEN&where=executionState
 
 
 ## Full Parameter Description
+
+### Flags
+
+The following flags (meaning that no value is required with the parameter) are supported:
+
+| Flag | Description |
+| :--- | :--- |
+| `includeActive` | include objects with an `ACTIVE` state |
+| `includeInactive` | include objects with an `INACTIVE` state |
+| `includeHidden` | include objects with a `HIDDEN` state |
+| `excludeInvalid` | exclude objects with validation warnings |
+| `onlyMine` | only return objects that were created by the current API user |
+
+### Basic Filtering Parameters
+
+| Flag | Description | Example |
+| :--- | :--- | :-- |
+| `filterBy` | the field name of the object | `filterBy=name` |
+| `filterByValue` | an exact match on the filtered field value. Requires `filterBy` | `filterBy=name&filterByValue=Campaign` |
+| `filterByLike` | a match on any values in the filtered field that contain the supplied string. Requires `filterBy` | `filterBy=name&filterByLike=Camp` |
+| `excludeIfMissing` | a non-null filter | `excludeIfMissing=tierId` |
+    
+### Advanced `where` Clause
