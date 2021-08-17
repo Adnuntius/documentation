@@ -51,7 +51,7 @@ https://api.adnuntius.com/api/v1/lineitems?auth_token=TOKEN&where=executionState
 
 ### Flags
 
-The following flags (meaning that no value is required with the parameter) are supported:
+The following flags are supported:
 
 | Flag | Description |
 | :--- | :--- |
@@ -71,3 +71,27 @@ The following flags (meaning that no value is required with the parameter) are s
 | `excludeIfMissing` | a non-null filter | `excludeIfMissing=tierId` |
     
 ### Advanced `where` Clause
+
+You can chain multiple conditions togther into a where clause using the following syntax:
+
+```
+where=CONDITION;CONDITION;CONDITION
+```
+
+where each `CONDITION` can be one of the following:
+
+| Condition | Example |
+| :-- | :-- |
+| Equals | `name=Adnuntius` |
+| Not Equals | `name!=Adnuntius` |
+| Greater Than | `startDate>2021-01-01` |
+| Greater Than Or Equal to | `startDate>=2021-01-01` |
+| Less Than | `startDate<2021-01-01` |
+| Less Than Or Equal to | `startDate<=2021-01-01` |
+| Is In | `objectState+in+ACTIVE,INACTIVE` |
+| Is Not In | `objectState+not+in+ACTIVE,INACTIVE` |
+| Is Null | `description+is+null` |
+| Is Not Null | `description+is+not+null` |
+
+The `where` filter matches when ALL of the `CONDITION`s are met.
+
