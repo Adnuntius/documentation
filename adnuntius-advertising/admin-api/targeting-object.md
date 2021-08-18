@@ -103,18 +103,24 @@ The `id` of the ad units can be found at this endpoint: [/adunits](endpoints/adu
         {
             "userSegments": [
                 { "id": "xxxxxxxxxxxx" }
+            ],
+            "notUserSegments": [
+                { "id": "yyyyyyyyyyyy" }
             ]
         },
         {
             "userSegments": [
                 { "id": "xxxxxxxxxxxx" }
+            ],
+            "notUserSegments": [
+                { "id": "yyyyyyyyyyyy" }
             ]
         }
     ]
 }
 ```
 
-The `id` of the segments can be found hereat this endpoint: [/segments](endpoints/segments.md).
+The `id` of the segments can be found here at this endpoint: [/segments](endpoints/segments.md).
 
 When posting targeting data only the id of the adunit is required.
 
