@@ -68,6 +68,7 @@ The following flags are supported:
 | `filterBy` | the field name of the object | `filterBy=name` |
 | `filterByValue` | an exact match on the filtered field value. Requires `filterBy` | `filterBy=name&filterByValue=Campaign` |
 | `filterByLike` | a match on any values in the filtered field that contain the supplied string. Requires `filterBy` | `filterBy=name&filterByLike=Camp` |
+| `filterByNotLike` | a match on any values in the filtered field that do NOT contain the supplied string. Requires `filterBy` | `filterBy=name&filterByNotLike=Camp` |
 | `excludeIfMissing` | a non-null filter | `excludeIfMissing=tierId` |
     
 ### Advanced `where` Clause
