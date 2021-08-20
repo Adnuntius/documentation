@@ -2,9 +2,9 @@
 
 This section describes how to include filters with your API queries. Examples usages are:
 
-- Returning all Ad Units with a name that contains `"footer"`
-- Returning all Line Items that started delivering after `2021/01/01`
-- Returning all Line Items in a `RUNNING` or `ENDED` state
+* Returning all Ad Units with a name that contains `"footer"`
+* Returning all Line Items that started delivering after `2021/01/01`
+* Returning all Line Items in a `RUNNING` or `ENDED` state
 
 ## Example Queries
 
@@ -14,7 +14,7 @@ This introduces the filtering capabilities of the API with some concrete example
 
 This makes use of the `filterBy` and `filterByLike` query parameters.
 
-```
+```text
 https://api.adnuntius.com/api/v1/adunits?auth_token=TOKEN&filterBy=name&filterByLike=footer
 ```
 
@@ -22,13 +22,13 @@ https://api.adnuntius.com/api/v1/adunits?auth_token=TOKEN&filterBy=name&filterBy
 
 This makes use of the `where` query parameter.
 
-```
+```text
 https://api.adnuntius.com/api/v1/lineitems?auth_token=TOKEN&where=startedRunningDate>2021-01-01
 ```
 
-Conditions can be added to the `where` clause by using the `;` separator character. So if we wanted to search for Line Items that started delivering *between* `2021-01-01` and `2021-06-01` we could use:
+Conditions can be added to the `where` clause by using the `;` separator character. So if we wanted to search for Line Items that started delivering _between_ `2021-01-01` and `2021-06-01` we could use:
 
-```
+```text
 https://api.adnuntius.com/api/v1/lineitems?auth_token=TOKEN&where=startedRunningDate>2021-01-01;startedRunningDate<2021-06-01
 ```
 
@@ -36,16 +36,15 @@ https://api.adnuntius.com/api/v1/lineitems?auth_token=TOKEN&where=startedRunning
 
 This also makes use of the `where` query parameter, and introduces the `in` operator.
 
-```
+```text
 https://api.adnuntius.com/api/v1/lineitems?auth_token=TOKEN&where=executionState+in+RUNNING,ENDED
 ```
 
 Likewise, you can also use a `not in` operator:
 
-```
+```text
 https://api.adnuntius.com/api/v1/lineitems?auth_token=TOKEN&where=executionState+not+in+RUNNING,ENDED
 ```
-
 
 ## Full Parameter Description
 
@@ -64,25 +63,25 @@ The following flags are supported:
 ### Basic Filtering Parameters
 
 | Flag | Description | Example |
-| :--- | :--- | :-- |
+| :--- | :--- | :--- |
 | `filterBy` | the field name of the object | `filterBy=name` |
 | `filterByValue` | an exact match on the filtered field value. Requires `filterBy` | `filterBy=name&filterByValue=Campaign` |
 | `filterByLike` | a match on any values in the filtered field that contain the supplied string. Requires `filterBy` | `filterBy=name&filterByLike=Camp` |
 | `filterByNotLike` | a match on any values in the filtered field that do NOT contain the supplied string. Requires `filterBy` | `filterBy=name&filterByNotLike=Camp` |
 | `excludeIfMissing` | a non-null filter | `excludeIfMissing=tierId` |
-    
+
 ### Advanced `where` Clause
 
 You can chain multiple conditions togther into a where clause using the following syntax:
 
-```
+```text
 where=CONDITION;CONDITION;CONDITION
 ```
 
 where each `CONDITION` can be one of the following:
 
 | Condition | Example |
-| :-- | :-- |
+| :--- | :--- |
 | Equals | `name=Adnuntius` |
 | Not Equals | `name!=Adnuntius` |
 | Greater Than | `startDate>2021-01-01` |

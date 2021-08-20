@@ -226,3 +226,41 @@ For failed ad server responses, the data passed into the listener functions will
     }
 ```
 
+## Requesting with segments
+
+In order to specify the source of the segment we have two ways of doing this, either user `userSegments`or `segments` in your ad request.
+
+#### userSegments
+
+```javascript
+window.adn = window.adn || {};
+adn.calls = adn.calls || [];
+adn.calls.push(function () {
+	adn.request({
+		userSegments: {
+			ADNUNTIUS: ['xyz', '123'],
+		},
+		adUnits: [
+			{ auId: '00000000000aaaaa', auW: 800, auH: 300 }
+		]
+	});
+});
+```
+
+#### segments
+
+```javascript
+window.adn = window.adn || {};
+adn.calls = adn.calls || [];
+adn.calls.push(function () {
+	adn.request({
+		segments: ['adnuntius.xyz', 'adnuntius.123'],
+		adUnits: [
+			{ auId: '00000000000aaaaa', auW: 800, auH: 300 }
+		]
+	});
+});
+```
+
+The allowed sources can be found [here](../../admin-api/endpoints/segmentsupload.md) and they are case sensitive. If you use `userSegments` they need to be all caps, if you use `segments` they need to be lower case.
+
