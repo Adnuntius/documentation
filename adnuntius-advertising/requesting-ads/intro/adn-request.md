@@ -54,6 +54,8 @@ Specifying targeting criteria for the ad request is also done via the parameter 
 | `siteId` Specifies the site ID to pass onto the segment targeting data source to enable segment targeting. | A string is expected. If unspecified, the network ID of the ad unit's network will be used instead. |
 | `userId` Is synonymous with `usi`. | A string is expected. If unspecified, adn.js will look for a cookie value for the key `cX_P` and this will be supplied to the ad server. `cX_P` is a cookie supplied from Cxense. |
 | `sessionId` An ID for distinguishing between sessions. | A string is expected. If unspecified, adn.js will look for a cookie value for the key `cX_S` and this will be supplied to the ad server. `cX_S` is a cookie supplied from Cxense. |
+| `consentString` IAB GDPR consent string. | A string is expected. Can be the Adnuntius consent string or another vendor's. Value is passed into creatives also. |
+| `gdpr` GDPR flag. | 0 or 1 is expected, either as a string or integer. Is a flag to signal when GDPR is applicable. Value is passed into creatives also. |
 | `ctx` The URL from which the request is being made. If specified, is used by the Adnuntius ad server instead of the referer in the HTTP header field. | A string is expected. |
 | `kv` Specifies the key-values used for targeting. | `kv: [{key1: ['value1', 'value2']}, {fruit: ['apple']}, {car: ['audi', 'toyota', 'holden']}]` |
 | `c` Specifies the categories used for targeting. | `c: ['category1', 'sport/basketball', 'politics']` |
@@ -114,7 +116,7 @@ On a multi adn.request call, some of the adn.request parameters need to be speci
 
 Here's how the split runs:
 
-* **Parameters specified on parent:** `method`, `usi`, `segments`, `ctx`, `longitude`, `latitude`, `excludedLineItems`, `excludedCreatives`, `onError`
+* **Parameters specified on parent:** `method`, `usi`, `segments`, `consentString`, `gdpr`, `ctx`, `longitude`, `latitude`, `excludedLineItems`, `excludedCreatives`, `onError`
 * **Parameters specified on either parent or ad unit:** `requestParams`, `siteId`, `floorPrice`, `resizeOnPageLoad`, `requestMode`, `onImpressionResponse`, `onPageLoad`, `onNoMatchedAds`, `onVisible`, `onViewable`, `clearTarget`, `functionCalls`, `replacements`, `kv`, `c`
 * **Parameters specified on the ad unit only:** those not listed above
 
