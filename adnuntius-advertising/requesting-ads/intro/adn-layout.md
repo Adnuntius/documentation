@@ -137,19 +137,6 @@ adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display:
         and no corresponding function to call is found in the ad, the function
         calls will be ignored.</td>
     </tr>
-  <tr>
-    <td style="text-align: left">
-      <p><code>adn.inIframe.callParentFunction(funcName, args)</code></p>
-      <p>Calls a function in the parent page whose name is <code>funcName</code> and passes in the optional data in <code>args</code>.</p>
-    </td>
-    <td>
-      <p>If <code>functions: [{name: 'nameOfFunction', func: function(adRequestData, dataFromAd) { /* do something */ } }]</code> is specified in the ad request and
-      <code>adn.inIframe.callParentFunction('nameOfFunction', {text: 'data to pass to parent'})</code>
-      is specified in the ad, the function defined in <code>func</code> will be called with the ad request data as the first argument and  <code>{text: 'data to pass to parent'}</code> as
-      the second argument.</p>
-    </td>
-  </tr>
-
     <tr>
       <td style="text-align:left">
         <p><code>adn.inIframe.sendCustomEvent(args)</code>
