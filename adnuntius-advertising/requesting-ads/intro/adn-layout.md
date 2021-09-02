@@ -139,6 +139,20 @@ adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display:
     </tr>
     <tr>
       <td style="text-align:left">
+        <p><code>adn.inIframe.callParentFunction(funcName, args)</code>
+        </p>
+        <p>Calls a function specified in the ad request whose name is <code>funcName</code> and passes in the optional data in <code>args</code>.</p>
+      </td>
+      <td style="text-align:left">If <code>functionCalls: [{name: &apos;nameOfFunction&apos;, args: {dataObj: &apos;data&apos;, dataObj2: &apos;more data&apos;}}]</code> is
+        specified in the ad request and <code>adn.inIframe.registerFunction({name: &apos;nameOfFunction&apos;, func: function(args) { // do something here } });</code> is
+        specified in the ad, the function defined in <code>func</code> will be called
+        with <code>{dataObj: &apos;data&apos;, dataObj2: &apos;more data&apos;}</code> as
+        an argument once the ad is loaded. If <code>functionCalls</code> is specified
+        and no corresponding function to call is found in the ad, the function
+        calls will be ignored.</td>
+    </tr>    
+    <tr>
+      <td style="text-align:left">
         <p><code>adn.inIframe.sendCustomEvent(args)</code>
         </p>
         <p>Sends custom events to Adnuntius for tracking user interactions or other
