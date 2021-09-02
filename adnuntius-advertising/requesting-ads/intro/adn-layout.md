@@ -71,15 +71,15 @@ adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'impRegistered', cb: 
     <tr>
       <td style="text-align:left">
         <p><code>adn.inIframe.getAdRequestInfo(args)</code></p>
-        <p><code>adn.inIframe.getAdRequestInfo({
-  onInfoReceived: function(data) {
-  }
-          });</code></p>
         <p>Gets information to do with the initial ad request, along with a whole
           bunch of other data.</p>
       </td>
       <td style="text-align:left">
         <p>Below is an example of how to request the info</p>
+        <p><code>adn.inIframe.getAdRequestInfo({
+  onInfoReceived: function(data) {
+  }
+          });</code></p>        
         <p>The data returned as a parameter to the callback function includes anything
           that was set on the ad request.</p>
       </td>
