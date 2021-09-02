@@ -143,13 +143,9 @@ adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display:
         </p>
         <p>Calls a function specified in the ad request whose name is <code>funcName</code> and passes in the optional data in <code>args</code>.</p>
       </td>
-      <td style="text-align:left">If <code>functionCalls: [{name: &apos;nameOfFunction&apos;, args: {dataObj: &apos;data&apos;, dataObj2: &apos;more data&apos;}}]</code> is
-        specified in the ad request and <code>adn.inIframe.registerFunction({name: &apos;nameOfFunction&apos;, func: function(args) { // do something here } });</code> is
-        specified in the ad, the function defined in <code>func</code> will be called
-        with <code>{dataObj: &apos;data&apos;, dataObj2: &apos;more data&apos;}</code> as
-        an argument once the ad is loaded. If <code>functionCalls</code> is specified
-        and no corresponding function to call is found in the ad, the function
-        calls will be ignored.</td>
+      <td style="text-align:left">If <code>functions: [{name: &apos;nameOfFunction&apos;, func: function(adRequestData, dataFromAd) { /* do something */ } }]</code> is
+        specified in the ad request and <code>adn.inIframe.callParentFunction(&apos;nameOfFunction&apos;, {text: &apos;data to pass to parent&apos;});</code> is
+        specified in the ad, the function defined in <code>func</code> will be called with the ad request data as the first argument and <code>{text: &apos;data to pass to parent&apos;}</code> as the second argument.</td>
     </tr>    
     <tr>
       <td style="text-align:left">
