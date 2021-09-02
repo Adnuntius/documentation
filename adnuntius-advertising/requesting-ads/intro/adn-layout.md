@@ -137,8 +137,6 @@ adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display:
         and no corresponding function to call is found in the ad, the function
         calls will be ignored.</td>
     </tr>
-
-    
     <tr>
       <td style="text-align:left">
         <p><code>adn.inIframe.sendCustomEvent(args)</code>
@@ -218,4 +216,3 @@ adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display:
     </tr>
   </tbody>
 </table>
-
