@@ -92,12 +92,27 @@ adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'impRegistered', cb: 
       </td>
       <td style="text-align:left">
         <p>The best way to explain this is with examples.</p>
+        <p><code>
+var iframeId = adn.inIframe.getIframeId();
+adn.inIframe.updateAd({ifrW: 200, ifrH: 300, ifrId: iframeId, ifrStyle: {border: '10px solid black'}, parentStyle: {padding: '20px'}});
+</code></p>
         <p>Here, the ad and its container will resize to 200x300 pixels and apply
           the supplied styles to the iframe itself and the target element in the
           parent document.</p>
+        <p><code>
+var iframeId = adn.inIframe.getIframeId();
+var eventElement = document.getElementById("myId");
+adn.inIframe.updateAd({ifrId: iframeId, ifrW: '100%', ifrH: 1000, el: eventElement, event: 'mouseover', cb: function() {// do stuff here} });
+</code></p>
         <p>Here, whenever the mouse hovers over <code>eventElement</code>, the ad
           will resize itself to be 100% in width and 1000 pixels in height and the
           callback called.</p>
+        <p><code>
+var iframeId = adn.inIframe.getIframeId();
+var closeLink = document.getElementById("closeLink");
+adn.inIframe.updateAd({ifrId: iframeId, ifrW: '100%', ifrH: '100%',  parentStyle: {display: 'block'},  ifrStyle: {display: 'block', top: 0, left: 0, backgroundColor: bgColor}, stack: 'absolute', el: window, event: 'load', cb: function() {});
+adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display: 'none'}, el: closeLink, event: 'click', cb: onClickCallback});
+          </code></p>
         <p>Here, when the ad is loaded inside the iframe, the ad&apos;s size will
           be adjusted accordingly, as will styles updated for the iframe&apos;s container
           and the iframe itself. In addition, the iframe will be set to absolute
