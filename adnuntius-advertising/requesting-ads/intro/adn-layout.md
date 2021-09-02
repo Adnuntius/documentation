@@ -59,7 +59,8 @@ The following functions can each be called from within a layout and provide the 
       </td>
       <td style="text-align:left">
         <p>Below is an example of how to subscribe to the events.</p>
-        <p><code>var iframeId = adn.inIframe.getIframeId();
+        <p><code>
+var iframeId = adn.inIframe.getIframeId();
 adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'resize', cb: function(args) {} });
 adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'impRegistered', cb: function(args) {} });
           </code></p>
