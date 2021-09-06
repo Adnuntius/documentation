@@ -5,12 +5,14 @@ adn.js provides many functions to support the design of your creative's layout.
 The following functions can each be called from within a layout and provide the described functionality.
 
 #### adn.inIframe.getResponseCtrId()
-##### Returns the ID of the HTML div that wraps the ad content.
+Returns the ID of the HTML div that wraps the ad content.
 
-Returns `responseCtr` and is unlikely to change.
+Returns the string `responseCtr` and is unlikely to change.
 
 #### adn.inIframe.blockResizeToContent()
-##### Blocks the initial width and height of the ad container from resizing itself to fit the content of the served ad.
+
+Blocks the initial width and height of the ad container from resizing itself to fit the content of the served ad.
+
 Resizing can be blocked on the request side. This also provides the same functionality on the layout side.
 
 
