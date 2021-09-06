@@ -74,6 +74,10 @@ adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display:
 
 Here, when the ad is loaded inside the iframe, the ad's size will be adjusted accordingly, as will styles updated for the iframe's container and the iframe itself. In addition, the iframe will be set to absolute positioning via the `stack` setting. Then, when the `closeLink` element is clicked, the ad will disappear. Another possible value for `stack` is `relative`, which means the iframe will be positioned absolutely relative to the target element in the parent document. Setting `stack` to any other value will render everything as statically positioned.
 
+#### adn.inIframe.registerFunction(args)
+Registers a function that can be called from the ad request or the publisher's page more generally.
+
+If `functionCalls: [{name: &apos;nameOfFunction&apos;, args: {dataObj: &apos;data&apos;, dataObj2: &apos;more data&apos;}}]` is specified in the ad request and `adn.inIframe.registerFunction({name: &apos;nameOfFunction&apos;, func: function(args) { // do something here } });` is specified in the ad, the function defined in `func` will be called with `{dataObj: &apos;data&apos;, dataObj2: &apos;more data&apos;}` as an argument once the ad is loaded. If `functionCalls` is specified and no corresponding function to call is found in the ad, the function calls will be ignored.
 
 
 <table>
@@ -84,20 +88,6 @@ Here, when the ad is loaded inside the iframe, the ad's size will be adjusted ac
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p><code>adn.inIframe.registerFunction(args)</code>
-        </p>
-        <p>Registers a function that can be called from the ad request.</p>
-      </td>
-      <td style="text-align:left">If <code>functionCalls: [{name: &apos;nameOfFunction&apos;, args: {dataObj: &apos;data&apos;, dataObj2: &apos;more data&apos;}}]</code> is
-        specified in the ad request and <code>adn.inIframe.registerFunction({name: &apos;nameOfFunction&apos;, func: function(args) { // do something here } });</code> is
-        specified in the ad, the function defined in <code>func</code> will be called
-        with <code>{dataObj: &apos;data&apos;, dataObj2: &apos;more data&apos;}</code> as
-        an argument once the ad is loaded. If <code>functionCalls</code> is specified
-        and no corresponding function to call is found in the ad, the function
-        calls will be ignored.</td>
-    </tr>
     <tr>
       <td style="text-align:left">
         <p><code>adn.inIframe.callParentFunction(funcName, args)</code>
