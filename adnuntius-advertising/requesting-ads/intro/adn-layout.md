@@ -89,14 +89,14 @@ If `functions: [{name: 'nameOfFunction', func: function(adRequestData, dataFromA
 #### adn.inIframe.sendCustomEvent(args)
 Sends custom events to Adnuntius for tracking user interactions or other actions not tracked by the standard statistics.
 
-Including the following code in your Layout `adn.inIframe.sendCustomEvent('{{adId}}', {events:[{customType: 'custom_event_id'}, {customType: 'another_custom_event_id''}]});` will send two custom events to Adnuntius for the specified event ids.
+Including the following code in your Layout `adn.inIframe.sendCustomEvent('{{adId}}', {events:[{customType: 'custom_event_id'}, {customType: 'another_custom_event_id'}]});` will send two custom events to Adnuntius for the specified event ids.
 
 #### adn.inIframe.intersectionCallback(adId, config)
 Whenever the ad denoted by the <code>adId</code> is within the viewport according to the criteria set within <code>config</code>, the callback function at `config.callback` will be called.
 
 The best way to explain this is via examples. If the following code is placed within a layout or creative: 
 ```
-adn.inIframe.intersectionCallback(&apos;{{adId}}&apos;, {callback: function(data) { /* this will get called */ } });
+adn.inIframe.intersectionCallback('{{adId}}', {callback: function(data) { /* this will get called */ } });
 ```
 
 The above code will call the callback function whenever 50% of the ad defined by `adId` has been within the viewport.
