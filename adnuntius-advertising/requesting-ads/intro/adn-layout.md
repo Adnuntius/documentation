@@ -31,6 +31,51 @@ adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'impRegistered', cb: 
 
 The args object returned as a parameter in the callback includes the width and height of the parent window.
 
+#### adn.inIframe.getAdRequestInfo(args)
+Gets information to do with the initial ad request, along with a whole bunch of other data.
+
+Below is an example of how to request the info:
+
+```
+adn.inIframe.getAdRequestInfo({
+  onInfoReceived: function(data) {
+  }
+});
+```
+
+The data returned as a parameter to the callback function includes anything that was set on the ad request.
+
+#### adn.inIframe.updateAd(args)
+Updates the ad and the ad's container as required.
+
+The best way to explain this is with examples.
+
+```
+var iframeId = adn.inIframe.getIframeId();
+adn.inIframe.updateAd({ifrW: 200, ifrH: 300, ifrId: iframeId, ifrStyle: {border: '10px solid black'}, parentStyle: {padding: '20px'}});
+```
+
+Here, the ad and its container will resize to 200x300 pixels and apply the supplied styles to the iframe itself and the target element in the parent document.
+
+```
+var iframeId = adn.inIframe.getIframeId();
+var eventElement = document.getElementById("myId");
+adn.inIframe.updateAd({ifrId: iframeId, ifrW: '100%', ifrH: 1000, el: eventElement, event: 'mouseover', cb: function() {// do stuff here} });
+```
+
+Here, whenever the mouse hovers over `eventElement`, the ad will resize itself to be 100% in width and 1000 pixels in height and the callback called.
+
+```
+var iframeId = adn.inIframe.getIframeId();
+var closeLink = document.getElementById("closeLink");
+adn.inIframe.updateAd({ifrId: iframeId, ifrW: '100%', ifrH: '100%',  parentStyle: {display: 'block'},  ifrStyle: {display: 'block', top: 0, left: 0, backgroundColor: bgColor}, stack: 'absolute', el: window, event: 'load', cb: function() {});
+adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display: 'none'}, el: closeLink, event: 'click', cb: onClickCallback});
+```
+
+Here, when the ad is loaded inside the iframe, the ad's size will be adjusted accordingly, as will styles updated for the iframe's container and the iframe itself. In addition, the iframe will be set to absolute positioning via the `stack` setting. Then, when the `closeLink` element is clicked, the ad will disappear. Another possible value for `stack` is `relative`, which means the iframe will be positioned absolutely relative to the target element in the parent document. Setting `stack` to any other value will render everything as statically positioned.
+
+
+
 <table>
   <thead>
     <tr>
@@ -39,61 +84,6 @@ The args object returned as a parameter in the callback includes the width and h
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p><code>adn.inIframe.getAdRequestInfo(args)</code></p>
-        <p>Gets information to do with the initial ad request, along with a whole
-          bunch of other data.</p>
-      </td>
-      <td style="text-align:left">
-        <p>Below is an example of how to request the info</p>
-        <p><code>adn.inIframe.getAdRequestInfo({
-  onInfoReceived: function(data) {
-  }
-          });</code></p>        
-        <p>The data returned as a parameter to the callback function includes anything
-          that was set on the ad request.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><code>adn.inIframe.updateAd(args)</code>
-        </p>
-        <p>Updates the ad and the container as required.</p>
-      </td>
-      <td style="text-align:left">
-        <p>The best way to explain this is with examples.</p>
-        <p><code>
-var iframeId = adn.inIframe.getIframeId();
-adn.inIframe.updateAd({ifrW: 200, ifrH: 300, ifrId: iframeId, ifrStyle: {border: '10px solid black'}, parentStyle: {padding: '20px'}});
-</code></p>
-        <p>Here, the ad and its container will resize to 200x300 pixels and apply
-          the supplied styles to the iframe itself and the target element in the
-          parent document.</p>
-        <p><code>
-var iframeId = adn.inIframe.getIframeId();
-var eventElement = document.getElementById("myId");
-adn.inIframe.updateAd({ifrId: iframeId, ifrW: '100%', ifrH: 1000, el: eventElement, event: 'mouseover', cb: function() {// do stuff here} });
-</code></p>
-        <p>Here, whenever the mouse hovers over <code>eventElement</code>, the ad
-          will resize itself to be 100% in width and 1000 pixels in height and the
-          callback called.</p>
-        <p><code>
-var iframeId = adn.inIframe.getIframeId();
-var closeLink = document.getElementById("closeLink");
-adn.inIframe.updateAd({ifrId: iframeId, ifrW: '100%', ifrH: '100%',  parentStyle: {display: 'block'},  ifrStyle: {display: 'block', top: 0, left: 0, backgroundColor: bgColor}, stack: 'absolute', el: window, event: 'load', cb: function() {});
-adn.inIframe.updateAd({ifrId: iframeId, ifrW: 0, ifrH: 0, parentStyle: {display: 'none'}, el: closeLink, event: 'click', cb: onClickCallback});
-          </code></p>
-        <p>Here, when the ad is loaded inside the iframe, the ad&apos;s size will
-          be adjusted accordingly, as will styles updated for the iframe&apos;s container
-          and the iframe itself. In addition, the iframe will be set to absolute
-          positioning via the <code>stack</code> setting. Then, when the `closeLink`
-          element is clicked, the ad will disappear. Another possible value for <code>stack</code> is <code>relative</code>,
-          which means the iframe will be positioned absolutely relative to the target
-          element in the parent document. Setting <code>stack</code> to any other value
-          will render everything as statically positioned.</p>
-      </td>
-    </tr>
     <tr>
       <td style="text-align:left">
         <p><code>adn.inIframe.registerFunction(args)</code>
