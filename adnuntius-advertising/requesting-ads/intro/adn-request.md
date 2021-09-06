@@ -101,7 +101,16 @@ Whether or not to clear the target HTML element of all content before loading th
 
 `adn.callChildFunctions(dataObj)` is a separate function call to achieve the same end that is more flexible and can used to call a function in the ad content at any time.
 
-If `functionCalls: [{name: 'nameOfFunction', args: {dataObj: 'data', dataObj2: 'more data'}}]` is specified in the ad request and `adn.inIframe.registerFunction({name: 'nameOfFunction', func: function(args) { // do something here } });` is specified in the ad, the function defined in `func` will be called with `{dataObj: 'data', dataObj2: 'more data'}` as an argument once the ad is loaded.  If `functionCalls` is specified and no corresponding function to call is found in the ad, the function calls will be ignored. 
+If the following is specified in the ad request: 
+```
+functionCalls: [{name: 'nameOfFunction', args: {dataObj: 'data', dataObj2: 'more data'}}]
+```  
+and specified in the ad is the following: 
+```
+adn.inIframe.registerFunction({name: 'nameOfFunction', func: function(args) { // do something here } });
+``` 
+
+the function defined in `func` will be called with `{dataObj: 'data', dataObj2: 'more data'}` as an argument once the ad is loaded.  If `functionCalls` is specified and no corresponding function to call is found in the ad, the function calls will be ignored. 
 
 Alternatively, the publisher's page can use `adn.callChildFunction({name: 'functionName', args: {data: 'data'}, auId: 'example-au-id'})` to call functions within the ad content. `auId`, `targetClass` or `targetId` can be specified to determine in which ad content to find the function. If no value is provided for `auId`, `targetClass` or `targetId`, then the function will be called if found in any ad content on the page.
 
@@ -124,22 +133,62 @@ Is set as `replacements: {adnReplaceName: 'George', adnReplaceAge: '15'}`, which
 
 Specifying targeting criteria for the ad request is also done via the parameter object. 
 
-| Parameter and Basic Description | Examples and Things to Note |
-| :--- | :--- |
-| `usi` The universal session identifier used to identify what user session being dealt with, thereby enabling segment targeting and rate limiting. | A string is expected. |
-| `siteId` Specifies the site ID to pass onto the segment targeting data source to enable segment targeting. | A string is expected. If unspecified, the network ID of the ad unit's network will be used instead. |
-| `userId` Is synonymous with `usi`. | A string is expected. If unspecified, adn.js will look for a cookie value for the key `cX_P` and this will be supplied to the ad server. `cX_P` is a cookie supplied from Cxense. |
-| `sessionId` An ID for distinguishing between sessions. | A string is expected. If unspecified, adn.js will look for a cookie value for the key `cX_S` and this will be supplied to the ad server. `cX_S` is a cookie supplied from Cxense. |
-| `consentString` IAB GDPR consent string. | A string is expected. Can be the Adnuntius consent string or another vendor's. Value is passed into creatives also. |
-| `gdpr` GDPR flag. | 0 or 1 is expected, either as a string or integer. Is a flag to signal when GDPR is applicable. Value is passed into creatives also. |
-| `ctx` The URL from which the request is being made. If specified, is used by the Adnuntius ad server instead of the referer in the HTTP header field. | A string is expected. |
-| `kv` Specifies the key-values used for targeting. | `kv: [{key1: ['value1', 'value2']}, {fruit: ['apple']}, {car: ['audi', 'toyota', 'holden']}]` |
-| `c` Specifies the categories used for targeting. | `c: ['category1', 'sport/basketball', 'politics']` |
-| `latitude` and `longitude` The latitude and longitude used for geospatial targeting. | `latitude: 123.4567` `longitude: 234.4567` |
-| `auml` Specifies the ad-unit matching labels used for targeting. | `auml: ['mathing-label1', 'cola-sites']` The ad unit matching labels specified on the ad request supplement the ad unit matching labels that may be specified on the ad unit itself in the Adnuntius system. |
-| `segments` Specifies the segments to use for segment targeting. | `segments: ['mysegment1', 'car-drivers']` The segments specified on the ad request supplement whatever segments are associated with the user. |
-| `excludedLineItems` Specifies the ids of the line items to exclude from the auction. | `{ excludedLineItems: ['myLineItemId', 'myOtherLineItemId'], adUnits: [{auId: 'myId'}] }`  `excludedLineItems` must be an array. |
-| `excludedCreatives` Specifies the ids of the creatives to exclude from the auction. | `{ excludedCreatives: ['myCreativeId', 'myOtherCreativeId'], adUnits: [{auId: 'myId'}] }`  `excludedCreatives` must be an array. |
+#### usi
+The universal session identifier used to identify what user session being dealt with, thereby enabling segment targeting and rate limiting. A string is expected.
+
+#### siteId
+Specifies the site ID to pass onto the segment targeting data source to enable segment targeting. A string is expected. If unspecified, the network ID of the ad unit's network will be used instead.
+
+#### userId
+Is synonymous with `usi`. A string is expected. If unspecified, adn.js will look for a cookie value for the key `cX_P` and this will be supplied to the ad server. `cX_P` is a cookie supplied from Cxense.
+
+#### sessionId 
+An ID for distinguishing between sessions. A string is expected. If unspecified, adn.js will look for a cookie value for the key `cX_S` and this will be supplied to the ad server. `cX_S` is a cookie supplied from Cxense.
+
+#### consentString
+IAB GDPR consent string. A string is expected. Can be the Adnuntius consent string or another vendor's. Value is passed into creatives also.
+
+#### gdpr
+A GDPR flag. 0 or 1 is expected, either as a string or integer. Is a flag to signal when GDPR is applicable. Value is passed into creatives also.
+
+#### ctx
+The URL from which the request is being made. If specified, is used by the Adnuntius ad server instead of the referer in the HTTP header field. A string is expected.
+
+#### kv
+Specifies the key-values used for targeting. An example: 
+
+```
+kv: [{key1: ['value1', 'value2']}, {fruit: ['apple']}, {car: ['audi', 'toyota', 'holden']}]`
+````
+
+#### c
+Specifies the categories used for targeting. Example: `c: ['category1', 'sport/basketball', 'politics']`
+
+#### latitude and longitude
+The latitude and longitude used for geospatial targeting. Example: `latitude: 123.4567`, `longitude: 234.4567`.
+
+#### auml
+Specifies the ad-unit matching labels used for targeting. Example: `auml: ['mathing-label1', 'cola-sites']`. 
+
+The ad unit matching labels specified on the ad request supplement the ad unit matching labels that may be specified on the ad unit itself in the Adnuntius system.
+
+#### segments
+Specifies the segments to use for segment targeting. Example: `segments: ['mysegment1', 'car-drivers']`. 
+
+The segments specified on the ad request supplement whatever segments are associated with the user.
+
+#### excludedLineItems
+Specifies the ids of the line items to exclude from the auction. Must be an array. Example: 
+```
+{ excludedLineItems: ['myLineItemId', 'myOtherLineItemId'], adUnits: [{auId: 'myId'}] }
+```  
+
+#### excludedCreatives
+Specifies the ids of the creatives to exclude from the auction. Must be an array. Example: 
+
+```
+{ excludedCreatives: ['myCreativeId', 'myOtherCreativeId'], adUnits: [{auId: 'myId'}] }
+```
 
 ## **Multi adn.request Calls**
 
