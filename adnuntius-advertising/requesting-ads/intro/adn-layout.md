@@ -10,11 +10,33 @@ Returns the ID of the HTML div that wraps the ad content.
 Returns the string `responseCtr` and is unlikely to change.
 
 #### adn.inIframe.blockResizeToContent()
-
 Blocks the initial width and height of the ad container from resizing itself to fit the content of the served ad.
 
 Resizing can be blocked on the request side. This also provides the same functionality on the layout side.
 
+#### adn.inIframe.isResizeToContent()
+Whether or not the ad container's initial width and height will be resized to fit the content of the served ad.
+
+Returns either `true` or `false`.
+
+#### adn.inIframe.getIframeId()
+Returns the ID of the Iframe that is containing the ad.
+
+Returns the ID as a string.
+
+#### adn.inIframe.parentSubscribeEvent(args)
+
+Provides the ability to register a callback that is called each time the parent window does a particular event. Can also subscribe to the `impRegistered` event, which is specific to adn.js, and occurs once the parent window is informed that an impression has occurred.
+
+Below is an example of how to subscribe to the events.
+
+```
+var iframeId = adn.inIframe.getIframeId();
+adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'resize', cb: function(args) {} });
+adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'impRegistered', cb: function(args) {} });
+```
+
+The args object returned as a parameter in the callback includes the width and height of the parent window.
 
 <table>
   <thead>
@@ -24,47 +46,6 @@ Resizing can be blocked on the request side. This also provides the same functio
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left">
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><code>adn.inIframe.isResizeToContent()</code>
-        </p>
-        <p>Whether or not the ad container&apos;s initial width and height will be
-          resized to fit the content of the served ad.</p>
-      </td>
-      <td style="text-align:left">Returns either <code>true</code> or <code>false</code>.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><code>adn.inIframe.getIframeId()</code>
-        </p>
-        <p>Returns the ID of the Iframe that is containing the ad.</p>
-      </td>
-      <td style="text-align:left">Returns the ID as a string.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p><code>adn.inIframe.parentSubscribeEvent(args)</code>
-        </p>
-        <p>Provides the ability to register a callback that is called each time the
-          parent window does a particular event.</p>
-        <p>Can also subscribe to the <code>impRegistered</code> event, which is specific
-          to adn.js, and occurs once the parent window is informed that an impression
-          has occurred.</p>
-      </td>
-      <td style="text-align:left">
-        <p>Below is an example of how to subscribe to the events.</p>
-        <p><code>
-var iframeId = adn.inIframe.getIframeId();
-adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'resize', cb: function(args) {} });
-adn.inIframe.parentSubscribeEvent({ifrId: iframeId, event: 'impRegistered', cb: function(args) {} });
-          </code></p>
-        <p>The args object returned as a parameter in the callback includes the width
-          and height of the parent window.</p>
-      </td>
-    </tr>
     <tr>
       <td style="text-align:left">
         <p><code>adn.inIframe.getAdRequestInfo(args)</code></p>
