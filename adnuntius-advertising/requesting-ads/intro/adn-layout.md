@@ -5,9 +5,7 @@ adn.js provides many functions to support the design of your creative's layout.
 The following functions can each be called from within a layout and provide the described functionality.
 
 #### adn.inIframe.getResponseCtrId()
-Returns the ID of the HTML div that wraps the ad content.
-
-Returns the string `responseCtr` and is unlikely to change.
+Returns the ID of the HTML div that wraps the ad content. Is currently `responseCtr` and is unlikely to change.
 
 #### adn.inIframe.blockResizeToContent()
 Blocks the initial width and height of the ad container from resizing itself to fit the content of the served ad.
@@ -15,17 +13,12 @@ Blocks the initial width and height of the ad container from resizing itself to 
 Resizing can be blocked on the request side. This also provides the same functionality on the layout side.
 
 #### adn.inIframe.isResizeToContent()
-Whether or not the ad container's initial width and height will be resized to fit the content of the served ad.
-
-Returns either `true` or `false`.
+Whether or not the ad container's initial width and height will be resized to fit the content of the served ad. Returns either `true` or `false`.
 
 #### adn.inIframe.getIframeId()
-Returns the ID of the Iframe that is containing the ad.
-
-Returns the ID as a string.
+Returns the ID of the Iframe that is containing the ad as a string.
 
 #### adn.inIframe.parentSubscribeEvent(args)
-
 Provides the ability to register a callback that is called each time the parent window does a particular event. Can also subscribe to the `impRegistered` event, which is specific to adn.js, and occurs once the parent window is informed that an impression has occurred.
 
 Below is an example of how to subscribe to the events.
