@@ -79,7 +79,7 @@ Registers a function that can be called from the ad request or the publisher's p
 
 If `functionCalls: [{name: 'nameOfFunction', args: {dataObj: 'data', dataObj2: 'more data'}}]` is specified in the ad request and `adn.inIframe.registerFunction({name: 'nameOfFunction', func: function(args) { // do something here } });` is specified in the ad, the function defined in `func` will be called with `{dataObj: 'data', dataObj2: 'more data'}` as an argument once the ad is loaded. If `functionCalls` is specified and no corresponding function to call is found in the ad, the function calls will be ignored.
 
-Alternatively, the publisher's page can call the functions defined by `registerFunction` by calling `adn.callChildFunction({name: 'functionName', args: {data: 'data'}, auId: 'example-au-id')`.
+Alternatively, the publisher's page can call the functions defined by `registerFunction` by calling `adn.callChildFunction({name: 'functionName', args: {data: 'data'}, auId: 'example-au-id'})`.
 
 #### adn.inIframe.callParentFunction(funcName, args)
 Calls a function specified in the ad request whose name is `funcName` and passes in the optional data in `args`.
