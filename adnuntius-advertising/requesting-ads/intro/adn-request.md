@@ -159,7 +159,7 @@ Specifies the key-values used for targeting. An example:
 
 ```
 kv: [{key1: ['value1', 'value2']}, {fruit: ['apple']}, {car: ['audi', 'toyota', 'holden']}]`
-````
+```
 
 #### c
 Specifies the categories used for targeting. Example: `c: ['category1', 'sport/basketball', 'politics']`
