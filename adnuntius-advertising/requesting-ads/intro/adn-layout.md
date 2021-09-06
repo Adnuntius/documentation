@@ -4,11 +4,11 @@ adn.js provides many functions to support the design of your creative's layout.
 
 The following functions can each be called from within a layout and provide the described functionality.
 
-## adn.inIframe.getResponseCtrId()
+### adn.inIframe.getResponseCtrId()
 
-### Returns the ID of the HTML div that wraps the ad content.
+#### Returns the ID of the HTML div that wraps the ad content.
 
-Returns <code>&apos;responseCtr&apos;</code> and is unlikely to change.
+Returns `responseCtr` and is unlikely to change.
 
 <table>
   <thead>
