@@ -17,176 +17,218 @@ This will do the following:
 The entries below describe how to tailor the basic adn.request call.
 
 #### auId
+
 The ad unit tag id. No ad request is made to the Adnuntius ad server without an auId specified.
 
 #### auW and auH
+
 The ad unit's initial width and height before it receives an ad server response. Used to reserve space in the page.
 
 Can be anything that works as a CSS value. `10`, `'10px'`, `'10%'`, `'10vh'` etc. are all valid. Can be set to 0 or unspecified if not wanting to reserve space for an ad in the page before one is received from the ad server.
 
 #### protocol
+
 Specifies whether to use `http` or `https` in the ad server request. Defaults to the protocol the web page is using.
 
 #### targetId
+
 Specifies which element ID in the page to insert an ad into. Defaults to `adn-{value-of-auId}`.
 
 Comes most in handy when multiple requests to the same ad unit are made to the ad server from the same page. If the same target ID is used multiple times on the same page, will cycle through the HTML elements that match the ID until an empty one is found in which to put the ad. However, to ensure the requested ad is put into the expected spot on the page, unique IDs must be used in your page.
 
 #### targetClass
+
 Specifies the class by which to find an element to insert an ad into.
 
-If more than one HTML element matches the CSS class specified, will cycle through the HTML elements until it finds an empty one in which to put the ad. If no empty HTML element is found, will fill the first HTML element found and put the ad there.  If `targetClass` is not specified, will use `adn-{value-of-auId}` or the value specified in `targetId` to find the ID of the element in which to place the ad content.
+If more than one HTML element matches the CSS class specified, will cycle through the HTML elements until it finds an empty one in which to put the ad. If no empty HTML element is found, will fill the first HTML element found and put the ad there. If `targetClass` is not specified, will use `adn-{value-of-auId}` or the value specified in `targetId` to find the ID of the element in which to place the ad content.
 
 #### requestTiming
-Specifies when to execute the ad request. Defaults to `immediate`, which means the ad request will be made immediately. Can also be set to `onReady`, which means the ad request will be made only after the document is loaded and parsed; or `onLoad`, which means the ad request will be made only after the document and related files (images, scripts, iFrames, stylesheets) have finished loading.
 
-#### requestMode 
-Specifies whether to request an ad immediately or avoid requesting an ad if the target element on the page is not present. 
+Specifies when to execute the ad request. Defaults to `immediate`, which means the ad request will be made immediately. Can also be set to `onReady`, which means the ad request will be made only after the document is loaded and parsed; or `onLoad`, which means the ad request will be made only after the document and related files \(images, scripts, iFrames, stylesheets\) have finished loading.
 
-Defaults to requesting an ad immediately as `default`.  When set to `hasTarget`, the ad request will not be made if the target element cannot be found on the page.
+#### requestMode
+
+Specifies whether to request an ad immediately or avoid requesting an ad if the target element on the page is not present.
+
+Defaults to requesting an ad immediately as `default`. When set to `hasTarget`, the ad request will not be made if the target element cannot be found on the page.
 
 #### display
+
 Defines what the value of the target element's CSS display property will be once an ad is requested. Defaults to `block`.
 
 #### container
-Defines what kind of container in which to place the ad content from the ad server. 
+
+Defines what kind of container in which to place the ad content from the ad server.
 
 Defaults to `iframe`. Other options is `div`, which displays the ad content directly into the page.
 
 #### ps
-Short for page size, defines the maximum number of ads that the ad server can return to fill the ad unit. 
+
+Short for page size, defines the maximum number of ads that the ad server can return to fill the ad unit.
 
 An integer is expected. If unspecified, will use the page size that the ad unit in Adnuntius specifies. If no page size is specified even there, there is no limit to the number of ads that can be returned to fill out the ad unit.
 
 #### collapsible
+
 Whether to collapse the space an ad unit takes up if no ad is received from the ad server. Defaults to `true`.
 
-#### resizeOnPageLoad 
-Whether to resize the ad unit to the size of the ad unit content once the ad is received from the ad server and has been loaded. Defaults to `true`. 
+#### resizeOnPageLoad
+
+Whether to resize the ad unit to the size of the ad unit content once the ad is received from the ad server and has been loaded. Defaults to `true`.
 
 By default, the ad unit will resize itself to match the size of the ad unit content as soon as an ad is received AND resize itself again to match the size of the ad unit content once all its content has finished loading. This parameter decides whether the ad unit will resize itself only on load of the ad's content, not when the ad content is initially received.
 
-#### useCookies 
+#### useCookies
+
 Whether or not to use cookies to track unique users, impression caps and CPA. If not using cookies, user IDs and segments would need to be provided manually on each request. Defaults to `true`.
 
-#### floorPrice 
-Specifies the ad unit floor price to be used, overriding the floor price of the Ad Unit within Adnuntius. 
+#### floorPrice
+
+Specifies the ad unit floor price to be used, overriding the floor price of the Ad Unit within Adnuntius.
 
 Specified as: `floorPrice: {amount: 11.12, currency: 'SEK'}`. A currency code and an amount must be specified for the floor price to be considered valid.
 
-#### onImpressionResponse 
+#### onImpressionResponse
+
 A function that is called once a response from the ad server has been received. Must be a function if it is to be called. Function will be called even if no ads have been returned.
 
 #### onPageLoad
+
 A function that is called once a response from the ad server has been received and all its content has been loaded into the page/iframe. Must be a function if it is to be called. Function will be called even if no ads have been returned.
 
-#### onNoMatchedAds 
+#### onNoMatchedAds
+
 A function that is called if no ads return from the ad server for a particular request. Must be a function if it is to be called. **Note:** only applies to multi ad requests. See below for more information on multi ad requests.
 
 #### onVisible
+
 A function that is called whenever an ad is visible in the user's browser. Must be a function. Can be called multiple times if one ad unit request features multiple ads. A parameter object is passed into the onVisible function with the following properties: `adId`, `auId`, `creativeId`, `viewability`, `widgetId`
 
-
 #### onViewable
-A function that is called whenever an ad is considered viewable (at least 50% of the ad is shown for at least 1 second) in the user's browser. Must be a function. Can be called multiple times if one ad unit request features multiple ads.  A parameter object is passed into the onVisible function with the following properties: `adId`, `auId`, `creativeId`, `viewability`, `widgetId`
+
+A function that is called whenever an ad is considered viewable \(at least 50% of the ad is shown for at least 1 second\) in the user's browser. Must be a function. Can be called multiple times if one ad unit request features multiple ads. A parameter object is passed into the onVisible function with the following properties: `adId`, `auId`, `creativeId`, `viewability`, `widgetId`
 
 #### onError
+
 A function that is called whenever an error is returned from the ad server. Must be a function. Function is called with a parameter object showing the error information.
 
 #### clearTarget
+
 Whether or not to clear the target HTML element of all content before loading the ad into it. Must be a boolean. Default is `false`.
 
-#### functionCalls and adn.callChildFunctions()
-`functionCalls` is an array of details that describe the functions to call in the content of the ads that the ad server has returned as soon as the ad content is loaded into the page. The ad returned from the ad server must also register the functions that are available to be called. 
+#### functionCalls and adn.callChildFunctions\(\)
+
+`functionCalls` is an array of details that describe the functions to call in the content of the ads that the ad server has returned as soon as the ad content is loaded into the page. The ad returned from the ad server must also register the functions that are available to be called.
 
 `adn.callChildFunctions(dataObj)` is a separate function call to achieve the same end that is more flexible and can used to call a function in the ad content at any time.
 
-If the following is specified in the ad request: 
-```
-functionCalls: [{name: 'nameOfFunction', args: {dataObj: 'data', dataObj2: 'more data'}}]
-```  
-and specified in the ad is the following: 
-```
-adn.inIframe.registerFunction({name: 'nameOfFunction', func: function(args) { // do something here } });
-``` 
+If the following is specified in the ad request:
 
-the function defined in `func` will be called with `{dataObj: 'data', dataObj2: 'more data'}` as an argument once the ad is loaded.  If `functionCalls` is specified and no corresponding function to call is found in the ad, the function calls will be ignored. 
+```text
+functionCalls: [{name: 'nameOfFunction', args: {dataObj: 'data', dataObj2: 'more data'}}]
+```
+
+and specified in the ad is the following:
+
+```text
+adn.inIframe.registerFunction({name: 'nameOfFunction', func: function(args) { // do something here } });
+```
+
+the function defined in `func` will be called with `{dataObj: 'data', dataObj2: 'more data'}` as an argument once the ad is loaded. If `functionCalls` is specified and no corresponding function to call is found in the ad, the function calls will be ignored.
 
 Alternatively, the publisher's page can use `adn.callChildFunction({name: 'functionName', args: {data: 'data'}, auId: 'example-au-id'})` to call functions within the ad content. `auId`, `targetClass` or `targetId` can be specified to determine in which ad content to find the function. If no value is provided for `auId`, `targetClass` or `targetId`, then the function will be called if found in any ad content on the page.
 
-#### functions 
-An array of details that describe the functions that ads returned from the ad server can call. 
+#### functions
 
-If `functions: [{name: 'nameOfFunction', func: function(adRequestData, dataFromAd) { /* do something */ } }]` is specified in the ad request and `adn.inIframe.callParentFunction('nameOfFunction', {text: 'data to pass to parent'})` is specified in the ad, the function defined in `func` will be called with the ad request data as the first argument and  `{text: 'data to pass to parent'}` as the second argument.
+An array of details that describe the functions that ads returned from the ad server can call.
+
+If `functions: [{name: 'nameOfFunction', func: function(adRequestData, dataFromAd) { /* do something */ } }]` is specified in the ad request and `adn.inIframe.callParentFunction('nameOfFunction', {text: 'data to pass to parent'})` is specified in the ad, the function defined in `func` will be called with the ad request data as the first argument and `{text: 'data to pass to parent'}` as the second argument.
 
 #### refresh
-Allows for the same ad request to be made multiple times after the returned ad is visible or viewable and with a delay. Can be set simply as `refresh: 3`, which defaults to making the same ad request 3 seconds after the ad is viewable and doing so only once.  
 
-For more fine-grained control, can be set as `refresh: {delay: 3, count: 5, event: 'onVisible'}`, which means the same ad request will be made 3 seconds after the returned ad is visible, and this process will be repeated five times.  `delay` must be an integer that is 0 or greater; `event` can only be `onVisible` otherwise it defaults to `onViewable`; and `count` defaults to 1 if it's not an integer greater than 1.
+Allows for the same ad request to be made multiple times after the returned ad is visible or viewable and with a delay. Can be set simply as `refresh: 3`, which defaults to making the same ad request 3 seconds after the ad is viewable and doing so only once.
+
+For more fine-grained control, can be set as `refresh: {delay: 3, count: 5, event: 'onVisible'}`, which means the same ad request will be made 3 seconds after the returned ad is visible, and this process will be repeated five times. `delay` must be an integer that is 0 or greater; `event` can only be `onVisible` otherwise it defaults to `onViewable`; and `count` defaults to 1 if it's not an integer greater than 1.
 
 #### replacements
-Allows for text replacements in your ad to be set in the browser code. 
 
-Is set as `replacements: {adnReplaceName: 'George', adnReplaceAge: '15'}`, which will replace any `adnReplaceName` or `adnReplaceAge` string inside the ad with the supplied values.  Can also be set as `replacements: {Name: 'George', Age: '15'}` and will also replace any `adnReplaceName` or `adnReplaceAge` string inside the ad with the supplied values.
+Allows for text replacements in your ad to be set in the browser code.
+
+Is set as `replacements: {adnReplaceName: 'George', adnReplaceAge: '15'}`, which will replace any `adnReplaceName` or `adnReplaceAge` string inside the ad with the supplied values. Can also be set as `replacements: {Name: 'George', Age: '15'}` and will also replace any `adnReplaceName` or `adnReplaceAge` string inside the ad with the supplied values.
 
 ### **Specifying Targeting Criteria via the Parameter Object**
 
-Specifying targeting criteria for the ad request is also done via the parameter object. 
+Specifying targeting criteria for the ad request is also done via the parameter object.
 
 #### usi
+
 The universal session identifier used to identify what user session being dealt with, thereby enabling segment targeting and rate limiting. A string is expected.
 
 #### siteId
+
 Specifies the site ID to pass onto the segment targeting data source to enable segment targeting. A string is expected. If unspecified, the network ID of the ad unit's network will be used instead.
 
 #### userId
+
 Is synonymous with `usi`. A string is expected. If unspecified, adn.js will look for a cookie value for the key `cX_P` and this will be supplied to the ad server. `cX_P` is a cookie supplied from Cxense.
 
-#### sessionId 
+#### sessionId
+
 An ID for distinguishing between sessions. A string is expected. If unspecified, adn.js will look for a cookie value for the key `cX_S` and this will be supplied to the ad server. `cX_S` is a cookie supplied from Cxense.
 
 #### consentString
+
 IAB GDPR consent string. A string is expected. Can be the Adnuntius consent string or another vendor's. Value is passed into creatives also.
 
 #### gdpr
+
 A GDPR flag. 0 or 1 is expected, either as a string or integer. Is a flag to signal when GDPR is applicable. Value is passed into creatives also.
 
 #### ctx
+
 The URL from which the request is being made. If specified, is used by the Adnuntius ad server instead of the referer in the HTTP header field. A string is expected.
 
 #### kv
-Specifies the key-values used for targeting. An example: 
 
-```
+Specifies the key-values used for targeting. An example:
+
+```text
 kv: [{key1: ['value1', 'value2']}, {fruit: ['apple']}, {car: ['audi', 'toyota', 'holden']}]`
 ```
 
 #### c
+
 Specifies the categories used for targeting. Example: `c: ['category1', 'sport/basketball', 'politics']`
 
 #### latitude and longitude
+
 The latitude and longitude used for geospatial targeting. Example: `latitude: 123.4567`, `longitude: 234.4567`.
 
 #### auml
-Specifies the ad-unit matching labels used for targeting. Example: `auml: ['mathing-label1', 'cola-sites']`. 
+
+Specifies the ad-unit matching labels used for targeting. Example: `auml: ['mathing-label1', 'cola-sites']`.
 
 The ad unit matching labels specified on the ad request supplement the ad unit matching labels that may be specified on the ad unit itself in the Adnuntius system.
 
 #### segments
-Specifies the segments to use for segment targeting. Example: `segments: ['mysegment1', 'car-drivers']`. 
+
+Specifies the segments to use for segment targeting. Example: `segments: ['mysegment1', 'car-drivers']`.
 
 The segments specified on the ad request supplement whatever segments are associated with the user.
 
 #### excludedLineItems
-Specifies the ids of the line items to exclude from the auction. Must be an array. Example: 
-```
+
+Specifies the ids of the line items to exclude from the auction. Must be an array. Example:
+
+```text
 { excludedLineItems: ['myLineItemId', 'myOtherLineItemId'], adUnits: [{auId: 'myId'}] }
-```  
+```
 
 #### excludedCreatives
-Specifies the ids of the creatives to exclude from the auction. Must be an array. Example: 
 
-```
+Specifies the ids of the creatives to exclude from the auction. Must be an array. Example:
+
+```text
 { excludedCreatives: ['myCreativeId', 'myOtherCreativeId'], adUnits: [{auId: 'myId'}] }
 ```
 
@@ -363,14 +405,14 @@ In order to specify the source of the segment we have two ways of doing this, ei
 window.adn = window.adn || {};
 adn.calls = adn.calls || [];
 adn.calls.push(function () {
-	adn.request({
-		userSegments: {
-			ADNUNTIUS: ['xyz', '123'],
-		},
-		adUnits: [
-			{ auId: '00000000000aaaaa', auW: 800, auH: 300 }
-		]
-	});
+    adn.request({
+        userSegments: {
+            ADNUNTIUS: ['xyz', '123'],
+        },
+        adUnits: [
+            { auId: '00000000000aaaaa', auW: 800, auH: 300 }
+        ]
+    });
 });
 ```
 
@@ -380,12 +422,12 @@ adn.calls.push(function () {
 window.adn = window.adn || {};
 adn.calls = adn.calls || [];
 adn.calls.push(function () {
-	adn.request({
-		segments: ['adnuntius.xyz', 'adnuntius.123'],
-		adUnits: [
-			{ auId: '00000000000aaaaa', auW: 800, auH: 300 }
-		]
-	});
+    adn.request({
+        segments: ['adnuntius.xyz', 'adnuntius.123'],
+        adUnits: [
+            { auId: '00000000000aaaaa', auW: 800, auH: 300 }
+        ]
+    });
 });
 ```
 

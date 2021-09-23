@@ -58,3 +58,41 @@ You can still deliver ads anonymously and enjoy both features if you are able to
 
 We keep no retrievable record of the user ID you pass into us because we utilise a mathematical technique called one-way hashing. With one-way hashing, we transform the ID into another set of characters that cannot then be transformed back into the original ID. This means we can count how many unique users have seen an ad but without knowing which particular user IDs saw the ad.
 
+## Implementing Cookieless with a CMP
+
+If you have implemented a consent management platform \(CMP\) that lets your website visitors consent to or reject tracking, then you can most likely use that CMP to set up for cookieless adserving. The logic is as follows, where a website visitor should get a cookieless ad or a normal one depending on their decision. 
+
+![User journey from a user enters your website to an ad is shown.](../../.gitbook/assets/cmp-process.png)
+
+Below is an example of the code that will be placed on the page, where Usercentrics CMP is used as the example CMP. It uses an event listener that will fire the ad request depending on the consent that is given. Usually this is easy for developers to support. The important part for Adnuntius is the useCookie: false parameter, and the other parameters described above.
+
+```javascript
+<script src="https://cdn.adnuntius.com/adn.js" async></script>
+<div id="adn-000000000013fa45" style="display:none"></div>
+<script>
+window.addEventListener("ucEvent", function (e) {   
+   if( e.detail && e.detail.event == "consent_status") {
+       // check for consent status of advertising
+       if(e.detail['NOT SURE OF THE VALUE'] === true) {
+           window.adn = window.adn || {};
+           adn.calls = adn.calls || [];
+           adn.calls.push(function () {
+               // More ad units can be added as needed.
+               adn.requestAds({
+                   adUnits: [
+                       { auId: '000000000013fa45', auW: 300, auH: 250, useCookies: false }
+                   ]
+               });
+           });
+       }
+   }
+});
+
+</script>
+
+```
+
+{% hint style="info" %}
+Please note that different CMPs have different ways of triggering events, and the code must be changed accordingly.
+{% endhint %}
+
