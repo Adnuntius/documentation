@@ -93,6 +93,10 @@ window.addEventListener("ucEvent", function (e) {
 ```
 
 {% hint style="info" %}
+Do you need a CMP to allow users to consent to or reject tracking, where all this works automatically? [Reach out to us](https://adnuntius.com/contact) for a demonstration of Adnuntius Connect.
+{% endhint %}
+
+{% hint style="info" %}
 Please note that different CMPs have different ways of triggering events, and the code must be changed accordingly.
 {% endhint %}
 
