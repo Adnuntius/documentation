@@ -64,7 +64,9 @@ If you have implemented a consent management platform \(CMP\) that lets your web
 
 ![User journey from a user enters your website to an ad is shown.](../../.gitbook/assets/cmp-process.png)
 
-Below is an example of the code that will be placed on the page, where Usercentrics CMP is used as the example CMP. It uses an event listener that will fire the ad request depending on the consent that is given. Usually this is easy for developers to support. The important part for Adnuntius is the useCookie: false parameter, and the other parameters described above.
+Below are examples of code that will be placed on the page in order to secure the logic. They use an event listener that will fire the ad request depending on the consent that is given. Usually this is easy for developers to support. The important part for Adnuntius is the useCookie: false parameter, and the other parameters described above.
+
+**Usercentrics:** 
 
 ```javascript
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
@@ -90,6 +92,56 @@ window.addEventListener("ucEvent", function (e) {
 
 </script>
 
+```
+
+**Cookiebot:** 
+
+```javascript
+<script src="https://cdn.adnuntius.com/adn.js" async></script>
+<div id="adn-000000000013fa45" style="display:none"></div>
+
+<script type="text/javascript">
+
+	window.addEventListener('CookiebotOnAccept', function (e) {
+		if (Cookiebot.consent.marketing) {
+			window.adn = window.adn || {};
+			adn.calls = adn.calls || [];
+			adn.calls.push(function () {
+				// More ad units can be added as needed.
+				adn.requestAds({
+					adUnits: [
+						{ auId: '000000000013fa45', auW: 300, auH: 250, useCookies: false }
+					]
+				});
+			});
+		}
+	}, false);
+
+</script>
+```
+
+**Piwik Pro** \(please note that there also needs to be a piwik script on the page for this CMP\): 
+
+```javascript
+<script src="https://cdn.adnuntius.com/adn.js" async></script>
+<div id="adn-000000000013fa45" style="display:none"></div>
+
+<script type="text/javascript">
+	ppms.cm.api('getComplianceSettings', function (comp) {
+		if (comp.consent && comp.consent.marketing) { //<-- or whatever consent you are looking for
+			window.adn = window.adn || {};
+			adn.calls = adn.calls || [];
+			adn.calls.push(function () {
+				// More ad units can be added as needed.
+				adn.requestAds({
+					adUnits: [
+						{ auId: '000000000013fa45', auW: 300, auH: 250, useCookies: false }
+					]
+				});
+			});
+		}
+	}, false);
+</script>
 ```
 
 {% hint style="info" %}
