@@ -6,7 +6,7 @@ description: This page describes how to access Adnuntius products from behind a 
 
 Adnuntius products are hosted on our servers and provided to you by way of one or more URLs such as [https://admin.adnuntius.com](https://admin.adnuntius.com). In certain corporate or locked down environments access to all external sites will be blocked, and to access our sites you will need to request your network administrator allows access through the firewall. If this does not apply to you there is no need to read further.
 
-However, if you are in this type of environment you will know that this typically involves mapping the URL to an IP address which can change and so make this a time consuming process. Because of this, unlike most sites Adnuntius has set up our networking to make this easy for you, by ensuring that our services are normally delivered from the same set of IP addresses. The sections below give the details of this for  sites that you might need to access from behind a firewall.
+However, if you are in this type of environment you will know that this typically involves mapping the URL to an IP address which can change and so make this a time consuming process. Because of this, Adnuntius has set up our networking to make this easy for you by ensuring that our services are normally delivered from the same set of IP addresses. The sections below give the details of this for  sites that you might need to access from behind a firewall.
 
 ### Adnuntius Administration
 
@@ -14,6 +14,8 @@ The site [https://admin.adnuntius.com](https://admin.adnuntius.com) is used to m
 
 * 85.202.161.136
 * 85.202.161.137
+
+You will also need to allow access to the **Adnuntius Advertising and Data APIs** IP addresses, which are provided in a section below. 
 
 ### Adnuntius Data FTP Server
 
