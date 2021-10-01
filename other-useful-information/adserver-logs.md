@@ -21,51 +21,85 @@ The logs are in a JSON format, with each line having the format described below.
 | `iabCategory` | String | An IAB Category for the Advertiser e.g. `IAB_3_1_3_8` |
 | `cost` | MonetaryAmount | The cost for this event |
 | `deviceProperties` | Map[String, String] |
-| `location` | Map[LocationType, String] | The detected location 
-| `consents` | Collection[Consent] | The user consents provided with this request 
+| `location` | Location | The detected location 
+| `consents` | Collection[Consent] | The user consents provided with this request. Please use the consents to determine the data that you are permitted to use and store. 
 | `latitude` | Float |
 | `longitude` | Float |
-| `pseudoUserId` | String | This 
+| `pseudoUserId` | String | An anonymised user identifier. It cannot be used to track individual users. See below for further details.
 | `adUnit` | ObjectId |
 | `lineItem` | ObjectId |
 | `creative` | ObjectId |
 | `advertiser` | ObjectId |
 | `team` | ObjectId |
 
-## `ObjectId`
+## Object Identifiers
 
-| Field Name | Data Type |
-| --- | --- 
-| `id` | String |
-| `name` | String |
+References to Adnuntius objects in the logs are desribed using an `ObjectId`, which has the following fields:
 
+| Field Name | Data Type | Description |
+| --- | --- | ---
+| `id` | String | The Adnuntius object ID
+| `name` | String | The object name
 
-## `MonetaryAmount`
+Example:
+
+```
+{ 
+  "id": "s8734kjhw98",
+  "name": "July Line Item"
+}
+```
+
+## Monetary Amounts
+
+Costs are described using a `MonetaryAmount` object.
 
 | Field Name | Data Type |
 | --- | --- 
 | currency | String |
 | amount | Number |
 
-## `LocationType`
+Example:
 
-One of the following values:
+```
+{ 
+  "curreny": "EUR",
+  "amount": 10.0
+}
+```
+
+## Locations
+
+The location is reported using the following properites:
 
 - `CONTINENT`
 - `COUNTRY`
 - `REGION`
 - `CITY`
 - `POSTCODE`
-- `LAT_LONG`
 
-## `Consent`
+Example:
+
+```
+{
+  "CONTINENT": "Oceania",
+  "COUNTRY": "Australia"
+  "REGION": "Victoria",
+  "CITY": "Melbourne",
+  "POSTCODE": "3000",
+}
+```
+
+## Consent
 
 One of the following values:
 
-- `PROFILE`
-- `COUNTS`
-- `EXTERNAL`
-- `TARGETING`
+
+| Name | Description |
+| --- | --- |
+| `PROFILE` | Consent to use personal data to build a user profile
+| `COUNTS` | Consent to count number of ad views clicks etc
+| `TARGETING` | Conset to use personal data to target advertising 
 
 
 Example log data can be found [here](https://api.adnuntius.com/rawlogs/). 
