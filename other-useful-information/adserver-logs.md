@@ -98,7 +98,7 @@ One of the following values:
 | Name | Description |
 | --- | --- |
 | `PROFILE` | Consent to use personal data to build a user profile
-| `COUNTS` | Consent to count number of ad views clicks etc
+| `COUNTS` | Consent to meaure ad performance - counting number of times user viewed, clicked ads etc
 | `TARGETING` | Conset to use personal data to target advertising 
 
 
