@@ -101,4 +101,13 @@ One of the following values:
 | --- | --- |
 | `PROFILE` | Consent to use personal data to build a user profile
 | `COUNTS` | Consent to meaure ad performance - counting number of times user viewed, clicked ads etc
-| `TARGETING` | Consent to use personal data to target advertising 
+| `TARGETING` | Consent to use personal data to target advertising
+
+## User Identifiers
+
+The logs include "pseudo" user identifiers that have been anonymised so that they no longer uniquely identify a single user.
+The same user *will* always be assigned the same identifier, but that same identifier can and will also be assigned to *multiple other users* as well.
+The identifiers are created in a way that they
+can still be used for probabilistic cardinality estimation using the popular [HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog) algorithm.
+This means that you can, for example, estimate the number of unique users that viewed an advertisement without knowing precisely the number of times
+that each individual user viewed the ad.
