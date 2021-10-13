@@ -6,7 +6,9 @@ description: >-
 
 # Publishing Queries
 
-{% embed url="https://youtu.be/OnOl6-FTdn0" caption="How to run a site query." %}
+{% embed url="https://youtu.be/OnOl6-FTdn0" %}
+How to run a site query.
+{% endembed %}
 
 You can apply multiple filters to get the data you want. For example: if you have added labels to earnings accounts, sites or ad units, then you can filter by these labels to single out certain items in your reports.
 
@@ -23,10 +25,9 @@ You can apply multiple filters to get the data you want. For example: if you hav
 * Visibility: The share of impressions that were visible.
 * Viewables: Ad ad has 50% or more of its pixels shown in the viewport for 1 second or longer.
 * Viewability: The share of impressions that were viewable.
-* Uniques: Unique users \(browsers\).
+* Uniques: Unique users (browsers).
 * Clicks: Clicks on an ad.
 * CTR: Clickrate, meaning the share of impressions that produce a click.
-* eCPM: \(effective\) cost per thousand ad impressions, calculated as \[Cost\] / \[Impressions\] x 1000.
+* eCPM: (effective) cost per thousand ad impressions, calculated as \[Cost] / \[Impressions] x 1000.
 * Cost: The revenue generated over the period.
 * Revenue share: Revenue share to partners as specified in [earnings accounts](../inventory/earnings-accounts.md).
-

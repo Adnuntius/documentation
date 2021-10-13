@@ -6,15 +6,17 @@ description: >-
 
 # Adunits
 
-{% embed url="https://youtu.be/6wtGvqlIb1o" caption="How to create an ad unit." %}
+{% embed url="https://youtu.be/6wtGvqlIb1o" %}
+How to create an ad unit.
+{% endembed %}
 
-An Ad unit is a placement that serves advertising and other content onto a publisher's site. It is a snippet of code placed on a website or within a third party system to request content from Adnuntius. If you're a developer and want to know the properties of the ad tag \(adn.js\), please see "[Requesting ads](../../requesting-ads/)".
+An Ad unit is a placement that serves advertising and other content onto a publisher's site. It is a snippet of code placed on a website or within a third party system to request content from Adnuntius. If you're a developer and want to know the properties of the ad tag (adn.js), please see "[Requesting ads](../../requesting-ads/)".
 
 ![Ad unit example](../../../.gitbook/assets/201811-inventory-ad-unit.png)
 
 You can create an ad unit by going to [https://admin.adnuntius.com/ad-units](https://admin.adnuntius.com/ad-units).
 
-**Name and description**: Give the ad unit a name and description \(optional\) of your choice. It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
+**Name and description**: Give the ad unit a name and description (optional) of your choice. It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 
 **Minimum and maximum width and height**: You can add a range of dimensions to ensure that an ad unit can serve any size between your minimum and maximum constraints. For example, if your ad unit has minimum 728x90 and maximum 1000x400 pixels, then any creative with width between 728 and 1000, and height between 90 and 400 pixels can be served.
 
@@ -22,10 +24,10 @@ You can create an ad unit by going to [https://admin.adnuntius.com/ad-units](htt
 As long as the creative is within the min/max size limits, the ad unit will automatically shrink to the size of the creative. If there is no creative to serve, the ad unit will by default collapse so that it does not take up space on the site.
 {% endhint %}
 
-**Page size and columns**: _Page siz\_e determines the number of creatives that can be shown inside your ad unit. For instance, if you have a 1000x300 ad unit and page size of 3, then the ad unit may \(depending on what provides the highest revenue\) serve for instance three 300x300 creatives inside this ad unit. \_Columns_ lets you set the maximum number of columns to be filled with ads within the ad unit's dimensions. So if you have your 1000x300 ad unit and allow 2 columns, then that ad unit can fill for instance two 300x300 creatives side by side, but not three.
+**Page size and columns**: _Page siz_e determines the number of creatives that can be shown inside your ad unit. For instance, if you have a 1000x300 ad unit and page size of 3, then the ad unit may (depending on what provides the highest revenue) serve for instance three 300x300 creatives inside this ad unit. \_Columns_ lets you set the maximum number of columns to be filled with ads within the ad unit's dimensions. So if you have your 1000x300 ad unit and allow 2 columns, then that ad unit can fill for instance two 300x300 creatives side by side, but not three.
 
 {% hint style="info" %}
-If you leave the page size and columns fields blank, then Adnuntius will serve any number of ads and columns inside the ad unit \(of course without exceeding the size constraints\).
+If you leave the page size and columns fields blank, then Adnuntius will serve any number of ads and columns inside the ad unit (of course without exceeding the size constraints).
 {% endhint %}
 
 **Floor price** determines the minimum eCPM, or the cost per thousand ad impressions, that you will accept on this ad unit. This means that any line items with a CPM bid lower than what you specify, will not be shown in this ad unit. Please note that if you run programmatic advertising with prebid or with one of our server-side connections, the floor price will apply also to these advertising sources.
@@ -40,7 +42,7 @@ If you leave the page size and columns fields blank, then Adnuntius will serve a
 
 ![Once you have added a label, you can use it as a filter when running reports.](../../../.gitbook/assets/202003-ad-unit-query-labels.png)
 
-**Timezone** lets you choose the timezone for the ad unit. Timezones is important because you can target ads to run on specific dates and times. For instance, if your ad unit's timezone is set to London and you have an ad that runs until 4pm every day using [day parts](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#day-parts-targeting), then that ad will stop running at 4pm London time. However, if you would set that ad unit to Oslo time instead \(which is 1 hour ahead of London\), the ad would stop running at 4pm Oslo time - which is 5pm London time.
+**Timezone** lets you choose the timezone for the ad unit. Timezones is important because you can target ads to run on specific dates and times. For instance, if your ad unit's timezone is set to London and you have an ad that runs until 4pm every day using [day parts](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#day-parts-targeting), then that ad will stop running at 4pm London time. However, if you would set that ad unit to Oslo time instead (which is 1 hour ahead of London), the ad would stop running at 4pm Oslo time - which is 5pm London time.
 
 **Categories from URLs**: ad units can automatically pick up the URL for the page on which it is shown, so that you can later use that information for [targeting ads to specific categories](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#category-targeting).
 
@@ -50,7 +52,7 @@ If you leave the page size and columns fields blank, then Adnuntius will serve a
 
 {% tabs %}
 {% tab title="Can have no targeting" %}
-"Can have no targeting" means that line items with no targeting can deliver to this ad unit \(useful for backfill or network-wide ads\).
+"Can have no targeting" means that line items with no targeting can deliver to this ad unit (useful for backfill or network-wide ads).
 {% endtab %}
 
 {% tab title="Must have targeting" %}
@@ -60,13 +62,13 @@ If you leave the page size and columns fields blank, then Adnuntius will serve a
 {% tab title="Must match type" %}
 "Must match type" allows you to select what targeting you will allow for this ad unit. It will open a list that looks like this.
 
-![Must Match Type.](../../../.gitbook/assets/image%20%2821%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![Must Match Type.](<../../../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
 
 In the instance above only ad unit targeting is selected. This will only allow line items with ad unit targeting to be showed for this ad unit. If this would be applied to an ad unit it would not show any ads unless it´s explicitly targeted. You can of course add more targeting to the line item to reduce the scope of users to target.
 {% endtab %}
 {% endtabs %}
 
-**Rate limits** allows you to limit the traffic \(viewable/visible/rendered/regular impressions or clicks\) that an ad unit receives in a given timeframe. A rate limit may be useful to ad networks that are allowed to sell only a defined set of impressions on a publisher’s behalf. If this applies to you, simply add the number of impressions, clicks or other that you are allowed to sell, then choose the period. You can also add labels if the limitation should apply only to certain line items. For example, if you add “cars” to the label field, then the rate limit will apply to all line items with the label "cars", while all other line items will be free to deliver without limitation.
+**Rate limits** allows you to limit the traffic (viewable/visible/rendered/regular impressions or clicks) that an ad unit receives in a given timeframe. A rate limit may be useful to ad networks that are allowed to sell only a defined set of impressions on a publisher’s behalf. If this applies to you, simply add the number of impressions, clicks or other that you are allowed to sell, then choose the period. You can also add labels if the limitation should apply only to certain line items. For example, if you add “cars” to the label field, then the rate limit will apply to all line items with the label "cars", while all other line items will be free to deliver without limitation.
 
 **External ad units** are placements connecting programmatic ads to an ad unit, enabling you to serve ads from one or more SSPs with a client-side or server-side connection. [Read more about external ad units in this separate section](external-adunits.md).
 
@@ -86,7 +88,7 @@ If you have external ad units serving programmatic ads AND you have connected th
 {% endtab %}
 
 {% tab title="Ad Tags" %}
-The tab “Ad Tags” is where you get the ad tag that is to be placed onto the page where you want ads to show. You can choose between standard tags for your webpage, email tags that can go into your newsletter, and VAST tags if you want to implement for video ads \(instance prerolls, midrolls or endrolls\).
+The tab “Ad Tags” is where you get the ad tag that is to be placed onto the page where you want ads to show. You can choose between standard tags for your webpage, email tags that can go into your newsletter, and VAST tags if you want to implement for video ads (instance prerolls, midrolls or endrolls).
 
 ![Ad tag example.](../../../.gitbook/assets/202003-ad-units-ad-tags-tab.png)
 {% endtab %}
@@ -110,13 +112,13 @@ Availability allows you to forecast how much traffic your ad unit is likely to h
 
 The following explanations will the example above above for guidance.
 
-First, the analysis tells you that "**This ad unit is estimated to deliver 7.90% of all traffic across your network**", and that this means that for the defined period the ad unit can deliver between 231,070 and 248,379 impressions, between 0 and 162 clicks etc. If you choose a longer period of time \(start and end date\) these numbers are likely to increase.
+First, the analysis tells you that "**This ad unit is estimated to deliver 7.90% of all traffic across your network**", and that this means that for the defined period the ad unit can deliver between 231,070 and 248,379 impressions, between 0 and 162 clicks etc. If you choose a longer period of time (start and end date) these numbers are likely to increase.
 
-Next, the allocation analysis tells you that "**0 impressions are allocated to 3 line items, which is 0.00% of the projected traffic**". This may sound strange, but the reason is that none of the three line items currently taking up space for this ad unit have any objectives \(impressions, clicks etc\) registered. Let's say that one of the three line items had an impression objective of 100,000 impressions, was targeted to this ad unit only and had start and end dates equal to the ones you chose, then the message could be "100,000 impressions are allocated to 3 line items, which is 43.29% of the projected traffic".
+Next, the allocation analysis tells you that "**0 impressions are allocated to 3 line items, which is 0.00% of the projected traffic**". This may sound strange, but the reason is that none of the three line items currently taking up space for this ad unit have any objectives (impressions, clicks etc) registered. Let's say that one of the three line items had an impression objective of 100,000 impressions, was targeted to this ad unit only and had start and end dates equal to the ones you chose, then the message could be "100,000 impressions are allocated to 3 line items, which is 43.29% of the projected traffic".
 
 The message "**Between 231,070 – 248,379 impressions are not allocated**" tells you how many impressions are not booked already, meaning that you can probably book this many impressions for a new line item. If we repeated the example above with the 100,000 booke impressions, the message could have been "Between 131,070 – 148,379 impressions are not allocated".
 
-Competitors is a useful list of competing line items \(either as one list, or grouped by tiers\). This list lets you identify competing line items and make changes to them in case you need to make room for a new and more important campaign.
+Competitors is a useful list of competing line items (either as one list, or grouped by tiers). This list lets you identify competing line items and make changes to them in case you need to make room for a new and more important campaign.
 {% endtab %}
 
 {% tab title="Diagnostics" %}
@@ -129,7 +131,7 @@ You can also run diagnostics for [line items](../advertising/#line-item) if you 
 {% endhint %}
 
 {% hint style="info" %}
-You can also add ?adndebug123 at the end of any URL \(example: www.aperitif.no?adndebug123\) to show you all ad units, line items, creatives, targeting and more information in the context of a webpage.
+You can also add ?adndebug123 at the end of any URL (example: www.aperitif.no?adndebug123) to show you all ad units, line items, creatives, targeting and more information in the context of a webpage.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
@@ -137,4 +139,3 @@ You can also add ?adndebug123 at the end of any URL \(example: www.aperitif.no?a
 ## Requesting Ads
 
 Once an ad unit is created you can deploy it on your page to let that page request ads from the Adnuntius adserver.[ To learn how to request ads, see here](../../requesting-ads/).
-

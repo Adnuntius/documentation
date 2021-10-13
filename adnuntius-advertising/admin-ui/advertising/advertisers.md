@@ -6,19 +6,21 @@ description: >-
 
 # Advertisers
 
-{% embed url="https://youtu.be/a19B-oBfMEc" caption="How to create an advertiser." %}
+{% embed url="https://youtu.be/a19B-oBfMEc" %}
+How to create an advertiser.
+{% endembed %}
 
-**Name, description and contact information:** Add a name, an optional description of your choice and the contact information to the advertiser \(optional\). It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
+**Name, description and contact information:** Add a name, an optional description of your choice and the contact information to the advertiser (optional). It is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
 
 {% hint style="info" %}
 Adnuntius Advertising can be used by direct advertisers also. If you are the only advertiser using the account, then you can just add yourself as an advertiser, and think of this section no more.
 {% endhint %}
 
-**External reference:** Add an external reference \(optional\) if you want to match the advertiser with the same client in another system. For instance, if Coca Cola is registered in your invoicing system with customer ID 123456, then you may want to add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same advertiser across two different systems, which may in turn speed up processes like invoicing.
+**External reference:** Add an external reference (optional) if you want to match the advertiser with the same client in another system. For instance, if Coca Cola is registered in your invoicing system with customer ID 123456, then you may want to add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same advertiser across two different systems, which may in turn speed up processes like invoicing.
 
 ![An example advertiser](../../../.gitbook/assets/201811-advertising-advertiser.png)
 
-**VAT identification number** can be used to register that number for advertisers. If you use [Adnuntius Self-Service](https://adnuntius.com/selfservice) then you can choose to request this VAT number from advertisers when signing up, in which case the number will be found here. 
+**VAT identification number **can be used to register that number for advertisers. If you use [Adnuntius Self-Service](https://adnuntius.com/selfservice) then you can choose to request this VAT number from advertisers when signing up, in which case the number will be found here. 
 
 **IAB categories:** Adding an IAB category to the client allows you to group advertisers together. Once you've added a category you can send impressions, clicks and conversions to for instance your DMP, and then create segments based on users who responded to your campaigns and their categories.
 
@@ -36,7 +38,7 @@ The order tab gives you an overview of the orders belonging to this advertiser.
 {% tab title="Line Items" %}
 The line items tab gives you an overview of the line items belonging to this advertiser.
 
-![](../../../.gitbook/assets/image%20%2847%29.png)
+![](<../../../.gitbook/assets/image (47).png>)
 {% endtab %}
 
 {% tab title="Charts" %}
@@ -58,9 +60,8 @@ Under the traffic tab you can find reports splitting the traffic for this advert
 {% endtab %}
 
 {% tab title="Location" %}
-Locations shows you the advertiser's traffic per location \(countries\).
+Locations shows you the advertiser's traffic per location (countries).
 
-![](../../../.gitbook/assets/image%20%2848%29.png)
+![](<../../../.gitbook/assets/image (48).png>)
 {% endtab %}
 {% endtabs %}
-

@@ -6,7 +6,9 @@ description: >-
 
 # Earnings Accounts
 
-{% embed url="https://youtu.be/l96RnNFp\_i4" caption="How to create an earnings account." %}
+{% embed url="https://youtu.be/l96RnNFp_i4" %}
+How to create an earnings account.
+{% endembed %}
 
 An earnings account contains one or more sites, and makes it easy to keep track of the earnings you as a publisher have made across those sites, or the spending that you as a buyer has made across those sites.
 
@@ -16,9 +18,9 @@ A site can only have one earnings account, as registering the same earnings mult
 
 ![Example earnings account](../../../.gitbook/assets/201811-advertising-ea.png)
 
-**Name, description and address**: Give the earnings account a name and description \(optional\) of your choice. You can also add an address to the account \(optional\).
+**Name, description and address**: Give the earnings account a name and description (optional) of your choice. You can also add an address to the account (optional).
 
-**External reference:**  Add an external reference \(optional\) if you want to match the earnings account with the same account in another system. For instance, if you are an ad network working with publishing partners, and a publisher is registered in your invoicing system with customer ID 123456, then you can add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same item across two different systems, which may in turn speed up processes like invoicing.
+**External reference: ** Add an external reference (optional) if you want to match the earnings account with the same account in another system. For instance, if you are an ad network working with publishing partners, and a publisher is registered in your invoicing system with customer ID 123456, then you can add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same item across two different systems, which may in turn speed up processes like invoicing.
 
 **Revenue share**: If you are an ad network or a marketer with publishing partners, where the publisher is entitled to a share of revenue, then you can specify the revenue share. For example, if you add 10% as revenue share, this means that you award this earnings account 10% of whatever is earned from the sites belonging to this earnings account. 
 
@@ -30,7 +32,7 @@ Once an earnings account is created you get more choices on the right side.
 {% tab title="Sites" %}
 An overview of the sites belonging to this earnings account. You can change a site's earnings account under [Sites](sites.md).
 
-![Overview of an earnings account&apos;s sites.](../../../.gitbook/assets/202003-ea-sites.png)
+![Overview of an earnings account's sites.](../../../.gitbook/assets/202003-ea-sites.png)
 {% endtab %}
 
 {% tab title="Charts" %}
@@ -40,11 +42,10 @@ Charts shows any of your chosen metrics for any given period. You can from here 
 {% endtab %}
 
 {% tab title="Reports" %}
-Reports allow you to generate a report based on any of your report templates. The result is a URL that can be shared with any person \(that person does not need to have access to Adnuntius\). 
+Reports allow you to generate a report based on any of your report templates. The result is a URL that can be shared with any person (that person does not need to have access to Adnuntius). 
 
 You can also generate scheduled reports that will automatically send reports per email to any receiver. [Learn how to create report templates](../reports/reports-templates-and-schedules.md). 
 
 ![Creating reports and scheduled reports for earnings accounts.](../../../.gitbook/assets/202003-ea-reports.png)
 {% endtab %}
 {% endtabs %}
-

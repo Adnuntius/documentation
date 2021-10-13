@@ -7,9 +7,11 @@ description: >-
 
 # Creatives
 
-{% embed url="https://youtu.be/Em1x3\_JE75E" caption="How to create a creative." %}
+{% embed url="https://youtu.be/Em1x3_JE75E" %}
+How to create a creative.
+{% endembed %}
 
-**Name and state**: Give the creative a name of your choice. You can also set up rules for how names should be generated automatically under [Network](../admin/network.md). State can be set to _Approved_ \(meaning that the creative is ready to run\) or _Incomplete_ \(meaning that something needs to be changed or added before the creative can run\).
+**Name and state**: Give the creative a name of your choice. You can also set up rules for how names should be generated automatically under [Network](../admin/network.md). State can be set to _Approved_ (meaning that the creative is ready to run) or _Incomplete_ (meaning that something needs to be changed or added before the creative can run).
 
 ![An example creative](../../../.gitbook/assets/201811-advertising-creative.png)
 
@@ -19,7 +21,7 @@ description: >-
 <img src="http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp]" border="0" width="1" height="1"/>
 ```
 
-If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp])\[[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim\]\(http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim]%28http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp)\]\)
+If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp])\[[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim\]\(http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim]\(http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp)])
 
 ```http
 http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim
@@ -34,7 +36,7 @@ After choosing Creative type "External", the first step is to select your extern
 ![First step: add an external demand source](../../../.gitbook/assets/201811-advertising-creative-external-1.png)
 {% endtab %}
 
-{% tab title="External Ad Unit Targeting \(Optional\)" %}
+{% tab title="External Ad Unit Targeting (Optional)" %}
 If you want to target your programmatic creative to specific ad units, you can use external ad unit targeting. Please note that if you haven't created external ad units yet, [you can learn how to do so here](../inventory/#external-ad-unit).
 
 ![Example where the creative is targeted to one external ad unit](../../../.gitbook/assets/201811-advertising-creative-external-2.png)
@@ -44,12 +46,12 @@ If you want to target your programmatic creative to specific ad units, you can u
 **Layout** is where you add the look, feel and behavior of your creative. Adnuntius comes with an out-of-the-box library of layouts like responsive images, interstitials, HTML and more, but you can create any layout to create the perfect match with your website, using elements like media files, text, choices and click URLs. [Learn how to manage layouts](../admin/layouts.md).
 
 {% hint style="info" %}
-When you choose a layout you will see that the "Layout's components" box changes. This is because different layouts may need different information \(multiple images, text input, or anything else your heart desires\). The system will ask you what it needs to assemble the creative.
+When you choose a layout you will see that the "Layout's components" box changes. This is because different layouts may need different information (multiple images, text input, or anything else your heart desires). The system will ask you what it needs to assemble the creative.
 {% endhint %}
 
 **Uploaded assets** is where you upload the files needed to assemble the creative. You can click to upload, or drag and drop. You can also drag and drop multiple files into the file drop field, and get all files into the creative with one move.
 
-**Share of voice \(optional\):** if you have more than one creative on your line item, you can control delivery of this creative compared to others in the line item by giving it a percentage. If you give two creatives 50% each, then the line item will ensure that each creative delivers the same number of impressions. If you give three creatives 50% each, then each creative will get 33% of the impressions.
+**Share of voice (optional):** if you have more than one creative on your line item, you can control delivery of this creative compared to others in the line item by giving it a percentage. If you give two creatives 50% each, then the line item will ensure that each creative delivers the same number of impressions. If you give three creatives 50% each, then each creative will get 33% of the impressions.
 
 **Targeting:** You can add targeting to both line items creatives. [Read all about targeting here](targeting.md).
 
@@ -59,7 +61,7 @@ Under width and height you have multiple choices; here are explanations of each.
 
 {% tabs %}
 {% tab title="Creative Preview" %}
-**Creative preview** gives you a preview of the creative. Please note that not all layouts will give you a preview \(in which case the system will tell you\). But if the user interface cannot give you a preview, you can click "preview on a black page" and the creative will render as it will be shown on a page.
+**Creative preview** gives you a preview of the creative. Please note that not all layouts will give you a preview (in which case the system will tell you). But if the user interface cannot give you a preview, you can click "preview on a black page" and the creative will render as it will be shown on a page.
 
 ![Example creative preview.](../../../.gitbook/assets/202003-creative-preview.png)
 
@@ -83,9 +85,8 @@ If your creative is going to be served by a third party system, then you can gen
 {% tab title="Creative Tag for Emails" %}
 You can also create tags for emails if this creative is going to be served inside emails. Just choose the ad unit you want to use, and the tag is automatically created.
 
-Please note that if you want an email tag that can serve ANY creative \(not just this specific creative\), you can do so under [Ad units](../inventory/adunits-1.md).
+Please note that if you want an email tag that can serve ANY creative (not just this specific creative), you can do so under [Ad units](../inventory/adunits-1.md).
 
 ![Example creative tag for emails.](../../../.gitbook/assets/202003-creative-tag-for-email.png)
 {% endtab %}
 {% endtabs %}
-

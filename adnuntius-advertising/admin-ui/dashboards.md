@@ -4,19 +4,21 @@ description: Explains how to create dashboards in Adnuntius Advertising.
 
 # Dashboards
 
-{% embed url="https://www.youtube.com/watch?v=NQ4tHVFtkWY" caption="How to create a dashboard." %}
+{% embed url="https://www.youtube.com/watch?v=NQ4tHVFtkWY" %}
+How to create a dashboard.
+{% endembed %}
 
 Dashboards are pages consisting of widgets in which you can define the content, so that you can keep control of what is going on in Adnuntius Advertising. You can create any number of dashboards and change between them in the left-most column as soon as they are created. 
 
 To create a new dashboard, go to Dashboards in the top line menu and then to Dashboards in the left-side menu. In the upper right corner, click "New".
 
-![If you have not created any dashboards yet, this is the view you will get under Dashboards. Click the &quot;New&quot; button in the upper right corner to create your first dashboard.](../../.gitbook/assets/202003-dashboards-dashboards-empty.png)
+![If you have not created any dashboards yet, this is the view you will get under Dashboards. Click the "New" button in the upper right corner to create your first dashboard.](../../.gitbook/assets/202003-dashboards-dashboards-empty.png)
 
-When you create a new dashboard, give it a name of your choice, a description \(optional\) and then start adding widgets. 
+When you create a new dashboard, give it a name of your choice, a description (optional) and then start adding widgets. 
 
 ![Creating dashboards: an example.](../../.gitbook/assets/202003-dashboard-dashboard-create-dashboard.gif)
 
-**Bar charts, line charts and tree maps** allow you to design graphs based on date range, object type \(orders, line items, creatives, sites or ad units\), objects and metrics \(impressions, viewables, clicks and much more\). 
+**Bar charts, line charts and tree maps** allow you to design graphs based on date range, object type (orders, line items, creatives, sites or ad units), objects and metrics (impressions, viewables, clicks and much more). 
 
 **Tables** allow you to get overviews of orders and line items for different purposes. Examples include: 
 
@@ -28,4 +30,3 @@ When you create a new dashboard, give it a name of your choice, a description \(
 * Orders: Overview of active orders.
 
 ![Overview of widgets to choose from. ](../../.gitbook/assets/202003-dashboards-dashboards-widgets.png)
-

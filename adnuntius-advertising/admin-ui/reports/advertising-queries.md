@@ -7,7 +7,9 @@ description: >-
 
 # Advertising Queries
 
-{% embed url="https://youtu.be/2yELiqm5m3c" caption="How to run an advertising query." %}
+{% embed url="https://youtu.be/2yELiqm5m3c" %}
+How to run an advertising query.
+{% endembed %}
 
 You can apply multiple filters to get the data you want. For example: if you have added labels to advertisers, orders or line items, then you can filter by these labels to single out certain items in your reports.
 
@@ -21,10 +23,9 @@ You can apply multiple filters to get the data you want. For example: if you hav
 * Visibility: The share of impressions that were visible.
 * Viewables: Ad ad has 50% or more of its pixels shown in the viewport for 1 second or longer.
 * Viewability: The share of impressions that were viewable.
-* Uniques: Unique users \(browsers\).
+* Uniques: Unique users (browsers).
 * Clicks: Clicks on an ad.
 * CTR: Clickrate, meaning the share of impressions that produce a click.
-* eCPM: \(effective\) cost per thousand ad impressions, calculated as \[Cost\] / \[Impressions\] x 1000.
+* eCPM: (effective) cost per thousand ad impressions, calculated as \[Cost] / \[Impressions] x 1000.
 * Cost: The revenue generated over the period.
 * Average Auction Rank: The average rank of the ad impression. If more than one ad is shown inside an ad unit, this number is the ranking of this ad.
-
