@@ -6,6 +6,10 @@ description: >-
 
 # Marketplace Products
 
+{% embed url="https://youtu.be/1CKGzkKgDgI" %}
+Introduction to Marketplace Products.
+{% endembed %}
+
 As a publisher you can create a marketplace product to design a specific buying option to one or more defined marketplace advertisers buying your traffic. A marketplace product is comparable to a programmatic deal ID that can be shared with a buyer, but markeplace products adds more features and provides a higher level of automation. 
 
 ![Example marketplace product.](<../../../.gitbook/assets/202110 MP Product.png>)
