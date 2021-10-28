@@ -65,6 +65,8 @@ _"Sponsorshop"_ means that, rather than running an auction, you can give the lin
 When specifying a share of voice, take into consideration the [tier](../admin/tiers.md) into which your line item is booked. If a tier is allowed to consume 50% of traffic and is the second highest prioritized tier, then consider that a line item with share of voice 25% then these rules will apply: (1) your line item will only get as much traffic as is passed on from the highest tier; and (2) your line item will receive 25% of the 50% of traffic that your tier has been assigned with. So your line item will get 25% x 50%x (100% - what is consumed by higher prioritized tiers).
 {% endhint %}
 
+**Smoothing** lets you control the pacing of ad delivery. See the [smoothing](smoothing.md) page for more detail.
+
 **Rate limits** lets you limit the delivery of a line item. if you choose to add more than one rate limit, then both limits will be added to the line item, essentially adding two restrictions on top of each other.
 
 * _Type (line item-wide or per user)_: Per user means that you will limit the number of impressions or clicks per user for whatever period you set. Line item-wide means that you will limit the delivery of the whole line item.
