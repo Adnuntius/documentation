@@ -17,7 +17,7 @@ Towards the end of the campaign the delivery will be relatively *slower* compare
 
 ![Delivery Weighting: Front Loaded Pacing](../../../.gitbook/assets/DeliveryWeighting.png)
 
-Both *Even* and *Fron Loaded* pacing strategies aim to deliver ads all the way up to the end of your campaign.
+Both *Even* and *Front Loaded* pacing strategies aim to deliver ads all the way up to the end of your campaign.
 
 ![Delivery: Front Loaded versus Even Pacing](../../../.gitbook/assets/CumulativeDelivery.png)
 
