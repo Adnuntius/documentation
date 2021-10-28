@@ -17,7 +17,7 @@ How to create a line item.
 Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you.
 {% endhint %}
 
-**Start and end dates:** When creating a line item you can specify when you want your campaign to go live. You can also specify an end date, or you can leave this field blank (in which case the campaign will run until you choose to stop it). Please note that if you leave the end date open, smoothing will not work.
+**Start and end dates:** When creating a line item you can specify when you want your campaign to go live. You can also specify an end date, or you can leave this field blank (in which case the campaign will run until you choose to stop it). Please note that if you leave the end date open, [smoothing](smoothing.md) will not work.
 
 ![An example line item](../../../.gitbook/assets/201811-advertising-line-item.png)
 
@@ -57,7 +57,7 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 * Rendered impressions: Counted whenever an ad has been rendered onto the page (rendering can be controlled with lazy requesting or lazy loading). 
 * Conversions: Counted whenever a conversion has happened according to how you want to define a conversion (read more below). 
 
-**Type** lets you choose between Auction and Sponsorship. "_Auction_" means that the line item will compete with other line items based on your line item's bid (CPM, CPC or CPA). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable smoothing, which means that (when enabled) the line item's impressions will be delivered evenly throughout the campaign period.
+**Type** lets you choose between Auction and Sponsorship. "_Auction_" means that the line item will compete with other line items based on your line item's bid (CPM, CPC or CPA). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable [smoothing](smoothing.md), which means that (when enabled) the line item's impressions will be delivered evenly throughout the campaign period.
 
 _"Sponsorshop"_ means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item (so, if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad.
 
@@ -136,7 +136,7 @@ Reach is an analysis you can run to forecast the volume of matching traffic for 
 {% tab title="Diagnostics" %}
 If you experience something wrong with the line item (for instance, it doesn't start delivering as expected), diagnostics is a great way to give you more insight into what might be going on. Before we explain the results you get from clicking "Run diagnostics test", let's explain what "Burn rates" tells you.
 
-A burn rate below 100% means that Adnuntius is slowing down your line item's delivery to avoid delivering its objectives well before its end date. If you have smoothing enabled for your line item, and the line item is slightly overdelivering, then the system may slow down the burn rate to get the delivery back on track.
+A burn rate below 100% means that Adnuntius is slowing down your line item's delivery to avoid delivering its objectives well before its end date. If you have [smoothing](smoothing.md) enabled for your line item, and the line item is slightly overdelivering, then the system may slow down the burn rate to get the delivery back on track.
 
 If you click "Run Diagnostics Test", you may get a result that looks something like this:
 
@@ -154,7 +154,7 @@ This response can be interpreted as follows:
 * The asset test checks if Adnuntius has successfully been able to find the line item's creative material on our CDN. If you ever see a warning here, try to re-create your creatives, and if that does not work, contact us at support@adnuntius.com.
 * The ad unit test checks if (1) there are ad units with the appropriate width and height that can serve one of the creatives, and (2) that those ad units' parent sites belong to a team that matches the order (remember - an order is always placed on a team which in turn accesses a set of sites; so if the line item targets a totally different set of sites (and therefore ad units), the line item will serve no impressions. 
 * The auction test checks if the line item has a chance of winning impressions, considering the competition from other line items. When all things else are equal, it is the eCPM bid of the line items that determines which one will get the impression. If a warning like the above appears, try to either (1) increase the bid of the line item, or (2) decrease the bid of or pause the competing line items.
-* The last test checks if the line item is held back due to smoothing. If this warning kicks in then try to turn off smoothing to check if this starts the delivery.
+* The last test checks if the line item is held back due to [smoothing](smoothing.md). If this warning kicks in then try to turn off smoothing to check if this starts the delivery.
 
 {% hint style="info" %}
 You can also run [diagnostics for ad units](../inventory/adunits-1.md) if you wonder what ad would win an auction for a given ad unit.
