@@ -17,11 +17,11 @@ How to create a line item.
 Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you.
 {% endhint %}
 
-**Start and end dates:** When creating a line item you can specify when you want your campaign to go live. You can also specify an end date, or you can leave this field blank (in which case the campaign will run until you choose to stop it). Please note that if you leave the end date open, [smoothing](smoothing.md) will not work.
+**Start and end dates**: When creating a line item you can specify when you want your campaign to go live. You can also specify an end date, or you can leave this field blank (in which case the campaign will run until you choose to stop it). Please note that if you leave the end date open, [smoothing](smoothing.md) will not work.
 
 ![An example line item](../../../.gitbook/assets/201811-advertising-line-item.png)
 
-The **Order **allows you to choose which [order ](orders.md)should be the parent of this line item. 
+The **Order** allows you to choose which [order ](orders.md)should be the parent of this line item. 
 
 If your user is the role of a Marketplace Advertiser, then you will be asked to choose a **product**. Please note that this step does not apply to administrators or other user roles. A [marketplace product](../admin/marketplace-products.md) allows the network owner to package certain layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers. 
 
@@ -30,7 +30,7 @@ If your user is the role of a Marketplace Advertiser, then you will be asked to 
 
 ![If you're a Marketplace Advertiser you will be asked to choose a product. ](../../../.gitbook/assets/mp-products.png)
 
-**Execution **shows the status of the campaign. "_Delivering_" means that the line item is currently delivering impressions. "_Ready to deliver_" means that no additional information is needed for the line item to deliver, but it has not yet started delivering (for instance because the start date is in the future). "_Not deliverable"_ means that no impressions can be delivered, either because something is missing (such as a bid or a valid creative) or because the line item is paused or stopped. _"Ended"_ means that the line item has passed its end date, or that the objectives have been met, causing the line item to stop delivering.
+**Execution** shows the status of the campaign. "_Delivering_" means that the line item is currently delivering impressions. "_Ready to deliver_" means that no additional information is needed for the line item to deliver, but it has not yet started delivering (for instance because the start date is in the future). "_Not deliverable"_ means that no impressions can be delivered, either because something is missing (such as a bid or a valid creative) or because the line item is paused or stopped. _"Ended"_ means that the line item has passed its end date, or that the objectives have been met, causing the line item to stop delivering.
 
 If your line item has the execution state of "Not deliverable" then first check for a yellow warning box on the top of the line item page (see example below). This may give you information about what is missing. You can also try running a diagnostics check, please see further down on this page for more information.
 
