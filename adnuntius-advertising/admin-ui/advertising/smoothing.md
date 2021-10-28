@@ -12,7 +12,7 @@ Adnuntius provides two different options for smooth ad delivery:
 
 The impact of chosing *Front Loading* is shown in the charts below.
 
-Ahead pacing will cause your campaign to deliver up to 30% *faster* at the beginning.
+Front Loading will cause your campaign to deliver up to 30% *faster* at the beginning.
 Towards the end of the campaign the delivery will be relatively *slower* compared to an evenly paced delivery.
 
 ![Delivery Weighting: Front Loaded Pacing](../../../.gitbook/assets/DeliveryWeighting.png)
