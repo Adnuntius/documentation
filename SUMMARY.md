@@ -13,6 +13,7 @@
     * [Creatives](adnuntius-advertising/admin-ui/advertising/creatives.md)
     * [Targeting](adnuntius-advertising/admin-ui/advertising/targeting.md)
     * [Reach Analysis](adnuntius-advertising/admin-ui/advertising/reach-analysis.md)
+    * [Smoothing](adnuntius-advertising/admin-ui/advertising/smoothing.md)
   * [Inventory](adnuntius-advertising/admin-ui/inventory/README.md)
     * [Earnings Accounts](adnuntius-advertising/admin-ui/inventory/earnings-accounts.md)
     * [Site Groups](adnuntius-advertising/admin-ui/inventory/site-groups.md)
