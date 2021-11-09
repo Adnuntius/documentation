@@ -72,7 +72,7 @@ The following flags are supported:
 
 ### Advanced `where` Clause
 
-You can chain multiple conditions togther into a where clause using the following syntax:
+You can chain multiple conditions together into a where clause using the following syntax:
 
 ```text
 where=CONDITION;CONDITION;CONDITION
@@ -98,7 +98,7 @@ The `where` filter matches when ALL of the `CONDITION`s are met.
 ### Advanced Timestamp `where` Clauses
 
 There is some support for declaring timestamp where conditions using `X days ago` and `X days later`.   In addition
-to `days`, `seconds`, `minutes`, `hours`, `months` and `years` are alo supported.
+to `days`, `seconds`, `minutes`, `hours`, `months` and `years` are also supported.
 
 Examples of the use of these conditions include:
 
