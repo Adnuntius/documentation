@@ -95,3 +95,19 @@ where each `CONDITION` can be one of the following:
 
 The `where` filter matches when ALL of the `CONDITION`s are met.
 
+### Advanced Timestamp `where` Clauses
+
+There is some support for declaring timestamp where conditions using `X days ago` and `X days later`.   In addition
+to `days`, `seconds`, `minutes`, `hours`, `months` and `years` are alo supported.
+
+Examples of the use of these conditions include:
+
+| Examples |
+| :--- | 
+| `startDate>10+days+later` |
+| `startDate>10+days+ago` |
+| `endDate>1+months+later` |
+| `endDate>1+years+later` |
+ 
+You must specify the plural form of seconds, minutes, hours, days, months or years.  The singular form is currently
+not supported.
