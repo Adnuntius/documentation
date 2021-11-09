@@ -98,7 +98,7 @@ The `where` filter matches when ALL of the `CONDITION`s are met.
 ### Advanced Timestamp `where` Clauses
 
 There is some support for declaring timestamp where conditions using `X days ago` and `X days later`.   In addition
-to `days`, `seconds`, `minutes`, `hours`, `months` and `years` are also supported.
+to `days`, `minutes`, `hours`, `months` and `years` are also supported.
 
 Examples of the use of these conditions include:
 
