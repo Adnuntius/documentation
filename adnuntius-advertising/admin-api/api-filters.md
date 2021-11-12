@@ -97,17 +97,24 @@ The `where` filter matches when ALL of the `CONDITION`s are met.
 
 ### Advanced Timestamp `where` Clauses
 
-There is some support for declaring timestamp where conditions using `X days ago` and `X days later`.   In addition
-to `days`, `minutes`, `hours`, `months` and `years` are also supported.
+The following interval expressions are supported:
 
-Examples of the use of these conditions include:
+* `1 day later`
+* `1 day ago`
+* `X minutes later`
+* `X minutes ago`
+* `1 hour later`
+* `1 hour ago`
+* `X hours later`
+* `X hours ago`
+* `1 month later`
+* `1 month ago`
+* `X months later`
+* `X months ago`
+* `1 year later`
+* `1 year ago`
+* `X years later`
+* `X years ago`
 
-| Examples |
-| :--- | 
-| `startDate>10+days+later` |
-| `startDate>10+days+ago` |
-| `endDate>1+months+later` |
-| `endDate>1+years+later` |
- 
-You must specify the plural form of seconds, minutes, hours, days, months or years.  The singular form is currently
-not supported.
+Where `X` is an integer >= 1.   The singular minute, hour, day, month and year are for convenience
+only.  You can for example specify `1 hours ago`, which is the same as `1 hour ago`. 
