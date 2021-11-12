@@ -116,4 +116,4 @@ The following interval expressions are supported:
 * `X years later`
 * `X years ago`
 
-Where `X` is an integer >= 1.   The singular `minute`, `hour`, `day`, `month` and `year` are for convenience only.  You can for example specify `1 hours ago`, which is the same as `1 hour ago`. 
+Where `X` is an integer > 0.   The singular `minute`, `hour`, `day`, `month` and `year` are for convenience only.  You can for example specify `1 hours ago`, which is the same as `1 hour ago`. 
