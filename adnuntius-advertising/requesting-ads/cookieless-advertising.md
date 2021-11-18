@@ -10,6 +10,10 @@ HTML5 and third-party creatives allow advertisers to upload scripts and ads from
 
 Nevertheless, we can do our utmost to block all third-party cookie usage even with HTML5 ads and third-party creatives. We are generally able to block all use of third-party cookies, especially on browsers such as Safari, Firefox and Brave. Occasionally on the Chrome or Edge browsers, some third-party cookies manage to slip through.
 
+{% hint style="info" %}
+If you want to be 100% safe you can as an administrator restrict the [layouts](../admin-ui/admin/layouts.md) that can be used; you can therefore solve this problem by not allowing third party creatives or html creatives to be uploaded to your account.
+{% endhint %}
+
 Some HTML5 ads and third-party creatives will not appear or function in a user’s browser if cookies are blocked. If this is a problem, we do provide the ability to turn strict cookie blocking on or off at a granular level, which means particular ads can be delivered without cookie restrictions when required.
 
 ## The Technical Details
@@ -60,13 +64,13 @@ We keep no retrievable record of the user ID you pass into us because we utilise
 
 ## Implementing Cookieless with a CMP
 
-If you have implemented a consent management platform \(CMP\) that lets your website visitors consent to or reject tracking, then you can most likely use that CMP to set up for cookieless adserving. The logic is as follows, where a website visitor should get a cookieless ad or a normal one depending on their decision. 
+If you have implemented a consent management platform (CMP) that lets your website visitors consent to or reject tracking, then you can most likely use that CMP to set up for cookieless adserving. The logic is as follows, where a website visitor should get a cookieless ad or a normal one depending on their decision.&#x20;
 
 ![User journey from a user enters your website to an ad is shown.](../../.gitbook/assets/cmp-process.png)
 
 Below are examples of code that will be placed on the page in order to secure the logic. They use an event listener that will fire the ad request depending on the consent that is given. Usually this is easy for developers to support. The important part for Adnuntius is the useCookie: false parameter, and the other parameters described above.
 
-**Usercentrics:** 
+**Usercentrics:**&#x20;
 
 ```javascript
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
@@ -94,7 +98,7 @@ window.addEventListener("ucEvent", function (e) {
 
 ```
 
-**Cookiebot:** 
+**Cookiebot:**&#x20;
 
 ```javascript
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
@@ -120,7 +124,7 @@ window.addEventListener("ucEvent", function (e) {
 </script>
 ```
 
-**Piwik Pro** \(please note that there also needs to be a piwik script on the page for this CMP\): 
+**Piwik Pro** (please note that there also needs to be a piwik script on the page for this CMP):&#x20;
 
 ```javascript
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
@@ -151,4 +155,3 @@ Do you need a CMP to allow users to consent to or reject tracking, where all thi
 {% hint style="info" %}
 Please note that different CMPs have different ways of triggering events, and the code must be changed accordingly.
 {% endhint %}
-
