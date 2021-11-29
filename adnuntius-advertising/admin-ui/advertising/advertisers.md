@@ -20,17 +20,17 @@ Adnuntius Advertising can be used by direct advertisers also. If you are the onl
 
 ![An example advertiser](../../../.gitbook/assets/201811-advertising-advertiser.png)
 
-**VAT identification number **can be used to register that number for advertisers. If you use [Adnuntius Self-Service](https://adnuntius.com/selfservice) then you can choose to request this VAT number from advertisers when signing up, in which case the number will be found here. 
+**VAT identification number** can be used to register that number for advertisers. If you use [Adnuntius Self-Service](https://adnuntius.com/selfservice) then you can choose to request this VAT number from advertisers when signing up, in which case the number will be found here.&#x20;
 
 **IAB categories:** Adding an IAB category to the client allows you to group advertisers together. Once you've added a category you can send impressions, clicks and conversions to for instance your DMP, and then create segments based on users who responded to your campaigns and their categories.
 
 **Labels** can be added to make reporting work for you. Let's say you add the label "agency" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Read more about reports. ](../reports/advertising-queries.md)
 
-Once an advertiser is created you will see the following in the right side tabs. 
+Once an advertiser is created you will see the following in the right side tabs.&#x20;
 
 {% tabs %}
 {% tab title="Orders" %}
-The order tab gives you an overview of the orders belonging to this advertiser. 
+The order tab gives you an overview of the orders belonging to this advertiser.&#x20;
 
 ![Orders overview.](../../../.gitbook/assets/202003-advertisers-orders.png)
 {% endtab %}
@@ -48,7 +48,7 @@ Charts lets you see the performance of all campaigns belonging to this advertise
 {% endtab %}
 
 {% tab title="Reports" %}
-Once an advertiser is created, you can also generate reports, and scheduled reports, based on any of your report templates. To create a scheduled report, just add a name, the report template, the run period and dates, and the receivers. 
+Once an advertiser is created, you can also generate reports, and scheduled reports, based on any of your report templates. To create a scheduled report, just add a name, the report template, the run period and dates, and the receivers.&#x20;
 
 ![Scheduling advertiser reports.](../../../.gitbook/assets/202003-advertisers-reports.png)
 {% endtab %}

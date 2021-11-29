@@ -18,31 +18,31 @@ To create a site, go to [https://admin.adnuntius.com/sites](https://admin.adnunt
 
 **Name, description and site URL**: Give your site a name and description (optional) of your choice. The site URL (optional) helps you quickly visit the site in question, but does not impact any form of targeting, and has no other functions.
 
-**Site group (optional)**: Connect the site to a [site group](site-groups.md) to make targeting multiple sites easier. 
+**Site group (optional)**: Connect the site to a [site group](site-groups.md) to make targeting multiple sites easier.&#x20;
 
-**Earnings account (optional)**: Connect the site to an [earnings account](earnings-accounts.md) to aggregate earnings from this site and other sites to an earnings account. 
+**Earnings account (optional)**: Connect the site to an [earnings account](earnings-accounts.md) to aggregate earnings from this site and other sites to an earnings account.&#x20;
 
 **Labels** (optional) can be added to make it easier to search for the site, and to make reporting work for you. Let's say you add the label "publishing-group" to a set of sites, and then want to run a report only for this group of sites. You can then run a report which contains these sites specifically. [Learn more about reports](../reports/publishing-queries.md).
 
-**Rate limits** allows you to limit the traffic (viewable/visible/rendered/regular impressions or clicks) that a site or ad unit receives in a given timeframe. A rate limit may be useful to ad networks that are allowed to sell only a defined set of impressions on a publisher’s behalf. If this applies to you, simply add the number of impressions, clicks or other that you are allowed to sell, then choose the period. You can also add labels if the limitation should apply only to certain line items. For example, if you add “cars” to the label field, then the rate limit will apply to all line items with the label "cars", while all other line items will be free to deliver without limitation.  
+**Rate limits** allows you to limit the traffic (viewable/visible/rendered/regular impressions or clicks) that a site or ad unit receives in a given timeframe. A rate limit may be useful to ad networks that are allowed to sell only a defined set of impressions on a publisher’s behalf. If this applies to you, simply add the number of impressions, clicks or other that you are allowed to sell, then choose the period. You can also add labels if the limitation should apply only to certain line items. For example, if you add “cars” to the label field, then the rate limit will apply to all line items with the label "cars", while all other line items will be free to deliver without limitation. &#x20;
 
-**Team membership: ** A [team](../admin/users-teams-and-roles.md) consists of users who should have access to see and/or perform changes to the site (their privileges are determined by [Roles](../admin/users-teams-and-roles.md)). When you add your site to a team, this determines who will have access to view and/or change the site.
+**Team membership:** A [team](../admin/users-teams-and-roles.md) consists of users who should have access to see and/or perform changes to the site (their privileges are determined by [Roles](../admin/users-teams-and-roles.md)). When you add your site to a team, this determines who will have access to view and/or change the site.
 
 {% hint style="info" %}
-While we cover teams in greater detail in the admin section, a [team](../admin/users-teams-and-roles.md) determines what content a user will have access to. A [Role ](../admin/users-teams-and-roles.md)on the other hand, defines the actions that user can take to that content. 
+While we cover teams in greater detail in the admin section, a [team](../admin/users-teams-and-roles.md) determines what content a user will have access to. A [Role ](../admin/users-teams-and-roles.md)on the other hand, defines the actions that user can take to that content.&#x20;
 {% endhint %}
 
-**Overview, charts and reports**: On the right side of a site's page you will find multiple tabs that each has its function. 
+**Overview, charts and reports**: On the right side of a site's page you will find multiple tabs that each has its function.&#x20;
 
 {% tabs %}
 {% tab title="Ad Units" %}
-An overview of ad units belonging to the site. From here you can also create new ad units. 
+An overview of ad units belonging to the site. From here you can also create new ad units.&#x20;
 
 ![Ad unit overview](../../../.gitbook/assets/201811-inventory-site-ad-unit-overview.png)
 {% endtab %}
 
 {% tab title="Site Charts" %}
-Site charts provides you with insights about the site's performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also see the line items that delivered to the site in the period. 
+Site charts provides you with insights about the site's performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also see the line items that delivered to the site in the period.&#x20;
 
 ![Site charts example](../../../.gitbook/assets/201811-inventory-site-site-charts.png)
 {% endtab %}
@@ -54,34 +54,34 @@ Ad unit charts provides you with insights about the site's ad unit performance f
 {% endtab %}
 
 {% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md). 
+Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).&#x20;
 
 ![Example set up for a scheduled report](../../../.gitbook/assets/201811-inventory-site-report-scheduler.png)
 {% endtab %}
 
 {% tab title="Traffic" %}
-The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this site has delivered, per device type, operating system and mobile brand. 
+The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this site has delivered, per device type, operating system and mobile brand.&#x20;
 
 ![Traffic example. In this example the ad tag is deployed to desktop only, meaning that no impressions are registered for mobile brands.](../../../.gitbook/assets/202003-ad-units-traffic-tab.png)
 {% endtab %}
 
 {% tab title="Availability" %}
-Availability allows you to forecast how much traffic your site is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis. 
+Availability allows you to forecast how much traffic your site is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis.&#x20;
 
 ![Availability analysis example. ](../../../.gitbook/assets/202003-ad-units-availability-tab.png)
 
-The following explanations will the example above above for guidance. 
+The following explanations will the example above above for guidance.&#x20;
 
-First, the analysis tells you that "**This ad unit is estimated to deliver 7.90% of all traffic across your network**", and that this means that for the defined period the ad unit can deliver between 231,070 and 248,379 impressions, between 0 and 162 clicks etc. If you choose a longer period of time (start and end date) these numbers are likely to increase. 
+First, the analysis tells you that "**This ad unit is estimated to deliver 7.90% of all traffic across your network**", and that this means that for the defined period the ad unit can deliver between 231,070 and 248,379 impressions, between 0 and 162 clicks etc. If you choose a longer period of time (start and end date) these numbers are likely to increase.&#x20;
 
 Next, the allocation analysis tells you that "**0 impressions are allocated to 3 line items, which is 0.00% of the projected traffic**". This may sound strange, but the reason is that none of the three line items currently taking up space for this site have any objectives (impressions, clicks etc) registered. Let's say that one of the three line items had an impression objective of 100,000 impressions, was targeted to this ad unit only and had start and end dates equal to the ones you chose, then the message could be "100,000 impressions are allocated to 3 line items, which is 43.29% of the projected traffic".
 
-The message "**Between 231,070 – 248,379 impressions are not allocated**" tells you how many impressions are not booked already, meaning that you can probably book this many impressions for a new line item. If we repeated the example above with the 100,000 booke impressions, the message could have been "Between 131,070 – 148,379 impressions are not allocated". 
+The message "**Between 231,070 – 248,379 impressions are not allocated**" tells you how many impressions are not booked already, meaning that you can probably book this many impressions for a new line item. If we repeated the example above with the 100,000 booke impressions, the message could have been "Between 131,070 – 148,379 impressions are not allocated".&#x20;
 
 Competitors is a useful list of competing line items (either as one list, or grouped by tiers). This list lets you identify competing line items and make changes to them in case you need to make room for a new and more important campaign.
 {% endtab %}
 {% endtabs %}
 
-Please note that if you have access to more than one network you can easily switch between networks. Let's say that you as a publisher have your own private network, and access to sell your inventory through the [Adnuntius Buying Network](../../../onboarding-guides/adnuntius-buying-network/); then you can easily switch between networks you have access to, as shown in the image below. 
+Please note that if you have access to more than one network you can easily switch between networks. Let's say that you as a publisher have your own private network, and access to sell your inventory through the [Adnuntius Buying Network](../../../onboarding-guides/adnuntius-buying-network/); then you can easily switch between networks you have access to, as shown in the image below.&#x20;
 
 ![How to switch between your networks.](../../../.gitbook/assets/202003-switching-networks.gif)

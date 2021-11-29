@@ -2,7 +2,7 @@
 
 This guide will let you know how to integrate Google Ad Manager (hereafter called GAM) with Adnuntius Connect in order to serve ads through prebid. First there are some requirements that you will have to do in GAM: [https://docs.prebid.org/adops/step-by-step.html](https://docs.prebid.org/adops/step-by-step.html).
 
-After you have completed these steps and set up your buckets in GAM, you will be able to continue with Adnuntius Connect. This part will be divided into the following steps. 
+After you have completed these steps and set up your buckets in GAM, you will be able to continue with Adnuntius Connect. This part will be divided into the following steps.&#x20;
 
 1. Setup a prebid connection.
 2. Add a trigger for loading google.
@@ -31,17 +31,17 @@ Navigate to the triggers section, and click "Add trigger", You should give it a 
 
 ![](<../../.gitbook/assets/image (21).png>)
 
-An example use case can be that you would like to trigger different ad units on article pages than on the front page. This is where you can ensure that. 
+An example use case can be that you would like to trigger different ad units on article pages than on the front page. This is where you can ensure that.&#x20;
 
 ### **3 Set up Google as a tag**
 
-You are now ready to create your Google ad unit section. Please go to the "Tags" section in Adnuntius Connect, and create a new tag named "Google". Click on it to trigger the Edit page. 
+You are now ready to create your Google ad unit section. Please go to the "Tags" section in Adnuntius Connect, and create a new tag named "Google". Click on it to trigger the Edit page.&#x20;
 
 ![The "Tags" section in Adnuntius Connect.](<../../.gitbook/assets/image (44).png>)
 
 ![The "Edit page" of a tag in Adnuntius Connect.](<../../.gitbook/assets/image (46).png>)
 
-Under "Triggers" select the "Pageview" trigger that you created in step 2. Skip Purposes for now. Select **Tag Type **"Google". A new field appears for you to enter the adunit identifiers that you get from GAM and also what target div on which you want the ad to appear. Finally click Save. 
+Under "Triggers" select the "Pageview" trigger that you created in step 2. Skip Purposes for now. Select **Tag Type** "Google". A new field appears for you to enter the adunit identifiers that you get from GAM and also what target div on which you want the ad to appear. Finally click Save.&#x20;
 
 ### **4 Publish your container**
 
@@ -94,4 +94,4 @@ On the page where you will use your container, set up a link to the prebid.js yo
 </html>
 ```
 
-Make sure that the div IDs correspond to the IDs that you have setup in Adnuntius Connect. 
+Make sure that the div IDs correspond to the IDs that you have setup in Adnuntius Connect.&#x20;

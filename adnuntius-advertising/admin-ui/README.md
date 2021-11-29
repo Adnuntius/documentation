@@ -7,25 +7,34 @@ description: >-
 
 # User Interface Guide
 
-{% page-ref page="dashboards.md" %}
+{% content-ref url="dashboards.md" %}
+[dashboards.md](dashboards.md)
+{% endcontent-ref %}
 
-{% page-ref page="advertising/" %}
+{% content-ref url="advertising/" %}
+[advertising](advertising/)
+{% endcontent-ref %}
 
-{% page-ref page="inventory/" %}
+{% content-ref url="inventory/" %}
+[inventory](inventory/)
+{% endcontent-ref %}
 
-{% page-ref page="reports/" %}
+{% content-ref url="reports/" %}
+[reports](reports/)
+{% endcontent-ref %}
 
-{% page-ref page="admin/" %}
+{% content-ref url="admin/" %}
+[admin](admin/)
+{% endcontent-ref %}
 
 ## Switching between Networks
 
 If you have access to multiple networks, you can switch between them by clicking the "three stacked boxes" icon in the right-most column.
 
-![Switching between networks.](../../.gitbook/assets/app-switch%20%282%29%20%281%29%20%281%29.png)
+![Switching between networks.](<../../.gitbook/assets/Change Network.png>)
 
 ## Switching between Applications
 
-If you have access to multiple applications \(for example Adserver and Data\), you can switch between them by clicking in the upper right corner.
+If you have access to multiple applications (for example Adserver and Data), you can switch between them by clicking in the upper right corner.
 
-![Switching between applications.](../../.gitbook/assets/app-switch%20%281%29.png)
-
+![Switching between applications.](<../../.gitbook/assets/app-switch (1).png>)

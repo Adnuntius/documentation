@@ -10,7 +10,7 @@ description: >-
 This section assumes that you have an agreement with Adnuntius, and have been granted access to admin.adnuntius.com, and the self-service product. If you are looking for an offer, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out. There are three main steps to get started.
 
 1. Create publishing inventory.
-2. Set up your self-service portal. 
+2. Set up your self-service portal.&#x20;
 3. Understand the system and workflow.
 
 ## Create Publishing Inventory
@@ -27,7 +27,7 @@ If you are already set up with Adnuntius Advertising and will not make any chang
 
 ## Set Up Your Self-Service Portal
 
-There are three things you need to do in order to set up your very own self-service portal; send us material for the portal's design and brand, create products, and set up email messaging. 
+There are three things you need to do in order to set up your very own self-service portal; send us material for the portal's design and brand, create products, and set up email messaging.&#x20;
 
 | What to do                                                                                                                                                                                                                                                         | Resources                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -35,7 +35,7 @@ There are three things you need to do in order to set up your very own self-serv
 | 2 Create products. Products package dimensions, pricing, layouts and targeting so that buying ads can be made simple. Whenever a self-service advertiser creates a campaign, choosing a product is the first step in creating that campaign.                       | <p><a href="../../adnuntius-advertising/admin-ui/admin/products.md">Documentation</a></p><p><a href="https://admin.adnuntius.com/admin/products">Start</a></p>                     |
 | 3 Personalize emails that will be sent to users when they register, forget their passwords and more. You can create multiple translations and target the emails to countries of each language.                                                                     | <p><a href="../../adnuntius-advertising/admin-ui/admin/email-translations.md">Documentation</a></p><p><a href="https://admin.adnuntius.com/admin/email-translations">Start</a></p> |
 
-**Material for self-service portal. **In order to get your portal set up we need some information from you. Please send the below to [support@adnuntius.com](mailto:support@adnuntius.com). 
+**Material for self-service portal.** In order to get your portal set up we need some information from you. Please send the below to [support@adnuntius.com](mailto:support@adnuntius.com).&#x20;
 
 | Material needed and explanations                                                                                                                                                                                                                                                             | Examples and requirements                                                                                                                                                                                  |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -45,7 +45,7 @@ There are three things you need to do in order to set up your very own self-serv
 | A top menu logo. Logged in users will have your logo in the top menu bar. An example image is provided below.                                                                                                                                                                                | Requirements: max 200x40px, max 150kb, transparent background                                                                                                                                              |
 | Optional customer support contact (if you will provide customer support) in the form of an email address.                                                                                                                                                                                    | Example: support@yourdomain.com                                                                                                                                                                            |
 | Favicon (browser tab icon).                                                                                                                                                                                                                                                                  | Requirements: 16x16px, PNG, GIF or JPG, transparent background                                                                                                                                             |
-| Optional styling schema where you can specify colors, or use CSS. Please deliver the filled out styling schema or CSS file/reference to [support@adnuntius.com](mailto:support@adnuntius.com).                                                                                               | [Styling schema to fill out](https://docs.google.com/spreadsheets/d/1FQ43t3kqx_r755ujKq6iiavy_MY72Hnvv_wfOkiNhzs/edit?usp=sharing)                                                                         |
+| Optional styling schema where you can specify colors, or use CSS. Please deliver the filled out styling schema or CSS file/reference to [support@adnuntius.com](mailto:support@adnuntius.com).                                                                                               | [Styling schema to fill out](https://docs.google.com/spreadsheets/d/1FQ43t3kqx\_r755ujKq6iiavy\_MY72Hnvv\_wfOkiNhzs/edit?usp=sharing)                                                                      |
 | Registration information. When a user creates an account they will always be asked for their name, email and location. But we can also collect information such as company name and VAT number. Let us know what information should be collected, and what should be mandatory and optional. | <p>Example: </p><ul><li>Company name (mandatory)</li><li>VAT number (optional)</li><li>Address (mandatory)</li></ul>                                                                                       |
 
 ![Personalize the registration/login page with an image and short introduction text.](<../../.gitbook/assets/ss-login (2).png>)
@@ -66,9 +66,9 @@ This section's purpose is to help you prepare to operate your self-service porta
 
 ### Understand the Overall Workflow
 
-This section explains how objects like users, advertisers, teams, campaigns and more are created when a self-service advertisers choose to join and to create campaigns. This helps you understand how to find various objects in admin.adnuntius.com when it is needed. As the image below illustrates there are three types of objects (see the left-most side of the image below) you should know about. 
+This section explains how objects like users, advertisers, teams, campaigns and more are created when a self-service advertisers choose to join and to create campaigns. This helps you understand how to find various objects in admin.adnuntius.com when it is needed. As the image below illustrates there are three types of objects (see the left-most side of the image below) you should know about.&#x20;
 
-* Certain objects are prepared in advance by you as a publisher. These include products and teams. 
+* Certain objects are prepared in advance by you as a publisher. These include products and teams.&#x20;
 * When a self-service advertiser signs up they can perform certain actions.
 * Whatever self-service advertisers create, you as administrator will find it in admin.adnuntius.com.
 
@@ -76,7 +76,7 @@ This section explains how objects like users, advertisers, teams, campaigns and 
 
 | Steps and explanations                                                                                                                                                                                                                                | Resources                                                                                                  |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **1 Self-service advertiser registers **with a name, email, company name (you can choose if company name is needed) and password. This is the one time job that each user has to go through in order to advertise with you.                           | [Example registration page](https://assets.adnuntius.com/xOVX5p4fQbjhI8Nz6\_iBU34re-unkwsad633WKXeV4s.png) |
+| **1 Self-service advertiser registers** with a name, email, company name (you can choose if company name is needed) and password. This is the one time job that each user has to go through in order to advertise with you.                           | [Example registration page](https://assets.adnuntius.com/xOVX5p4fQbjhI8Nz6\_iBU34re-unkwsad633WKXeV4s.png) |
 | 1.1 All self-service users are automatically created as part of a team (we will set up a team for you as part of the implementation process). All users registering as self-service advertisers will automatically become part of this team.          | [See how this is organized](./#user-management)                                                            |
 | 1.2 An Advertiser is automatically created with the company’s name, and tied to the team above. Note that this step applies only if you require the self-service advertiser to provide a company name when registering.                               | [How Advertisers are stored](../../adnuntius-advertising/admin-ui/advertising/advertisers.md)              |
 | **2 Self-service advertiser creates and submits a campaign.** This involves choosing a product, design and targeting, applying a budget, and paying for the campaign (if you want advertisers to prepay). You will then have to review this campaign. | [More about products](../../adnuntius-advertising/admin-ui/admin/products.md)                              |
@@ -101,9 +101,9 @@ Once you have created a user it is time to have a look inside the [admin.adnunti
 
 ### Create and Review a Campaign
 
-Try to create a campaign by following [this user guide](user-interface-guide.md#creating-a-campaign). 
+Try to create a campaign by following [this user guide](user-interface-guide.md#creating-a-campaign).&#x20;
 
-Once you have created a campaign it is time to have a look inside the [admin.adnuntius.com](https://admin.adnuntius.com) user interface to understand where you find what has just been created. Start by **reviewing submitted campaigns: **Once a campaign is created it will land in a review queue, where you can see the creative, click URL and more, and approve the campaign or reject for a specific reason. [Go to reviews now](https://admin.adnuntius.com/reviews). 
+Once you have created a campaign it is time to have a look inside the [admin.adnuntius.com](https://admin.adnuntius.com) user interface to understand where you find what has just been created. Start by **reviewing submitted campaigns:** Once a campaign is created it will land in a review queue, where you can see the creative, click URL and more, and approve the campaign or reject for a specific reason. [Go to reviews now](https://admin.adnuntius.com/reviews).&#x20;
 
 ![Approve campaigns, or apply a reason for rejecting them.](../../.gitbook/assets/202103-ss-review.gif)
 
@@ -113,7 +113,7 @@ If you reject a campaign then the advertiser will be notified through email, and
 
 ### Manage Campaigns
 
-Once a campaign is submitted you will be able to manage it inside [admin.adnuntius.com](https://admin.adnuntius.com). 
+Once a campaign is submitted you will be able to manage it inside [admin.adnuntius.com](https://admin.adnuntius.com).&#x20;
 
 * You will see all self-service campaigns here: [https://admin.adnuntius.com/campaigns](https://admin.adnuntius.com/campaigns)
 * You will also see them among all line items here: [https://admin.adnuntius.com/line-items](https://admin.adnuntius.com/line-items)
