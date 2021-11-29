@@ -29,7 +29,7 @@ description: >-
 
 ## Switching between Networks
 
-If you have access to multiple networks, you can switch between them by clicking the "three stacked boxes" icon in the right-most column.
+If you have access to multiple networks, you can switch between them by clicking the information ("i") icon in the top right corner, next to the search field.
 
 ![Switching between networks.](<../../.gitbook/assets/Change Network.png>)
 
