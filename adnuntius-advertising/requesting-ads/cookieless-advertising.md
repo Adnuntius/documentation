@@ -84,7 +84,7 @@ window.addEventListener("ucEvent", function (e) {
            adn.calls = adn.calls || [];
            adn.calls.push(function () {
                // More ad units can be added as needed.
-               adn.requestAds({
+               adn.request({
                    adUnits: [
                        { auId: '000000000013fa45', auW: 300, auH: 250, useCookies: false }
                    ]
@@ -95,7 +95,6 @@ window.addEventListener("ucEvent", function (e) {
 });
 
 </script>
-
 ```
 
 **Cookiebot:**&#x20;
@@ -103,24 +102,21 @@ window.addEventListener("ucEvent", function (e) {
 ```javascript
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
 <div id="adn-000000000013fa45" style="display:none"></div>
-
 <script type="text/javascript">
-
-	window.addEventListener('CookiebotOnAccept', function (e) {
-		if (Cookiebot.consent.marketing) {
-			window.adn = window.adn || {};
-			adn.calls = adn.calls || [];
-			adn.calls.push(function () {
-				// More ad units can be added as needed.
-				adn.requestAds({
-					adUnits: [
-						{ auId: '000000000013fa45', auW: 300, auH: 250, useCookies: false }
-					]
-				});
-			});
-		}
-	}, false);
-
+    window.addEventListener('CookiebotOnAccept', function (e) {
+        if (Cookiebot.consent.marketing) {
+            window.adn = window.adn || {};
+            adn.calls = adn.calls || [];
+            adn.calls.push(function () {
+                // More ad units can be added as needed.
+                adn.request({
+                    adUnits: [
+                        { auId: '000000000013fa45', auW: 300, auH: 250, useCookies: false }
+                    ]
+                });
+            });
+        }
+    }, false);
 </script>
 ```
 
@@ -129,22 +125,21 @@ window.addEventListener("ucEvent", function (e) {
 ```javascript
 <script src="https://cdn.adnuntius.com/adn.js" async></script>
 <div id="adn-000000000013fa45" style="display:none"></div>
-
 <script type="text/javascript">
-	ppms.cm.api('getComplianceSettings', function (comp) {
-		if (comp.consent && comp.consent.marketing) { //<-- or whatever consent you are looking for
-			window.adn = window.adn || {};
-			adn.calls = adn.calls || [];
-			adn.calls.push(function () {
-				// More ad units can be added as needed.
-				adn.requestAds({
-					adUnits: [
-						{ auId: '000000000013fa45', auW: 300, auH: 250, useCookies: false }
-					]
-				});
-			});
-		}
-	}, false);
+    ppms.cm.api('getComplianceSettings', function (comp) {
+        if (comp.consent && comp.consent.marketing) { //<-- or whatever consent you are looking for
+            window.adn = window.adn || {};
+            adn.calls = adn.calls || [];
+            adn.calls.push(function () {
+                // More ad units can be added as needed.
+                adn.request({
+                    adUnits: [
+                        { auId: '000000000013fa45', auW: 300, auH: 250, useCookies: false }
+                    ]
+                });
+            });
+        }
+    }, false);
 </script>
 ```
 
