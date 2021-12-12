@@ -70,7 +70,7 @@ Below is an example marketplace product with explanation of each field that dete
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enable publisher to create its own products, layouts and custom events | Right now product creation is a managed service, meaning that Adnuntius admins have to create the product. We will however make you as publisher able to create and manage your own products as well as layouts and custom events. |
 
-## 3 Ad Inventory
+## 4 Ad Inventory
 
 Before you create marketplace products you should ensure that your ad traffic (bid requests) are sent to Adnuntius. This includes certain key tasks that are explained here. These explanations also contain information about how to create reports and set various business rules.&#x20;
 
@@ -79,4 +79,20 @@ Before you create marketplace products you should ensure that your ad traffic (b
 | 2 Create one or more ad units. Ad units are placements that you want to make available to buyers.                                                                                                                      | <p><a href="../../adnuntius-advertising/admin-ui/inventory/adunits-1.md">Documentation</a></p><p><a href="https://admin.adnuntius.com/ad-units">Start creating</a></p>                         |
 | 3 Set up ad requests from your site. This is the technical part that helps developers set up bid requests from your pages (normally using the prebid option).                                                          | [Documentation](../../adnuntius-advertising/requesting-ads/)                                                                                                                                   |
 | 4 Create a report. When you start sending requests to the network, you can create and schedule reports that tell you the performance of your earnings account, sites and ad units.                                     | <p><a href="https://docs.adnuntius.com/adnuntius-advertising/admin-ui/reports/publishing-queries">Documentation</a></p><p><a href="https://admin.adnuntius.com/reports">Start creating</a></p> |
-| 5 Create a user. If you need to get additional users into your account, you can invite more. Once users are created they will have the same permissions as you have.                                                   | <p><a href="../../adnuntius-advertising/admin-ui/admin/users-teams-and-roles.md">Documentation</a></p><p><a href="https://admin.adnuntius.com/admin/users">Start creating</a></p>              |
+
+## 5 User Data
+
+This section shows you how you can, if you want to, send user data and create audiences for sale.
+
+**What buyers see.** When you have created a segment for sale, buyers can purchase that segment as part of campaign targeting. The example below shows what the buyer sees.
+
+![What buyers see; please note that you as a publisher can give any name, description and price to each segment.](<../../.gitbook/assets/Segment targeting.png>)
+
+Setting up segments for buyers to purchase involves the following steps: (1) sending data to Adnuntius; (2) structuring data (optional); (3) defining segments; and (4) defining triggers.
+
+| What and Why                                                                                                       | How                                                                                                                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 Send data. Send data from your online and/or offline properties, and ensure that they are available only to you. | <p><a href="../../adnuntius-data/user-interface-guide/segmentation/folders.md">Documentation: create folders (clean rooms)</a><br><a href="https://admin.adnuntius.com/folders">Start creating folders</a><br><a href="../../adnuntius-data/api-documentation/">Documentation: send data</a></p>           |
+| 2 Structure data. If needed you can structure the data you send, so that it is stored in a unified form.           | <p><a href="../../adnuntius-data/user-interface-guide/fields/mappings.md">Documentation: mapping</a><br><a href="https://admin.adnuntius.com/mappings">Start mapping</a><br><a href="../../adnuntius-data/api-documentation/javascript/user-synchronisation.md">Documentation: unify user profiles</a></p> |
+| 3 Define segments. Give your segments a name, define access, set expiry, and set pricing.                          | <p><a href="../../adnuntius-data/user-interface-guide/segmentation/segments.md">Documentation: segments</a><br><a href="https://admin.adnuntius.com/segments">Start creating segments</a></p>                                                                                                              |
+| 4 Define triggers. Determine when users should be added to your segments.                                          | <p><a href="../../adnuntius-data/user-interface-guide/segmentation/triggers.md">Documentation: triggers</a><br><a href="https://admin.adnuntius.com/triggers">Start creating triggers</a></p>                                                                                                              |
