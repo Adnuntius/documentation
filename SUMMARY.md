@@ -80,11 +80,13 @@
     * [Layout Support](adnuntius-advertising/requesting-ads/intro/adn-layout.md)
     * [Utility Methods](adnuntius-advertising/requesting-ads/intro/adn-utility.md)
     * [Logging Options](adnuntius-advertising/requesting-ads/intro/adn-feedback.md)
+    * [Prebid](https://docs.prebid.org/dev-docs/bidders/adnuntius)
   * [HTTP](adnuntius-advertising/requesting-ads/http-api.md)
   * [Cookieless Advertising](adnuntius-advertising/requesting-ads/cookieless-advertising.md)
   * [VAST](adnuntius-advertising/requesting-ads/vast-2.0.md)
   * [Open RTB](adnuntius-advertising/requesting-ads/open-rtb.md)
   * [Recording Conversions](adnuntius-advertising/requesting-ads/conversion.md)
+  * [Prebid Server](adnuntius-advertising/requesting-ads/prebid-server.md)
 
 ## Adnuntius Data
 
@@ -116,16 +118,16 @@
 
 ## Adnuntius Connect
 
-* [Integration Guide \(Work in Progress\)](adnuntius-connect/integration-guide-work-in-progress/README.md)
+* [Integration Guide (Work in Progress)](adnuntius-connect/integration-guide-work-in-progress/README.md)
   * [Prebid - Google ad manager](adnuntius-connect/integration-guide-work-in-progress/prebid-google-ad-manager.md)
   * [Privacy GTM integration](adnuntius-connect/integration-guide-work-in-progress/privacy-gtm-integration.md)
   * [Consents API](adnuntius-connect/integration-guide-work-in-progress/consents-api.md)
   * [TCF API](adnuntius-connect/integration-guide-work-in-progress/tcf-api.md)
-* [UI Guide \(Work in Progress\)](adnuntius-connect/user-interface-guide-wip/README.md)
+* [UI Guide (Work in Progress)](adnuntius-connect/user-interface-guide-wip/README.md)
   * [Containers and Dashboards](adnuntius-connect/user-interface-guide-wip/containers-and-dashboards.md)
-  * [Privacy \(updates in progress\)](adnuntius-connect/user-interface-guide-wip/privacy.md)
+  * [Privacy (updates in progress)](adnuntius-connect/user-interface-guide-wip/privacy.md)
   * [Variables, Triggers and Tags](adnuntius-connect/user-interface-guide-wip/variables-triggers-and-tags.md)
-  * [Integrations \(in progress\)](adnuntius-connect/user-interface-guide-wip/integrations-in-progress.md)
+  * [Integrations (in progress)](adnuntius-connect/user-interface-guide-wip/integrations-in-progress.md)
   * [Prebid Configuration](adnuntius-connect/user-interface-guide-wip/prebid-configuration.md)
   * [Publish](adnuntius-connect/user-interface-guide-wip/publish.md)
 
@@ -138,7 +140,7 @@
   * [For Publishers](onboarding-guides/adnuntius-buying-network/abn-for-publishers.md)
 * [Adnuntius Self-Service](onboarding-guides/adnuntius-self-service/README.md)
   * [User Interface Guide](onboarding-guides/adnuntius-self-service/user-interface-guide.md)
-  * [Marketing Tips \(Work in Progress\)](onboarding-guides/adnuntius-self-service/marketing-tips-work-in-progress.md)
+  * [Marketing Tips (Work in Progress)](onboarding-guides/adnuntius-self-service/marketing-tips-work-in-progress.md)
 * [Adnuntius Email Advertising](onboarding-guides/adnuntius-email-advertising.md)
 * [Adnuntius Data](onboarding-guides/adnuntius-data-1.md)
 
@@ -153,4 +155,3 @@
 * [Whitelabeling](other-useful-information/whitelabeling.md)
 * [Firewall Access](other-useful-information/firewall-access.md)
 * [Ad Server Logs](other-useful-information/adserver-logs.md)
-
