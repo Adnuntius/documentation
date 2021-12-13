@@ -87,6 +87,7 @@
   * [Open RTB](adnuntius-advertising/requesting-ads/open-rtb.md)
   * [Recording Conversions](adnuntius-advertising/requesting-ads/conversion.md)
   * [Prebid Server](adnuntius-advertising/requesting-ads/prebid-server.md)
+  * [Prebid](https://docs.prebid.org/dev-docs/bidders/adnuntius)
 
 ## Adnuntius Data
 
