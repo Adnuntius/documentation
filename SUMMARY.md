@@ -59,6 +59,7 @@
     * [/deliveryestimates](adnuntius-advertising/admin-api/endpoints/deliveryestimates.md)
     * [/devices](adnuntius-advertising/admin-api/endpoints/devices.md)
     * [/earningsaccounts](adnuntius-advertising/admin-api/endpoints/earningsaccounts.md)
+    * [/librarycreatives](adnuntius-advertising/admin-api/endpoints/librarycreatives.md)
     * [/lineitems](adnuntius-advertising/admin-api/endpoints/lineitems.md)
     * [/location](adnuntius-advertising/admin-api/endpoints/location.md)
     * [/orders](adnuntius-advertising/admin-api/endpoints/orders.md)
