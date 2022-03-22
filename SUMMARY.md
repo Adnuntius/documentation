@@ -11,7 +11,7 @@
     * [Orders](adnuntius-advertising/admin-ui/advertising/orders.md)
     * [Line Items](adnuntius-advertising/admin-ui/advertising/line-items.md)
     * [Creatives](adnuntius-advertising/admin-ui/advertising/creatives.md)
-    * [Library Creatives](adnuntius-advertising/admin-ui/advertising/library-creatives.md)
+    * [Library Creatives](adnuntius-advertising/admin-ui/advertising/library-creative.md)
     * [Targeting](adnuntius-advertising/admin-ui/advertising/targeting.md)
     * [Reach Analysis](adnuntius-advertising/admin-ui/advertising/reach-analysis.md)
     * [Smoothing](adnuntius-advertising/admin-ui/advertising/smoothing.md)
