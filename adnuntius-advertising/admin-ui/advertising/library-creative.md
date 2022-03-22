@@ -1,6 +1,6 @@
 ---
 description: >-
-  Library creatives enable you to edit creatives across multiple line items centrally.
+  Library creatives enable you to edit creatives across multiple line items from one central location.
 ---
 
 # Library Creatives
