@@ -1,12 +1,14 @@
 ---
 description: >-
-  Context Services enable you to pick up category, keyword and other information
-  from your pages, and make them available for contextual targeting.
+  Context Services enable you to pick up category, keyword and other contextual information
+  from the pages your advertisements appear on and make them available for contextual targeting.
 ---
 
 # Context Services
 
-The Adnuntius Context Service makes it easy to to target Adnuntius line items and creatives based upon the content of a web page. The context service can automatically extract frequently occurring keywords from your pages, perform content categorisation, and make the keywords and categories available for ad targeting. For example, if you publish a recipe website, this service would allow you to easily support advertisers such as “Tony’s Pizza Sauce” that would like to show ads on pages featuring pizza recipes.
+Context Services make it easy to to target Adnuntius line items and creatives to contextual information found across publisher sites.
+
+The Context Service can extract frequently occurring keywords from your pages, perform content categorisation, and make the keywords and categories available for targeting. For example, if you publish a recipe website, this service would allow you to easily support advertisers such as "Tony's Pizza Sauce" that would like to show ads on pages featuring pizza recipes.
 
 ## Simple Setup
 
