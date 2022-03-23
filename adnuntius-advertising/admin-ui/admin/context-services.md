@@ -10,6 +10,8 @@ Context Services make it easy to to target Adnuntius line items and creatives to
 
 The Context Service can extract frequently occurring keywords from your pages, perform content categorisation, and make the keywords and categories available for targeting. For example, if you publish a recipe website, this service would allow you to easily support advertisers such as "Tony's Pizza Sauce" that would like to show ads on pages featuring pizza recipes.
 
+An extra bonus is that Adnuntius reports on the frequency of encountering a particular keyword or category on the targeting screens for line items or creatives. That way, advertisers can know relatively how often their ads will show based on their contextual targeting selections.
+
 ## Simple Setup
 
 To set up context services, go to [https://admin.adnuntius.com/admin/context-service-configurations](https://admin.adnuntius.com/admin/context-service-configurations) and then:
@@ -54,6 +56,12 @@ https://www.aperitif.no/recipies/italian/ravioli/best-ravioli-ever/12345
 ```
 
 then Adnuntius will make "recipes", "italian", "ravioli", "best", "ever" and "12345" available for keyword targeting on that page.
+
+### Tracked Keywords
+
+Instead of having the Context Service pick up all available keywords it finds, you can specify specific keywords for the Context Service to track. This is ideal for wanting to rein in the available keywords that advertiser can select, ensuring there is a more understandable set to choose from.
+
+In addition, you can have multiple keywords mapped to one root keyword. This means you can configure the Context Service to funnel keywords such as `crimson`, `vermillion`, `claret` and `scarlet` down to a single `red`.
 
 ### IAB Categories
 
