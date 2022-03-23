@@ -17,3 +17,6 @@ Two differences are setting up what Teams have access to a Library Creative and 
 
 ![An example Library Creative highlighting the differences with Creatives](../../../.gitbook/assets/library-creative.png)
 
+The Linked Creatives tab reveals all the Creatives that are based off the Linked Creative. Any updates to the Library Creative will then flow through to all the Creatives.
+
+![The creatives linked to the Library Creative](../../../.gitbook/assets/library-creative-linked.png)
