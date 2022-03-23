@@ -9,7 +9,7 @@ Library Creatives enable the same creative design to be used across multiple lin
 
 An extra bonus is that an individual Creative that is linked to a Library Creative can override specific elements from the Library Creative's design yet still be tied to it. 
 
-## How to Work With Library Creatives
+## How to Work with Library Creatives
 
 Library Creatives are created in much the same way as a [Creative](creatives.md).
 
