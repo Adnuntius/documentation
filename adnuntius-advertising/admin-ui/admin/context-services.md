@@ -10,7 +10,7 @@ Context Services make it easy to to target Adnuntius line items and creatives to
 
 The Context Service can extract frequently occurring keywords from your pages, perform content categorisation, and make the keywords and categories available for targeting. For example, if you publish a recipe website, this service would allow you to easily support advertisers such as "Tony's Pizza Sauce" that would like to show ads on pages featuring pizza recipes.
 
-An extra bonus is that Adnuntius reports on the frequency of encountering a particular keyword or category on the targeting screens for line items or creatives. That way, advertisers can know relatively how often their ads will show based on their contextual targeting selections.
+An extra bonus is that Adnuntius reports on the frequency of encountering a particular keyword or category on the targeting screens for line items or creatives. That way, advertisers can know how often their ads will show based on their contextual targeting selections.
 
 ## Simple Setup
 
