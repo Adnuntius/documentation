@@ -17,7 +17,6 @@ The logs are in a JSON format, with each line having the format described below.
 | :--- | :--- | :--- |
 | `eventTime` | Timestamp | An ISO 8601 date string \(`yyyy-MM-ddTHH:mm:ss.sss`\) |
 | `eventId` | String | The identifier for the original ad server request. Can be used to match clicks to impressions etc |
-| `ipAddress` | String | The IP address where the ad request originated from |
 | `referrer` | String | The HTTP `Referer` header of the ad request |
 | `userAgentString` | String | The `User-Agent` header of the ad request |
 | `segments` | Collection\[ObjectId\] | User segments that apply to the ad request |
