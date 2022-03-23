@@ -20,3 +20,11 @@ Two differences are setting up what Teams have access to a Library Creative and 
 The Linked Creatives tab reveals all the Creatives that are based off the Linked Creative. Any updates to the Library Creative will then flow through to all the Creatives.
 
 ![The creatives linked to the Library Creative](../../../.gitbook/assets/library-creative-linked.png)
+
+## How Creatives Linked to Library Creatives Work
+
+Creatives linked to Library Creatives are highlighted as such and allow for individual fields to be overridden.
+
+![A Creative linked to a Library Creative with two overrides](../../../.gitbook/assets/creative-that-is-linked.png)
+
+The two overrides in the Creative highlighted above mean that updates to the URL or device targeting in the Library Creative will not flow through here.
