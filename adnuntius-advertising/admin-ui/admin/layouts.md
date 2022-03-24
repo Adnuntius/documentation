@@ -10,7 +10,7 @@ description: >-
 
 When creating a [creative](../advertising/creatives.md), you will always choose a layout, and your layout will be come visible when you have saved your layout.
 
-![Layout example](<../../../.gitbook/assets/201811-reports-admin-layouts (1) (1).png>)
+![Layout example](<../../../.gitbook/assets/201811-reports-admin-layouts (1).png>)
 
 **Name, description, category and labels**: Give the layout a name and description (optional) of your choice. Categories allow you to group layouts with similar traits so that they are easier to find when later booking a line item and creating a creative.
 
@@ -25,17 +25,17 @@ When creating a [creative](../advertising/creatives.md), you will always choose 
 **Components in render template** are assets that you can add to the layout. You can add URLs (for example click destinations), text (for example for native ads), choices (for instance choices on whether a video should autoplay or not), or media (being images in GIF, JPG or PNG).
 
 {% hint style="info" %}
-If you want to change the max file size allowed for a layout, you can easily do so by changing the component, as shown below.&#x20;
+If you want to change the max file size allowed for a layout, you can easily do so by changing the component, as shown below.
 {% endhint %}
 
 ![Changing a component's max file size.](<../../../.gitbook/assets/Change File Size.png>)
 
 ## Layout Includes
 
-The feature is live, documentation will come soon.&#x20;
+The feature is live, documentation will come soon.
 
 ## Examples
 
-Layout examples provides you with a library of layouts that cannot be modified or removed. You can visit each of the layouts, observe its behavior on-screen, and copy it to create a new layout that can be used for your creatives.&#x20;
+Layout examples provides you with a library of layouts that cannot be modified or removed. You can visit each of the layouts, observe its behavior on-screen, and copy it to create a new layout that can be used for your creatives.
 
 ![](../../../.gitbook/assets/202012-layout-examples.gif)

@@ -24,7 +24,7 @@ You can create an ad unit by going to [https://admin.adnuntius.com/ad-units](htt
 As long as the creative is within the min/max size limits, the ad unit will automatically shrink to the size of the creative. If there is no creative to serve, the ad unit will by default collapse so that it does not take up space on the site.
 {% endhint %}
 
-**Page size and columns**: _Page siz_e determines the number of creatives that can be shown inside your ad unit. For instance, if you have a 1000x300 ad unit and page size of 3, then the ad unit may (depending on what provides the highest revenue) serve for instance three 300x300 creatives inside this ad unit. \_Columns_ lets you set the maximum number of columns to be filled with ads within the ad unit's dimensions. So if you have your 1000x300 ad unit and allow 2 columns, then that ad unit can fill for instance two 300x300 creatives side by side, but not three.
+**Page size and columns**: _Page siz\_e determines the number of creatives that can be shown inside your ad unit. For instance, if you have a 1000x300 ad unit and page size of 3, then the ad unit may (depending on what provides the highest revenue) serve for instance three 300x300 creatives inside this ad unit. \_Columns_ lets you set the maximum number of columns to be filled with ads within the ad unit's dimensions. So if you have your 1000x300 ad unit and allow 2 columns, then that ad unit can fill for instance two 300x300 creatives side by side, but not three.
 
 {% hint style="info" %}
 If you leave the page size and columns fields blank, then Adnuntius will serve any number of ads and columns inside the ad unit (of course without exceeding the size constraints).
@@ -38,7 +38,7 @@ If you leave the page size and columns fields blank, then Adnuntius will serve a
 
 ![Once you have created a matching label you will find it as a targeting criteria for line items and creatives.](../../../.gitbook/assets/202003-matching-labels-ad-units.png)
 
-**Labels** can be added to make reporting work for you. Let's say you add the label "skyscrapers" to a set of ad units, and then want to run a report only for this group of ad units. You can then run a report which filters on these ad units specifically. [Learn more about reports. ](../reports/publishing-queries.md)
+**Labels** can be added to make reporting work for you. Let's say you add the label "skyscrapers" to a set of ad units, and then want to run a report only for this group of ad units. You can then run a report which filters on these ad units specifically. [Learn more about reports.](../reports/publishing-queries.md)
 
 ![Once you have added a label, you can use it as a filter when running reports.](../../../.gitbook/assets/202003-ad-unit-query-labels.png)
 
@@ -62,7 +62,7 @@ If you leave the page size and columns fields blank, then Adnuntius will serve a
 {% tab title="Must match type" %}
 "Must match type" allows you to select what targeting you will allow for this ad unit. It will open a list that looks like this.
 
-![Must Match Type.](<../../../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
+![Must Match Type.](<../../../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 In the instance above only ad unit targeting is selected. This will only allow line items with ad unit targeting to be showed for this ad unit. If this would be applied to an ad unit it would not show any ads unless it´s explicitly targeted. You can of course add more targeting to the line item to reduce the scope of users to target.
 {% endtab %}
@@ -108,7 +108,7 @@ The traffic tab shows you the delivery of impressions, clicks, viewables and vis
 {% tab title="Availability" %}
 Availability allows you to forecast how much traffic your ad unit is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis.
 
-![Availability analysis example. ](../../../.gitbook/assets/202003-ad-units-availability-tab.png)
+![Availability analysis example.](../../../.gitbook/assets/202003-ad-units-availability-tab.png)
 
 The following explanations will the example above above for guidance.
 

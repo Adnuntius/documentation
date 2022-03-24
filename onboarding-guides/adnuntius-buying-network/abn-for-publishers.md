@@ -28,12 +28,11 @@ The figure above shows how (1) publishers can send their bid requests to Adnunti
 
 ## 2 The Buyer Workflow
 
-This **** section gives you an overall understanding of what the buyer sees depending on your product and traffic choices explained further down. We aim to be transparent about everything we do, and this helps you understand what is available to buyers.
+This \*\*\*\* section gives you an overall understanding of what the buyer sees depending on your product and traffic choices explained further down. We aim to be transparent about everything we do, and this helps you understand what is available to buyers.
 
-**Selecting marketplace products.** A buyer using Adnuntius Marketplace can manage their advertising clients (if the buyer is an agency), campaigns and creative material. Whenever a buyer creates a new campaign (called “line item”) their first step is to select a Marketplace Product.\
+**Selecting marketplace products.** A buyer using Adnuntius Marketplace can manage their advertising clients (if the buyer is an agency), campaigns and creative material. Whenever a buyer creates a new campaign (called “line item”) their first step is to select a Marketplace Product.\\
 
-
-![When a buyer creates a campaign they have to choose one product.](<../../.gitbook/assets/MP new line item (1).png>)
+![When a buyer creates a campaign they have to choose one product.](<../../.gitbook/assets/MP new line item.png>)
 
 In the next section, which shows you how you can create marketplace products, you will see that you can determine which buyers should have access to your products. When a buyer is allowed to create a campaign based on your product, they will see it in a menu like shown below.
 
@@ -72,13 +71,13 @@ Below is an example marketplace product with explanation of each field that dete
 
 ## 4 Ad Inventory
 
-Before you create marketplace products you should ensure that your ad traffic (bid requests) are sent to Adnuntius. This includes certain key tasks that are explained here. These explanations also contain information about how to create reports and set various business rules.&#x20;
+Before you create marketplace products you should ensure that your ad traffic (bid requests) are sent to Adnuntius. This includes certain key tasks that are explained here. These explanations also contain information about how to create reports and set various business rules.
 
-| 1 Create one or more sites. Sites ensure that you can structure placements according to your site structure, get performance reports per site, and more. Sites will be available and visible to buyers for targeting.  | <p><a href="../../adnuntius-advertising/admin-ui/inventory/sites.md">Documentation</a></p><p><a href="https://admin.adnuntius.com/sites">Start creating</a></p>                                |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2 Create one or more ad units. Ad units are placements that you want to make available to buyers.                                                                                                                      | <p><a href="../../adnuntius-advertising/admin-ui/inventory/adunits-1.md">Documentation</a></p><p><a href="https://admin.adnuntius.com/ad-units">Start creating</a></p>                         |
-| 3 Set up ad requests from your site. This is the technical part that helps developers set up bid requests from your pages (normally using the prebid option).                                                          | [Documentation](../../adnuntius-advertising/requesting-ads/)                                                                                                                                   |
-| 4 Create a report. When you start sending requests to the network, you can create and schedule reports that tell you the performance of your earnings account, sites and ad units.                                     | <p><a href="https://docs.adnuntius.com/adnuntius-advertising/admin-ui/reports/publishing-queries">Documentation</a></p><p><a href="https://admin.adnuntius.com/reports">Start creating</a></p> |
+| 1 Create one or more sites. Sites ensure that you can structure placements according to your site structure, get performance reports per site, and more. Sites will be available and visible to buyers for targeting. | <p><a href="../../adnuntius-advertising/admin-ui/inventory/sites.md">Documentation</a></p><p><a href="https://admin.adnuntius.com/sites">Start creating</a></p>                                |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2 Create one or more ad units. Ad units are placements that you want to make available to buyers.                                                                                                                     | <p><a href="../../adnuntius-advertising/admin-ui/inventory/adunits-1.md">Documentation</a></p><p><a href="https://admin.adnuntius.com/ad-units">Start creating</a></p>                         |
+| 3 Set up ad requests from your site. This is the technical part that helps developers set up bid requests from your pages (normally using the prebid option).                                                         | [Documentation](../../adnuntius-advertising/requesting-ads/)                                                                                                                                   |
+| 4 Create a report. When you start sending requests to the network, you can create and schedule reports that tell you the performance of your earnings account, sites and ad units.                                    | <p><a href="https://docs.adnuntius.com/adnuntius-advertising/admin-ui/reports/publishing-queries">Documentation</a></p><p><a href="https://admin.adnuntius.com/reports">Start creating</a></p> |
 
 ## 5 User Data
 
