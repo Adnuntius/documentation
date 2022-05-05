@@ -4,9 +4,7 @@ description: Describes how to share segments between folders
 
 # Segment Sharing
 
-Adnuntius user segments can be shared between different sites. This means, for example, that an advertiser may build a segment based upon their own third-party data and use that segment to target a user on a publisher's site.
-
-Segment sharing is designed to work without third-party cookies, and is only allowed when a user has explicitly consented to share their data.
+Adnuntius user segments can be shared between different sites. This means, for example, that an advertiser may build a segment based upon their own third-party data and use that segment to target a user on a publisher's site. Segment sharing is designed to work without third-party cookies, and is only allowed when a user has explicitly consented to share their data.
 
 ## Requirements
 
