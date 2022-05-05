@@ -40,6 +40,6 @@ or
 23fd4gab3c7
 ```
 
-The consent string can be stored in a cookie named `adnconsent` and this will automatically be use in all requests via the Adnuntius tag. Otherwise, the consent string can be provided in the Adnuntius tag using the `adnConsent` parameter.
+The consent string can be stored in a cookie named `adnconsent` and this will automatically be used in all requests via the Adnuntius tag. Otherwise, the consent string can be provided in the Adnuntius tag using the `adnConsent` parameter.
 
 
