@@ -1,4 +1,3 @@
-
 ---
 description: Describes how to share segments between folders
 ---
