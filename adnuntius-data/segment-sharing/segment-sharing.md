@@ -20,15 +20,15 @@ Segments are shared when user records in Adnuntius can be matched to the same pe
 
 ## Consent String Format
 
-The consent string has a very simple format, it is the folder tags appended together with a `g` character delimiting each folder.
+The consent string has a very simple format: it is the folder tags appended together with a `g` character delimiting each folder.
 
-And example string, showing that a user consents to share data with folder `2fe5a` and `ee765` would be:
+An example string, recording that a user consents to share data with folder `2fe5a` and `ee765` would be:
 
 ```
 2fe5agee765
 ```
 
-Any leading `0`s can be ignored, so a consent string for folder `00000000000023fd4` and `000000000000ab3c7` could be either:
+Any leading `0`s can be ignored, so a consent string for folder `00000000000023fd4` and `000000000000ab3c7` could be written as either:
 
 ```
 00000000000023fd4g000000000000ab3c7
