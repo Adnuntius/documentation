@@ -8,7 +8,7 @@ Adnuntius user segments can be shared between different sites. This means, for e
 
 ## Requirements
 
-The following two requirements must be met before a segment can be shared.
+The following two requirements must be met before a segment can be shared:
 
 ### User Consent
 
@@ -17,5 +17,29 @@ User consent to shared data is recorded in a consent string. This consent string
 ### Matched User Identifier
 
 Segments are shared when user records in Adnuntius can be matched to the same person. This matching requires a shared user identifier, such as an email address or phone number, is added to both of the user profiles. A common scenario would be when a user has created an account on two different sites.
+
+## Consent String Format
+
+The consent string has a very simple format, it is the folder tags appended together with a `g` character delimiting each folder.
+
+And example string, showing that a user consents to share data with folder `2fe5a` and `ee765` would be:
+
+```
+2fe5agee765
+```
+
+Any leading `0`s can be ignored, so a consent string for folder `00000000000023fd4` and `000000000000ab3c7` could be either:
+
+```
+00000000000023fd4g000000000000ab3c7
+```
+
+or
+
+```
+23fd4gab3c7
+```
+
+The consent string can be stored in a cookie named `adnconsent` and this will automatically be use in all requests via the Adnuntius tag. Otherwise, the consent string can be provided in the Adnuntius tag using the `adnConsent` parameter.
 
 
