@@ -118,6 +118,7 @@
     * [/sync](adnuntius-data/api-documentation/http/sync.md)
     * [/segment](adnuntius-data/api-documentation/http/http-segment.md)
   * [Profile Fields](adnuntius-data/api-documentation/fields.md)
+  * [Segment Sharing](/adnuntius-data/segment-sharing/segment-sharing.md)
 
 ## Adnuntius Connect
 
