@@ -8,7 +8,7 @@ Here's what is recorded in each stats family.
 
 Note: take [the deep dive on impression stats for more detailed information](impression-types.md) about them.
 
-* **Bids:** counts each time an ad is involved in an auction in the Adnuntius ad server. This means the ad met all targeting criteria, has not been smoothed and could serve if not for another ad having a higher tier, a higher value via bid price and/or CTR, a deal ID, a companion ad  or a sponsorship deal.
+* **Bids:** counts each time an ad is involved in an auction in the Adnuntius ad server. This means the ad met all targeting criteria, has not been smoothed and could win the auction and serve.
 * **Impressions:** counts each time an ad is served by our Adnuntius ad server.
 * **Rendered impressions:** counts each time an ad is rendered into a web page.
 * **Visible impressions:** counts each time at least 1% of an ad is visible in a browser's viewport.
