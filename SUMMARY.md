@@ -118,7 +118,7 @@
     * [/sync](adnuntius-data/api-documentation/http/sync.md)
     * [/segment](adnuntius-data/api-documentation/http/http-segment.md)
   * [Profile Fields](adnuntius-data/api-documentation/fields.md)
-* [Segment Sharing](/adnuntius-data/segment-sharing/segment-sharing.md)
+* [Segment Sharing](adnuntius-data/segment-sharing/segment-sharing.md)
 
 ## Adnuntius Connect
 
@@ -155,7 +155,8 @@
 * [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
 * [GAM Integration](other-useful-information/gam-integration.md)
-* [Am I Being Tracked?](other-useful-information/am-i-being-tracked.md)
 * [Whitelabeling](other-useful-information/whitelabeling.md)
 * [Firewall Access](other-useful-information/firewall-access.md)
 * [Ad Server Logs](other-useful-information/adserver-logs.md)
+* [Privacy Details](other-useful-information/privacy-details/README.md)
+  * [Am I Being Tracked?](other-useful-information/privacy-details/am-i-being-tracked.md)

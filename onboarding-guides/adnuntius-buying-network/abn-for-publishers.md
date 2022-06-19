@@ -32,7 +32,7 @@ This \*\*\*\* section gives you an overall understanding of what the buyer sees 
 
 **Selecting marketplace products.** A buyer using Adnuntius Marketplace can manage their advertising clients (if the buyer is an agency), campaigns and creative material. Whenever a buyer creates a new campaign (called “line item”) their first step is to select a Marketplace Product.\\
 
-![When a buyer creates a campaign they have to choose one product.](<../../.gitbook/assets/MP new line item.png>)
+![When a buyer creates a campaign they have to choose one product.](<../../.gitbook/assets/MP new line item (1).png>)
 
 In the next section, which shows you how you can create marketplace products, you will see that you can determine which buyers should have access to your products. When a buyer is allowed to create a campaign based on your product, they will see it in a menu like shown below.
 
