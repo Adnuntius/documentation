@@ -159,4 +159,4 @@
 * [Firewall Access](other-useful-information/firewall-access.md)
 * [Ad Server Logs](other-useful-information/adserver-logs.md)
 * [Privacy Details](other-useful-information/privacy-details/README.md)
-  * [Am I Being Tracked?](other-useful-information/privacy-details/am-i-being-tracked.md)
+  * [Am I Being Tracked?](other-useful-information/am-i-being-tracked.md)
