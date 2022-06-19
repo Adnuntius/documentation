@@ -28,39 +28,56 @@ Please note that Adnuntius offers a privacy-safe ad serving alternative commonly
 
 ## Viewing History Stored in Databases
 
-| Personal information                                      | Purpose                                                                                                                                                                                                                                                                                                                                                                                  | Expiry                    |
-| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| User Identifier and list of advertisements and Timestamps | To allow control of how many times, per unit time, that an advertisement is shown to an individual ("frequency capping"). For example: show an advertisement no more than twice per week to each unique viewer. This data replicates what is also stored in device cookie storage (see Appendix 1), but is also stored on the Adnuntius servers to allow cross-device frequency capping. | 30 days after last update |
+**Personal information:** User Identifier and list of advertisements and Timestamps
+
+**Purpose:** To allow control of how many times, per unit time, that an advertisement is shown to an individual ("frequency capping"). For example: show an advertisement no more than twice per week to each unique viewer. This data replicates what is also stored in device cookie storage, but is also stored on the Adnuntius servers to allow cross-device frequency capping.
+
+**Expiry:** 30 days after last update.
 
 **Storage:** Data is stored on servers controlled by Adnuntius and delivered by sub-processor Hetzner.&#x20;
 
 ## Location Targeting
 
-| Data                                                                   | Purpose                                                                                                  | Expiry                                                                                                      | Storage                                                                                                                                                           | Involved Sub-Processors                                                                                                                                                                                |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Named locations derived from IP addresses                              | Enable Controller and potentially its customers to target by country, region, city and/or post/zip code. | All information is discarded immediately after looking up and matching the information to a named location. | No location data is stored under this Purpose. The IP addresses are checked against named locations stored on our servers. No data is sent to any external party. | Adnuntius uses Digital Envoy, who supplies us with a file mapping IP addresses to named locations. This file is stored on Adnuntius servers (Hetzner) as described under "Sub-Processors" found below. |
-| Longitude and latitude (only processed if actively sent by Controller) | Enable Controller and potentially its customers to target by exact location.                             | All information is discarded immediately after any advertisements are matched to the location.              | No location data is stored under this Purpose.                                                                                                                    | None.                                                                                                                                                                                                  |
+**Data: Named locations derived from IP addresses**
 
+* Purpose: Enable Controller and potentially its customers to target by country, region, city and/or post/zip code.
+* Expiry: All information is discarded immediately after looking up and matching the information to a named location.
+* Storage: No location data is stored under this Purpose. The IP addresses are checked against named locations stored on our servers. No data is sent to any external party.
+* Involved sub-processors: Adnuntius uses Digital Envoy, who supplies us with a file mapping IP addresses to named locations. This file is stored on Adnuntius servers (Hetzner) as described under "Sub-Processors" found below.
 
+**Data: Longitude and latitude (only processed if actively sent by Controller)**
+
+* Purpose: Enable Controller and potentially its customers to target by exact location.
+* Expiry: All information is discarded immediately after any advertisements are matched to the location.
+* Storage: No location data is stored under this Purpose.
+* Involved sub-processors: None.
 
 ## Device Targeting
 
-As the user agent string is sent to Adnuntius the following data is stored:
+**Data:** As the user agent string is sent to Adnuntius the following data is stored:
 
-1. Name, supplier and version of browser (example: Mobile Safari)
-2. Family, model, supplier and name of hardware (example: iPad Pro 9.7)
-3. Name, supplier and version of platform (example: Apple)
-4. Type of device (example: Desktop)
-5. Operating system (example: Android)
+* Name, supplier and version of browser (example: Mobile Safari)
+* Family, model, supplier and name of hardware (example: iPad Pro 9.7)
+* Name, supplier and version of platform (example: Apple)
+* Type of device (example: Desktop)
+* Operating system (example: Android)
 
-Details about the data:&#x20;
+**Purpose:** Enable Controller and potentially its customers to target advertisements to the collected information.
 
-* **Purpose:** Enable Controller and potentially its customers to target advertisements to the collected information.
-* **Expiry:** All information is discarded immediately after looking up and matching the collected information to device information stored on our servers.
-* **Storage:** No device data from Data Subjects is stored under this Purpose.
-* **Involved sub-processors:** Adnuntius uses 51 Degrees, who supplies us with a file mapping the device information we collect to the details of a device. This file is stored on Adnuntius servers as described under the tab "Sub-Processors" found here.
+**Expiry:** All information is discarded immediately after looking up and matching the collected information to device information stored on our servers.
+
+**Storage:** No device data from Data Subjects is stored under this Purpose.
+
+**Involved sub-processors:** Adnuntius uses 51 Degrees, who supplies us with a file mapping the device information we collect to the details of a device. This file is stored on Adnuntius servers as described under the tab "Sub-Processors" found here.
 
 ## Segment Targeting
 
+**Data: User Identifier and list of Pages Viewed.**
 
+* **Detailed list of data:** page domain-name (NOT the full URL); content categories of the page; content keywords of the page; device type used to view the page; user location (country and region) when viewing the page.
+* **How data is sent** - javascript API: [https://docs.adnuntius.com/adnuntius-data/api-documentation/javascript/page-views](https://docs.adnuntius.com/adnuntius-data/api-documentation/javascript/page-views). HTTP API: [https://docs.adnuntius.com/adnuntius-data/api-documentation/http/http-page-view](https://docs.adnuntius.com/adnuntius-data/api-documentation/http/http-page-view)
+* **Purpose:** Enable Controller to build segments (Data Subjects grouped by their common behavior and/or characteristics) based on their consumption of pages on Controller's Properties.
+* **Expiry:** 30 days.
+* **Storage:** Data is stored on servers controlled by Adnuntius and its sub-processors.
+* **Involved sub-processors:** Adnuntius uses providers of data centers to store data. Please see "Sub-Processors" below for more information.
 
