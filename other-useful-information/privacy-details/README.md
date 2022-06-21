@@ -38,19 +38,27 @@ Please note that Adnuntius offers a privacy-safe ad serving alternative commonly
 
 ## Location Targeting
 
-**Data: Named locations derived from IP addresses**
+### **Named locations derived from IP addresses**
 
-* Purpose: Enable Controller and potentially its customers to target by country, region, city and/or post/zip code.
-* Expiry: All information is discarded immediately after looking up and matching the information to a named location.
-* Storage: No location data is stored under this Purpose. The IP addresses are checked against named locations stored on our servers. No data is sent to any external party.
-* Involved sub-processors: Adnuntius uses Digital Envoy, who supplies us with a file mapping IP addresses to named locations. This file is stored on Adnuntius servers (Hetzner) as described under "Sub-Processors" found below.
+**Purpose**: Enable Controller and potentially its customers to target by country, region, city and/or post/zip code.
 
-**Data: Longitude and latitude (only processed if actively sent by Controller)**
+**Expiry**: All information is discarded immediately after looking up and matching the information to a named location.
 
-* Purpose: Enable Controller and potentially its customers to target by exact location.
-* Expiry: All information is discarded immediately after any advertisements are matched to the location.
-* Storage: No location data is stored under this Purpose.
-* Involved sub-processors: None.
+**Storage**: No location data is stored under this Purpose. The IP addresses are checked against named locations stored on our servers. No data is sent to any external party.
+
+**Involved sub-processors**: Adnuntius uses Digital Envoy, who supplies us with a file mapping IP addresses to named locations. This file is stored on Adnuntius servers (Hetzner) as described under "Sub-Processors" found below.
+
+### **Longitude and latitude**
+
+**Please note**: this data is only processed if actively sent by the Controller.&#x20;
+
+**Purpose**: Enable Controller and potentially its customers to target by exact location.
+
+**Expiry**: All information is discarded immediately after any advertisements are matched to the location.
+
+**Storage**: No location data is stored under this Purpose.
+
+**Involved sub-processors**: None.
 
 ## Device Targeting
 
@@ -72,7 +80,7 @@ Please note that Adnuntius offers a privacy-safe ad serving alternative commonly
 
 ## Segment Targeting
 
-**Data: User identifier and list of pages viewed.**
+### **User identifier and list of pages viewed.**
 
 * **Details:** page domain-name (NOT the full URL); content categories of the page; content keywords of the page; device type used to view the page; user location (country and region) when viewing the page.
 * **How data is sent** - javascript API: [https://docs.adnuntius.com/adnuntius-data/api-documentation/javascript/page-views](https://docs.adnuntius.com/adnuntius-data/api-documentation/javascript/page-views). HTTP API: [https://docs.adnuntius.com/adnuntius-data/api-documentation/http/http-page-view](https://docs.adnuntius.com/adnuntius-data/api-documentation/http/http-page-view).
@@ -81,7 +89,7 @@ Please note that Adnuntius offers a privacy-safe ad serving alternative commonly
 * **Storage:** Data is stored on servers controlled by Adnuntius and its sub-processors.
 * **Involved sub-processors:** Adnuntius uses providers of data centers to store data. Please see "Sub-Processors" below for more information.
 
-**Data: Profile fields**
+### **Profile fields**
 
 * **Details:** firstName, lastName, title, dateOfBirth, age, gender, status, language, description, company, website, rank, level, type, emailPrivate, emailWork, phone, mobilePhone, addressLine1, addressLine2, state, city, areaCode, zipCode, postCode, region, country, educationName, educationType, educationDegree, educationSchool, educationField, educationStartYear, educationEndYear, skills, facebook, instagram, snapchat, twitter, avatar, transactions, lastLogin, logins, products, favouriteTopics, personalInterests.
 * **How data is sent** - javascript API: [https://docs.adnuntius.com/adnuntius-data/api-documentation/javascript/profile-updates](https://docs.adnuntius.com/adnuntius-data/api-documentation/javascript/profile-updates). HTTP AIP: [https://docs.adnuntius.com/adnuntius-data/api-documentation/http/http-profile](https://docs.adnuntius.com/adnuntius-data/api-documentation/http/http-profile).
@@ -90,7 +98,7 @@ Please note that Adnuntius offers a privacy-safe ad serving alternative commonly
 * **Storage:** Data is stored on servers controlled by Adnuntius and its sub-processors.
 * **Involved sub-processors:** Adnuntius uses providers of data centers to store data. Please see "Sub-Processors" below for more information.
 
-**Data: Segments pre-built by Controller before sent to Adnuntius**
+### **Segments pre-built by Controller before sent to Adnuntius**
 
 * **Details:** User identifiers, segment identifiers and segment names and descriptions, as they are all defined by Controller.
 * **How data is sent:** [https://docs.adnuntius.com/adnuntius-advertising/admin-api/endpoints/segmentsupload](https://docs.adnuntius.com/adnuntius-advertising/admin-api/endpoints/segmentsupload), [https://docs.adnuntius.com/adnuntius-advertising/admin-api/endpoints/segmentsusersupload](https://docs.adnuntius.com/adnuntius-advertising/admin-api/endpoints/segmentsusersupload)
@@ -172,13 +180,7 @@ Adnuntius offers its customers to transfer raw data to its own databases. If cus
 | User location: Latitude                                                                    | 26,30417                                                                                                                     |
 | User location: Longitude                                                                   | −98,1639                                                                                                                     |
 
-## Login
-
-**Expiry:** No expiry.
-
-**Storage:** Data is stored on servers controlled by Adnuntius and its sub-processors.
-
-**Involved sub-processors:** Adnuntius uses providers of data centers to store data. Please see "Sub-Processors" below for more information.
+## Login and Changes
 
 | Data                                                  | Purpose                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -186,5 +188,146 @@ Adnuntius offers its customers to transfer raw data to its own databases. If cus
 | All changes made by a user account                    | Customers expect to see who have made which changes to campaigns and other objects in Adnuntius. We therefore need to store when a change was performed, by who, and what change occured.                                                                                                                                                                                                                       |
 | Last login and password change                        | Control who have visited the portal and made certain changes, and to provide support to people who need to change their passwords.                                                                                                                                                                                                                                                                              |
 
-Responsibles
+**Expiry:** No expiry.
 
+**Storage:** Data is stored on servers controlled by Adnuntius and its sub-processors.
+
+**Involved sub-processors:** Adnuntius uses providers of data centers to store data. Please see "Sub-Processors" below for more information.
+
+## Responsibles
+
+Data Protection Officer, and responsible on behalf of the Processor:&#x20;
+
+Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
+
+## Sub-Processors
+
+### Hetzner Online GmbH
+
+**Contact information:** Industriestrasse 25, 91710 Gunzenhausen, Germany - info@hetzner.com - +49 (0)9831 505-0
+
+**Sub-Processor's role:** Hetzner is Adnuntius' supplier of servers in Europe, and stores data about all users tracked by any of the tracking mechanisms specified in this document.
+
+**Locations of servers:** Germany and Finland.
+
+**Data processing agreement:** [https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing](https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing)
+
+**Basis for processing:**&#x20;
+
+### Digital Envoy
+
+**Contact information:** [https://www.digitalelement.com/contact-us/](https://www.digitalelement.com/contact-us/)
+
+**Sub-Processor's role:** Digital Envoy provides Adnuntius with location targeting technology, enabling Adnuntius to translate an IP address to a named location. Digital Envoy provides files that are stored on our databases, and no data is as such transferred to Digital Envoy.
+
+**Locations of servers:** Germany and Finland.
+
+**Data processing agreement:** No data is sent to nor processed by the supplier.
+
+**Basis for processing:**&#x20;
+
+### 51 Degrees
+
+**Contact information:** [https://51degrees.com/about-us](https://51degrees.com/about-us)
+
+**Sub-Processor's role:** 51 Degrees provides Adnuntius with device targeting technology, enabling Adnuntius' customers to target users by the devices they use. 51 Degrees provides files that are stored on our databases, and no data is as such transferred to 51 Degrees.
+
+**Locations of servers:** Germany and Finland.
+
+**Data processing agreement:** No data is sent to nor processed by the supplier.
+
+&#x20;**Basis for processing:**&#x20;
+
+### Amazon Web Services
+
+**Contact information:** [https://pages.awscloud.com/compliance-contact-us.html](https://pages.awscloud.com/compliance-contact-us.html)
+
+**Sub-Processor's role:** Snapshots of Adnuntius data are periodically saved to Amazon Simple Storage Service (AWS S3)'s Frankfurt data center. All data is encrypted with AES prior to leaving the Hetzner data centers (Germany and Finland) and sent to this Frankfurt data center, is transmitted via a secured channel, and is stored in its encrypted form in a private S3 bucket.
+
+**Locations of servers:** Germany
+
+**Data processing agreement:** [https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf](https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf)
+
+&#x20;**Basis for processing:**&#x20;
+
+### Adnuntius Australia PTY LTD
+
+**Contact information:** Antonios Sarhanis; antonios@adnuntius.com; +61 416 173 732
+
+**Sub-Processor's role:** Adnuntius Australia is a company fully owned by Adnuntius AS, and is the company where several of our developers are employed. These developers need to access databases to develop functionality, and the purpose of the attached agreement is to ensure transparency in how our developers located outside of EU may access personal information.
+
+**Locations of servers:** Not applicable.
+
+**Data processing agreement:** [https://drive.google.com/file/d/1e3V4odfkl2Syc1bngFZddjBQJ7lMCXj8/view?usp=sharing](https://drive.google.com/file/d/1e3V4odfkl2Syc1bngFZddjBQJ7lMCXj8/view?usp=sharing)
+
+**Basis for processing:**&#x20;
+
+### Leaseweb Asia Pacific
+
+**Contact information:** privacy@leaseweb.com; 11 Collyer Quay, The Arcade #16-02 049317, Singapore
+
+**Sub-Processor's role:** Leaseweb is Adnuntius' supplier of servers in Asia, and stores data about all users in Asia tracked by any of the tracking mechanisms specified in this document.
+
+**Locations of servers:** Singapore
+
+**Data processing agreement:** [https://www.leaseweb.com/sites/default/files/Legal/LSW\_APAC\_ENG\_v2020.1%20Privacy%20Statement\_0.pdf](https://www.leaseweb.com/sites/default/files/Legal/LSW\_APAC\_ENG\_v2020.1%20Privacy%20Statement\_0.pdf)
+
+### Paypal
+
+**Contact information:** [https://www.paypal.com/va/webapps/mpp/ua/privacy-full#2](https://www.paypal.com/va/webapps/mpp/ua/privacy-full#2)
+
+**Sub-Processor's role:** Our customers who use Adnuntius Self-Service may use a payment service provider to charge self-service advertisers. PayPal is one of the options available.
+
+**Locations of servers:** Please see [PayPal's privacy policy](https://www.paypal.com/va/webapps/mpp/ua/privacy-full).
+
+**Data processing agreement:** [https://www.paypal.com/us/webapps/mpp/ua/data-protection](https://www.paypal.com/us/webapps/mpp/ua/data-protection)
+
+**Basis for processing:**&#x20;
+
+### Pin Payments
+
+**Contact information:** [https://pinpayments.com/dpa](https://pinpayments.com/dpa)
+
+**Sub-Processor's role:** Our customers who use Adnuntius Self-Service may use a payment service provider to charge self-service advertisers. PinPayments is one of the options available.
+
+**Locations of servers:** [https://pinpayments.com/sub-processors](https://pinpayments.com/sub-processors)
+
+**Data processing agreement:** [https://pinpayments.com/dpa](https://pinpayments.com/dpa)
+
+**Basis for processing:**&#x20;
+
+### Cloudflare
+
+**Contact information:** 101 Townsend Street San Francisco, CA 94107, USA; Emily Hancock, Data Protection Officer, legal@cloudflare.com
+
+**Sub-Processor's role:** Cloudflare terminates prebid requests at the edge, decrypts it, and tunnels it to our adservers for a fast ad response.
+
+**Locations of servers:** Worldwide points of presence
+
+**Data processing agreement:** [https://www.cloudflare.com/en-au/cloudflare-customer-dpa/](https://www.cloudflare.com/en-au/cloudflare-customer-dpa/)
+
+**Basis for processing:**&#x20;
+
+### Vultr
+
+**Contact information:** legal@vultr.com&#x20;
+
+**Sub-Processor's role:** Vultr handles all non-prebid traffic at the edge, leaving it encypted, and directs it to the nearest data center for processing.
+
+**Locations of servers:** Frankfurt, Stockholm, Singapore.
+
+**Data processing agreement:** [https://webcache.googleusercontent.com/search?q=cache:gphAOpN2KTMJ:https://www.vultr.com/legal/vultr\_gdpr\_dpa.pdf+\&cd=2\&hl=en\&ct=clnk\&gl=au](https://webcache.googleusercontent.com/search?q=cache:gphAOpN2KTMJ:https://www.vultr.com/legal/vultr\_gdpr\_dpa.pdf+\&cd=2\&hl=en\&ct=clnk\&gl=au)
+
+**Basis for processing:**&#x20;
+
+### CDN77
+
+**Contact information:** DataCamp Limited, 207 Regent Street, London, UK; compliance@cdn77.com
+
+**Sub-Processor's role:** CDN77 stores creative assets for fast worldwide ad delivery. CDN77 does not handle any data subject information and is as such not subject to privacy legislation.
+
+**Locations of servers:** Worldwide points of presence.
+
+**Data processing agreement:** [https://client.cdn77.com/files/cdn77-gdpr-dpa.pdf](https://client.cdn77.com/files/cdn77-gdpr-dpa.pdf)
+
+**Basis for processing:**&#x20;
