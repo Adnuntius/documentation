@@ -212,7 +212,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing](https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing)
 
-**Basis for processing:**&#x20;
+**Basis for transfer:** EU standard clauses.
 
 ### Digital Envoy
 
@@ -224,8 +224,6 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** No data is sent to nor processed by the supplier.
 
-**Basis for processing:**&#x20;
-
 ### 51 Degrees
 
 **Contact information:** [https://51degrees.com/about-us](https://51degrees.com/about-us)
@@ -235,8 +233,6 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 **Locations of servers:** Germany and Finland.
 
 **Data processing agreement:** No data is sent to nor processed by the supplier.
-
-&#x20;**Basis for processing:**&#x20;
 
 ### Amazon Web Services
 
@@ -248,7 +244,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf](https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf)
 
-&#x20;**Basis for processing:**&#x20;
+&#x20;**Basis for transfer:** EU standard clauses.
 
 ### Adnuntius Australia PTY LTD
 
@@ -260,7 +256,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://drive.google.com/file/d/1e3V4odfkl2Syc1bngFZddjBQJ7lMCXj8/view?usp=sharing](https://drive.google.com/file/d/1e3V4odfkl2Syc1bngFZddjBQJ7lMCXj8/view?usp=sharing)
 
-**Basis for processing:**&#x20;
+**Basis for transfer:** EU standard clauses.
 
 ### Leaseweb Asia Pacific
 
@@ -282,7 +278,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://www.paypal.com/us/webapps/mpp/ua/data-protection](https://www.paypal.com/us/webapps/mpp/ua/data-protection)
 
-**Basis for processing:**&#x20;
+**Basis for transfer:** EU standard clauses.
 
 ### Pin Payments
 
@@ -294,7 +290,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://pinpayments.com/dpa](https://pinpayments.com/dpa)
 
-**Basis for processing:**&#x20;
+**Basis for transfer:** EU standard clauses.
 
 ### Cloudflare
 
@@ -306,7 +302,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://www.cloudflare.com/en-au/cloudflare-customer-dpa/](https://www.cloudflare.com/en-au/cloudflare-customer-dpa/)
 
-**Basis for processing:**&#x20;
+**Basis for transfer:** EU standard clauses.
 
 ### Vultr
 
@@ -318,8 +314,6 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://webcache.googleusercontent.com/search?q=cache:gphAOpN2KTMJ:https://www.vultr.com/legal/vultr\_gdpr\_dpa.pdf+\&cd=2\&hl=en\&ct=clnk\&gl=au](https://webcache.googleusercontent.com/search?q=cache:gphAOpN2KTMJ:https://www.vultr.com/legal/vultr\_gdpr\_dpa.pdf+\&cd=2\&hl=en\&ct=clnk\&gl=au)
 
-**Basis for processing:**&#x20;
-
 ### CDN77
 
 **Contact information:** DataCamp Limited, 207 Regent Street, London, UK; compliance@cdn77.com
@@ -330,4 +324,6 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://client.cdn77.com/files/cdn77-gdpr-dpa.pdf](https://client.cdn77.com/files/cdn77-gdpr-dpa.pdf)
 
-**Basis for processing:**&#x20;
+## **Security Measures**
+
+Please visit [https://adnuntius.com/security-measures](https://adnuntius.com/security-measures). Password is granted on request to support@adnuntius.com.
