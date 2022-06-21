@@ -4,7 +4,7 @@ description: Here you will see details about how we collect and use user data.
 
 # Privacy Details
 
-This page is work in progress; while we are working on it you will find all the information here: [https://docs.google.com/spreadsheets/d/1zXJAlqvrKLZGEIESO4iadutV2g0rr\_1bmKg7IKOfL6s/edit#gid=328667903](https://docs.google.com/spreadsheets/d/1zXJAlqvrKLZGEIESO4iadutV2g0rr\_1bmKg7IKOfL6s/edit#gid=328667903)
+This page is work in progress; while we are working on it you will find all the information here: [https://docs.google.com/spreadsheets/d/1zXJAlqvrKLZGEIESO4iadutV2g0rr\_1bmKg7IKOfL6s/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1zXJAlqvrKLZGEIESO4iadutV2g0rr\_1bmKg7IKOfL6s/edit?usp=sharing)
 
 ## Personal Data Stored in Device Cookies
 
