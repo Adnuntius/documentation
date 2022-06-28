@@ -14,12 +14,11 @@ Adnuntius Advertising lets publishers connect, manage and grow programmatic and 
 * [User interface guide](adnuntius-advertising/admin-ui/)
 * [API documentation](adnuntius-advertising/admin-api/)
 * [Developer's guide: how to request ads](adnuntius-advertising/requesting-ads/)
-* [Onboarding guide](onboarding-guides/adnuntius-adserver.md)
+* [Onboarding guide](onboarding-guides/adnuntius-ad-server/adnuntius-adserver.md)
 
 ## Adnuntius Data
 
-Adnuntius Data lets anyone with online operations unify 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and activate the data in any system. This is the tool for you who want to take control of and act on user information in a responsible way, now that 3rd party cookies are about to disappear. 
+Adnuntius Data lets anyone with online operations unify 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and activate the data in any system. This is the tool for you who want to take control of and act on user information in a responsible way, now that 3rd party cookies are about to disappear.
 
 * [User interface guide](adnuntius-data/user-interface-guide/)
 * [Developer's guide: how to send data.](adnuntius-data/api-documentation/)
-
