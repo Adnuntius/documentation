@@ -138,6 +138,7 @@
 ## Onboarding Guides
 
 * [Adnuntius Ad Server](onboarding-guides/adnuntius-adserver.md)
+* [Ad Server for Agencies](onboarding-guides/ad-server-for-agencies.md)
 * [Adnuntius Marketplace](onboarding-guides/adnuntius-buying-network/README.md)
   * [For Network Owners](onboarding-guides/adnuntius-buying-network/abn-for-network-owners.md)
   * [For Buyers](onboarding-guides/adnuntius-buying-network/abn-for-buyers.md)

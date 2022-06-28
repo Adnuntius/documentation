@@ -10,7 +10,7 @@ description: >-
 
 When creating a [creative](../advertising/creatives.md), you will always choose a layout, and your layout will be come visible when you have saved your layout.
 
-![Layout example](<../../../.gitbook/assets/201811-reports-admin-layouts (1).png>)
+![Layout example](<../../../.gitbook/assets/201811-reports-admin-layouts (1) (1).png>)
 
 **Name, description, category and labels**: Give the layout a name and description (optional) of your choice. Categories allow you to group layouts with similar traits so that they are easier to find when later booking a line item and creating a creative.
 
