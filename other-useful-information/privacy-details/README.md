@@ -139,46 +139,13 @@ The following description is an example to support better understanding of how C
 
 Adnuntius offers its customers to transfer raw data to its own databases. If customers choose to do so, then Adnuntius will hold on to user data for 24 hours before it is permanently deleted from our servers. Customers will in that time period have the opportunity to access the database and transfer the data to their own servers.
 
-* User agent strings as explained below are Recorded if Network Config is set to "No Consent Required". They are not recorded if Network Config is set to "Consent Required".
+To see what data is recorded, [please see this page](../adserver-logs.md). Some rules apply to these data:
+
+* User agent strings are Recorded if Network Config is set to "No Consent Required". They are not recorded if Network Config is set to "Consent Required".
 * Latitude and longitude are recorded only if consent is provided.&#x20;
-* Other data is always recorded.&#x20;
+* Other data is always recorded as long as raw data is enabled.&#x20;
 
 **Storage:** All data is stored in Hetzner's data centers (see "Sub-Processors" for more information) in Germany and Finland. Snapshots of Adnuntius data are periodically saved to Amazon Simple Storage Service (AWS S3)'s Frankfurt data center. All data is encrypted with AES prior to leaving the Germany and Finland data centers, is transmitted via a secured channel, and is stored in its encrypted form in a private S3 bucket.
-
-| Data stored and made available                                                             | Example values                                                                                                               |
-| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| Time Of The Event                                                                          | 2019-07-08T22:18:51.766Z                                                                                                     |
-| Referrer Url                                                                               | https://www.adnuntius.com                                                                                                    |
-| User Agent String                                                                          | Mozilla/5.0 (Linux; Android 6.0.1; SM-N910C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36 |
-| Behavioral Segment From Any Data Fed To Adnuntius From Third Party Data Sources            | Interested in reading about cars                                                                                             |
-| Key Values (Custom Data Points Sent To Adnuntius By Our Customer With A Request For An Ad) | cars, business, finance                                                                                                      |
-| Site                                                                                       | [adnuntius.com](http://adnuntius.com/)                                                                                       |
-| Keywords (Words From Article Texts That Users Are Reading)                                 | audi, sedan, luxury car                                                                                                      |
-| Pageclass (Frontpage Or Article)                                                           | article                                                                                                                      |
-| Language Of The Site                                                                       | en                                                                                                                           |
-| Ad Units                                                                                   | 52e2e0ca-f63e-4147-ad10-078fb30407e3, "Adnuntius example ad unit"                                                            |
-| Line Items (Campaigns)                                                                     | p1xcxcf5p0366tdb, "Adnuntius example campaign"                                                                               |
-| Creatives                                                                                  | 53cf9jggyn7fh513, "Adnuntius example creative 1000x300"                                                                      |
-| Advertisers                                                                                | tdshgfv5h6q827hx, "Coco Cola"                                                                                                |
-| Iab Category                                                                               | food and drink                                                                                                               |
-| Currency And Cost Of Impression                                                            | "USD", 0.05                                                                                                                  |
-| Device: Hardware Vendor                                                                    | Samsung                                                                                                                      |
-| Device: Hardware Name                                                                      | Galaxy Note 4                                                                                                                |
-| Device: Platform Vendor                                                                    | Google                                                                                                                       |
-| Device: Hardware Model                                                                     | SM-N910C                                                                                                                     |
-| Device: Browser Version                                                                    | NA                                                                                                                           |
-| Device: Hardware Family                                                                    | Galaxy Note 4                                                                                                                |
-| Device: Platform Version                                                                   | 6.0.1                                                                                                                        |
-| Device: Browser Name                                                                       | Chrome Mobile                                                                                                                |
-| Device: Platform Name                                                                      | Android                                                                                                                      |
-| Device: Browser Vendor                                                                     | Google                                                                                                                       |
-| User location: Postcode                                                                    | 78539                                                                                                                        |
-| User location: Country                                                                     | United States                                                                                                                |
-| User location: Continent                                                                   | North America                                                                                                                |
-| User location: Region                                                                      | Texas                                                                                                                        |
-| User location: City                                                                        | Edinburg                                                                                                                     |
-| User location: Latitude                                                                    | 26,30417                                                                                                                     |
-| User location: Longitude                                                                   | −98,1639                                                                                                                     |
 
 ## Login and Changes
 
