@@ -10,7 +10,7 @@ description: >-
 
 **1.1 The “gdpr” ad tag parameter.**
 
-The Adnuntius ad tag can include a [GDPR parameter](../../adnuntius-advertising/requesting-ads/intro/adn-request#gdpr), which can be set to one of the following:
+The Adnuntius ad tag can include a [GDPR parameter](../../adnuntius-advertising/requesting-ads/intro/adn-request.md#gdpr), which can be set to one of the following:
 
 * `gdpr: 1`, which means that GDPR does apply
 * `gdpr: 0`, which means that GDPR does NOT apply
