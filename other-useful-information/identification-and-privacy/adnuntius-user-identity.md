@@ -8,6 +8,10 @@ description: >-
 
 User identification is an important part of advertising, and conscious usage of methods is important not least because of privacy legislation and concerns. This page describes the methods that can be used to either avoid user identification altogether (applies with cookieless ad serving), or to identify them with various data. Here are the methods we support.
 
+{% hint style="info" %}
+The list below only lists the consent required to create the user identifier. Further consent may be required to use that data, e.g. to select personalised advertisements.
+{% endhint %}
+
 ### **1 External User Identifier**
 
 **What it is:** An external user identifier can be supplied with the ad request. This will always take precedence over any other user identification method.
@@ -55,3 +59,9 @@ User identification is an important part of advertising, and conscious usage of 
 **Used for:** Frequency capping and unique user counts.
 
 **More information:** Work in progress, coming soon.
+
+### 5 CRM Matching (Segment Sharing)
+
+Adnuntius also offers CRM matching through Adnuntius Data, though it is not part of ad serving. If a publisher and an advertiser are sharing data, then they will each use a different user id when communicating with the ad server. The matching is done when looking up segments, and relies upon Adnuntius having a user id generated via one of the methods above.
+
+Read more: [https://docs.adnuntius.com/adnuntius-data/segment-sharing](https://docs.adnuntius.com/adnuntius-data/segment-sharing)
