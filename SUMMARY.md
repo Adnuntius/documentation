@@ -153,7 +153,7 @@
 ## Other Useful Information
 
 * [Identification and Privacy](other-useful-information/identification-and-privacy/README.md)
-  * [Adnuntius User Identity](other-useful-information/identification-and-privacy/adnuntius-user-identity.md)
+  * [User Identification](other-useful-information/identification-and-privacy/user-identification.md)
   * [Consent Processing (TCF2)](other-useful-information/identification-and-privacy/consent-processing-tcf2.md)
   * [Data Collection and Usage](other-useful-information/privacy-details/README.md)
   * [Am I Being Tracked?](other-useful-information/am-i-being-tracked.md)

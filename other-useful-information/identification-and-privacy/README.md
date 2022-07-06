@@ -8,8 +8,8 @@ description: >-
 
 Adnuntius supports multiple methods of identifying users, both with and without 3rd party cookies. Here you will find an overview that explains how:
 
-{% content-ref url="adnuntius-user-identity.md" %}
-[adnuntius-user-identity.md](adnuntius-user-identity.md)
+{% content-ref url="user-identification.md" %}
+[user-identification.md](user-identification.md)
 {% endcontent-ref %}
 
 This page describes how Adnuntius as a TCF2 certified vendor processes consent:
