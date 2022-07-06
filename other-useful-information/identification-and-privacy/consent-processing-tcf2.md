@@ -10,7 +10,7 @@ description: >-
 
 **1.1 The “gdpr” ad tag parameter.**
 
-The Adnuntius ad tag can include a [adnuntius-advertising/requesting-ads/intro/adn-request#gdpr](GDPR parameter), which can be set to one of the following:
+The Adnuntius ad tag can include a [GDPR parameter](adnuntius-advertising/requesting-ads/intro/adn-request#gdpr), which can be set to one of the following:
 
 * `gdpr: 1`, which means that GDPR does apply
 * `gdpr: 0`, which means that GDPR does NOT apply
@@ -19,7 +19,7 @@ If this flag is present, then it takes precedence over all other checks describe
 
 **1.2 The network setting.**
 
-Each network has a flag to indicate if user consent is required to use data. Network Administrators can control this setting under https://admin.adnuntius.com/admin/network (please see “Consent to Use Personal Data”).
+Each network has a flag to indicate if user consent is required to use data. Network Administrators can enable or disable this flag on the [Network Settings](https://admin.adnuntius.com/admin/network) page in the admin user interface (please see “Consent to Use Personal Data”).
 
 If the network does NOT require consent, then no further checks are necessary.
 
