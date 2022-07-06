@@ -161,6 +161,7 @@
 * [Firewall Access](other-useful-information/firewall-access.md)
 * [Ad Server Logs](other-useful-information/adserver-logs.md)
 * [Identification and Privacy](other-useful-information/identification-and-privacy/README.md)
-  * [Data Collection and Usage](other-useful-information/privacy-details/README.md)
   * [Adnuntius User Identity](other-useful-information/identification-and-privacy/adnuntius-user-identity.md)
+  * [Consent Processing (TCF2)](other-useful-information/identification-and-privacy/consent-processing-tcf2.md)
+  * [Data Collection and Usage](other-useful-information/privacy-details/README.md)
   * [Am I Being Tracked?](other-useful-information/am-i-being-tracked.md)

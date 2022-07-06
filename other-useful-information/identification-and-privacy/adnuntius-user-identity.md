@@ -12,7 +12,7 @@ User identification is an important part of advertising, and conscious usage of 
 The list below only lists the consent required to create the user identifier. Further consent may be required to use that data, e.g. to select personalised advertisements.
 {% endhint %}
 
-### **1 External User Identifier**
+## **1 External User Identifier**
 
 **What it is:** An external user identifier can be supplied with the ad request. This will always take precedence over any other user identification method.
 
@@ -24,7 +24,7 @@ The list below only lists the consent required to create the user identifier. Fu
 
 **More information:** [https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request#userid ](https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request#userid)
 
-### 2 Third Party Cookies
+## 2 Third Party Cookies
 
 **What it is:** Third-party cookies are used to tag and identify users across different publisher domains. Note: third party cookies can be blocked by browser privacy settings, and this is increasingly the default setting in many popular browsers such as Firefox and Safari.
 
@@ -36,7 +36,7 @@ The list below only lists the consent required to create the user identifier. Fu
 
 **More information:** [https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies ](https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies)
 
-### 3 Web Storage
+## 3 Web Storage
 
 **What it is:** Web storage is used to tag and identify users on the same publisher domain.
 
@@ -48,7 +48,7 @@ The list below only lists the consent required to create the user identifier. Fu
 
 **More information:** [https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies ](https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies)
 
-### 4 Fingerprinting
+## 4 Fingerprinting
 
 **What it is:** A user “fingerprint” can be generated using identifying information that the browser automatically includes with every ad request, such as the IP address and user agent string. This fingerprint is very effective at distinguishing between requests coming from different locations and devices, but can also provide reasonable accuracy for matching requests from the same user.
 
@@ -60,7 +60,7 @@ The list below only lists the consent required to create the user identifier. Fu
 
 **More information:** Work in progress, coming soon.
 
-### 5 CRM Matching (Segment Sharing)
+## 5 CRM Matching (Segment Sharing)
 
 Adnuntius also offers CRM matching through Adnuntius Data, though it is not part of ad serving. If a publisher and an advertiser are sharing data, then they will each use a different user id when communicating with the ad server. The matching is done when looking up segments, and relies upon Adnuntius having a user id generated via one of the methods above.
 
