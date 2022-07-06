@@ -80,7 +80,7 @@ Without this consent from the user, or if a legitimate interest is not establish
 
 Note: requests without this consent will be recorded in stats as “immeasurable”. This means that viewability and visibility percentages can still be estimated, as they will be based only upon ad requests from users that have provided the required consent.
 
-**3.9 Clicks, Conversions and Custom Events.** This feature requires consent to measure ad performance (purpose 7).
+**3.9 Conversions and Custom Events.** This feature requires consent to measure ad performance (purpose 7).
 
 Without this consent from the user, or if a legitimate interest is not established, Adnuntius is not able to measure how ads were delivered to and interacted with by the user.
 
@@ -97,17 +97,18 @@ Without this consent from the user, click and impression data cannot be used wit
 Without any consent, Adnuntius can still provide very basic ad serving and measurement. The following targeting is allowed:
 
 * Ad Unit
-* Ad Unit Matching Label&#x20;
-* Site&#x20;
-* Site Group&#x20;
-* Day Part&#x20;
-* Date&#x20;
-* Ad Unit&#x20;
-* Viewability&#x20;
-* Domain Name&#x20;
+* Ad Unit Matching Label
+* Site
+* Site Group
+* Day Part
+* Date
+* Ad Unit
+* Viewability
+* Domain Name
 * Key Value
 
 The following ad measurement is allowed:
 
-* Impressions&#x20;
+* Impressions
 * Rendered Impressions
+* Clicks
