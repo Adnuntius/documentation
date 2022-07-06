@@ -1,6 +1,6 @@
 ---
 description: >-
-  This page describes how Adnuntius as a TCF2 certified vendor processes
+  This page describes how Adnuntius, as a TCF2 certified vendor, processes
   consent.
 ---
 
@@ -10,10 +10,10 @@ description: >-
 
 **1.1 The “gdpr” ad tag parameter.**
 
-The ad tag can include a GDPR parameter, which can be set to one of the following:
+The Adnuntius ad tag can include a [adnuntius-advertising/requesting-ads/intro/adn-request#gdpr](GDPR parameter), which can be set to one of the following:
 
-* “gdpr=1”, which means that GDPR does apply
-* “gdpr=0”, which means that GDPR does NOT apply
+* `gdpr: 1`, which means that GDPR does apply
+* `gdpr: 0`, which means that GDPR does NOT apply
 
 If this flag is present, then it takes precedence over all other checks described in this document.
 
