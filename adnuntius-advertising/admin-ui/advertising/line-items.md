@@ -31,30 +31,35 @@ If your user is the role of a Marketplace Advertiser, then you will see the obje
 
 ![If you're a Marketplace Advertiser you will be asked to choose a product.](../../../.gitbook/assets/mp-products.png)
 
-The line item's **state** shows you certain information about the line item's status.&#x20;
+The line item's **delivery** shows you certain information about the line item's status.&#x20;
 
 * "_Delivering_" means that the line item is live and currently delivering impressions.
-* "_Ready to deliver_" means that no additional information is needed for the line item to deliver, but it has not yet started delivering any impressions (for instance because the start date is in the future).
-
-"_Not deliverable"_ means that no impressions can be delivered, either because something is missing (such as a bid or a valid creative) or because the line item is paused or stopped. _"Ended"_ means that the line item has passed its end date, or that the objectives have been met, causing the line item to stop delivering.
-
-If your line item has the execution state of "Not deliverable" then first check for a yellow warning box on the top of the line item page (see example below). This may give you information about what is missing. You can also try running a diagnostics check, please see further down on this page for more information.
+* "_Ready to deliver_" means that no additional information is needed for the line item to deliver, but it has not yet started delivering any impressions (for instance because the start date is in the future). If your line item remains in this state when it should have started delivering, have a look at these [common reasons](../../../other-useful-information/faq.md#my-line-item-state-is-ready-to-deliver-but-it-wont-start-why). You can also run a diagnostics test by clicking the "diagnostics" tab on the line item.&#x20;
+* "_Not deliverable"_ means that no impressions can be delivered, either because something is missing (such as a bid or a valid creative) or because the line item is paused or stopped. To see what is missing, look for a yellow warning at the top of the line item page. You can also run a diagnostics test by clicking the "diagnostics" tab on the line item.&#x20;
+* _"Ended"_ means that the line item has passed its end date, or that the objectives have been met, causing the line item to stop delivering.
 
 ![Example message given when a line item requires something to be able to deliver.](../../../.gitbook/assets/error-messages.png)
 
-{% hint style="info" %}
-Many customers are confused when they get the message "The line item requires a bid specification". This means that you have to enter a CPM bid to the line item. This bid can be 0, but something has to be added for the line item to deliver.
-{% endhint %}
+The system will also provide the following information:&#x20;
 
-**State** allows you to pause or stop a campaign. "_Approved_" means that the line item will run as soon as the start date is met, all material is added, and everything is ready. "_Paused_" means that the line item won't deliver impressions, but the booked impressions are still taken into consideration when running [reach analyses](reach-analysis.md). "_Stopped_" means that the line item won't deliver impressions, and the booked impressions are cancelled (so the line item will not count into any reach analyses).
+* _"Healthy"_ means that, with the current delivery velocity, the line item will deliver the set objectives by the end date.&#x20;
+* _"Over-delivering: 30%"_ means that, with its current velocity, the line item will overdeliver (in this example by 30%) or stop before its end date. You can change this by setting smoothing to "even" or "frontloaded" to make Adnuntius pace the delivery of impressions. You may also see the message _"heavy smoothing applied"_, which means that Adnuntius has discovered the over-delivery and has taken steps to slow down and pace the delivery.
+* _"Under-delivering: 30%"_ means that, with its current velocity, the line item will underdeliver (in this example by 30%) by the end date. This most commonly occurs when there is insufficient traffic under the current targeting on the line item, and/or when there are many line items competing for the same attention.&#x20;
 
-The two states "Proposed" and "Submitted" are used in self-service advertising where you want to quality approve campaigns before they go live (for instance, to check that they do not contain illegal or offensive content.
+You can change the campaign's **state**.&#x20;
+
+* _"Reserved"_ means that the line item will not deliver any impressions, but its booked traffic will be considered when running [reach analyses](reach-analysis.md).
+* "_Approved_" means that the line item will start delivering impressions as soon as the line item is _ready to deliver_.
+* "_Paused_" means that the line item won't deliver impressions, but the booked impressions are still taken into consideration when running reach analyses.&#x20;
+* "_Stopped_" means that the line item won't deliver impressions, and the booked impressions are cancelled (so the line item will not count into any reach analyses).
+
+The two states "Proposed" and "Submitted" are used in self-service advertising where you want to quality approve campaigns before they go live (for instance, to check that they do not contain illegal or offensive content).
 
 {% hint style="info" %}
 If you are interested in self-service advertising, reach out to us anytime at [support@adnuntius.com](mailto:support@adnuntius.com) and we will help you out.
 {% endhint %}
 
-**Objectives** allow you to specify the goal of the campaign. You can choose one or multiple objectives. If you choose multiple objectives, then the line item will stop delivering impressions as soon as it reaches _one of its objectives_. Here are the objectives you can choose between:
+**Objectives** allow you to specify the goal of the campaign. You can choose one or multiple objectives. If you choose multiple objectives, then the line item will stop delivering impressions as soon as it reaches _one of its objectives_. Here are the objectives you may choose between:
 
 * Impressions: Counted whenever an ad from the line item has been delivered by our adserver.
 * Clicks: Counted whenever a user clicks on an ad.
@@ -65,13 +70,13 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 
 **Type** lets you choose between Auction and Sponsorship. "_Auction_" means that the line item will compete with other line items based on your line item's bid (CPM, CPC or CPA). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable [smoothing](smoothing.md), which means that (when enabled) the line item's impressions will be delivered evenly throughout the campaign period.
 
-_"Sponsorshop"_ means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item (so, if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad.
+_"Sponsorshop"_ means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item (if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad.
 
 {% hint style="info" %}
 When specifying a share of voice, take into consideration the [tier](../admin/tiers.md) into which your line item is booked. If a tier is allowed to consume 50% of traffic and is the second highest prioritized tier, then consider that a line item with share of voice 25% then these rules will apply: (1) your line item will only get as much traffic as is passed on from the highest tier; and (2) your line item will receive 25% of the 50% of traffic that your tier has been assigned with. So your line item will get 25% x 50%x (100% - what is consumed by higher prioritized tiers).
 {% endhint %}
 
-**Smoothing** lets you control the pacing of ad delivery. See the [smoothing](smoothing.md) page for more detail.
+**Smoothing** lets you control the pacing of ad delivery. You can choose between "ASAP", "Even" and "Frontloaded". See the [smoothing](smoothing.md) page for more detail.
 
 **Rate limits** lets you limit the delivery of a line item. if you choose to add more than one rate limit, then both limits will be added to the line item, essentially adding two restrictions on top of each other.
 
@@ -80,19 +85,24 @@ When specifying a share of voice, take into consideration the [tier](../admin/ti
 * _Type_ lets you choose if that number should be impressions, visible impressions, viewable impressions, rendered impressions, or clicks.
 * _Period_ lets you choose whether the X number of impressions or clicks should be per hour, day, week, month or for the line item's lifetime.
 
-**Targeting** lets you direct the line item's impressions to specific users or content. Any of the targeting criteria below can be added to both line items and creatives. Just make sure that when you use targeting on both these levels, that they are not mutually exclusive. For instance, if you target a line item to people sitting in New York, and one of its creatives to people sitting in Miami, then you reach no people with that creative (because no one can be in two places at the same time).
+**Targeting** lets you direct the line item's impressions to specific users or content. There are many targeting criteria you can choose between, so [we have set aside a different page for this](targeting.md). You can apply this targeting to both line items and creatives. Just make sure that when you use targeting on both these levels, that they are not mutually exclusive. For instance, if you target a line item to people sitting in New York, and one of its creatives to people sitting in Miami, then you reach no people with that creative (because no one can be in two places at the same time).
 
 {% hint style="info" %}
-Please note that you do not have to add targeting to both line items and creatives, unless you need to.
+Please note that you do not have to add targeting to both line items and creatives, unless you need to further narrow the reach of a creative from the targeting applied to the parent line item.
 {% endhint %}
 
 When you target multiple items in the same group (for instance, multiple ad units) your ads will be eligible to be shown in item 1, item 2, OR item N. When you target multiple groups (for instance, one ad unit and one segment) then your ads will only be shown when group 1 AND group 2 matches.
 
-There are many targeting criteria you can choose between, so [we have set aside a different page for this](targeting.md).
+You can upload **creatives** to the line item, or copy creatives from other line items. To learn more about creatives, [see the creatives documentation page](creatives.md).&#x20;
 
-**Tiers** allow you to prioritize this line item above or below other line items. If more than one line item exists within one tier, then those line items will compete for attention according to the type set above. If you have set the type to "auction" then the line items will compete on eCPM pricing, while if you set the type to "sponsorship" then the share of voice is set by the percentage. To create and re-arrange tiers, please see [tiers](../admin/tiers.md).
+**Tiers** let you prioritize this line item above or below other line items. If more than one line item exists within one tier, then those line items will compete for attention according to the _Type_ set above. If you have set the type to "auction" then the line items will compete on eCPM pricing, while if you set the type to "sponsorship" then the share of voice is set by the percentage. To create and re-arrange tiers, please see [tiers](../admin/tiers.md).
 
-**Companion creatives** let you determine if each creative should be delivered individually, or if they should be served at the same time. This enables you to create for instance so-called "horse shoe ads", where two skyscrapers and a top banner are always shown at the same time, or not at all.
+**Companion creatives** let you determine if each creative should be delivered individually, or if they should be served at the same time. This enables you to create for instance so-called "horse shoe ads", where two skyscrapers and a top banner are always shown at the same time, or not at all. You can choose between the following settings:&#x20;
+
+* Off: Each creative will be delivered individually.
+* Any: At least one creative, possibly more or all, will be shown at the same time across multiple ad units that match this line item.
+* Multiple: At least two creatives, possibly more or all, will be shown at the same time across multiple ad units that match this line item.
+* All: Each creative is shown at the same time across multiple ad units or not at all.
 
 **Creative delivery** allows you to determine whether creatives can be served multiple times on the same page, or if restrictions should apply. "Open" means that the same creative can be delivered multiple times one the same page. "Unique" means that no same creative from this line item can be delivered one the same page. And "one per line item" means that maximum one creative from this line item can be delivered one the same page.
 
