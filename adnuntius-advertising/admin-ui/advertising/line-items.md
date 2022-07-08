@@ -156,54 +156,16 @@ The traffic tab shows you the delivery of impressions, clicks, viewables and vis
 
 The location tab gives you the traffic to the line item broken down by country.
 
-
+![Location stats from a line item](<../../../.gitbook/assets/202207 Location Stats from LI Page.png>)
 
 ### Reach
 
+Reach is an analysis you can run to forecast the volume of matching traffic for a line item. A reach analysis estimates the total number of available impressions, clicks, viewable impressions and more that match your targeting criteria. Please see [Reach Analysis](reach-analysis.md) for more information on how to read the results.
 
+![](<../../../.gitbook/assets/202207 Diagnostics from LI Page (1).png>)
 
 ### Diagnostics
 
-
-
-
-
-****
-
-{% tabs %}
-{% tab title="Line Item" %}
-Provides you with insights into the line item's delivery. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file. In the user interface you can also see a breakdown of each creative, and each ad unit added to the line item.
-
-![Example line item chart](../../../.gitbook/assets/201811-advertising-line-item-line-item-chart.png)
-{% endtab %}
-
-{% tab title="Creatives" %}
-Provides you with insights into the delivery of the line item's creatives. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file. You can also do the same to each creative that is part of the line item.
-
-![Example creative chart](../../../.gitbook/assets/201811-advertising-line-item-creatives-chart.png)
-{% endtab %}
-
-{% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
-
-The report tab also gives you the audit history of the line item. This means that you can see the changes made to the line item, when they were made, and who made them.
-
-![Example report scheduler](../../../.gitbook/assets/201811-advertising-line-item-report-scheduler.png)
-{% endtab %}
-
-{% tab title="Traffic" %}
-The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this line item has delivered.
-
-![](../../../.gitbook/assets/202003-orders-traffic.png)
-{% endtab %}
-
-{% tab title="Reach" %}
-Reach is an analysis you can run to forecast the volume of matching traffic for a line item. A reach analysis estimates the total number of available impressions, clicks, viewable impressions and more that match your targeting criteria. Please see [Reach Analysis](reach-analysis.md) for more information on how to read the results.
-
-![Example reach analyis result for a line item.](../../../.gitbook/assets/line-item-reach.png)
-{% endtab %}
-
-{% tab title="Diagnostics" %}
 If you experience something wrong with the line item (for instance, it doesn't start delivering as expected), diagnostics is a great way to give you more insight into what might be going on. Before we explain the results you get from clicking "Run diagnostics test", let's explain what "Burn rates" tells you.
 
 A burn rate below 100% means that Adnuntius is slowing down your line item's delivery to avoid delivering its objectives well before its end date. If you have [smoothing](smoothing.md) enabled for your line item, and the line item is slightly overdelivering, then the system may slow down the burn rate to get the delivery back on track.
@@ -233,5 +195,5 @@ You can also run [diagnostics for ad units](../inventory/adunits-1.md) if you wo
 {% hint style="info" %}
 You can also add ?adndebug123 at the end of any URL (example: [www.aperitif.no?adndebug123](https://www.aperitif.no/?adndebug123)) to show you all ad units, line items, creatives, targeting and more information in the context of a webpage.
 {% endhint %}
-{% endtab %}
-{% endtabs %}
+
+![Example diagnostics page on a line item](<../../../.gitbook/assets/202207 Diagnostics from LI Page.png>)
