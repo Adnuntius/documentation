@@ -108,6 +108,12 @@ You can upload **creatives** to the line item, or copy creatives from other line
 
 **Creative weighting** lets you control whether the creatives uploaded to your line item should be shown with equal frequency ("Equal"), or if the creatives that receive more clicks should be shown more frequently. Adnuntius measures the clickrate of each creative, and if one creative provides better clickrate then the system will show more of that creative and less of the others. This weighting will however not affect any objectives you set; if you for instance set a line item to deliver 1,000,000 impressions, this weighting does not put that objective into risk.
 
+CPM cost calculation lets you determine if the line item should define CPM based on impressions or rendered impressions. The following choices are available:
+
+* Use [the network's default method](../admin/network.md) of calculating CPM advertising costs.
+* By impressions: Calculate advertising costs as CPM × impressions ÷ 1000.
+* By rendered impressions: Calculate advertising costs as CPM × rendered impressions ÷ 1000.
+
 **Exclusion labels** allow you to ensure that defined line items cannot be delivered on the same page. This can be useful if you for instance have two car dealers that do not want to be shown together. In this case you can add the label "car-dealer" to both line items, which means that these two line items will never be shown on the same page.
 
 {% hint style="info" %}
@@ -116,7 +122,53 @@ Please note that in order for companion creatives, creative delivery and exclusi
 
 **Labels** let you add labels to a line item to make it easier to search for, and to group line items together in reporting. To learn more about reports, please see the [reports section](../reports/).
 
-**Overview, charts and reports**: On the right side of an order page you will find multiple tabs that each has its function.
+## When a Line Item is Created
+
+When a Line Item is created you will be able to see the following tabs.
+
+### Line Item
+
+The line item tab shows you how the line item is delivering. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel or CSV file. In the user interface you can also see a breakdown of each creative, and each ad unit added to the line item.
+
+![Example line item statistics](<../../../.gitbook/assets/202207 LI Stats from LI Page.png>)
+
+### Creatives
+
+The creaties tab shows you how each of the line item's creatives delivers. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file. You can also do the same to each creative that is part of the line item.
+
+![Example creative stats on a line item page](<../../../.gitbook/assets/202207 Creative Stats from LI Page.png>)
+
+### Reports
+
+The Reports tab lets you create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to email recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
+
+The report tab also gives you the audit history of the line item. This means that you can see the changes made to the line item, when they were made, and who made them.
+
+![Create scheduled reports from a line item](<../../../.gitbook/assets/202207 Reports from LI Page (1).png>)
+
+### Traffic
+
+The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions across the line items belonging to this line item.
+
+![Traffic example from a line item](<../../../.gitbook/assets/202207 Traffic from LI Page.png>)
+
+### Location
+
+The location tab gives you the traffic to the line item broken down by country.
+
+
+
+### Reach
+
+
+
+### Diagnostics
+
+
+
+
+
+****
 
 {% tabs %}
 {% tab title="Line Item" %}
