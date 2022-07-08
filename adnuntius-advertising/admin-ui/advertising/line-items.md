@@ -2,7 +2,7 @@
 description: >-
   A line item determines start and end dates, delivery objectives (impressions,
   clicks or conversions), pricing, targeting, creative delivery and
-  prioritization. Here's how you create one.
+  prioritization.
 ---
 
 # Line Items
@@ -11,26 +11,32 @@ description: >-
 How to create a line item.
 {% endembed %}
 
-**Name:** Add a name of your choice. Please note that it is always better to use spacing between words rather than underscores, as this makes items easier to find via search.
+A Line Item belongs to an Order, and can contain multiple Creatives as its children. To understand the organization of advertising objects, [see here](./).
+
+## Creating a Line Item
+
+To create a line item, [go to line items under the advertising section](https://admin.adnuntius.com/line-items), and then click "new" in the upper right corner. First, give your line item a **name** of your choice.
 
 {% hint style="info" %}
-Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you.
+Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you. For any questions or requests, please contact us at support@adnuntius.com.
 {% endhint %}
 
-**Start and end dates**: When creating a line item you can specify when you want your campaign to go live. You can also specify an end date, or you can leave this field blank (in which case the campaign will run until you choose to stop it). Please note that if you leave the end date open, [smoothing](smoothing.md) will not work.
+Give the line item a **start and end date and time**. If you choose not to provide an end date the line item will continue delivering until you pause or stop it. Please note that [smoothing ](smoothing.md)will not work if no end date is set.&#x20;
 
-![An example line item](../../../.gitbook/assets/201811-advertising-line-item.png)
+![Example line item](<../../../.gitbook/assets/202207 Line Item.png>)
 
-The **Order** allows you to choose which [order ](orders.md)should be the parent of this line item. 
+In order form a line item to run, it needs to be assigned to an **Order**.&#x20;
 
-If your user is the role of a Marketplace Advertiser, then you will be asked to choose a **product**. Please note that this step does not apply to administrators or other user roles. A [marketplace product](../admin/marketplace-products.md) allows the network owner to package certain layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers. 
+If your user is the role of a Marketplace Advertiser, then you will see the object "**Product**" and you may be asked to choose one. Please note that this step does not apply to administrators or other user roles. A [marketplace product](../admin/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
 
-* A product may state that "2 creative designs available", which in this example means that you can choose between two [layouts ](../admin/layouts.md)when you create your creative material. 
-* A product may say " kr50.00 per thousand impressions", which in this example means that you must bid at least 50kr CPM or higher to be shown.
+![If you're a Marketplace Advertiser you will be asked to choose a product.](../../../.gitbook/assets/mp-products.png)
 
-![If you're a Marketplace Advertiser you will be asked to choose a product. ](../../../.gitbook/assets/mp-products.png)
+The line item's **state** shows you certain information about the line item's status.&#x20;
 
-**Execution** shows the status of the campaign. "_Delivering_" means that the line item is currently delivering impressions. "_Ready to deliver_" means that no additional information is needed for the line item to deliver, but it has not yet started delivering (for instance because the start date is in the future). "_Not deliverable"_ means that no impressions can be delivered, either because something is missing (such as a bid or a valid creative) or because the line item is paused or stopped. _"Ended"_ means that the line item has passed its end date, or that the objectives have been met, causing the line item to stop delivering.
+* "_Delivering_" means that the line item is live and currently delivering impressions.
+* "_Ready to deliver_" means that no additional information is needed for the line item to deliver, but it has not yet started delivering any impressions (for instance because the start date is in the future).
+
+"_Not deliverable"_ means that no impressions can be delivered, either because something is missing (such as a bid or a valid creative) or because the line item is paused or stopped. _"Ended"_ means that the line item has passed its end date, or that the objectives have been met, causing the line item to stop delivering.
 
 If your line item has the execution state of "Not deliverable" then first check for a yellow warning box on the top of the line item page (see example below). This may give you information about what is missing. You can also try running a diagnostics check, please see further down on this page for more information.
 
@@ -51,11 +57,11 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 **Objectives** allow you to specify the goal of the campaign. You can choose one or multiple objectives. If you choose multiple objectives, then the line item will stop delivering impressions as soon as it reaches _one of its objectives_. Here are the objectives you can choose between:
 
 * Impressions: Counted whenever an ad from the line item has been delivered by our adserver.
-* Clicks: Counted whenever a user clicks on an ad. 
+* Clicks: Counted whenever a user clicks on an ad.
 * Visible impressions: Counted whenever an ad has one or more pixels shown in the user's viewport.
-* Viewable impressions: Counted whenever an ad has 50% or more pixels shown in the user's viewport for 1 second or longer. 
-* Rendered impressions: Counted whenever an ad has been rendered onto the page (rendering can be controlled with lazy requesting or lazy loading). 
-* Conversions: Counted whenever a conversion has happened according to how you want to define a conversion (read more below). 
+* Viewable impressions: Counted whenever an ad has 50% or more pixels shown in the user's viewport for 1 second or longer.
+* Rendered impressions: Counted whenever an ad has been rendered onto the page (rendering can be controlled with lazy requesting or lazy loading).
+* Conversions: Counted whenever a conversion has happened according to how you want to define a conversion (read more below).
 
 **Type** lets you choose between Auction and Sponsorship. "_Auction_" means that the line item will compete with other line items based on your line item's bid (CPM, CPC or CPA). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable [smoothing](smoothing.md), which means that (when enabled) the line item's impressions will be delivered evenly throughout the campaign period.
 
@@ -71,8 +77,8 @@ When specifying a share of voice, take into consideration the [tier](../admin/ti
 
 * _Type (line item-wide or per user)_: Per user means that you will limit the number of impressions or clicks per user for whatever period you set. Line item-wide means that you will limit the delivery of the whole line item.
 * _Count_ lets you set the number of impressions or clicks
-* _Type_ lets you choose if that number should be impressions, visible impressions, viewable impressions, rendered impressions, or clicks. 
-* _Period_ lets you choose whether the X number of impressions or clicks should be per hour, day, week, month or for the line item's lifetime. 
+* _Type_ lets you choose if that number should be impressions, visible impressions, viewable impressions, rendered impressions, or clicks.
+* _Period_ lets you choose whether the X number of impressions or clicks should be per hour, day, week, month or for the line item's lifetime.
 
 **Targeting** lets you direct the line item's impressions to specific users or content. Any of the targeting criteria below can be added to both line items and creatives. Just make sure that when you use targeting on both these levels, that they are not mutually exclusive. For instance, if you target a line item to people sitting in New York, and one of its creatives to people sitting in Miami, then you reach no people with that creative (because no one can be in two places at the same time).
 
@@ -95,7 +101,7 @@ There are many targeting criteria you can choose between, so [we have set aside 
 **Exclusion labels** allow you to ensure that defined line items cannot be delivered on the same page. This can be useful if you for instance have two car dealers that do not want to be shown together. In this case you can add the label "car-dealer" to both line items, which means that these two line items will never be shown on the same page.
 
 {% hint style="info" %}
-Please note that in order for companion creatives, creative delivery and exclusion labels to work, ad units must be deployed to the publisher's page according to the [Multi adn.request Calls](broken-reference) guidelines.
+Please note that in order for companion creatives, creative delivery and exclusion labels to work, ad units must be deployed to the publisher's page according to the [Multi adn.request Calls](broken-reference/) guidelines.
 {% endhint %}
 
 **Labels** let you add labels to a line item to make it easier to search for, and to group line items together in reporting. To learn more about reports, please see the [reports section](../reports/).
@@ -152,9 +158,9 @@ If you click "Run Diagnostics Test", you may get a result that looks something l
 This response can be interpreted as follows:
 
 * If the line item's start date had been in the future or the end date had been in the past, this could have been the reason why the line item didn't deliver any impressions. However, this check tells you that the dates are not the problem.
-* When there is some information missing on a line item (for instance, if there is no creative to serve, or that the line item is paused), then there would be a warning in a yellow box on top of the line item page. This check looks for such a warning, but in this case there is no warning, and there is no information missing from the line item. 
+* When there is some information missing on a line item (for instance, if there is no creative to serve, or that the line item is paused), then there would be a warning in a yellow box on top of the line item page. This check looks for such a warning, but in this case there is no warning, and there is no information missing from the line item.
 * The asset test checks if Adnuntius has successfully been able to find the line item's creative material on our CDN. If you ever see a warning here, try to re-create your creatives, and if that does not work, contact us at support@adnuntius.com.
-* The ad unit test checks if (1) there are ad units with the appropriate width and height that can serve one of the creatives, and (2) that those ad units' parent sites belong to a team that matches the order (remember - an order is always placed on a team which in turn accesses a set of sites; so if the line item targets a totally different set of sites (and therefore ad units), the line item will serve no impressions. 
+* The ad unit test checks if (1) there are ad units with the appropriate width and height that can serve one of the creatives, and (2) that those ad units' parent sites belong to a team that matches the order (remember - an order is always placed on a team which in turn accesses a set of sites; so if the line item targets a totally different set of sites (and therefore ad units), the line item will serve no impressions.
 * The auction test checks if the line item has a chance of winning impressions, considering the competition from other line items. When all things else are equal, it is the eCPM bid of the line items that determines which one will get the impression. If a warning like the above appears, try to either (1) increase the bid of the line item, or (2) decrease the bid of or pause the competing line items.
 * The last test checks if the line item is held back due to [smoothing](smoothing.md). If this warning kicks in then try to turn off smoothing to check if this starts the delivery.
 
