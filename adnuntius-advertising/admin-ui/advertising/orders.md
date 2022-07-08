@@ -1,65 +1,84 @@
 ---
-description: >-
-  An order is a folder for line items, and also determines which team that the
-  campaign should belong to.
+description: An order lets you set targets and rules for multiple line items.
 ---
 
 # Orders
-
-To create a new order, go to [https://admin.adnuntius.com/orders](https://admin.adnuntius.com/orders) and click "New" in the upper right corner.
 
 {% embed url="https://youtu.be/XdSFIeujJKs" %}
 How to create an order.
 {% endembed %}
 
-An order can contain multiple line items. It also determines what team the campaign belongs to, and the set of sites that impressions can be delivered to (see Admin > [Teams](../admin/users-teams-and-roles.md) for more information).
+An Order belongs to an Advertiser, and can contain multiple Line Items as its children. To understand the organization of advertising objects, [see here](./).&#x20;
 
-![An example order](../../../.gitbook/assets/201811-advertising-order.png)
+## Creating an Order
 
-**Name:** Add a name of your choice. Please note that it is always better to use spacing between words rather than underscores, as searching for items later makes the items easier to find.
+To create a new order, [go to Orders under the Advertising section](https://admin.adnuntius.com/orders), and then click "New" in the upper right corner.
 
-**Team:** A team contains a set of sites, and one or more users that have access to perform actions to the order and underlying line items (the actions they can perform depend on users' [roles](../admin/users-teams-and-roles.md). If your user has access to multiple teams you will be able to choose from a dropdown menu, otherwise only the team available to you will appear. [Learn more about teams.](../admin/users-teams-and-roles.md)
+![](<../../../.gitbook/assets/202207 New Order Fields.png>)
 
-**Advertiser:** connects the order to a parent advertiser. Used to keep control of inventory. If you are an advertiser yourself, or don't need this hierarchy, we recommend that you just create one advertiser (yourself), and then connect any order to yourself as an advertiser.
+Start by giving your Order a **name** of your choice.&#x20;
 
-**Salesperson (optional):** if a salesperson is responsible for the order, then you can assign the order to that user. Please note that you have to create a user for that person; [learn how to create a user](../admin/users-teams-and-roles.md). After you've done that, you can create reports showing how much revenue they have earned, their development over time, and more.
+Specify a **team** that this Order should belong to. The team determines which users in Adnuntius will be able to view this Order, while their roles determine if they can make changes to it. [Read more about teams and roles here](../admin/users-teams-and-roles.md).
 
-**Ad ops (optional):** If you have an adops function in your company, then you can add that person to the order. When you have done this you can easily keep overview of who has the responsibility for which orders.
+Specify the **Advertiser** to which this Order should belong.
 
-![Overview of orders, containing among other ad ops users](../../../.gitbook/assets/201811-advertising-order-overview.png)
+If a **salesperson** is responsible for the Order then you can assign it to that user. After you've done that, you can create reports showing how much revenue they have earned, their development over time, and more. You will also find the responsible salesperson for each Order in the Order overview found here: [https://admin.adnuntius.com/orders](https://admin.adnuntius.com/orders)
 
-**Labels** can be added to make reporting work for you. Let's say you add the label "autumn" to a set of orders, and then want to run a report only for this group of orders. You can then run a report which filters on these orders specifically. [Read more about reports.](../reports/advertising-queries.md)
+If you have an **ad ops** function in your company then you can add that person to it. When you have done this you can easily keep overview of who has the responsibility for which orders.
 
-**Overview, charts and reports**: On the right side of an order page you will find multiple tabs that each has its function.
+![Overview of orders, containing among other salespeople and ad ops users](../../../.gitbook/assets/201811-advertising-order-overview.png)
 
-{% tabs %}
-{% tab title="Line Items" %}
-Provides you with an overview of line items created with this order as a parent. Here you can also quickly create a new line item to reserve inventory (means that forecasting will take the line item into account when estimating future available space), and create notes. Notes are text fields that will be viewable by any user that has access to the order.
+**Labels** can be added to structure reporting. Let's say you add the label "September" to a set of Orders, and then want to run a report only for this group of Orders. You can then run a report which filters on these specifically. [Read more about reports.](../reports/advertising-queries.md) Labels will also be visible in the global search results on the top center of the screen.
 
-![](../../../.gitbook/assets/201811-advertising-order-line-item-overview.png)
-{% endtab %}
+**Objectives** can be used to set goals for multiple Line Items collectively. Here are examples on how to use Order objectives, and how Adnuntius will behave.&#x20;
 
-{% tab title="Order Charts" %}
-Provides you with insights into the order's delivery. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
+* If you have an Order with three line items, and set an Order objective of 1,000,000 viewable impressions, then all line items will stop delivering when they collectively have reached 1,000,000 viewable impressions. This can mean that each line item has delivered 333,333 viewables each, or that one line item has delivered all 1,000,000 (rules can be set on each line item to control delivery).&#x20;
+* If you have an Order with three line items, and set Order objectives of 1,000,000 impressions and 1,000 clicks, then all line items will stop delivering when they collectively have reached 1,000,000 viewable impressions OR 1,000 clicks, whatever objective is reached first.&#x20;
+* If you set an Order objective of 1,000,000 impressions and then a line item objective of 800,000 on one of the line items, then that line item will try to deliver 800,000 impressions while the remaining 200,000 is divided across the two other line items.&#x20;
 
-![](../../../.gitbook/assets/201811-advertising-order-charts.png)
-{% endtab %}
+The **objective start and end dates** determine the earliest start date and the latest end date for all line items under the Order. These rules apply:
 
-{% tab title="Line Item Charts" %}
-Provides you with insights into the delivery of line items which are part of this order. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
+* When you set start/end dates on an Order and then create a line item, then the Order start/end dates are applied by default to the line item.&#x20;
+* The Order start/end dates will always take precedence over line item start/end dates. If you on a line item set a start date earlier than that on the Order, and/or an end date later than that on the Order, then the Order start/end dates will take precedence and cap the start/end of the line item.&#x20;
 
-![](../../../.gitbook/assets/201811-advertising-line-item-charts.png)
-{% endtab %}
+The **rate limits** can be applied to limit the number of impressions, viewable impressions or clicks each user will see per hour, day, week, month, or over the lifetime of the Order. For example, if you set an Order rate limit to 3 impressions per day, and one of two line items show 3 impressions, then the remaining line item cannot show any impressions until the next day.&#x20;
 
-{% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
+## When an Order is Created
 
-![](../../../.gitbook/assets/201811-advertising-order-report-scheduler.png)
-{% endtab %}
+When an Order is created you will be able to see the following tabs.
 
-{% tab title="Traffic" %}
-The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions across the line items belonging to this order. 
+### Line Items
 
-![](../../../.gitbook/assets/202003-orders-traffic.png)
-{% endtab %}
-{% endtabs %}
+The line item overview gives you a list of line items created under this Order. Here you can also quickly create a new line item to reserve inventory, and create notes that can be shared with other users with access to the Order.
+
+![Overview of line items belonging to the Order](<../../../.gitbook/assets/202207 Line Item Overview from Order.png>)
+
+### **Order Charts**
+
+Order charts provide you with insights into the Order's delivery. The numbers presented are the aggregated numbers across all line items belonging to that Order. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
+
+![Order chart example](<../../../.gitbook/assets/202207 Order Chart from Order Page.png>)
+
+### **Line Item Charts**
+
+Line item charts give you insights into the delivery of line items which are part of this Order. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
+
+![Example of line item overview from the Order page](<../../../.gitbook/assets/202207 Line Item Overview from Order Page.png>)
+
+### Reports
+
+Reports lets you create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
+
+![Screenshot showing how a scheduled report can be created](<../../../.gitbook/assets/202207 Scheduled Reports from Order Page.png>)
+
+### Traffic
+
+The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions across the line items belonging to this order.
+
+![Traffic stats example from the Order page.](<../../../.gitbook/assets/202207 Traffic Stats from Order Page.png>)
+
+### Location
+
+The location tab gives you the traffic to the Order broken down by country.&#x20;
+
+![Location stats example from an Order](<../../../.gitbook/assets/202207 Location Stats from Order Page.png>)

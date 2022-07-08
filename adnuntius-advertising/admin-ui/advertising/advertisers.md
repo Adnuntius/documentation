@@ -10,13 +10,13 @@ description: >-
 How to create an advertiser.
 {% endembed %}
 
-To create an Advertiser, [go to Advertisers under the Advertising section](https://admin.adnuntius.com/advertisers), and then click "new" in the upper right corner.&#x20;
+An Advertiser is the top item in the Advertising section, and has children Orders belonging to it. To understand the organization of advertising objects, [see here](./). To create an Advertiser, [go to Advertisers under the Advertising section](https://admin.adnuntius.com/advertisers), and then click "new" in the upper right corner.&#x20;
 
 ![The fields available when creating a new Advertiser.](<../../../.gitbook/assets/202207 New Advertiser Fields.png>)
 
 Give your advertiser a **name**, and an optional **description** of your choice.
 
-Specify a **team** that this Advertiser should belong to. The team determines which users in Adnuntius will have access to this Advertiser, while their roles determine if they can view it or make changes to it. [Read more about teams and roles here](../admin/users-teams-and-roles.md).&#x20;
+Specify a **team** that this Advertiser should belong to. The team determines which users in Adnuntius will be able to view this Advertiser, while their roles determine if they can make changes to it. [Read more about teams and roles here](../admin/users-teams-and-roles.md).
 
 The **self-service user account** only applies to customers who use Adnuntius Self-Service. More information on this coming soon.&#x20;
 
