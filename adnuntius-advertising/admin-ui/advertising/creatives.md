@@ -1,8 +1,7 @@
 ---
 description: >-
   Creatives is the material shown to the end user, and can consist of various
-  assets such as images, text, videos and more. Here is how to work with
-  creatives.
+  assets such as images, text, videos and more.
 ---
 
 # Creatives
@@ -21,7 +20,7 @@ How to create a creative.
 <img src="http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp]" border="0" width="1" height="1"/>
 ```
 
-If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp])\[[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim\]\(http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim]\(http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp)])
+If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp])\[[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim\](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim]\(http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp)])
 
 ```http
 http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim
