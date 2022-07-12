@@ -172,25 +172,18 @@ A burn rate below 100% means that Adnuntius is slowing down your line item's del
 
 If you click "Run Diagnostics Test", you may get a result that looks something like this:
 
-> * Line Item dates indicate it should be currently running.
-> * Line Item has no validation warnings.
-> * Located all assets for the Line Item on the CDN.
-> * Team contains Ad Units with suitable dimensions
-> * Line Item loses auctions for the team's site's AdUnits that it fits: check CPM and de-duplication.
-> * Line Item has no limit on delivery rate.
+| Diagnostics example                                                | Explanation                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Line Item dates indicate it should be currently running.           | If the line item's start date had been in the future or the end date had been in the past, this could have been the reason why the line item didn't deliver any impressions. However, this check tells you that the dates are not the problem.                                                                                                          |
+| Line Item has no validation warnings.                              | When there is some information missing on a line item (for instance, if there is no creative to serve, or that the line item is paused), then there would be a warning in a yellow box on top of the line item page. This check looks for such a warning, but in this case there is no warning, and there is no information missing from the line item. |
+| Located all assets for the Line Item on the CDN.                   | The asset test checks if Adnuntius has successfully been able to find the line item's creative material on our CDN. If you ever see a warning here, try to re-create your creatives, and if that does not work, contact us at support@adnuntius.com.                                                                                                    |
+| There are Ad Units with suitable dimensions.                       | The ad unit test checks if there are ad units with the appropriate width and height that can serve one of the creatives.                                                                                                                                                                                                                                |
+| Line item delivery is NOT currently limited by smoothing.          | Smoothing might limit the delivery of a line item if enabled, to ensure that the line item will not meet its objectives before the end date. If your line item is limited by smoothing and you want this to stop, try setting the line item's delivery to "unsmoothed".                                                                                 |
+| There is no frequency capping.                                     | Frequency capping might limit the delivery of a line item if enabled. If your line item is limited by frequency capping and you want this to stop, try removing the frequency cap from your line item.                                                                                                                                                  |
+| The line item has lost about 25% of auctions in the last 24 hours. | If your line item loses auctions you may have to increase its bid price if you want it to win more often. Increasing the win rate may increase your velocity.                                                                                                                                                                                           |
+| The line item did not deliver enough events in the past 24 hours.  | This means that your line item didn't deliver enough impressions, clicks or whatever your objectives are, in order to deliver on all objectives before the end date of your line item. You can change this with one of the actions described above.                                                                                                     |
 
-This response can be interpreted as follows:
-
-* If the line item's start date had been in the future or the end date had been in the past, this could have been the reason why the line item didn't deliver any impressions. However, this check tells you that the dates are not the problem.
-* When there is some information missing on a line item (for instance, if there is no creative to serve, or that the line item is paused), then there would be a warning in a yellow box on top of the line item page. This check looks for such a warning, but in this case there is no warning, and there is no information missing from the line item.
-* The asset test checks if Adnuntius has successfully been able to find the line item's creative material on our CDN. If you ever see a warning here, try to re-create your creatives, and if that does not work, contact us at support@adnuntius.com.
-* The ad unit test checks if (1) there are ad units with the appropriate width and height that can serve one of the creatives, and (2) that those ad units' parent sites belong to a team that matches the order (remember - an order is always placed on a team which in turn accesses a set of sites; so if the line item targets a totally different set of sites (and therefore ad units), the line item will serve no impressions.
-* The auction test checks if the line item has a chance of winning impressions, considering the competition from other line items. When all things else are equal, it is the eCPM bid of the line items that determines which one will get the impression. If a warning like the above appears, try to either (1) increase the bid of the line item, or (2) decrease the bid of or pause the competing line items.
-* The last test checks if the line item is held back due to [smoothing](smoothing.md). If this warning kicks in then try to turn off smoothing to check if this starts the delivery.
-
-{% hint style="info" %}
-You can also run [diagnostics for ad units](../inventory/adunits-1.md) if you wonder what ad would win an auction for a given ad unit.
-{% endhint %}
+If your user has access to the Inventory part of Adnuntius you can also run [diagnostics for ad units](../inventory/adunits-1.md) if you wonder what ad would win an auction for a given ad unit.
 
 {% hint style="info" %}
 You can also add ?adndebug123 at the end of any URL (example: [www.aperitif.no?adndebug123](https://www.aperitif.no/?adndebug123)) to show you all ad units, line items, creatives, targeting and more information in the context of a webpage.
