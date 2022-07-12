@@ -10,9 +10,27 @@ description: >-
 How to create a creative.
 {% endembed %}
 
-**Name and state**: Give the creative a name of your choice. You can also set up rules for how names should be generated automatically under [Network](../admin/network.md). State can be set to _Approved_ (meaning that the creative is ready to run) or _Incomplete_ (meaning that something needs to be changed or added before the creative can run).
+There are different places in Adnuntius from where to create a creative, depending on your needs and preferences. Here are the differences.
 
-![An example creative](../../../.gitbook/assets/201811-advertising-creative.png)
+| From where?              | A line item                                                                                                                 | Creatives overview                                                                                                                    | Library creatives                                                                                                                                                     |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Where to find it?        | On each line item, click “new creative” or “copy another creative” to create a new creative from another existing creative. | On the creatives overview page: [https://admin.adnuntius.com/creatives](https://admin.adnuntius.com/creatives).                       | On the library creatives overview page: [https://admin.adnuntius.com/library-creatives](https://admin.adnuntius.com/library-creatives).                               |
+| Bulk upload available?   | No.                                                                                                                         | Yes.                                                                                                                                  | Yes.                                                                                                                                                                  |
+| Assigned to a line item? | Automatically assigned to the line item from which you clicked to create.                                                   | Optional; can be assigned to a line item when creating, or left without a line item.                                                  | Library creatives are not assigned to line items, only to Teams.                                                                                                      |
+| Who has access?          | Anyone with access to the team that the line item’s order belongs to.                                                       | If assigned to a line item; anyone with access to the team that the line item’s order belongs to. If unassigned; only you personally. | If assigned to a team; anyone with access to that team. If unassigned; only you personally.                                                                           |
+| How are stats recorded?  | Uniquely; if a creative is copied then those two will exist individually and record stats separately.                       | Uniquely; if a creative is copied then those two will exist individually and record stats separately.                                 | No stats are collected to library creatives; but if you copy a library creative to a creative assigned to a line item, then that creative will record stats as usual. |
+
+## Creating a Single Creative
+
+After you have clicked to create a new creative (from the line item, or by clicking "new" in the upper right corner from the creative overview page or library creative overview page), give your creative a **name** of your choice.&#x20;
+
+You can set the **state** of a creative to approved, incomplete or paused.&#x20;
+
+* Approved means that it will start delivering as soon as the necessary assets as described below are added to the creative and the line item is set to deliver.
+* You can set the creative to Incomplete to prevent it from delivering, and to signal to yourself and colleagues that more information or material needs to be added before the creative is approved.
+* You can set the creative to Incomplete to prevent it from delivering, even though all necessary assets and information is added to the creative.&#x20;
+
+![Example creative](<../../../.gitbook/assets/202207 Creative.png>)
 
 **Impression tracking URLs** can be added to ensure that third party systems can track the impressions in the same way as Adnuntius can. Impression tracking URLs are provided by the advertiser or whoever controls the access to that third party system. Please note that some third party systems will deliver an impression tracker as an image tag, such as the one below.
 
@@ -20,13 +38,13 @@ How to create a creative.
 <img src="http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp]" border="0" width="1" height="1"/>
 ```
 
-If this is the case, you can paste in the URL within this pixel. In the example below you can simply use this part.[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp\]](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp])\[[http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim\](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp](http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[tim]\(http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=\[timestamp)])
+If this is the case, you can paste in the URL within this pixel; for example:
 
 ```http
-http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[tim
+http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp]
 ```
 
-**Creative type** can be set to _Internal_ or _External._ Internal is what is mostly used, and means any creative you are designing or uploading yourself. External creatives are relevant to publishers who want programmatic ads on their sites, and means creatives that are fetched from SSPs via prebid or one of our server-side integrations. The tabs below shows how to set up an external creative, while the rest of this section is about creating internal creatives.
+**Creative type** can be set to _Internal_ or _External._ External creatives are relevant only to publishers who want programmatic ads on their sites, and means creatives that are fetched from SSPs via prebid or one of our server-side integrations. The tabs below shows how to set up an external creative, while the rest of this section is about creating internal creatives.
 
 {% tabs %}
 {% tab title="External Demand Source" %}
@@ -42,21 +60,25 @@ If you want to target your programmatic creative to specific ad units, you can u
 {% endtab %}
 {% endtabs %}
 
-**Layout** is where you add the look, feel and behavior of your creative. Adnuntius comes with an out-of-the-box library of layouts like responsive images, interstitials, HTML and more, but you can create any layout to create the perfect match with your website, using elements like media files, text, choices and click URLs. [Learn how to manage layouts](../admin/layouts.md).
+**Layout** specifies the file types and properties, and the types of formats ("look and feel") that you can serve with your campaign. When you select a layout, Adnuntius will tell you what information is needed for the creative. For example, if you choose a layout called "Image" then Adnuntius may ask you for an image file with a max size restriction, and a click URL.&#x20;
 
 {% hint style="info" %}
-When you choose a layout you will see that the "Layout's components" box changes. This is because different layouts may need different information (multiple images, text input, or anything else your heart desires). The system will ask you what it needs to assemble the creative.
+If your user has access to create layouts, [here is how you do it](../admin/layouts.md).
 {% endhint %}
 
 **Uploaded assets** is where you upload the files needed to assemble the creative. You can click to upload, or drag and drop. You can also drag and drop multiple files into the file drop field, and get all files into the creative with one move.
 
-**Share of voice (optional):** if you have more than one creative on your line item, you can control delivery of this creative compared to others in the line item by giving it a percentage. If you give two creatives 50% each, then the line item will ensure that each creative delivers the same number of impressions. If you give three creatives 50% each, then each creative will get 33% of the impressions.
+If you have more than one creative on your line item, you can put a **share of voice** on the creatives to control delivery of this creative compared to others in the line item. If you give one creative 33% and the other 66% then one creative will have double the weight (attention) compared to the other. If you leave the field blank, then no creative will be prioritized more than the other.&#x20;
 
-**Targeting:** You can add targeting to both line items creatives. [Read all about targeting here](targeting.md).
+You can add **targeting** to both line items **** and creatives. To learn about targeting, please [see the targeting documentation](targeting.md).
 
-**Width x Height** means the dimensions of your creative. These dimensions are only used to find out which ad units are eligible to show this creative. An ad unit will always be set up with minimum and maximum width and height, and if an ad unit can only show 980x300 pixels, then a creative with added dimensions 980x150 will not show in this ad unit.
+**Width and Height** means the dimensions of your creative. These dimensions are only used to find out which ad units are eligible to show this creative. An ad unit will always be set up with minimum and maximum width and height, and if an ad unit can only show 980x300 pixels, then a creative with added dimensions 980x150 will not show in this ad unit.
 
-Under width and height you have multiple choices; here are explanations of each.
+## Creative Bulk Uploads
+
+&#x20;Coming soon.
+
+## When a Creative is Created
 
 {% tabs %}
 {% tab title="Creative Preview" %}
