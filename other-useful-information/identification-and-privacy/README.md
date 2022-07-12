@@ -6,7 +6,7 @@ description: >-
 
 # Identification and Privacy
 
-Adnuntius supports multiple methods of identifying users, both with and without 3rd party cookies. Here you will find an overview that explains how:
+Adnuntius supports multiple methods of identifying users, both with and without 3rd party cookies. Here you will find an overview that explains how.
 
 {% content-ref url="user-identification.md" %}
 [user-identification.md](user-identification.md)

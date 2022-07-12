@@ -4,9 +4,11 @@ description: >-
   without 3rd party cookies. Here you will find an overview that explains how.
 ---
 
-# Adnuntius User Identity
+# User Identification
 
-User identification is an important part of advertising, and conscious usage of methods is important not least because of privacy legislation and concerns. This page describes the methods that can be used to either avoid user identification altogether (applies with cookieless ad serving), or to identify them with various data. Here are the methods we support.
+User identification is an important part of advertising, and conscious usage of methods is important not least because of privacy legislation and concerns, but also to provide a better service to ad buyers. Adnuntius delivers a comprehensive set of ID methods to ensure that users can be identified with and without cookies, combined with controls that ensures that you respect user privacy in accordance with legislation.&#x20;
+
+This page describes the methods that can be used to either avoid user identification altogether (applies with cookieless ad serving), or to identify them with various data.
 
 {% hint style="info" %}
 The list below only lists the consent required to create the user identifier. Further consent may be required to use that data, e.g. to select personalised advertisements.
