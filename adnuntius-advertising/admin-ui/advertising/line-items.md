@@ -200,7 +200,9 @@ You can also add ?adndebug123 at the end of any URL (example: [www.aperitif.no?a
 
 ### Diagnostics - Win Rate
 
-Please see the "Auction Win Rate" in the example screen shot above for an example. Auction win rate helps you understand how your line item performs and what are the potential reasons that it doesn't deliver faster. Below is an explanation of each of the values you see in the auction win rate overview and what you can do about it.&#x20;
+Please see the "Auction Win Rate" in the example screen shot above for an example.&#x20;
+
+Have you ever found your campaign to underdeliver according to your targets, without getting immediate help to understand what you can do to increase its velocity? Auction win rate helps you understand how your line item performs and what are the potential reasons that it doesn't deliver faster. Below is an explanation of each of the values you see in the auction win rate overview and what you can do about it.&#x20;
 
 {% hint style="info" %}
 Please note that Adnuntius allows you to change the names of the values under the Network, so you may see different names for certain values.
