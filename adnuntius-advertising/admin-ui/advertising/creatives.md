@@ -76,7 +76,25 @@ You can add **targeting** to both line items **** and creatives. To learn about 
 
 ## Creative Bulk Uploads
 
-&#x20;Coming soon.
+We want to make it easy and fast for our customers to create campaigns. One of the tasks we know can be time consuming is uploading and preparing creative material, which is why we created bulk upload for creatives. Bulk upload makes it easy to drag and drop images, html files and files containing third party tags, to create multiple creatives at the same time.
+
+To upload creatives in bulk go to the creatives page, or the library creatives page, both under the Advertising section in Adnuntius. In the upper right corner, click "bulk upload".
+
+Choose the type of creatives that you want to upload. You can choose between images, third party, and html. Then, click to upload your creatives or drag and drop your creative files in one move into the upload window. Please note that if you have an excel or CSV file with multiple third party creatives, you can drag and drop that file.
+
+![When you click "bulk upload" you come to a page like this, where you also find earlier creatives uploaded in bulk.](<../../../.gitbook/assets/202207 Bulk Upload P1.png>)
+
+You should now arrive at a new page where you can make changes to the creatives as needed.
+
+* Apply a line item if you already have a line item that these creatives should be assigned to. Click "copy to others" if all creatives you are currently managing should be assigned to the same line item. If you do not assign a line item then the creatives will be retrievable from the creative or library creative overview page.
+* You can make any changes to the names of the creatives as you wish.
+* You can change the layout of the creatives, and click "copy to others" to make that change apply to all creatives you are uploading.
+* Assign or check the width and hight of the creative.
+* The remaining fields depend on the layout, and will change depending on the creative you want to create.
+
+When you have clicked to save a creative you can make changes to each creative according to the documentation above.&#x20;
+
+![Manage the details of each creative before saving them.](<../../../.gitbook/assets/202207 Bulk Upload P2.png>)
 
 ## When a Creative is Created
 
