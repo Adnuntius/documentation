@@ -164,7 +164,7 @@ Reach is an analysis you can run to forecast the volume of matching traffic for 
 
 ![](<../../../.gitbook/assets/202207 Diagnostics from LI Page (1).png>)
 
-### Diagnostics
+### Diagnostics - Tests
 
 If you experience something wrong with the line item (for instance, it doesn't start delivering as expected), diagnostics is a great way to give you more insight into what might be going on. Before we explain the results you get from clicking "Run diagnostics test", let's explain what "Burn rates" tells you.
 
@@ -197,3 +197,27 @@ You can also add ?adndebug123 at the end of any URL (example: [www.aperitif.no?a
 {% endhint %}
 
 ![Example diagnostics page on a line item](<../../../.gitbook/assets/202207 Diagnostics from LI Page.png>)
+
+### Diagnostics - Win Rate
+
+Please see the "Auction Win Rate" in the example screen shot above for an example. Auction win rate helps you understand how your line item performs and what are the potential reasons that it doesn't deliver faster. Below is an explanation of each of the values you see in the auction win rate overview and what you can do about it.&#x20;
+
+{% hint style="info" %}
+Please note that Adnuntius allows you to change the names of the values under the Network, so you may see different names for certain values.
+{% endhint %}
+
+* **Win rate (today) - for example 70%.** The percentage of auction bids that your line item won. Taking into account your line item's targeting, creative sizes, bid price, frequency capping and all other factors that limit your delivery, your line item ended up winning 70% of auction bids in this example.
+* **Total matches - for example 10,000.** The number of ad requests that match your targeting and creative sizes. Total matches represents the total available impressions for your line item and is hence the maximum that could possibly be served, given your targeting and creative sizes. If you want this number to be larger you can try to add more creatives with different sizes, or you can remove some targeting.
+* **Excluded by frequency capping - for example 3%.** The share of impressions you avoid because your line item has frequency capping enabled. You can turn off or increase the frequency cap to reduce the percentage. In this example, if you remove the frequency cap then your 10% win rate may grow to 13% because you remove a limiting factor.
+* **Excluded by Rate Limiting - for example 5%.** Adnuntius adds a rate limit if you are meeting your objective(s) and your line item needs to slow down. For example, if you set your line item to deliver evenly throughout the campaign period and you are currently forecasted to overdeliver at the end of the period, then Adnuntius will slow down delivery. In this example your line item is avoids bidding on 5% of the matching requests. If you set the line item's delivery to "unsmoothed" and remove any line-item-wide rate limits then your10% win rate may grow to 15% because you remove limiting factors.
+* **Auction bids - for example 9,200.** Total matches, minus the potential impressions removed by frequency capping and rate limiting. These are the impressions that you can actually win, given your currently configured capping and rate limiting.
+* **Win rate - for example 70%.** The share of auction bids where you win the auction between all line items bidding in Adnuntius. If your win rate is less than 100% then the losses are due to either tiers (priority of the line item), sponsorship or auction price.
+* **Impressions - for example 6,440.** This is the number of impressions you have won.
+* **Rendered impressions - for example 1,932.** The impressions that are actually rendered onto a page. Differences between impressions and rendered impressions can occur for instance if the publisher uses header bidding to let multiple bidders compete for an impression. In this example the rendered impressions are 30% of the impressions, which means that out of the impressions you win in Adnuntius, you win the header bidding auction 30% of the time.
+* **Win rate (yesterday) - for example 8%.** The same as "win rate: today" but for the day before. This number can be useful as a comparison if you are trying to increase your win rate.
+
+### Diagnostics - Rate Limiting
+
+Please see the "Rate Limiting" graph in the example screen shot above for an example. The rate limiting shows you the burn rate of your line item in the past. Adnuntius adds a rate limit if you are meeting your objective(s) and your line item needs to slow down. For example, if you set your line item to deliver evenly throughout the campaign period and you are currently forecasted to overdeliver at the end of the period, then Adnuntius will slow down delivery.
+
+If you're burn rate is less than 100% and you want it to deliver faster, try setting the line item's delivery to "unsmoothed" and/or turn off any rate limits.&#x20;
