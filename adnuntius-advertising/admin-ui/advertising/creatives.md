@@ -98,6 +98,26 @@ When you have clicked to save a creative you can make changes to each creative a
 
 ## When a Creative is Created
 
+### Creative Preview
+
+Creative preview gives you a preview of the creative. Please note that not all layouts will give you a preview (in which case the system will tell you). But if the user interface cannot give you a preview, you can click "preview on a black page" and the creative will render on a blank page, as it will be on a live page.
+
+### Trackers
+
+You can easily generate impression trackers and click trackers so that you can ask third party, so that you can paste the resulting URLs into the appropriate place in third-party systems to have this creative serve as an impression or click tracker. Just choose the ad unit you want to use, and the trackers are automatically created.
+
+### Creative Tag
+
+If your creative is going to be served by a third party system, then you can generate a creative tag that can be pasted into the appropriate place in third-party systems to have this creative serve on third-party ad servers. Just choose the ad unit you want to use, and the tag is automatically created.
+
+### Creative Tag for Emails
+
+You can also create tags for emails if this creative is going to be served inside emails. Just choose the ad unit you want to use, and the tag is automatically created.
+
+Please note that if you want an email tag that can serve ANY creative (not just this specific creative), you can do so under [Ad units](../inventory/adunits-1.md).
+
+
+
 {% tabs %}
 {% tab title="Creative Preview" %}
 **Creative preview** gives you a preview of the creative. Please note that not all layouts will give you a preview (in which case the system will tell you). But if the user interface cannot give you a preview, you can click "preview on a black page" and the creative will render as it will be shown on a page.
