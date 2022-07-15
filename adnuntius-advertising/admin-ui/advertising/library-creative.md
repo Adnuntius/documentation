@@ -6,9 +6,7 @@ description: >-
 
 # Library Creatives
 
-Library Creatives enable the same creative design to be used across multiple line items, all of which are editable via the Library Creative.
-
-An extra bonus is that an individual Creative that is linked to a Library Creative can override specific elements from the Library Creative's design yet still be tied to it.
+Library Creatives enable the same creative design to be used across multiple line items, all of which are editable via the Library Creative. An extra bonus is that an individual Creative that is linked to a Library Creative can override specific elements from the Library Creative's design yet still be tied to it.
 
 ## How to Work with Library Creatives
 

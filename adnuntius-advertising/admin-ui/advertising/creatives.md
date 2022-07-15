@@ -20,6 +20,10 @@ There are different places in Adnuntius from where to create a creative, dependi
 | Who has access?          | Anyone with access to the team that the line item’s order belongs to.                                                       | If assigned to a line item; anyone with access to the team that the line item’s order belongs to. If unassigned; only you personally. | If assigned to a team; anyone with access to that team. If unassigned; only you personally.                                                                           |
 | How are stats recorded?  | Uniquely; if a creative is copied then those two will exist individually and record stats separately.                       | Uniquely; if a creative is copied then those two will exist individually and record stats separately.                                 | No stats are collected to library creatives; but if you copy a library creative to a creative assigned to a line item, then that creative will record stats as usual. |
 
+{% hint style="info" %}
+Read more about library creatives [here](library-creative.md).
+{% endhint %}
+
 ## Creating a Single Creative
 
 After you have clicked to create a new creative (from the line item, or by clicking "new" in the upper right corner from the creative overview page or library creative overview page), give your creative a **name** of your choice.&#x20;
