@@ -50,69 +50,43 @@ Once a site is created you will see the following tabs.
 
 An overview of ad units belonging to the site. From here you can also create new ad units.
 
+![Example overview of ad units assigned to a site.](<../../../.gitbook/assets/202207 Site - Ad Units Overview.png>)
+
 ### Site Charts
 
+Site charts provides you with insights about the site's performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also see the line items that delivered to the site in the period.
 
+![Example site charts.](<../../../.gitbook/assets/202207 Site - Site Charts.png>)
 
 ### Ad Unit Charts
 
+Ad unit charts provides you with insights about the site's ad unit performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also see the line items that delivered to the site, and for each ad unit, in the period.
 
+![Example ad unit charts under a site.](<../../../.gitbook/assets/202207 Site - Ad Unit Charts.png>)
 
 ### Reports
 
+You can create reports based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
 
+![Creating (scheduled) reports for a site.](<../../../.gitbook/assets/202207 Site - Reports.png>)
 
 ### Traffic
 
+The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this site has delivered, per device type, operating system and mobile brand.
 
+![Traffic charts example.](<../../../.gitbook/assets/202207 Site - Traffic.png>)
 
 ### Location
 
+The location tab gives you the traffic to the site broken down by country.&#x20;
 
+![Example location chart under a site.](<../../../.gitbook/assets/202207 Site - Location.png>)
 
 ### Availability
 
-
-
-### Explore
-
-
-
-{% tabs %}
-{% tab title="Ad Units" %}
-An overview of ad units belonging to the site. From here you can also create new ad units.
-
-![Ad unit overview](../../../.gitbook/assets/201811-inventory-site-ad-unit-overview.png)
-{% endtab %}
-
-{% tab title="Site Charts" %}
-Site charts provides you with insights about the site's performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also see the line items that delivered to the site in the period.
-
-![Site charts example](../../../.gitbook/assets/201811-inventory-site-site-charts.png)
-{% endtab %}
-
-{% tab title="Ad Unit Charts" %}
-Ad unit charts provides you with insights about the site's ad unit performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also see the line items that delivered to the site, and for each ad unit, in the period.
-
-![Ad unit chart example](../../../.gitbook/assets/201811-inventory-site-ad-unit-charts.png)
-{% endtab %}
-
-{% tab title="Reports" %}
-Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
-
-![Example set up for a scheduled report](../../../.gitbook/assets/201811-inventory-site-report-scheduler.png)
-{% endtab %}
-
-{% tab title="Traffic" %}
-The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this site has delivered, per device type, operating system and mobile brand.
-
-![Traffic example. In this example the ad tag is deployed to desktop only, meaning that no impressions are registered for mobile brands.](../../../.gitbook/assets/202003-ad-units-traffic-tab.png)
-{% endtab %}
-
-{% tab title="Availability" %}
 Availability allows you to forecast how much traffic your site is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis.
 
-![Availability analysis example.](../../../.gitbook/assets/202003-ad-units-availability-tab.png)
+![Example availability analysis.](<../../../.gitbook/assets/202207 Site - Availability.png>)
 
 The following explanations will the example above above for guidance.
 
@@ -122,10 +96,15 @@ Next, the allocation analysis tells you that "**0 impressions are allocated to 3
 
 The message "**Between 231,070 – 248,379 impressions are not allocated**" tells you how many impressions are not booked already, meaning that you can probably book this many impressions for a new line item. If we repeated the example above with the 100,000 booke impressions, the message could have been "Between 131,070 – 148,379 impressions are not allocated".
 
-Competitors is a useful list of competing line items (either as one list, or grouped by tiers). This list lets you identify competing line items and make changes to them in case you need to make room for a new and more important campaign.
-{% endtab %}
-{% endtabs %}
+**Competitors** is a useful list of competing line items (either as one list, or grouped by tiers). This list lets you identify competing line items and make changes to them in case you need to make room for a new and more important campaign.
 
-Please note that if you have access to more than one network you can easily switch between networks. Let's say that you as a publisher have your own private network, and access to sell your inventory through the [Adnuntius Buying Network](../../../onboarding-guides/adnuntius-buying-network/); then you can easily switch between networks you have access to, as shown in the image below.
+### Explore
 
-![How to switch between your networks.](../../../.gitbook/assets/202003-switching-networks.gif)
+You can explore your inventory by adding filters and see a breakdown of your traffic. The example below shows a table of cities and their approximate traffic next week, when two filters are applied:&#x20;
+
+* A category filter for the category "oppskrifter" (Norwegian for "recipes").&#x20;
+* A country filter for Norway.&#x20;
+
+These two filters applied means that the table of cities only show the estimated traffic coming from Norway, and for content within the recipes category.&#x20;
+
+![Example of exploring inventory.](<../../../.gitbook/assets/202207 Site - Explore.png>)
