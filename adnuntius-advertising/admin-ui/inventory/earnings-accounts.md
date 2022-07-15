@@ -30,24 +30,26 @@ Add a **Team** to the earnings account if you want to restrict access to a certa
 
 Once an earnings account is created you get more choices on the right side.
 
-{% tabs %}
-{% tab title="Sites" %}
+## When an Earnings Account is Created
+
+When an Earnings Account is created you will be able to see the following tabs.
+
+### Sites
+
 An overview of the sites belonging to this earnings account. You can change a site's earnings account under [Sites](sites.md).
 
-![Overview of an earnings account's sites.](../../../.gitbook/assets/202003-ea-sites.png)
-{% endtab %}
+![Overview of sites belonging to an earnings account.](<../../../.gitbook/assets/202207 EA - Site Overview.png>)
 
-{% tab title="Charts" %}
+### Charts
+
 Charts shows any of your chosen metrics for any given period. You can from here download reports to Excel.
 
-![Example earnings account chart.](../../../.gitbook/assets/202003-ea-charts.png)
-{% endtab %}
+![Charts from an earnings account.](<../../../.gitbook/assets/202207 EA - Charts.png>)
 
-{% tab title="Reports" %}
+### Reports
+
 Reports allow you to generate a report based on any of your report templates. The result is a URL that can be shared with any person (that person does not need to have access to Adnuntius).
 
 You can also generate scheduled reports that will automatically send reports per email to any receiver. [Learn how to create report templates](../reports/reports-templates-and-schedules.md).
 
-![Creating reports and scheduled reports for earnings accounts.](../../../.gitbook/assets/202003-ea-reports.png)
-{% endtab %}
-{% endtabs %}
+![](<../../../.gitbook/assets/202207 EA - Reports.png>)
