@@ -11,14 +11,34 @@ description: >-
 How to create a site group.
 {% endembed %}
 
-To create a site group, go to Inventory > Site Groups and click "New" in the upper right corner. Give the site group a name, a description (optional), and any labels (optional) to make search and reporting easier.  Then click save.
+## Creating a Site Group
 
-![Creating a site group.](../../../.gitbook/assets/202003-site-group.png)
+To create a site group [go to Site Groups under the Inventory section](https://admin.adnuntius.com/site-groups), and then click "New" in the upper right corner. Give the site group a **name**, an optional **description**, and any optional **labels** to make search and reporting easier.&#x20;
 
-Then, go to any site that you would like to put into the site group. Under Site group, click the dropdown menu and choose your site group. Then click to save the changes to the site. 
+![Creating a site group.](<../../../.gitbook/assets/202207 Site Groups - Fields.png>)
 
-![Each site you create can be placed under one of your site groups. ](../../../.gitbook/assets/202003-site.png)
+Choose the **teams** that should have access to target line items and creatives to this site group. Then click save.
 
-After this, when you or any buyer clicks to target a line item or creative, they will find your site group as a criteria. Once a site group is chosen, the line item or creative will target that group of sites. 
+You can now go to any site that you would like to put into the site group. On each site, under Site group, click the dropdown menu and choose your site group. Then click to save the changes to the site.
 
-![Site group targeting.](../../../.gitbook/assets/201811-advertising-line-item-site-group-targeting.png)
+## When a Site Group is Created
+
+### Site Group Targeting
+
+When you or any buyer clicks to target a line item or creative, they will find your site group as a criteria. Once a site group is chosen, the line item or creative will target that group of sites.
+
+![Once a site group is created then teams with access to that site group can target campaigns to it.](<../../../.gitbook/assets/202207 Site Group Targeting.png>)
+
+### Sites
+
+When you have created a site group you will see the sites under it in the right-side column.
+
+![List of sites.](<../../../.gitbook/assets/202207 Site Group - Site Overview.png>)
+
+### Reports
+
+Reports allow you to generate a report based on any of your report templates. The result is a URL that can be shared with any person (that person does not need to have access to Adnuntius).
+
+You can also generate scheduled reports that will automatically send reports per email to any receiver. [Learn how to create report templates](../reports/reports-templates-and-schedules.md).
+
+![Schedule site group reports.](<../../../.gitbook/assets/202207 Site Group - Reports.png>)
