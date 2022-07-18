@@ -101,10 +101,19 @@ One of the following values:
 
 | Name        | Description                                                                              |
 | ----------- | ---------------------------------------------------------------------------------------- |
-| `PROFILE`   | Consent to use personal data to build a user profile                                     |
-| `COUNTS`    | Consent to meaure ad performance - counting number of times user viewed, clicked ads etc |
-| `TARGETING` | Consent to use personal data to target advertising                                       |
+| `TCF_PURPOSE_1` | IAB Europe Transparency & Consent Framework Purpose 1 - Store and/or access information on a device |
+| `TCF_PURPOSE_2` | IAB Europe Transparency & Consent Framework Purpose 2 - Select basic ads |
+| `TCF_PURPOSE_3` | IAB Europe Transparency & Consent Framework Purpose 3 - Create a personalised ads profile |
+| `TCF_PURPOSE_4` | IAB Europe Transparency & Consent Framework Purpose 4 - Select personalised ads |
+| `TCF_PURPOSE_5` | IAB Europe Transparency & Consent Framework Purpose 5 - Create a personalised content profile |
+| `TCF_PURPOSE_6` | IAB Europe Transparency & Consent Framework Purpose 6 - Select personalised content |
+| `TCF_PURPOSE_7` | IAB Europe Transparency & Consent Framework Purpose 7 - Measure ad performance |
+| `TCF_PURPOSE_8` | IAB Europe Transparency & Consent Framework Purpose 8 - Measure content performance |
+| `TCF_PURPOSE_9` | IAB Europe Transparency & Consent Framework Purpose 9 - Apply market research to generate audience insights |
+| `TCF_PURPOSE_10` | IAB Europe Transparency & Consent Framework Purpose 10 - Develop and improve products |
+
+More information can be found [here](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions).
 
 ## User Identifiers
 
-The logs include "pseudo" user identifiers that have been anonymised so that they no longer uniquely identify a single user. The same user _will_ always be assigned the same identifier, but that same identifier can and will also be assigned to _multiple other users_ as well. The identifiers are created in a way that they can still be used for probabilistic cardinality estimation using the popular [HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog) algorithm. This means that you can, for example, estimate the number of unique users that viewed an advertisement without knowing precisely the number of times that each individual user viewed the ad.
+The logs include "pseudo" user identifiers that have been anonymised so that they no longer uniquely identify a single user. The same user _will_ always be assigned the same identifier, but that same identifier can and will also be assigned to _multiple other users_ as well. The identifiers can be used with a probabilistic cardinality estimation method, such as the popular [HyperLogLog](https://en.wikipedia.org/wiki/HyperLogLog) algorithm, to estimate the number of unique users that viewed an advertisement without knowing precisely the number of times that each individual user viewed the ad.
