@@ -144,7 +144,7 @@ The Reports tab lets you create a report based on a [report template](../reports
 
 The report tab also gives you the audit history of the line item. This means that you can see the changes made to the line item, when they were made, and who made them.
 
-![Create scheduled reports from a line item](<../../../.gitbook/assets/202207 Reports from LI Page (1).png>)
+![Create scheduled reports from a line item](<../../../.gitbook/assets/202207 Reports from LI Page.png>)
 
 ### Traffic
 

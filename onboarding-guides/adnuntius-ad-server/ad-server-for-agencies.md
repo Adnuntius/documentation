@@ -18,7 +18,7 @@ This guide assumes that you have been given access to Adnuntius Advertising. How
 
 When you add a creative to Adnuntius and want to generate a creative tag that you can send to a publisher, then you are asked to select an ad unit before the tag is created.
 
-![When creating creative tags you are asked to select an ad unit first.](<../../.gitbook/assets/202206 Creative Tag Agencies.png>)
+![When creating creative tags you are asked to select an ad unit first.](<../../.gitbook/assets/202201 Creative Tag.png>)
 
 in order to create creative tags you must therefore first create those ad units (and a couple of other things as well to keep things tidy inside your system). When you later run a campaign you can split reporting per ad unit so that you better know what inventory performs and what does not. Here are three examples on how you can choose to set up your inventory.&#x20;
 
