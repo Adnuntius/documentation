@@ -37,7 +37,7 @@ Assign the [**teams** ](../admin/users-teams-and-roles.md)of users who should ha
 **Block lists** let publishers block certain ads from showing on their sites, which is especially important for marketplace publishers.&#x20;
 
 * _Blocked IAB categories_ lets you block ads under a certain category. If anyone managing [Advertisers ](../advertising/advertisers.md)specify one or more IAB categories, then you can use this information to block certain categories from being displayed.&#x20;
-* _Blocked Advertiser Domains_ lets you block ads based on a creative's URL. For example, if a creative's click/landing page URL is [https://adnuntius.com/blog](https://adnuntius.com/blog), then you can add "adnuntius.com" to block this creative from showing on your website.&#x20;
+* _Blocked Advertiser Domains_ lets you block ads based on a creative's URL. For example, if a creative's click/landing page URL is [https://adnuntius.com/blog](https://adnuntius.com/blog), then you can add "adnuntius.com" to block this creative from showing on your website. If a URL is added to an [Advertiser](../advertising/advertisers.md), then this block will apply to that URL as well.&#x20;
 * _Blocked Line Items_ lets you block specific line items from being shown. You can type in the name of the line item or the line item's ID to find the right one to be blocked.
 * _Blocked Creatives_ lets you block specific creatives from being shown. You can type in the name of the creative or the creative's ID to find the right one to be blocked.
 * _Blocked Teams_ lets you block certain teams from showing ads on your site.&#x20;
