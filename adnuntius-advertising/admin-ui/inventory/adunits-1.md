@@ -75,107 +75,62 @@ In the example above only ad unit targeting is selected. This will only allow li
 
 Once a site is created you will see the following tabs.
 
-
-
 ### Ad Unit
+
+Ad unit charts provides you with insights about the ad unit's performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also download the report to Excel directly from this page.
+
+![Ad unit charts example.](<../../../.gitbook/assets/202207 Ad Unit - Charts (1).png>)
 
 ### External Ad Unit
 
-
-
-### Ad Tags
-
-
-
-### Reports
-
-
-
-### Traffic&#x20;
-
-
-
-### Location
-
-
-
-### Availability
-
-
-
-### Diagnostics
-
-
-
-### Explore
-
-
-
-
-
-**Overview, charts and reports**: On the right side of an ad unit's page you will find multiple tabs.
-
-{% tabs %}
-{% tab title="Ad Unit" %}
-Ad unit charts provides you with insights about the ad unit's performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also download the report to Excel directly from this page.
-
-![Ad unit chart example](../../../.gitbook/assets/201811-inventory-ad-unit-ad-unit-charts.png)
-{% endtab %}
-
-{% tab title="External ad unit" %}
 If you have external ad units serving programmatic ads AND you have connected this ad unit to one or more external ad units, you can see how programmatic ads are delivering to this ad unit.
 
 ![External ad unit chart example.](../../../.gitbook/assets/202003-ad-units-external-au-chart.png)
-{% endtab %}
 
-{% tab title="Ad Tags" %}
+### Ad Tags
+
 The tab “Ad Tags” is where you get the ad tag that is to be placed onto the page where you want ads to show. You can choose between standard tags for your webpage, email tags that can go into your newsletter, and VAST tags if you want to implement for video ads (instance prerolls, midrolls or endrolls).
 
-![Ad tag example.](../../../.gitbook/assets/202003-ad-units-ad-tags-tab.png)
-{% endtab %}
+![Ad tags example.](<../../../.gitbook/assets/202207 Ad Unit - Ad Tags.png>)
 
-{% tab title="Reports" %}
+### Reports
+
 Allows you to create a report based on a [report template](../reports/reports-templates-and-schedules.md), that can be shared with others as a link. You can also schedule reports to be created regularly, and whoever should receive the reports. Once you have created a scheduled report and added a recipient, Adnuntius will automatically send reports to recipients, containing the data you have decided on using in the [report template](../reports/reports-templates-and-schedules.md).
 
-![Report scheduler example](../../../.gitbook/assets/201811-inventory-ad-unit-reports.png)
-{% endtab %}
+![Reports example.](<../../../.gitbook/assets/202207 Ad Unit - Reports.png>)
 
-{% tab title="Traffic" %}
+### Traffic&#x20;
+
 The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this ad unit has delivered, per device type, operating system and mobile brand.
 
-![Traffic example. In this example the ad tag is deployed to desktop only, meaning that no impressions are registered for mobile brands.](../../../.gitbook/assets/202003-ad-units-traffic-tab.png)
-{% endtab %}
+![Traffic example.](<../../../.gitbook/assets/202207 Ad Unit - Traffic.png>)
 
-{% tab title="Availability" %}
-Availability allows you to forecast how much traffic your ad unit is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis.
+### Location
 
-![Availability analysis example.](../../../.gitbook/assets/202003-ad-units-availability-tab.png)
+The location tab gives you the traffic to the ad unit broken down by country.
 
-The following explanations will the example above above for guidance.
+![](<../../../.gitbook/assets/202207 Ad Unit - Location.png>)
 
-First, the analysis tells you that "**This ad unit is estimated to deliver 7.90% of all traffic across your network**", and that this means that for the defined period the ad unit can deliver between 231,070 and 248,379 impressions, between 0 and 162 clicks etc. If you choose a longer period of time (start and end date) these numbers are likely to increase.
+### Availability
 
-Next, the allocation analysis tells you that "**0 impressions are allocated to 3 line items, which is 0.00% of the projected traffic**". This may sound strange, but the reason is that none of the three line items currently taking up space for this ad unit have any objectives (impressions, clicks etc) registered. Let's say that one of the three line items had an impression objective of 100,000 impressions, was targeted to this ad unit only and had start and end dates equal to the ones you chose, then the message could be "100,000 impressions are allocated to 3 line items, which is 43.29% of the projected traffic".
+Availability allows you to forecast how much traffic your ad unit is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis. For an explanation of how to read the results, please go to the [Site Availability explanation](adunits-1.md#availability) as the results are the same (but the ad unit availability accounts for only the relevant ad unit).&#x20;
 
-The message "**Between 231,070 – 248,379 impressions are not allocated**" tells you how many impressions are not booked already, meaning that you can probably book this many impressions for a new line item. If we repeated the example above with the 100,000 booke impressions, the message could have been "Between 131,070 – 148,379 impressions are not allocated".
+### Diagnostics
 
-Competitors is a useful list of competing line items (either as one list, or grouped by tiers). This list lets you identify competing line items and make changes to them in case you need to make room for a new and more important campaign.
-{% endtab %}
-
-{% tab title="Diagnostics" %}
 If you cannot see any ads in your ad unit, or you expected to see another ad, then diagnostics is a test that gives you more insight into what might be going on. You can simulate different targeting criteria before you run the test. Running the test, you will get detailed feedback on winning, losing, capped, unmatched and unsuitable line items, and the reasons why they were so.
 
-![Diagnostics test example](../../../.gitbook/assets/201811-inventory-ad-unit-diagnostics.png)
+![Diagnostics example.](<../../../.gitbook/assets/202207 Ad Unit - Diagnostics.png>)
 
-{% hint style="info" %}
-You can also run diagnostics for [line items](../advertising/#line-item) if you wonder how an ad unit gave a line item the result that it got.
-{% endhint %}
+### Explore
 
-{% hint style="info" %}
-You can also add ?adndebug123 at the end of any URL (example: www.aperitif.no?adndebug123) to show you all ad units, line items, creatives, targeting and more information in the context of a webpage.
-{% endhint %}
-{% endtab %}
-{% endtabs %}
+You can explore your inventory by adding filters and see a breakdown of your traffic. The example below shows a table of cities and their approximate traffic next week, when two filters are applied:&#x20;
+
+* A category filter for the category "oppskrifter" (Norwegian for "recipes").&#x20;
+* A country filter for Norway.&#x20;
+
+These two filters applied means that the table of cities only show the estimated traffic coming from Norway, and for content within the recipes category.
+
+![Explore example.](<../../../.gitbook/assets/202207 Site - Explore.png>)
 
 ## Requesting Ads
 
