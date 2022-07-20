@@ -1,7 +1,7 @@
 ---
 description: >-
-  This page describes how Adnuntius, as a TCF2 certified vendor, processes
-  consent.
+  This page describes how Adnuntius uses the IAB Europe Transparency & Consent Framework version 2.0 (TCF2) to obtain
+  permission to use personal data
 ---
 
 # Consent Processing (TCF2)
@@ -19,7 +19,7 @@ If this flag is present, then it takes precedence over all other checks describe
 
 **1.2 The network setting.**
 
-Each network has a flag to indicate if user consent is required to use data. Network Administrators can enable or disable this flag on the [Network Settings](https://admin.adnuntius.com/admin/network) page in the admin user interface (please see “Consent to Use Personal Data”).
+Each network has a flag to indicate if user consent is required to use personal data. Network Administrators can enable or disable this flag on the [Network Settings](https://admin.adnuntius.com/admin/network) page in the admin user interface (please see “Consent to Use Personal Data”).
 
 If the network does NOT require consent, then no further checks are necessary.
 
@@ -48,11 +48,11 @@ Adnuntius will read the string to determine the purposes that user has consented
 
 Adnuntius will also check if the user has opted out of selecting basic ads (purpose 2) or measuring ad performance (purpose 7).
 
-If the user has provided consent for a purpose, or if they have not opted out of a legitimate interest purpose, then Adnuntius has permission to use the users data for that purpose.
+If the user has provided consent for a purpose, or if they have not opted out of a legitimate interest purpose, then Adnuntius has permission to use personal data for that purpose.
 
-For example, if the user has not consented to, but has also not opted out of purpose 2 and/or purpose 7, then Adnuntius will allow the use of the user’s data for those purposes.
+For example, if the user has not consented to, but has also not opted out of purpose 2 and/or purpose 7, then Adnuntius will allow the use of personal data for those purposes.
 
-## 3 The Adnuntius Features that Require Permission to Use User Data
+## 3 The Adnuntius Features that Require Permission to Use Personal Data
 
 **3.1 Unique User Counting.**
 
@@ -128,7 +128,7 @@ This feature requires consent to create a personalised ads profile (purpose 3).
 
 Without this consent from the user, click and impression data cannot be used within Adnuntius Data to build a profile of the user’s behaviour.
 
-## 4 What is Possible without ANY Permission to Use User Data?
+## 4 What is Possible without ANY Permission to Use Personal Data?
 
 Adnuntius can still provide very basic ad serving and measurement. The following targeting is allowed:
 
