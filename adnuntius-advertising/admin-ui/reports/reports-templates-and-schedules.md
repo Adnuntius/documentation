@@ -30,7 +30,7 @@ Choose the report **template type**. If you choose for example "line item", then
 
 You can choose between HTML and CSV as **format**. If you choose HTML then the link will lead to a webpage showing the report. If you choose CSV then the link will trigger a download of a CSV file containing the reporting data.&#x20;
 
-You can link to your **logo** for this specific template, or refer to the logo URL in the [admin section](../admin/) if you have specified one there. You can use our CDN uploads if you need a place to get your logo online.
+You can link to your **logo** for this specific template, or refer to the logo URL in the [admin section](../admin/) if you have specified one there. You can use our [CDN uploads](../admin/cdn-uploads.md) if you need a place to get your logo online.
 
 **Header content** and **footer content** can be used if you want to style your report header. Any content entered here goes into the head/footer tag of the generated report.
 

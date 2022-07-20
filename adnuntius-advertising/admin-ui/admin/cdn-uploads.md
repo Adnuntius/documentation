@@ -13,3 +13,5 @@ Click to upload a file, or drag and drop it, then give it a name of your choice 
 {% hint style="info" %}
 If you do not have access to CDN Uploads but would like it, contact us at support@adnuntius.com.
 {% endhint %}
+
+![CDN upload example.](<../../../.gitbook/assets/202207 Admin - CDN Upload.png>)
