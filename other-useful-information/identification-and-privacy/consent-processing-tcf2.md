@@ -6,7 +6,7 @@ description: >-
 
 # Consent Processing (TCF2)
 
-## **1 How We Determine if GDPR Applies**
+## **1 How Adnuntius Determines if GDPR Applies**
 
 **1.1 The “gdpr” ad tag parameter.**
 
@@ -52,7 +52,7 @@ If the user has provided consent for a purpose, or if they have not opted out of
 
 For example, if the user has not consented to, but has also not opted out of purpose 2 and/or purpose 7, then Adnuntius will allow the use of the user’s data for those purposes.
 
-## 3 What Adnuntius Features Require Permission to Use User Data?
+## 3 The Adnuntius Features that Require Permission to Use User Data
 
 **3.1 Unique User Counting.**
 
@@ -128,7 +128,7 @@ This feature requires consent to create a personalised ads profile (purpose 3).
 
 Without this consent from the user, click and impression data cannot be used within Adnuntius Data to build a profile of the user’s behaviour.
 
-## 4 What is Possible without Any Permissions to Use User Data?
+## 4 What is Possible without ANY Permission to Use User Data?
 
 Adnuntius can still provide very basic ad serving and measurement. The following targeting is allowed:
 
