@@ -47,7 +47,3 @@ If you want to create a user that has no network permissions, you can create a n
 {% hint style="info" %}
 In [Admin > Network](../admin/network.md) you will be able to determine show or hide sections of the user interface that users do not have permissions to edit.
 {% endhint %}
-
-## Common Role Combinations
-
-To be done soon.
