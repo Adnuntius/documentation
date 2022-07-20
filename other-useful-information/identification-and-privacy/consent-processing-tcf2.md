@@ -44,73 +44,75 @@ Note: without a consent string, Adnuntius cannot obtain consent to Store and/or 
 
 **2.2 If there is a consent string.**
 
-Adnuntius will read the string to determine the purposes that the user has consented to have their data used for.
+Adnuntius will read the string to determine the purposes that user has consented to have their data used for.
 
 Adnuntius will also check if the user has opted out of selecting basic ads (purpose 2) or measuring ad performance (purpose 7).
 
-If the user has not consented to, but has also not opted out of purpose 2 and/or purpose 7, then Adnuntius will allow the use of the user’s data for those purposes.
+If the user has provided consent for a purpose, or if they have not opted out of a legitimate interest purpose, then Adnuntius has permission to use the users data for that purpose.
 
-## 3 What Adnuntius Features Require Consent
+For example, if the user has not consented to, but has also not opted out of purpose 2 and/or purpose 7, then Adnuntius will allow the use of the user’s data for those purposes.
+
+## 3 What Adnuntius Features Require Permission to Use User Data?
 
 **3.1 Unique User Counting.**
 
-This feature requires consent to measure ad performance (purpose 7).
+This feature requires permission to measure ad performance (purpose 7).
 
-Without this consent from the user, or if a legitimate interest is not established, each request from the user will be counted in the statistics as if it were from a new person.
+Without consent from the user, or if a legitimate interest is not established, each request from the user will be counted in the statistics as if it were from a new person.
 
 This feature will also be impacted if there is no consent to store and access information on the user’s device (purpose 1). When this consent is provided Adnuntius can store a cookie on the user’s device to hold a unique user identifier, or can read information from the device to create a unique fingerprint. If Adnuntius cannot create and store a user identifier, then unique user counting will only work when such an identifier is provided explicitly with the ad tag.
 
 **3.2 Frequency capping.**
 
-This feature requires consent to select basic ads (purpose 2) in order to control the frequency of ads shown to a user.
+This feature requires permission to select basic ads (purpose 2) in order to control the frequency of ads shown to a user.
 
-Without this consent from the user, or if a legitimate interest is not established, frequency capping will not apply to the user’s requests.
+Without consent from the user, or if a legitimate interest is not established, frequency capping will not apply to the user’s requests.
 
 This feature will also be impacted if there is no consent to store and access information on the user’s device (purpose 1). When this consent is provided Adnuntius can store capping information in a cookie on the user’s device, which provides more responsive capping than storing this information on the server. Furthermore, server-side user capping requires a consistent user identifier to be provided for each of the user’s requests, which may not be possible without the ability to read and write the identifier to the user’s device. Device Targeting
 
 **3.3 Device targeting.**
 
-This feature requires consent to select basic ads (purpose 2).
+This feature requires permission to select basic ads (purpose 2).
 
-Without this consent from the user, or if a legitimate interest is not established, device targeted advertisements will not match against the user’s requests.
+Without consent from the user, or if a legitimate interest is not established, device targeted advertisements will not match against the user’s requests.
 
 **3.4 Location Targeting.**
 
-This feature requires consent to select basic ads (purpose 2).
+This feature requires permission to select basic ads (purpose 2).
 
-Without this consent from the user, or if a legitimate interest is not established, location targeted advertisements will not match against the user’s requests.
+Without consent from the user, or if a legitimate interest is not established, location targeted advertisements will not match against the user’s requests.
 
 **3.5 IP Address Targeting.**
 
-This feature requires consent to select basic ads (purpose 2).
+This feature requires permission to select basic ads (purpose 2).
 
-Without this consent from the user, or if a legitimate interest is not established, IP address targeted advertisements will not match against the user’s requests.
+Without consent from the user, or if a legitimate interest is not established, IP address targeted advertisements will not match against the user’s requests.
 
 **3.6 Contextual (Keyword, Category) Targeting.**
 
-This feature requires consent to select basic ads (purpose 2).
+This feature requires permission to select basic ads (purpose 2).
 
 Without this consent from the user, or if a legitimate interest is not established, contextually targeted advertisements will not match against the user’s requests.
 
 **3.7 Segment Targeting.**
 
-This feature requires consent to select personalised ads (purpose 4).
+This feature requires permission to select personalised ads (purpose 4).
 
-Without this consent from the user, segment targeted advertisements will not match against the user’s requests.
+Without consent from the user, segment targeted advertisements will not match against the user’s requests.
 
 **3.8 Viewability.**
 
-This feature requires consent to measure ad performance (purpose 7).
+This feature requires permission to measure ad performance (purpose 7).
 
-Without this consent from the user, or if a legitimate interest is not established, ad viewability and visibility statistics from the user will not be counted.
+Without consent from the user, or if a legitimate interest is not established, ad viewability and visibility statistics from the user will not be counted.
 
-Note: requests without this consent will be recorded in stats as “immeasurable”. This means that viewability and visibility percentages can still be estimated, as they will be based only upon ad requests from users that have provided the required consent.
+Note: requests without this permission will be recorded in stats as “immeasurable”. This means that viewability and visibility percentages can still be estimated, as they will be based only upon ad requests from users that have provided the required consent.
 
 **3.9 Conversions and Custom Events.**
 
-This feature requires consent to measure ad performance (purpose 7).
+This feature requires permission to measure ad performance (purpose 7).
 
-Without this consent from the user, or if a legitimate interest is not established, Adnuntius is not able to measure how ads were delivered to and interacted with by the user.
+Without consent from the user, or if a legitimate interest is not established, Adnuntius is not able to measure how ads were delivered to and interacted with by the user.
 
 **3.10 User Fingerprinting.**
 
@@ -126,9 +128,9 @@ This feature requires consent to create a personalised ads profile (purpose 3).
 
 Without this consent from the user, click and impression data cannot be used within Adnuntius Data to build a profile of the user’s behaviour.
 
-## 4 What is Possible without Any Consent
+## 4 What is Possible without Any Permissions to Use User Data?
 
-Without any consent, Adnuntius can still provide very basic ad serving and measurement. The following targeting is allowed:
+Adnuntius can still provide very basic ad serving and measurement. The following targeting is allowed:
 
 * Ad Unit
 * Ad Unit Matching Label
