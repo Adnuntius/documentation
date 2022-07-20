@@ -26,7 +26,7 @@ Add a **Team** to the earnings account if you want to restrict access to a certa
 
 **Revenue share**: If you are an ad network or a marketer with publishing partners, where the publisher is entitled to a share of revenue, then you can specify the revenue share. For example, if you add 10% as revenue share, this means that you award this earnings account 10% of whatever is earned from the sites belonging to this earnings account.
 
-**Labels** can be added to make reporting work for you. Let's say you add the label "Norway" to a set of earnings accounts, and then want to run a report only for this set of accounts. You can then run a report which filters on these accounts specifically. [Read more about reports](../reports/publishing-queries.md).
+**Labels** can be added to make reporting work for you. Let's say you add the label "Norway" to a set of earnings accounts, and then want to run a report only for this set of accounts. You can then run a report which filters on these accounts specifically. [Read more about reports](../queries/publishing-queries.md).
 
 Once an earnings account is created you get more choices on the right side.
 

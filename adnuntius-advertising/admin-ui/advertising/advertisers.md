@@ -24,7 +24,7 @@ Specify a **team** that this Advertiser should belong to. The team determines wh
 
 The **self-service user account** only applies to customers who use Adnuntius Self-Service. More information on this coming soon.&#x20;
 
-**Labels** can be added to structure reporting. Let's say you add the label "Mindshare" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Read more about reports.](../reports/advertising-queries.md) Labels will also be visible in the global search results on the top center of the screen.
+**Labels** can be added to structure reporting. Let's say you add the label "Mindshare" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Read more about reports.](../queries/advertising-queries.md) Labels will also be visible in the global search results on the top center of the screen.
 
 Add an **external reference** if you want to match the advertiser with the same client in another system. For instance, if Coca Cola is registered in your invoicing system with customer ID 123456, then by adding 123456 as an external reference in Adnuntius you can connect these two different entries in the different systems, as one Advertiser.
 

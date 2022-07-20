@@ -28,7 +28,7 @@ Assign the site to an [**earnings account**](earnings-accounts.md) to aggregate 
 
 You can specify how ads should be **rendered** onto your website. If you have a preference you can choose to render ads into an iFrame, div tag or a sandboxed iFrame.
 
-**Labels** can be added to make it easier to search for the site, and to make reporting work for you. Let's say you add the label "publishing-group" to a set of sites, and then want to run a report only for this group of sites. You can then run a report which contains these sites specifically. [Learn more about reports](../reports/publishing-queries.md).
+**Labels** can be added to make it easier to search for the site, and to make reporting work for you. Let's say you add the label "publishing-group" to a set of sites, and then want to run a report only for this group of sites. You can then run a report which contains these sites specifically. [Learn more about reports](../queries/publishing-queries.md).
 
 **Rate limits** allows you to limit the traffic (viewable/visible/rendered/regular impressions or clicks) that a site or ad unit receives in a given timeframe. A rate limit may be useful to ad networks that are allowed to sell only a defined set of impressions on a publisher’s behalf. If this applies to you, simply add the number of impressions, clicks or other that you are allowed to sell, then choose the period. You can also add labels if the limitation should apply only to certain line items. For example, if you add “cars” to the label field, then the rate limit will apply to all line items with the label "cars", while all other line items will be free to deliver without limitation.
 

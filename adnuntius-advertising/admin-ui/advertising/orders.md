@@ -28,7 +28,7 @@ If you have an **ad ops** function in your company then you can add that person 
 
 ![Overview of orders, containing among other salespeople and ad ops users](../../../.gitbook/assets/201811-advertising-order-overview.png)
 
-**Labels** can be added to structure reporting. Let's say you add the label "September" to a set of Orders, and then want to run a report only for this group of Orders. You can then run a report which filters on these specifically. [Read more about reports.](../reports/advertising-queries.md) Labels will also be visible in the global search results on the top center of the screen.
+**Labels** can be added to structure reporting. Let's say you add the label "September" to a set of Orders, and then want to run a report only for this group of Orders. You can then run a report which filters on these specifically. [Read more about reports.](../queries/advertising-queries.md) Labels will also be visible in the global search results on the top center of the screen.
 
 **Objectives** can be used to set goals for multiple Line Items collectively. Here are examples on how to use Order objectives, and how Adnuntius will behave.&#x20;
 
