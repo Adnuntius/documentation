@@ -1,6 +1,6 @@
 ---
 description: >-
-  This page describes how Adnuntius uses the IAB Europe Transparency & Consent Framework version 2.0 (TCF2) to obtain
+  This page describes how Adnuntius uses the IAB Europe Transparency & Consent Framework version 2.0 (TCF2) to check for
   permission to use personal data
 ---
 
