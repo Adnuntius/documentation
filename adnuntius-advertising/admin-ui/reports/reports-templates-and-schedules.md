@@ -34,7 +34,7 @@ You can link to your **logo** for this specific template, or refer to the logo U
 
 **Header content** and **footer content** can be used if you want to style your report header. Any content entered here goes into the head/footer tag of the generated report.
 
-If you have created a **report translation** then you can apply this translation here, to ensure that report receivers get the reports in the language they prefer.
+If you have created a [**report translation**](report-translations.md) then you can apply this translation here, to ensure that report receivers get the reports in the language they prefer.
 
 **Report components** are widgets you can add to the template to display reporting data. After you've chosen one or more widgets you can decide which metrics (impressions, viewables, clicks, earnings etc) that you want to show inside that widget. Example: If you are a publisher intending to automatically send reports to advertisers, perhaps you don't want to show the earnings? If this is the case, you can disable earnings from being shown.
 
