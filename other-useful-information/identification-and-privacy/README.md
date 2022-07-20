@@ -12,7 +12,7 @@ Adnuntius supports multiple methods of identifying users, both with and without 
 [user-identification.md](user-identification.md)
 {% endcontent-ref %}
 
-This page describes how Adnuntius as a TCF2 certified vendor processes consent:
+This page describes how Adnuntius uses the IAB Europe Transparency & Consent Framework version 2 (TCF2) to check for permission to use personal data:
 
 {% content-ref url="consent-processing-tcf2.md" %}
 [consent-processing-tcf2.md](consent-processing-tcf2.md)
