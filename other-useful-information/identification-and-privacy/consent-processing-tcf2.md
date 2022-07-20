@@ -4,7 +4,7 @@ description: >-
   permission to use personal data
 ---
 
-# Consent Processing (TCF2)
+# TCF2 Processing
 
 ## **1 How Adnuntius Determines if GDPR Applies**
 
@@ -29,20 +29,20 @@ Adnuntius uses each ad request’s IP address to detect the originating country.
 
 ## 2 What Happens when GDPR is Applied
 
-If GDPR applies, then Adnuntius attempts to read an IAB TCF consent string from the “euconsent-v2” cookie on the user’s device.
+If GDPR applies, then Adnuntius attempts to read a TCF2 string from the “euconsent-v2” cookie on the user’s device.
 
-**2.1 If there is no consent string.**
+**2.1 If there is no TCF2 string.**
 
-Without a consent string the user has not provided any explicit consent but has also not opted out of any data processing performed under a legitimate concern basis. This can occur for example when a publisher has no consent tool installed on their pages.
+Without a TCF2 string the user has not provided any explicit consent but has also not opted out of any data processing performed under a legitimate concern basis. This can occur for example when a publisher has no consent tool installed on their pages.
 
 In this scenario, Adnuntius relies upon legitimate interest for the purposes of:
 
 * Selecting basic ads (purpose 2)
 * Measuring ad performance (purpose 7)
 
-Note: without a consent string, Adnuntius cannot obtain consent to Store and/or access information on a device (purpose 1).
+Note: without a TCF2 string, Adnuntius cannot obtain consent to store and/or access information on a device (purpose 1).
 
-**2.2 If there is a consent string.**
+**2.2 If there is a TCF2 string.**
 
 Adnuntius will read the string to determine the purposes that user has consented to have their data used for.
 
