@@ -26,6 +26,7 @@
     * [The Statistics Defined](adnuntius-advertising/admin-ui/reports/the-statistics-defined.md)
     * [The 4 Impression Types](adnuntius-advertising/admin-ui/reports/the-4-impression-types.md)
     * [Templates and Schedules](adnuntius-advertising/admin-ui/reports/reports-templates-and-schedules.md)
+    * [Report Translations](adnuntius-advertising/admin-ui/reports/report-translations.md)
     * [Advertising Queries](adnuntius-advertising/admin-ui/reports/advertising-queries.md)
     * [Publishing Queries](adnuntius-advertising/admin-ui/reports/publishing-queries.md)
   * [Admin](adnuntius-advertising/admin-ui/admin/README.md)
