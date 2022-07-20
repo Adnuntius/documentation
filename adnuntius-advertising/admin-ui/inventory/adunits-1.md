@@ -63,7 +63,7 @@ You can set **targeting options** on the ad unit.&#x20;
 * "Must have Targeting" means that only line items with any kind of targeting can deliver to this ad unit.
 * "Must match type" allows you to select what targeting you will allow for this ad unit.&#x20;
 
-![Must Match Type.](<../../../.gitbook/assets/image (21) (1) (1) (1).png>)
+![Must Match Type.](<../../../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
 
 In the example above only ad unit targeting is selected. This will only allow line items with ad unit targeting to be showed for this ad unit. If this would be applied to an ad unit it would not show any ads unless it´s explicitly targeted. You can of course add more targeting to the line item to reduce the scope of users to target.
 
@@ -79,7 +79,7 @@ Once a site is created you will see the following tabs.
 
 Ad unit charts provides you with insights about the ad unit's performance for whichever period you would like. Choose the period, the metrics, and the visualization of the data to design the charts you want to see. You can also download the report to Excel directly from this page.
 
-![Ad unit charts example.](<../../../.gitbook/assets/202207 Ad Unit - Charts (1).png>)
+![Ad unit charts example.](<../../../.gitbook/assets/202207 Ad Unit - Charts.png>)
 
 ### External Ad Unit
 
@@ -91,7 +91,7 @@ If you have external ad units serving programmatic ads AND you have connected th
 
 The tab “Ad Tags” is where you get the ad tag that is to be placed onto the page where you want ads to show. You can choose between standard tags for your webpage, email tags that can go into your newsletter, and VAST tags if you want to implement for video ads (instance prerolls, midrolls or endrolls).
 
-![Ad tags example.](<../../../.gitbook/assets/202207 Ad Unit - Ad Tags.png>)
+![Ad tags example.](<../../../.gitbook/assets/202207 Ad Unit - Ad Tags (1).png>)
 
 ### Reports
 
