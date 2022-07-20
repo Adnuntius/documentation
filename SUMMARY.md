@@ -154,7 +154,7 @@
 
 * [Identification and Privacy](other-useful-information/identification-and-privacy/README.md)
   * [User Identification](other-useful-information/identification-and-privacy/user-identification.md)
-  * [Consent Processing (TCF2)](other-useful-information/identification-and-privacy/consent-processing-tcf2.md)
+  * [Permission to use Personal Data (TCF2)](other-useful-information/identification-and-privacy/consent-processing-tcf2.md)
   * [Data Collection and Usage](other-useful-information/privacy-details/README.md)
   * [Am I Being Tracked?](other-useful-information/am-i-being-tracked.md)
 * [Frequently Asked Questions](other-useful-information/faq.md)
