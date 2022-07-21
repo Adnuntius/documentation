@@ -1,7 +1,7 @@
 ---
 description: >-
   Teams define the content on the advertising and/or publishing side that a user
-  should have access to.
+  has access to.
 ---
 
 # Teams
@@ -10,18 +10,25 @@ description: >-
 How to create a user.
 {% endembed %}
 
-Teams let you connect users to a set of sites. This feature allows you to design your organization and account for, for example, multiple sales and ad operations teams that should have access to different sets of inventory. While [Roles ](../../admin-api/endpoints/roles.md)lets you decide the actions that users can take to that inventory, Teams determines what inventory they can perform those actions on.
+When [creating a user](users-teams-and-roles.md) you will provide access to one or more teams. The [team role](users-teams-and-roles-2.md) for each team will determine what actions they can do within each team.
 
-To create a team, go to [https://admin.adnuntius.com/admin/teams](https://admin.adnuntius.com/admin/teams) and click "New" in the upper right corner.
+To create a team, [go to Teams under the Users section](https://admin.adnuntius.com/admin/teams), then click "new" in the upper right corner. Give your new team a **name** and **description** of your choice. Add an **external reference** if you want to match the team with a similar instance in another system.&#x20;
 
-![Example team](../../../.gitbook/assets/201811-reports-admin-teams.png)
+![Creating a new Team.](<../../../.gitbook/assets/202207 Users - New Team.png>)
 
-**Name, description (optional) and external reference (optional)**: Give the team a name and description of your choice. You can also add an external reference if you want to match the team with the same entity in another system.
+**Type** lets you choose between "standard", "marketplace advertiser" and "marketplace publisher".&#x20;
+
+* Standard is a team type where you can add most privileges freely when creating a user. For example, if the user is to be a network administrator then this is the team type you want.&#x20;
+* Marketplace Advertiser is the team type suited for users whose task involves buying inventory, but not selling any.
+* Marketplace Publisher is the team type suited for users whose task involves selling inventory, but not buying any.
+
+If you choose the team type "marketplace advertiser" then you can also set a **tech fee**. This revenue share or CPM based fee will be subtracted from the gross CPM bid of all line items created by users belonging to this team.
+
+Once a team is saved you can add **Sites** and **Folders**.&#x20;
+
+* Sites determine which sites users belonging to the team will have access to. The role will determine what actions they can do to these sites.&#x20;
+* Folders determine which folders in Adnuntius Data they can access. The role will determine what actions they can do to these folders.&#x20;
 
 {% hint style="info" %}
-You can design multiple teams with the same sites under them. In other words, Adnuntius supports a many-to-many relationship between teams, where a site can belong to several teams.
+Adnuntius supports a many-to-many relationship between teams, where a site can belong to several teams.
 {% endhint %}
-
-**Sites**: Add the set of sites you want to put into the team. Once you've chosen one or more sites, and user added to this team will have access to the sites. The actions they can perform to those sites however, will be determined by the [role](../../admin-api/endpoints/roles.md) that you assign to the user for this team.
-
-![When you create an Order in Adnuntius, this order will be registered with a team, and therefore determine the sites this order to run on. In this example the user is part of 4 teams, and can therefore choose between 4 teams when creating an order.](../../../.gitbook/assets/202003-teams-and-orders.gif)
