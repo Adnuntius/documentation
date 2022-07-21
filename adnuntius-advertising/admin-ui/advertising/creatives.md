@@ -67,7 +67,7 @@ If you want to target your programmatic creative to specific ad units, you can u
 **Layout** specifies the file types and properties, and the types of formats ("look and feel") that you can serve with your campaign. When you select a layout, Adnuntius will tell you what information is needed for the creative. For example, if you choose a layout called "Image" then Adnuntius may ask you for an image file with a max size restriction, and a click URL.&#x20;
 
 {% hint style="info" %}
-If your user has access to create layouts, [here is how you do it](../admin/layouts.md).
+If your user has access to create layouts, [here is how you do it](../design/layouts.md).
 {% endhint %}
 
 **Uploaded assets** is where you upload the files needed to assemble the creative. You can click to upload, or drag and drop. You can also drag and drop multiple files into the file drop field, and get all files into the creative with one move.

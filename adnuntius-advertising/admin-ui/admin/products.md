@@ -38,7 +38,7 @@ The default order must be part of a self-service team. [Click here to learn more
 
 The **default report template** is used for creating a report, based on your chosen [template](../reports/reports-templates-and-schedules.md), to send to the advertiser once their campaign ends. This means that the advertiser will receive an email with a link leading to a page containing the numbers that you choose to show based on that template.
 
-**Choose one or more layouts** to determine which layouts you want to enable advertisers to buy. [Read more about layouts](layouts.md).
+**Choose one or more layouts** to determine which layouts you want to enable advertisers to buy. [Read more about layouts](../design/layouts.md).
 
 Add **mandatory targeting** if you want to restrict this product to be served in certain ad units, geographical areas, devices, segments and more. [Read more about targeting criteria](../advertising/targeting.md).
 

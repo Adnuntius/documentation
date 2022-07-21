@@ -27,7 +27,7 @@ Give the line item a **start and end date and time**. If you choose not to provi
 
 In order form a line item to run, it needs to be assigned to an **Order**.&#x20;
 
-If your user is the role of a Marketplace Advertiser, then you will see the object "**Product**" and you may be asked to choose one. Please note that this step does not apply to administrators or other user roles. A [marketplace product](../admin/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
+If your user is the role of a Marketplace Advertiser, then you will see the object "**Product**" and you may be asked to choose one. Please note that this step does not apply to administrators or other user roles. A [marketplace product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
 
 ![If you're a Marketplace Advertiser you will be asked to choose a product.](../../../.gitbook/assets/mp-products.png)
 
