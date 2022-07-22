@@ -34,11 +34,11 @@ Advertisers will add a total budget to their campaigns to make things easy. If y
 The default order must be part of a self-service team. [Click here to learn more about teams](../users/users-teams-and-roles.md).
 {% endhint %}
 
-**Default tier** lets you choose under which [tier](tiers.md) a campaign using this product will be placed. In short, a tier is a priority level that lets you determine which sets of campaigns should have priority over others. For instance, if you have direct sales operations selling "VIP campaigns" that should get priority over self-service campaigns, then you can choose to set your product to a lower tier to ensure that they will not interfere with those VIP campaigns.
+**Default tier** lets you choose under which [tier](../admin/tiers.md) a campaign using this product will be placed. In short, a tier is a priority level that lets you determine which sets of campaigns should have priority over others. For instance, if you have direct sales operations selling "VIP campaigns" that should get priority over self-service campaigns, then you can choose to set your product to a lower tier to ensure that they will not interfere with those VIP campaigns.
 
 The **default report template** is used for creating a report, based on your chosen [template](../reports/reports-templates-and-schedules.md), to send to the advertiser once their campaign ends. This means that the advertiser will receive an email with a link leading to a page containing the numbers that you choose to show based on that template.
 
-**Choose one or more layouts** to determine which layouts you want to enable advertisers to buy. [Read more about layouts](../design/layouts.md).
+**Choose one or more layouts** to determine which layouts you want to enable advertisers to buy. [Read more about layouts](layouts.md).
 
 Add **mandatory targeting** if you want to restrict this product to be served in certain ad units, geographical areas, devices, segments and more. [Read more about targeting criteria](../advertising/targeting.md).
 

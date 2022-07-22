@@ -6,7 +6,7 @@ description: >-
 
 # Marketing Tips (Work in Progress)
 
-Adnuntius works as a partner together with its self-service publishers, which means that we succeed if you succeed - and if you fail, we fail too. That is why it's important for us that our partners do their part of the work to make their self-service portals a success, and part of that work involves marketing. We provide the technology and end-to-end workflow; you let the world know that you're open for business.&#x20;
+Adnuntius works as a partner together with its self-service publishers, which means that we succeed if you succeed - and if you fail, we fail too. That is why it's important for us that our partners do their part of the work to make their self-service portals a success, and part of that work involves marketing. We provide the technology and end-to-end workflow; you let the world know that you're open for business.
 
 | Explanation                                                                                                                                                                                                          | Example      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
@@ -16,4 +16,4 @@ Adnuntius works as a partner together with its self-service publishers, which me
 | **Social media.** If you have a following on social media, make sure that you consider the opportunity of letting your followers know that they can advertise with you.                                              | Coming soon. |
 | **Print campaigns.** If you're in print media, remember that you can also use that channel.                                                                                                                          | Coming soon. |
 
-Finally, remember that all marketing can be combined with the [coupon ](../../adnuntius-advertising/admin-ui/admin/coupons.md)feature, which allows you to offer a discount to new advertisers when they join your portal.&#x20;
+Finally, remember that all marketing can be combined with the [coupon ](../../adnuntius-advertising/admin-ui/design/coupons.md)feature, which allows you to offer a discount to new advertisers when they join your portal.
