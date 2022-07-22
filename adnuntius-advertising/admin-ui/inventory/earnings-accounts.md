@@ -20,7 +20,7 @@ A site can only have one earnings account, as registering the same earnings mult
 
 **Name, description and address**: Give the earnings account a name and description (optional) of your choice. You can also add an address to the account (optional).
 
-Add a **Team** to the earnings account if you want to restrict access to a certain set of users.
+Add a **Team** to the earnings account if you want to restrict access to a certain set of users. [Read more about users and teams.](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/users)
 
 **External reference:** Add an external reference (optional) if you want to match the earnings account with the same account in another system. For instance, if you are an ad network working with publishing partners, and a publisher is registered in your invoicing system with customer ID 123456, then you can add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same item across two different systems, which may in turn speed up processes like invoicing.
 

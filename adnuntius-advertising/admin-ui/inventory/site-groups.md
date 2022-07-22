@@ -17,7 +17,7 @@ To create a site group [go to Site Groups under the Inventory section](https://a
 
 ![Creating a site group.](<../../../.gitbook/assets/202207 Site Groups - Fields.png>)
 
-Choose the **teams** that should have access to target line items and creatives to this site group. Then click save.
+Choose the [**teams** ](../users/users-teams-and-roles-1.md)that should have access to target line items and creatives to this site group. Then click save.
 
 You can now go to any site that you would like to put into the site group. On each site, under Site group, click the dropdown menu and choose your site group. Then click to save the changes to the site.
 

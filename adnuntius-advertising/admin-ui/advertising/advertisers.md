@@ -20,7 +20,7 @@ To create an Advertiser, [go to Advertisers under the Advertising section](https
 
 Give your advertiser a **name**, and an optional **description** of your choice.
 
-Specify a **team** that this Advertiser should belong to. The team determines which users in Adnuntius will be able to view this Advertiser, while their roles determine if they can make changes to it. [Read more about teams and roles here](../users/users-teams-and-roles.md).
+Specify a **team** that this Advertiser should belong to. The team determines which users in Adnuntius will be able to view this Advertiser, while their roles determine if they can make changes to it. [Read more about teams and roles here](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/users).
 
 The **self-service user account** only applies to customers who use Adnuntius Self-Service. More information on this coming soon.&#x20;
 

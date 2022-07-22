@@ -8,7 +8,7 @@ description: Roles determine what actions users are allowed to perform.
 How to create a user.
 {% endembed %}
 
-While [Teams](../../admin-api/endpoints/teams.md) determines the inventory a user will have access to, Roles determines what actions that user will be able to take to that inventory.&#x20;
+While [Teams](users-teams-and-roles-1.md) determines the inventory a user will have access to, Roles determines what actions that user will be able to take to that inventory.&#x20;
 
 ## Creating a New Role
 

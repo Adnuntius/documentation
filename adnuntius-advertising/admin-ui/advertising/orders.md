@@ -18,7 +18,7 @@ To create a new order, [go to Orders under the Advertising section](https://admi
 
 Start by giving your Order a **name** of your choice.&#x20;
 
-Specify a **team** that this Order should belong to. The team determines which users in Adnuntius will be able to view this Order, while their roles determine if they can make changes to it. [Read more about teams and roles here](../users/users-teams-and-roles.md).
+Specify a **team** that this Order should belong to. The team determines which users in Adnuntius will be able to view this Order, while their roles determine if they can make changes to it. [Read more about teams and roles here](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/users).
 
 Specify the **Advertiser** to which this Order should belong.
 

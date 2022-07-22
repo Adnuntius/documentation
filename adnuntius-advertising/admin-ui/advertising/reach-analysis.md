@@ -12,9 +12,9 @@ Reach analyses take historic traffic into account when forecasting what you can 
 
 **Line item** allows you to copy the properties (targeting, sizes and more) from an existing line item. You can alternatively choose to add all this information manually, so this is an optional feature. Once you've chosen a line item, click "Copy" to add the line item's properties.
 
-**Start and end dates** allows you to set the future period for your forcast.
+**Start and end dates** allows you to set the future period for your forecast.
 
-**Team** allows you to restrict your analysis to the set of sites that belongs to your chosen team.
+**Team** allows you to restrict your analysis to the set of sites that belongs to your chosen [team](../users/users-teams-and-roles-1.md).
 
 **Creative width and height** lets you specify one or more sizes that should be included. If you set no dimensions, this means that the reach analysis will assume the line item can deliver on all ad units regardless of dimensions.
 

@@ -32,7 +32,7 @@ You can specify how ads should be **rendered** onto your website. If you have a 
 
 **Rate limits** allows you to limit the traffic (viewable/visible/rendered/regular impressions or clicks) that a site or ad unit receives in a given timeframe. A rate limit may be useful to ad networks that are allowed to sell only a defined set of impressions on a publisher’s behalf. If this applies to you, simply add the number of impressions, clicks or other that you are allowed to sell, then choose the period. You can also add labels if the limitation should apply only to certain line items. For example, if you add “cars” to the label field, then the rate limit will apply to all line items with the label "cars", while all other line items will be free to deliver without limitation.
 
-Assign the [**teams** ](../users/users-teams-and-roles.md)of users who should have access to book campaigns targeted to this site and/or manage the site (their privileges are determined by [Roles](../users/users-teams-and-roles.md)).
+Assign the [**teams**](../users/users-teams-and-roles-1.md) **** of users who should have access to book campaigns targeted to this site and/or manage the site (their privileges are determined by [Roles](../users/users-teams-and-roles-2.md)).
 
 **Block lists** let publishers block certain ads from showing on their sites, which is especially important for marketplace publishers.&#x20;
 
