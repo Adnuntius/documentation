@@ -4,37 +4,44 @@ description: The network page lets you make certain changes to the network as a 
 
 # Network
 
-**Name and Network ID**: You can change the name of the network if your company changes name. However, you can not change the ID.
+You can change the **name** of the network if your company changes name. However, you can not change the **network ID**.
 
-**Currencies**: The default currency is a currency that is chosen when your account is set up, and cannot be changed. The default currency is used when generating reports. You can add multiple currencies, and choose your preferred currency when creating line items. However, the reporting will always be done in your default currency.
+The **default currency** is a currency that is chosen when your network is created, and cannot be changed. The default currency is used when generating reports. You can add multiple **currencies**, and choose your preferred currency when creating line items. However, the reporting will always be done in your default currency.
 
-![Network page example](../../../.gitbook/assets/201811-reports-admin-network.png)
+![](<../../../.gitbook/assets/202207 Admin - Network.png>)
 
-**Timezone** is also set up when your account is created, and cannot be changed. However, you can choose a custom timezone on each ad unit when you as a publisher create those ad units. 
+**Timezone** is also set up when your account is created, and cannot be changed. However, you can choose a custom timezone on each [ad unit](../inventory/adunits-1.md) when you as a publisher create those ad units.
 
-**DMP Connection and site ID** lets you know if Adnuntius Data or Cxense are connected to your account. If you would like this changed, please reach out to us at [support@adnuntius.com](mailto:support@adnuntius.com).
+**Consent to use personal data** lets you specify whether consent is required or not. [Learn more about how we manage consent](../../../other-useful-information/identification-and-privacy/consent-processing-tcf2.md).
 
-**Ad server data export** lets you export granular data to your own database so that you can connect your data to for instance business intelligence or analytics tools. To read more about what we can do for you, please see [this blog post](https://adnuntius.com/adnuntius-brings-the-big-data/). To get this eabled, please contact [support@adnuntius.com](mailto:support@adnuntius.com).
+**DMP Connection and site ID** lets you know if Adnuntius Data or another DMP is connected to your account. If you would like this changed, please reach out to us at [support@adnuntius.com](mailto:support@adnuntius.com).
 
-**Consent to use personal data**: Adnuntius enables you to comply with privacy legislation such as the GDPR, and as part of this you can choose whether Adnuntius is allowed to assume consent \(and thus use personal data by default\), or if approval needs to be provided by the user before that user's data can be used in targeting.
+**Ad server data export** lets you export raw data to your own database so that you can connect your data to for instance business intelligence or analytics tools. You can also use one of our integrated [data exports](../../../adnuntius-data/user-interface-guide/admin/data-exports.md). To read more about what we can do for you, please see [this blog post](https://adnuntius.com/adnuntius-brings-the-big-data/). To get this enabled, please contact [support@adnuntius.com](mailto:support@adnuntius.com).
 
-**DMP connection and site ID**: If you have a connected DMP account, this will show the existing account set up.
-
-**Viewability calculation method** allows you to determine how viewability is calculated by Adnuntius. You can choose to divide viewable impressions by all impressions, or by rendered impressions only. As a point of comparison, Google Ad Manager defines viewability as impressions over rendered impressions, and it may make sense to choose this method if you are relying on lots of third party players delivering your ads \(as viewability cannot be easily calculated once served inside another system\).
+**CPM, eCPM and viewability calculation method** allows you to determine how viewability, CPM and eCPM is calculated by Adnuntius. You can choose to divide viewable impressions by all impressions, or by rendered impressions only. As comparison, Google Ad Manager defines viewability as impressions over rendered impressions, and it may make sense to choose this method if you are relying on lots of third party players delivering your ads (as viewability cannot be easily calculated once served inside another system).
 
 **Web notifications URL** lets you define a URL that system notifications will be sent to whenever they arise. If you want another system to pick up these notifications, then you can apply a URL to that system here.
 
-**App section visibility** lets you show or hide sections of the app that users do not have permissions to edit. _Show all_ means that Adnuntius will show all sections of the app at all times \(however, teams still dictate visibility of individual objects\), even though users will not be allowed to edit or add anything. _Hide ineditable sections_ means that Adnuntius will hide sections of the app that users do not have permissions to edit.
+**App section visibility** lets you show or hide sections of the app that users do not have permissions to edit. _Show all_ means that Adnuntius will show all sections of the app at all times (however, teams still dictate visibility of individual objects), even though users will not be allowed to edit or add anything. _Hide sections_ means that Adnuntius will hide sections of the app that users do not have permissions to edit.
 
-**User interface and report logos** lets you specify a logo that will be applied to the top left corner of admin.adnuntius.com \(user interface\), and to any report generated by Adnuntius \(report\). This way you can put your own touch on for instance reports that are shared with your customers.
+**User interface and report logos** lets you specify a logo that will be applied to the top left corner of admin.adnuntius.com (user interface), and to any report generated by Adnuntius (report). This way you can put your own touch on for instance reports that are shared with your customers.
 
-**Network-wide defaults** lets you define defaults that will help you use Adnuntius more efficiently. You can apply defaults for:
+**OpenRTB Bidding Fee** lets you apply a percentage fee that should be deducted before submitting OpenRTB bids.
 
-* Tiers: The default tier that will be applied to line items when they are created. 
-* Line item state: Set line items to approved, paused or stopped. 
-* Line item date range: Adnuntius uses today's date as a default start date - this range sets the default end date. If you for example add the number 7, line items will be created with default start date today and end date one week from now. 
-* Creative delivery: Set line items to open \(new line items default to same creative delivered multiple times per ad server response\), unique \(new line items default to no same creative from a line item delivering per ad server response\) or one per line item \(new line items default to max. of one creative from a line item per ad server response\).
-* Creative name: Set the default name on new creatives.
-* Geospatial targeting center point: Set the longitude/latitude for the default geospatial area center.
-* Geospatial targeting zoom: Set the longitude/latitude for the default geospatial area.
+## Network-Wide Defaults
 
+Network-wide defaults lets you define defaults that will help you use Adnuntius more efficiently.
+
+* The **default tier** that will be applied to line items when they are created.
+* The default **line item state**, and **marketplace line item state**, can be set to proposed, reserved, approved, paused or stopped.
+* **Days apart on line item dates** determines the distance between start and end dates.&#x20;
+* **Start day on calendars** lets you set the start day on calendars, e.g. Monday or Sunday.
+* **Field names** lets you rename certain field names like Impressions, Rendered Impressions and Earnings to whatever you want to call them.
+* **Line item (and marketplace line item) objective fields** lets you determine what objectives are allowed in your network. If you for example uncheck "Conversions" as an objective field then line items cannot be created with conversion objectives.
+* **Line item (and marketplace line item) smoothing** lets you set the default value; unsmoothed, even or frontloaded.&#x20;
+* **Creative delivery** lets you set line items to open (new line items default to same creative delivered multiple times per ad server response), unique (new line items default to no same creative from a line item delivering per ad server response) or one per line item (new line items default to max. of one creative from a line item per ad server response).
+* **Rate limit scope** lets you set the default values of rate limits; choose between "per user" and "line item-wide".
+* **IAB category on line item** lets you show or hide a field on line items that allow anyone booking campaigns to set an IAB category on their line items.&#x20;
+* **Default creative names** lets you set the default name on new creatives.
+* **Geospatial targeting center point** lets you set the longitude/latitude for the default geospatial area center.
+* **Geospatial targeting zoom** lets you set the longitude/latitude for the default geospatial area.
