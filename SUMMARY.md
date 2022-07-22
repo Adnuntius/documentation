@@ -35,6 +35,7 @@
     * [Teams](adnuntius-advertising/admin-ui/users/users-teams-and-roles-1.md)
     * [Roles](adnuntius-advertising/admin-ui/users/users-teams-and-roles-2.md)
     * [Notification Preferences](adnuntius-advertising/admin-ui/users/notification-preferences.md)
+    * [User Profile](adnuntius-advertising/admin-ui/users/user-profile.md)
   * [Design](adnuntius-advertising/admin-ui/design/README.md)
     * [Layouts and Examples](adnuntius-advertising/admin-ui/design/layouts.md)
     * [Marketplace Products](adnuntius-advertising/admin-ui/design/marketplace-products.md)
