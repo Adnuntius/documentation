@@ -42,6 +42,7 @@
     * [Products](adnuntius-advertising/admin-ui/design/products.md)
     * [Coupons](adnuntius-advertising/admin-ui/design/coupons.md)
   * [Admin](adnuntius-advertising/admin-ui/admin/README.md)
+    * [Data Exports](adnuntius-advertising/admin-ui/admin/data-exports.md)
     * [API Keys](adnuntius-advertising/admin-ui/admin/api-keys.md)
     * [CDN Uploads](adnuntius-advertising/admin-ui/admin/cdn-uploads.md)
     * [Custom Events](adnuntius-advertising/admin-ui/admin/custom-events.md)
