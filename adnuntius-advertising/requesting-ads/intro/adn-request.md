@@ -88,9 +88,17 @@ Specifies the ad unit floor price to be used, overriding the floor price of the 
 
 Specified as: `floorPrice: {amount: 11.12, currency: 'SEK'}`. A currency code and an amount must be specified for the floor price to be considered valid.
 
-#### onImpressionResponse
+#### onResponse
 
 A function that is called once a response from the ad server has been received. Must be a function if it is to be called. Function will be called even if no ads have been returned.
+
+#### onAllResponses
+
+A function that is called once a response from the ad server has been received across all ad units in the request. Must be a function if it is to be called. Function will be called even if no ads have been returned.
+
+#### onImpressionResponse
+
+A function that is called once a response from the ad server has been received. Must be a function if it is to be called. Must be a function if it is to be called. Function will only be called if an ad has been returned.
 
 #### onPageLoad
 
