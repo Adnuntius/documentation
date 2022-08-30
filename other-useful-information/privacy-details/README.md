@@ -277,7 +277,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Locations of servers:** Frankfurt, Stockholm, Singapore.
 
-**Data processing agreement:** [https://webcache.googleusercontent.com/search?q=cache:gphAOpN2KTMJ:https://www.vultr.com/legal/vultr\_gdpr\_dpa.pdf+\&cd=2\&hl=en\&ct=clnk\&gl=au](https://webcache.googleusercontent.com/search?q=cache:gphAOpN2KTMJ:https://www.vultr.com/legal/vultr\_gdpr\_dpa.pdf+\&cd=2\&hl=en\&ct=clnk\&gl=au)
+**Data processing agreement:** [https://drive.google.com/file/d/1FALSkoY0we9EP-lF88rFfroxAZAJBmAl/view?usp=sharing](https://drive.google.com/file/d/1FALSkoY0we9EP-lF88rFfroxAZAJBmAl/view?usp=sharing)
 
 ### CDN77
 
