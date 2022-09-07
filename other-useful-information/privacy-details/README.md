@@ -175,7 +175,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Locations of servers:** Germany and Finland.
 
-**Data processing agreement:** [https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing](https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing)
+**Data processing agreement:** [https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing\&resourcekey=0-ea\_4a8qjdN4XULwQQDrBeg](https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing\&resourcekey=0-ea\_4a8qjdN4XULwQQDrBeg)
 
 **Basis for transfer:** EU standard clauses.
 
