@@ -273,7 +273,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Contact information:** legal@vultr.com&#x20;
 
-**Sub-Processor's role:** Vultr handles all non-prebid traffic at the edge, leaving it encypted, and directs it to the nearest data center for processing.
+**Sub-Processor's role:** Vultr handles traffic at the edge, leaving it encypted, and directs it to the nearest data center for processing.
 
 **Locations of servers:** Frankfurt, Stockholm, Singapore.
 
