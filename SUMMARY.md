@@ -7,6 +7,7 @@
 * [User Interface Guide](adnuntius-advertising/admin-ui/README.md)
   * [Dashboards](adnuntius-advertising/admin-ui/dashboards.md)
   * [Advertising](adnuntius-advertising/admin-ui/advertising/README.md)
+    * [Line Item Templates](adnuntius-advertising/admin-ui/advertising/line-item-templates.md)
     * [Advertisers](adnuntius-advertising/admin-ui/advertising/advertisers.md)
     * [Orders](adnuntius-advertising/admin-ui/advertising/orders.md)
     * [Line Items](adnuntius-advertising/admin-ui/advertising/line-items.md)
