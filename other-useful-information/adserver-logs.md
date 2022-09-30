@@ -7,7 +7,7 @@ description: >-
 
 # Ad Server Logs
 
-Ad Server logs can be downloaded via an SFTP server or [pushed to cloud storage](../adnuntius-data/user-interface-guide/admin/data-exports.md). An example of log data can be found [here](https://api.adnuntius.com/rawlogs/). The logs are in a JSON format, with each line having the format described below.
+Ad Server logs can be downloaded via an SFTP server or [pushed to cloud storage](../adnuntius-data/user-interface-guide/admin/data-exports.md). An example of a single data record can be found [here](https://adnuntius.com/blog/adnuntius-brings-the-big-data). The logs are in a JSON format, with each line having the format described below.
 
 | Field Name         | Data Type                         | Description                                                                                                |
 | ------------------ | --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -99,20 +99,20 @@ Example:
 
 One of the following values:
 
-| Name        | Description                                                                              |
-| ----------- | ---------------------------------------------------------------------------------------- |
-| `TCF_PURPOSE_1` | IAB Europe Transparency & Consent Framework Purpose 1 - Store and/or access information on a device |
-| `TCF_PURPOSE_2` | IAB Europe Transparency & Consent Framework Purpose 2 - Select basic ads |
-| `TCF_PURPOSE_3` | IAB Europe Transparency & Consent Framework Purpose 3 - Create a personalised ads profile |
-| `TCF_PURPOSE_4` | IAB Europe Transparency & Consent Framework Purpose 4 - Select personalised ads |
-| `TCF_PURPOSE_5` | IAB Europe Transparency & Consent Framework Purpose 5 - Create a personalised content profile |
-| `TCF_PURPOSE_6` | IAB Europe Transparency & Consent Framework Purpose 6 - Select personalised content |
-| `TCF_PURPOSE_7` | IAB Europe Transparency & Consent Framework Purpose 7 - Measure ad performance |
-| `TCF_PURPOSE_8` | IAB Europe Transparency & Consent Framework Purpose 8 - Measure content performance |
-| `TCF_PURPOSE_9` | IAB Europe Transparency & Consent Framework Purpose 9 - Apply market research to generate audience insights |
-| `TCF_PURPOSE_10` | IAB Europe Transparency & Consent Framework Purpose 10 - Develop and improve products |
+| Name             | Description                                                                                                 |
+| ---------------- | ----------------------------------------------------------------------------------------------------------- |
+| `TCF_PURPOSE_1`  | IAB Europe Transparency & Consent Framework Purpose 1 - Store and/or access information on a device         |
+| `TCF_PURPOSE_2`  | IAB Europe Transparency & Consent Framework Purpose 2 - Select basic ads                                    |
+| `TCF_PURPOSE_3`  | IAB Europe Transparency & Consent Framework Purpose 3 - Create a personalised ads profile                   |
+| `TCF_PURPOSE_4`  | IAB Europe Transparency & Consent Framework Purpose 4 - Select personalised ads                             |
+| `TCF_PURPOSE_5`  | IAB Europe Transparency & Consent Framework Purpose 5 - Create a personalised content profile               |
+| `TCF_PURPOSE_6`  | IAB Europe Transparency & Consent Framework Purpose 6 - Select personalised content                         |
+| `TCF_PURPOSE_7`  | IAB Europe Transparency & Consent Framework Purpose 7 - Measure ad performance                              |
+| `TCF_PURPOSE_8`  | IAB Europe Transparency & Consent Framework Purpose 8 - Measure content performance                         |
+| `TCF_PURPOSE_9`  | IAB Europe Transparency & Consent Framework Purpose 9 - Apply market research to generate audience insights |
+| `TCF_PURPOSE_10` | IAB Europe Transparency & Consent Framework Purpose 10 - Develop and improve products                       |
 
-More information can be found [here](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions).
+More information can be found [here](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix\_A\_Purposes\_and\_Features\_Definitions).
 
 ## User Identifiers
 
