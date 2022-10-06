@@ -7,7 +7,7 @@ description: >-
 
 # Ad Server Logs
 
-Ad Server logs can be downloaded via an SFTP server or [pushed to cloud storage](../adnuntius-data/user-interface-guide/admin/data-exports.md). An example of a single data record can be found [here](https://adnuntius.com/blog/adnuntius-brings-the-big-data). The logs are in a JSON format, with each line having the format described below.
+Ad Server logs can be downloaded via an SFTP server or [pushed to cloud storage](../adnuntius-data/user-interface-guide/admin/data-exports.md). An example of the log files can be found [here](https://api.adnuntius.com/rawlogs/). The logs are in a JSON format, with each line having the format described below.
 
 | Field Name         | Data Type                         | Description                                                                                                |
 | ------------------ | --------------------------------- | ---------------------------------------------------------------------------------------------------------- |
