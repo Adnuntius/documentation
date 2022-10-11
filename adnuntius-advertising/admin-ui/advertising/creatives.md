@@ -74,6 +74,8 @@ If your user has access to create layouts, [here is how you do it](../design/lay
 
 If you have more than one creative on your line item, you can put a **share of voice** on the creatives to control delivery of this creative compared to others in the line item. If you give one creative 33% and the other 66% then one creative will have double the weight (attention) compared to the other. If you leave the field blank, then no creative will be prioritized more than the other.&#x20;
 
+**CPM bid** allows you to set a CPM bid specifically for this creative. This CPM bid will override any CPM bid set on the line item. This is an optional field, and if you leave it blank then the CPM bid on the line item will apply to this creative.&#x20;
+
 You can add **targeting** to both line items **** and creatives. To learn about targeting, please [see the targeting documentation](targeting.md).
 
 **Width and Height** means the dimensions of your creative. These dimensions are only used to find out which ad units are eligible to show this creative. An ad unit will always be set up with minimum and maximum width and height, and if an ad unit can only show 980x300 pixels, then a creative with added dimensions 980x150 will not show in this ad unit.
@@ -108,7 +110,7 @@ When a creative is created you will have access to the following resources.
 
 Creative charts provide you with insights into the creative's delivery. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
 
-![Example statistics for a creative.](<../../../.gitbook/assets/202207 Stats from Creative Page (1).png>)
+![Example statistics for a creative.](<../../../.gitbook/assets/202207 Stats from Creative Page.png>)
 
 ### Creative Preview
 
