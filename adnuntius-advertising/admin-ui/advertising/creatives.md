@@ -13,7 +13,7 @@ How to create a creative.
 There are different places in Adnuntius from where to create a creative, depending on your needs and preferences. Here are the differences.
 
 
-|    <br></br>           | From the Line Item page  | From the Creatives Overview | From a Library Creative |
+|    From where?           | From the Line Item page  | From the Creatives Overview | From a Library Creative |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Where to find it?        | On each line item, click “new creative” or “copy another creative” to create a new creative from another existing creative. | On the creatives overview page: [https://admin.adnuntius.com/creatives](https://admin.adnuntius.com/creatives).                       | On the library creatives overview page: [https://admin.adnuntius.com/library-creatives](https://admin.adnuntius.com/library-creatives).                               |
 | Bulk upload available?   | No.                                                                                                                         | Yes.                                                                                                                                  | Yes.                                                                                                                                                                  |
