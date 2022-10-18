@@ -45,7 +45,7 @@ Ad requests sent from the same network domain as the page content can help reduc
 | :--- | :--- | :--- |
 | `delivery.pubdomain.net` | CNAME | `delivery.adnuntius.com` |
 | `assets.pubdomain.net` | CNAME | `1291047346.rsc.cdn77.org` |
-| `assets2.pubdomain.net` | CNAME | `1291047346.rsc.cdn77.org` |
+| `assets2.pubdomain.net` | CNAME | `1791931415.rsc.cdn77.org` |
 | `adn.pubdomain.net` | CNAME | `1548354739.rsc.cdn77.org` |
 
 **Step 2.** Once you have configued the CNAME records as described above, please inform us at support@adnuntius.com **before** continuing to step 3. It is critical that you do not continue following these instructions until you have been informed that the necessary configuration in Adnuntius has been completed.
