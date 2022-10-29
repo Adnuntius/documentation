@@ -126,7 +126,10 @@ You can easily generate impression trackers and click trackers so that you can a
 
 ### Creative Tag
 
-If your creative is going to be served by a third party system, then you can generate a creative tag that can be pasted into the appropriate place in third-party systems to have this creative serve on third-party ad servers. Just choose the ad unit you want to use, and the tag is automatically created.
+If your creative is going to be served by a third party system, then you can generate a creative tag that can be pasted into the appropriate place in third-party systems to have this creative serve on third-party ad servers. Choosing an ad unit is optional:&#x20;
+
+* If you choose an ad unit then Adnuntius will collect statistics to that ad unit as well as the creative itself. Just choose the ad unit you want to use, and the tag is automatically created.
+* If you choose not to specify an ad unit the creative will serve just fine, and you will collect stats to the creative. However, no stats will be collected to any ad unit since you haven't specified any.&#x20;
 
 ![Creative tags](<../../../.gitbook/assets/202207 Creative Tags.png>)
 
