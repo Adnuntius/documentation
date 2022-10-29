@@ -4,7 +4,7 @@ description: Set rules for what you will allow on your site, and what should be 
 
 # Site Rulesets
 
-To create a new ruleset, go to and click "new" in the upper right corner. Give your ruleset a name and optional description of your choice.
+To create a new ruleset, go to [https://admin.adnuntius.com/site-rulesets](https://admin.adnuntius.com/site-rulesets) and click "new" in the upper right corner. Give your ruleset a name and optional description of your choice.
 
 <figure><img src="../../../.gitbook/assets/202210 Site Rulesets.png" alt=""><figcaption><p>Example ruleset</p></figcaption></figure>
 
