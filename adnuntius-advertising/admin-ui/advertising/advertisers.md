@@ -42,7 +42,7 @@ Once an advertiser is created you will see the following tabs below the Advertis
 
 The order tab gives you an overview of the orders belonging to this advertiser, and their team, salesperson and ad ops responsible.
 
-![Order overview from an Advertiser page](<../../../.gitbook/assets/202207 Orders from Advertiser Page (1).png>)
+![Order overview from an Advertiser page](<../../../.gitbook/assets/202207 Orders from Advertiser Page.png>)
 
 ### Line Items
 

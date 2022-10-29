@@ -11,11 +11,20 @@ You can set up as many exports as you want, to any of these services:&#x20;
 * Amazon S3
 * S3 compatible buckets
 * Google Cloud
+* Azure
 
 You can also download logs at sftp://data.adnuntius.com:8164, using your Adnuntius username and password to authenticate.&#x20;
 
-![Fields to be filled out when setting up an export to S3.](<../../../.gitbook/assets/202207 Exports - S3.png>)
+<figure><img src="../../../.gitbook/assets/202210 Exports.png" alt=""><figcaption><p>Example export.</p></figcaption></figure>
 
-![Fields to be filled out when setting up an export to an S3 compatible bucket.](<../../../.gitbook/assets/202207 Exports - S3 Compatible.png>)
+**Event types** lets you choose whether to export all events (in which case you may incur higher cost for data storage) or just some.&#x20;
 
-![Fields to be filled out when setting up an export to Google Cloud.](<../../../.gitbook/assets/202207 Exports - Google Cloud.png>)
+Below you will see the fields to be filled in when exporting to S3, S3 compatible buckets, Google Cloud and to Azure.&#x20;
+
+<figure><img src="../../../.gitbook/assets/202207 Exports - S3.png" alt=""><figcaption><p>Export to S3</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/202210 Exports - S3 Compatible (1).png" alt=""><figcaption><p>Export to S3 compatible bucket</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/202210 Exports - Google Cloud (1).png" alt=""><figcaption><p>Export to Google Cloud</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/202210 Exports - Azure.png" alt=""><figcaption><p>Export to Azure</p></figcaption></figure>

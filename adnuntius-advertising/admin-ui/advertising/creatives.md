@@ -12,8 +12,7 @@ How to create a creative.
 
 There are different places in Adnuntius from where to create a creative, depending on your needs and preferences. Here are the differences.
 
-
-|    From where?           | From the Line Item page  | From the Creatives Overview | From a Library Creative |
+| From where?              | From the Line Item page                                                                                                     | From the Creatives Overview                                                                                                           | From a Library Creative                                                                                                                                               |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Where to find it?        | On each line item, click “new creative” or “copy another creative” to create a new creative from another existing creative. | On the creatives overview page: [https://admin.adnuntius.com/creatives](https://admin.adnuntius.com/creatives).                       | On the library creatives overview page: [https://admin.adnuntius.com/library-creatives](https://admin.adnuntius.com/library-creatives).                               |
 | Bulk upload available?   | No.                                                                                                                         | Yes.                                                                                                                                  | Yes.                                                                                                                                                                  |
@@ -27,13 +26,13 @@ Read more about library creatives [here](library-creative.md).
 
 ## Creating a Single Creative
 
-After you have clicked to create a new creative (from the line item, or by clicking "new" in the upper right corner from the creative overview page or library creative overview page), give your creative a **name** of your choice.&#x20;
+After you have clicked to create a new creative (from the line item, or by clicking "new" in the upper right corner from the creative overview page or library creative overview page), give your creative a **name** of your choice.
 
-You can set the **state** of a creative to approved, incomplete or paused.&#x20;
+You can set the **state** of a creative to approved, incomplete or paused.
 
 * Approved means that it will start delivering as soon as the necessary assets as described below are added to the creative and the line item is set to deliver.
 * You can set the creative to Incomplete to prevent it from delivering, and to signal to yourself and colleagues that more information or material needs to be added before the creative is approved.
-* You can set the creative to Incomplete to prevent it from delivering, even though all necessary assets and information is added to the creative.&#x20;
+* You can set the creative to Incomplete to prevent it from delivering, even though all necessary assets and information is added to the creative.
 
 ![Example creative](<../../../.gitbook/assets/202207 Creative.png>)
 
@@ -65,7 +64,7 @@ If you want to target your programmatic creative to specific ad units, you can u
 {% endtab %}
 {% endtabs %}
 
-**Layout** specifies the file types and properties, and the types of formats ("look and feel") that you can serve with your campaign. When you select a layout, Adnuntius will tell you what information is needed for the creative. For example, if you choose a layout called "Image" then Adnuntius may ask you for an image file with a max size restriction, and a click URL.&#x20;
+**Layout** specifies the file types and properties, and the types of formats ("look and feel") that you can serve with your campaign. When you select a layout, Adnuntius will tell you what information is needed for the creative. For example, if you choose a layout called "Image" then Adnuntius may ask you for an image file with a max size restriction, and a click URL.
 
 {% hint style="info" %}
 If your user has access to create layouts, [here is how you do it](../design/layouts.md).
@@ -73,11 +72,11 @@ If your user has access to create layouts, [here is how you do it](../design/lay
 
 **Uploaded assets** is where you upload the files needed to assemble the creative. You can click to upload, or drag and drop. You can also drag and drop multiple files into the file drop field, and get all files into the creative with one move.
 
-If you have more than one creative on your line item, you can put a **share of voice** on the creatives to control delivery of this creative compared to others in the line item. If you give one creative 33% and the other 66% then one creative will have double the weight (attention) compared to the other. If you leave the field blank, then no creative will be prioritized more than the other.&#x20;
+If you have more than one creative on your line item, you can put a **share of voice** on the creatives to control delivery of this creative compared to others in the line item. If you give one creative 33% and the other 66% then one creative will have double the weight (attention) compared to the other. If you leave the field blank, then no creative will be prioritized more than the other.
 
-**CPM bid** allows you to set a CPM bid specifically for this creative. This CPM bid will override any CPM bid set on the line item. This is an optional field, and if you leave it blank then the CPM bid on the line item will apply to this creative.&#x20;
+**CPM bid** allows you to set a CPM bid specifically for this creative. This CPM bid will override any CPM bid set on the line item. This is an optional field, and if you leave it blank then the CPM bid on the line item will apply to this creative.
 
-You can add **targeting** to both line items **** and creatives. To learn about targeting, please [see the targeting documentation](targeting.md).
+You can add **targeting** to both line items \*\*\*\* and creatives. To learn about targeting, please [see the targeting documentation](targeting.md).
 
 **Width and Height** means the dimensions of your creative. These dimensions are only used to find out which ad units are eligible to show this creative. An ad unit will always be set up with minimum and maximum width and height, and if an ad unit can only show 980x300 pixels, then a creative with added dimensions 980x150 will not show in this ad unit.
 
@@ -99,7 +98,7 @@ You should now arrive at a new page where you can make changes to the creatives 
 * Assign or check the width and hight of the creative.
 * The remaining fields depend on the layout, and will change depending on the creative you want to create.
 
-When you have clicked to save a creative you can make changes to each creative according to the documentation above.&#x20;
+When you have clicked to save a creative you can make changes to each creative according to the documentation above.
 
 ![Manage the details of each creative before saving them.](<../../../.gitbook/assets/202207 Bulk Upload P2.png>)
 
@@ -111,7 +110,7 @@ When a creative is created you will have access to the following resources.
 
 Creative charts provide you with insights into the creative's delivery. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
 
-![Example statistics for a creative.](<../../../.gitbook/assets/202207 Stats from Creative Page.png>)
+![Example statistics for a creative.](<../../../.gitbook/assets/202207 Stats from Creative Page (1).png>)
 
 ### Creative Preview
 
