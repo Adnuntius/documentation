@@ -1,6 +1,6 @@
 ---
 description: >-
-  A site groups enable publishers to group multiple sites together, so that
+  A site groups enable publishers to group multiple sites together so that
   anyone buying campaigns can target multiple sites with the click of a button
   when creating a line item or creative.
 ---
