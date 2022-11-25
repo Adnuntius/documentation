@@ -34,6 +34,7 @@ The parameters listed above in the **Get Requests** section are also supported o
 | adUnits | - | An array of objects for the adunits that you wish to request. |
 | auId | ab123456789 \(string\) | The ad unit tag id in question. |
 | targetId | adn-123456789 \(string\) | The id of the HTML element you wish your ad to be placed in. |
+| metaData | `{"network!usi": "aaaa", "network!sessionId": "bbbb"}` | Pass in meta-data (such as frequency capping data) returned by a previous request. |
 
 Example POST Body:
 
@@ -48,7 +49,11 @@ Example POST Body:
             "auId":"xyz987",
             "targetId":"adn-xyz987"
         }
-    ]
+    ],
+    "metaData": {
+        "network!usi": "aaaa",
+        "network!sessionId": "bbbb"
+    }
 }
 ```
 
@@ -175,7 +180,11 @@ POST Body:
             "auId":"xyz987",
             "targetId":"adn-xyz987"
         }
-    ]
+    ],
+    "metaData": {
+        "network!usi": "aaaa",
+        "network!sessionId": "bbbb"
+    }
 }
 ```
 
