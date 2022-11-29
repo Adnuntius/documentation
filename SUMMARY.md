@@ -168,7 +168,6 @@
   * [Permission to use Personal Data (TCF2)](other-useful-information/identification-and-privacy/consent-processing-tcf2.md)
   * [Data Collection and Usage](other-useful-information/privacy-details/README.md)
   * [Am I Being Tracked?](other-useful-information/am-i-being-tracked.md)
-* [Frequently Asked Questions](other-useful-information/faq.md)
 * [Send segments Cxense](other-useful-information/send-segments-cxense.md)
 * [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
@@ -176,3 +175,8 @@
 * [Whitelabeling](other-useful-information/whitelabeling.md)
 * [Firewall Access](other-useful-information/firewall-access.md)
 * [Ad Server Logs](other-useful-information/adserver-logs.md)
+
+## Troubleshooting
+
+* [FAQs](troubleshooting/faq.md)
+* [Adnuntius System Status](https://status.adnuntius.com)
