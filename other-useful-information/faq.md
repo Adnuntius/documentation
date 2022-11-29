@@ -2,7 +2,7 @@
 description: General FAQ
 ---
 
-# Frequently Asked Questions
+# FAQs
 
 ## Can ads be loaded synchronously or asynchronously?
 

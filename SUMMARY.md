@@ -178,5 +178,6 @@
 
 ## Troubleshooting
 
-* [FAQs](troubleshooting/faq.md)
+* [FAQs](other-useful-information/faq.md)
+* [How do I contact support?](troubleshooting/how-do-i-contact-support.md)
 * [Adnuntius System Status](https://status.adnuntius.com)
