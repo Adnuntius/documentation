@@ -108,10 +108,11 @@
 
 ## Adnuntius Marketplace
 
-* [Adnuntius Marketplace](adnuntius-marketplace/adnuntius-buying-network/README.md)
-  * [For Network Owners](adnuntius-marketplace/adnuntius-buying-network/abn-for-network-owners.md)
-  * [For Buyers](adnuntius-marketplace/adnuntius-buying-network/abn-for-buyers.md)
-  * [For Publishers](adnuntius-marketplace/adnuntius-buying-network/abn-for-publishers.md)
+* [Overview](adnuntius-marketplace/overview.md)
+* [Getting Started](adnuntius-marketplace/getting-started/README.md)
+  * [For Network Owners](adnuntius-marketplace/getting-started/abn-for-network-owners.md)
+  * [For Buyers](adnuntius-marketplace/getting-started/abn-for-buyers.md)
+  * [For Publishers](adnuntius-marketplace/getting-started/abn-for-publishers.md)
 
 ## Adnuntius Self-Service
 
@@ -166,9 +167,9 @@
   * [Prebid Configuration](adnuntius-connect/user-interface-guide-wip/prebid-configuration.md)
   * [Publish](adnuntius-connect/user-interface-guide-wip/publish.md)
 
-## Onboarding Guides
+## Adnuntius Email Advertising
 
-* [Adnuntius Email Advertising](onboarding-guides/adnuntius-email-advertising.md)
+* [Getting Started](adnuntius-email-advertising/getting-started.md)
 
 ## Other Useful Information
 
