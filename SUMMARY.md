@@ -4,6 +4,10 @@
 
 ## Adnuntius Advertising
 
+* [Overview](adnuntius-advertising/overview.md)
+* [Getting Started](adnuntius-advertising/adnuntius-ad-server/README.md)
+  * [Ad Server for Agencies](adnuntius-advertising/adnuntius-ad-server/ad-server-for-agencies.md)
+  * [Ad Server for Publishers](adnuntius-advertising/adnuntius-ad-server/adnuntius-adserver.md)
 * [User Interface Guide](adnuntius-advertising/admin-ui/README.md)
   * [Dashboards](adnuntius-advertising/admin-ui/dashboards.md)
   * [Advertising](adnuntius-advertising/admin-ui/advertising/README.md)
@@ -109,6 +113,13 @@
   * [For Buyers](adnuntius-marketplace/adnuntius-buying-network/abn-for-buyers.md)
   * [For Publishers](adnuntius-marketplace/adnuntius-buying-network/abn-for-publishers.md)
 
+## Adnuntius Self-Service
+
+* [Overview](adnuntius-self-service/overview.md)
+* [Getting Started](adnuntius-self-service/getting-started.md)
+* [User Interface Guide](adnuntius-self-service/user-interface-guide.md)
+* [Marketing Tips (Work in Progress)](adnuntius-self-service/marketing-tips.md)
+
 ## Adnuntius Data
 
 * [Overview](adnuntius-data/overview.md)
@@ -142,11 +153,11 @@
 
 ## Adnuntius Connect
 
-* [Integration Guide (Work in Progress)](adnuntius-connect/integration-guide-work-in-progress/README.md)
-  * [Prebid - Google ad manager](adnuntius-connect/integration-guide-work-in-progress/prebid-google-ad-manager.md)
-  * [Privacy GTM integration](adnuntius-connect/integration-guide-work-in-progress/privacy-gtm-integration.md)
-  * [Consents API](adnuntius-connect/integration-guide-work-in-progress/consents-api.md)
-  * [TCF API](adnuntius-connect/integration-guide-work-in-progress/tcf-api.md)
+* [Integration Guide (Work in Progress)](adnuntius-connect/integration-guide/README.md)
+  * [Prebid - Google ad manager](adnuntius-connect/integration-guide/prebid-google-ad-manager.md)
+  * [Privacy GTM integration](adnuntius-connect/integration-guide/privacy-gtm-integration.md)
+  * [Consents API](adnuntius-connect/integration-guide/consents-api.md)
+  * [TCF API](adnuntius-connect/integration-guide/tcf-api.md)
 * [UI Guide (Work in Progress)](adnuntius-connect/user-interface-guide-wip/README.md)
   * [Containers and Dashboards](adnuntius-connect/user-interface-guide-wip/containers-and-dashboards.md)
   * [Privacy (updates in progress)](adnuntius-connect/user-interface-guide-wip/privacy.md)
@@ -157,12 +168,6 @@
 
 ## Onboarding Guides
 
-* [Adnuntius Ad Server](onboarding-guides/adnuntius-ad-server/README.md)
-  * [Ad Server for Agencies](onboarding-guides/adnuntius-ad-server/ad-server-for-agencies.md)
-  * [Ad Server for Publishers](onboarding-guides/adnuntius-ad-server/adnuntius-adserver.md)
-* [Adnuntius Self-Service](onboarding-guides/adnuntius-self-service/README.md)
-  * [User Interface Guide](onboarding-guides/adnuntius-self-service/user-interface-guide.md)
-  * [Marketing Tips (Work in Progress)](onboarding-guides/adnuntius-self-service/marketing-tips-work-in-progress.md)
 * [Adnuntius Email Advertising](onboarding-guides/adnuntius-email-advertising.md)
 
 ## Other Useful Information

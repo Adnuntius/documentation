@@ -7,18 +7,7 @@ description: >-
 
 # Adnuntius Documentation
 
-## Adnuntius Advertising
+## Choose a Product:
 
-Adnuntius Advertising lets publishers connect, manage and grow programmatic and direct revenue from any source in one application, add value with new and rich formats that are fast to implement and simple to operate at scale, integrate data effortlessly to activate user insights, and much more. It is by far one of the world's fastest and most flexible advertising platforms on the market.
+<table data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center"><strong>Adnuntius Ad Server</strong></td><td></td><td><a href="adnuntius-advertising/overview.md">overview.md</a></td></tr><tr><td></td><td align="center"><strong>Adnuntius Marketplace</strong></td><td></td><td><a href="adnuntius-marketplace/adnuntius-buying-network/">adnuntius-buying-network</a></td></tr><tr><td></td><td align="center"><strong>Adnuntius Self-Service</strong></td><td></td><td><a href="adnuntius-self-service/overview.md">overview.md</a></td></tr><tr><td></td><td align="center"><strong>Adnuntius Data</strong></td><td></td><td><a href="adnuntius-data/overview.md">overview.md</a></td></tr><tr><td></td><td align="center"><strong>Adnuntius Connect</strong></td><td></td><td><a href="adnuntius-connect/integration-guide/">integration-guide</a></td></tr></tbody></table>
 
-* [User interface guide](adnuntius-advertising/admin-ui/)
-* [API documentation](adnuntius-advertising/admin-api/)
-* [Developer's guide: how to request ads](adnuntius-advertising/requesting-ads/)
-* [Onboarding guide](onboarding-guides/adnuntius-ad-server/adnuntius-adserver.md)
-
-## Adnuntius Data
-
-Adnuntius Data lets anyone with online operations unify 1st and 3rd party data and eliminate silos, create segments with consistent user profiles, and activate the data in any system. This is the tool for you who want to take control of and act on user information in a responsible way, now that 3rd party cookies are about to disappear.
-
-* [User interface guide](adnuntius-data/user-interface-guide/)
-* [Developer's guide: how to send data.](adnuntius-data/api-documentation/)

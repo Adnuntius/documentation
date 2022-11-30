@@ -10,7 +10,7 @@ description: >-
 How to create products for self-service advertising.
 {% endembed %}
 
-Please note that this section is only visible if you are a customer of Adnuntius Self-Service. If you are not but want to learn more, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) or see an [online demo video here](https://adnuntius.com/products/adnuntius-self-service/). Also, see [here ](../../../onboarding-guides/adnuntius-self-service/)if you want to learn how to set up Adnuntius Self-Service. Here is how you create a product. First, go to [https://admin.adnuntius.com/admin/products](https://admin.adnuntius.com/admin/products) and click "new" in the upper right corner.
+Please note that this section is only visible if you are a customer of Adnuntius Self-Service. If you are not but want to learn more, please contact us at [support@adnuntius.com](mailto:support@adnuntius.com) or see an [online demo video here](https://adnuntius.com/products/adnuntius-self-service/). Also, see [here ](../../../adnuntius-self-service/getting-started.md)if you want to learn how to set up Adnuntius Self-Service. Here is how you create a product. First, go to [https://admin.adnuntius.com/admin/products](https://admin.adnuntius.com/admin/products) and click "new" in the upper right corner.
 
 ![](../../../.gitbook/assets/ss-product.png)
 
