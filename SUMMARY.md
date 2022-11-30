@@ -102,8 +102,17 @@
   * [Prebid Server](adnuntius-advertising/requesting-ads/prebid-server.md)
   * [Prebid](https://docs.prebid.org/dev-docs/bidders/adnuntius)
 
+## Adnuntius Marketplace
+
+* [Adnuntius Marketplace](adnuntius-marketplace/adnuntius-buying-network/README.md)
+  * [For Network Owners](adnuntius-marketplace/adnuntius-buying-network/abn-for-network-owners.md)
+  * [For Buyers](adnuntius-marketplace/adnuntius-buying-network/abn-for-buyers.md)
+  * [For Publishers](adnuntius-marketplace/adnuntius-buying-network/abn-for-publishers.md)
+
 ## Adnuntius Data
 
+* [Overview](adnuntius-data/overview.md)
+* [Getting Started](adnuntius-data/adnuntius-data-1.md)
 * [User Interface Guide](adnuntius-data/user-interface-guide/README.md)
   * [Segmentation](adnuntius-data/user-interface-guide/segmentation/README.md)
     * [Triggers](adnuntius-data/user-interface-guide/segmentation/triggers.md)
@@ -151,15 +160,10 @@
 * [Adnuntius Ad Server](onboarding-guides/adnuntius-ad-server/README.md)
   * [Ad Server for Agencies](onboarding-guides/adnuntius-ad-server/ad-server-for-agencies.md)
   * [Ad Server for Publishers](onboarding-guides/adnuntius-ad-server/adnuntius-adserver.md)
-* [Adnuntius Marketplace](onboarding-guides/adnuntius-buying-network/README.md)
-  * [For Network Owners](onboarding-guides/adnuntius-buying-network/abn-for-network-owners.md)
-  * [For Buyers](onboarding-guides/adnuntius-buying-network/abn-for-buyers.md)
-  * [For Publishers](onboarding-guides/adnuntius-buying-network/abn-for-publishers.md)
 * [Adnuntius Self-Service](onboarding-guides/adnuntius-self-service/README.md)
   * [User Interface Guide](onboarding-guides/adnuntius-self-service/user-interface-guide.md)
   * [Marketing Tips (Work in Progress)](onboarding-guides/adnuntius-self-service/marketing-tips-work-in-progress.md)
 * [Adnuntius Email Advertising](onboarding-guides/adnuntius-email-advertising.md)
-* [Adnuntius Data](onboarding-guides/adnuntius-data-1.md)
 
 ## Other Useful Information
 
