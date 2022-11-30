@@ -9,7 +9,7 @@ description: >-
 
 This is the tool for you who want to take control of and act on user information in a responsible way, now that 3rd party cookies are about to disappear.
 
-1. Getting Started
-2. [User Interface Guide](user-interface-guide/)
-3. [API Documentation](api-documentation/)
-4. [Segment Sharing](segment-sharing/segment-sharing.md)
+* [Getting Started](getting-started.md)
+* [User Interface Guide](user-interface-guide/)
+* [API Documentation](api-documentation/)
+* [Segment Sharing](segment-sharing/segment-sharing.md)

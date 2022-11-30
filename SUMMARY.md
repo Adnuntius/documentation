@@ -112,7 +112,7 @@
 ## Adnuntius Data
 
 * [Overview](adnuntius-data/overview.md)
-* [Getting Started](adnuntius-data/adnuntius-data-1.md)
+* [Getting Started](adnuntius-data/getting-started.md)
 * [User Interface Guide](adnuntius-data/user-interface-guide/README.md)
   * [Segmentation](adnuntius-data/user-interface-guide/segmentation/README.md)
     * [Triggers](adnuntius-data/user-interface-guide/segmentation/triggers.md)
