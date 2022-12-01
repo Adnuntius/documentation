@@ -29,9 +29,9 @@ description: >-
 
 ## Switching between Networks
 
-If you have access to multiple networks, you can switch between them by clicking the information ("i") icon in the top right corner, next to the search field.
+If you have access to multiple networks, you can switch between them by clicking the icon formed as four stacked boxes in the top right corner, next to blue "new" button.
 
-![Switching between networks.](<../../.gitbook/assets/Change Network.png>)
+![](<../../.gitbook/assets/Change Network.png>)
 
 ## Switching between Applications
 
