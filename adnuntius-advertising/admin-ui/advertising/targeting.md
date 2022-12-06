@@ -100,7 +100,7 @@ Adnuntius uses Netacuity Pulse to provide you with excellent location targeting.
 
 ## Device Targeting
 
-Device targeting lets you target ads to specific devices. Simply choose a device type, operating system, or brand, hit "save" and your ad is targeted. You may even chose multiple categories and options within each category at the same time, although bear in mind that if you select a combination such as Desktop AND Apple Devices you will get no matches (selections within each category are interpreted as OR, between categories are interpreted as AND, and multiple rows are OR).
+Device targeting lets you target ads to specific devices. Simply choose a device type, operating system, or brand, hit "save", and your ad is targeted. You may even chose multiple categories and options within each category at the same time, although bear in mind that if you select a combination such as Desktop AND Samsung you will get no matches. The reason is that Samsung is a brand of mobile device only, and we join together multiple categories with an AND (however selections within each category are joined with an OR, as are multiple rows).
 
 <figure><img src="../../../.gitbook/assets/DeviceTargeting.png" alt=""><figcaption><p>Add device targeting to your line items and/or creatives.</p></figcaption></figure>
 
