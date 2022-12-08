@@ -20,6 +20,8 @@ Whenever a marketplace product is created and assigned to one or more buyers, th
 
 Give the product a **name and description** of your choice. The name and description will be available to the buyers that you allow access to use this product.
 
+**Objective Requirements** allows you to specifiy if a Marketplace Advertiser has to select an Objective or not. You can set the value to **ANY** (Advertisers must specify at least one objective), **IMPRESSIONS** (Advertisers must specify an impressions objective) or **OPTIONAL** (Advertisers do not need to supply any objective).
+
 **Minimum CPM** specifies the minimum CPM bid that the marketplace advertiser has to pay when buying advertising through this product. The **CPM Value** determines if that price should be a fixed price, or if buyers should be allowed to bid higher as well.
 
 * Minimum CPC specifies the minimum CPC if you choose to offer it (network owners can turn on and off different cost models available under the [Network Section](../../../adnuntius-data/user-interface-guide/admin/network.md)).
