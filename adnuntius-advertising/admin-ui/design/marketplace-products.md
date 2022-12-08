@@ -20,16 +20,18 @@ Whenever a marketplace product is created and assigned to one or more buyers, th
 
 Give the product a **name and description** of your choice. The name and description will be available to the buyers that you allow access to use this product.
 
-**Objective Requirements** allows you to specifiy if a Marketplace Advertiser has to select an Objective or not. You can set the value to **ANY** (Advertisers must specify at least one objective), **IMPRESSIONS** (Advertisers must specify an impressions objective) or **OPTIONAL** (Advertisers do not need to supply any objective).
+**Objective Requirements** allows you to specifiy if a Marketplace Advertiser has to select an Objective or not. You can set the value to **Any** (Advertisers must specify at least one objective), **Impressions** (Advertisers must specify an impressions objective) or **Optional** (Advertisers do not need to supply any objective).
 
-**Minimum CPM** specifies the minimum CPM bid that the marketplace advertiser has to pay when buying advertising through this product. The **CPM Value** determines if that price should be a fixed price, or if buyers should be allowed to bid higher as well.
+**Minimum CPM** specifies the minimum CPM bid that the marketplace advertiser has to pay when buying advertising through this product. The **CPM Value** determines if that price should be a fixed price, or if buyers should be allowed to bid higher as well. The **Bid Strategy Option** determines if a Marketplace Advertiser will always bid their nominated CPM (Standrd only) or if they can bid a CPM that is proportion to ad unit viewability (vCPM permitted).
 
 * Minimum CPC specifies the minimum CPC if you choose to offer it (network owners can turn on and off different cost models available under the [Network Section](../../../adnuntius-data/user-interface-guide/admin/network.md)).
 * Minimum and maximum budgets specify the budget constraints that marketplace advertisers will be allowed to put into their campaigns (max budgets can for instance be used to avoid mistakes).
 
+**Dimensions** lets you limit the creative dimensions allowed for a Marketplace Product. If no dimensions are added means creatives can have any dimensions.
+
 **Rate limits** allows you to specify for instance frequency capping, for instance that the marketplace advertiser's campaign will automatically deliver max 3 impressions per 24 hours.
 
-Review workflow lets you specify whether a marketplace advertiser's creatives should be reviewed by a network admin before they are allowed to go live. Please note that if you are part of a shared marketplace where multiple publishers participate, please [ask Adnuntius](mailto:support@adnuntius.com) whether the network is set up with ad ops resources to perform that review.
+**Review Workflow** lets you specify whether a marketplace advertiser's creatives should be reviewed by a network admin before they are allowed to go live. Please note that if you are part of a shared marketplace where multiple publishers participate, please [ask Adnuntius](mailto:support@adnuntius.com) whether the network is set up with ad ops resources to perform that review.
 
 **Default tier** specifies in which tier the marketplace advertiser's line items will be placed when they use this product. You can therefore decide which priority that the line items should have relative to other line items.
 
