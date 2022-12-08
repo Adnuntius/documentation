@@ -35,6 +35,8 @@ Give the product a **name and description** of your choice. The name and descrip
 
 **Default tier** specifies in which tier the marketplace advertiser's line items will be placed when they use this product. You can therefore decide which priority that the line items should have relative to other line items.
 
+**Default Deal ID** allows you to add a deal ID to the product. Any campaigns created using this product will have this deal ID assigned by default.
+
 **Teams** is where you can choose which teams (marketplace advertisers) should have access to this product.
 
 **Layouts** lets you make different [layouts ](layouts.md)available to buyers. For example, if you want a specified set of marketplace advertisers to have access to buy the layout parallax ([see example here](https://admin.adnuntius.com/admin/layout-examples/layout-example/parallax-layout-example)), then you can add this layout to the product. When added, advertisers will be able to choose between only the layouts that you enable here.
