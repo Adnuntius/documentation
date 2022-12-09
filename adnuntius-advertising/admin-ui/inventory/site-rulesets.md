@@ -16,3 +16,4 @@ The **floor price** lets you set a minimum price for all your ad units in one pl
 
 * If you set your restrictions to "block" then you will block all your entries but allow anything else.&#x20;
 * If you set your restrictions to "allow" then you will allow only the entries you have entered.&#x20;
+* If you use the Blocked Advertiser Domains and enter e.g. "example.com", then creatives that on click lead to that domain will be blocked from serving.
