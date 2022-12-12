@@ -33,9 +33,6 @@ Ad Server logs can be downloaded via an SFTP server or [pushed to cloud storage]
 | `advertiser`      | ObjectId                          | The Adnuntius Creative that won the auction                                                                |
 | `team`            | ObjectId                          | The Adnuntius Team of the auction winning Line Item                                                        |
 
-{% hint style="info" %}
-You can also read more about log data and see an example of a single data record here: [https://adnuntius.com/blog/adnuntius-brings-the-big-data](https://adnuntius.com/blog/adnuntius-brings-the-big-data)
-{% endhint %}
 
 ## Object Identifiers
 
