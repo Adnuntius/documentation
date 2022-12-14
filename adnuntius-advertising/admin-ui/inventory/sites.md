@@ -34,6 +34,8 @@ You can specify how ads should be **rendered** onto your website. If you have a 
 
 Assign the [**teams**](../users/users-teams-and-roles-1.md) **** of users who should have access to book campaigns targeted to this site and/or manage the site (their privileges are determined by [Roles](../users/users-teams-and-roles-2.md)).
 
+Assign [**Site Rulesets**](site-rulesets.md) to set rules for what you will allow on your site, and what should be prohibited.
+
 **Block lists** let publishers block certain ads from showing on their sites, which is especially important for marketplace publishers.&#x20;
 
 * _Blocked IAB categories_ lets you block ads under a certain category. If anyone managing [Advertisers ](../advertising/advertisers.md)specify one or more IAB categories, then you can use this information to block certain categories from being displayed.&#x20;
