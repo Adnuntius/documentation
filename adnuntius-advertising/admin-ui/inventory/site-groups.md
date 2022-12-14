@@ -15,7 +15,9 @@ How to create a site group.
 
 To create a site group [go to Site Groups under the Inventory section](https://admin.adnuntius.com/site-groups), and then click "New" in the upper right corner. Give the site group a **name**, an optional **description**, and any optional **labels** to make search and reporting easier.&#x20;
 
-![Creating a site group.](<../../../.gitbook/assets/202207 Site Groups - Fields.png>)
+<figure><img src="../../../.gitbook/assets/SiteGroup.png" alt=""><figcaption></figcaption></figure>
+
+Assign a site group **Owner** to mark that the site group belongs to a marketplace publisher and allows the team access defined here to also apply to sites of the same site group.
 
 Choose the [**teams** ](../users/users-teams-and-roles-1.md)that should have access to target line items and creatives to this site group. Then click save.
 
