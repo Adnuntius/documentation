@@ -110,7 +110,7 @@ When a creative is created you will have access to the following resources.
 
 Creative charts provide you with insights into the creative's delivery. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
 
-![Example statistics for a creative.](<../../../.gitbook/assets/202207 Stats from Creative Page (1).png>)
+![Example statistics for a creative.](<../../../.gitbook/assets/202207 Stats from Creative Page.png>)
 
 ### Creative Preview
 

@@ -16,7 +16,7 @@ A Site belongs to an Earnings Account, and can contain multiple Ad Units as its 
 
 To create a site, [go to Sites under the Inventory section](https://admin.adnuntius.com/sites), and then click "new" in the upper right corner.
 
-![The fields for creating a site.](<../../../.gitbook/assets/202207 Site - Fields.png>)
+<figure><img src="../../../.gitbook/assets/CreateSite.png" alt=""><figcaption></figcaption></figure>
 
 Give your site a **name** and optional **description**. The **site URL** can be added, and if so then it can be used by anyone targeting their campaigns to find ad units under the URL you specify here.
 
