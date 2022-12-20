@@ -31,11 +31,17 @@ If your user is the role of a Marketplace Advertiser, then you will see the obje
 
 _- Please note that this step does not apply to administrators or other user roles. -_
 
-![](../../../.gitbook/assets/BasedonProduct.png) If you select the line item to be based on a "**Product**" you may be asked to choose one or have the option to update and change the pre-selected product. A [Marketplace Product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
+If you select the line item to be based on a "**Product**" you may be asked to choose one or have the option to update and change the pre-selected product.\
+\
+\
+<img src="../../../.gitbook/assets/BasedonProduct.png" alt="" data-size="original">\
+A [Marketplace Product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
 
 ![If you're a Marketplace Advertiser you will be asked to choose a product.](../../../.gitbook/assets/mp-products.png)
 
-![](<../../../.gitbook/assets/BasedonProposal (1).png>) If you select the line item to be based on a "**Proposal**" you need to select one ore more sites that belong to the same publisher. A Line Item Proposal allows a marketplace advertiser to build their own proposal with start and end dates, delivery objectives (impressions, clicks or conversions), pricing and targeting. The line item will be submitted to the publisher for approval before it can deliver.
+If you select the line item to be based on a "**Proposal**" you need to select one ore more sites that belong to the same publisher.\
+![](<../../../.gitbook/assets/BasedonProposal (1).png>)\
+A Line Item Proposal allows a marketplace advertiser to build their own proposal with start and end dates, delivery objectives (impressions, clicks or conversions), pricing and targeting. The line item will be submitted to the publisher for approval before it can deliver.
 
 <figure><img src="../../../.gitbook/assets/SiteSelection.png" alt=""><figcaption></figcaption></figure>
 
