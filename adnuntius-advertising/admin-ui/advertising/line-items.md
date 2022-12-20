@@ -25,11 +25,27 @@ Give the line item a **start and end date and time**. If you choose not to provi
 
 ![Example line item](<../../../.gitbook/assets/202207 Line Item.png>)
 
-In order form a line item to run, it needs to be assigned to an **Order**.&#x20;
+In order for a line item to run, it needs to be assigned to an **Order**.&#x20;
 
-If your user is the role of a Marketplace Advertiser, then you will see the object "**Product**" and you may be asked to choose one. Please note that this step does not apply to administrators or other user roles. A [marketplace product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
+If your user is the role of a Marketplace Advertiser, then you will see the object "**Type**" and you may be asked to choose between "**Based on Product** (Line item is based off a pre-defined product and can deliver as soon as it's set up)" or "**Based on Proposal** (Line item is based off your own proposal and will require publishers approval to deliver)".&#x20;
+
+_- Please note that this step does not apply to administrators or other user roles. -_
+
+If you select the line item to be based on a "**Product**" you may be asked to choose one or have the option to update and change the pre-selected product.
+
+<figure><img src="../../../.gitbook/assets/BasedonProduct.png" alt=""><figcaption></figcaption></figure>
+
+A [Marketplace Product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
 
 ![If you're a Marketplace Advertiser you will be asked to choose a product.](../../../.gitbook/assets/mp-products.png)
+
+If you select the line item to be based on a "**Proposal**" you need to select one ore more sites that belong to the same publisher.
+
+<figure><img src="../../../.gitbook/assets/BasedonProposal (1).png" alt=""><figcaption></figcaption></figure>
+
+A Line Item Proposal allows a marketplace advertiser to build their own proposal with start and end dates, delivery objectives (impressions, clicks or conversions), pricing and targeting. The line item will be submitted to the publisher for approval before it can deliver.
+
+<figure><img src="../../../.gitbook/assets/SiteSelection.png" alt=""><figcaption></figcaption></figure>
 
 The line item's **delivery** shows you certain information about the line item's status.&#x20;
 
