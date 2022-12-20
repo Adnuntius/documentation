@@ -16,7 +16,7 @@ An earnings account contains one or more sites, and makes it easy to keep track 
 A site can only have one earnings account, as registering the same earnings multiple places would result in the wrong earnings. However, an earnings account may contain multiple sites.
 {% endhint %}
 
-![Example earnings account](../../../.gitbook/assets/201811-advertising-ea.png)
+<figure><img src="../../../.gitbook/assets/EarningsAccount.png" alt=""><figcaption></figcaption></figure>
 
 **Name, description and address**: Give the earnings account a name and description (optional) of your choice. You can also add an address to the account (optional).
 
@@ -25,6 +25,8 @@ Add a **Team** to the earnings account if you want to restrict access to a certa
 **External reference:** Add an external reference (optional) if you want to match the earnings account with the same account in another system. For instance, if you are an ad network working with publishing partners, and a publisher is registered in your invoicing system with customer ID 123456, then you can add 123456 as an external reference in Adnuntius. This way you can easily recognize two different entries as the same item across two different systems, which may in turn speed up processes like invoicing.
 
 **Revenue share**: If you are an ad network or a marketer with publishing partners, where the publisher is entitled to a share of revenue, then you can specify the revenue share. For example, if you add 10% as revenue share, this means that you award this earnings account 10% of whatever is earned from the sites belonging to this earnings account.
+
+**Direct Deal Revenue Share:** If this is a **Marketplace** earnings account, then a Direct Deal revenue share can be provided for any line-items that are booked without using a marketplace product. For normal (non-marketplace) networks, this field can be ignored and only the **Revenue Share** field above should be used.
 
 **Labels** can be added to make reporting work for you. Let's say you add the label "Norway" to a set of earnings accounts, and then want to run a report only for this set of accounts. You can then run a report which filters on these accounts specifically. [Read more about reports](../queries/publishing-queries.md).
 
