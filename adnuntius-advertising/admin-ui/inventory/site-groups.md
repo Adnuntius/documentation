@@ -17,7 +17,7 @@ To create a site group [go to Site Groups under the Inventory section](https://a
 
 <figure><img src="../../../.gitbook/assets/SiteGroup.png" alt=""><figcaption></figcaption></figure>
 
-Assign a site group **Owner** to mark that the site group belongs to a marketplace publisher and allows the team access defined here to also apply to sites of the same site group.
+Assign a **Marketplace** **Owner** to mark that the site group belongs to a marketplace publisher and allows the team access defined here to also apply to sites of the same site group.
 
 Choose the [**teams** ](../users/users-teams-and-roles-1.md)that should have access to target line items and creatives to this site group. Then click save.
 
