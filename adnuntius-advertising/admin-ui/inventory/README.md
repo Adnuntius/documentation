@@ -20,7 +20,8 @@ Introduction to the inventory section.
 | [Ad Unit](adunits-1.md)                  | A placement that goes onto your site, so that you can later fill it with ads. It is as such an empty container that sets aside a space on your site so that you can fill it with content. |
 | [External Ad Unit](external-adunits.md)  | A placement connecting ad units to programmatic inventory, enabling you to serve ads from one or more SSPs with client-side and/or server-side connections.                               |
 | Ad tag generator                         | When you have created your ad units, you can use the ad tag generator to get the codes ready for deployment.                                                                              |
+| Proposals (in progress)                  | A line item that has been submitted by a marketplace advertiser for review.                                                                                                               |
 
-Here is how the various objects hang together: an earnings account and site group can both contain multiple sites; a site can contain multiple ad units, and ad units can connect to creatives (for direct advertising) or to external ad units (for programmatic ads). 
+Here is how the various objects hang together: an earnings account and site group can both contain multiple sites; a site can contain multiple ad units, and ad units can connect to creatives (for direct advertising) or to external ad units (for programmatic ads).
 
 ![](../../../.gitbook/assets/202003-inventory-hierarchy.png)
