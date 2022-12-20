@@ -29,19 +29,19 @@ In order for a line item to run, it needs to be assigned to an **Order**.&#x20;
 
 If your user is the role of a Marketplace Advertiser, then you will see the object "**Type**" and you may be asked to choose between "**Based on Product** (Line item is based off a pre-defined product and can deliver as soon as it's set up)" or "**Based on Proposal** (Line item is based off your own proposal and will require publishers approval to deliver)".&#x20;
 
+<figure><img src="../../../.gitbook/assets/LineItemType.png" alt=""><figcaption></figcaption></figure>
+
 _- Please note that this step does not apply to administrators or other user roles. -_
 
 If you select the line item to be based on a "**Product**" you may be asked to choose one or have the option to update and change the pre-selected product.\
-<img src="../../../.gitbook/assets/BasedonProduct.png" alt="" data-size="original">\
 A [Marketplace Product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
 
 ![If you're a Marketplace Advertiser you will be asked to choose a product.](../../../.gitbook/assets/mp-products.png)
 
 If you select the line item to be based on a "**Proposal**" you need to select one ore more sites that belong to the same publisher.\
-![](<../../../.gitbook/assets/BasedonProposal (1).png>)\
 A Line Item Proposal allows a marketplace advertiser to build their own proposal with start and end dates, delivery objectives (impressions, clicks or conversions), pricing and targeting. The line item will be submitted to the publisher for approval before it can deliver.
 
-<figure><img src="../../../.gitbook/assets/SiteSelection.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2022-12-20 at 5.09.02 pm.png" alt=""><figcaption><p>If you're a Marketplace Advertiser you will be asked to select one ore more sites.</p></figcaption></figure>
 
 The line item's **delivery** shows you certain information about the line item's status.&#x20;
 
