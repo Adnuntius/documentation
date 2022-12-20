@@ -32,8 +32,6 @@ If your user is the role of a Marketplace Advertiser, then you will see the obje
 _- Please note that this step does not apply to administrators or other user roles. -_
 
 If you select the line item to be based on a "**Product**" you may be asked to choose one or have the option to update and change the pre-selected product.\
-\
-\
 <img src="../../../.gitbook/assets/BasedonProduct.png" alt="" data-size="original">\
 A [Marketplace Product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
 
