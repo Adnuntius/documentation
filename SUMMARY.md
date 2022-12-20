@@ -18,6 +18,7 @@
     * [Creatives](adnuntius-advertising/admin-ui/advertising/creatives.md)
     * [Library Creatives](adnuntius-advertising/admin-ui/advertising/library-creative.md)
     * [Targeting](adnuntius-advertising/admin-ui/advertising/targeting.md)
+    * [Booking Calendar](adnuntius-advertising/admin-ui/advertising/booking-calendar.md)
     * [Reach Analysis](adnuntius-advertising/admin-ui/advertising/reach-analysis.md)
     * [Smoothing](adnuntius-advertising/admin-ui/advertising/smoothing.md)
   * [Inventory](adnuntius-advertising/admin-ui/inventory/README.md)
