@@ -142,7 +142,7 @@ The best way to explain this is via examples. If the following code is placed wi
 adn.inIframe.recordInScreen('{{adId}}', 'custom-event-id-as-defined-within-adnuntius');
 ```
 
-The above code will register the custom event when 50% of the ad defined by `adId` has been within the viewport for longer than 2000 milliseconds. If 50% of the ad defined by `adId` has been within the viewport for less than 2000 milliseconds _and_ the user is done with the page either by browsing elsewhere or closing the window, the custom event will also be registered with the lesser time specified.
+The above code will register the custom event when 50% of the ad defined by `adId` has been within the viewport for longer than 2 minutes (120,000 milliseconds). If 50% of the ad defined by `adId` has been within the viewport for less than 2 minutes _and_ the user is done with the page either by browsing elsewhere or closing the window, the custom event will also be registered with the lesser time specified.
 
 The following example demonstrates the variety of options available:
 
