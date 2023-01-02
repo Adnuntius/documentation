@@ -23,8 +23,8 @@ Below you will see the fields to be filled in when exporting to S3, S3 compatibl
 
 <figure><img src="../../../.gitbook/assets/202207 Exports - S3.png" alt=""><figcaption><p>Export to S3</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/202210 Exports - S3 Compatible (2).png" alt=""><figcaption><p>Export to S3 compatible bucket</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/202210 Exports - S3 Compatible (1).png" alt=""><figcaption><p>Export to S3 compatible bucket</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/202210 Exports - Google Cloud.png" alt=""><figcaption><p>Export to Google Cloud</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/202210 Exports - Google Cloud (1).png" alt=""><figcaption><p>Export to Google Cloud</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/202210 Exports - Azure.png" alt=""><figcaption><p>Export to Azure</p></figcaption></figure>

@@ -31,7 +31,7 @@ description: >-
 
 If you have access to multiple networks, you can switch between them by clicking the icon formed as four stacked boxes in the top right corner, next to blue "new" button.
 
-![](<../../.gitbook/assets/Change Network.png>)
+<figure><img src="../../.gitbook/assets/202301 Change Networks.png" alt=""><figcaption><p>Change between networks if you have access to multiple networks.</p></figcaption></figure>
 
 ## Switching between Applications
 

@@ -9,7 +9,7 @@ description: >-
 There are two ways to get in touch with us:
 
 1. You can email [support@adnuntius.com](mailto:support@adnuntius.com) directly.
-2. You can submit a support request via the Adnuntius Dashboard. If you are logged in, click on the support <img src="../.gitbook/assets/Screenshot 2022-11-29 at 4.22.58 pm.png" alt="" data-size="line"> button on the bottom right.
+2. You can submit a support request via the Adnuntius Dashboard. If you are logged in, click on the support <img src="../.gitbook/assets/Screenshot 2022-11-29 at 4.22.58 pm (1).png" alt="" data-size="line"> button on the bottom right.
 
 ## What information should I share?
 
