@@ -6,14 +6,11 @@ description: >-
 
 # Data Exports
 
-You can set up as many exports as you want, to any of these services:&#x20;
+{% hint style="info" %}
+Do you need help setting up data exports and dashboards? We can help! [Read here for more](data-exports.md#get-help-setting-up).
+{% endhint %}
 
-* Amazon S3
-* S3 compatible buckets
-* Google Cloud
-* Azure
-
-You can also download logs at sftp://data.adnuntius.com:8164, using your Adnuntius username and password to authenticate.&#x20;
+You can set up as many exports as you want, to Amazon S3, S3 compatible buckets, Google Cloud and/or to Azure. You can also download logs at sftp://data.adnuntius.com:8164, using your Adnuntius username and password to authenticate.&#x20;
 
 <figure><img src="../../../.gitbook/assets/202210 Exports.png" alt=""><figcaption><p>Example export.</p></figcaption></figure>
 
@@ -28,3 +25,7 @@ Below you will see the fields to be filled in when exporting to S3, S3 compatibl
 <figure><img src="../../../.gitbook/assets/202210 Exports - Google Cloud (1).png" alt=""><figcaption><p>Export to Google Cloud</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/202210 Exports - Azure.png" alt=""><figcaption><p>Export to Azure</p></figcaption></figure>
+
+## Get Help Setting Up
+
+More to come soon.
