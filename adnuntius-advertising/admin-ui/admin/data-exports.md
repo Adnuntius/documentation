@@ -7,7 +7,7 @@ description: >-
 # Data Exports
 
 {% hint style="info" %}
-Need help setting up data exports and dashboards? We can help! [Read here for more](data-exports.md#get-help-setting-up).
+Need help setting up data exports and dashboards? Scroll down to "Get Help Setting Up" below to see how we can help.
 {% endhint %}
 
 You can set up as many exports as you want, to Amazon S3, S3 compatible buckets, Google Cloud and/or to Azure. You can also download logs at sftp://data.adnuntius.com:8164, using your Adnuntius username and password to authenticate.&#x20;
