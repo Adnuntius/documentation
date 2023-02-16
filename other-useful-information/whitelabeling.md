@@ -41,12 +41,12 @@ Ad requests sent from the same network domain as the page content can help reduc
 
 **Step 1.** The [CNAME ](https://en.wikipedia.org/wiki/CNAME\_record)records in the table below must be configured to point to Adnuntius servers.
 
-| Name                     | Record Type | Value                      |
-| ------------------------ | ----------- | -------------------------- |
-| `delivery.pubdomain.net` | CNAME       | `delivery.adnuntius.com`   |
-| `assets.pubdomain.net`   | CNAME       | `1291047346.rsc.cdn77.org` |
-| `assets2.pubdomain.net`  | CNAME       | `1791931415.rsc.cdn77.org` |
-| `adn.pubdomain.net`      | CNAME       | `1548354739.rsc.cdn77.org` |
+| Name                     | Record Type | Value                    |
+| ------------------------ | ----------- | ------------------------ |
+| `delivery.pubdomain.net` | CNAME       | `delivery.adnuntius.com` |
+| `assets.pubdomain.net`   | CNAME       | 1413604634.rsc.cdn77.org |
+| `assets2.pubdomain.net`  | CNAME       | 1000476387.rsc.cdn77.org |
+| `adn.pubdomain.net`      | CNAME       | 1388220282.rsc.cdn77.org |
 
 **Step 2.** Once you have configued the CNAME records as described above, please inform us at support@adnuntius.com **before** continuing to step 3. It is critical that you do not continue following these instructions until you have been informed that the necessary configuration in Adnuntius has been completed.
 
