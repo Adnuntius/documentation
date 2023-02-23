@@ -12,8 +12,9 @@ However, if you are in this type of environment you will know that this typicall
 
 The site [https://admin.adnuntius.com](https://admin.adnuntius.com) is used to manage Adnuntius Advertising and Adnuntius Data. To allow access to this site ask your network administrator to allow the following IP addresses:
 
-* 85.202.161.136
-* 85.202.161.137
+* 116.203.248.217
+* 65.108.84.206
+* 45.32.110.231
 
 You will also need to allow access to the **Adnuntius Advertising and Data APIs** IP addresses, which are provided in a section below.
 
@@ -21,12 +22,10 @@ You will also need to allow access to the **Adnuntius Advertising and Data APIs*
 
 If you have arranged access to our raw log FTP server and wish to access this from behind a firewall ask your network administrator to allow the following IP addresses:
 
-* 85.202.161.148
-* 85.202.161.149
-* 85.202.161.150
-* 85.202.161.151
-* 95.217.26.232 
-* 95.217.30.131
+* 159.69.56.248&#x20;
+* 116.202.161.76&#x20;
+* 135.181.178.243&#x20;
+* 103.254.153.81
 
 ## Adnuntius Advertising and Data APIs
 
@@ -43,27 +42,33 @@ If you are running a captive portal and wish to allow access to our AdServer and
 
 ### Adnuntius
 
-* 85.202.161.1
-* 85.202.161.2
-* 85.202.161.3
-* 85.202.161.4
-* 85.202.161.5
-* 85.202.161.6
-* 85.202.161.7
-* 85.202.161.8
-* 85.202.161.9
-* 85.202.161.10
-* 85.202.161.11
-* 85.202.161.12
-* 85.202.161.13
-* 85.202.161.14
-* 85.202.161.15
-* 95.217.30.155
-* 95.216.180.106
-* 95.216.183.100
-* 95.217.25.57
+* 116.202.130.140
+* 116.202.133.130
+* 116.202.196.36
+* 116.202.246.199
+* 195.201.242.185
+* 49.12.120.181
+* 49.12.120.185
+* 49.12.122.103
+* 49.12.122.130
+* 49.12.128.142
+* 135.181.162.189
+* 135.181.162.46
+* 135.181.178.245
+* 95.216.247.132
+* 95.216.247.159
+* 95.216.7.201
+* 95.217.119.98
+* 95.217.119.99
+* 95.217.202.185
+* 23.111.12.78&#x20;
+* 23.111.13.131&#x20;
+* 23.111.13.132&#x20;
+* 23.111.13.133&#x20;
+* 23.111.13.134&#x20;
+* 23.111.13.135&#x20;
+* 23.111.13.136
 
 ### CDN
 
-You will need to lookup the IP ranges that will be used to serve your customers at [http://whois.ipip.net/AS60068](http://whois.ipip.net/AS60068) \(this is the current listing of IP addresses associated with the Autonomous System of our CDN, CDN77\) and add those to your captive portal as well. Note that unlike Adnuntius IPs these may change more frequently, so if possible it is recommended to add the whole ASN 60068 to the captive portal if it supports this.
-
+You will need to lookup the IP ranges that will be used to serve your customers at [http://whois.ipip.net/AS60068](http://whois.ipip.net/AS60068) (this is the current listing of IP addresses associated with the Autonomous System of our CDN, CDN77) and add those to your captive portal as well. Note that unlike Adnuntius IPs these may change more frequently, so if possible it is recommended to add the whole ASN 60068 to the captive portal if it supports this.
