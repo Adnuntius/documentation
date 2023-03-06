@@ -56,6 +56,14 @@ You can add multiple matching labels, so that an ad unit can match for instance 
 
 ![Right: you can add a matching label to an ad unit. Left: after that you can target on those matching labels](../../../.gitbook/assets/201811-advertising-line-item-matching-label-targeting.png)
 
+## Third-Party Audiences
+
+Third party audiences are segments of users defined using third party providers. Please note that this targeting option may not be visible, depending on whether or not there are third party audiences available in your region to which we have connected. If you have third party audiences you would like to have connected, please reach out to us at [support@adnuntius.com](mailto:support@adnuntius.com).
+
+<figure><img src="../../../.gitbook/assets/202303 3p audiences.png" alt=""><figcaption><p>Third party audiences can be added as targeting to your line item.</p></figcaption></figure>
+
+Please note that third party audiences is available to line item targeting only (not creative targeting).&#x20;
+
 ## Segment Targeting
 
 Segments are based on historic user behaviour, and targes groups of users (or "audiences") that have something in common. There are three ways of connecting to user segments:
