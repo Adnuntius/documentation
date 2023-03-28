@@ -4,9 +4,7 @@ description: This page describes how to access Adnuntius products from behind a 
 
 # Firewall Access
 
-Adnuntius products are hosted on our servers and provided to you by way of one or more URLs such as [https://admin.adnuntius.com](https://admin.adnuntius.com). In certain corporate or locked down environments access to all external sites will be blocked, and to access our sites you will need to request your network administrator allows access through the firewall. If this does not apply to you there is no need to read further.
-
-However, if you are in this type of environment you will know that this typically involves mapping the URL to an IP address which can change and so make this a time consuming process. Because of this, Adnuntius has set up our networking to make this easy for you by ensuring that our services are normally delivered from the same set of IP addresses. The sections below give the details of this for sites that you might need to access from behind a firewall.
+Adnuntius products are hosted on our servers and provided to you by way of one or more URLs such as [https://admin.adnuntius.com](https://admin.adnuntius.com). In certain corporate or locked down environments access to all external sites will be blocked, and to access our sites you will need to request your network administrator allows access through the firewall. If this does not apply to you there is no need to read further. Otherwise, the sections below give the details of this for sites that you might need to access from behind a firewall. Note that these IP address can and will change over time, so you will need to check this page for updates.
 
 ## Adnuntius Administration
 
@@ -31,10 +29,10 @@ If you have arranged access to our raw log FTP server and wish to access this fr
 
 If you are accessing our advertising and data APIs programmatically from behind a firewall ask your network administrator to allow the following IP addresses:
 
-* 85.202.161.128
-* 85.202.161.129
-* 85.202.161.130
-* 85.202.161.131
+* 159.69.136.143
+* 195.201.241.152
+* 49.12.134.31
+* 49.12.125.83
 
 ## Adnuntius Advertising Ad Server
 
