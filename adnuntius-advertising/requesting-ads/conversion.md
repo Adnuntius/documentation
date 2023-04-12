@@ -11,7 +11,7 @@ Conversions can be automatically attributed to a line-item under the following c
 * The creative includes a click URL to the advertiser's domain
 * The conversion is recorded from the advertiser's domain
 
-In this scenario, Adnuntius will attribute the conversion to the _most recently_ delivered impression that directed the user to the advertiser's domain. The user does not need to have actually clicked on the advertisement.
+In this scenario, Adnuntius will attribute the conversion to the most recently delivered impression that directed the user to the advertiser's domain. The user does not need to have actually clicked on the advertisement, although third-party cookies are required to track conversions without a click.
 
 Alternatively, the request can _explicitly include the line-item_ that should receive the conversion.
 
