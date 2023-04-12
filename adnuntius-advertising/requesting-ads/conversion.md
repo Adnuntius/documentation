@@ -1,6 +1,6 @@
 # Recording Conversions
 
-When you create Adnuntius Line Items that use a Cost Per Action \(CPA\) price model, costs are recorded whenever a user performs a configured action. Adnuntius must be notified of the user action using a Conversion Tag, which can be either a pixel or javascript.
+When you create Adnuntius Line Items that use conversion tracking, costs are recorded whenever a user performs a configured action. Adnuntius must be notified of the user action using a Conversion Tag, which can be either a pixel or javascript.
 
 ## Usage
 
@@ -19,7 +19,7 @@ Alternatively, the request can _explicitly include the line-item_ that should re
 
 Note: Pixels require third-party cookies to function correctly, which may be blocked by the user's privacy settings.
 
-The most simple pixel tag is shown below. This pixel will automatically record the conversion to the most recent impression coming from a CPA line-item for the advertiser.
+The most simple pixel tag is shown below. This pixel will automatically record the conversion to the most recent impression coming from a conversion tracking line-item for the advertiser.
 
 ```markup
 <img src="https://delivery.adnuntius.com/pixelc.gif?eventType=<event-id>">
@@ -41,7 +41,7 @@ If you want to record the conversion against a specific line-item, then you can 
 
 ### Javascript request
 
-Note: Javascript conversions work best when third-party cookies are enabled, but they can also work if the advertisement and the conversion both occur on the same page domain.
+Note: Javascript conversions work best when third-party cookies are enabled, but they also work if the Adnuntius javascript is included on the landing page for the advertisement and the conversion occurs from that same page domain.
 
 The most simple javascript conversion is shown below. This will automatically record the conversion to the most recent impression coming from a CPA line-item for the advertiser.
 
@@ -71,4 +71,3 @@ adn.calls.push(function() {
    adn.regConversion({eventType: '<event-id>', network: '<network-id>', adSource: '<line-item-id>'});
 });
 ```
-
