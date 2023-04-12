@@ -1,6 +1,6 @@
 # Recording Conversions
 
-When you create Adnuntius Line Items that use a Cost Per Action (CPA) price model, costs are recorded whenever a user performs a configured action.
+When you create Adnuntius Line Items that use conversion tracking, a conversion event is recorded whenever a user performs a configured action.
 Adnuntius must be notified of the user action using a Conversion Tag, which can be either a pixel or javascript.
 
 ## Usage
@@ -14,7 +14,8 @@ Conversions can be automatically attributed to a line-item under the following c
 - The conversion is recorded from the advertiser's domain
 
 In this scenario, Adnuntius will attribute the conversion to the *most recently* delivered impression that directed
-the user to the advertiser's domain. The user does not need to have actually clicked on the advertisement.
+the user to the advertiser's domain. The user does not need to have actually clicked on the advertisement, although third-party cookies
+are required to track conversions without a click.
 
 Alternatively, the request can *explicitly include the line-item* that should receive the conversion.  
 
@@ -23,7 +24,7 @@ Alternatively, the request can *explicitly include the line-item* that should re
 Note: Pixels require third-party cookies to function correctly, which may be blocked by the user's privacy settings.
 
 The most simple pixel tag is shown below. This pixel will automatically record the conversion to the most recent impression
-coming from a CPA line-item for the advertiser. 
+coming from a conversion tracking line-item for the advertiser. 
 
 ```html
 <img src="https://delivery.adnuntius.com/pixelc.gif?eventType=<event-id>">
@@ -46,11 +47,11 @@ If you want to record the conversion against a specific line-item, then you can 
 
 ### Javascript request
 
-Note: Javascript conversions work best when third-party cookies are enabled, but they can also work if the advertisement and the conversion
-both occur on the same page domain.
+Note: Javascript conversions work best when third-party cookies are enabled, but they also work if the Adnuntius javascript is included
+on the landing page for the advertisement.
 
 The most simple javascript conversion is shown below. This will automatically record the conversion to the most recent impression
-coming from a CPA line-item for the advertiser.
+coming from a convserion tracking line-item for the advertiser.
 
 ```javascript
 window.adn = window.adn || {}; adn.calls = adn.calls || [];
