@@ -41,13 +41,13 @@ If you want to record the conversion against a specific line-item, then you can 
 
 ### Javascript request
 
-Javascript conversions work best when third-party cookies are enabled, but they also work if the Adnuntius javascript is included on the landing page for the advertisement and the conversion occurs from that same page domain.
-
 For javascript conversions, the Adnuntius script (see below) should be included on the landing page for the conversion tracking advertisement. Typically you would include this in the `<head>` section of the page, but you can place it anywhere within the HTML.
 
 ```html
 <script src="https://cdn.adnuntius.com/adn.js"></script>
 ```
+
+Note: If the Adnuntius script is **not** included on the landing page, the conversion tracking will only work for users that have *third-party cookies enabled*.
 
 The most simple javascript conversion is shown below. This will automatically record the conversion to the most recent impression coming from a conversion tracking line-item for the advertiser.
 
