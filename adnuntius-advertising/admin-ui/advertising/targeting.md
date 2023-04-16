@@ -62,7 +62,7 @@ Third party audiences are segments of users defined using third party providers.
 
 <figure><img src="../../../.gitbook/assets/202303 3p audiences.png" alt=""><figcaption><p>Third party audiences can be added as targeting to your line item.</p></figcaption></figure>
 
-Please note that third party audiences is available to line item targeting only (not creative targeting).&#x20;
+Please note that third party audiences is available to line item targeting only (not creative targeting). Also, please note that depending on the third party in question Adnuntius may charge for adding segments.
 
 ## Segment Targeting
 

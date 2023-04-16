@@ -269,16 +269,6 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Basis for transfer:** EU standard clauses.
 
-### Vultr
-
-**Contact information:** legal@vultr.com&#x20;
-
-**Sub-Processor's role:** Vultr handles traffic at the edge, leaving it encypted, and directs it to the nearest data center for processing.
-
-**Locations of servers:** Frankfurt, Stockholm, Singapore.
-
-**Data processing agreement:** [https://drive.google.com/file/d/1FALSkoY0we9EP-lF88rFfroxAZAJBmAl/view?usp=sharing](https://drive.google.com/file/d/1FALSkoY0we9EP-lF88rFfroxAZAJBmAl/view?usp=sharing)
-
 ### CDN77
 
 **Contact information:** DataCamp Limited, 207 Regent Street, London, UK; compliance@cdn77.com

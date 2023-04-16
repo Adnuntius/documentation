@@ -34,7 +34,7 @@ The list below only lists the consent required to create the user identifier. Fu
 
 **How to enable/disable it:** Enabled by default. Can be disabled using the Adnuntius cookieless settings: _adn.useCookies(false)_
 
-**Used for:** Frequency capping, re-targeting, conversion tracking and unique user counts. ****&#x20;
+**Used for:** Frequency capping, re-targeting, conversion tracking and unique user counts.&#x20;
 
 **More information:** [https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies ](https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies)
 

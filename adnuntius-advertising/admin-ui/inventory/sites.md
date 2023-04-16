@@ -34,7 +34,7 @@ You can specify how ads should be **rendered** onto your website. If you have a 
 
 Assign a **Marketplace** **Owner** to mark that the site belongs to a marketplace publisher who obtains exclusive editing rights (only relevant for marketplace publishers).
 
-Assign the [**Teams**](../users/users-teams-and-roles-1.md) **** of users who should have access to book campaigns targeted to this site and/or manage the site (their privileges are determined by [Roles](../users/users-teams-and-roles-2.md)).
+Assign the [**Teams**](../users/users-teams-and-roles-1.md) of users who should have access to book campaigns targeted to this site and/or manage the site (their privileges are determined by [Roles](../users/users-teams-and-roles-2.md)).
 
 Assign [**Site Rulesets**](site-rulesets.md) to set rules for what you will allow on your site, and what should be prohibited.
 
