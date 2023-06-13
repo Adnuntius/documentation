@@ -20,7 +20,3 @@ This is the first step to set up programmatic ads. After you have completed thes
 **External demand source**: Choose your demand source. Please note that if you choose prebid, then this is all you have to do - you do not have to complete the step below.
 
 **Publisher ID**: Type in the publisher ID that you receive from your SSP account. Once this is done, Adnuntius connects to your SSP server-side.
-
-{% hint style="info" %}
-If you have a Google Ad Manager account we can also help you integrate to this in a smart way. Please see [here ](../../../other-useful-information/gam-integration.md)for more information.
-{% endhint %}

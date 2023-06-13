@@ -182,7 +182,6 @@
 * [Send segments Cxense](other-useful-information/send-segments-cxense.md)
 * [Header bidding implementation](other-useful-information/header-bidding-implementation.md)
 * [Adnuntius Slider](other-useful-information/adnuntius-slider.md)
-* [GAM Integration](other-useful-information/gam-integration.md)
 * [Whitelabeling](other-useful-information/whitelabeling.md)
 * [Firewall Access](other-useful-information/firewall-access.md)
 * [Ad Server Logs](other-useful-information/adserver-logs.md)
