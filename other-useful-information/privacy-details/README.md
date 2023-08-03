@@ -165,11 +165,11 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Basis for transfer:** EU standard clauses.
 
-### Digital Envoy
+### MaxMind
 
-**Contact information:** [https://www.digitalelement.com/contact-us/](https://www.digitalelement.com/contact-us/)
+**Contact information:** [https://www.maxmind.com/en/company/contact-us](https://www.maxmind.com/en/company/contact-us)
 
-**Sub-Processor's role:** Digital Envoy provides Adnuntius with location targeting technology, enabling Adnuntius to translate an IP address to a named location. Digital Envoy provides files that are stored on our databases, and no data is as such transferred to Digital Envoy.
+**Sub-Processor's role:** Maxmind provides Adnuntius with location targeting technology, enabling Adnuntius to translate an IP address to a named location. Maxmind provides files that are stored on our databases, and no data is as such transferred to Maxmind.
 
 **Locations of servers:** Germany and Finland.
 
