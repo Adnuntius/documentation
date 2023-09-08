@@ -132,7 +132,6 @@
       * [Site Groups](adnuntius-marketplace/getting-started/abn-for-publishers/inventory/site-groups.md)
       * [Rulesets (in progress)](adnuntius-marketplace/getting-started/abn-for-publishers/inventory/site-rulesets.md)
       * [Blocklists](adnuntius-marketplace/getting-started/abn-for-publishers/inventory/site-rulesets-1.md)
-      * [Publishers](adnuntius-marketplace/getting-started/abn-for-publishers/inventory/earnings-accounts.md)
       * [Ad Tag Generator](adnuntius-marketplace/getting-started/abn-for-publishers/inventory/ad-tag-generator.md)
     * [Design](adnuntius-marketplace/getting-started/abn-for-publishers/design/README.md)
       * [Layouts](adnuntius-marketplace/getting-started/abn-for-publishers/design/layouts.md)
