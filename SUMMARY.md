@@ -196,6 +196,7 @@
 
 ## Other Useful Information
 
+* [Setup deals in GAM](other-useful-information/setup-deals-in-gam.md)
 * [Identification and Privacy](other-useful-information/identification-and-privacy/README.md)
   * [User Identification](other-useful-information/identification-and-privacy/user-identification.md)
   * [Permission to use Personal Data (TCF2)](other-useful-information/identification-and-privacy/consent-processing-tcf2.md)
