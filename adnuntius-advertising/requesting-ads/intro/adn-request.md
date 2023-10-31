@@ -301,7 +301,7 @@ Single-page applications with virtual page transitions require special handling.
 Between virtual page transitions, `adn.clearDivs()` or `adn.clearOut()` should be called.
 
 `adn.clearOut()` clears out all the ad request information that has been collected and makes that process start anew. `adn.clearDivs()` does everything
-that `adn.clearOut()` and also clears out any ads that appear on the page.
+that `adn.clearOut()` does and also clears out any ads that appear on the page.
 
 
 ## **Previewing an Ad**
