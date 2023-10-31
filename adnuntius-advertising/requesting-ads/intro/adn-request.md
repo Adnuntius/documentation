@@ -295,6 +295,15 @@ Here's how the split runs:
 * **Parameters specified on either parent or ad unit:** `requestParams`, `siteId`, `floorPrice`, `resizeOnPageLoad`, `requestMode`, `onImpressionResponse`, `onPageLoad`, `onNoMatchedAds`, `onVisible`, `onViewable`, `clearTarget`, `functionCalls`, `functions`, `replacements`, `kv`, `c`
 * **Parameters specified on the ad unit only:** those not listed above
 
+## **Requesting Ads in Single-Page Applications**
+Single-page applications with virtual page transitions require special handling.
+
+Between virtual page transitions, `adn.clearDivs()` or `adn.clearOut()` should be called.
+
+`adn.clearOut()` clears out all the ad request information that has been collected and makes that process start anew. `adn.clearDivs()` does everything
+that `adn.clearOut()` and also clears out any ads that appear on the page.
+
+
 ## **Previewing an Ad**
 
 Preview Ad Requests are used to view a _specific_ creative. Preview requests **do not** result in any delivery statistics being recorded in Adnuntius, so are suitable for internal uses such as: reviewing how a creative will appear when rendered by the ad server.
