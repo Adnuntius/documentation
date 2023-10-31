@@ -14,6 +14,12 @@ Blocks the initial width and height of the ad container from resizing itself to 
 
 Resizing can be blocked on the request side. This also provides the same functionality on the layout side.
 
+## adn.inIframe.resizeToCreativeDimensions\(\)
+
+Resizes the ad container dimensions to be exactly what is defined on the creative.
+
+Can be called from the layout or creative to ensure that the ad is sized at the creative dimensions.
+
 ## adn.inIframe.isResizeToContent\(\)
 
 Whether or not the ad container's initial width and height will be resized to fit the content of the served ad. Returns either `true` or `false`.
