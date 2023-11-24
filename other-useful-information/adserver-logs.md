@@ -33,7 +33,6 @@ Ad Server logs can be downloaded via an SFTP server or [pushed to cloud storage]
 | `advertiser`      | ObjectId                          | The Adnuntius Creative that won the auction                                                                |
 | `team`            | ObjectId                          | The Adnuntius Team of the auction winning Line Item                                                        |
 
-
 ## Object Identifiers
 
 References to Adnuntius objects in the logs are desribed using an `ObjectId`, which has the following fields:
@@ -72,11 +71,12 @@ Example:
 
 ## Locations
 
-The location is reported using the following properites:
+The location is reported using the following properties (note that some of these properties may be missing where we don't have that level of location information available for that request):
 
 * `CONTINENT`
 * `COUNTRY`
 * `REGION`
+* `DISTRICT`
 * `CITY`
 * `POSTCODE`
 
