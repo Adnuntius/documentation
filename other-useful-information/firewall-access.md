@@ -38,12 +38,9 @@ If you are accessing our advertising and data APIs programmatically from behind 
 
 If you are running a captive portal and wish to allow access to our AdServer and CDN for users of that captive portal, you will need to allow access to the following IP addresses
 
-### Adnuntius
-
 * 116.202.130.140
 * 116.202.133.130
 * 116.202.196.36
-* 116.202.246.199
 * 195.201.242.185
 * 49.12.120.181
 * 49.12.122.130
@@ -56,13 +53,6 @@ If you are running a captive portal and wish to allow access to our AdServer and
 * 95.217.119.98
 * 95.217.119.99
 * 95.217.202.185
-* 23.111.12.78&#x20;
-* 23.111.13.131&#x20;
-* 23.111.13.132&#x20;
-* 23.111.13.133&#x20;
-* 23.111.13.134&#x20;
-* 23.111.13.135&#x20;
-* 23.111.13.136
 
 ### CDN
 
