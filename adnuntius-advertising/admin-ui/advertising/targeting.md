@@ -86,6 +86,22 @@ Adnuntius can read the URLs from whatever pages that ad units are deployed to. [
 
 You can also upload a library of categories if you would rather like to choose categories from a list rather than writing them into the text field. For more information on how to upload categories, please see [Reference Data](../admin/reference-data.md).
 
+## Semantic Targeting
+
+Adnuntius can read the content of a page and use large language models to interpret the content of that page. When a campaign is later added, and that campaign contains a campaign brief, word cloud or similar text input, that text is interpreted in the same fashion and matched to e.g. article pages that discuss the same topic. Here is an example:
+
+* A published article discusses how rising gasoline prices affect car purchasing decisions, and how more people consider electric cars.
+* A campaign is created in Adnuntius with the following text input: "We now have a campaign with very favorable prices on our popular electric cars. Several of the electric cars on campaign are ready for delivery! Check the selection and make a bargain on a new electric car with promotional interest or promotional prices."
+* This campaign is likely to serve on this article because they discuss similar topics.
+
+The illustration below helps understand how semantic targeting can be used.
+
+1. The field where you can input sentences like a campaign brief or text from a website, or a word cloud.
+2. Match level allows you to tune how strictly you want the targeting to be. For example, if you choose "5 - very closely related" then the system will allow matching only to articles that match your input text very well.&#x20;
+3. A preview showing examples of articles that your ad will deliver on, given your input text and match level.
+
+<figure><img src="../../../.gitbook/assets/202312 Semantic.png" alt=""><figcaption><p>Semantic targeting.</p></figcaption></figure>
+
 ## Geospatial Targeting
 
 Geospatial targeting can be used when you want to closely manage which geographical locations are to be targeted. Click the polygon or rectangle icon on the right hand side of the map and start drawing in order to specify the location you want to target.
