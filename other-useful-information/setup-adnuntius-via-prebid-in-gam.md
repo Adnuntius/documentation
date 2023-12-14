@@ -6,11 +6,11 @@ This documents explains step by step how to start up with Prebid, how to add Adn
 
 First you will have to download prebid from Prebid.org.
 
-!\[\[Pasted image 20231213153105.png]]
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Click on the top-right button to get to the page where you can select what SSPs you want to access in Prebid. It's recommended not to select all of the bidders because this will result in a very large file. Only select the ones you want to work with.
 
-!\[\[Pasted image 20231213153246.png]]
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 After that, click the download button at the bottom and your browser will download a javascript file that you can host on your webpage.
 
@@ -194,7 +194,7 @@ A full code example that will return a prebid ad from adnuntius looks like this:
 
 If done correctly, the above code should show an ad that looks like this:
 
-!\[\[Pasted image 20231214131247.png]]
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 This example makes sure to load the ad in google, but it's not your google. Next we will have to set it up in google.
 

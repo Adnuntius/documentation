@@ -49,29 +49,29 @@ Additionally you will have to change the variable `adUnits` to the corresponding
 
 Once that is done you will have to add prebid as an _external demand source_ in the ad server, name and description can be of your choosing:
 
-Go to: **Admin -&gt; Ext. Demand S. -&gt; New**
+Go to: **Admin -> Ext. Demand S. -> New**
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](<../.gitbook/assets/image (14).png>)
 
 By itself the external demand source does not know what ad units it should deliver to, so you will need to replicate the sizes that you have setup in your SSP in order for Adnuntius to make the correct calls.
 
-Go to: **Inventory -&gt; External Ad units -&gt; new**
+Go to: **Inventory -> External Ad units -> new**
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](<../.gitbook/assets/image (5).png>)
 
 Give the new _external ad unit_ a proper name and select the external demand source that you just created. You also have to define the type of creatives that you wish to display. You are also asked to define the sizes that you have setup in your SSP.
 
 You have now allowed Adnuntis to send requests to your SSP, great job! But you still have to guide the external ad units to your ad server adunits. You do this via Line items. Your line item can be connected to an order called "Prebid - order" or something similar so that you can find them easily if you have many Line items. Like this:
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](<../.gitbook/assets/image (23).png>)
 
 In the line item you will define your goals for the header bidding. Namely start date, end date etc. You can also choose targeting in order to specify an area of your site / network that you wish to show or not show this line item to:
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 The line item is a pretty standard line item but the real magic happens when you enter the creatives:
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](<../.gitbook/assets/image (18).png>)
 
 in the creatives section you will have to set a Name and make sure that you set the creative type to **External.** Once you have done that the layout changes so that you can select the external demand source that you created and add an external adunit to be shown on this creative. The width and the height of this creative defines:
 
@@ -79,4 +79,3 @@ in the creatives section you will have to set a Name and make sure that you set 
 2. the max-size of the external ad unit that you added to this creative. If your external adunit has bigger sizes than what you define as width and height in the creative they will not get shown.
 
 Once you are done with this, then just save it all, and the ads might start flowing in, depending on what you have setup in the SSP. Good luck!
-
