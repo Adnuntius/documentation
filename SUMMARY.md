@@ -196,6 +196,7 @@
 
 ## Other Useful Information
 
+* [Setup Adnuntius via prebid in GAM](other-useful-information/setup-adnuntius-via-prebid-in-gam.md)
 * [Adnuntius Impact](other-useful-information/adnuntius-impact.md)
 * [Identification and Privacy](other-useful-information/identification-and-privacy/README.md)
   * [User Identification](other-useful-information/identification-and-privacy/user-identification.md)
