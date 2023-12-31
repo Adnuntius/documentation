@@ -145,6 +145,16 @@ To see what data is recorded, [please see this page](../adserver-logs.md). Some 
 
 **Involved sub-processors:** Adnuntius uses providers of data centers to store data. Please see "Sub-Processors" below for more information.
 
+## Context Matching
+
+**Purpose**: enable Controller and potentially its customers to target ads to the content of a page. The content of a page may include keywords on the page, the categories of the page, or the overall understanding of a page's text (including title, ingress and body texts) using large language models such as for instance GPT or BERT.
+
+**Data**: no user data is involved, as no information is stored to a cookie or any other user identifier. The information is rather stored to the specific page, so that when any user visits the page the advertisement can be matched to the page's content, not to any user information.
+
+**Storage**: Data is stored on servers controlled by Adnuntius and its sub-processors.
+
+**Involved sub-processors**: Adnuntius uses providers of data centers to store data. Please see the tab "Sub-Processors" here for more information.
+
 ## Responsibles
 
 Data Protection Officer, and responsible on behalf of the Processor:&#x20;
