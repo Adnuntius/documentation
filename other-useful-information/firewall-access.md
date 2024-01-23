@@ -38,21 +38,28 @@ If you are accessing our advertising and data APIs programmatically from behind 
 
 If you are running a captive portal and wish to allow access to our AdServer and CDN for users of that captive portal, you will need to allow access to the following IP addresses
 
+* 37.27.67.201
+* 49.12.122.130
+* 49.12.120.181
+* 65.21.69.157
+* 65.21.71.56
+* 65.21.84.56
+* 95.216.115.161
+* 95.216.247.132
+* 95.216.247.159
+* 95.217.44.4
+* 95.217.119.98
+* 95.217.119.99
+* 95.217.137.57
 * 116.202.130.140
 * 116.202.133.130
 * 116.202.196.36
-* 195.201.242.185
-* 49.12.120.181
-* 49.12.122.130
-* 135.181.162.189
 * 135.181.162.46
-* 135.181.178.245
-* 95.216.247.132
-* 95.216.247.159
-* 95.216.7.201
-* 95.217.119.98
-* 95.217.119.99
-* 95.217.202.185
+* 135.181.162.189
+* 135.181.20.215
+* 195.201.242.185
+
+
 
 ### CDN
 
