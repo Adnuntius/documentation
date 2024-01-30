@@ -8,13 +8,15 @@ description: >-
 
 **Scopes** allows the access level of the API Key to be set. You can choose to:
 
-* Query stats information.&#x20;
-* Query advertising, giving read access to Line Items, Orders, and Creatives.
-* Upload user segments.
-* Download ad-server logs via SFTP.
+* Query Stats.&#x20;
+* Query Advertising.
+* Update Advertising.
+* Upload User Segments.
+* Download Ad-Server Logs.
+* Bidding Algorithm .
 
 **Description** is a user-friendly description of the API Key, for keeping track of which keys are used for which purpose. **Expiry** determines when the API Key will cease to allow access, to support restrictions on access should that be required.
 
 Once you click Save, an API Key string is generated for you.
 
-![API Keys.](<../../../.gitbook/assets/202207 Admin - API Keys.png>)
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-30 at 12.03.09 pm.png" alt=""><figcaption></figcaption></figure>
