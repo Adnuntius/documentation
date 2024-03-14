@@ -20,10 +20,10 @@ You will also need to allow access to the **Adnuntius Advertising and Data APIs*
 
 If you have arranged access to our raw log FTP server and wish to access this from behind a firewall ask your network administrator to allow the following IP addresses:
 
-* 159.69.56.248&#x20;
+* 65.108.129.108
+* 116.202.161.76
 * 116.202.192.51
-* 135.181.178.243&#x20;
-* 103.254.153.81
+* 135.181.178.243
 
 ## Adnuntius Advertising and Data APIs
 
