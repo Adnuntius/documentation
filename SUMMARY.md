@@ -26,6 +26,7 @@
     * [Adunits](adnuntius-advertising/admin-ui/inventory/adunits-1.md)
     * [External Ad Units](adnuntius-advertising/admin-ui/inventory/external-adunits.md)
     * [Site Rulesets](adnuntius-advertising/admin-ui/inventory/site-rulesets.md)
+    * [Blocklists](adnuntius-advertising/admin-ui/inventory/blocklists.md)
     * [Site Groups](adnuntius-advertising/admin-ui/inventory/site-groups.md)
     * [Earnings Accounts](adnuntius-advertising/admin-ui/inventory/earnings-accounts.md)
     * [Ad Tag Generator](adnuntius-advertising/admin-ui/inventory/ad-tag-generator.md)
