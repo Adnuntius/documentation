@@ -47,6 +47,12 @@ If you are running a captive portal and wish to allow access to our AdServer and
 * 135.181.176.187
 * 162.55.105.244
 
+## Adnuntius Page Crawler
+
+To allow the Adnuntius page crawler to access pages behind a paywall, you will need to allow the following IP address&#x20;
+
+* 159.69.141.57
+
 ### CDN
 
 You will need to lookup the IP ranges that will be used to serve your customers at [http://whois.ipip.net/AS60068](http://whois.ipip.net/AS60068) (this is the current listing of IP addresses associated with the Autonomous System of our CDN, CDN77) and add those to your captive portal as well. Note that unlike Adnuntius IPs these may change more frequently, so if possible it is recommended to add the whole ASN 60068 to the captive portal if it supports this.
