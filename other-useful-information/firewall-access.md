@@ -1,5 +1,7 @@
 ---
-description: Describes how to access Adnuntius products from behind a firewall OR allow Adnuntius access through a Pay Wall 
+description: >-
+  Describes how to access Adnuntius products from behind a firewall OR allow
+  Adnuntius access through a Pay Wall
 ---
 
 # Firewall Access
@@ -10,15 +12,16 @@ Adnuntius products may also need to access content hosted on your servers, such 
 
 If this does not apply to you there is no need to read further. Otherwise, the sections below give the details of this for sites that you might need to access from behind a firewall. Note that these IP address can and will change over time, so you will need to check this page for updates.
 
-## Adnuntius Administration
+## Adnuntius Advertising Administration and Data APIs
 
-The site [https://admin.adnuntius.com](https://admin.adnuntius.com) is used to manage Adnuntius Advertising and Adnuntius Data. To allow access to this site ask your network administrator to allow the following IP addresses:
+The site [https://admin.adnuntius.com](https://admin.adnuntius.com) is used to manage Adnuntius Advertising and Adnuntius Data. It makes requests to [https://](https://admin.adnuntius.com)api.adnuntius.com
 
-* 116.203.248.217
-* 65.108.84.206
-* 45.32.110.231
+If you are accessing our advertising and data ui directly, or programmatically accessing the API, and you are behind a firewall then you will need to ask your network administrator to allow the following IP addresses:
 
-You will also need to allow access to the **Adnuntius Advertising and Data APIs** IP addresses, which are provided in a section below.
+* 159.69.136.143
+* 195.201.241.152
+* 49.12.134.31
+* 49.12.125.83
 
 ## Adnuntius Data FTP Server
 
@@ -27,16 +30,6 @@ If you have arranged access to our raw log FTP server and wish to access this fr
 * 65.108.129.108
 * 116.202.161.76
 * 116.202.192.51
-* 135.181.178.243
-
-## Adnuntius Advertising and Data APIs
-
-If you are accessing our advertising and data APIs programmatically from behind a firewall ask your network administrator to allow the following IP addresses:
-
-* 159.69.136.143
-* 195.201.241.152
-* 49.12.134.31
-* 49.12.125.83
 
 ## Adnuntius Advertising Ad Server
 
