@@ -8,7 +8,22 @@ description: Here you will see details about how we collect, store and use user 
 
 All information is declared under [https://delivery.adnuntius.com/.well-known/deviceStorage.json](https://delivery.adnuntius.com/.well-known/deviceStorage.json). The table below is provided for easier reading.
 
-<table data-full-width="false"><thead><tr><th width="160">Name</th><th width="94">Type</th><th width="323">Purpose</th><th>Expiry</th></tr></thead><tbody><tr><td>usi</td><td>Cookie</td><td>Identify the user across multiple sessions (TCF: 1, 2, 4, 7)</td><td>30 days</td></tr><tr><td>sessionId</td><td>Cookie</td><td>Identify the user session across multiple requests (TCF: 1, 2, 4, 7)</td><td>Length of browser session</td></tr><tr><td>i</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>c</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>v</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>s</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>r</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>t</td><td>Cookie</td><td>User retargeting. Records data about the user when they are browsing an advertiser's website, and then uses this data to select advertisements when the user is browsing a publisher's website. (TCF: 1, 4)</td><td>30 days</td></tr><tr><td>cnv</td><td>Cookie</td><td>Records the most recent time that a specific advertisement was seen by the user. Used to track conversions e.g. if the user subsequently performs an eligible action, such as purchasing a product, on the advertiser's website. (TCF: 1, 4)</td><td>30 days</td></tr><tr><td>consent</td><td>Cookie</td><td>TCF: 1</td><td>No expiry</td></tr><tr><td>noCookies</td><td>Cookie</td><td>TCF: 1</td><td>No expiry</td></tr><tr><td>doNotTrack</td><td>Cookie</td><td>TCF: 1</td><td>No expiry</td></tr><tr><td>adn.metaData</td><td>Web</td><td>TCF: 1, 2, 4, 7</td><td>Null</td></tr></tbody></table>
+<table data-full-width="false">
+  <thead><tr><th width="160">Name</th><th width="94">Type</th><th width="323">Purpose</th><th>Expiry</th></tr></thead>
+<tbody>
+  <tr><td>usi</td><td>Cookie</td><td>Identify the user across multiple sessions (TCF: 1, 2, 4, 7)</td><td>30 days</td></tr>
+  <tr><td>sessionId</td><td>Cookie</td><td>Identify the user session across multiple requests (TCF: 1, 2, 4, 7)</td><td>Length of browser session</td></tr>
+  <tr><td>i</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
+  <tr><td>c</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
+  <tr><td>v</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
+  <tr><td>s</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
+  <tr><td>r</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
+  <tr><td>t</td><td>Cookie</td><td>User retargeting. Records data about the user when they are browsing an advertiser's website, and then uses this data to select advertisements when the user is browsing a publisher's website. (TCF: 1, 4)</td><td>30 days</td></tr>
+  <tr><td>cnv</td><td>Cookie</td><td>Records the most recent time that a specific advertisement was seen by the user. Used to track conversions e.g. if the user subsequently performs an eligible action, such as purchasing a product, on the advertiser's website. (TCF: 1, 4)</td><td>30 days</td></tr>
+  <tr><td>consent</td><td>Cookie</td><td>(*Deprecated*) Replaced by IAB TCF string and no longer read or written</td><td>No expiry</td></tr>
+  <tr><td>noCookies</td><td>Cookie</td><td>Records user cookie preference specified here: http://delivery.adnuntius.com/consent (TCF: 1)</td><td>No expiry</td></tr>
+  <tr><td>doNotTrack</td><td>Cookie</td><td>Records user tracking preference specified here: http://delivery.adnuntius.com/consent (TCF: 5)</td><td>No expiry</td></tr>
+  <tr><td>adn.metaData</td><td>Web</td><td>Stores the cookie data detailed above in the browser web storage (TCF: 1, 2, 4, 7)</td><td>Null</td></tr></tbody></table>
 
 All objects above with Type "Cookie" use the following domains: delivery.adnuntius.com, europe.delivery.adnuntius.com, ads.adnuntius.delivery, limited.delivery.adnuntius.com, and limited.europe.delivery.adnuntius.com.
 
@@ -189,16 +204,6 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** No data is sent to nor processed by the supplier.
 
-### 51 Degrees
-
-**Contact information:** [https://51degrees.com/about-us](https://51degrees.com/about-us)
-
-**Sub-Processor's role:** 51 Degrees provides Adnuntius with device targeting technology, enabling Adnuntius' customers to target users by the devices they use. 51 Degrees provides files that are stored on our databases, and no data is as such transferred to 51 Degrees.
-
-**Locations of servers:** Germany and Finland.
-
-**Data processing agreement:** No data is sent to nor processed by the supplier.
-
 ### Amazon Web Services
 
 **Contact information:** [https://pages.awscloud.com/compliance-contact-us.html](https://pages.awscloud.com/compliance-contact-us.html)
@@ -242,18 +247,6 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 **Locations of servers:** Please see [PayPal's privacy policy](https://www.paypal.com/va/webapps/mpp/ua/privacy-full).
 
 **Data processing agreement:** [https://www.paypal.com/us/webapps/mpp/ua/data-protection](https://www.paypal.com/us/webapps/mpp/ua/data-protection)
-
-**Basis for transfer:** EU standard clauses.
-
-### Pin Payments
-
-**Contact information:** [https://pinpayments.com/dpa](https://pinpayments.com/dpa)
-
-**Sub-Processor's role:** Our customers who use Adnuntius Self-Service may use a payment service provider to charge self-service advertisers. PinPayments is one of the options available.
-
-**Locations of servers:** [https://pinpayments.com/sub-processors](https://pinpayments.com/sub-processors)
-
-**Data processing agreement:** [https://pinpayments.com/dpa](https://pinpayments.com/dpa)
 
 **Basis for transfer:** EU standard clauses.
 
