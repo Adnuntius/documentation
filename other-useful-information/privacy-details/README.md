@@ -22,7 +22,7 @@ All information is declared under [https://delivery.adnuntius.com/.well-known/de
   <tr><td>cnv</td><td>Cookie</td><td>Records the most recent time that a specific advertisement was seen by the user. Used to track conversions e.g. if the user subsequently performs an eligible action, such as purchasing a product, on the advertiser's website. (TCF: 1, 4)</td><td>30 days</td></tr>
   <tr><td>consent</td><td>Cookie</td><td>(*Deprecated*) Replaced by IAB TCF string and no longer read or written</td><td>No expiry</td></tr>
   <tr><td>noCookies</td><td>Cookie</td><td>Records user cookie preference specified here: http://delivery.adnuntius.com/consent (TCF: 1)</td><td>No expiry</td></tr>
-  <tr><td>doNotTrack</td><td>Cookie</td><td>Records user tracking preference specified here: http://delivery.adnuntius.com/consent (TCF: 5)</td><td>No expiry</td></tr>
+  <tr><td>doNotTrack</td><td>Cookie</td><td>Records user tracking preference specified here: http://data.adnuntius.com/consent (TCF: 5)</td><td>No expiry</td></tr>
   <tr><td>adn.metaData</td><td>Web</td><td>Stores the cookie data detailed above in the browser web storage (TCF: 1, 2, 4, 7)</td><td>Null</td></tr></tbody></table>
 
 All objects above with Type "Cookie" use the following domains: delivery.adnuntius.com, europe.delivery.adnuntius.com, ads.adnuntius.delivery, limited.delivery.adnuntius.com, and limited.europe.delivery.adnuntius.com.
