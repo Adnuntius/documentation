@@ -37,7 +37,6 @@ window.addEventListener('message', function (event) {
     var win = iframe.contentWindow || iframe.contentDocument.defaultView;
     if (win === event.source && event.data.adnType) {
       var size = event.data.adSize
-      console.log(size)
       iframe.style.width = '100%'
       iframe.style.height = size + 'vh'
       iframe.parentNode.style.width = '100%'
