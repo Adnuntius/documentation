@@ -241,7 +241,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Sub-Processor's role:** Cloudflare terminates prebid requests at the edge, decrypts it, and tunnels it to our adservers for a fast ad response.
 
-**Locations of servers:** Worldwide points of presence. For EU companies: to ensure that only European servers are used, just send the GDPR ad tag parameter with the ad request as[ explained here](https://docs.adnuntius.com/other-useful-information/identification-and-privacy/consent-processing-tcf2#id-1-how-adnuntius-determines-if-gdpr-applies).&#x20;
+**Locations of servers:** Worldwide points of presence. For EU companies: to ensure that only European servers are used, just send the GDPR ad tag parameter (gdpr: 1) with the ad request as[ explained here](https://docs.adnuntius.com/other-useful-information/identification-and-privacy/consent-processing-tcf2#id-1-how-adnuntius-determines-if-gdpr-applies).&#x20;
 
 **Data processing agreement:** [https://www.cloudflare.com/en-au/cloudflare-customer-dpa/](https://www.cloudflare.com/en-au/cloudflare-customer-dpa/)
 
