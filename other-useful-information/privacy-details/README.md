@@ -8,22 +8,7 @@ description: Here you will see details about how we collect, store and use user 
 
 All information is declared under [https://delivery.adnuntius.com/.well-known/deviceStorage.json](https://delivery.adnuntius.com/.well-known/deviceStorage.json). The table below is provided for easier reading.
 
-<table data-full-width="false">
-  <thead><tr><th width="160">Name</th><th width="94">Type</th><th width="323">Purpose</th><th>Expiry</th></tr></thead>
-<tbody>
-  <tr><td>usi</td><td>Cookie</td><td>Identify the user across multiple sessions (TCF: 1, 2, 4, 7)</td><td>30 days</td></tr>
-  <tr><td>sessionId</td><td>Cookie</td><td>Identify the user session across multiple requests (TCF: 1, 2, 4, 7)</td><td>Length of browser session</td></tr>
-  <tr><td>i</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
-  <tr><td>c</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
-  <tr><td>v</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
-  <tr><td>s</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
-  <tr><td>r</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr>
-  <tr><td>t</td><td>Cookie</td><td>User retargeting. Records data about the user when they are browsing an advertiser's website, and then uses this data to select advertisements when the user is browsing a publisher's website. (TCF: 1, 4)</td><td>30 days</td></tr>
-  <tr><td>cnv</td><td>Cookie</td><td>Records the most recent time that a specific advertisement was seen by the user. Used to track conversions e.g. if the user subsequently performs an eligible action, such as purchasing a product, on the advertiser's website. (TCF: 1, 4)</td><td>30 days</td></tr>
-  <tr><td>consent</td><td>Cookie</td><td>(*Deprecated*) Replaced by IAB TCF string and no longer read or written</td><td>No expiry</td></tr>
-  <tr><td>noCookies</td><td>Cookie</td><td>Records user cookie preference specified here: http://delivery.adnuntius.com/consent (TCF: 1)</td><td>No expiry</td></tr>
-  <tr><td>doNotTrack</td><td>Cookie</td><td>Records user tracking preference specified here: http://data.adnuntius.com/consent (TCF: 5)</td><td>No expiry</td></tr>
-  <tr><td>adn.metaData</td><td>Web</td><td>Stores the cookie data detailed above in the browser web storage (TCF: 1, 2, 4, 7)</td><td>Null</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="160">Name</th><th width="94">Type</th><th width="323">Purpose</th><th>Expiry</th></tr></thead><tbody><tr><td>usi</td><td>Cookie</td><td>Identify the user across multiple sessions (TCF: 1, 2, 4, 7)</td><td>30 days</td></tr><tr><td>sessionId</td><td>Cookie</td><td>Identify the user session across multiple requests (TCF: 1, 2, 4, 7)</td><td>Length of browser session</td></tr><tr><td>i</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>c</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>v</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>s</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>r</td><td>Cookie</td><td>Records a history of advertisements shown to the user (TCF: 1, 2)</td><td>30 days</td></tr><tr><td>t</td><td>Cookie</td><td>User retargeting. Records data about the user when they are browsing an advertiser's website, and then uses this data to select advertisements when the user is browsing a publisher's website. (TCF: 1, 4)</td><td>30 days</td></tr><tr><td>cnv</td><td>Cookie</td><td>Records the most recent time that a specific advertisement was seen by the user. Used to track conversions e.g. if the user subsequently performs an eligible action, such as purchasing a product, on the advertiser's website. (TCF: 1, 4)</td><td>30 days</td></tr><tr><td>consent</td><td>Cookie</td><td>(*Deprecated*) Replaced by IAB TCF string and no longer read or written</td><td>No expiry</td></tr><tr><td>noCookies</td><td>Cookie</td><td>Records user cookie preference specified here: http://delivery.adnuntius.com/consent (TCF: 1)</td><td>No expiry</td></tr><tr><td>doNotTrack</td><td>Cookie</td><td>Records user tracking preference specified here: http://data.adnuntius.com/consent (TCF: 5)</td><td>No expiry</td></tr><tr><td>adn.metaData</td><td>Web</td><td>Stores the cookie data detailed above in the browser web storage (TCF: 1, 2, 4, 7)</td><td>Null</td></tr></tbody></table>
 
 All objects above with Type "Cookie" use the following domains: delivery.adnuntius.com, europe.delivery.adnuntius.com, ads.adnuntius.delivery, limited.delivery.adnuntius.com, and limited.europe.delivery.adnuntius.com.
 
@@ -41,7 +26,7 @@ Please note that Adnuntius offers a privacy-safe ad serving alternative commonly
 
 **Expiry:** 30 days after last update.
 
-**Storage:** Data is stored on servers controlled by Adnuntius and delivered by sub-processor Hetzner.&#x20;
+**Storage:** Data is stored on servers controlled by Adnuntius and delivered by sub-processor Hetzner.
 
 ## Location Targeting
 
@@ -57,7 +42,7 @@ Please note that Adnuntius offers a privacy-safe ad serving alternative commonly
 
 ### **Longitude and latitude**
 
-**Please note**: this data is only processed if actively sent by the Controller.&#x20;
+**Please note**: this data is only processed if actively sent by the Controller.
 
 **Purpose**: Enable Controller and potentially its customers to target by exact location.
 
@@ -149,8 +134,8 @@ Adnuntius offers its customers to transfer raw data to its own databases. If cus
 To see what data is recorded, [please see this page](../adserver-logs.md). Some rules apply to these data:
 
 * User agent strings are Recorded if Network Config is set to "No Consent Required". They are not recorded if Network Config is set to "Consent Required".
-* Latitude and longitude are recorded only if consent is provided.&#x20;
-* Other data is always recorded as long as raw data is enabled.&#x20;
+* Latitude and longitude are recorded only if consent is provided.
+* Other data is always recorded as long as raw data is enabled.
 
 **Storage:** All data is stored in Hetzner's data centers (see "Sub-Processors" for more information) in Germany and Finland. Snapshots of Adnuntius data are periodically saved to Amazon Simple Storage Service (AWS S3)'s Frankfurt data center. All data is encrypted with AES prior to leaving the Germany and Finland data centers, is transmitted via a secured channel, and is stored in its encrypted form in a private S3 bucket.
 
@@ -176,7 +161,7 @@ To see what data is recorded, [please see this page](../adserver-logs.md). Some 
 
 ## Responsibles
 
-Data Protection Officer, and responsible on behalf of the Processor:&#x20;
+Data Protection Officer, and responsible on behalf of the Processor:
 
 Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
@@ -214,7 +199,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Data processing agreement:** [https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf](https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf)
 
-&#x20;**Basis for transfer:** EU standard clauses.
+**Basis for transfer:** EU standard clauses.
 
 ### Adnuntius Australia PTY LTD
 
@@ -256,7 +241,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Sub-Processor's role:** Cloudflare terminates prebid requests at the edge, decrypts it, and tunnels it to our adservers for a fast ad response.
 
-**Locations of servers:** Worldwide points of presence
+**Locations of servers:** Worldwide points of presence. For EU companies: to ensure that only European servers are used, just send the GDPR ad tag parameter with the ad request as[ explained here](https://docs.adnuntius.com/other-useful-information/identification-and-privacy/consent-processing-tcf2#id-1-how-adnuntius-determines-if-gdpr-applies).&#x20;
 
 **Data processing agreement:** [https://www.cloudflare.com/en-au/cloudflare-customer-dpa/](https://www.cloudflare.com/en-au/cloudflare-customer-dpa/)
 
