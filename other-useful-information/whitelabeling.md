@@ -20,10 +20,7 @@ The self-service portal allows for you to use your own domain. As part of [the o
 
 ## Admin Portal
 
-You can whitelabel the admin portal at `admin.adnuntius.com`. For the purposes of this instruction we will assume that the your domain is `pubdomain.net`, and that you want the admin portal to be accessible at `admin.pubdomain.net`. This **must** be replaced with your actual domain and address when following the instructions.
-
-1. In your DNS, create/add a CNAME for `admin.pubdomain.net` and point it to `manager.adnuntius.com`.
-2. Inform us that this is done by sending us a short message at support@adnuntius.com, and we will complete the process on our end.
+You can whitelabel the admin portal at `admin.adnuntius.com`. In order to do this, you will need to be able to edit records in your DNS provider. You will need to email support@adnuntius.com the name of the domain you wish to whitelabel, and we will enable this and walk you through the changes you need to make.
 
 You can also further whitelabel the portal, in which case we would need the following material from you (which can be sent to support@adnuntius.com unless you have a dedicated project manager).
 
