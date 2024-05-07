@@ -213,16 +213,6 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Basis for transfer:** EU standard clauses.
 
-### Leaseweb Asia Pacific
-
-**Contact information:** privacy@leaseweb.com; 11 Collyer Quay, The Arcade #16-02 049317, Singapore
-
-**Sub-Processor's role:** Leaseweb is Adnuntius' supplier of servers in Asia, and stores data about all users in Asia tracked by any of the tracking mechanisms specified in this document.
-
-**Locations of servers:** Singapore
-
-**Data processing agreement:** [https://www.leaseweb.com/sites/default/files/Legal/LSW\_APAC\_ENG\_v2020.1%20Privacy%20Statement\_0.pdf](https://www.leaseweb.com/sites/default/files/Legal/LSW\_APAC\_ENG\_v2020.1%20Privacy%20Statement\_0.pdf)
-
 ### Paypal
 
 **Contact information:** [https://www.paypal.com/va/webapps/mpp/ua/privacy-full#2](https://www.paypal.com/va/webapps/mpp/ua/privacy-full#2)
