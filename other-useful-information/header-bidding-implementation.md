@@ -67,7 +67,7 @@ You have now allowed Adnuntis to send requests to your SSP, great job! But you s
 
 In the line item you will define your goals for the header bidding. Namely start date, end date etc. You can also choose targeting in order to specify an area of your site / network that you wish to show or not show this line item to:
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 The line item is a pretty standard line item but the real magic happens when you enter the creatives:
 
