@@ -1,18 +1,14 @@
 ---
-description: Explains how to create dashboards in Adnuntius Advertising.
+description: How to create dashboards in Adnuntius Advertising.
 ---
 
 # Dashboards
 
-{% embed url="https://www.youtube.com/watch?v=NQ4tHVFtkWY" %}
-How to create a dashboard.
-{% endembed %}
-
 Dashboards are pages consisting of widgets in which you can define the content, so that you can keep control of what is going on in Adnuntius Advertising. You can create any number of dashboards and change between them in the left-most column as soon as they are created.
 
-To create a new dashboard, [go to Dashboards](https://admin.adnuntius.com/workspace) and click "new" in the upper right corner. Give your dashboard a **name** and **description** of your choice and then start adding widgets.
+To create a new dashboard go to [https://admin.adnuntius.com/workspace](https://admin.adnuntius.com/workspace) and click "new" in the upper right corner. Give your dashboard a **name** and **description** of your choice and then start adding widgets.
 
-The type lets you choose whether your dashboard should be personal to you, or shared with the entire network (all users).
+The **type** lets you choose whether your dashboard should be personal to you, the [Team ](users/users-teams-and-roles-1.md)you are part of, or shared with the entire Network (all users).
 
 ![Creating dashboards: an example.](../../.gitbook/assets/202003-dashboard-dashboard-create-dashboard.gif)
 
