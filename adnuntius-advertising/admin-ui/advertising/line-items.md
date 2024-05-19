@@ -1,24 +1,19 @@
 ---
 description: >-
   A line item determines start and end dates, delivery objectives (impressions,
-  clicks or conversions), pricing, targeting, creative delivery and
-  prioritization.
+  clicks or conversions), pricing, targeting, creative delivery and priority.
 ---
 
 # Line Items
-
-{% embed url="https://youtu.be/b9BaXkMp5B8" %}
-How to create a line item.
-{% endembed %}
 
 A Line Item belongs to an Order, and can contain multiple Creatives as its children. To understand the organization of advertising objects, [see here](./).
 
 ## Creating a Line Item
 
-To create a line item, [go to line items under the advertising section](https://admin.adnuntius.com/line-items), and then click "new" in the upper right corner. First, give your line item a **name** of your choice.
+To create a line item go to [https://admin.adnuntius.com/line-items](https://admin.adnuntius.com/line-items) and click "new" in the upper right corner. First, give your line item a **name** of your choice.
 
 {% hint style="info" %}
-Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you. For any questions or requests, please contact us at support@adnuntius.com.
+Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you. For any questions, contact us at support@adnuntius.com.
 {% endhint %}
 
 Give the line item a **start and end date and time**. If you choose not to provide an end date the line item will continue delivering until you pause or stop it. Please note that [smoothing ](smoothing.md)will not work if no end date is set.&#x20;
@@ -33,13 +28,11 @@ If your user is the role of a Marketplace Advertiser, then you will see the obje
 
 _- Please note that this step does not apply to administrators or other user roles. -_
 
-If you select the line item to be based on a "**Product**" you may be asked to choose one or have the option to update and change the pre-selected product.\
-A [Marketplace Product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
+If you select the line item to be based on a "**Product**" you may be asked to choose one or have the option to update and change the pre-selected product. A [Marketplace Product](../design/marketplace-products.md) allows certain users to package layouts, price conditions and targeting criteria into a product, and make it available to one or more Marketplace Advertisers.
 
 ![If you're a Marketplace Advertiser you will be asked to choose a product.](../../../.gitbook/assets/mp-products.png)
 
-If you select the line item to be based on a "**Proposal**" you need to select one ore more sites that belong to the same publisher.\
-A Line Item Proposal allows a marketplace advertiser to build their own proposal with start and end dates, delivery objectives (impressions, clicks or conversions), pricing and targeting. The line item will be submitted to the publisher for approval before it can deliver.
+If you select the line item to be based on a "**Proposal**" you need to select one ore more sites that belong to the same publisher. A Line Item Proposal allows a marketplace advertiser to build their own proposal with start and end dates, delivery objectives (impressions, clicks or conversions), pricing and targeting. The line item will be submitted to the publisher for approval before it can deliver.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2022-12-20 at 5.09.02 pm.png" alt=""><figcaption><p>If you're a Marketplace Advertiser you will be asked to select one ore more sites.</p></figcaption></figure>
 
@@ -73,12 +66,19 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 
 **Objectives** allow you to specify the goal of the campaign. You can choose one or multiple objectives. If you choose multiple objectives, then the line item will stop delivering impressions as soon as it reaches _one of its objectives_. Here are the objectives you may choose between:
 
+* Budget: Stops the line item when the budget has been reached.&#x20;
 * Impressions: Counted whenever an ad from the line item has been delivered by our adserver.
 * Clicks: Counted whenever a user clicks on an ad.
 * Visible impressions: Counted whenever an ad has one or more pixels shown in the user's viewport.
 * Viewable impressions: Counted whenever an ad has 50% or more pixels shown in the user's viewport for 1 second or longer.
 * Rendered impressions: Counted whenever an ad has been rendered onto the page (rendering can be controlled with lazy requesting or lazy loading).
 * Conversions: Counted whenever a conversion has happened according to how you want to define a conversion (read more below).
+
+**Bids** and **bid strategy** lets you choose how much and how to bid.&#x20;
+
+* _Standard_ means that the line item will bid whatever CPM bid you set on the campaign. If you set 5 EUR as a bid, the line item will bid just that.&#x20;
+* _vCPM_ means that the bid will be adjusted to the historical viewability of the request. If you bid 5 EUR but the likely viewability is 80%, then the bid will be adjusted in this one example to 5 x 80% = 4 EUR.&#x20;
+* _Dynamic bidding_ dynamically adjusts impression bids up to the provided maximum CPM, to optimise the budget spend. If you bid 5 EUR this means that the system will never bid more than 5 EUR, but will potentially bid lower as long as it doesn't affect the line item's objectives.
 
 **Type** lets you choose between Auction and Sponsorship. "_Auction_" means that the line item will compete with other line items based on your line item's bid (CPM, CPC or CPA). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable [smoothing](smoothing.md), which means that (when enabled) the line item's impressions will be delivered evenly throughout the campaign period.
 
@@ -90,7 +90,7 @@ When specifying a share of voice, take into consideration the [tier](../admin/ti
 
 **Smoothing** lets you control the pacing of ad delivery. You can choose between "ASAP", "Even" and "Frontloaded". See the [smoothing](smoothing.md) page for more detail.
 
-**Rate limits** lets you limit the delivery of a line item. if you choose to add more than one rate limit, then both limits will be added to the line item, essentially adding two restrictions on top of each other.
+**Capping** lets you limit the delivery of a line item. if you choose to add more than one rate limit, then both limits will be added to the line item, essentially adding two restrictions on top of each other.
 
 * _Type (line item-wide or per user)_: Per user means that you will limit the number of impressions or clicks per user for whatever period you set. Line item-wide means that you will limit the delivery of the whole line item.
 * _Count_ lets you set the number of impressions or clicks
@@ -158,6 +158,12 @@ The report tab also gives you the audit history of the line item. This means tha
 
 ![Create scheduled reports from a line item](<../../../.gitbook/assets/202207 Reports from LI Page (1).png>)
 
+### Articles
+
+This tab gives you a breakdown of delivery per article. This can be particularly useful when using semantic and/or keyword targeting, to understand which articles display your ad more often. You can also click the cog wheel symbol to target or exclude an article.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ### Traffic
 
 The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions across the line items belonging to this line item.
@@ -219,3 +225,12 @@ Please note that Adnuntius allows you to change the names of the values under th
 Please see the "Rate Limiting" graph in the example screen shot above for an example. The rate limiting shows you the burn rate of your line item in the past. Adnuntius adds a rate limit if you are meeting your objective(s) and your line item needs to slow down. For example, if you set your line item to deliver evenly throughout the campaign period and you are currently forecasted to overdeliver at the end of the period, then Adnuntius will slow down delivery.
 
 If you're burn rate is less than 100% and you want it to deliver faster, try setting the line item's delivery to "unsmoothed" and/or turn off any rate limits.&#x20;
+
+### Floor Prices
+
+Floor prices lets you see any floor prices applied to the publishers and sites that you target.&#x20;
+
+### Bid Updates
+
+If you have applied dynamic bidding to your line item, bid updates can be useful to understand the bidding history and trends of your line item. The bidding history is broken down per site, and shows the max and minimum CPM bid.&#x20;
+
