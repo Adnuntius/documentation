@@ -6,6 +6,10 @@ description: >-
 
 # Advertising
 
+Here is how the various objects hang together: an advertiser is the top level object, and contain multiple orders, which in turn can contain multiple line items, which in turn can contain multiple creatives. Creatives will then be served inside ad units, which are set up under the inventory section.
+
+![The hierarchy of the objects under Advertising, and how the connect to ad units.](../../../.gitbook/assets/advertising-hierarchy.png)
+
 ## Concept Summary
 
 | Concept                                      | Description                                                                                                                                                                                                             |
@@ -17,9 +21,5 @@ description: >-
 | [Creative](creatives.md)                     | The design of the ad that is shown to the end user. Can consist of various assets such as images, text and videos.                                                                                                      |
 | [Library Creative](library-creative.md)      | Library creatives enable you to edit creatives across multiple line items from a single central location.                                                                                                               |
 | [Reach analysis](reach-analysis.md)          | An analysis you can run to forecast the volume of matching traffic for a line item.                                                                                                                                     |
-
-Here is how the various objects hang together: an advertiser is the top level object, and contain multiple orders, which in turn can contain multiple line items, which in turn can contain multiple creatives. Creatives will then be served inside ad units, which are set up under the inventory section.
-
-![The hierarchy of the objects under Advertising, and how the connect to ad units.](../../../.gitbook/assets/advertising-hierarchy.png)
 
 ***
