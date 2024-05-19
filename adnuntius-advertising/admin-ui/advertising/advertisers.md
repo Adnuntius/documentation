@@ -1,30 +1,22 @@
 ---
 description: >-
-  An advertiser is a client that wants to advertise on your sites, or the sites
-  you have access to. Here is how to create one.
+  An Advertiser is the top item in the Advertising section, and has children
+  Orders belonging to it.
 ---
 
 # Advertisers
 
-{% embed url="https://youtu.be/a19B-oBfMEc" %}
-How to create an advertiser.
-{% endembed %}
-
-An Advertiser is the top item in the Advertising section, and has children Orders belonging to it. To understand the organization of advertising objects, [see here](./).&#x20;
-
 ## Creating an Advertiser
 
-To create an Advertiser, [go to Advertisers under the Advertising section](https://admin.adnuntius.com/advertisers), and then click "new" in the upper right corner.&#x20;
+To create an Advertiser, go to [Advertisers under the Advertising section](https://admin.adnuntius.com/advertisers) and click "new" in the upper right corner.&#x20;
 
-![The fields available when creating a new Advertiser.](<../../../.gitbook/assets/202207 New Advertiser Fields.png>)
+<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 Give your advertiser a **name**, and an optional **description** of your choice.
 
 Specify a **team** that this Advertiser should belong to. The team determines which users in Adnuntius will be able to view this Advertiser, while their roles determine if they can make changes to it. [Read more about teams and roles here](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/users).
 
-The **self-service user account** only applies to customers who use Adnuntius Self-Service. More information on this coming soon.&#x20;
-
-**Labels** can be added to structure reporting. Let's say you add the label "Mindshare" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Read more about reports.](../queries/advertising-queries.md) Labels will also be visible in the global search results on the top center of the screen.
+**Labels** can be added to structure reporting. Let's say you add the label "AgencyX" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Read more about reports.](../queries/advertising-queries.md) Labels will also be visible in the global search results on the top center of the screen.
 
 Add an **external reference** if you want to match the advertiser with the same client in another system. For instance, if Coca Cola is registered in your invoicing system with customer ID 123456, then by adding 123456 as an external reference in Adnuntius you can connect these two different entries in the different systems, as one Advertiser.
 
@@ -38,21 +30,15 @@ Finally, you can add contact information to the Advertiser, and an address, befo
 
 Once an advertiser is created you will see the following tabs below the Advertiser information.
 
-### Orders
+### Orders, Line Items and Creatives
 
-The order tab gives you an overview of the orders belonging to this advertiser, and their team, salesperson and ad ops responsible.
+These tabs give you an overview of the orders, line items and creatives belonging to this advertiser.
 
 ![Order overview from an Advertiser page](<../../../.gitbook/assets/202207 Orders from Advertiser Page.png>)
 
-### Line Items
-
-The line items tab gives you an overview of the line items tied to this advertiser through their Orders.
-
-![Example overview of line items from an Advertiser page](<../../../.gitbook/assets/202207 Line Items from Advertiser Page.png>)
-
 ### Charts
 
-Charts lets you see the performance of all advertising belonging to this advertiser. You can select the timeframe to look at, the metrics, the presentation of the data, and you can download the data to Excel or a CSV file.&#x20;
+Charts lets you see the performance of all advertising belonging to this advertiser. You can select the timeframe to look at, the metrics, the presentation of the data, and download data to an Excel file.&#x20;
 
 ![Example chart from Advertiser page](<../../../.gitbook/assets/202207 Charts from Advertiser Page.png>)
 
