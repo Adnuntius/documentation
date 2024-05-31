@@ -6,10 +6,6 @@ description: >-
 
 # Creatives
 
-{% embed url="https://youtu.be/Em1x3_JE75E" %}
-How to create a creative.
-{% endembed %}
-
 There are different places in Adnuntius from where to create a creative, depending on your needs and preferences. Here are the differences.
 
 | From where?              | From the Line Item page                                                                                                     | From the Creatives Overview                                                                                                           | From a Library Creative                                                                                                                                               |

@@ -4,10 +4,6 @@ description: An order lets you set targets and rules for multiple line items.
 
 # Orders
 
-{% embed url="https://youtu.be/XdSFIeujJKs" %}
-How to create an order.
-{% endembed %}
-
 An Order belongs to an Advertiser, and can contain multiple Line Items as its children. To understand the organization of advertising objects, [see here](../../../../adnuntius-advertising/admin-ui/advertising/).&#x20;
 
 ## Creating an Order

@@ -6,10 +6,6 @@ description: >-
 
 # Advertisers
 
-{% embed url="https://youtu.be/a19B-oBfMEc" %}
-How to create an advertiser.
-{% endembed %}
-
 An Advertiser is the top item in the Advertising section, and has children Orders belonging to it. To understand the organization of advertising objects, [see here](../../../../adnuntius-advertising/admin-ui/advertising/).&#x20;
 
 ## Creating an Advertiser

@@ -7,10 +7,6 @@ description: >-
 
 # Line Items
 
-{% embed url="https://youtu.be/b9BaXkMp5B8" %}
-How to create a line item.
-{% endembed %}
-
 A Line Item belongs to an Order, and can contain multiple Creatives as its children. To understand the organization of advertising objects, [see here](../../../../adnuntius-advertising/admin-ui/advertising/).
 
 ## Creating a Line Item
