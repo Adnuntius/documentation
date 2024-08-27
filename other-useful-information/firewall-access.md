@@ -48,7 +48,7 @@ If you are running a captive portal and wish to allow access to our AdServer and
 
 To allow the Adnuntius page crawler to access pages behind a paywall, you will need to allow the following IP address:
 
-* 159.69.141.57
+* 178.63.30.94
 
 You will be able to identify requests from the Adnuntius crawler by the user agent string provided with the request:
 
