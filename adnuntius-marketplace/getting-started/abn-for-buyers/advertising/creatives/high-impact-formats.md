@@ -39,11 +39,26 @@ Once this is done you can continue creating the line item as you do with other c
 
 From the line item you can click to create creatives. When adding a new creative, one of the first things you do is to select a layout. If you for instance chose “High Impact - Denmark - Topscroll” as the product on the line item, you can choose to upload images, videos, html or third party creatives. Here are the specifications.
 
-| Layout Name         | File Type | Max File Size | Width and Height |
-| ------------------- | --------- | ------------- | ---------------- |
-| High impact - Image |           |               |                  |
-| High impact -       |           |               |                  |
-|                     |           |               |                  |
+| Layout Name               | File Type         | Max File Size | Width and Height                                  |
+| ------------------------- | ----------------- | ------------- | ------------------------------------------------- |
+| High impact - Image       | JPG, GIF, PNG     | 5mb           | <p>Desktop: 1920x1080</p><p>Mobile: 1080x1920</p> |
+| High impact - Video       | MP4               | 50mb          | <p>Desktop: 1920x1080</p><p>Mobile: 1080x1920</p> |
+| High impact - HTML        | HTML (zip folder) | 50mb          | <p>Desktop: 1920x1080</p><p>Mobile: 1080x1920</p> |
+| High impact - Third Party | Javascript        | NA            | <p>Desktop: 1920x1080</p><p>Mobile: 1080x1920</p> |
 
+When you design the material, here are some rules to ensure that the ads will show the messages in the creative (see the illustrations below).
 
+For desktop creatives:&#x20;
 
+* Make sure that the content of the ad such as logos, calls to action, text etc stays within the white area, i.e. on the top 400px of the creative and in the middle 920px.&#x20;
+* You can then play around with the extra 500px of width at each side, as long as it is ok that some of this content will not be visible on all screens
+* You can also play around with the remaining area below the top 400px, as long as it is ok that some of this content will not be visible on all parts of the scroll.&#x20;
+
+<figure><img src="../../../../../.gitbook/assets/Picture2.png" alt=""><figcaption></figcaption></figure>
+
+For mobile creatives:&#x20;
+
+* Make sure that the content of the ad such as logos, calls to action, text etc stays within the white area, i.e. on the top 800px of the creative. You can use the full width.&#x20;
+* You can then play around with the extra 1120px at the bottom, as long as it is ok that some of this content will not be visible on all parts of the scroll.
+
+<figure><img src="../../../../../.gitbook/assets/Picture3.png" alt=""><figcaption></figcaption></figure>
