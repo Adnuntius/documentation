@@ -17,7 +17,7 @@ There are different places in Adnuntius from where to create a creative, dependi
 | How are stats recorded?  | Uniquely; if a creative is copied then those two will exist individually and record stats separately.                       | Uniquely; if a creative is copied then those two will exist individually and record stats separately.                                 | No stats are collected to library creatives; but if you copy a library creative to a creative assigned to a line item, then that creative will record stats as usual. |
 
 {% hint style="info" %}
-Read more about library creatives [here](../../../../adnuntius-advertising/admin-ui/advertising/library-creative.md).
+Read more about library creatives [here](../../../../../adnuntius-advertising/admin-ui/advertising/library-creative.md).
 {% endhint %}
 
 ## Creating a Single Creative
@@ -30,7 +30,7 @@ You can set the **state** of a creative to approved, incomplete or paused.
 * You can set the creative to Incomplete to prevent it from delivering, and to signal to yourself and colleagues that more information or material needs to be added before the creative is approved.
 * You can set the creative to Incomplete to prevent it from delivering, even though all necessary assets and information is added to the creative.
 
-![Example creative](<../../../../.gitbook/assets/202207 Creative.png>)
+![Example creative](<../../../../../.gitbook/assets/202207 Creative.png>)
 
 **Impression tracking URLs** can be added to ensure that third party systems can track the impressions in the same way as Adnuntius can. Impression tracking URLs are provided by the advertiser or whoever controls the access to that third party system. Please note that some third party systems will deliver an impression tracker as an image tag, such as the one below.
 
@@ -48,22 +48,22 @@ http://track.adform.net/adfserve/?bn=12345678;1x1inv=1;srctype=3;ord=[timestamp]
 
 {% tabs %}
 {% tab title="External Demand Source" %}
-After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](../../../../adnuntius-advertising/admin-ui/admin/context-services.md), and then [creating external ad units](../../../../adnuntius-advertising/admin-ui/inventory/external-adunits.md).
+After choosing Creative type "External", the first step is to select your external demand source. Please note that if you haven't set this up yet, you will need to do so by first [adding an external demand source](../../../../../adnuntius-advertising/admin-ui/admin/context-services.md), and then [creating external ad units](../../../../../adnuntius-advertising/admin-ui/inventory/external-adunits.md).
 
-![First step: add an external demand source](../../../../.gitbook/assets/201811-advertising-creative-external-1.png)
+![First step: add an external demand source](../../../../../.gitbook/assets/201811-advertising-creative-external-1.png)
 {% endtab %}
 
 {% tab title="External Ad Unit Targeting (Optional)" %}
-If you want to target your programmatic creative to specific ad units, you can use external ad unit targeting. Please note that if you haven't created external ad units yet, [you can learn how to do so here](../../../../adnuntius-advertising/admin-ui/inventory/#external-ad-unit).
+If you want to target your programmatic creative to specific ad units, you can use external ad unit targeting. Please note that if you haven't created external ad units yet, [you can learn how to do so here](../../../../../adnuntius-advertising/admin-ui/inventory/#external-ad-unit).
 
-![Example where the creative is targeted to one external ad unit](../../../../.gitbook/assets/201811-advertising-creative-external-2.png)
+![Example where the creative is targeted to one external ad unit](../../../../../.gitbook/assets/201811-advertising-creative-external-2.png)
 {% endtab %}
 {% endtabs %}
 
 **Layout** specifies the file types and properties, and the types of formats ("look and feel") that you can serve with your campaign. When you select a layout, Adnuntius will tell you what information is needed for the creative. For example, if you choose a layout called "Image" then Adnuntius may ask you for an image file with a max size restriction, and a click URL.
 
 {% hint style="info" %}
-If your user has access to create layouts, [here is how you do it](../../../../adnuntius-advertising/admin-ui/design/layouts.md).
+If your user has access to create layouts, [here is how you do it](../../../../../adnuntius-advertising/admin-ui/design/layouts.md).
 {% endhint %}
 
 **Uploaded assets** is where you upload the files needed to assemble the creative. You can click to upload, or drag and drop. You can also drag and drop multiple files into the file drop field, and get all files into the creative with one move.
@@ -72,7 +72,7 @@ If you have more than one creative on your line item, you can put a **share of v
 
 **CPM bid** allows you to set a CPM bid specifically for this creative. This CPM bid will override any CPM bid set on the line item. This is an optional field, and if you leave it blank then the CPM bid on the line item will apply to this creative.
 
-You can add **targeting** to both line items \*\*\*\* and creatives. To learn about targeting, please [see the targeting documentation](../../../../adnuntius-advertising/admin-ui/advertising/targeting.md).
+You can add **targeting** to both line items \*\*\*\* and creatives. To learn about targeting, please [see the targeting documentation](../../../../../adnuntius-advertising/admin-ui/advertising/targeting.md).
 
 **Width and Height** means the dimensions of your creative. These dimensions are only used to find out which ad units are eligible to show this creative. An ad unit will always be set up with minimum and maximum width and height, and if an ad unit can only show 980x300 pixels, then a creative with added dimensions 980x150 will not show in this ad unit.
 
@@ -84,7 +84,7 @@ To upload creatives in bulk go to the creatives page, or the library creatives p
 
 Choose the type of creatives that you want to upload. You can choose between images, third party, and html. Then, click to upload your creatives or drag and drop your creative files in one move into the upload window. Please note that if you have an excel or CSV file with multiple third party creatives, you can drag and drop that file.
 
-![When you click "bulk upload" you come to a page like this, where you also find earlier creatives uploaded in bulk.](<../../../../.gitbook/assets/202207 Bulk Upload P1.png>)
+![When you click "bulk upload" you come to a page like this, where you also find earlier creatives uploaded in bulk.](<../../../../../.gitbook/assets/202207 Bulk Upload P1.png>)
 
 You should now arrive at a new page where you can make changes to the creatives as needed.
 
@@ -96,7 +96,7 @@ You should now arrive at a new page where you can make changes to the creatives 
 
 When you have clicked to save a creative you can make changes to each creative according to the documentation above.
 
-![Manage the details of each creative before saving them.](<../../../../.gitbook/assets/202207 Bulk Upload P2.png>)
+![Manage the details of each creative before saving them.](<../../../../../.gitbook/assets/202207 Bulk Upload P2.png>)
 
 ## When a Creative is Created
 
@@ -106,19 +106,19 @@ When a creative is created you will have access to the following resources.
 
 Creative charts provide you with insights into the creative's delivery. You can specify the period you want to look at, the metrics important to you, and how you want the data visualized. Once you have the data interesting to you, you can also download it as an Excel file.
 
-![Example statistics for a creative.](<../../../../.gitbook/assets/202207 Stats from Creative Page (1).png>)
+![Example statistics for a creative.](<../../../../../.gitbook/assets/202207 Stats from Creative Page (1).png>)
 
 ### Creative Preview
 
 Creative preview gives you a preview of the creative. Please note that not all layouts will give you a preview (in which case the system will tell you). But if the user interface cannot give you a preview, you can click "preview on a black page" and the creative will render on a blank page, as it will be on a live page.
 
-![Example creative preview.](<../../../../.gitbook/assets/202207 Creative Preview.png>)
+![Example creative preview.](<../../../../../.gitbook/assets/202207 Creative Preview.png>)
 
 ### Trackers
 
 You can easily generate impression trackers and click trackers so that you can ask third party, so that you can paste the resulting URLs into the appropriate place in third-party systems to have this creative serve as an impression or click tracker. Just choose the ad unit you want to use, and the trackers are automatically created.
 
-![Trackers for a creative.](<../../../../.gitbook/assets/202207 Creative Trackers.png>)
+![Trackers for a creative.](<../../../../../.gitbook/assets/202207 Creative Trackers.png>)
 
 ### Creative Tag
 
@@ -127,12 +127,12 @@ If your creative is going to be served by a third party system, then you can gen
 * If you choose an ad unit then Adnuntius will collect statistics to that ad unit as well as the creative itself. Just choose the ad unit you want to use, and the tag is automatically created.
 * If you choose not to specify an ad unit the creative will serve just fine, and you will collect stats to the creative. However, no stats will be collected to any ad unit since you haven't specified any.&#x20;
 
-![Creative tags](<../../../../.gitbook/assets/202207 Creative Tags.png>)
+![Creative tags](<../../../../../.gitbook/assets/202207 Creative Tags.png>)
 
 ### Creative Tag for Emails
 
 You can also create tags for emails if this creative is going to be served inside emails. Just choose the ad unit you want to use, and the tag is automatically created.
 
-Please note that if you want an email tag that can serve ANY creative (not just this specific creative), you can do so under [Ad units](../../../../adnuntius-advertising/admin-ui/inventory/adunits-1.md).
+Please note that if you want an email tag that can serve ANY creative (not just this specific creative), you can do so under [Ad units](../../../../../adnuntius-advertising/admin-ui/inventory/adunits-1.md).
 
-![Example creative tag for email](<../../../../.gitbook/assets/202207 Creative Tags for Emails.png>)
+![Example creative tag for email](<../../../../../.gitbook/assets/202207 Creative Tags for Emails.png>)
