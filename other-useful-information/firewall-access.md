@@ -23,6 +23,13 @@ If you are accessing our advertising and data ui directly, or programmatically a
 * 49.12.134.31
 * 49.12.125.83
 
+## Adnuntius Data Export
+
+If you have configured Azure Blob Storage firewall for your data export buckets, you will need to white list the
+data export server IP in addition to the Data APIs Server IPs above.
+
+* 116.202.192.5
+
 ## Adnuntius Data FTP Server
 
 If you have arranged access to our raw log FTP server and wish to access this from behind a firewall ask your network administrator to allow the following IP addresses:
