@@ -2,11 +2,11 @@
 
 Adnuntius supports HTML5 creatives natively.&#x20;
 
-Choose a HTML layout, upload your HTML5 zip file and Adnuntius will read everything appropriately, like so:
+To deliver a HTML5 creative, choose a HTML layout, upload your HTML5 zip file and Adnuntius will read everything appropriately, like so:
 
 <figure><img src="../../.gitbook/assets/Example-HTML-Creative-Adnuntius.png" alt=""><figcaption></figcaption></figure>
 
-As shown above, you can also update the destination URL within Adnuntius.
+As shown above, you can also update the destination URL within Adnuntius rather than having to edit the contents of the zip file.
 
 Adnuntius natively supports AdForm Studio, Bannerflow, Google Web Designer, Adobe Animate and Adobe Edge HTML5 creative formats. Just uplaod the zip and we'll be able to find destination URLs and the dimensions.
 
