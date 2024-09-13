@@ -94,7 +94,6 @@
     * [/tiers](adnuntius-advertising/admin-api/endpoints/tiers.md)
     * [/users](adnuntius-advertising/admin-api/endpoints/users.md)
 * [Requesting Ads](adnuntius-advertising/requesting-ads/README.md)
-  * [Page](adnuntius-advertising/requesting-ads/page.md)
   * [Javascript](adnuntius-advertising/requesting-ads/intro/README.md)
     * [Requesting an Ad](adnuntius-advertising/requesting-ads/intro/adn-request.md)
     * [Layout Support](adnuntius-advertising/requesting-ads/intro/adn-layout.md)
@@ -110,6 +109,9 @@
   * [Prebid](https://docs.prebid.org/dev-docs/bidders/adnuntius)
   * [Android SDK](https://github.com/Adnuntius/android\_sdk\_examples)
   * [IOS SDK](https://github.com/Adnuntius/ios\_sdk\_examples)
+* [Creative Guide](adnuntius-advertising/creative-guide/README.md)
+  * [HTML5 Creatives](adnuntius-advertising/creative-guide/html5-creatives.md)
+* [Page](adnuntius-advertising/page.md)
 
 ## Adnuntius Marketplace
 
