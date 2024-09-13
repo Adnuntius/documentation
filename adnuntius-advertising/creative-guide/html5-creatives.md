@@ -1,6 +1,6 @@
 # HTML5 Creatives
 
-Adnuntius supports HTML5 creatives natively.&#x20;
+Adnuntius supports HTML5 creative ad delivery as a standard feature.&#x20;
 
 To deliver a HTML5 creative, choose a HTML layout, upload your HTML5 zip file and Adnuntius will read everything appropriately, like so:
 
@@ -12,7 +12,7 @@ Adnuntius natively supports AdForm Studio, Bannerflow, Google Web Designer, Adob
 
 In addition, we natively support deriving the destination URLs out of any HTML5 creative that includes any of the following:
 
-* a link assigned to a `clickTag` variable in the zip's primary HTML file, so something like this: var `clickTag = "https://example.com";`
+* a link assigned to a `clickTag` variable in the zip's primary HTML file, so something like this: `var clickTag = "https://example.com";`
 * a link assigned to an anchor tag in the zip's primary HTML file, so something like this: `<a href="https://example.com">My Link</a>`
 * a link specified within a `window.open` in the zip's primary HTML file, so something like this: `window.open("https://example.com")`
 
