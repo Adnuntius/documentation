@@ -15,6 +15,8 @@ Adnuntius provides six options for ad delivery:
 
 The last three smoothing options, _Strict Cap_, _Catch Up_ and _Opportunistic_, are all ways to mitigate the effects of uneven demand due to either sudden bursts of traffic or a constant source of traffic that only sometimes matches your targeting.
 
+**NOTE:** if your delivery is at the even rate while your smoothing is set to _Strict Cap_, _Catch Up_ or _Opportunistic_, your delivery will continue to deliver at the even rate. These smoothing options are strategies for handling situations where delivery diverges from the even rate.
+
 _Strict Cap_ is best for situations that feature sporadic ad requests. For instance, ad requests might come in a thousand at a time on the hour. With a _Strict Cap_, delivery will cut off completely some hours and meet all the ad requests on others.
 
 _Catch Up_ and _Opportunistic_ are best for situations where ad requests are constant but it's not guaranteed targeting requirements will be met over the entire course of the line item's dates. For instance, your line item might be set up to target articles to do with Taylor Swift and popular music in general. There might not be any articles about Taylor Swift or popular music from the line item's start date, but when such articles do appear, you'd like to deliver fast and take as much traffic as possible within limits while meeting your objectives.&#x20;
