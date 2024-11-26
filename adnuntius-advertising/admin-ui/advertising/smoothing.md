@@ -13,7 +13,7 @@ Adnuntius provides six options for ad delivery:
 5. _Catch Up_: if line item delivery falls behind the even rate, delivery will run as fast as possible until returning to the even rate rather than smooth out its delivery over the course of its remaining days
 6. _Opportunistic_: if line item delivery falls behind the even rate, delivery will run as fast as possible and surpass the even rate to capitalise on bursts of relevant traffic before smoothing is applied well above said even rate
 
-The last three smoothing options, _Strict Cap_, _Catch Up_ and _Opportunistic_, are all ways to mitigate the effects of uneven demand due to sudden bursts of traffic that are related to either targeting or sporadic ad requests.
+The last three smoothing options, _Strict Cap_, _Catch Up_ and _Opportunistic_, are all ways to mitigate the effects of uneven demand due to either sudden bursts of traffic or a constant source of traffic that only sometimes matches your targeting.
 
 _Strict Cap_ is best for situations that feature sporadic ad requests. For instance, ad requests might come in a thousand at a time on the hour. With a _Strict Cap_, delivery will cut off completely some hours and meet all the ad requests on others.
 
