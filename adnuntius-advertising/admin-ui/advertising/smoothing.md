@@ -1,23 +1,31 @@
 ---
-description: >-
-  Smooth delivery
+description: Smoothing controls how your creatives are delivered over time
 ---
 
-# Smoothing Ad Delivery
+# Smoothing
 
-Adnuntius provides two different options for smooth ad delivery:
+Adnuntius provides six options for ad delivery:
 
-- *Even Pacing*: where the system attempts to deliver at a constant rate throughout the campaign
-- *Front Loaded Pacing*: where the system delivers more quickly at the beginning of the campaign
+1. _Unsmoothed:_ your line item is delivered as fast as possible and may finish well before its end date if it meets its objectives early
+2. _Even_: line item delivery is smoothed out so that its objectives are met at an even rate from day to day until the line item's end date
+3. _Front Loaded_: line item delivery is allowed to run somewhat faster than the even rate and slows down more considerably towards the line item's end date.
+4. _Strict Cap:_ line item delivery is like even, but should the delivery run 5% faster than the even rate due to a sudden burst of traffic, delivery will pause immediately so as to return to the previous even rate rather than smooth out its delivery over the course of its remaining days.
+5. _Catch Up_: if line item delivery falls behind the even rate, delivery will run as fast as possible until returning to the even rate rather than smooth out its delivery over the course of its remaining days
+6. _Opportunistic_: if line item delivery falls behind the even rate, delivery will run as fast as possible and surpass the even rate to capitalise on bursts of relevant traffic before smoothing is applied well above said even rate
 
-The impact of chosing *Front Loading* is shown in the charts below.
+The last three smoothing options, _Strict Cap_, _Catch Up_ and _Opportunistic_, are all ways to mitigate the effects of uneven demand due to sudden bursts of traffic that are related to either targeting or sporadic ad requests.
 
-Front Loading will cause your campaign to deliver up to 30% *faster* at the beginning.
-Towards the end of the campaign the delivery will be relatively *slower* compared to an evenly paced delivery.
+_Strict Cap_ is best for situations that feature sporadic ad requests. For instance, ad requests might come in a thousand at a time on the hour. With a _Strict Cap_, delivery will cut off completely some hours and meet all the ad requests on others.
 
-![Delivery Weighting: Front Loaded Pacing](../../../.gitbook/assets/DeliveryWeighting.png)
+_Catch Up_ and _Opportunistic_ are best for situations where ad requests are constant but it's not guaranteed targeting requirements will be met over the entire course of the line item's dates. For instance, your line item might be set up to target articles to do with Taylor Swift and popular music in general. There might not be any articles about Taylor Swift or popular music from the line item's start date, but when such articles do appear, you'd like to deliver fast and take as much traffic as possible within limits while meeting your objectives.&#x20;
 
-Both *Even* and *Front Loaded* pacing strategies aim to deliver ads all the way up to the end of your campaign.
+### Comparing Front Loaded to Even Traffic Delivery
 
-![Delivery: Front Loaded versus Even Pacing](../../../.gitbook/assets/CumulativeDelivery.png)
+Front Loaded delivery will cause your campaign to deliver up to 30% faster than the even rate towards the beginning of delivery and taper off 30% faster towards the end.&#x20;
+
+Both _Even_ and _Front Loaded_ pacing strategies aim to deliver ads all the way up to the end of your campaign and would look like the following assuming a constant source of traffic:
+
+<figure><img src="../../../.gitbook/assets/Untitled-spreadsheet-Google-Sheets-11-26-2024_02_41_PM.png" alt=""><figcaption><p>Daily Delivery of 20k Impressions over 20 Days: Even vs Front Loaded Delivery</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-11-26 at 2.43.13 pm.png" alt=""><figcaption><p>Cumulative Delivery of 20k Impressions over 20 Days: Even vs Front Loaded Delivery</p></figcaption></figure>
 
