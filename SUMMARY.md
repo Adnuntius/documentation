@@ -69,6 +69,7 @@
     * [/adunittags](adnuntius-advertising/admin-api/endpoints/adunittags.md)
     * [/advertisers](adnuntius-advertising/admin-api/endpoints/advertisers.md)
     * [/article2](adnuntius-advertising/admin-api/endpoints/article2.md)
+    * [/creativesets](adnuntius-advertising/admin-api/endpoints/creativesets.md)
     * [/assets](adnuntius-advertising/admin-api/endpoints/assets.md)
     * [/authenticate](adnuntius-advertising/admin-api/endpoints/authenticate.md)
     * [/contextserviceconnections](adnuntius-advertising/admin-api/endpoints/contextserviceconnections.md)
