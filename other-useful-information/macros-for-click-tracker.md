@@ -1,6 +1,6 @@
 ---
 description: >-
-  We are offering a way to have macros ni click trackers. This is useful if you
+  We are offering a way to have macros in click trackers. This is useful if you
   want to create generic click tracker for UTM parameters.
 ---
 
