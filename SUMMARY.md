@@ -205,6 +205,7 @@
 
 ## Other Useful Information
 
+* [Macros for click tracker](other-useful-information/macros-for-click-tracker.md)
 * [Setup Adnuntius via prebid in GAM](other-useful-information/setup-adnuntius-via-prebid-in-gam.md)
 * [Identification and Privacy](other-useful-information/identification-and-privacy/README.md)
   * [User Identification](other-useful-information/identification-and-privacy/user-identification.md)
