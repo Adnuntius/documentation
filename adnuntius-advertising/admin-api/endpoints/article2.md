@@ -1,7 +1,5 @@
 # /article2
 
-##
-
 ## POST
 
 **Example POST object:**
