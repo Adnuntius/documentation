@@ -225,3 +225,8 @@
 * [FAQs](other-useful-information/faq.md)
 * [How do I contact support?](troubleshooting/how-do-i-contact-support.md)
 * [Adnuntius System Status](https://status.adnuntius.com)
+
+## Adnuntius High Impact
+
+* [Publisher onboarding](adnuntius-high-impact/publisher-onboarding.md)
+* [High Impact configuration](adnuntius-high-impact/high-impact-configuration.md)
