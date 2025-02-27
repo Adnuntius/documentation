@@ -37,7 +37,7 @@ If you have configured Azure Blob Storage firewall for your advertising log expo
 
 ## Adnuntius Data FTP Server
 
-If you have arranged access to our raw log FTP server you will also need to whitelist this same IP to access it.
+If you have arranged access to our raw log FTP server and have a firewall that would prevent access to an external FTP server, then you can whitelist it.
 
 * 65.108.21.175
 
