@@ -8,13 +8,16 @@ description: >-
 
 These are the parameters that we offer:
 
-```
-{{creativeId}}, {{lineItemId}} or {{source}}
-```
+| Placeholder      | Replacement value                 |
+| ---------------- | --------------------------------- |
+| `{{orderId}}`    | Ad servers internal Order Id      |
+| `{{lineItemId}}` | Ad servers internal Line Item Id  |
+| `{{creativeId}}` | Ad servers internal Creative Id   |
+| `{{source}}`     | If it's internal or Marketplace   |
+
+
 
 An example of what to put in the destination url would be this:
-
-
 
 ```
 https://example.com?lineitem={{lineItemId}}
