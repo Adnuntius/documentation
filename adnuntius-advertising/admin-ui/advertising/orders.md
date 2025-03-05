@@ -10,7 +10,7 @@ An Order belongs to an Advertiser, and can contain multiple Line Items as its ch
 
 To create a new order go to [https://admin.adnuntius.com/orders](https://admin.adnuntius.com/orders) and click "New" in the upper right corner.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Start by giving your Order a **name** of your choice. Specify a **team** that this Order should belong to. The team determines which users in Adnuntius will be able to view this Order, while their roles determine if they can make changes to it. [Read more about teams and roles here](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/users).
 
@@ -51,7 +51,7 @@ Charts provide you with insights into the Order's delivery, and the delivery of 
 
 Copy tags to advertise with publishers that are not part of your marketplace. The Javascript version works with any third party system, while the Google version is created for Google Ad Manager specifically.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Reports
 

@@ -10,7 +10,7 @@ First you will have to download prebid from Prebid.org.
 
 Click on the top-right button to get to the page where you can select what SSPs you want to access in Prebid. It's recommended not to select all of the bidders because this will result in a very large file. Only select the ones you want to work with.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After that, click the download button at the bottom and your browser will download a javascript file that you can host on your webpage.
 
