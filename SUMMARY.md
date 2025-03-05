@@ -219,6 +219,7 @@
 * [Ad Server Logs](other-useful-information/adserver-logs.md)
 * [Send segments Cxense](other-useful-information/send-segments-cxense.md)
 * [Setup deals in GAM](other-useful-information/setup-deals-in-gam.md)
+* [Render Key Values in ad](other-useful-information/render-key-values-in-ad.md)
 
 ## Troubleshooting
 
