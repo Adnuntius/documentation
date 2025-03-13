@@ -25,19 +25,13 @@ If you are accessing our advertising and data ui directly, or programmatically a
 
 ## Adnuntius Data Export
 
-If you have configured Azure Blob Storage firewall for your data export buckets, you will need to white list the data export server IP in addition to the Data APIs Server IPs above.
+If you have configured Azure Blob Storage firewall for your data export buckets, you will need to white list the data export server IP in addition to the Data APIs Server IPs above:
 
 * 116.202.192.5
 
-## Adnuntius Data Advertising Log Export
+## Adnuntius Raw Log Export and FTP Server
 
-If you have configured Azure Blob Storage firewall for your advertising log export buckets, you will need to white list the advertising log export server IP in addition to the Data APIs Server IPs above.&#x20;
-
-* 135.181.246.137
-
-## Adnuntius Data FTP Server
-
-If you have arranged access to our raw log FTP server and have a firewall that would prevent access to an external FTP server, then you can whitelist it.
+If you have configured Azure Blob Storage firewall for your raw log export buckets, or if you have arranged access to our raw log FTP server and have a firewall that would prevent access to an external FTP server, then you will need to whitelist the following IP:
 
 * 65.108.21.175
 
