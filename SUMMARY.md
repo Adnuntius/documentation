@@ -232,3 +232,4 @@
 
 * [Publisher onboarding](adnuntius-high-impact/publisher-onboarding.md)
 * [High Impact configuration](adnuntius-high-impact/high-impact-configuration.md)
+* [Guidelines for High impact creatives](adnuntius-high-impact/guidelines-for-high-impact-creatives.md)
