@@ -11,8 +11,10 @@ User identification is an important part of advertising, and conscious usage of 
 This page describes the methods that can be used to either avoid user identification altogether (applies with cookieless ad serving), or to identify them with various data.
 
 {% hint style="info" %}
-The list below only lists the consent required to create the user identifier. Further consent may be required to use that data, e.g. to select personalised advertisements.
+The list below only discusses the consent required to create/read the user identifier. Further consent may be required to use that data, e.g. to select personalised advertisements.
 {% endhint %}
+
+The different approaches that Adnuntius uses to **read** a user identifier are described below, in order of priority. When an identifier is found, it may then (if the user has consented) be written to the user's device. This means, for example, that when a new user is first encountered an identifier may be assigned via *Fingerprinting* (item 4 below) and then written to a *Third Party Cookie*. Subsequent requests then may read the identifier via the cookie (item 2 below).
 
 ## **1 External User Identifier**
 
@@ -67,3 +69,5 @@ The list below only lists the consent required to create the user identifier. Fu
 Adnuntius also offers CRM matching through Adnuntius Data, though it is not part of ad serving. If a publisher and an advertiser are sharing data, then they will each use a different user id when communicating with the ad server. The matching is done when looking up segments, and relies upon Adnuntius having a user id generated via one of the methods above.
 
 Read more: [https://docs.adnuntius.com/adnuntius-data/segment-sharing](https://docs.adnuntius.com/adnuntius-data/segment-sharing)
+
+
