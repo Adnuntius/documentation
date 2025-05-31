@@ -44,7 +44,7 @@ If more than one HTML element matches the CSS class specified, will cycle throug
 
 #### requestTiming
 
-Specifies when to execute the ad request. Defaults to `immediate`, which means the ad request will be made immediately. Can also be set to `onReady`, which means the ad request will be made only after the document is loaded and parsed; or `onLoad`, which means the ad request will be made only after the document and related files \(images, scripts, iFrames, stylesheets\) have finished loading.
+Specifies when to execute the ad request. Defaults to `immediate`, which means the ad request will be made immediately. Can also be set to `onReady`, which means the ad request will be made only after the document is loaded and parsed; or `onLoad`, which means the ad request will be made only after the document and related files (images, scripts, iFrames, stylesheets) have finished loading.
 
 #### requestMode
 
@@ -114,7 +114,7 @@ A function that is called whenever an ad is visible in the user's browser. Must 
 
 #### onViewable
 
-A function that is called whenever an ad is considered viewable \(at least 50% of the ad is shown for at least 1 second\) in the user's browser. Must be a function. Can be called multiple times if one ad unit request features multiple ads. A parameter object is passed into the onVisible function with the following properties: `adId`, `auId`, `creativeId`, `viewability`, `widgetId`
+A function that is called whenever an ad is considered viewable (at least 50% of the ad is shown for at least 1 second) in the user's browser. Must be a function. Can be called multiple times if one ad unit request features multiple ads. A parameter object is passed into the onVisible function with the following properties: `adId`, `auId`, `creativeId`, `viewability`, `widgetId`
 
 #### onError
 
@@ -124,7 +124,7 @@ A function that is called whenever an error is returned from the ad server. Must
 
 Whether or not to clear the target HTML element of all content before loading the ad into it. Must be a boolean. Default is `false`.
 
-#### functionCalls and adn.callChildFunctions\(\)
+#### functionCalls and adn.callChildFunctions()
 
 `functionCalls` is an array of details that describe the functions to call in the content of the ads that the ad server has returned as soon as the ad content is loaded into the page. The ad returned from the ad server must also register the functions that are available to be called.
 
@@ -132,13 +132,13 @@ Whether or not to clear the target HTML element of all content before loading th
 
 If the following is specified in the ad request:
 
-```text
+```
 functionCalls: [{name: 'nameOfFunction', args: {dataObj: 'data', dataObj2: 'more data'}}]
 ```
 
 and specified in the ad is the following:
 
-```text
+```
 adn.inIframe.registerFunction({name: 'nameOfFunction', func: function(args) { // do something here } });
 ```
 
@@ -200,7 +200,7 @@ The URL from which the request is being made. If specified, is used by the Adnun
 
 Specifies the key-values used for targeting. An example:
 
-```text
+```
 kv: [{key1: ['value1', 'value2']}, {fruit: ['apple']}, {car: ['audi', 'toyota', 'holden']}]`
 ```
 
@@ -228,7 +228,7 @@ The segments specified on the ad request supplement whatever segments are associ
 
 Specifies the ids of the line items to exclude from the auction. Must be an array. Example:
 
-```text
+```
 { excludedLineItems: ['myLineItemId', 'myOtherLineItemId'], adUnits: [{auId: 'myId'}] }
 ```
 
@@ -236,7 +236,7 @@ Specifies the ids of the line items to exclude from the auction. Must be an arra
 
 Specifies the ids of the creatives to exclude from the auction. Must be an array. Example:
 
-```text
+```
 { excludedCreatives: ['myCreativeId', 'myOtherCreativeId'], adUnits: [{auId: 'myId'}] }
 ```
 
@@ -296,13 +296,12 @@ Here's how the split runs:
 * **Parameters specified on the ad unit only:** those not listed above
 
 ## **Requesting Ads in Single-Page Applications**
+
 Single-page applications with virtual page transitions require special handling.
 
 Between virtual page transitions, `adn.clearDivs()` or `adn.clearOut()` should be called.
 
-`adn.clearOut()` clears out all the ad request information that has been collected and makes that process start anew. `adn.clearDivs()` does everything
-that `adn.clearOut()` does and also clears out any ads that appear on the page.
-
+`adn.clearOut()` clears out all the ad request information that has been collected and makes that process start anew. `adn.clearDivs()` does everything that `adn.clearOut()` does and also clears out any ads that appear on the page.
 
 ## **Previewing an Ad**
 
@@ -388,7 +387,7 @@ adn.requestData({
 });
 ```
 
-&lt;/div&gt;
+\</div>
 
 This request works just like all the others except that the response from the ad server will be formatted as JSON and passed as a parameter into the listener functions.
 
@@ -449,4 +448,3 @@ adn.calls.push(function () {
 ```
 
 The allowed sources can be found [here](../../admin-api/endpoints/segmentsupload.md) and they are case sensitive. If you use `userSegments` they need to be all caps, if you use `segments` they need to be lower case.
-

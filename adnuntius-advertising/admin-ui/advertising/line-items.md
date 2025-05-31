@@ -164,6 +164,23 @@ This tab gives you a breakdown of delivery per article. This can be particularly
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+### CO2
+
+This tab provides insight into how much CO2 your line item has emitted. In the explanation below we use the numbers from the screenshot at the bottom.
+
+* First you will see the sentence "Estimated CO2 emissions for delivering 9,458,382 impressions...". The number of impressions will be the same as what is delivered so far on your line item - except data for up to the last 24 hours. This is because we update the data once per day, so there is a delay of up to 24 hours.
+*  The first bullet point explains the total emissions (717,655 grams), and emissions per impression.
+* We then compare your emissions to the industry average, if you ran the campaign through a traditional programmatic platform (2%). This means that, by running the campaign through Adnuntius, you emit 2% of what you would emit if you ran the campaign through a traditional DSP.
+* We also compare your emissions to the direct industry average. This means that, by running the campaign through Adnuntius, you emit 11% of what you would emit if you ran the campaign through another adserver.
+
+<figure><img src="../../../.gitbook/assets/CO2 LI.png" alt=""><figcaption></figcaption></figure>
+
+The measurements are provided by [Cedara](https://www.cedara.io/), a company that measures emissions according to global industry standards including the Global Media Sustainability Framework (GMSF), and helps businesses reduce their overall emissions.&#x20;
+
+{% hint style="info" %}
+We started measuring the numbers January 27th 2025. If your line item started running before this we may show a lower CO2 emissions totals because we haven't measured based on all your impressions. If your line item started delivering after this you should not see any difference.
+{% endhint %}
+
 ### Traffic
 
 The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions across the line items belonging to this line item.
