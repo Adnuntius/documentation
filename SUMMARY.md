@@ -221,6 +221,7 @@
 * [Setup deals in GAM](other-useful-information/setup-deals-in-gam.md)
 * [Render Key Values in ad](other-useful-information/render-key-values-in-ad.md)
 * [Parallax for Ad server Clients](other-useful-information/parallax-for-ad-server-clients.md)
+* [Political Advertising](other-useful-information/political-advertising.md)
 
 ## Troubleshooting
 
