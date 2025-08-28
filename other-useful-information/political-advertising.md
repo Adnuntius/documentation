@@ -20,9 +20,9 @@ This page divides the topic into the following parts:&#x20;
 
 ## 1 The request and response
 
-The important legal requirement concerning requests and response is user information, or personal data. The law states that, in order to show political ads, publishers need to secure separate and explicit consent to do so. Since most publishers use the Transparency and Consent Framework (TCF) to secure consent, and TCF does not support asking for separate consent for political advertising, we here communicate a method to secure that no personal data is used.&#x20;
+The important legal requirement concerning requests and response is user information, or personal data. The law states that, in order to show political ads, publishers need to secure separate and explicit consent to do so. Most publishers use the Transparency and Consent Framework (TCF) to secure consent without asking for consent, so here we communicate a method to secure that no personal data is used.&#x20;
 
-Please note however, that such support can be added should the situation change.&#x20;
+Please note however that it is possible to request custom purposes using TCF, and that we can read the consent string for custom purposes. [See here for more information on custom purposes.](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20CMP%20API%20v2.md)
 
 {% hint style="info" %}
 If you use Adnuntius as an ad server then you are the controller and we are a processor, meaning that you  can make choices about what you consider personal data sent to us for processing. For example if you consider IP addresses as acceptable then you can choose to approve that.
@@ -30,7 +30,7 @@ If you use Adnuntius as an ad server then you are the controller and we are a pr
 
 **The request** for an ad from the Adnuntius adserver can be sent using Javascript or Prebid:&#x20;
 
-* For Prebid you can send the request without any customization, as [described here](https://docs.prebid.org/dev-docs/bidders/adnuntius) (client) or [here](../adnuntius-advertising/requesting-ads/intro/adn-utility.md) (server).&#x20;
+* For Prebid you can send the request without any customization, as [described here](https://docs.prebid.org/dev-docs/bidders/adnuntius) (client) or [here](../adnuntius-advertising/requesting-ads/prebid-server.md) (server).&#x20;
 * If you use javascript to request ads you should use the method described under "[Cookieless Advertising](../adnuntius-advertising/requesting-ads/cookieless-advertising.md)" to ensure that we do not set any cookies, nor allow any third parties to set cookies (as far as we can; please see "3 Showing the ad" below for more information).&#x20;
 
 **The response** from the adserver depends on the method you use to request the ad.&#x20;
