@@ -18,10 +18,12 @@ The site [https://admin.adnuntius.com](https://admin.adnuntius.com) is used to m
 
 If you are accessing our advertising and data ui directly, or programmatically accessing the API, and you are behind a firewall then you will need to ask your network administrator to allow the following IP addresses:
 
-* 159.69.136.143
-* 195.201.241.152
-* 49.12.134.31
-* 49.12.125.83
+* 94.130.0.241
+* 178.63.45.229
+* 5.9.146.15
+* 5.9.248.133
+* 144.76.190.37
+* 144.76.66.67
 
 ## Adnuntius Data Export
 
