@@ -88,3 +88,11 @@ Here is a summary of the terms we ask buyers to commit to:&#x20;
 * Availability – Adnuntius must submit ads and related info to the EU register within 72 hours and keep them publicly accessible for 7 years.
 
 Here are the terms and conditions we use, that you can reuse as you wish (see points 4.2-4.9: [https://adnuntius.com/s/202406-TCs-Buyers.pdf](https://adnuntius.com/s/202406-TCs-Buyers.pdf)).
+
+## 6 Json Readable format
+
+To fetch information about political ads as a machine readable format you can visit this link:
+
+```
+https://cache.api.adnuntius.com/api/v1/politicalads/list.json
+```
