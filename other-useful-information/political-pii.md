@@ -20,7 +20,7 @@ When Adnuntius receives a request the system will do the following:
 
 1. Resolve the IP address to a location based on an IP table lookup. This is used to select basic ads, but it will not be used for political ads. Political ads will be selected based on the country selected for the site owning the ad unit that gets requested. Location targeting is therefore not used for political ads.
 2. User agent is used to detect the current device of the user to ensure that if a political ad is targeted to a mobile device or desktop, it will be served to the correct device type.
-3. A publisher can pass contextual information to Adnuntius  ie. category of the page, keywords, key values etc. This information is used for matching of targeting and then written into a log.
+3. A publisher can pass contextual information to Adnuntius  ie. category of the page, keywords, key values etc.
 
 
 
