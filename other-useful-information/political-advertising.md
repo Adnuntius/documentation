@@ -53,7 +53,7 @@ The response will contain a creative. This creative will be served onto the page
 
 "Political advertisement from \[Sponsor/Advertiser] - info"
 
-This text can be changed to whatever you wish it to say. When a user clicks on the box/text the browser will open a tab providing more information - please see the next section.&#x20;
+When a user clicks on the box/text the browser will open a tab providing more information - please see the next section.&#x20;
 
 <figure><img src="../.gitbook/assets/202508 Political Ad Example.png" alt=""><figcaption></figcaption></figure>
 
@@ -66,7 +66,7 @@ When the user clicks on the ad's overlay they will land on an information page p
 
 <figure><img src="../.gitbook/assets/202508 Political Ad Info Page.png" alt=""><figcaption></figcaption></figure>
 
-In order to cover the requirement of having information publicly available and retrievable, Adnuntius will also provide a table of political ads, as seen here: [https://adnun.net/political-list.html](https://adnun.net/political-list.html). We store the information for a minimum of 7 years. We will also send data to the EU repository once it is up and running.
+In order to cover the requirement of having information publicly available and retrievable, Adnuntius will also provide a table of political ads, as seen here: [https://assets.adnuntius.com/political-list.html](https://assets-adnuntius.com/political-list.html). We store the information for a minimum of 7 years. We will also send data to the EU repository once it is up and running.
 
 ## 4 Reporting and frequency
 
