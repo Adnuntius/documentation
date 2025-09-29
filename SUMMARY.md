@@ -221,8 +221,6 @@
 * [Setup deals in GAM](other-useful-information/setup-deals-in-gam.md)
 * [Render Key Values in ad](other-useful-information/render-key-values-in-ad.md)
 * [Parallax for Ad server Clients](other-useful-information/parallax-for-ad-server-clients.md)
-* [Political Advertising](other-useful-information/political-advertising.md)
-* [Political - PII](other-useful-information/political-pii.md)
 
 ## Troubleshooting
 
@@ -235,3 +233,9 @@
 * [Publisher onboarding](adnuntius-high-impact/publisher-onboarding.md)
 * [High Impact configuration](adnuntius-high-impact/high-impact-configuration.md)
 * [Guidelines for High impact creatives](adnuntius-high-impact/guidelines-for-high-impact-creatives.md)
+
+## Politicl ads
+
+* [Political - PII](politicl-ads/political-pii.md)
+* [Political Advertising](politicl-ads/political-advertising.md)
+* [Ad specification for political ads](politicl-ads/ad-specification-for-political-ads.md)

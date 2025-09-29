@@ -162,7 +162,7 @@ The report tab also gives you the audit history of the line item. This means tha
 
 This tab gives you a breakdown of delivery per article. This can be particularly useful when using semantic and/or keyword targeting, to understand which articles display your ad more often. You can also click the cog wheel symbol to target or exclude an article.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### CO2
 
