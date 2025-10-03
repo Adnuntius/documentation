@@ -17,6 +17,10 @@ description: >-
 
 **Description** is a user-friendly description of the API Key, for keeping track of which keys are used for which purpose. **Expiry** determines when the API Key will cease to allow access, to support restrictions on access should that be required.
 
+{% hint style="info" %}
+Please note that creating API keys requires that you have set up two-factor authentication for logging in. You can set that up under your user profile at [https://admin.adnuntius.com/admin/user-profile](https://admin.adnuntius.com/admin/user-profile).
+{% endhint %}
+
 Once you click Save, an API Key string is generated for you.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-01-30 at 12.03.09 pm.png" alt=""><figcaption></figcaption></figure>
