@@ -234,8 +234,9 @@
 * [High Impact configuration](adnuntius-high-impact/high-impact-configuration.md)
 * [Guidelines for High impact creatives](adnuntius-high-impact/guidelines-for-high-impact-creatives.md)
 
-## Politicl ads
+## Political ads
 
-* [Political - PII](politicl-ads/political-pii.md)
-* [Political Advertising](politicl-ads/political-advertising.md)
-* [Ad specification for political ads](politicl-ads/ad-specification-for-political-ads.md)
+* [Political - PII](political-ads/political-pii.md)
+* [Political Advertising](political-ads/political-advertising.md)
+* [Ad specification for political ads](political-ads/ad-specification-for-political-ads.md)
+* [How to Book a Political Campaign](political-ads/how-to-book-a-political-campaign.md)
