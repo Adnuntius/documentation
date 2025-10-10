@@ -26,6 +26,16 @@ Adding one or more **IAB categories** to the Advertiser allows you to categorize
 
 Finally, you can add contact information to the Advertiser, and an address, before clicking to save.&#x20;
 
+## Invite Editor
+
+If you want to Advertiser to fill out their own information you can generate a link that can be sent to them. At the bottom right of the screen below you will see the "Invite Editor" button - click that.
+
+<figure><img src="../../../.gitbook/assets/Invite Editor.png" alt=""><figcaption></figcaption></figure>
+
+You will now see a modal window asking you to fill out the receiver's email and name. When this is sent the receiver will receive an email, containing a link. This link will expire after 24 hours. The link will lead to  a page such as shown in the example below, enabling them to fill out and store the information.&#x20;
+
+<figure><img src="../../../.gitbook/assets/Update Advertiser.png" alt=""><figcaption></figcaption></figure>
+
 ## When an Advertiser is Created
 
 Once an advertiser is created you will see the following tabs below the Advertiser information.
