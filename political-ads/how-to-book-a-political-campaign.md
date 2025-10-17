@@ -53,6 +53,10 @@ Here are the fields that are mandatory in order for a political ad to be served:
 * Contact name and email address.
 * Address line 1, city, postcode and country.&#x20;
 
+{% hint style="info" %}
+You can also send a form to the advertiser, asking them to provide the information for you - [learn more about the "invite editor" function.](../adnuntius-advertising/admin-ui/advertising/advertisers.md#invite-editor)
+{% endhint %}
+
 ## 2 Create an Order
 
 There are no mandatory fields on the Order; just create one as usual as [described here](../adnuntius-advertising/admin-ui/advertising/orders.md).&#x20;
