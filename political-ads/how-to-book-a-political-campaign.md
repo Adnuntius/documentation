@@ -36,7 +36,7 @@ Currently we require that the sponsor, the controlling entity and party paying f
 
 The name and address of the Advertiser will be fetched from the [Advertiser in Adnuntius](../adnuntius-advertising/admin-ui/advertising/advertisers.md). The campaign's start/end date, budget, delivery and information political event or election, will be fetched from the [Line Item in Adnuntius](../adnuntius-advertising/admin-ui/advertising/line-items.md).&#x20;
 
-<figure><img src="../.gitbook/assets/Skjermbilde 2025-10-23 103619.png" alt="" width="375"><figcaption><p>Example of a label hovering over the creative.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Skjermbilde 2025-10-23 103619 (1).png" alt="" width="375"><figcaption><p>Example of a label hovering over the creative.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Adnuntius-Line-item-information.png" alt=""><figcaption><p>Example information page displaying if the user clicks on the creative's label.</p></figcaption></figure>
 
