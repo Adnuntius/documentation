@@ -25,4 +25,4 @@ Max file size: 50 Mb
 
 For all political ads, make sure to leave at least 24 pixel up top of your ad to leave room for the overlay that a user can click.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

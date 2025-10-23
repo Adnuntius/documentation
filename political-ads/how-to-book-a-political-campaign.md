@@ -11,23 +11,24 @@ There are four steps to creating a political campaign:&#x20;
 1. Create an Advertiser (if you haven't created it before).&#x20;
 2. Create an Order (if you haven't created it before).
 3. Create a line item.
-4. Create one or more creatives.
+4. Create one or more creatives.&#x20;
 
 ## Before we Begin: Purpose
 
 The Transparency and targeting of political advertising regulation (TTPA) is essentially about providing information to consumers, so the unique steps to political ads booking is about ensuring that this information is presented to users. This information is presented to users on two main objects:&#x20;
 
-1. The label hovering over the creative when it is shown to the user. This label may contain:&#x20;
+1. The label hovering over the creative when it is shown to the user. This label will contain:&#x20;
    1. &#x20;The name of the Advertiser (sponsor, the controlling entity and entity paying for the campaign).
    2. The name of the political event or election (considered mandatory in some countries).
    3. The date of the political event or election (considered mandatory in some countries).&#x20;
    4. The link to more information about the political event or election (considered mandatory in some countries).
 2. The information page that displays if the user clicks on the label. This page contains:&#x20;
-   1. The name of the Advertiser, and the address.&#x20;
-   2. Any targeting used. If no user data is used we will state that "this ad is randomly selected due to it having no specific targeting in relation to information about you or the page you are visiting".
-   3. The campaign's name, start/end date, budget and delivery (impressions and clicks).
-   4. The election information (name, type and website link for more information).&#x20;
-   5. A link to a reporting form where the user can report the ad.&#x20;
+   1. If the campaign has been reported by a user for breaching transparency rules, a warning label will be shown.
+   2. Advertiser information, including the name, URL, address, and whether the advertiser is a public or private entity, and located within or outside the EU.
+   3. Any targeting used. If no user data is used we will state that "this ad is randomly selected due to it having no specific targeting in relation to information about you or the page you are visiting".
+   4. The campaign's name, start/end date and budget.
+   5. The election information (name, type and website link for more information).&#x20;
+   6. A link to a reporting form where the user can report the ad.&#x20;
 
 {% hint style="info" %}
 Currently we require that the sponsor, the controlling entity and party paying for the campaign is the same entity (meaning, there is only one object where you can specify the Advertiser information).
@@ -35,9 +36,9 @@ Currently we require that the sponsor, the controlling entity and party paying f
 
 The name and address of the Advertiser will be fetched from the [Advertiser in Adnuntius](../adnuntius-advertising/admin-ui/advertising/advertisers.md). The campaign's start/end date, budget, delivery and information political event or election, will be fetched from the [Line Item in Adnuntius](../adnuntius-advertising/admin-ui/advertising/line-items.md).&#x20;
 
-<figure><img src="../.gitbook/assets/202510 Political Creative Example.png" alt=""><figcaption><p>Example of a label hovering over the creative.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Skjermbilde 2025-10-23 103619.png" alt="" width="375"><figcaption><p>Example of a label hovering over the creative.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/202510 Political Ads Info Page (1).png" alt=""><figcaption><p>Example information page displaying if the user clicks on the creative's label.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Adnuntius-Line-item-information.png" alt=""><figcaption><p>Example information page displaying if the user clicks on the creative's label.</p></figcaption></figure>
 
 The following guide shows you how to add this information.&#x20;
 
@@ -50,6 +51,7 @@ Here are the fields that are mandatory in order for a political ad to be served:
 * Advertiser name.
 * Advertiser URL.&#x20;
 * Legal name.
+* Entity Type.
 * Contact name and email address.
 * Address line 1, city, postcode and country.&#x20;
 
@@ -76,21 +78,12 @@ If you cannot find the election or political event you look for in the dropdown 
 
 ## 4 Create One or more Creatives
 
-Lastly, create a creative by following the steps [described here](../adnuntius-advertising/admin-ui/advertising/creatives.md). The only limitation to be aware of is that you will only be able to choose from creatives that are designed for political advertising. For customers able to create their own [Layouts](../adnuntius-advertising/admin-ui/design/layouts.md), this is what needs to be present on the render template in order for the creative to be considered a political layout.&#x20;
+Lastly, create a creative by following the steps [described here](../adnuntius-advertising/admin-ui/advertising/creatives.md). Creative layouts are limited to image and video assets to ensure complience. See asset specs for political ads [here](ad-specification-for-political-ads.md).&#x20;
 
-```
-<script src="https://assets.adnuntius.com/render-dsa.js" 
-        data-network="{{network}}" 
-        data-line-item-id="{{lineItemId}}"
-	data-advertiser-name="{{advertiser.legalName}}" 
-        data-advertiser-url="{{{advertiser.url}}}" 
-        data-user-tracking="{{hasUserTargeting}}"
-	data-location-tracking="{{hasLocationTargeting}}"
-	data-contextual-tracking="{{hasContextualTargeting}}" 
-        data-political="true">
- </script>
-```
+{% hint style="info" %}
+The creative preview will render a text box overlay with example values. The text box will be populated correctly when rendered in live enviroment.&#x20;
+{% endhint %}
 
-## Other Details
+## Other details
 
-If a user chooses to report the ad, they can do so from the information page (please see the button the bottom right). This report can be sent to Adnuntius for a first look, or it can be sent to an email address of your choice.&#x20;
+If a user chooses to report an ad, they can do so from the information page (see the button in the bottom right). All reports are first sent to Adnuntius for review. We reserve the right to pause or stop a campaign if we detect any issues or policy violations. The advertiser will be notified in such cases, and the publisher will also be informed about the decision.

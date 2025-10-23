@@ -2,7 +2,7 @@
 
 For political advertisment it's important that the personal identifiable information is kept private and that a political ad can't be used for generating a profile on the user. This is a document describing the steps Adnuntius takes to be compliant. The following information will be based upon that a user have never seen an ad from Adnuntius before.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Request
 
