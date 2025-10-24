@@ -1,6 +1,6 @@
 # Publisher onboarding
 
-Adnuntius high impact is a script that will allow you to serve high impact formats without having to do much work in your ad server. Currently it's only built to allow you yo book campaigns in Adnuntius Ad Server and serve high impact ads on a publisher page.
+Adnuntius high impact is a script that will allow you to serve high impact formats without having to do much work in your ad server. Currently it's only built to allow you to book campaigns in Adnuntius Ad Server and serve high impact ads on a publisher page.
 
 There are two ways to have high impact on your page with Adnuntius. One being having a Prebid.js setup and a template setup in Google Ad Manager that will make the ad larger on page. The other will be to use our script for an easy integration.
 
