@@ -6,6 +6,10 @@ description: >-
 
 # High Impact Formats
 
+## Buyers Guide
+
+{% embed url="https://www.canva.com/design/DAG2lpMNXDM/bvaxKUhQ7PnpNPybcGBuVg/view?embed=" fullWidth="true" %}
+
 ## What They Are and What’s Available
 
 High impact formats are generally larger ads that take up more space and allow for better attention, and that have certain interactive qualities like for instance a parallax effect. Here is an example illustration of each of the formats available:
