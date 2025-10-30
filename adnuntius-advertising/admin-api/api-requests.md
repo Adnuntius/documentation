@@ -225,6 +225,8 @@ This snippet authenticates and stores the access token as a shell variable so it
 export ACCESS_TOKEN=$(curl -v -d grant_type=password -d scope=ng_api -d username=broker1@bitshift.technology -d password=broker1 "https://api.adnuntius.com/api/authenticate" | jq -r .access_token)
 ```
 
+NOTE: This only works for users which do NOT have 2FA enabled. To use the API with a 2FA enabled user you must instead generate an [https://admin.adnuntius.com/admin/api-keys](https://admin.adnuntius.com/admin/api-keys) with the desired scope and use it in place of the above ACCESS\_TOKEN. Some options, such as querying publisher data, are not yet supported via API Key. If you need these with 2FA enabled you will have to use our python [https://github.com/Adnuntius/api-tools](https://github.com/Adnuntius/api-tools) with your TOTP seed as the two\_factor\_code\_provider.
+
 **List Line Items**
 
 ```bash
