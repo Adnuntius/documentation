@@ -13,6 +13,12 @@ There are four steps to creating a political campaign:&#x20;
 3. Create a line item.
 4. Create one or more creatives.&#x20;
 
+
+
+## Buyers Guide
+
+{% embed url="https://www.canva.com/design/DAG2gc_Wgg8/nmMrDSxkMNX0hu7HVRxfKg/view?utlId=h46d464b91c&utm_campaign=designshare&utm_content=DAG2gc_Wgg8&utm_medium=link2&utm_source=uniquelinks" fullWidth="true" %}
+
 ## Before we Begin: Purpose
 
 The Transparency and targeting of political advertising regulation (TTPA) is essentially about providing information to consumers, so the unique steps to political ads booking is about ensuring that this information is presented to users. This information is presented to users on two main objects:&#x20;
