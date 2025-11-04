@@ -26,6 +26,10 @@ Next you need to add the user's roles. Please see the image below for references
 
 When you have saved, Adnuntius automatically sends an email inviting the user to the network, and to set a password. Administrators can change users' password later if needed, but password changes will not be sent to users, so make sure that you notify users about any new passwords you create.
 
+<figure><img src="../../../.gitbook/assets/202511 Invite Email.png" alt=""><figcaption><p>Example invite email sent from Adnuntius</p></figcaption></figure>
+
+The invite email will expire after 1 hour, but the receiver can request a new email by clicking "visit here". Please also note that by registering the user will agree to our privacy policy located at [https://adnuntius.com/resources/privacy-policy](https://adnuntius.com/resources/privacy-policy).
+
 {% hint style="info" %}
 Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you. Please ask us any questions at support@adnuntius.com.
 {% endhint %}
