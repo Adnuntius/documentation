@@ -175,7 +175,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Locations of servers:** Germany and Finland.
 
-**Data processing agreement:** [https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing\&resourcekey=0-ea\_4a8qjdN4XULwQQDrBeg](https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing\&resourcekey=0-ea\_4a8qjdN4XULwQQDrBeg)
+**Data processing agreement:** [https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing\&resourcekey=0-ea\_4a8qjdN4XULwQQDrBeg](https://drive.google.com/file/d/0B0QhCoSpD01kMWo0ZFdVN0ZKTUx3bTd1NGNQWnlIbkJhdEpz/view?usp=sharing\&resourcekey=0-ea_4a8qjdN4XULwQQDrBeg)
 
 **Basis for transfer:** EU standard clauses.
 
@@ -197,7 +197,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Locations of servers:** Germany
 
-**Data processing agreement:** [https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf](https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf)
+**Data processing agreement:** [https://d1.awsstatic.com/legal/aws-gdpr/AWS\_GDPR\_DPA.pdf](https://d1.awsstatic.com/legal/aws-gdpr/AWS_GDPR_DPA.pdf)
 
 **Basis for transfer:** EU standard clauses.
 
@@ -229,7 +229,7 @@ Stian Remaad, CEO Adnuntius | Email: stian@adnuntius.com
 
 **Contact information:** 101 Townsend Street San Francisco, CA 94107, USA; Emily Hancock, Data Protection Officer, legal@cloudflare.com
 
-**Sub-Processor's role:** Cloudflare terminates prebid requests at the edge, decrypts it, and tunnels it to our adservers for a fast ad response.
+**Sub-Processor's role:** Cloudflare terminates prebid requests at the edge, decrypts it, and tunnels it to our adservers for a fast ad response. The data processed involve IP addresses and user agent strings.
 
 **Locations of servers:** Worldwide points of presence. For EU companies: to ensure that only European servers are used, just send the GDPR ad tag parameter (gdpr: 1) with the ad request as[ explained here](https://docs.adnuntius.com/other-useful-information/identification-and-privacy/consent-processing-tcf2#id-1-how-adnuntius-determines-if-gdpr-applies).&#x20;
 
