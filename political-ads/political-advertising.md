@@ -96,3 +96,12 @@ To fetch information about political ads as a machine readable format you can vi
 ```
 https://cache.api.adnuntius.com/api/v1/politicalads/list.json
 ```
+
+In order to fetch information about political ads that are only created by your account, create a link from the example below.&#x20;
+
+* The TeamID can be found by going to [https://admin.adnuntius.com/admin/teams](https://admin.adnuntius.com/admin/teams) and clicking the team to which you have access. If the URL of that page says [https://admin.adnuntius.com/admin/teams/team/123abc](https://admin.adnuntius.com/admin/teams/team/123abc) then your team ID is **123abc**.
+* If you are part of our marketplace then the context is **b7462**. If you are an adserver customer then you will find your ID by going to [https://admin.adnuntius.com/admin/network](https://admin.adnuntius.com/admin/network) and finding the "Network IDs".&#x20;
+
+```
+https://cache.api.adnuntius.com/api/v1/politicalads/list.json?team=[teamID]&context=b7462
+```
