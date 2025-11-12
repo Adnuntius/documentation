@@ -13,7 +13,9 @@ There are four steps to creating a political campaign:&#x20;
 3. Create a line item.
 4. Create one or more creatives.&#x20;
 
-
+{% hint style="info" %}
+Please note that political advertising is subject to separate terms and conditions, and may not be activated for your account. Please contact us any time at support@adnuntius.com to learn more.&#x20;
+{% endhint %}
 
 ## Buyers Guide
 
