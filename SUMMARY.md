@@ -113,7 +113,7 @@
   * [IOS SDK](https://github.com/Adnuntius/ios_sdk_examples)
 * [Creative Guide](adnuntius-advertising/creative-guide/README.md)
   * [HTML5 Creatives](adnuntius-advertising/creative-guide/html5-creatives.md)
-* [Page](adnuntius-advertising/page.md)
+* [Reporting Fields](adnuntius-advertising/page.md)
 
 ## Adnuntius Marketplace
 

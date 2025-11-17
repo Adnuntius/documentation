@@ -25,13 +25,13 @@ Max file size: 50 Mb
 
 For all political ads, make sure to leave room at the bottom of your ad to for the overlay that a user can click.&#x20;
 
-<figure><img src="../.gitbook/assets/Buyers Guide Political Advertising.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
 
-**For ads with a maximum width of 320px:** Allow for at least 60px of space at the bottom.&#x20;
+**For ads with a maximum width of 320px:** Allow for at least 65px of space at the bottom.&#x20;
 
-**For ads between 320px and 512px:**  Allow for 48px of space at the bottom&#x20;
+**For ads between 320px and 512px:**  Allow for 54px of space at the bottom&#x20;
 
-**For ads wider than 512px:** Allow for 36px of space at the bottom&#x20;
+**For ads wider than 512px:** Allow for 43px of space at the bottom&#x20;
 
 Note: these recommendations cover the vast majority of cases. If either the advertiser name or election name is particularly long, the text box height may increase accordingly.
 
