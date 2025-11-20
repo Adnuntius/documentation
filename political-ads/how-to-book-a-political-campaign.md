@@ -56,12 +56,12 @@ If you cannot find your Advertiser under [https://admin.adnuntius.com/advertiser
 
 Here are the fields that are mandatory in order for a political ad to be served:&#x20;
 
-* Advertiser name.
-* Advertiser URL.&#x20;
-* Legal name.
-* Entity Type.
-* Contact name and email address.
-* Address line 1, city, postcode and country.&#x20;
+* Advertiser name, so that we can show it on the label and on the transparency notice.&#x20;
+* Advertiser URL, so that we can show it on the transparency notice.
+* Legal name, so that we can show it on the label and on the transparency notice.&#x20;
+* Entity Type, so that we can show it on the transparency notice.
+* Contact name and email address, so that we can show it on the transparency notice.
+* Address line 1, city, postcode and country, so that we can show it on the transparency notice.
 
 {% hint style="info" %}
 You can also send a form to the advertiser, asking them to provide the information for you - [learn more about the "invite editor" function.](../adnuntius-advertising/admin-ui/advertising/advertisers.md#invite-editor)
