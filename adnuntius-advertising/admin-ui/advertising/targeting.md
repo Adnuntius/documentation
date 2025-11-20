@@ -214,6 +214,16 @@ You can add specific dates or ranges of dates to make sure that your line item a
 
 ![Dates can be added to line items and creatives](../../../.gitbook/assets/201811-advertising-line-item-date-targeting.png)
 
+## URL Targeting
+
+You can target an individual URL by inputting any URL in the field shown in the image below. You also can add multiple URLs by separating each individual URL by a comma. For instance, inputting `www.example.com/example.html, here.com/sports/*` will match against `www.example.com/example.html` and any individual page that has `here.com/sports/` at the start of its URL.
+
+{% hint style="info" %}
+If your URL features a comma, wrap the URL in double quotes like this: `"example.com/spots,are,here"`
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/202511 URL Targeting.png" alt=""><figcaption></figcaption></figure>
+
 ## IP Address Targeting
 
 Targeting specific IP addresses can be useful, for instance when testing in a limited environment that ads look good before they are released to the whole world. You can add multiple IP addresses by separating each individual IP address by a comma. For instance, inputting 118.16.78.34, 205.112.45.0/24 will match any of 118.16.78.34 and 205.112.45.0 through to 205.112.45.255.
