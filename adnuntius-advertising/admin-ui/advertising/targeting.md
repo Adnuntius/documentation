@@ -180,27 +180,7 @@ Targeting a keyword means that you will target an ad to any page where the keywo
 
 Just like with [key value targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#key-value-targeting), you can separate keywords by commas to match any of the keywords, or use the operators AND, OR and AND NOT to create more complex criteria.
 
-## Retargeting
 
-Retargeting can be used to target line items and/or creatives to users who have performed specific actions. For example, you can retarget a user that have put a product in your shopping cart, but didn't actually purchase it. Or you can retarget a user who has read about sports the last 30 days.
-
-You can add multiple values for every retargeting key by separating individual values by a comma. For instance, inputting red, blue, green as values means that the retargeting key will match any of red, blue or green.
-
-```markup
-<img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&shop=petshop.com.au&expiry=2592000">
-<img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&age=39&expiry=5184000">
-<img src="https://delivery.adnuntius.com/pixelr.gif?network=fagpressen&sport=handball">
-```
-
-The three examples above shows you the format you must use when you add retargeting pixels to your page (where you want to "trigger" retargeting for a user). The example above registers the following three targets:
-
-* shop with value petshop.com.au will last as a target for 2 592 000 seconds (30 days)
-* age with value 39 will last as a target for 5 184 000 seconds (60 days)
-* sport with value handball will last as a target for the default length of time (usually 30 days)
-
-Once you have added the retargeting pixels to your page you can start targeting ads to any of the values. Just like with [key value targeting](https://docs.adnuntius.com/adnuntius-advertising/admin-ui/advertising/targeting#key-value-targeting), you can separate retargeting entries by commas to match any of the retargeting entries, or use the operators AND, OR and AND NOT to create more complex criteria. The example below shows how to target users who match all of the criteria "shop: petshop.com.au", "age: 39" AND "sport: handball".
-
-![Retargeting example.](../../../.gitbook/assets/202003-retargeting.png)
 
 ## Day Parts Targeting
 
