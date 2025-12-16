@@ -54,18 +54,36 @@ The following guide shows you how to add this information.&#x20;
 
 If you cannot find your Advertiser under [https://admin.adnuntius.com/advertisers](https://admin.adnuntius.com/advertisers), click on the "New" button in the upper right corner and fill in the information as you would with a normal Advertiser ([as instructed here](../adnuntius-advertising/admin-ui/advertising/advertisers.md)).&#x20;
 
-Here are the fields that are mandatory in order for a political ad to be served:&#x20;
+When an advertiser should be able to serve political ads, click the checkbox "Political Advertising" to display certain fields and make them mandatory. Here are the fields that are mandatory in order for a political ad to be served:&#x20;
 
 * Advertiser name, so that we can show it on the label and on the transparency notice.&#x20;
 * Advertiser URL, so that we can show it on the transparency notice.
-* Legal name, so that we can show it on the label and on the transparency notice.&#x20;
 * Entity Type, so that we can show it on the transparency notice.
+* Legal name, so that we can show it on the label and on the transparency notice.&#x20;
+* VAT ID, so that we can show it on the transparency notice.
 * Contact name and email address, so that we can show it on the transparency notice.
 * Address line 1, city, postcode and country, so that we can show it on the transparency notice.
 
 {% hint style="info" %}
 You can also send a form to the advertiser, asking them to provide the information for you - [learn more about the "invite editor" function.](../adnuntius-advertising/admin-ui/advertising/advertisers.md#invite-editor)
 {% endhint %}
+
+### 1.1 Create Budgets
+
+In addition to the information above, you will need to provide budgets for the election or political event intended for advertising, and budgets on each topic or campaign.&#x20;
+
+* The election budget should be the total budget (not including VAT), including all benefits received for the entire election or political event - including all costs, such as production costs - across all channels.
+* The topic-level budget should be the total budget (not including VAT), including all benefits received for this particular topic or message - including all costs, such as production costs - across all channels.
+
+<figure><img src="../.gitbook/assets/202512 PolAds Budgets.png" alt=""><figcaption><p>Example showing how multiple election budgets can be specified, each with specific topics and separate budgets.</p></figcaption></figure>
+
+### 1.2 Create Controlling and Paying Entities
+
+The Advertiser should be considered "the sponsor" according to the TTPA. Sometimes you may have an advertiser who is controlled by another entity, and/or an advertiser whose campaign is paid for by another entity. If so you are required to provide this information to the public.&#x20;
+
+At the bottom of the Advertiser (under budgets) you will find fields where this information can be provided, so that they can be displayed on the transparency notice.&#x20;
+
+<figure><img src="../.gitbook/assets/202512 PolAds Two More Entities.png" alt=""><figcaption></figcaption></figure>
 
 ## 2 Create an Order
 
