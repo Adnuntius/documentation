@@ -18,6 +18,12 @@ Specify a **team** that this Advertiser should belong to. The team determines wh
 
 **Labels** can be added to structure reporting. Let's say you add the label "AgencyX" to a set of advertisers, and then want to run a report only for this group of advertisers. You can then run a report which filters on these advertisers specifically. [Read more about reports.](../queries/advertising-queries.md) Labels will also be visible in the global search results on the top center of the screen.
 
+Next you can choose to activate the Advertiser for **Political Advertising**. This is relevant to those who must comply with the law on political advertising (TTPA). When enabling this, certain fields will become mandatory in order for political ads to serve, and you will be able to provide more information about the advertiser, controlling entities, paying parties and budgets.&#x20;
+
+{% hint style="info" %}
+To learn more about the political advertising feature, visit [https://docs.adnuntius.com/political-ads/political-advertising](https://docs.adnuntius.com/political-ads/political-advertising)
+{% endhint %}
+
 Add an **external reference** if you want to match the advertiser with the same client in another system. For instance, if Coca Cola is registered in your invoicing system with customer ID 123456, then by adding 123456 as an external reference in Adnuntius you can connect these two different entries in the different systems, as one Advertiser.
 
 A **VAT identification number** can be used to register that number for advertisers. If you use [Adnuntius Self-Service](https://adnuntius.com/selfservice) then you can choose to request this VAT number from advertisers when signing up, in which case the number will be stored here.
