@@ -64,7 +64,7 @@ When the user clicks on the ad's overlay they will land on an information page p
 1. The information that should be accessible to the user, such as (for example, but not limited to) start/end date, political event in question, budgets, and Advertiser (sponsor).&#x20;
 2. A link that provides the opportunity for the user to complain when suspecting that the ad is illegal. This link can lead to a page of your choice, or we can provide one for you on the Adnuntius domain. The complaint will be sent to an email of your choice.&#x20;
 
-<figure><img src="../.gitbook/assets/202508 Political Ad Info Page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/202512 PolAds.png" alt=""><figcaption></figcaption></figure>
 
 In order to cover the requirement of having information publicly available and retrievable, Adnuntius will also provide a table of political ads, as seen here: [https://assets.adnuntius.com/political-list.html](https://assets.adnuntius.com/political-list.html). We store the information for a minimum of 7 years. We will also send data to the EU repository once it is up and running.
 
