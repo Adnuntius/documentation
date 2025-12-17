@@ -239,11 +239,9 @@ Below are the most frequent formats requested across our Danish sites:
 
 <details>
 
-<summary>FInland</summary>
+<summary>Finland</summary>
 
 Below are the most frequent formats requested across our Finnish sites:
-
-
 
 | 300x250   |
 | --------- |
