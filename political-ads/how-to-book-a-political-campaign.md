@@ -85,6 +85,10 @@ At the bottom of the Advertiser (under budgets) you will find fields where this 
 
 <figure><img src="../.gitbook/assets/202512 PolAds Two More Entities.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+Please note that if you make changes, it may take up to 10 minutes before the changes are displayed in the transparency notice.&#x20;
+{% endhint %}
+
 ## 2 Create an Order
 
 There are no mandatory fields on the Order; just create one as usual as [described here](../adnuntius-advertising/admin-ui/advertising/orders.md).&#x20;
