@@ -112,6 +112,7 @@
   * [Android SDK](https://github.com/Adnuntius/android_sdk_examples)
   * [IOS SDK](https://github.com/Adnuntius/ios_sdk_examples)
 * [Creative Guide](adnuntius-advertising/creative-guide/README.md)
+  * [Common Creative Sizes by Market](adnuntius-advertising/creative-guide/common-creative-sizes-by-market.md)
   * [HTML5 Creatives](adnuntius-advertising/creative-guide/html5-creatives.md)
 * [Reporting Fields](adnuntius-advertising/page.md)
 
@@ -129,6 +130,7 @@
       * [Placements (in progress)](adnuntius-marketplace/getting-started/abn-for-buyers/advertising/placements-in-progress.md)
       * [Creatives](adnuntius-marketplace/getting-started/abn-for-buyers/advertising/creatives/README.md)
         * [High Impact Formats](adnuntius-marketplace/getting-started/abn-for-buyers/advertising/creatives/high-impact-formats.md)
+        * [Common Creative Sizes by Market](adnuntius-advertising/creative-guide/common-creative-sizes-by-market.md)
       * [Library Creatives](adnuntius-marketplace/getting-started/abn-for-buyers/advertising/library-creative.md)
       * [Booking Calendar](adnuntius-marketplace/getting-started/abn-for-buyers/advertising/booking-calendar.md)
       * [Reach Analysis](adnuntius-marketplace/getting-started/abn-for-buyers/advertising/reach-analysis.md)
