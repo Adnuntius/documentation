@@ -4,6 +4,8 @@ High impact configuration is for you as a publisher that have specific needs for
 
 ```html
 <script src="https://assets.adnuntius.com/aim.js" async></script>
+
+// Script below is optional if you need to do any changes to the height of the fullscreen
 <script>
   window.aim = window.aim || {
     fullScreen: {
