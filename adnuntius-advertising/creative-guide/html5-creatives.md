@@ -8,13 +8,27 @@ To deliver a HTML5 creative, choose a HTML layout, upload your HTML5 zip file an
 
 As shown above, you can also update the destination URL within the Adnuntius platform rather than having to edit the contents of the zip file.
 
-Adnuntius natively supports AdForm Studio, Bannerflow, Google Web Designer, Adobe Animate and Adobe Edge HTML5 creative formats. Just uplaod the zip and we'll be able to find destination URLs and the dimensions.
+Adnuntius natively supports AdForm Studio, Bannerflow, Google Web Designer, Adobe Animate and Adobe Edge HTML5 creative formats. Just upload the zip and we'll be able to find destination URLs and the dimensions.
 
 In addition, we natively support deriving the destination URLs out of any HTML5 creative that includes any of the following:
 
 * a link assigned to a `clickTag` variable in the zip's primary HTML file, so something like this: `var clickTag = "https://example.com";`
 * a link assigned to an anchor tag in the zip's primary HTML file, so something like this: `<a href="https://example.com">My Link</a>`
 * a link specified within a `window.open` in the zip's primary HTML file, so something like this: `window.open("https://example.com")`
+
+### Multiple destinations&#x20;
+
+For multiple destinations, we support links assigned to a `clickTag` or `clickUrl` with an appended number. For example:
+
+```
+<script>
+    var clickTag = "https://destination1.com";
+    var clickTag2 = "https://destination2.com";
+    var clickTag99 = "https://destination99.com";
+</script>
+```
+
+### Creative dimensions
 
 Furthermore, we can determine the creative dimensions of any HTML5 creative that specifies the following:
 
