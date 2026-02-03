@@ -6,7 +6,14 @@ description: >-
 
 # User Identification
 
-User identification is an important part of advertising, and conscious usage of methods is important not least because of privacy legislation and concerns, but also to provide a better service to ad buyers. Adnuntius delivers a comprehensive set of ID methods to ensure that users can be identified with and without cookies, combined with controls that ensures that you respect user privacy in accordance with legislation.&#x20;
+User identification is an important part of advertising, and conscious usage of methods is important not least because of privacy legislation and concerns, but also to provide a better service to ad buyers. Adnuntius delivers a comprehensive set of ID methods to ensure that users can be identified with and without cookies, combined with controls that ensures that you respect user privacy in accordance with legislation.
+
+{% hint style="info" %}
+If you want to know how we handle consent and data, please have a look at these pages: <br>
+
+[How we handle permissions to collect data](https://docs.adnuntius.com/other-useful-information/identification-and-privacy/consent-processing-tcf2)\
+[How we collect and use data](https://docs.adnuntius.com/other-useful-information/identification-and-privacy/privacy-details)
+{% endhint %}
 
 This page describes the methods that can be used to either avoid user identification altogether (applies with cookieless ad serving), or to identify them with various data.
 
@@ -14,7 +21,7 @@ This page describes the methods that can be used to either avoid user identifica
 The list below only discusses the consent required to create/read the user identifier. Further consent may be required to use that data, e.g. to select personalised advertisements.
 {% endhint %}
 
-The different approaches that Adnuntius uses to **read** a user identifier are described below, in order of priority. When an identifier is found, it may then (if the user has consented) be written to the user's device. This means, for example, that when a new user is first encountered an identifier may be assigned via *Fingerprinting* (item 4 below) and then written to a *Third Party Cookie*. Subsequent requests then may read the identifier via the cookie (item 2 below).
+The different approaches that Adnuntius uses to **read** a user identifier are described below, in order of priority. When an identifier is found, it may then (if the user has consented) be written to the user's device. This means, for example, that when a new user is first encountered an identifier may be assigned via _Fingerprinting_ (item 4 below) and then written to a _Third Party Cookie_. Subsequent requests then may read the identifier via the cookie (item 2 below).
 
 ## **1 External User Identifier**
 
@@ -26,7 +33,7 @@ The different approaches that Adnuntius uses to **read** a user identifier are d
 
 **Used for:** Frequency capping, user segment lookup, and unique user counts.
 
-**More information:** [https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request#userid ](https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request#userid)
+**More information:** [https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request#userid](https://docs.adnuntius.com/adnuntius-advertising/requesting-ads/intro/adn-request#userid)
 
 ## 2 Third Party Cookies
 
@@ -36,9 +43,9 @@ The different approaches that Adnuntius uses to **read** a user identifier are d
 
 **How to enable/disable it:** Enabled by default. Can be disabled using the Adnuntius cookieless settings: _adn.useCookies(false)_
 
-**Used for:** Frequency capping, re-targeting, conversion tracking and unique user counts.&#x20;
+**Used for:** Frequency capping, re-targeting, conversion tracking and unique user counts.
 
-**More information:** [https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies ](https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies)
+**More information:** [https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies](https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies)
 
 ## 3 Web Storage
 
@@ -50,7 +57,7 @@ The different approaches that Adnuntius uses to **read** a user identifier are d
 
 **Used for:** Frequency capping, re-targeting, conversion tracking and unique user counts.
 
-**More information:** [https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies ](https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies)
+**More information:** [https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies](https://docs.adnuntius.com/other-useful-information/privacy-details#personal-data-stored-in-device-cookies)
 
 ## 4 Fingerprinting
 
@@ -69,5 +76,3 @@ The different approaches that Adnuntius uses to **read** a user identifier are d
 Adnuntius also offers CRM matching through Adnuntius Data, though it is not part of ad serving. If a publisher and an advertiser are sharing data, then they will each use a different user id when communicating with the ad server. The matching is done when looking up segments, and relies upon Adnuntius having a user id generated via one of the methods above.
 
 Read more: [https://docs.adnuntius.com/adnuntius-data/segment-sharing](https://docs.adnuntius.com/adnuntius-data/segment-sharing)
-
-
