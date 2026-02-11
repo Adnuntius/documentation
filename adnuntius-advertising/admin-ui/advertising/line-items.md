@@ -80,9 +80,17 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 * _vCPM_ means that the bid will be adjusted to the historical viewability of the request. If you bid 5 EUR but the likely viewability is 80%, then the bid will be adjusted in this one example to 5 x 80% = 4 EUR.&#x20;
 * _Dynamic bidding_ dynamically adjusts impression bids up to the provided maximum CPM, to optimise the budget spend. If you bid 5 EUR this means that the system will never bid more than 5 EUR, but will potentially bid lower as long as it doesn't affect the line item's objectives.
 
-**Type** lets you choose between Auction and Sponsorship. "_Auction_" means that the line item will compete with other line items based on your line item's bid (CPM, CPC or CPA). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable [smoothing](smoothing.md), which means that (when enabled) the line item's impressions will be delivered evenly throughout the campaign period.
+### **Type**&#x20;
 
-_"Sponsorshop"_ means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item (if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad.
+Type lets you choose between Auction and Sponsorship.&#x20;
+
+#### Auction
+
+Auction means that the line item will compete with other line items based on your line item's bid (CPM, CPC or CPA). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable [smoothing](smoothing.md), which means that (when enabled) the line item's impressions will be delivered evenly throughout the campaign period.
+
+#### Sponsorhip&#x20;
+
+Sponsorship means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item (if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad.
 
 {% hint style="info" %}
 When specifying a share of voice, take into consideration the [tier](../admin/tiers.md) into which your line item is booked. If a tier is allowed to consume 50% of traffic and is the second highest prioritized tier, then consider that a line item with share of voice 25% then these rules will apply: (1) your line item will only get as much traffic as is passed on from the highest tier; and (2) your line item will receive 25% of the 50% of traffic that your tier has been assigned with. So your line item will get 25% x 50%x (100% - what is consumed by higher prioritized tiers).
