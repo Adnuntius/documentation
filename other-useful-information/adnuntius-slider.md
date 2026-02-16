@@ -2,6 +2,7 @@
 description: >-
   This page will describe how to enable a slider that will display adnuntius
   ads.
+hidden: true
 ---
 
 # Adnuntius Slider
@@ -21,7 +22,7 @@ After you've added the style sheet you can of course style it in whatever shape 
 
 ## Deployment
 
-After that is done you can add the ad call to your site. \(Don't forget to set the adunit ID\)
+After that is done you can add the ad call to your site. (Don't forget to set the adunit ID)
 
 ```markup
 <div id="adn-<adunit-ID>" ></div> //TODO: paste adunit ID
@@ -61,10 +62,9 @@ You must user the `congtainer: 'div'` as described in the [documentation ](https
 
 The optional parameters gives you some control over the sliders behavior on site.
 
-| Optional parameter | Defaults | Usage |
-| :--- | :--- | :--- |
-| slidesPerView | 1 | Determins how many items to fit in every slide. |
-| speed | 3000 | The speed in milliseconds for each transition between slides. |
-| delay | 5000 | How long the slider will stay on each slide. |
-| spaceBetween | 10 | Will set the space between each item in the slider. |
-
+| Optional parameter | Defaults | Usage                                                         |
+| ------------------ | -------- | ------------------------------------------------------------- |
+| slidesPerView      | 1        | Determins how many items to fit in every slide.               |
+| speed              | 3000     | The speed in milliseconds for each transition between slides. |
+| delay              | 5000     | How long the slider will stay on each slide.                  |
+| spaceBetween       | 10       | Will set the space between each item in the slider.           |
