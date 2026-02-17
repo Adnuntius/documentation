@@ -25,24 +25,8 @@ Please note that political advertising is subject to separate terms and conditio
 
 The Transparency and targeting of political advertising regulation (TTPA) is essentially about providing information to consumers, so the unique steps to political ads booking is about ensuring that this information is presented to users. This information is presented to users on two main objects:&#x20;
 
-1. The label hovering over the creative when it is shown to the user. This label will contain:&#x20;
-   1. &#x20;The name of the Advertiser (sponsor, the controlling entity and entity paying for the campaign).
-   2. The name of the political event or election (considered mandatory in some countries).
-   3. The date of the political event or election (considered mandatory in some countries).&#x20;
-   4. The link to more information about the political event or election (considered mandatory in some countries).
-2. The information page that displays if the user clicks on the label. This page contains:&#x20;
-   1. If the campaign has been reported by a user for breaching transparency rules, a warning label will be shown.
-   2. Advertiser information, including the name, URL, address, and whether the advertiser is a public or private entity, and located within or outside the EU.
-   3. Any targeting used. If no user data is used we will state that "this ad is randomly selected due to it having no specific targeting in relation to information about you or the page you are visiting".
-   4. The campaign's name, start/end date and budget.
-   5. The election information (name, type and website link for more information).&#x20;
-   6. A link to a reporting form where the user can report the ad.&#x20;
-
-{% hint style="info" %}
-Currently we require that the sponsor, the controlling entity and party paying for the campaign is the same entity (meaning, there is only one object where you can specify the Advertiser information).
-{% endhint %}
-
-The name and address of the Advertiser will be fetched from the [Advertiser in Adnuntius](../adnuntius-advertising/admin-ui/advertising/advertisers.md). The campaign's start/end date, budget, delivery and information political event or election, will be fetched from the [Line Item in Adnuntius](../adnuntius-advertising/admin-ui/advertising/line-items.md).&#x20;
+1. The **label** hovering over the creative when it is shown to the user. This label will contain the name of the Advertiser (considered a sponsor), information about the election or political event, and a link to more information.&#x20;
+2. The **transparency notice** (information page) that displays if the user clicks on the label. This page contains information about the Advertiser (sponsor), controlling entity, paying entity, campaign, election or event, and targeting.
 
 <figure><img src="../.gitbook/assets/Skjermbilde 2025-10-23 103619 (1).png" alt="" width="375"><figcaption><p>Example of a label hovering over the creative.</p></figcaption></figure>
 
@@ -52,38 +36,32 @@ The following guide shows you how to add this information.&#x20;
 
 ## 1 Create an Advertiser
 
-If you cannot find your Advertiser under [https://admin.adnuntius.com/advertisers](https://admin.adnuntius.com/advertisers), click on the "New" button in the upper right corner and fill in the information as you would with a normal Advertiser ([as instructed here](../adnuntius-advertising/admin-ui/advertising/advertisers.md)).&#x20;
+Go to [https://admin.adnuntius.com/advertisers](https://admin.adnuntius.com/advertisers) and click "New" in the upper right corner, then fill in the information as you would with a normal Advertiser ([as instructed here](../adnuntius-advertising/admin-ui/advertising/advertisers.md)). To enable an Advertiser to run political ads, check the checkbox "Enable Political Advertising for this Advertiser".&#x20;
 
-When an advertiser should be able to serve political ads, click the checkbox "Political Advertising" to display certain fields and make them mandatory. Here are the fields that are mandatory in order for a political ad to be served:&#x20;
+Below is an overview of the fields that are mandatory for political advertising (mandatory fields in blue).
 
-* Advertiser name, so that we can show it on the label and on the transparency notice.&#x20;
-* Advertiser URL, so that we can show it on the transparency notice.
-* Entity Type, so that we can show it on the transparency notice.
-* Legal name, so that we can show it on the label and on the transparency notice.&#x20;
-* VAT ID, so that we can show it on the transparency notice.
-* Contact name and email address, so that we can show it on the transparency notice.
-* Address line 1, city, postcode and country, so that we can show it on the transparency notice.
+<figure><img src="../.gitbook/assets/202602 Mandatory Advertiser Info - Political.png" alt=""><figcaption></figcaption></figure>
+
+If you haven't filled in all required information you will see a blue warning label at the top of the Advertiser page.&#x20;
 
 {% hint style="info" %}
 You can also send a form to the advertiser, asking them to provide the information for you - [learn more about the "invite editor" function.](../adnuntius-advertising/admin-ui/advertising/advertisers.md#invite-editor)
 {% endhint %}
 
-### 1.1 Create Budgets
+### 1.1 More about Budgets
 
-In addition to the information above, you will need to provide budgets for the election or political event intended for advertising, and budgets on each topic or campaign.&#x20;
+You will need to provide budgets for the election or political event intended for advertising, and budgets on each topic or campaign.&#x20;
 
-* The election budget should be the total budget (not including VAT), including all benefits received for the entire election or political event - including all costs, such as production costs - across all channels.
-* The topic-level budget should be the total budget (not including VAT), including all benefits received for this particular topic or message - including all costs, such as production costs - across all channels.
+* The **election budget** should be the total budget (not including VAT), including all benefits received for the entire election or political event - including all costs, such as production costs - across all channels.
+* The **campaign/topic-level budget** should be the total budget (not including VAT), including all benefits received for this particular topic or message - including all costs, such as production costs - across all channels.
 
-<figure><img src="../.gitbook/assets/202512 PolAds Budgets.png" alt=""><figcaption><p>Example showing how multiple election budgets can be specified, each with specific topics and separate budgets.</p></figcaption></figure>
+{% hint style="info" %}
+If you cannot find the election or political event you look for in the Advertiser dropdown list, tell us what you need on support@adnuntius.com. We fetch a list of elections from a public service, but we are also able to quickly add more on request.&#x20;
+{% endhint %}
 
-### 1.2 Create Controlling and Paying Entities
+### 1.2 More about Sponsor, Controlling and Paying Entities
 
 The Advertiser should be considered "the sponsor" according to the TTPA. Sometimes you may have an advertiser who is controlled by another entity, and/or an advertiser whose campaign is paid for by another entity. If so you are required to provide this information to the public.&#x20;
-
-At the bottom of the Advertiser (under budgets) you will find fields where this information can be provided, so that they can be displayed on the transparency notice.&#x20;
-
-<figure><img src="../.gitbook/assets/202512 PolAds Two More Entities.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Please note that if you make changes, it may take up to 10 minutes before the changes are displayed in the transparency notice.&#x20;
@@ -95,20 +73,17 @@ There are no mandatory fields on the Order; just create one as usual as [describ
 
 ## 3 Create a Line Item
 
-When creating a line item, follow the process [described here](../adnuntius-advertising/admin-ui/advertising/line-items.md). Here are the extra details to be aware of.
+When creating a line item, follow the process [described here](../adnuntius-advertising/admin-ui/advertising/line-items.md). The additional information required for political ad line items is (1) Election budget, and (2) Campaign budget. These will be fetched from the parent Advertiser, so if you have specified one or more election budgets and campaign budgets on the Advertiser, this is what you will see in the dropdown menu on the line item as shown below. &#x20;
 
-* Marketplace buyers: When creating a new line item, select the product "political ads" from the initial selection list where you choose products and countries in which to advertise.&#x20;
-* On the line item page, you must choose an election from the dropdown list. You will find this right above the line item's delivery status. When you choose an election we will use a public service, or a proprietary list, to also fetch the election category and link to more information.
-* Targeting will be restricted to alternatives using non-personal data. There are therefore some targeting criteria that will not be available when creating political advertising campaigns.&#x20;
-* Frequency capping will not work, because we cannot use cookies in political advertising. This prevents us from accurately counting the number of impressions or clicks per user.&#x20;
+<figure><img src="../.gitbook/assets/202602 Mandatory LI Info - Political.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-If you cannot find the election or political event you look for in the dropdown list, tell us what you need on support@adnuntius.com. We fetch a list of elections from a public service, but we are also able to quickly add more on request.&#x20;
+If you cannot find the election or political event you look for in the Advertiser dropdown list, tell us what you need on support@adnuntius.com. We fetch a list of elections from a public service, but we are also able to quickly add more on request.&#x20;
 {% endhint %}
 
 ## 4 Create One or more Creatives
 
-Lastly, create a creative by following the steps [described here](../adnuntius-advertising/admin-ui/advertising/creatives.md). Creative layouts are limited to image and video assets to ensure complience. See asset specs for political ads [here](ad-specification-for-political-ads.md).&#x20;
+Lastly, create a creative by following the steps [described here](../adnuntius-advertising/admin-ui/advertising/creatives.md). Creative layouts are limited to image and video assets to ensure compliance. See asset specs for political ads [here](ad-specification-for-political-ads.md).&#x20;
 
 {% hint style="info" %}
 The creative preview will render a text box overlay with example values. The text box will be populated correctly when rendered in live enviroment.&#x20;
