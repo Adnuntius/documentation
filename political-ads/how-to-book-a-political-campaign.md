@@ -30,7 +30,7 @@ The Transparency and targeting of political advertising regulation (TTPA) is ess
 
 <figure><img src="../.gitbook/assets/Skjermbilde 2025-10-23 103619 (1).png" alt="" width="375"><figcaption><p>Example of a label hovering over the creative.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Adnuntius-Line-item-information.png" alt=""><figcaption><p>Example information page displaying if the user clicks on the creative's label.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/202602 Transparency Notice.png" alt=""><figcaption><p>Example transparency notice.</p></figcaption></figure>
 
 The following guide shows you how to add this information.&#x20;
 
