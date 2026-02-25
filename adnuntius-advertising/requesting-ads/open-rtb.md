@@ -29,17 +29,10 @@ An example request looks like this:
     }
   ],
   "site": {
-    "id": 54739,
-    "name": "The Age",
-    "domain": "theage.com.au",
-    "page": "https://theage.com.au/sport/",
-    "cat": ["IAB12"],
-    "keywords": ["sport", "news"],
+    "id": "site123",
+    "page": "https://example.com/page",
     "publisher": {
-      "id": 987035487,
-      "name": "Nine Entertainment Co",
-      "domain": "www.nineforbrands.com.au",
-      "cat": ["IAB1"]
+      "id": "pub123"
     }
   },
   "device": {
@@ -54,19 +47,19 @@ An example request looks like this:
 
 The table below provides further information about _some_ of the fields in the request.
 
-| Field | Description |
-| :--- | :--- |
-| `id` | A unique identifier for the request |
-| `bcat` | A list of blocked categories \(using version 1.0 of the IAB Content Taxonomy\). For this blocking to work, the Advertiser in Adnuntius must specify an IAB category |
-| `badv` | A list of blocked advertiser domains. For this blocking to work, the Advertiser in Adnuntius must specify an advertiser URL |
-| `imp.tagId` | The Adnuntius Ad Unit Tag ID for the request |
-| `imp.banner.w` | The ad unit width |
-| `imp.banner.h` | The ad unit height |
-| `site.domain` | The site domain. Advertisers can use this to target or block specific domains |
-| `site.cat` | The site categories. Advertisers can use this to target or block specific categories |
-| `site.keywords` | The site keywords. Advertisers can use this to target or block specific keywords |
-| `device.au` | User Agent string. Advertisers can use this to target device types and operating systems etc. |
-| `device.ip` | Ip address. Advertisers can use this for location targeting |
+| Field           | Description                                                                                                                                                       |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`            | A unique identifier for the request                                                                                                                               |
+| `bcat`          | A list of blocked categories (using version 1.0 of the IAB Content Taxonomy). For this blocking to work, the Advertiser in Adnuntius must specify an IAB category |
+| `badv`          | A list of blocked advertiser domains. For this blocking to work, the Advertiser in Adnuntius must specify an advertiser URL                                       |
+| `imp.tagId`     | The Adnuntius Ad Unit Tag ID for the request                                                                                                                      |
+| `imp.banner.w`  | The ad unit width                                                                                                                                                 |
+| `imp.banner.h`  | The ad unit height                                                                                                                                                |
+| `site.domain`   | The site domain. Advertisers can use this to target or block specific domains                                                                                     |
+| `site.cat`      | The site categories. Advertisers can use this to target or block specific categories                                                                              |
+| `site.keywords` | The site keywords. Advertisers can use this to target or block specific keywords                                                                                  |
+| `device.au`     | User Agent string. Advertisers can use this to target device types and operating systems etc.                                                                     |
+| `device.ip`     | Ip address. Advertisers can use this for location targeting                                                                                                       |
 
 ## Response
 
@@ -96,14 +89,13 @@ An example response looks like this:
 
 The table below provides further information about _some_ of the fields in the response.
 
-| Field | Description |
-| :--- | :--- |
-| `id` | The unique identifier supplied with the initial request |
-| `bidid` | A unique identifier created for this response |
-| `seatbid.seat` | ID of the buyer seat \(e.g., advertiser, agency\) on whose behalf this bid is made. Currently, this is set using the Network ID for your Adnuntius account |
-| `seatbid.bid` | A list of bids for the impression. Currently, only the highest bidder, if any, from within your Adnuntius account will return a bid |
-| `seatbid.bid[0].impid` | This is the `imp.id` value provided with the request |
-| `seatbid.bid[0].adid` | The ID of the bidding Adnuntius Creative |
-| `seatbid.bid[0].id` | A unique identifier created for this bid |
-| `seatbid.bid[0].adm` | The ad markup for the bid |
-
+| Field                  | Description                                                                                                                                              |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`                   | The unique identifier supplied with the initial request                                                                                                  |
+| `bidid`                | A unique identifier created for this response                                                                                                            |
+| `seatbid.seat`         | ID of the buyer seat (e.g., advertiser, agency) on whose behalf this bid is made. Currently, this is set using the Network ID for your Adnuntius account |
+| `seatbid.bid`          | A list of bids for the impression. Currently, only the highest bidder, if any, from within your Adnuntius account will return a bid                      |
+| `seatbid.bid[0].impid` | This is the `imp.id` value provided with the request                                                                                                     |
+| `seatbid.bid[0].adid`  | The ID of the bidding Adnuntius Creative                                                                                                                 |
+| `seatbid.bid[0].id`    | A unique identifier created for this bid                                                                                                                 |
+| `seatbid.bid[0].adm`   | The ad markup for the bid                                                                                                                                |
