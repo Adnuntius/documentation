@@ -11,7 +11,7 @@ description: Current political ad inventory for Swedish publishers, as per March
 | Aller Media                  | In progress     |             |             |
 | Bonnier News inkl Gota Media | Active          |             | In progress |
 | Erna (fd NWT)                | Active          |             |             |
-| [Hitta.se](http://hitta.se)  | Active          | Yes         |             |
+| Hitta.se                     | Active          | Yes         |             |
 | Life of Svea                 | Active          |             |             |
 | Leeads Adprofit              | Active          | Yes         |             |
 | Maxetise                     | Active          |             |             |
