@@ -19,25 +19,41 @@ Format: MP4, WebM, mov
 
 Max file size: 50 Mb
 
+### Safe zones
 
+{% hint style="info" %}
+Test the overlay with your campaign information using our [Safe Zone Calculator](https://codepen.io/Kweh/full/pvEwjob/full).
+{% endhint %}
 
-### Safe Zones
+The overlay is anchored to the bottom of the ad and spans the full width of the creative.&#x20;
 
-For all political ads, make sure to leave room at the bottom of your ad to for the overlay that a user can click.&#x20;
+The overlay height is not fixed. It adjusts automatically to fit the required disclosure text. Height will vary depending on the following factors:
 
-<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+* **Advertiser Legal Name** The full legal name of the advertiser must be displayed. Longer names will cause the overlay to grow vertically.
+* **Election Name and/or Date** The name of the election and election date associated with the campaign is.&#x20;
+* **PII-based Targeting Disclosure** If _Personally Identifiable Information_ is used for audience targeting, an additional disclosure line is required. This adds to the overall height of the overlay.
 
-**For ads with a maximum width of 320px:** Allow for at least 65px of space at the bottom.&#x20;
+#### Browser rendering considerations
 
-**For ads between 320px and 512px:**  Allow for 54px of space at the bottom&#x20;
+Minor variations in overlay height may occur across browsers due to differences in font rendering, line-height calculation, and text scaling. Creatives should account for this by maintaining a conservative safe zone that accommodates slight height fluctuations.
 
-**For ads wider than 512px:** Allow for 43px of space at the bottom&#x20;
+#### Safe zone calculator
 
-Note: these recommendations cover the vast majority of cases. If either the advertiser name or election name is particularly long, the text box height may increase accordingly.
+To test the overlay with your own campaign details, use the interactive preview tool below. You can enter the advertiser name, election name/date, and toggle PII targeting to see how the overlay renders across different configurations and ad sizes.
+
+[Open Overlay Preview Tool](https://codepen.io/Kweh/full/pvEwjob)
 
 ### Example of a political ad
 
 ![](<../.gitbook/assets/Skjermbilde 2025-10-23 103619.png>)
+
+
+
+### Safe zone example with no PII
+
+<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+
+
 
 
 
