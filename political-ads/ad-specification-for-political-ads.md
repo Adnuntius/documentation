@@ -22,7 +22,7 @@ Max file size: 50 Mb
 ### Safe zones
 
 {% hint style="info" %}
-Test the overlay with your campaign information using our [Safe Zone Calculator](https://codepen.io/Kweh/full/pvEwjob/full).
+Test the overlay with your campaign information using our [Political Ad Preview Tool](https://admin.adnuntius.com/political-preview).
 {% endhint %}
 
 The overlay is anchored to the bottom of the ad and spans the full width of the creative.&#x20;
@@ -41,7 +41,7 @@ Minor variations in overlay height may occur across browsers due to differences 
 
 To test the overlay with your own campaign details, use the interactive preview tool below. You can enter the advertiser name, election name/date, and toggle PII targeting to see how the overlay renders across different configurations and ad sizes.
 
-[Open Overlay Preview Tool](https://codepen.io/Kweh/full/pvEwjob)
+[Open Political Ad Preview Tool](https://admin.adnuntius.com/political-preview)
 
 ### Example of a political ad
 
