@@ -8,7 +8,7 @@ description: >-
 
 Adnuntius products are hosted on our servers and provided to you by way of one or more URLs such as [https://admin.adnuntius.com](https://admin.adnuntius.com). In certain corporate or locked down environments access to all external sites will be blocked, and to access our sites you will need to request your network administrator allows access through the firewall.
 
-Adnuntius products may also need to access content hosted on your servers, such as when reading the content of news articles to extract keywords and categories for targeting. If you have a paywall in from of your site content, then your network administartor may need to configure your site so that Adnuntius can access the articles.
+Adnuntius products may also need to access content hosted on your servers, such as when reading the content of news articles to extract keywords and categories for targeting. If you have a paywall in from of your site content, then your network administrator may need to configure your site so that Adnuntius can access the articles.
 
 If this does not apply to you there is no need to read further. Otherwise, the sections below give the details of this for sites that you might need to access from behind a firewall. Note that these IP address can and will change over time, so you will need to check this page for updates.
 
