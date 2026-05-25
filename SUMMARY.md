@@ -225,6 +225,7 @@
 * [Render Key Values in ad](other-useful-information/render-key-values-in-ad.md)
 * [Parallax for Ad server Clients](other-useful-information/parallax-for-ad-server-clients.md)
 * [Adding attribution to product ads](other-useful-information/adding-attribution-to-product-ads.md)
+* [MCP Server](other-useful-information/mcp-server.md)
 
 ## Troubleshooting
 
