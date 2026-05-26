@@ -10,11 +10,11 @@ If you have one of the following agents installed, here is how to use Adnuntius 
 
 #### Claude Desktop App
 
-**Coming soon to anthropic marketplace, currently not available.**
-
 Go to the `Connectors` page in settings, and select `Customize`
 
-Select `+` to add a new connector and find Adnuntius in the list.
+Select `+` to add a new connector, and select `... Add custom connector`(if you don't see this, update your app)
+
+Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp)&#x20;
 
 #### Claude Terminal UI
 
@@ -26,7 +26,7 @@ Then start `claude` and type `/mcp` and in the list select `adnuntius` from loca
 
 #### Codex Desktop App
 
-**Integration coming soon, currently not available**
+**Integration currently unavailable due to bugs in codex (**&#x6F;mits the RFC 8707 resource= parameter so tokens get the wrong audience (#13891), sends a malformed /token exchange that fails with "Required argument is missing" (#5045), silently does nothing when DCR isn't supported and prints "No authorization support detected" in the CLI (#11585), can't reach its own localhost:1455 callback in Windows+WSL or other multi-namespace setups (#12263), and even when login succeeds the Desktop app still reports auth\_status: "unsupported" and never imports the server's tools into threads (#20009)). **When these are fixed the steps to connect will be:**
 
 Go to the `MCP Server` page in settings, and select `+Add Server`
 
