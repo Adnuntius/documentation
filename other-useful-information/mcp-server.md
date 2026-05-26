@@ -10,9 +10,11 @@ If you have one of the following agents installed, here is how to use Adnuntius 
 
 #### Claude Desktop App
 
+**Currently only Claude for Windows is supported. The latest Claude for Mac does not have and Add custom connector option.**
+
 Go to the `Connectors` page in settings, and select `Customize`
 
-Select `+` to add a new connector, and select `... Add custom connector`(if you don't see this, update your app)
+Select `+` to add a new connector, and select `... Add custom connector`
 
 Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp)&#x20;
 
