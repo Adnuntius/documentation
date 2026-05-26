@@ -8,13 +8,23 @@ description: This is an experimental feature. It may break or the interface may 
 
 #### Terminal UI agents
 
-`claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp`\
-\
-`codex mcp add adnuntius --url https://api.adnuntius.com/api/mcp`\
-\
-`gemini mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp`
+If you have one of the following agents installed, here is how to use Adnuntius MCP.
 
-That may prompt you for authorisation, otherwise once you start the agent you need to authenticate by typing /mcp, selecting adnuntius, and following the prompts.
+**Claude**
+
+In a terminal, run&#x20;
+
+`claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp`
+
+Then start `claude` and type `/mcp` and in the list select `adnuntius` from local MCPs and then select the authorise option which will open a browser window for you to complete the authorisation, after which you can use the integration.
+
+**Codex**
+
+In a terminal, run
+
+`codex mcp add adnuntius --url https://api.adnuntius.com/api/mcp`
+
+This will open a browser window for you to complete the authentication. You can then start `codex` and use the integration.
 
 ### Using the Adnuntius MCP server with your agent
 
