@@ -18,7 +18,7 @@ The recommended approach is to add the Adnuntius connector to your claude.ai acc
 
 {% embed url="https://claude.ai/customize/connectors?modal=add-custom-connector" %}
 
-If you are an owner of a team account you do that here (if you are not an owner, you must ask an owner to do this or use one of the other register methods below):
+If you are an owner of a team account you do that here (if you are on a team account but not an owner, you must ask an owner to do this):
 
 {% embed url="https://claude.ai/admin-settings/connectors?modal=add-custom-connector" %}
 
@@ -28,7 +28,7 @@ You are now done with the setup and can use it from the app or CLI
 
 #### Register to CLI&#x20;
 
-This is only needed if Register to Account didn't work and you wish to use the CLI. If so you can add the MCP to a CLI client by running
+This is only needed if you didn't follow the Register to Account instructions and wish to use the CLI. If so you can add the MCP to a CLI client by running
 
 `claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp`
 
@@ -38,7 +38,7 @@ If you don't have the CLI you can get it from here:
 
 #### Register to Windows App
 
-This is only needed if Register to Account didn't work and you wish to use the windows App, which you can get from here:
+This is only needed if you didn't follow the Register to Account instructions and you wish to use the windows app, which you can get from here:
 
 {% embed url="https://claude.com/download" %}
 
@@ -47,6 +47,10 @@ Go to the `Connectors` page in settings, and select `Customize`
 Select `+` to add a new connector, and select `... Add custom connector`
 
 Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp)
+
+#### Register to Mac App
+
+There is currently no option to `Add custom connector`in the mac app, so the Adnuntius MCP can only be used in it via the Register to Account method.
 
 ### OpenAI Codex&#x20;
 
