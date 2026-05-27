@@ -14,9 +14,13 @@ If you have one of the following agents installed, here is how to use Adnuntius 
 
 #### Register to Account
 
-The recommended approach is to add the Adnuntius connector to your claude.ai account which makes it available to all your clients. To do this you must be on a personal account, or an owner of a team account, or have been given permissions from the owner of your team account to add MCP servers. If that applies to you, then you do that here:
+The recommended approach is to add the Adnuntius connector to your claude.ai account which makes it available to all your clients. If you are on a personal account you do that here
 
 {% embed url="https://claude.ai/customize/connectors?modal=add-custom-connector" %}
+
+If you are an owner of a team account you do that here (if you are not an owner, you must ask an owner to do this or use one of the other register methods below):
+
+{% embed url="https://claude.ai/admin-settings/connectors?modal=add-custom-connector" %}
 
 Name it what you like, and use [https://api.adnuntius.com/api/mcp](https://api.adnuntius.com/api/mcp) as the Remote MCP server URL
 
