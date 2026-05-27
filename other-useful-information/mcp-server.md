@@ -10,6 +10,40 @@ Once you have completed the connection steps below your agent will have access t
 
 If you have one of the following agents installed, here is how to use Adnuntius MCP.
 
+### Anthropic Claude Code
+
+#### Register to Account
+
+The recommended approach is to add the Adnuntius connector to your claude.ai account which makes it available to all your clients. To do this you must be on a personal account, or an owner of a team account, or have been given permissions from the owner of your team account to add MCP servers. If that applies to you, then you do that here:
+
+{% embed url="https://claude.ai/customize/connectors?modal=add-custom-connector" %}
+
+Name it what you like, and use [https://api.adnuntius.com/api/mcp](https://api.adnuntius.com/api/mcp) as the Remote MCP server URL
+
+You are now done with the setup and can use it from the app or CLI
+
+#### Register to CLI&#x20;
+
+This is only needed if Register to Account didn't work and you wish to use the CLI. If so you can add the MCP to a CLI client by running
+
+`claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp`
+
+If you don't have the CLI you can get it from here:
+
+{% embed url="https://code.claude.com/docs/en/quickstart#step-1-install-claude-code" %}
+
+#### Register to Windows App
+
+This is only needed if Register to Account didn't work and you wish to use the windows App, which you can get from here:
+
+{% embed url="https://claude.com/download" %}
+
+Go to the `Connectors` page in settings, and select `Customize`
+
+Select `+` to add a new connector, and select `... Add custom connector`
+
+Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp)
+
 ### OpenAI Codex&#x20;
 
 #### 1. Install the Codex Command Line Interface (CLI)
@@ -44,33 +78,7 @@ If you completed steps 1 and 2 above, you should be able to ask questions about 
 * Select `Streamable HTTP` and enter [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp) as the URL. You can name the server anything you like.
 * Back on the MCP servers page, an Authorize button should appear after about 10 seconds (otherwise click on the gear icon). This Authorize button will open your browser to complete the login flow.
 
-### Anthropic Claude Code
 
-#### Recommended Option - Command Line Interface (CLI)
-
-This can be installed from here:
-
-{% embed url="https://code.claude.com/docs/en/quickstart#step-1-install-claude-code" %}
-
-In a terminal, run&#x20;
-
-`claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp`
-
-Then start `claude` and type `/mcp` and in the list select `adnuntius` from local MCPs and then select the authorise option which will open a browser window for you to complete the authorisation, after which you can use the integration.
-
-#### Desktop App
-
-**Currently only Claude for Windows is supported.**
-
-The app can be obtained from here
-
-{% embed url="https://claude.com/download" %}
-
-Go to the `Connectors` page in settings, and select `Customize`
-
-Select `+` to add a new connector, and select `... Add custom connector`
-
-Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp)&#x20;
 
 
 
