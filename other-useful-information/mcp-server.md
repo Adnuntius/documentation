@@ -64,6 +64,8 @@ This is recommended even if you want to use the desktop app, because the app MCP
 
 {% embed url="https://developers.openai.com/codex/quickstart?setup=cli" %}
 
+1. omits the RFC 8707 resource= parameter so tokens get the wrong audience (#13891), sends a malformed /token exchange that fails with "Required argument is missing" (#5045), silently does nothing when DCR isn't supported and prints "No authorization support detected" in the CLI (#11585), can't reach its own localhost:1455 callback in Windows+WSL or other multi-namespace setups (#12263), and even when login succeeds the Desktop app still reports auth\_status: "unsupported" and never imports the server's tools into threads (#20009)
+
 #### 2. Add the Adnuntius MCP Server and Authorize it
 
 In a terminal, run
@@ -90,11 +92,14 @@ If you completed steps 1 and 2 above, you should be able to ask questions about 
 * Select `Streamable HTTP` and enter [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp) as the URL. You can name the server anything you like.
 * Back on the MCP servers page, an Authorize button should appear after about 10 seconds (otherwise click on the gear icon). This Authorize button will open your browser to complete the login flow.
 
+## Troubleshooting
 
+#### Claude Code authentication or tool access issues
 
-
-
-
-
-1. omits the RFC 8707 resource= parameter so tokens get the wrong audience (#13891), sends a malformed /token exchange that fails with "Required argument is missing" (#5045), silently does nothing when DCR isn't supported and prints "No authorization support detected" in the CLI (#11585), can't reach its own localhost:1455 callback in Windows+WSL or other multi-namespace setups (#12263), and even when login succeeds the Desktop app still reports auth\_status: "unsupported" and never imports the server's tools into threads (#20009)
+* Go to [https://claude.ai/customize/connectors](https://claude.ai/customize/connectors) and find the Adnuntius connector
+* Click the three dots in the top right and select `Refresh tools list`
+* If there is a connection issue you should see a screen giving you a Connect button to re-authenticate
+* Once you press that button, after a short pause an Adnuntius window will open and you need to click the Authorize button to grant access
+* The window should close and claude.ai will display a message about being connected
+* After this you MUST restart your claude clients to pick up the new MCP auth, you cannot fix MCP state without a restart.
 
