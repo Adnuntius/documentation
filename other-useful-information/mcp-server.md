@@ -10,7 +10,7 @@ Once you have completed the connection steps below your agent will have access t
 
 ### Anthropic Claude Code
 
-#### Install a Client
+#### 1. Install a Client
 
 You can skip this section if you already have a Claude Code client installed. The Adnuntius MCP is supported in both the App which you can get it from here:
 
@@ -20,7 +20,7 @@ Or the CLI which you can get from here:
 
 {% embed url="https://code.claude.com/docs/en/quickstart#step-1-install-claude-code" %}
 
-#### Register to Account
+#### 2. Option A - Register to Account
 
 The recommended approach is to add the Adnuntius connector to your claude.ai account which makes it available to all your clients.&#x20;
 
@@ -40,7 +40,7 @@ https://api.adnuntius.com/api/mcp
 
 Once you press Add you (and everybody in your team if you have one) should see it in their list of connectors. You are now done with the setup and can use the MCP integration from the app or CLI. The following methods are only needed if you were not able to add the connector.
 
-#### Register to CLI&#x20;
+#### 2. Option B - Register to CLI&#x20;
 
 The next step is only needed if you didn't follow the Register to Account instructions and wish to use the CLI. In that case you would add the Adnuntius MCP to the CLI client by running:
 
@@ -48,7 +48,7 @@ The next step is only needed if you didn't follow the Register to Account instru
 claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp
 ```
 
-#### Register to Windows App
+#### 2. Option C - Register to Windows App
 
 The following steps are only needed if you didn't follow the Register to Account instructions and you wish to use the app:
 
@@ -58,9 +58,9 @@ Select `+` to add a new connector, and select `... Add custom connector`
 
 Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp)
 
-#### Register to Mac App
+#### 2. Option D - Register to Mac App
 
-There is currently no option to `Add custom connector`in the mac app, so the Adnuntius MCP can only be used in the Mac App via the Register to Account method.
+There is currently no option to `Add custom connector`in the mac app, so the Adnuntius MCP can only be used in the Mac App via the Option A - Register to Account method.
 
 ### OpenAI Codex&#x20;
 
