@@ -8,6 +8,8 @@ Once you have completed the connection steps below your agent will have access t
 
 ## Register the Adnuntius MCP server with your agent
 
+**NOTE**: If you are a user who has multiple networks, please select the network you wish to allow access to before pressing authorise in the steps below for your desired agent. Most users are in a single network and do not have to worry about this.&#x20;
+
 ### Anthropic Claude Code
 
 #### 1. Install a Client
@@ -80,8 +82,6 @@ In a terminal, run
 
 This will open a browser window for you to complete the authentication by pressing the Authorize button. If you are not already signed in to the Adnuntius platform you will be asked to do so first.&#x20;
 
-**NOTE**: If you are a user who has multiple networks, please select the network you wish to allow access to before pressing authorise. Most users are in a single network and do not have to worry about this.&#x20;
-
 #### 3. Use codex to ask questions about Adnuntius
 
 Type `codex`to start the CLI and start asking questions.
@@ -106,9 +106,9 @@ If you completed steps 1 and 2 above, you should be able to ask questions about 
 4. After completing the setup instructions below, open Antigravity again and click Settings (gear icon) → Customizations.
 5. Scroll to Installed MCP Servers. You should see adnuntius with an "Unauthorized" warning.
 6. Click Authenticate next to adnuntius. A browser tab will open to the Adnuntius admin page.
-7. Sign in to Adnuntius if prompted, then click Authorize.
-8. Adnuntius shows you a short authorization code. Copy it
-9. Return to Antigravity. A dialog is waiting for the code — paste and click Submit.
+7. Sign in to Adnuntius if prompted, you should now be on a authorization page for token use.
+8. Once you click Authorize google should give you an authorization code in your browser. Copy it.
+9. Return to Antigravity. A dialog is waiting for the code, paste and click Submit.
 10. The adnuntius row should turn green, and you can now ask the agent questions about your Adnuntius account
 
 **3a Windows Setup**
