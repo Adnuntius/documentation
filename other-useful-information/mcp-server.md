@@ -8,9 +8,17 @@ Once you have completed the connection steps below your agent will have access t
 
 ## Register the Adnuntius MCP server with your agent
 
-If you have one of the following agents installed, here is how to use Adnuntius MCP.
-
 ### Anthropic Claude Code
+
+#### Install a Client
+
+You can skip this section if you already have a Claude Code client installed. The Adnuntius MCP is supported in both the App which you can get it from here:
+
+{% embed url="https://claude.com/download" %}
+
+Or the CLI which you can get from here:
+
+{% embed url="https://code.claude.com/docs/en/quickstart#step-1-install-claude-code" %}
 
 #### Register to Account
 
@@ -26,25 +34,23 @@ The recommended approach is to add the Adnuntius connector to your claude.ai acc
 
 For either method, name the server what you like, and for the Remote MCP server URL use:
 
-[https://api.adnuntius.com/api/mcp](https://api.adnuntius.com/api/mcp)
+```
+https://api.adnuntius.com/api/mcp
+```
 
 Once you press Add you (and everybody in your team if you have one) should see it in their list of connectors. You are now done with the setup and can use the MCP integration from the app or CLI. The following methods are only needed if you were not able to add the connector.
 
 #### Register to CLI&#x20;
 
-This is only needed if you didn't follow the Register to Account instructions and wish to use the CLI. If so you can add the MCP to a CLI client by running
+The next step is only needed if you didn't follow the Register to Account instructions and wish to use the CLI. In that case you would add the Adnuntius MCP to the CLI client by running:
 
-`claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp`
-
-If you don't have the CLI you can get it from here:
-
-{% embed url="https://code.claude.com/docs/en/quickstart#step-1-install-claude-code" %}
+```
+claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp
+```
 
 #### Register to Windows App
 
-This is only needed if you didn't follow the Register to Account instructions and you wish to use the windows app, which you can get from here:
-
-{% embed url="https://claude.com/download" %}
+The following steps are only needed if you didn't follow the Register to Account instructions and you wish to use the app:
 
 Go to the `Connectors` page in settings, and select `Customize`
 
@@ -54,7 +60,7 @@ Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`]
 
 #### Register to Mac App
 
-There is currently no option to `Add custom connector`in the mac app, so the Adnuntius MCP can only be used in it via the Register to Account method.
+There is currently no option to `Add custom connector`in the mac app, so the Adnuntius MCP can only be used in the Mac App via the Register to Account method.
 
 ### OpenAI Codex&#x20;
 
