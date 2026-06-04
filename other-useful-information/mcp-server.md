@@ -4,7 +4,7 @@ description: This is an experimental feature. It may break or the interface may 
 
 # MCP Server
 
-Complete the connection steps below to give your agent of choice access to your Adnuntius account. Then can ask it questions (for example about campaign performance, or fill rate) and it will give you suggestions for improvements based on the latest traffic and reach forecasts available to your user. The agent has read only access to your account via a token which will refresh itself for 30 days, after which you will have to complete the authentication step again.
+Complete the connection steps below to give your agent of choice access to your Adnuntius account. Then ask it questions (for example about campaign performance, or fill rate) and it will suggest improvements based on data such as the latest traffic and reach forecasts available to your user. The agent has read only access to your account via a token which will refresh itself for 30 days, after which you will have to complete the authentication step again.
 
 ## Register the Adnuntius MCP server with your agent
 
