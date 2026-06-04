@@ -4,13 +4,13 @@ description: This is an experimental feature. It may break or the interface may 
 
 # MCP Server
 
-Once you have completed the connection steps below your agent will have access to your account in order to allow you to ask questions about the state of your line items and to diagnose orders (more features coming soon). The token will refresh itself for 30 days, after which you will have to complete the authentication step again.
+Complete the connection steps below to give your agent of choice access to your Adnuntius account. Then can ask it questions (for example about campaign performance, or fill rate) and it will give you suggestions for improvements based on the latest traffic and reach forecasts available to your user. The agent has read only access to your account via a token which will refresh itself for 30 days, after which you will have to complete the authentication step again.
 
 ## Register the Adnuntius MCP server with your agent
 
 **NOTE**: If you are a user who has multiple networks, please select the network you wish to allow access to before pressing authorise in the steps below for your desired agent. Most users are in a single network and do not have to worry about this.&#x20;
 
-### Anthropic Claude Code
+### -> Anthropic Claude Code
 
 #### 1. Install a Client
 
@@ -64,7 +64,7 @@ Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`]
 
 There is currently no option to `Add custom connector`in the mac app, so the Adnuntius MCP can only be used in the Mac App via the Option A - Register to Account method.
 
-### OpenAI Codex&#x20;
+### -> OpenAI Codex&#x20;
 
 #### 1. Install the Codex Command Line Interface (CLI)
 
@@ -98,7 +98,7 @@ If you completed steps 1 and 2 above, you should be able to ask questions about 
 * Select `Streamable HTTP` and enter [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp) as the URL. You can name the server anything you like.
 * Back on the MCP servers page, an Authorize button should appear after about 10 seconds (otherwise click on the gear icon). This Authorize button will open your browser to complete the login flow.
 
-### Google Antigravity
+### -> Google Antigravity
 
 1. If you haven't already, download the app from [https://antigravity.google/download](https://antigravity.google/download) and install for your OS (Windows, Mac, or Linux are all fine)
 2. If you haven't already, open the app, and in the setup select sign in with Google and complete the Google login in your browser
