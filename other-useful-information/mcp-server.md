@@ -12,17 +12,23 @@ Complete the connection steps below to give your agent of choice access to your 
 
 ### -> Anthropic Claude Code
 
+Follow the 3 steps below to get setup with Claude Code.
+
 #### 1. Install a Client
 
 You can skip this section if you already have a Claude Code client installed. The Adnuntius MCP is supported in both the App which you can get it from here:
 
 {% embed url="https://claude.com/download" %}
 
-Or the CLI which you can get from here:
+Or the Command Line Interface (CLI) which you can get from here:
 
 {% embed url="https://code.claude.com/docs/en/quickstart#step-1-install-claude-code" %}
 
-#### 2. Option A - Register to Account
+#### 2. Install the Connector
+
+Choose one of the 4 options below to do this. Option A is recommended.
+
+#### Option A - Register to Account
 
 The recommended approach is to add the Adnuntius connector to your claude.ai account which makes it available to all your clients.&#x20;
 
@@ -42,7 +48,7 @@ https://api.adnuntius.com/api/mcp
 
 Once you press Add you (and everybody in your team if you have one) should see it in their list of connectors. You are now done with the setup and can use the MCP integration from the app or CLI. The following methods are only needed if you were not able to add the connector.
 
-#### 2. Option B - Register to CLI&#x20;
+#### Option B - Register to CLI&#x20;
 
 The next step is only needed if you didn't follow the Register to Account instructions and wish to use the CLI. In that case you would add the Adnuntius MCP to the CLI client by running:
 
@@ -50,7 +56,7 @@ The next step is only needed if you didn't follow the Register to Account instru
 claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp
 ```
 
-#### 2. Option C - Register to Windows App
+#### Option C - Register to Windows App
 
 The following steps are only needed if you didn't follow the Register to Account instructions and you wish to use the app:
 
@@ -60,9 +66,19 @@ Select `+` to add a new connector, and select `... Add custom connector`
 
 Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp)
 
-#### 2. Option D - Register to Mac App
+#### Option D - Register to Mac App
 
-There is currently no option to `Add custom connector`in the mac app, so the Adnuntius MCP can only be used in the Mac App via the Option A - Register to Account method.
+There is currently no option to `Add custom connector` in the mac app, so the Adnuntius MCP can only be used in the Mac App via the Option A - Register to Account method.
+
+#### 3. Connect to Adnuntius
+
+You connect the Claude Code App to Adnuntius by going to `Settings -> Connectors -> Customise` , selecting the Adnuntius connector (which is named depending on how you set it up in step 2), and clicking `Connect`:&#x20;
+
+<figure><img src="../.gitbook/assets/Adnuntius Connector.png" alt=""><figcaption></figcaption></figure>
+
+If you are using the CLI, you connect to adnuntius inside the CLI by typing `/mcp` and moving the selector down to adnuntius, pressing enter, and selecting `1. Authenticate`&#x20;
+
+For either the app or CLI, you will then be taking to a page in your default browser which will ask you to authorize the agent to access your account (if you are not currently signed in to the Adnuntius Admin ui in that browser, you will be asked to sign in first). Once you click Authenticate, you should be connected in the app or CLI and can now ask questions from any session in it.
 
 ### -> OpenAI Codex&#x20;
 
@@ -110,6 +126,8 @@ If you completed steps 1 and 2 above, you should be able to ask questions about 
 8. Once you click Authorize google should give you an authorization code in your browser. Copy it.
 9. Return to Antigravity. A dialog is waiting for the code, paste and click Submit.
 10. The adnuntius row should turn green, and you can now ask the agent questions about your Adnuntius account
+
+**Google Antigravity** **OS specific setup instructions:**
 
 **3a Windows Setup**
 
