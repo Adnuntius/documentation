@@ -28,7 +28,7 @@ Or the Command Line Interface (CLI) which you can get from here:
 
 Choose one of the 4 options below to do this. Option A is recommended.
 
-#### Option A - Register to Account
+**Option A - Register to Account**
 
 The recommended approach is to add the Adnuntius connector to your claude.ai account which makes it available to all your clients.&#x20;
 
@@ -48,7 +48,7 @@ https://api.adnuntius.com/api/mcp
 
 Once you press Add you (and everybody in your team if you have one) should see it in their list of connectors. You are now done with the setup and can use the MCP integration from the app or CLI. The following methods are only needed if you were not able to add the connector.
 
-#### Option B - Register to CLI&#x20;
+**Option B - Register to CLI**&#x20;
 
 The next step is only needed if you didn't follow the Register to Account instructions and wish to use the CLI. In that case you would add the Adnuntius MCP to the CLI client by running:
 
@@ -56,7 +56,7 @@ The next step is only needed if you didn't follow the Register to Account instru
 claude mcp add --transport http adnuntius https://api.adnuntius.com/api/mcp
 ```
 
-#### Option C - Register to Windows App
+**Option C - Register to Windows App**
 
 The following steps are only needed if you didn't follow the Register to Account instructions and you wish to use the app:
 
@@ -66,7 +66,7 @@ Select `+` to add a new connector, and select `... Add custom connector`
 
 Name it whatever you like, and use the url [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp)
 
-#### Option D - Register to Mac App
+**Option D - Register to Mac App**
 
 There is currently no option to `Add custom connector` in the mac app, so the Adnuntius MCP can only be used in the Mac App via the Option A - Register to Account method.
 
@@ -76,9 +76,9 @@ You connect the Claude Code App to Adnuntius by going to `Settings -> Connectors
 
 <figure><img src="../.gitbook/assets/Adnuntius Connector.png" alt=""><figcaption></figcaption></figure>
 
-If you are using the CLI, you connect to adnuntius inside the CLI by typing `/mcp` and moving the selector down to adnuntius, pressing enter, and selecting `1. Authenticate`&#x20;
+If you are using the CLI, you connect to Adnuntius inside the CLI by typing `/mcp` and moving the selector down to `adnuntius`, pressing enter, and selecting `1. Authenticate`&#x20;
 
-For either the app or CLI, you will then be taking to a page in your default browser which will ask you to authorize the agent to access your account (if you are not currently signed in to the Adnuntius Admin ui in that browser, you will be asked to sign in first). Once you click Authenticate, you should be connected in the app or CLI and can now ask questions from any session in it.
+For either the app or CLI, you will then be taking to a page in your default browser which will ask you to authorise the agent to access your account (if you are not currently signed in to the Adnuntius Admin User Interface in that browser, you will be asked to sign in first). Once you click `Authenticate`, you should be connected in the app or CLI and can now ask questions from any session in it.
 
 ### -> OpenAI Codex&#x20;
 
