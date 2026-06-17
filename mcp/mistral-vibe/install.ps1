@@ -4,7 +4,18 @@ $ScriptUrl = if ($env:SCRIPT_URL) { $env:SCRIPT_URL } else { 'https://raw.github
 
 $Py = (Get-Command python -ErrorAction SilentlyContinue).Source
 if (-not $Py) { $Py = (Get-Command python3 -ErrorAction SilentlyContinue).Source }
-if (-not $Py) { Write-Host "Install Python 3 first (https://www.python.org/downloads/)" -ForegroundColor Red; exit 1 }
+if ($Py -and $Py -like '*\WindowsApps\*') { $Py = $null }
+if (-not $Py) {
+    if (-not (Get-Command uv -ErrorAction SilentlyContinue)) {
+        Invoke-Expression (Invoke-RestMethod 'https://astral.sh/uv/install.ps1')
+        $env:PATH = "$HOME\.local\bin;$env:PATH"
+    }
+    & uv python install 3.12 | Out-Null
+    $UvPyDir = (& uv python dir).Trim()
+    $Py = (Get-ChildItem -Path "$UvPyDir\cpython-3.12-*\python.exe" -ErrorAction SilentlyContinue | Select-Object -First 1).FullName
+    if (-not $Py) { $Py = (Get-ChildItem -Path "$UvPyDir\cpython-3.12.*\python.exe" -ErrorAction SilentlyContinue | Select-Object -First 1).FullName }
+    if (-not $Py) { Write-Host "Could not bootstrap Python 3.12 via uv." -ForegroundColor Red; exit 1 }
+}
 
 $LocalBin = "$HOME\.local\bin"
 if (-not (Get-Command vibe -ErrorAction SilentlyContinue)) {
