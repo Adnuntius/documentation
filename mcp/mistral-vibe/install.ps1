@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 
-$ScriptUrl = if ($env:SCRIPT_URL) { $env:SCRIPT_URL } else { 'https://docs.adnuntius.com/mcp/mistral-vibe/adnuntius-vibe.py' }
+$ScriptUrl = if ($env:SCRIPT_URL) { $env:SCRIPT_URL } else { 'https://raw.githubusercontent.com/Adnuntius/documentation/master/mcp/mistral-vibe/adnuntius-vibe.py' }
 
 $Py = (Get-Command python -ErrorAction SilentlyContinue).Source
 if (-not $Py) { $Py = (Get-Command python3 -ErrorAction SilentlyContinue).Source }

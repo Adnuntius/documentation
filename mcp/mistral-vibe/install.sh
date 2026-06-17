@@ -2,7 +2,7 @@
 set -euo pipefail
 exec </dev/tty
 
-SCRIPT_URL="${SCRIPT_URL:-https://docs.adnuntius.com/mcp/mistral-vibe/adnuntius-vibe.py}"
+SCRIPT_URL="${SCRIPT_URL:-https://raw.githubusercontent.com/Adnuntius/documentation/master/mcp/mistral-vibe/adnuntius-vibe.py}"
 PY="$(command -v python3 || true)"
 [ -n "$PY" ] || { echo "Install Python 3 first (https://www.python.org/downloads/)" >&2; exit 1; }
 
