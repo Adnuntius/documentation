@@ -6,11 +6,11 @@ description: This is an experimental feature. It may break or the interface may 
 
 Complete the connection steps below to give your agent of choice access to your Adnuntius account. Then ask it questions (for example about campaign performance, or fill rate) and it will suggest improvements based on data such as the latest traffic and reach forecasts available to your user. The agent has read only access to your account via a token which will refresh itself for 30 days, after which you will have to complete the authentication step again.
 
-## Register the Adnuntius MCP server with your agent
+## Register the Adnuntius MCP server with your agent:
 
-**NOTE**: If you are a user who has multiple networks, please select the network you wish to allow access to before pressing authorise in the steps below for your desired agent. Most users are in a single network and do not have to worry about this.&#x20;
+**NOTE**: If you are a user who has multiple networks, please select the network you wish to allow access to before pressing authorise in the steps below for your desired agent. Most users are in a single network and do not have to worry about this.
 
-### -> Anthropic Claude Code
+### Anthropic Claude Code
 
 Follow the 3 steps below to get setup with Claude Code.
 
@@ -30,7 +30,7 @@ Choose one of the 4 options below to do this. Option A is recommended.
 
 **Option A - Register to Account**
 
-The recommended approach is to add the Adnuntius connector to your claude.ai account which makes it available to all your clients.&#x20;
+The recommended approach is to add the Adnuntius connector to your claude.ai account which makes it available to all your clients.
 
 * If you are on a personal account you do that here:
 
@@ -48,7 +48,7 @@ https://api.adnuntius.com/api/mcp
 
 Once you press Add you (and everybody in your team if you have one) should see it in their list of connectors. You are now done with the setup and can use the MCP integration from the app or CLI. The following methods are only needed if you were not able to add the connector.
 
-**Option B - Register to CLI**&#x20;
+**Option B - Register to CLI**
 
 The next step is only needed if you didn't follow the Register to Account instructions and wish to use the CLI. In that case you would add the Adnuntius MCP to the CLI client by running:
 
@@ -72,15 +72,15 @@ There is currently no option to `Add custom connector` in the mac app, so the Ad
 
 #### 3. Connect to Adnuntius
 
-You connect the Claude Code App to Adnuntius by going to `Settings -> Connectors -> Customise` , selecting the Adnuntius connector (which is named depending on how you set it up in step 2), and clicking `Connect`:&#x20;
+You connect the Claude Code App to Adnuntius by going to `Settings -> Connectors -> Customise` , selecting the Adnuntius connector (which is named depending on how you set it up in step 2), and clicking `Connect`:
 
 <figure><img src="../.gitbook/assets/Adnuntius Connector.png" alt=""><figcaption></figcaption></figure>
 
-If you are using the CLI, you connect to Adnuntius inside the CLI by typing `/mcp` and moving the selector down to `adnuntius`, pressing enter, and selecting `1. Authenticate`&#x20;
+If you are using the CLI, you connect to Adnuntius inside the CLI by typing `/mcp` and moving the selector down to `adnuntius`, pressing enter, and selecting `1. Authenticate`
 
 For either the app or CLI, you will then be taking to a page in your default browser which will ask you to authorise the agent to access your account (if you are not currently signed in to the Adnuntius Admin User Interface in that browser, you will be asked to sign in first). Once you click `Authenticate`, you should be connected in the app or CLI and can now ask questions from any session in it.
 
-### -> OpenAI Codex&#x20;
+### OpenAI Codex
 
 #### 1. Install the Codex Command Line Interface (CLI)
 
@@ -96,7 +96,7 @@ In a terminal, run
 
 `codex mcp add adnuntius --url https://api.adnuntius.com/api/mcp`
 
-This will open a browser window for you to complete the authentication by pressing the Authorize button. If you are not already signed in to the Adnuntius platform you will be asked to do so first.&#x20;
+This will open a browser window for you to complete the authentication by pressing the Authorize button. If you are not already signed in to the Adnuntius platform you will be asked to do so first.
 
 #### 3. Use codex to ask questions about Adnuntius
 
@@ -114,7 +114,7 @@ If you completed steps 1 and 2 above, you should be able to ask questions about 
 * Select `Streamable HTTP` and enter [`https://api.adnuntius.com/api/mcp`](https://api.adnuntius.com/api/mcp) as the URL. You can name the server anything you like.
 * Back on the MCP servers page, an Authorize button should appear after about 10 seconds (otherwise click on the gear icon). This Authorize button will open your browser to complete the login flow.
 
-### -> Google Antigravity
+### Google Antigravity
 
 1. If you haven't already, download the app from [https://antigravity.google/download](https://antigravity.google/download) and install for your OS (Windows, Mac, or Linux are all fine)
 2. If you haven't already, open the app, and in the setup select sign in with Google and complete the Google login in your browser
@@ -153,15 +153,18 @@ Open a terminal and run the following command in it
 python3 -c "import os,json;d={'mcpServers':{'adnuntius':{'serverUrl':'https://api.adnuntius.com/api/mcp'}}};[(os.makedirs(os.path.dirname(p),exist_ok=True) or json.dump(d,open(p,'w'),indent=2)) for p in [os.path.expanduser('~/.gemini/antigravity/mcp_config.json'),os.path.expanduser('~/.gemini/config/mcp_config.json')]]"
 ```
 
-### -> Mistral Vibe
+### Mistral Vibe
 
 Adnuntius provides a setup script which will install Mistral Vibe if needed, and then setup the MCP integration with Adnuntius.
 
 If you are on a Mac or linux, Open Terminal (on Mac: ⌘ + Space → "terminal"; on Linux: usually Ctrl + Alt + T) and paste:
+
 ```
 curl -fsSL https://raw.githubusercontent.com/Adnuntius/documentation/master/mcp/mistral-vibe/install.sh | bash
 ```
+
 Or, if you are on Windows, open PowerShell (press the Windows key and type "powershell" followed by enter) and paste:
+
 ```
 powershell -ExecutionPolicy Bypass -Command "iwr https://raw.githubusercontent.com/Adnuntius/documentation/master/mcp/mistral-vibe/install.ps1 -UseBasicParsing | iex"
 ```
@@ -176,4 +179,3 @@ powershell -ExecutionPolicy Bypass -Command "iwr https://raw.githubusercontent.c
 * Once you press that button, after a short pause an Adnuntius window will open and you need to click the Authorize button to grant access
 * The window should close and claude.ai will display a message about being connected
 * After this you MUST restart your claude clients to pick up the new MCP auth, you cannot fix MCP state without a restart.
-
