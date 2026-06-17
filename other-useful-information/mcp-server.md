@@ -153,6 +153,19 @@ Open a terminal and run the following command in it
 python3 -c "import os,json;d={'mcpServers':{'adnuntius':{'serverUrl':'https://api.adnuntius.com/api/mcp'}}};[(os.makedirs(os.path.dirname(p),exist_ok=True) or json.dump(d,open(p,'w'),indent=2)) for p in [os.path.expanduser('~/.gemini/antigravity/mcp_config.json'),os.path.expanduser('~/.gemini/config/mcp_config.json')]]"
 ```
 
+### -> Mistral Vibe
+
+Adnuntius provides a setup script which will install Mistral Vibe if needed, and then setup the MCP integration with Adnuntius.
+
+If you are on a Mac or linux, Open Terminal (on Mac: ⌘ + Space → "terminal"; on Linux: usually Ctrl + Alt + T) and paste:
+```
+curl -fsSL https://docs.adnuntius.com/mcp/mistral-vibe/install.sh | bash
+```
+Or, if you are on Windows, open PowerShell (press the Windows key and type "powershell" followed by enter) and paste:
+```
+powershell -ExecutionPolicy Bypass -Command "iwr https://docs.adnuntius.com/mcp/mistral-vibe/install.ps1 -UseBasicParsing | iex"
+```
+
 ## Troubleshooting
 
 #### Claude Code authentication or tool access issues
