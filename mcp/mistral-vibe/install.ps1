@@ -6,13 +6,19 @@ $Py = (Get-Command python -ErrorAction SilentlyContinue).Source
 if (-not $Py) { $Py = (Get-Command python3 -ErrorAction SilentlyContinue).Source }
 if (-not $Py) { Write-Host "Install Python 3 first (https://www.python.org/downloads/)" -ForegroundColor Red; exit 1 }
 
+$LocalBin = "$HOME\.local\bin"
 if (-not (Get-Command vibe -ErrorAction SilentlyContinue)) {
     if (-not (Get-Command uv -ErrorAction SilentlyContinue)) {
         Invoke-Expression (Invoke-RestMethod 'https://astral.sh/uv/install.ps1')
-        $env:PATH = "$HOME\.local\bin;$env:PATH"
     }
+    $env:PATH = "$LocalBin;$env:PATH"
     & uv tool install mistral-vibe
 }
+$userPath = [Environment]::GetEnvironmentVariable('PATH', 'User')
+if ($userPath -notlike "*$LocalBin*") {
+    [Environment]::SetEnvironmentVariable('PATH', "$LocalBin;$userPath", 'User')
+}
+$env:PATH = "$LocalBin;$env:PATH"
 
 $VibeConfig = "$HOME\.vibe\config.toml"
 if (-not (Test-Path $VibeConfig)) {
