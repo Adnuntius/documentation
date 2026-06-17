@@ -166,7 +166,7 @@ curl -fsSL https://raw.githubusercontent.com/Adnuntius/documentation/master/mcp/
 Or, if you are on Windows, open PowerShell (press the Windows key and type "powershell" followed by enter) and paste:
 
 ```
-powershell -ExecutionPolicy Bypass -Command "iwr https://raw.githubusercontent.com/Adnuntius/documentation/master/mcp/mistral-vibe/install.ps1 -UseBasicParsing | iex"
+iwr https://raw.githubusercontent.com/Adnuntius/documentation/master/mcp/mistral-vibe/install.ps1 -UseBasicParsing | iex
 ```
 
 ## Troubleshooting
