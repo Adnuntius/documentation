@@ -8,11 +8,14 @@ High impact configuration is for you as a publisher that have specific needs for
 // Script below is optional if you need to do any changes to the height of the fullscreen
 <script>
   window.aim = window.aim || {
-    fullScreen: {
-      maxHeight: 680
+    style: {
+      fullScreen: {
+        maxHeight: 680
+      }
     }
   }
 </script>
 ```
 
 This will set the max height to 680px, if you omit this, it will default to 100% of the window height.
+
