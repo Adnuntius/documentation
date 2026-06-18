@@ -16,11 +16,11 @@ Follow the 3 steps below to get setup with Claude Code.
 
 #### 1. Install a Client
 
-You can skip this section if you already have a Claude Code client installed. The Adnuntius MCP is supported in both the App which you can get it from here:
+You can skip this step if you already have a Claude Code client installed, otherwise install either the app:
 
 {% embed url="https://claude.com/download" %}
 
-Or the Command Line Interface (CLI) which you can get from here:
+or the Command Line Interface (CLI):
 
 {% embed url="https://code.claude.com/docs/en/quickstart#step-1-install-claude-code" %}
 
@@ -72,13 +72,13 @@ There is currently no option to `Add custom connector` in the mac app, so the Ad
 
 #### 3. Connect to Adnuntius
 
-You connect the Claude Code App to Adnuntius by going to `Settings -> Connectors -> Customise` , selecting the Adnuntius connector (which is named depending on how you set it up in step 2), and clicking `Connect`:
+The final step is to connect the Claude Code App to your Adnuntius account. You do this by going to `Settings -> Connectors -> Customise` , selecting the Adnuntius connector (which is named depending on how you set it up in step 2), and clicking `Connect`:
 
 <figure><img src="../.gitbook/assets/Adnuntius Connector.png" alt=""><figcaption></figcaption></figure>
 
 If you are using the CLI, you connect to Adnuntius inside the CLI by typing `/mcp` and moving the selector down to `adnuntius`, pressing enter, and selecting `1. Authenticate`
 
-For either the app or CLI, you will then be taking to a page in your default browser which will ask you to authorise the agent to access your account (if you are not currently signed in to the Adnuntius Admin User Interface in that browser, you will be asked to sign in first). Once you click `Authenticate`, you should be connected in the app or CLI and can now ask questions from any session in it.
+For either the app or CLI, you will then be taking to a page in your default browser which will ask you to authorise the agent to access your account (if you are not currently signed in to the Adnuntius Admin User Interface in that browser, you will be asked to sign in first). Once you click the `Authenticate` button and create a new session in your app (or CLI), it will be able to answer questions about your Adnuntius account.
 
 ### OpenAI Codex
 
