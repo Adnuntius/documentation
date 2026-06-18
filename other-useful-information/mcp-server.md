@@ -46,7 +46,7 @@ For either method, name the server what you like, and for the Remote MCP server 
 https://api.adnuntius.com/api/mcp
 ```
 
-Once you press Add you (and everybody in your team if you have one) should see it in their list of connectors. You are now done with the setup and can use the MCP integration from the app or CLI. The following methods are only needed if you were not able to add the connector.
+Once you press Add you (and everybody in your team if you have one) should see it in their list of connectors. You can now move on to step 3.
 
 **Option B - Register to CLI**
 
