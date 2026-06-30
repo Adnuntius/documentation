@@ -16,14 +16,14 @@ An Ad unit is a placement that serves advertising and other content onto a publi
 
 ## Creating an Ad Unit
 
-To create an ad unit, [go to Ad Units under the Inventory section](https://admin.adnuntius.com/ad-units), and then click "new" in the upper right corner.&#x20;
+To create an ad unit, [go to Ad Units under the Inventory section](https://admin.adnuntius.com/ad-units), and then click "new" in the upper right corner.
 
 Give the ad unit a **name** and optional **description** of your choice. If you are a marketplace publisher then names and descriptions makes it easier for buyers to understand what they are purchasing.
 
-Next, add width and height restrictions to your ad unit to control what creative sizes will be allowed to serve. You can choose between two modes:&#x20;
+Next, add width and height restrictions to your ad unit to control what creative sizes will be allowed to serve. You can choose between two modes:
 
 * Range. For example, if your ad unit has minimum 728x90 and maximum 1000x300 pixels, then any creative with width between 728 and 1000, and height between 90 and 300 pixels can be served.
-* Fixed. If you add for instance 728x90 and 1000x300 as two sizes, then only creatives with either of those two sizes will be allowed to serve. The fixed option is usually preferable whenever prebid is used to request ads. &#x20;
+* Fixed. If you add for instance 728x90 and 1000x300 as two sizes, then only creatives with either of those two sizes will be allowed to serve. The fixed option is usually preferable whenever prebid is used to request ads.
 
 ![Buyers can, when targeting ads, see the mode (range or fixed sizes) you set on ad units.](<../../../.gitbook/assets/202207 Ad Unit - Mode in Targeting.png>)
 
@@ -57,13 +57,13 @@ Ad units can automatically pick up the URL for the page on which it is shown, so
 
 Ad units can also automatically **derive key values for key value targeting from the page URL's query string**. For example, if a user goes to the site example.com, searches for "wine" and the landing page has the URL [https://example.com/search?query=wine](https://www.aperitif.no/sok?query=wine), then the key value query=wine will immediately be available for targeting for line items and creatives.
 
-You can set **targeting options** on the ad unit.&#x20;
+You can set **targeting options** on the ad unit.
 
 * The default option "Can have no targeting" means that Adnuntius will deliver ads to every ad unit that it will fit.
 * "Must have Targeting" means that only line items with any kind of targeting can deliver to this ad unit.
-* "Must match type" allows you to select what targeting you will allow for this ad unit.&#x20;
+* "Must match type" allows you to select what targeting you will allow for this ad unit.
 
-![Must Match Type.](<../../../.gitbook/assets/image (21) (1) (1) (1) (1).png>)
+![Must Match Type.](<../../../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 In the example above only ad unit targeting is selected. This will only allow line items with ad unit targeting to be showed for this ad unit. If this would be applied to an ad unit it would not show any ads unless it´s explicitly targeted. You can of course add more targeting to the line item to reduce the scope of users to target.
 
@@ -91,7 +91,7 @@ If you have external ad units serving programmatic ads AND you have connected th
 
 The tab “Ad Tags” is where you get the ad tag that is to be placed onto the page where you want ads to show. You can choose between standard tags for your webpage, email tags that can go into your newsletter, and VAST tags if you want to implement for video ads (instance prerolls, midrolls or endrolls).
 
-![Ad tags example.](<../../../.gitbook/assets/202207 Ad Unit - Ad Tags (1).png>)
+![Ad tags example.](<../../../.gitbook/assets/202207 Ad Unit - Ad Tags.png>)
 
 ### Reports
 
@@ -99,7 +99,7 @@ Allows you to create a report based on a [report template](../reports/reports-te
 
 ![Reports example.](<../../../.gitbook/assets/202207 Ad Unit - Reports.png>)
 
-### Traffic&#x20;
+### Traffic
 
 The traffic tab shows you the delivery of impressions, clicks, viewables and visible impressions that this ad unit has delivered, per device type, operating system and mobile brand.
 
@@ -113,7 +113,7 @@ The location tab gives you the traffic to the ad unit broken down by country.
 
 ### Availability
 
-Availability allows you to forecast how much traffic your ad unit is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis. For an explanation of how to read the results, please go to the [Site Availability explanation](adunits-1.md#availability) as the results are the same (but the ad unit availability accounts for only the relevant ad unit).&#x20;
+Availability allows you to forecast how much traffic your ad unit is likely to have available in a defined period. Just enter a date range and then click “run availability” analysis. For an explanation of how to read the results, please go to the [Site Availability explanation](adunits-1.md#availability) as the results are the same (but the ad unit availability accounts for only the relevant ad unit).
 
 ### Diagnostics
 
@@ -123,10 +123,10 @@ If you cannot see any ads in your ad unit, or you expected to see another ad, th
 
 ### Explore
 
-You can explore your inventory by adding filters and see a breakdown of your traffic. The example below shows a table of cities and their approximate traffic next week, when two filters are applied:&#x20;
+You can explore your inventory by adding filters and see a breakdown of your traffic. The example below shows a table of cities and their approximate traffic next week, when two filters are applied:
 
-* A category filter for the category "oppskrifter" (Norwegian for "recipes").&#x20;
-* A country filter for Norway.&#x20;
+* A category filter for the category "oppskrifter" (Norwegian for "recipes").
+* A country filter for Norway.
 
 These two filters applied means that the table of cities only show the estimated traffic coming from Norway, and for content within the recipes category.
 

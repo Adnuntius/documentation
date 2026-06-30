@@ -247,3 +247,4 @@
 * [Ad specification for political ads](political-ads/ad-specification-for-political-ads.md)
 * [How to Book a Political Campaign](political-ads/how-to-book-a-political-campaign.md)
 * [Political Inventory Sweden](political-ads/political-inventory-sweden.md)
+* [Political Ads: Publisher Controls](political-ads/political-ads-publisher-controls.md)

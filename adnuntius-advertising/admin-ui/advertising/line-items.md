@@ -16,13 +16,13 @@ To create a line item go to [https://admin.adnuntius.com/line-items](https://adm
 Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you. For any questions, contact us at support@adnuntius.com.
 {% endhint %}
 
-Give the line item a **start and end date and time**. If you choose not to provide an end date the line item will continue delivering until you pause or stop it. Please note that [smoothing ](smoothing.md)will not work if no end date is set.&#x20;
+Give the line item a **start and end date and time**. If you choose not to provide an end date the line item will continue delivering until you pause or stop it. Please note that [smoothing ](smoothing.md)will not work if no end date is set.
 
 ![Example line item](<../../../.gitbook/assets/202207 Line Item.png>)
 
-In order for a line item to run, it needs to be assigned to an **Order**.&#x20;
+In order for a line item to run, it needs to be assigned to an **Order**.
 
-If your user is the role of a Marketplace Advertiser, then you will see the object "**Type**" and you may be asked to choose between "**Based on Product** (Line item is based off a pre-defined product and can deliver as soon as it's set up)" or "**Based on Proposal** (Line item is based off your own proposal and will require publishers approval to deliver)".&#x20;
+If your user is the role of a Marketplace Advertiser, then you will see the object "**Type**" and you may be asked to choose between "**Based on Product** (Line item is based off a pre-defined product and can deliver as soon as it's set up)" or "**Based on Proposal** (Line item is based off your own proposal and will require publishers approval to deliver)".
 
 <figure><img src="../../../.gitbook/assets/LineItemType.png" alt=""><figcaption></figcaption></figure>
 
@@ -36,26 +36,26 @@ If you select the line item to be based on a "**Proposal**" you need to select o
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2022-12-20 at 5.09.02 pm.png" alt=""><figcaption><p>If you're a Marketplace Advertiser you will be asked to select one ore more sites.</p></figcaption></figure>
 
-The line item's **delivery** shows you certain information about the line item's status.&#x20;
+The line item's **delivery** shows you certain information about the line item's status.
 
 * "_Delivering_" means that the line item is live and currently delivering impressions.
-* "_Ready to deliver_" means that no additional information is needed for the line item to deliver, but it has not yet started delivering any impressions (for instance because the start date is in the future). If your line item remains in this state when it should have started delivering, have a look at these [common reasons](../../../other-useful-information/faq.md#my-line-item-state-is-ready-to-deliver-but-it-wont-start-why). You can also run a diagnostics test by clicking the "diagnostics" tab on the line item.&#x20;
-* "_Not deliverable"_ means that no impressions can be delivered, either because something is missing (such as a bid or a valid creative) or because the line item is paused or stopped. To see what is missing, look for a yellow warning at the top of the line item page. You can also run a diagnostics test by clicking the "diagnostics" tab on the line item.&#x20;
+* "_Ready to deliver_" means that no additional information is needed for the line item to deliver, but it has not yet started delivering any impressions (for instance because the start date is in the future). If your line item remains in this state when it should have started delivering, have a look at these [common reasons](../../../other-useful-information/faq.md#my-line-item-state-is-ready-to-deliver-but-it-wont-start-why). You can also run a diagnostics test by clicking the "diagnostics" tab on the line item.
+* "_Not deliverable"_ means that no impressions can be delivered, either because something is missing (such as a bid or a valid creative) or because the line item is paused or stopped. To see what is missing, look for a yellow warning at the top of the line item page. You can also run a diagnostics test by clicking the "diagnostics" tab on the line item.
 * _"Ended"_ means that the line item has passed its end date, or that the objectives have been met, causing the line item to stop delivering.
 
 ![Example message given when a line item requires something to be able to deliver.](../../../.gitbook/assets/error-messages.png)
 
-The system will also provide the following information:&#x20;
+The system will also provide the following information:
 
-* _"Healthy"_ means that, with the current delivery velocity, the line item will deliver the set objectives by the end date.&#x20;
+* _"Healthy"_ means that, with the current delivery velocity, the line item will deliver the set objectives by the end date.
 * _"Over-delivering: 30%"_ means that, with its current velocity, the line item will overdeliver (in this example by 30%) or stop before its end date. You can change this by setting smoothing to "even" or "frontloaded" to make Adnuntius pace the delivery of impressions. You may also see the message _"heavy smoothing applied"_, which means that Adnuntius has discovered the over-delivery and has taken steps to slow down and pace the delivery.
-* _"Under-delivering: 30%"_ means that, with its current velocity, the line item will underdeliver (in this example by 30%) by the end date. This most commonly occurs when there is insufficient traffic under the current targeting on the line item, and/or when there are many line items competing for the same attention.&#x20;
+* _"Under-delivering: 30%"_ means that, with its current velocity, the line item will underdeliver (in this example by 30%) by the end date. This most commonly occurs when there is insufficient traffic under the current targeting on the line item, and/or when there are many line items competing for the same attention.
 
-You can change the campaign's **state**.&#x20;
+You can change the campaign's **state**.
 
 * _"Reserved"_ means that the line item will not deliver any impressions, but its booked traffic will be considered when running [reach analyses](reach-analysis.md).
 * "_Approved_" means that the line item will start delivering impressions as soon as the line item is _ready to deliver_.
-* "_Paused_" means that the line item won't deliver impressions, but the booked impressions are still taken into consideration when running reach analyses.&#x20;
+* "_Paused_" means that the line item won't deliver impressions, but the booked impressions are still taken into consideration when running reach analyses.
 * "_Stopped_" means that the line item won't deliver impressions, and the booked impressions are cancelled (so the line item will not count into any reach analyses).
 
 The two states "Proposed" and "Submitted" are used in self-service advertising where you want to quality approve campaigns before they go live (for instance, to check that they do not contain illegal or offensive content).
@@ -66,7 +66,7 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 
 **Objectives** allow you to specify the goal of the campaign. You can choose one or multiple objectives. If you choose multiple objectives, then the line item will stop delivering impressions as soon as it reaches _one of its objectives_. Here are the objectives you may choose between:
 
-* Budget: Stops the line item when the budget has been reached.&#x20;
+* Budget: Stops the line item when the budget has been reached.
 * Impressions: Counted whenever an ad from the line item has been delivered by our adserver.
 * Clicks: Counted whenever a user clicks on an ad.
 * Visible impressions: Counted whenever an ad has one or more pixels shown in the user's viewport.
@@ -74,21 +74,21 @@ If you are interested in self-service advertising, reach out to us anytime at [s
 * Rendered impressions: Counted whenever an ad has been rendered onto the page (rendering can be controlled with lazy requesting or lazy loading).
 * Conversions: Counted whenever a conversion has happened according to how you want to define a conversion (read more below).
 
-**Bids** and **bid strategy** lets you choose how much and how to bid.&#x20;
+**Bids** and **bid strategy** lets you choose how much and how to bid.
 
-* _Standard_ means that the line item will bid whatever CPM bid you set on the campaign. If you set 5 EUR as a bid, the line item will bid just that.&#x20;
-* _vCPM_ means that the bid will be adjusted to the historical viewability of the request. If you bid 5 EUR but the likely viewability is 80%, then the bid will be adjusted in this one example to 5 x 80% = 4 EUR.&#x20;
+* _Standard_ means that the line item will bid whatever CPM bid you set on the campaign. If you set 5 EUR as a bid, the line item will bid just that.
+* _vCPM_ means that the bid will be adjusted to the historical viewability of the request. If you bid 5 EUR but the likely viewability is 80%, then the bid will be adjusted in this one example to 5 x 80% = 4 EUR.
 * _Dynamic bidding_ dynamically adjusts impression bids up to the provided maximum CPM, to optimise the budget spend. If you bid 5 EUR this means that the system will never bid more than 5 EUR, but will potentially bid lower as long as it doesn't affect the line item's objectives.
 
-### **Type**&#x20;
+### **Type**
 
-Type lets you choose between Auction and Sponsorship.&#x20;
+Type lets you choose between Auction and Sponsorship.
 
 #### Auction
 
 Auction means that the line item will compete with other line items based on your line item's bid (CPM, CPC or CPA). All bids will be converted to eCPM before the auction takes place. With the Auction model you can enable or disable [smoothing](smoothing.md), which means that (when enabled) the line item's impressions will be delivered evenly throughout the campaign period.
 
-#### Sponsorhip&#x20;
+#### Sponsorhip
 
 Sponsorship means that, rather than running an auction, you can give the line item a share of voice as a percentage. For example, if you give your line item 25% share of voice, this line item will get 25% of the traffic that is targeted to the line item (if you for instance choose an ad unit as targeting, the line item will get 25% of this ad unit's available traffic). Please note that when you choose Sponsorship, the CPM pricing will be disregarded when the system chooses an ad.
 
@@ -113,11 +113,11 @@ Please note that you do not have to add targeting to both line items and creativ
 
 When you target multiple items in the same group (for instance, multiple ad units) your ads will be eligible to be shown in item 1, item 2, OR item N. When you target multiple groups (for instance, one ad unit and one segment) then your ads will only be shown when group 1 AND group 2 matches.
 
-You can upload **creatives** to the line item, or copy creatives from other line items. To learn more about creatives, [see the creatives documentation page](creatives.md).&#x20;
+You can upload **creatives** to the line item, or copy creatives from other line items. To learn more about creatives, [see the creatives documentation page](creatives.md).
 
 **Tiers** let you prioritize this line item above or below other line items. If more than one line item exists within one tier, then those line items will compete for attention according to the _Type_ set above. If you have set the type to "auction" then the line items will compete on eCPM pricing, while if you set the type to "sponsorship" then the share of voice is set by the percentage. To create and re-arrange tiers, please see [tiers](../admin/tiers.md).
 
-**Companion creatives** let you determine if each creative should be delivered individually, or if they should be served at the same time. This enables you to create for instance so-called "horse shoe ads", where two skyscrapers and a top banner are always shown at the same time, or not at all. You can choose between the following settings:&#x20;
+**Companion creatives** let you determine if each creative should be delivered individually, or if they should be served at the same time. This enables you to create for instance so-called "horse shoe ads", where two skyscrapers and a top banner are always shown at the same time, or not at all. You can choose between the following settings:
 
 * Off: Each creative will be delivered individually.
 * Any: At least one creative, possibly more or all, will be shown at the same time across multiple ad units that match this line item.
@@ -164,11 +164,11 @@ The Reports tab lets you create a report based on a [report template](../reports
 
 The report tab also gives you the audit history of the line item. This means that you can see the changes made to the line item, when they were made, and who made them.
 
-![Create scheduled reports from a line item](<../../../.gitbook/assets/202207 Reports from LI Page (1).png>)
+![Create scheduled reports from a line item](<../../../.gitbook/assets/202207 Reports from LI Page.png>)
 
 ### Articles
 
-This tab gives you a breakdown of delivery per article. This can be particularly useful when using semantic and/or keyword targeting, to understand which articles display your ad more often. You can also click the cog wheel symbol to target or exclude an article.&#x20;
+This tab gives you a breakdown of delivery per article. This can be particularly useful when using semantic and/or keyword targeting, to understand which articles display your ad more often. You can also click the cog wheel symbol to target or exclude an article.
 
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -177,13 +177,13 @@ This tab gives you a breakdown of delivery per article. This can be particularly
 This tab provides insight into how much CO2 your line item has emitted. In the explanation below we use the numbers from the screenshot at the bottom.
 
 * First you will see the sentence "Estimated CO2 emissions for delivering 9,458,382 impressions...". The number of impressions will be the same as what is delivered so far on your line item - except data for up to the last 24 hours. This is because we update the data once per day, so there is a delay of up to 24 hours.
-*  The first bullet point explains the total emissions (717,655 grams), and emissions per impression.
+* The first bullet point explains the total emissions (717,655 grams), and emissions per impression.
 * We then compare your emissions to the industry average, if you ran the campaign through a traditional programmatic platform (2%). This means that, by running the campaign through Adnuntius, you emit 2% of what you would emit if you ran the campaign through a traditional DSP.
 * We also compare your emissions to the direct industry average. This means that, by running the campaign through Adnuntius, you emit 11% of what you would emit if you ran the campaign through another adserver.
 
 <figure><img src="../../../.gitbook/assets/CO2 LI.png" alt=""><figcaption></figcaption></figure>
 
-The measurements are provided by [Cedara](https://www.cedara.io/), a company that measures emissions according to global industry standards including the Global Media Sustainability Framework (GMSF), and helps businesses reduce their overall emissions.&#x20;
+The measurements are provided by [Cedara](https://www.cedara.io/), a company that measures emissions according to global industry standards including the Global Media Sustainability Framework (GMSF), and helps businesses reduce their overall emissions.
 
 {% hint style="info" %}
 We started measuring the numbers January 27th 2025. If your line item started running before this we may show a lower CO2 emissions totals because we haven't measured based on all your impressions. If your line item started delivering after this you should not see any difference.
@@ -215,7 +215,7 @@ A burn rate below 100% means that Adnuntius is slowing down your line item's del
 
 If you click "Run Diagnostics Test", you may get a result that looks something like this:
 
-<table><thead><tr><th width="240.44738649828076">Diagnostics example</th><th width="443.5867132161395">Explanation</th></tr></thead><tbody><tr><td>Line Item dates indicate it should be currently running.</td><td>If the line item's start date had been in the future or the end date had been in the past, this could have been the reason why the line item didn't deliver any impressions. However, this check tells you that the dates are not the problem.</td></tr><tr><td>Line Item has no validation warnings.</td><td>When there is some information missing on a line item (for instance, if there is no creative to serve, or that the line item is paused), then there would be a warning in a yellow box on top of the line item page. This check looks for such a warning, but in this case there is no warning, and there is no information missing from the line item.</td></tr><tr><td>Located all assets for the Line Item on the CDN.</td><td>The asset test checks if Adnuntius has successfully been able to find the line item's creative material on our CDN. If you ever see a warning here, try to re-create your creatives, and if that does not work, contact us at support@adnuntius.com.</td></tr><tr><td>There are Ad Units with suitable dimensions.</td><td>The ad unit test checks if there are ad units with the appropriate width and height that can serve one of the creatives. </td></tr><tr><td>Line item delivery is NOT currently limited by smoothing.</td><td>Smoothing might limit the delivery of a line item if enabled, to ensure that the line item will not meet its objectives before the end date. If your line item is limited by smoothing and you want this to stop, try setting the line item's delivery to "unsmoothed". </td></tr><tr><td>There is no frequency capping.</td><td>Frequency capping might limit the delivery of a line item if enabled. If your line item is limited by frequency capping and you want this to stop, try removing the frequency cap from your line item.</td></tr><tr><td>The line item has lost about 25% of auctions in the last 24 hours.</td><td>If your line item loses auctions you may have to increase its bid price if you want it to win more often. Increasing the win rate may increase your velocity. </td></tr><tr><td>The line item did not deliver enough events in the past 24 hours. </td><td>This means that your line item didn't deliver enough impressions, clicks or whatever your objectives are, in order to deliver on all objectives before the end date of your line item. You can change this with one of the actions described above. </td></tr></tbody></table>
+<table><thead><tr><th width="240.44738649828076">Diagnostics example</th><th width="443.5867132161395">Explanation</th></tr></thead><tbody><tr><td>Line Item dates indicate it should be currently running.</td><td>If the line item's start date had been in the future or the end date had been in the past, this could have been the reason why the line item didn't deliver any impressions. However, this check tells you that the dates are not the problem.</td></tr><tr><td>Line Item has no validation warnings.</td><td>When there is some information missing on a line item (for instance, if there is no creative to serve, or that the line item is paused), then there would be a warning in a yellow box on top of the line item page. This check looks for such a warning, but in this case there is no warning, and there is no information missing from the line item.</td></tr><tr><td>Located all assets for the Line Item on the CDN.</td><td>The asset test checks if Adnuntius has successfully been able to find the line item's creative material on our CDN. If you ever see a warning here, try to re-create your creatives, and if that does not work, contact us at support@adnuntius.com.</td></tr><tr><td>There are Ad Units with suitable dimensions.</td><td>The ad unit test checks if there are ad units with the appropriate width and height that can serve one of the creatives.</td></tr><tr><td>Line item delivery is NOT currently limited by smoothing.</td><td>Smoothing might limit the delivery of a line item if enabled, to ensure that the line item will not meet its objectives before the end date. If your line item is limited by smoothing and you want this to stop, try setting the line item's delivery to "unsmoothed".</td></tr><tr><td>There is no frequency capping.</td><td>Frequency capping might limit the delivery of a line item if enabled. If your line item is limited by frequency capping and you want this to stop, try removing the frequency cap from your line item.</td></tr><tr><td>The line item has lost about 25% of auctions in the last 24 hours.</td><td>If your line item loses auctions you may have to increase its bid price if you want it to win more often. Increasing the win rate may increase your velocity.</td></tr><tr><td>The line item did not deliver enough events in the past 24 hours.</td><td>This means that your line item didn't deliver enough impressions, clicks or whatever your objectives are, in order to deliver on all objectives before the end date of your line item. You can change this with one of the actions described above.</td></tr></tbody></table>
 
 If your user has access to the Inventory part of Adnuntius you can also run [diagnostics for ad units](../inventory/adunits-1.md) if you wonder what ad would win an auction for a given ad unit.
 
@@ -227,9 +227,9 @@ You can also add ?adndebug123 at the end of any URL (example: [www.aperitif.no?a
 
 ### Diagnostics - Win Rate
 
-Please see the "Auction Win Rate" in the example screen shot above for an example.&#x20;
+Please see the "Auction Win Rate" in the example screen shot above for an example.
 
-Have you ever found your campaign to underdeliver according to your targets, without getting immediate help to understand what you can do to increase its velocity? Auction win rate helps you understand how your line item performs and what are the potential reasons that it doesn't deliver faster. Below is an explanation of each of the values you see in the auction win rate overview and what you can do about it.&#x20;
+Have you ever found your campaign to underdeliver according to your targets, without getting immediate help to understand what you can do to increase its velocity? Auction win rate helps you understand how your line item performs and what are the potential reasons that it doesn't deliver faster. Below is an explanation of each of the values you see in the auction win rate overview and what you can do about it.
 
 {% hint style="info" %}
 Please note that Adnuntius allows you to change the names of the values under the Network, so you may see different names for certain values.
@@ -249,13 +249,12 @@ Please note that Adnuntius allows you to change the names of the values under th
 
 Please see the "Rate Limiting" graph in the example screen shot above for an example. The rate limiting shows you the burn rate of your line item in the past. Adnuntius adds a rate limit if you are meeting your objective(s) and your line item needs to slow down. For example, if you set your line item to deliver evenly throughout the campaign period and you are currently forecasted to overdeliver at the end of the period, then Adnuntius will slow down delivery.
 
-If you're burn rate is less than 100% and you want it to deliver faster, try setting the line item's delivery to "unsmoothed" and/or turn off any rate limits.&#x20;
+If you're burn rate is less than 100% and you want it to deliver faster, try setting the line item's delivery to "unsmoothed" and/or turn off any rate limits.
 
 ### Floor Prices
 
-Floor prices lets you see any floor prices applied to the publishers and sites that you target.&#x20;
+Floor prices lets you see any floor prices applied to the publishers and sites that you target.
 
 ### Bid Updates
 
-If you have applied dynamic bidding to your line item, bid updates can be useful to understand the bidding history and trends of your line item. The bidding history is broken down per site, and shows the max and minimum CPM bid.&#x20;
-
+If you have applied dynamic bidding to your line item, bid updates can be useful to understand the bidding history and trends of your line item. The bidding history is broken down per site, and shows the max and minimum CPM bid.
