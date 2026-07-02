@@ -13,11 +13,15 @@ Format: GIF, JPG, PNG, SVG
 
 Max file size: 550kb
 
+Safe Zones: see [#safe-zones-display](ad-specification-for-political-ads.md#safe-zones-display "mention")
+
 ### Display In-Banner Video ads
 
 Format: MP4, WebM, mov
 
 Max file size: 50 Mb
+
+Safe Zones: see [#safe-zones-display](ad-specification-for-political-ads.md#safe-zones-display "mention")
 
 ### Video VAST ads
 
@@ -25,7 +29,17 @@ Format: MP4, WebM, mov
 
 Max file size: 100 Mb
 
-### Safe Zones: Display
+Safe Zones: For VAST video, the disclosure overlay is burned directly into the video file, and is anchored to the **top** of the frame, full width, centered.**Keep the top 15% of the frame free of logos, captions, or key content. For example:**
+
+| Resolution | Safe zone (from top) |
+| ---------- | -------------------- |
+| 1920×1080  | 162px                |
+| 640×360    | 54px                 |
+| 1080×1920  | 288px                |
+
+
+
+### Display Safe Zones
 
 {% hint style="info" %}
 Test the overlay with your campaign information using our [Political Ad Preview Tool](https://admin.adnuntius.com/political-preview).
@@ -42,20 +56,6 @@ The overlay height is not fixed. It adjusts automatically to fit the required di
 Minor variations in overlay height may occur across browsers due to differences in font rendering, line-height calculation, and text scaling. Creatives should account for this by maintaining a conservative safe zone that accommodates slight height fluctuations.
 
 To test the overlay with your own campaign details, use the interactive preview tool below. You can enter the advertiser name, election name/date, and toggle PII targeting to see how the overlay renders across different configurations and ad sizes.
-
-
-
-### Safe Zones: VAST Video&#x20;
-
-For VAST video, the disclosure overlay is burned directly into the video file, and is anchored to the **top** of the frame, full width, centered.
-
-**Keep the top 15% of the frame free of logos, captions, or key content. For example:**
-
-| Resolution | Safe zone (from top) |
-| ---------- | -------------------- |
-| 1920×1080  | 162px                |
-| 640×360    | 54px                 |
-| 1080×1920  | 288px                |
 
 
 
