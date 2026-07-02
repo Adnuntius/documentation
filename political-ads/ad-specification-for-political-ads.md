@@ -13,7 +13,7 @@ Format: GIF, JPG, PNG, SVG
 
 Max file size: 550kb
 
-Safe Zones: see [#safe-zones-display](ad-specification-for-political-ads.md#safe-zones-display "mention")
+Safe Zones: see [#display-safe-zones](ad-specification-for-political-ads.md#display-safe-zones "mention")
 
 ### Display In-Banner Video ads
 
@@ -21,7 +21,7 @@ Format: MP4, WebM, mov
 
 Max file size: 50 Mb
 
-Safe Zones: see [#safe-zones-display](ad-specification-for-political-ads.md#safe-zones-display "mention")
+Safe Zones: see [#display-safe-zones](ad-specification-for-political-ads.md#display-safe-zones "mention")
 
 ### Video VAST ads
 
