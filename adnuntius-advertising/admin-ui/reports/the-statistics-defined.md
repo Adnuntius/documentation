@@ -33,11 +33,11 @@ Note: take [the deep dive on impression stats for more detailed information](the
 * **Tech Fees:** the fee assigned to a [Team](../users/users-teams-and-roles-1.md) by the network owner.
 * **Total Cost**: Cost + Fees + Tech Fees.
 * **Average Auction Rank:** the ad's ranking in an ad unit's auction results. If an ad is only ever delivered on ad units that serve only one ad at a time, this figure will only ever be 0 (meaning the ad has never been served) or 1 (meaning the ad has only ever been served in the primary position). Average auction rank can be greater than 1 only when an ad is delivered via ad units that serve more than one ad at a time, which is when the ad unit's page size is greater than one. So if an ad has been delivering half the time in second place and half the time in third place on a particular ad unit, its average auction rank will be 2.5.
-* Custom fields/events: any measurements based on [custom events](../admin/custom-events.md) used in the campaigns.&#x20;
+* Custom fields/events: any measurements based on [custom events](../admin/custom-events.md) used in the campaigns.
 
 ## Publishing Stats
 
-Note: take [the deep dive on impression stats for more detailed information](broken-reference/) about them.
+Note: take [the deep dive on impression stats for more detailed information](https://github.com/Adnuntius/documentation/blob/master/adnuntius-advertising/admin-ui/reports/broken-reference/README.md) about them.
 
 * **Requests:** counts each time an ad unit has received a request for an ad.
 * **Positive Requests:** counts each time at least one ad has been delivered to an ad unit to fulfil an ad request.

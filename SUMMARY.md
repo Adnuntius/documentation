@@ -21,6 +21,7 @@
     * [Booking Calendar](adnuntius-advertising/admin-ui/advertising/booking-calendar.md)
     * [Reach Analysis](adnuntius-advertising/admin-ui/advertising/reach-analysis.md)
     * [Smoothing](adnuntius-advertising/admin-ui/advertising/smoothing.md)
+    * [Print Line Items](adnuntius-advertising/admin-ui/advertising/print-line-items.md)
   * [Inventory](adnuntius-advertising/admin-ui/inventory/README.md)
     * [Sites](adnuntius-advertising/admin-ui/inventory/sites.md)
     * [Adunits](adnuntius-advertising/admin-ui/inventory/adunits-1.md)

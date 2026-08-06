@@ -6,11 +6,11 @@ description: >-
 
 # Mappings
 
-Consider this example: One publishing website writes about football, and also asks registering users for their gender. Another publishing website that cooperates with the first one through a network also collects this information, but they call it “soccer” and “sex” instead of "football" and "gender". In order to store all information with a unified structure and language, you need to transform “soccer” to “football” and “sex” to “gender”. 
+Consider this example: One publishing website writes about football, and also asks registering users for their gender. Another publishing website that cooperates with the first one through a network also collects this information, but they call it “soccer” and “sex” instead of "football" and "gender". In order to store all information with a unified structure and language, you need to transform “soccer” to “football” and “sex” to “gender”.
 
-This can be done with mapping. To add a mapping, go to [https://admin.adnuntius.com/mappings](https://admin.adnuntius.com/mappings) and click “Add Mapping” in the upper right corner. 
+This can be done with mapping. To add a mapping, go to [https://admin.adnuntius.com/mappings](https://admin.adnuntius.com/mappings) and click “Add Mapping” in the upper right corner.
 
-You can map [user profile data](broken-reference) and [pageview data](../../api-documentation/javascript/page-views.md) (which are split into categories and keywords). In the example below you will see how user profile data “gender” has been given the alias “sex” so that different parties can send different denominations, while all information will still be stored in a unified structure. If gender is sent you can also transform each value so that for example the values M and F are translated to Male and Female respectively.
+You can map [user profile data](https://github.com/Adnuntius/documentation/blob/master/adnuntius-data/user-interface-guide/fields/broken-reference/README.md) and [pageview data](../../api-documentation/javascript/page-views.md) (which are split into categories and keywords). In the example below you will see how user profile data “gender” has been given the alias “sex” so that different parties can send different denominations, while all information will still be stored in a unified structure. If gender is sent you can also transform each value so that for example the values M and F are translated to Male and Female respectively.
 
 ![Example mapping.](../../../.gitbook/assets/mappings.png)
 
@@ -21,6 +21,5 @@ Example: if you want to collect the gender (one of the [field values](fields.md)
 {% endhint %}
 
 {% hint style="info" %}
-Example: if you’re sending both values “males” and “m” then you can transform “male” to “m” so that all variations are normalized to the same value in Adnuntius Data. 
+Example: if you’re sending both values “males” and “m” then you can transform “male” to “m” so that all variations are normalized to the same value in Adnuntius Data.
 {% endhint %}
-
