@@ -114,7 +114,7 @@ Creative charts provide you with insights into the creative's delivery. You can 
 
 ### Creative Preview
 
-Creative preview gives you a preview of the creative. Please note that not all layouts will give you a preview (in which case the system will tell you). But if the user interface cannot give you a preview, you can click "preview on a black page" and the creative will render on a blank page, as it will be on a live page.
+Creative preview gives you a preview of the creative. You can also click "preview on a black page" and the creative will render on a blank page, as it will be on a live page.
 
 ![Example creative preview.](<../../../.gitbook/assets/202207 Creative Preview.png>)
 
