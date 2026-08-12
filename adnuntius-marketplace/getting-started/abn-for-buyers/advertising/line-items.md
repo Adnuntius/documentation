@@ -125,7 +125,7 @@ CPM cost calculation lets you determine if the line item should define CPM based
 **Exclusion labels** allow you to ensure that defined line items cannot be delivered on the same page. This can be useful if you for instance have two car dealers that do not want to be shown together. In this case you can add the label "car-dealer" to both line items, which means that these two line items will never be shown on the same page.
 
 {% hint style="info" %}
-Please note that in order for companion creatives, creative delivery and exclusion labels to work, ad units must be deployed to the publisher's page according to the [Multi adn.request Calls](https://github.com/Adnuntius/documentation/blob/master/adnuntius-advertising/admin-ui/advertising/broken-reference/README.md) guidelines.
+Please note that in order for companion creatives, creative delivery and exclusion labels to work, ad units must be deployed to the publisher's page according to the [Multi adn.request Calls](../../../../adnuntius-advertising/requesting-ads/intro/adn-request.md) guidelines.
 {% endhint %}
 
 **Labels** let you add labels to a line item to make it easier to search for, and to group line items together in reporting. To learn more about reports, please see the [reports section](../../../../adnuntius-advertising/admin-ui/reports/).

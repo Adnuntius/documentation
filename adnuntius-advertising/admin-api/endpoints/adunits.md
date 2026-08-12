@@ -71,7 +71,7 @@ in order to see `HIDDEN` objects you will need to send `includeHidden=true` as a
 | pageSize |  | Number | Number of ads that can be shown imultaniously in the adunit. |
 | sspConfigurations |  | Array | Array of objects listed below. |
 
-If pageSize is set to 2 or higher, the adunit will fill ads from the bottom first and never left to right. Ex: if you trying to fill an ad unit with two creatives of the size 300 x 250, you will have to st the min width to 300, max width 300. Min height 250, max height 500. it will not work if you set the height to 250 and maximum width to 600. [Read more here.](http://docs.adnuntius.com/userguide/inventory/sites/ad-units)
+If pageSize is set to 2 or higher, the adunit will fill ads from the bottom first and never left to right. Ex: if you trying to fill an ad unit with two creatives of the size 300 x 250, you will have to st the min width to 300, max width 300. Min height 250, max height 500. it will not work if you set the height to 250 and maximum width to 600. [Read more here.](../../admin-ui/inventory/adunits-1.md)
 
 ### sspConfigurations object
 

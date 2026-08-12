@@ -37,7 +37,7 @@ Note: take [the deep dive on impression stats for more detailed information](the
 
 ## Publishing Stats
 
-Note: take [the deep dive on impression stats for more detailed information](https://github.com/Adnuntius/documentation/blob/master/adnuntius-advertising/admin-ui/reports/broken-reference/README.md) about them.
+Note: take [the deep dive on impression stats for more detailed information](the-4-impression-types.md) about them.
 
 * **Requests:** counts each time an ad unit has received a request for an ad.
 * **Positive Requests:** counts each time at least one ad has been delivered to an ad unit to fulfil an ad request.

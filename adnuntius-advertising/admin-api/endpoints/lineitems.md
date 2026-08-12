@@ -86,8 +86,8 @@ GET https://api.adnuntius.com/api/v1/lineitems?context=<context>&orderByDirectio
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
-| bidSpecification | Object | See [bidSpecification](http://docs.adnuntius.com/api/advertising/line-item#bidSpecification) below. |
-| companionAds | Boolean | set as true or false, described in the [line-item](http://docs.adnuntius.com/userguide/advertising/line-items) section |
+| bidSpecification | Object | The pricing for the line item. See the `bidSpecification` object in the example above. |
+| companionAds | Boolean | set as true or false, described in the [line items](../../admin-ui/advertising/line-items.md) section |
 | endDate |  |  |
 | extended |  |  |
 | labels |  |  |

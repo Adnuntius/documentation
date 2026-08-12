@@ -26,7 +26,7 @@ To learn more about the political advertising feature, visit [https://docs.adnun
 
 Add an **external reference** if you want to match the advertiser with the same client in another system. For instance, if Coca Cola is registered in your invoicing system with customer ID 123456, then by adding 123456 as an external reference in Adnuntius you can connect these two different entries in the different systems, as one Advertiser.
 
-A **VAT identification number** can be used to register that number for advertisers. If you use [Adnuntius Self-Service](https://adnuntius.com/selfservice) then you can choose to request this VAT number from advertisers when signing up, in which case the number will be stored here.
+A **VAT identification number** can be used to register that number for advertisers. If you use [Adnuntius Self-Service](../../../adnuntius-self-service/overview.md) then you can choose to request this VAT number from advertisers when signing up, in which case the number will be stored here.
 
 Adding one or more **IAB categories** to the Advertiser allows you to categorize advertisers so that you can later group them in analyses. You can for example [export data to a cloud service](../../../adnuntius-data/user-interface-guide/admin/data-exports.md) (or download via an SFTP server) so that you can analyze the performance of different advertiser categories using a BI/analytics tool like Google Data Studio, Tableau or similar.&#x20;
 

@@ -18,8 +18,19 @@ The targeting object is provided as part of the API call when creating [line ite
         "dayPartingTargets": [],
         "retargetingTargets": [],
         "keywordTargets": [],
+        "similarKeywordTargets": [],
         "ipAddressTarget": {},
-        "siteGroupTarget": {}
+        "siteGroupTarget": {},
+        "domainNameTarget": {},
+        "viewabilityTarget": {},
+        "semanticTargets": [],
+        "firstPartyAudienceTarget": {},
+        "thirdPartyAudienceTargets": [],
+        "publisherTarget": {},
+        "articleTarget": {},
+        "siteCountryTarget": {},
+        "weatherTargets": [],
+        "organisationTarget": {}
     }
 }
 ```
@@ -41,8 +52,19 @@ Fields:
 | dayPartingTargets | Array | [dayPartingTargets](targeting-object.md#day-parting-targets) |
 | retargetingTargets | Array | [retargetingTargets](targeting-object.md#retargeting-targets) |
 | keywordTargets | Array | [keywordTargets](targeting-object.md#keyword-targets) |
+| similarKeywordTargets | Array | [similarKeywordTargets](targeting-object.md#similar-keyword-targets) |
 | ipAddressTarget | Object | [ipAddressTarget](targeting-object.md#ip-targets) |
 | siteGroupTarget | Object | [siteGroupTarget](targeting-object.md#site-group-targets) |
+| domainNameTarget | Object | [domainNameTarget](targeting-object.md#domain-name-targets) |
+| viewabilityTarget | Object | [viewabilityTarget](targeting-object.md#viewability-targets) |
+| semanticTargets | Array | [semanticTargets](targeting-object.md#semantic-targets) |
+| firstPartyAudienceTarget | Object | [firstPartyAudienceTarget](targeting-object.md#audience-targets) |
+| thirdPartyAudienceTargets | Array | [thirdPartyAudienceTargets](targeting-object.md#audience-targets) |
+| publisherTarget | Object | [publisherTarget](targeting-object.md#publisher-targets) |
+| articleTarget | Object | [articleTarget](targeting-object.md#article-targets) |
+| siteCountryTarget | Object | [siteCountryTarget](targeting-object.md#site-country-targets) |
+| weatherTargets | Array | [weatherTargets](targeting-object.md#weather-targets) |
+| organisationTarget | Object | [organisationTarget](targeting-object.md#organisation-targets) |
 
 ## Device targets
 
@@ -371,14 +393,24 @@ For matching labels to work you will need to divide the targeting into separate 
         "locations": [
             { "id": 1172995 },
             { "id": 9373443 }
-        ]
+        ],
+        "municipalities": [
+            { "id": 1421 }
+        ],
+        "negated": false
     }
 }
 ```
 
-The `id` of the location can be found at this endpoint: [/location](endpoints/location.md).
+The `id` of the location can be found at this endpoint: [/location](endpoints/location.md). Municipality ids come from [/location/municipalities](endpoints/location.md#municipalities).
 
-When posting targeting data only the id of the location is required.
+When posting targeting data only the id of the location is required. Both fields accept a bare id as well as an object, so `"locations": [1172995]` is equivalent to the above.
+
+A municipality is targeted as an indivisible whole: it expands to all of its locations. `locations` and `municipalities` share the single `negated` flag. The `municipalities` field is omitted from responses when nothing is selected.
+
+{% hint style="info" %}
+Use `locations` and `municipalities` when posting. The `locationIds` and `municipalityIds` names shown by the [interactive API explorer](https://api.adnuntius.com) are the internal field names and are ignored on input.
+{% endhint %}
 
 ## Day parting targets
 
@@ -540,6 +572,150 @@ Contains `addresses` which is a comma seperated array of IP values. You can add 
 The `id` of the sites can be found at this endpoint: [/sitegroups](endpoints/sitegroups.md).
 
 When posting targeting data only the id of the site is required.
+
+## Similar keyword targets
+
+```javascript
+{
+    "similarKeywordTargets": [
+        {
+            "keyword": 4471,
+            "match": "NARROW",
+            "language": "en",
+            "negated": false
+        }
+    ]
+}
+```
+
+Matches content related to a keyword rather than only the keyword itself. `keyword` is the numeric id of a keyword. `match` sets how far the meaning may stray, and is one of `VERY_NARROW`, `NARROW`, `BROAD` or `VERY_BROAD`.
+
+## Domain name targets
+
+```javascript
+{
+    "domainNameTarget": {
+        "names": ["example.com"],
+        "negated": false
+    }
+}
+```
+
+Matches the domain the ad request came from.
+
+## Viewability targets
+
+```javascript
+{
+    "viewabilityTarget": {
+        "viewability": 70
+    }
+}
+```
+
+Shows the ad only on ad units whose viewability meets a minimum standard. `viewability` is that minimum, as a percentage from 0 to 100. Leaving it unset, `null` or zero applies no viewability restriction.
+
+## Semantic targets
+
+```javascript
+{
+    "semanticTargets": [
+        {
+            "sentence": 55,
+            "score": 0.4,
+            "positiveSentimentOnly": false,
+            "negated": false
+        }
+    ]
+}
+```
+
+Matches page content by meaning rather than by exact words. `sentence` is the numeric id of a target sentence, and `score` is how close the match must be, from 0 to 1, defaulting to 0.4. Set `positiveSentimentOnly` to only match content whose sentiment is positive.
+
+## Audience targets
+
+```javascript
+{
+    "firstPartyAudienceTarget": {
+        "firstPartyAudiences": ["<audienceId>"]
+    },
+    "thirdPartyAudienceTargets": [
+        {
+            "thirdPartyAudiences": ["<audienceId>"],
+            "notThirdPartyAudienceIds": []
+        }
+    ]
+}
+```
+
+`firstPartyAudienceTarget` matches audiences built from your own data. `thirdPartyAudienceTargets` matches audiences bought from a data provider, and `notThirdPartyAudienceIds` excludes them.
+
+## Publisher targets
+
+```javascript
+{
+    "publisherTarget": {
+        "earningsAccounts": ["<earningsAccountId>"],
+        "negated": false
+    }
+}
+```
+
+Matches all inventory belonging to a publisher. The `id` of the earnings account can be found at this endpoint: [/earningsaccounts](endpoints/earningsaccounts.md).
+
+## Article targets
+
+```javascript
+{
+    "articleTarget": {
+        "urls": ["https://example.com/news/a-story"],
+        "negated": false
+    }
+}
+```
+
+Matches specific articles by their URL.
+
+## Site country targets
+
+```javascript
+{
+    "siteCountryTarget": {
+        "countries": ["NO", "SE"]
+    }
+}
+```
+
+Matches inventory by the country of the site, using ISO 3166-1 alpha-2 country codes. This is the country the site belongs to, not the country the reader is in. To target where the reader is, use [location targets](targeting-object.md#location-targets).
+
+## Weather targets
+
+```javascript
+{
+    "weatherTargets": [
+        {
+            "type": "ABOVE_CELSIUS",
+            "value": 20,
+            "location": 1172995
+        }
+    ]
+}
+```
+
+Matches on the weather at a location. `type` is `ABOVE_CELSIUS` or `BELOW_CELSIUS` and `value` is the temperature in degrees Celsius. `location` is a named location id, from the [/location](endpoints/location.md) endpoint; omit it to use the reader's own location.
+
+## Organisation targets
+
+```javascript
+{
+    "organisationTarget": {
+        "organisations": ["Example Corp"],
+        "negated": false
+    }
+}
+```
+
+Matches the organisation that owns the reader's IP address, which is usually an internet provider or a company network. Names are matched without regard to case. This target has no user interface and is set through the API only.
 
 ## Examples
 

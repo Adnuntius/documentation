@@ -14,9 +14,17 @@ If this does not apply to you there is no need to read further. Otherwise, the s
 
 ## Adnuntius Advertising Administration and Data APIs
 
-The site [https://admin.adnuntius.com](https://admin.adnuntius.com) is used to manage Adnuntius Advertising and Adnuntius Data. It makes requests to [https://](https://admin.adnuntius.com)api.adnuntius.com
+The site [https://admin.adnuntius.com](https://admin.adnuntius.com) is used to manage Adnuntius Advertising and Adnuntius Data. It makes requests to [https://api.adnuntius.com](https://api.adnuntius.com).
 
-If you are accessing our advertising and data ui directly, or programmatically accessing the API, and you are behind a firewall then you will need to ask your network administrator to allow the following IP addresses:
+The two are hosted differently, so they must be allowed differently.
+
+### admin.adnuntius.com
+
+The administration interface is served from Amazon CloudFront. Its IP addresses change, and differ between visitors, so they cannot be listed here. Allow the host name if your firewall supports that. If it only accepts IP addresses, allow the CloudFront ranges that Amazon publishes at [https://ip-ranges.amazonaws.com/ip-ranges.json](https://ip-ranges.amazonaws.com/ip-ranges.json), taking every entry whose `service` is `CLOUDFRONT`. Amazon changes this list, so re-read it periodically.
+
+### api.adnuntius.com
+
+If you are programmatically accessing the API, and you are behind a firewall, then you will need to ask your network administrator to allow the following IP addresses:
 
 * 94.130.0.241
 * 178.63.45.229

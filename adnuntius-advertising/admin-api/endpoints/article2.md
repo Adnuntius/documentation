@@ -1,11 +1,11 @@
-# /article2
+# /targetingquery/articles2
 
 ## POST
 
 **Example POST object:**
 
 ```http
-POST https://api.adnuntius.com/api/v1/targetingquery/article2?context=<context>
+POST https://api.adnuntius.com/api/v1/targetingquery/articles2?context=<context>
 ```
 
 You can also add a targeting object in the post payload to narrow down your result to specific sites or publishers. Read more about targeting objects [here](../targeting-object.md).
