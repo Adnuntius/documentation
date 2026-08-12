@@ -28,7 +28,7 @@ When you have saved, Adnuntius automatically sends an email inviting the user to
 
 <figure><img src="../../../.gitbook/assets/202511 Invite Email.png" alt=""><figcaption><p>Example invite email sent from Adnuntius</p></figcaption></figure>
 
-The invite email will expire after 1 hour, but the receiver can request a new email by clicking "visit here". Please also note that by registering the user will agree to our privacy policy located at [https://adnuntius.com/resources/privacy-policy](https://adnuntius.com/resources/privacy-policy).
+The invite email will expire after 1 hour, but the receiver can request a new email by clicking "visit here". Please also note that by registering the user will agree to our privacy policy located at [https://adnuntius.com/privacy-policy/](https://adnuntius.com/privacy-policy/).
 
 {% hint style="info" %}
 Please note that, depending on your privileges, some of the elements explained on this page may not be visible to you. Please ask us any questions at support@adnuntius.com.

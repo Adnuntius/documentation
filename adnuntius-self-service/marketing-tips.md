@@ -16,4 +16,4 @@ Adnuntius works as a partner together with its self-service publishers, which me
 | **Social media.** If you have a following on social media, make sure that you consider the opportunity of letting your followers know that they can advertise with you.                                              | Coming soon. |
 | **Print campaigns.** If you're in print media, remember that you can also use that channel.                                                                                                                          | Coming soon. |
 
-Finally, remember that all marketing can be combined with the [coupon ](../../adnuntius-advertising/admin-ui/design/coupons.md)feature, which allows you to offer a discount to new advertisers when they join your portal.
+Finally, remember that all marketing can be combined with the [coupon ](../adnuntius-advertising/admin-ui/design/coupons.md)feature, which allows you to offer a discount to new advertisers when they join your portal.

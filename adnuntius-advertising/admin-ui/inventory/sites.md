@@ -46,6 +46,8 @@ Assign [**Site Rulesets**](site-rulesets.md) to set rules for what you will allo
 * _Blocked Creatives_ lets you block specific creatives from being shown. You can type in the name of the creative or the creative's ID to find the right one to be blocked.
 * _Blocked Teams_ lets you block certain teams from showing ads on your site.&#x20;
 
+[**Creative Scanning**](creative-scanning.md) blocks creatives automatically, by rendering each one and checking which third-party technology it loads and which cookies it sets. Adnuntius enables it per site on request.
+
 ## When a Site is Created
 
 Once a site is created you will see the following tabs.

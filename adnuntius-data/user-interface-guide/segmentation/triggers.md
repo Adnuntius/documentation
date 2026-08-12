@@ -18,7 +18,7 @@ You can also remove the segment automatically when the trigger does not match.
 
 Next, you can start creating the set of triggers that detemine when to add/remove users to/from segments. You can add behaviour and characteristics.
 
-**Characteristics** are based on [user profile information that you send to Adnuntius Data](https://github.com/Adnuntius/documentation/blob/master/adnuntius-data/user-interface-guide/segmentation/broken-reference/README.md). Examples include age, gender, age and much more. Depending on criteria you choose, you will be able to set more requirements. For example:
+**Characteristics** are based on [user profile information that you send to Adnuntius Data](../../api-documentation/javascript/profile-updates.md). Examples include age, gender, age and much more. Depending on criteria you choose, you will be able to set more requirements. For example:
 
 * If you choose the criteria “age” then you can choose anyone equal to, more than, less than, or not equal to “39”.
 * If you choose the criteria “gender” then you can choose between equals, doesn’t equal, is one of, or is not any of “male, female”.

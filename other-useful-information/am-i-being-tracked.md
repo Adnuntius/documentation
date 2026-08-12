@@ -12,5 +12,5 @@ This all being said, here is how you can check if a specific company is using Ad
 
 {% embed url="https://youtu.be/hMLW5c7wmtc" %}
 
-If you indeed find that Adnuntius collects user information, you will find some general information about what we collect [here](https://docs.google.com/spreadsheets/d/1rCZPF_TWBkTgaYeQ9f-lhU8qL_J9eJrv1l1jjf0G9uQ/edit#gid=328667903). Also, while customers should provide you with the tools to opt out of being tracked, you can also [go here to disable tracking](https://adnuntius.com/resources/privacy-policy/). 
+If you indeed find that Adnuntius collects user information, you will find some general information about what we collect [here](https://docs.google.com/spreadsheets/d/1rCZPF_TWBkTgaYeQ9f-lhU8qL_J9eJrv1l1jjf0G9uQ/edit#gid=328667903). Also, while customers should provide you with the tools to opt out of being tracked, you can also [go here to disable tracking](https://adnuntius.com/privacy-policy/). 
 

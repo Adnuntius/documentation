@@ -18,7 +18,7 @@ Put simply, an external ad unit is what connects a ["regular" Adnuntius ad unit]
 
 **External demand source**: Select an external demand source (SSP) from the dropdown list. If your dropdown list is empty, this is because you have not set up a [connection between Adnuntius and an SSP](../admin/#external-demand-sources).
 
-**External site and ad unit ID:** Provide this ad unit's parent site ID as it is defined in your SSP account, and the SSP ad unit ID that you want to connect to this external ad unit. For example, in Pubmatic you will find the site ID in the URL when editing the site (example URL: [https://apps.pubmatic.com/inventoryui/#/sites/editSites/250032](https://apps.pubmatic.com/inventoryui/#/sites/editSites/250032)). 250032 is the site's ID in this example. And you will find Pubmatic ad unit IDs in list of a site's ad units - like here:
+**External site and ad unit ID:** Provide this ad unit's parent site ID as it is defined in your SSP account, and the SSP ad unit ID that you want to connect to this external ad unit. For example, in Pubmatic you will find the site ID in the URL when editing the site (example URL: `https://apps.pubmatic.com/inventoryui/#/sites/editSites/250032`). 250032 is the site's ID in this example. And you will find Pubmatic ad unit IDs in list of a site's ad units - like here:
 
 ![Pubmatic ad unit IDs are found in the leftmost column (7 digit number).](../../../.gitbook/assets/201811-inventory-pubmatic-ad-unit.png)
 
