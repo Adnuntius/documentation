@@ -52,6 +52,7 @@ The overlay height is not fixed. It adjusts automatically to fit the required di
 * **Advertiser Legal Name** The full legal name of the advertiser must be displayed. Longer names will cause the overlay to grow vertically.
 * **Election Name and/or Date** The name of the election and election date associated with the campaign is.
 * **PII-based Targeting Disclosure** If _Personally Identifiable Information_ is used for audience targeting, an additional disclosure line is required. This adds to the overall height of the overlay.
+* **Controller (if different from Sponsor)** If the Controlling Entity is a separate legal entity from the Sponsor, the label will also display "Controller: \[Entity Name]" in addition to the Sponsor's name. This adds an extra line and increases the overlay height further.
 
 Minor variations in overlay height may occur across browsers due to differences in font rendering, line-height calculation, and text scaling. Creatives should account for this by maintaining a conservative safe zone that accommodates slight height fluctuations.
 
