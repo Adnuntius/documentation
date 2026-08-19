@@ -34,7 +34,7 @@ Safe Zones: For VAST video, the disclosure overlay is burned directly into the v
 | Resolution | Safe zone (from top) |
 | ---------- | -------------------- |
 | 1920×1080  | 162px                |
-| 640×360    | 54px                 |
+| 640×360    | 70px                 |
 | 1080×1920  | 288px                |
 
 
@@ -62,7 +62,7 @@ To test the overlay with your own campaign details, use the interactive preview 
 
 ### Safe zone Display example with no PII
 
-<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/202608 Safezones.png" alt=""><figcaption></figcaption></figure>
 
 ### Example of a political ad
 
