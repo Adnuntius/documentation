@@ -85,6 +85,7 @@
     * [/orders](adnuntius-advertising/admin-api/endpoints/orders.md)
     * [/reachestimate](adnuntius-advertising/admin-api/endpoints/reachestimate.md)
     * [/roles](adnuntius-advertising/admin-api/endpoints/roles.md)
+    * [/rulesets](adnuntius-advertising/admin-api/endpoints/rulesets.md)
     * [/segments](adnuntius-advertising/admin-api/endpoints/segments.md)
     * [/segments/upload](adnuntius-advertising/admin-api/endpoints/segmentsupload.md)
     * [/segments/users/upload](adnuntius-advertising/admin-api/endpoints/segmentsusersupload.md)
