@@ -233,6 +233,7 @@
   * [OpenAI Codex](other-useful-information/mcp-server/openai-codex.md)
   * [Google Antigravity](other-useful-information/mcp-server/google-antigravity.md)
   * [Mistral Vibe](other-useful-information/mcp-server/mistral-vibe.md)
+  * [Book a campaign with an AI agent](other-useful-information/mcp-server/book-a-campaign-with-an-ai-agent.md)
 
 ## Troubleshooting
 

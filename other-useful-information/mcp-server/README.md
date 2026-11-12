@@ -6,6 +6,8 @@ description: Give your agent of choice access to your Adnuntius account
 
 You can ask it questions about campaign performance and it will suggest improvements based on data such as the latest traffic and reach forecasts available to your user. The agent has read only access to your account via a token which will refresh itself for 30 days, after which you will have to complete the authentication step again.
 
+An agent can also draft campaigns for your buyer team. That needs a separate booking connector, see [book-a-campaign-with-an-ai-agent.md](book-a-campaign-with-an-ai-agent.md "mention").
+
 Choose your preferred agent to get started (you only need to set up one):
 
 [anthropic-claude-code.md](anthropic-claude-code.md "mention")
