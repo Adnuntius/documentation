@@ -4,7 +4,9 @@ description: Give your agent of choice access to your Adnuntius account
 
 # MCP Server
 
-You can ask it questions about campaign performance and it will suggest improvements based on data such as the latest traffic and reach forecasts available to your user. The agent has read only access to your account via a token which will refresh itself for 30 days, after which you will have to complete the authentication step again.
+You can ask it questions about campaign performance and it will suggest improvements based on data such as the latest traffic and reach forecasts available to your user.
+
+You can also allow creative uploads when you connect. This access lasts 24 hours; see [Upload creatives with an AI agent](upload-creatives-with-an-ai-agent.md).
 
 An agent can also draft campaigns for your buyer team. That needs a separate booking connector, see [book-a-campaign-with-an-ai-agent.md](book-a-campaign-with-an-ai-agent.md "mention").
 

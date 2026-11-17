@@ -5,7 +5,7 @@ description: Let an AI agent draft campaigns for your buyer team.
 # Book a campaign with an AI agent
 
 An AI agent can draft campaigns for your buyer team. The agent finds a product, estimates the reach, and creates an order with a line item in Adnuntius. 
-It can also submit the line item for review but a person must add the creatives and approve the submission before it will run.
+It can also submit the line item for review.
 It works with the agents that the [MCP Server](README.md) supports.
 
 ## Requirements
@@ -54,20 +54,26 @@ Tell the agent what you want to book, for example:
 The agent lists the products that your team can buy, estimates the reach, and creates the order and the line item.
 It gives you a link to the line item in Adnuntius.
 
+If you also allow [creative uploads through the customer connector](upload-creatives-with-an-ai-agent.md),
+you can ask for the whole workflow in the same instruction:
+
+> Open the upload view for the draft, create creatives from the files I provide, and submit the campaign for review once validation passes.
+
 ### 4. Check the campaign and add the creative
 
 Open the order in Adnuntius. The order shows that an AI agent booked it.
 
 <figure><img src="../../.gitbook/assets/mcp-booking-order.png" alt="An order that an AI agent booked"><figcaption></figcaption></figure>
 
-The line item is `Proposed`. While it is proposed, either you or the agent can change it. You will have to add the 
-creative to the line item as the agent cannot upload ads.
+The line item is `Proposed`. While it is proposed, either you or the agent can change it. Add creatives in Adnuntius,
+or let your agent [upload creatives through the customer connector](upload-creatives-with-an-ai-agent.md) with separate upload consent.
 
 <figure><img src="../../.gitbook/assets/mcp-booking-line-item-proposed.png" alt="The proposed line item"><figcaption></figcaption></figure>
 
 ### 5. Submit and approve the line item
 
-Ask the agent to submit the campaign. After it is submitted, the agent cannot change it.
+The agent can submit the campaign when the creatives are in place and no blocking validation warnings remain. If your original
+request did not include submission, ask it to submit now. After submission, the booking connector cannot change the campaign.
 
 <figure><img src="../../.gitbook/assets/mcp-booking-line-item-submitted.png" alt="The submitted line item"><figcaption></figcaption></figure>
 
