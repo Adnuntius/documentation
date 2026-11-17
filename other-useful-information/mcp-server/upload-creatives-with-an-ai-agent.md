@@ -20,7 +20,13 @@ Ask your agent:
 
 > Find my demo line item and open the creative upload view.
 
-Confirm the line item before you upload. In a client that supports MCP Apps, choose or drop images and videos into the **Upload creative files** view, then press **Upload files**. The files go directly from your device to Adnuntius. The view shares their asset IDs with the agent.
+Confirm the line item before you upload. In a client that supports MCP Apps, choose or drop images and videos into the **Upload creative files** view.
+
+<figure><img src="../../.gitbook/assets/mcp-creative-upload-files.png" alt="Two image files selected in the creative upload view"><figcaption><p>Choose the files to upload.</p></figcaption></figure>
+
+Press **Upload files**. The files go directly from your device to Adnuntius. The view confirms the upload and shares their asset IDs with the agent.
+
+<figure><img src="../../.gitbook/assets/mcp-creative-upload-complete.png" alt="The creative upload view confirms that the files have uploaded"><figcaption><p>The files are ready for the agent to create creatives.</p></figcaption></figure>
 
 You can upload up to 50 files and 500 MB per batch. Finish creating the creatives for one batch before uploading the next. Each upload address expires within ten minutes. If it expires, ask your agent for a new address. ZIP bundles are not supported yet.
 
