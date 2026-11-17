@@ -57,7 +57,7 @@ It gives you a link to the line item in Adnuntius.
 If you also allow [creative uploads through the customer connector](upload-creatives-with-an-ai-agent.md),
 you can ask for the whole workflow in the same instruction:
 
-> Open the upload view for the draft, create creatives from the files I provide, and submit the campaign for review once validation passes.
+> Add creatives from the files I provide and submit the campaign for review once validation passes.
 
 ### 4. Check the campaign and add the creative
 

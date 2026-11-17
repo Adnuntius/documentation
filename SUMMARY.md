@@ -229,6 +229,7 @@
 * [Parallax for Ad server Clients](other-useful-information/parallax-for-ad-server-clients.md)
 * [Adding attribution to product ads](other-useful-information/adding-attribution-to-product-ads.md)
 * [MCP Server](other-useful-information/mcp-server/README.md)
+  * [Tools](other-useful-information/mcp-server/tools.md)
   * [Anthropic Claude Code](other-useful-information/mcp-server/anthropic-claude-code.md)
   * [OpenAI Codex](other-useful-information/mcp-server/openai-codex.md)
   * [Google Antigravity](other-useful-information/mcp-server/google-antigravity.md)
