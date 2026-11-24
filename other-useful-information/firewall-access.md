@@ -50,7 +50,6 @@ If you have configured Azure Blob Storage firewall for your raw log export bucke
 If you are running a captive portal and wish to allow access to our AdServer and CDN for users of that captive portal, you will need to allow access to the following IP addresses:
 
 * 37.27.70.171
-* 65.21.84.56
 * 95.217.44.4
 * 95.217.59.254
 * 116.202.84.81
